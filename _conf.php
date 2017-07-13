@@ -7,5 +7,6 @@ return array(
   "srcglob" => array( "xml/*.xml" ),
   "sqlite" => "danse.sqlite",
   "formats" => "article, toc, epub, kindle",
+  "title" => "Discours sur la danse",
 );
 ?>
