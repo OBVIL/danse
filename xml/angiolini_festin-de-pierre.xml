@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Festin de Pierre</title>
+        <title type="sub">Ballet Pantomime</title>
+        <author key="Angiolini, Gasparo (1731-1803)">Gasparo Angiolini [Ranieri Calzabigi]</author>
+        <editor key="Fabbricatore, Arianna (1970-....)">Arianna Fabbricatore</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Arianna Fabbricatore</name>
+          <resp>relecture, édition, stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date>2017</date>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Le Festin de Pierre</title> Ballet Pantomime Composé par Mr. <author>Angiolini</author> Maître des Ballets du Théâtre près de la Cour à Vienne, et représenté pour la première fois sur ce Théâtre le Octobre <date>1761</date>. À <pubPlace>Vienne</pubPlace>. Chez <publisher>Jean Thomas Trattner Libraire et Imprimeur de la Cour</publisher>. 1761</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1761"/>
+      </creation>
+      <langUsage>
+        <language ident="fr">fr</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>[Note introductive]</head>
+        <p>Transcription du livret original, publié en reprint <hi rend="i">in</hi> Christoph Willibald Gluck<term rend="index" key="Gluck Christoph Willibald"/>, <hi rend="i">Sämtliche Werke</hi>, 7 vol., éd. Rudolf Gerber, Gerhard Croll<term rend="index" key="Croll Gerhard "/>, von der Akademie der Wissenschaften und der Literatur, Mainz, Kassel Bärenreiter, 1951, vol. VII supplément, « Les livrets ». Un édition avait été précédemment proposée par Anna Laura Bellina <hi rend="i">in</hi> Ranieri Calzabigi<term rend="index" key="Calzabigi Ranieri"/>, <hi rend="i">Scritti teatrali e letterari</hi>, 2 vol., éd. Anna Laura Bellina<term rend="index" key="Anna Laura Bellina"/>, Roma, Salerno editrice, 1994.</p>
+        <p>Sur la question de l’autorialité partagée avec Ranieri Calzabigi, nous renvoyons à notre introduction à la <ref target="angiolini_programme-semiramis.xml">Dissertation sur les ballets pantomimes</ref> du même auteur.</p>
+        <p>Etablissement du texte : Nous avons procédé à la modernisation de l’orthographe et de la morphologie, en revanche aucune modification n’a été faite à la ponctuation ; nous avons conservé l’orthographe des noms propres ainsi que les majuscules telles qu’elles apparaissent dans le texte original.</p>
+        <p>Pour une lecture plus aisée, nous avons ajouté deux titres qui signalent une première partie et le plan du ballet.</p>
+      </div>
+      <div>
+        <head>[Titre complet figurant sur le frontispice]</head>
+        <label>Le Festin de Pierre Ballet Pantomime Composé par Mr. Angiolini Maître des Ballets du Théâtre près de la Cour à Vienne, et représenté pour la première fois sur ce Théâtre le Octobre 1761. À Vienne. Chez Jean Thomas Trattner Libraire et Imprimeur de la Cour. 1761</label>
+        <p/>
+        <quote>
+          <l>Segnius irritant animos demissa per aures,</l>
+          <l>Quam quae sunt oculis subiecta fidelibus.</l>
+          <bibl><author>Horace</author>, <title>De Arte Poetica</title>.</bibl>
+        </quote>
+        <p/>
+        <quote>
+          <l>Ce qui ne frappe que l’oreille, fait moins d’impression sur</l>
+          <l>Les esprits, que ce qui frappe les yeux.</l>
+          <bibl>Traduction du Père Tarteron.</bibl>
+        </quote>
+      </div>
+      <div>
+        <head>[Première partie]</head>
+        <p rend="indent">[1] Le Spectacle que je présente au Public est un Ballet Pantomime dans le goût des Anciens. Ceux qui ont lu les auteurs Grecs ou Latins qui, soiten Original soit en Traduction, sont dans les mains de tout le monde, connaissent les noms célèbres de Pylade et de Bathylle qui vivaient sous le Règne d’Auguste. Les merveilles de leur Art sont immortalisées par les Historiens, les Orateurs et les Poètes. Lucien nous a même laissé un Traité de cet Art célèbre, qu’on peut regarder comme une espèce de Poétique des Danses Pantomimes, quoiqu’il soit imparfait.</p>
+        <p>[2] Le sublime de l’ancienne Danse était la Pantomime, et celle-ci était l’art d’imiter les mœurs, les passions, les actions des Dieux, des Héros, des hommes, par des mouvements et des attitudes du corps, par des gestes et des signes faits en cadence et propres à exprimer ce qu’on avait dessein de représenter. Cesmouvements, ces gestes devaient former, pour ainsi dire, un discours suivi : c’était une espèce de Déclamation, faite pour les yeux, dont on rendait l’intelligence plus aisée aux Spectateurs par le moyen de la Musique qui variait ses sons, suivant que l’Acteur Pantomime avait dessein d’exprimer l’amour ou la haine, la fureur ou le désespoir.</p>
+        <p>[3] Tout cela était appelé <hi rend="i">Saltation</hi>. Ce nom ne lui venait pas de <hi rend="i">Saltare</hi> qui signifie <hi rend="i">Sauter</hi>, mais d’un certain Salius qui, le premier, avait enseigné cet Art aux Romains ; et tous les auteurs conviennent qu’on l’exécutait par des gestes parlants, par des signes expressifs et par des mouvements de la tête, des yeux, de la main, des bras et des jambes.</p>
+        <p>[4] Les Pantomimes étaient donc des imitateurs de tout, pour me servir de l’expression de l’Abbé Du Bos : ils jouaient des fables et des histoires, quelquefois entières. Ils contrefaisaient la colère d’Achille, la fureur d’Ajax, l’orgueil d’Agamemnon. Ovide noud apprend que ses vers avaient été dansés sur le Théâtre : quelques auteurs ontcrû qu’il a voulu parler de ses <hi rend="i">Métamorphoses</hi>, d’autres de sa Tragédie <hi rend="i">Médée</hi>. Apulée nous a laissé la description d’un Ballet Pantomime qui représentait <hi rend="i">Le jugement de Paris</hi>.</p>
+        <p>[5] C’est le fameux Pylade qui inventa de danser ainsi des Pièces entières. Les Pantomimes appelèrent cette nouvelle manière de danser la « Danse Italique ». Elle embrassait tous les genres de Spectacles, et jouait la Tragédie, la Comédie, la Satire et la Farce.</p>
+        <p>[6] Je ne m’étendrai pas davantage sur ces recherches, ce ne serait pas ici leur place. J’ajouterai simplement que cet Art est perdu. Il a eu le sort de bien d’autres qu’on n’a enfin fait revivre que par des efforts et des travaux pénibles. Les notionsabrégées que j’en donne pour le présent suffisent pour me justifier d’avoir entrepris de mettre une Pièce entière en Danse Pantomime. C’est le fruit de mes études que je présente au Public ; et j’ouvre une nouvelle carrière aux Maîtres de Ballets qui auront les connaissances et les talents nécessaires pour y entrer.</p>
+        <p>[7] J’ai choisi pour mon coup d’essai une Tragicomédie Espagnole qui a réuni les suffrages de toutes les Nations : c’est le<hi rend="i">Festin de Pierre</hi>. Cette Pièce a réussi sur tous les Théâtres quoiqu’elle ne soit pas dans les règles. Les unités du temps et du lieu n’y sont pas observées, mais l’invention en est sublime, la catastrophe terrible et dans notre croyance elle est vraisemblable. Ces qualités sont plus que suffisantes pour la traiter en Ballet Pantomime.</p>
+        <p>[8] La Danse n’a pas de Récits. Nous nepouvons pas raconter aux Spectateurs qu’un Héros a été tué ou qu’il s’est donné la mort. Ils n’ont que des yeux pour nous entendre, les oreilles leur sont inutiles, il faut que nous leur fassions voir toute l’action. L’unité du lieu n’est donc pas compatible avec la <hi rend="i">Saltation</hi> ; et comme il ne nous est pas permis non plus de nous arrêter à dialoguer, et que nous devons toujours agir et suivre des mouvements qui nous lassent, nous sommes forcés de resserrer dans un espace de quelques minutes les sujets les plus étendus, et l’unité du temps, dans ces bornes étroites, est impossible à conserver. Lucien<term rend="index" key="Lucien de Samosate"/>, en nous donnant des préceptes sur la Danse Pantomime, n’a pas dit un seul mot des unités ; et nous n’avons pas d’autre Maître. Notre règle certaine est le vraisemblable : exiger de nous l’observation scrupuleuse des Règles dramatiques, c’est nous demander l’impossible.</p>
+        <p>[9] Au surplus nous ne pouvons pas entreprendre de corriger les Pièces que nous traitons en Danse Pantomime. Le<hi rend="i">Festin de Pierre</hi>, avec tous ses défauts, a été bien reçu partout en récit, pourquoi ne réussira-t-il pas de même en Danse ? Le mot d’Horace, que j’ai placé à la tête de cet écrit, me le fait espérer.</p>
+        <p>[10] Le sujet en est triste, je l’avoue, mais ceux de la plupart des Tragédies sont-ils riants ?Les Comédies plaisent par le terrible ainsi que par l’agréable ; la variété qu’on demande dans les Spectacles exige que nous traitions alternativement les deux Genres. Nous serait-il défendu d’épouvanter en dansant ainsi qu’en déclamant ? La terreur nous fait plaisir aux Tragédies, nous y pleurons avec une espèce de sensibilité douce qui nous charme. Si nous pouvons exciter toutes les passions par un jeu muet pourquoi nous serait-il interdit de le tenter ? Si le Public ne veut pas se priver des plus grandes beautés de notre Art, il doit s’accoutumer à s’attendrir et à pleurer à nos Ballet.</p>
+        <p>[11] Il n’en a pas été ainsi jusqu’à présent : si l’on en excepte notre Théâtre et les Pantomimes qui y ont été données par mon Maître, le célèbre Hilverding. Mais on peut assurer hardiment qu’en général nous n’avons connu, pour ainsi dire, que le simple Alphabet de la Danse. Nous n’avons fait que bégayer comme les enfants, sans pouvoir mettre deux phrases ensemble. Des spectateursfroids et tranquilles ont admiré nos pas, nos attitudes, nos mouvements, notre cadence, notre « à plomb », avec la même indifférence qu’on admire des yeux, des bouches, des nez, des mains artistement crayonnés. Qu’il y a loin de là à l’assemblage d’un beau portrait vivant du Titien, ou de Van Dyck qui nous enchante, à la composition pittoresque et animée d’un grand tableau de Raphaël ou de Rubens<term rend="index" key="Rubens Peter Paul"/> qui nous ravit, qui secoue notre âme avec violence ! Quel est celui d’entre nous qui s’est jamais vanté de pouvoir représenter en Danse un seul personnage célèbre, comme Hercule, Thésée, Alexandre, dans sa dignité et dans la vérité de leurs caractères ? Et cependant quelle distance encore entre ces portraits isolés et l’ensemble d’une grande histoire, telle que le <hi rend="i">Sacrifice d’Iphigénie</hi>, l’Entrevue de Coriolan avec sa Mère ; Médée qui déchire ses enfants ; ou Clytemnestre qui fait assassiner Agamemnon ! Quelle que puisse être la présomption que nous avons de nous mêmes, un sentiment intérieur nous forcera toujours d’avouer notre pauvreté actuelle et la richesse des anciens.</p>
+        <p>[12] Cette richesse m’a ébloui : je l’ai ambitionnée avec transport. C’est elle qui m’a donné la hardiesse de mettre en pratique ce que j’ai recueilli, par un travail assidu, touchant les Pantomimes de l’antiquité. Si mes efforts ne sont pas couronnés par le succès, je n’enserai pas rebuté. L’Art n’est pas responsable des fautes de l’Artiste. Je réussirai peut-être mieux lorsque j’aurai ajouté l’expérience à l’étude ; et le Public me fera certainement un mérite de l’avoir entrepris dans la vue de lui plaire, et me tiendra compte du défaut des moyens : nous manquons de tout ce qui serait nécessaire pour de tels Spectacles.</p>
+      </div>
+      <div>
+        <head>[Plan du ballet]</head>
+        <p rend="indent">[13] J’ai divisé le Ballet en trois actes. Le premier représente une rue publique. La maison du Commandeur est d’un côté, celle de Don Juan de l’autre. L’action commence par uneSérénade que Don Juan donne à Donna Elvire sa Maîtresse, fille du Commandeur. Il obtient l’entrée dans la maison où il est surpris par le Père. Il se bat contre lui ; le Commandeur est tué ; on l’emporte.</p>
+        <p>[14] Dans le second Acte Don Juan donne chez lui un grand repas, précédéd’un bal, à ses amis et à ses Maîtresses. Lorsqu’on a dansé on se met à table. Au plus fort de la joie, le Commandeur en statue, frappe rudement à la porte. On va ouvrir ; il entre dans la salle ; les conviés sont épouvantés, ils prennent la fuite. Don Juan reste seul avec la statue. Il la prie, par dérision, de manger. Elle refuse, et convie, à son tour, Don Juan à manger à son tombeau. Don Juan accepte, et reconduit le Commandeur. Le bruit cesse ; les conviés, un peu rassurés reviennent dans la salle, mais la frayeur les accompagne, ce qui donne lieu à une entrée de Trembleurs. Don Juan revient. Il tâche de les rassurer ; ils l’abandonnent. Il reste seul avec son laquais, il donne des ordres, et sort.</p>
+        <p>[15] Le troisième Acte se passe dans un endroit destiné à lasépulture de personnes de distinction. Le Mausolée du Commandeur nouvellement achevé est au milieu. Il est lui même debout devant son tombeau. Don Juan est un peu étonné en le voyant. Il prend cependant un air assuré, et s’approche du Commandeur. Celui-ci le saisit par le bras, et l’exhorte à changer de vie. Don Juan parait obstiné, et malgré les menaces du Commandeur et les prodiges dont il est témoin, il persiste dans son impénitence. Alors le centre de la terre s’entrouvre vomissant des flammes. Il sort de ce Volcan beaucoup de spectres et de Furies qui tourmentent Don Juan. Il est enchainé par elles, dans son affreux désespoir il est englouti avec tous les monstres ; et un tremblement de terre couvre le lieu d’un monceau de ruines.</p>
+        <p>[16] Les Décorations de ce Ballet ont été faites avec beaucoup d’intelligence par le Sig. Quaglio. M. Gluck en a composé la Musique. Il a saisi parfaitement le terrible de l’Action. Il a tâché d’exprimer les passions qui y jouent, et l’épouvante qui règnedans la catastrophe. La Musique est essentielle aux Pantomimes : c’est elle qui parle, nous ne faisons que les gestes ; semblables aux anciens Acteurs des Tragédies et des Comédies qui faisaient déclamer les vers de la Pièce, et se bornaient eux mêmes à la partie de la gesticulation. Il nous serait presque impossible de nous faire entendre sans la Musique, et plus elle est appropriée à ce que nous voulons exprimer, plus nous nous rendons intelligibles. J’en parlerai plus amplement dans une autre occasion.</p>
+        <p/>
+        <signed>Gaspar Angiolini</signed>
+      </div>
+    </body>
+  </text>
+</TEI>

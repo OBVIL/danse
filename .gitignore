@@ -1,0 +1,8 @@
+article/
+epub/
+kindle/
+toc/
+
+conf.php
+
+*.sqlite

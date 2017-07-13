@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dialogue sur la danse</title>
+        <author key="Louÿs, Pierre (1870-1925)">Pierre Louÿs</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Delphine Maître </name>
+          <resp>OCR et Stylage sémantique</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/louys_dialogue-danse/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/danse/louys_dialogue-danse.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/danse/louys_dialogue-danse.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/danse/louys_dialogue-danse.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/danse/louys_dialogue-danse.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Pierre Louÿs</author>, <title>Dialogue sur la danse</title> [<hi rend="i">Fémina-Noël</hi>, 1910], in <title>Œuvres complètes</title>, tome XI, Paris, éditions Montaigne, 1930, p. 5-17, source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k45075">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1910"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Dialogue sur la danse</head>
+        <label type="speaker">La Danseuse</label>
+        <p><pb n="7"/>Et qui vous fait tant aimer les danses de caractère ?</p>
+        <label type="speaker">Moi</label>
+        <p>Ah ! Mademoiselle, si vous dites tout de suite le sujet de mon article, il n’aura plus aucun intérêt pour le lecteur.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Vraiment ? Vous êtes bien fat. Qui vous dit que dans cinq minutes, vous n’aurez pas changé d’avis ? Vos opinions préconçues ? Je ne m’en inquiète pas. J’ai une théorie sur la danse. Et j’ai des arguments pour la soutenir. Contre mes arguments je ne crains pas les vôtres.</p>
+        <label type="speaker">Moi</label>
+        <p>S’ils sont dansés, vos arguments, ils seront irrésistibles.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Je n’ai pas besoin de danser une théorie d’art pour la faire admettre par un public d’artistes. Je vous parle.</p>
+        <label type="speaker">Moi</label>
+        <p><pb n="8"/>Vous ne faites que parler ? Prenez garde ! Avec quatre pas, Régina B. en dirait plus que vous.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Et pourquoi ? Que reprochez-vous tant à la danse italienne ?</p>
+        <label type="speaker">Moi</label>
+        <p>Qu’elle m’ennuie.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Elle a passionné le <num>xviii<hi rend="sup">e</hi></num> siècle. Elle a enflammé les romantiques. Ne chercherez-vous pas à comprendre par quels sortilèges ?</p>
+        <label type="speaker">Moi</label>
+        <p>Je ne le puis plus. Que voulez-vous m’enseigner ? Que M<hi rend="sup">lle</hi> Taglioni a été une artiste incomparable ? J’en suis certain. J’ai en son génie une sorte de foi qui repose, comme l’autre foi, sur de grands témoignages. Je sais qu’elle avait tant de charme, tant de talent, qu’elle ne pouvait inspirer que des imitatrices. Le principe de sa danse était sauf. On ne le discutait même pas. Mais vous savez bien qu’il s’est perdu…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>C’est trop fort !</p>
+        <label type="speaker">Moi</label>
+        <p>Et quand, cinquante ans après elle, j’ai vu M<hi rend="sup">lle</hi> Lubra…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Elle dansait fort bien.</p>
+        <label type="speaker">Moi</label>
+        <p>Feue M<hi rend="sup">lle</hi> Lubra n’a jamais su danser.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Et M<hi rend="sup">lle</hi> Mauri ?</p>
+        <label type="speaker">Moi</label>
+        <p>C’est autre chose. M<hi rend="sup">lle</hi> Rosita Mauri dansait toute droite comme un petit bâton de bois, et c’était si gentil, si malin, si net, si délicatement spirituel qu’il n’était pas possible de ne pas l’applaudir quand elle avait fini sa variation.<pb n="9"/>Elle dansait comme les rédacteurs du « Figaro » écrivaient à la même époque, il y a vingt ans ou même davantage. L’esprit de Paris était en elle.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Alors ?</p>
+        <label type="speaker">Moi</label>
+        <p>Alors je l’applaudissais ; mais tout en regardant ses petits pieds, si pressés, si vifs, si amusants, je me disais : « Ce n’est pas ça, la danse. »</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Et pour parler votre langage : « Qu’est-ce que c’est, la danse ? » Je danse depuis vingt-cinq ans. Vous serez fort aimable de m’apprendre mon métier.</p>
+        <label type="speaker">Moi</label>
+        <p>Ne m’accablez pas. Je ne sais aucun métier, pas même le mien. Et quand vous sauriez le vôtre jusqu’au bout des orteils…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Répondez-moi ! Lorsque je parais en scène, qu’attendez-vous de ma danse ?</p>
+        <label type="speaker">Moi</label>
+        <p>Qu’elle signifie quelque chose.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Ah ! j’en étais bien sûre ! Vous voulez que tout, en art, ait une signification littéraire. Vous vous trompez. Nous dansons sur de la musique. La musique signifie-t-elle toujours quelque chose ? Prenez au hasard un morceau… sur lequel on ne danse même pas. Prenez la toccata en fa que Bach a écrite pour orgue. Y a-t-il rien de plus beau, dites-le ?</p>
+        <label type="speaker">Moi</label>
+        <p>Rien de plus beau.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Et qu’est-ce que cela veut dire ?</p>
+        <label type="speaker">Moi</label>
+        <p><pb n="10"/>Rien du tout. Cela a sa force en soi. Cela se passe de toute littérature. C’est une merveille. C’est une joie de la vie.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Alors, pourquoi voulez-vous que notre art ait une signification quand la musique même qui nous anime peut être belle et sans pensée ?</p>
+        <label type="speaker">Moi</label>
+        <p>Parce que nous ne sommes plus à l’époque de la toccata en fa. Ce sera ma seule réponse. La danse classique est morte comme la musique classique, mais alors que les partitions de 1730 restent aussi jeunes, aussi pures que jadis, rien ne peut plus nous représenter ce que fut M<hi rend="sup">lle</hi> Camargo, ni M<hi rend="sup">lle</hi> Taglioni. À la fin du siècle dernier, l’art chorégraphique était arrivé à un tel degré de dégénérescence que la jeunesse n’y comprenait plus rien, et que, d’une seule voix, elle demande <hi rend="i">autre chose</hi>…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Et quoi ?</p>
+        <label type="speaker">Moi</label>
+        <p>À peu près ce que vous voyez aujourd’hui.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Ah ! c’est joli ! Des danseuses qui ne savent pas danser !</p>
+        <label type="speaker">Moi</label>
+        <p>Ne dites donc pas cela ! Wagner a eu la faiblesse d’écrire les <hi rend="i">Meistersinger</hi> pour répondre à des phrases de ce genre. Il y a des artistes assez entêtés pour exécuter même ce qu’ils ne veulent pas faire, afin de prouver aux contradicteurs qu’ils sont capables de tout. Défiez, si vous le voulez, M<hi rend="sup">lle</hi> R. B. : elle vous battra <pb n="11"/>dans le style classique qu’elle aime le moins. Quant à M<hi rend="sup">me</hi> Isadora Duncan…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Oh ! celle-là ! elle ne passerait même pas son examen de choryphie.</p>
+        <label type="speaker">Moi</label>
+        <p>Et après ? Victor Hugo non plus n’aurait jamais passé son examen de poète : il ne savait faire ni les textines, ni les ballades, ni même les rondels. Et que lui dénierez-vous ? Le génie ? Le talent ? ou la facilité ?</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Vous vous moquez de moi.</p>
+        <label type="speaker">Moi</label>
+        <p>M<hi rend="sup">me</hi> I. D. est admirable…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Ce n’est pas l’avis de tout le monde…</p>
+        <label type="speaker">Moi</label>
+        <p>C’est le mien. M<hi rend="sup">me</hi> Duncan paraît, et aussitôt…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Vous la trouvez jolie ?</p>
+        <label type="speaker">Moi</label>
+        <p>Et aussitôt elle nous émeut par cet enthousiasme, cette sincérité, cette foi qui est en elle et qu’elle nous transmet. Elle nous montre d’abord l’allégresse de danser et c’est charmant à voir. Nous comprenons tout de suite qu’elle est là par plaisir. Elle ne danse ni pour un public, ni pour un cachet, ni même pour sa gloire. Elle danse pour elle…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Dites-le donc ! elle ne danse pas pour vous, et voilà pourquoi vous en raffolez ! Quel sentiment masculin !</p>
+        <label type="speaker">Moi</label>
+        <p>Oh ! comme il vous plaira ! Si vous ne voulez pas de ce sentiment là pour votre sexe, <pb n="12"/>je le prends pour le mien, je le proclame, je le développe, je le signe, et je le fais signer par tous les artistes. Défiez-m’en.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Alors il suffit de…</p>
+        <label type="speaker">Moi</label>
+        <p>Non, il ne suffit pas ! mais c’est déjà beaucoup que lorsqu’une artiste prétend exprimer une émotion, elle l’éprouve elle-même à un tel degré qu’elle ne sache plus qui la voit en scène, ni comment elle sera jugée.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Vieux débat que celui-là !</p>
+        <label type="speaker">Moi</label>
+        <p>Tranché depuis longtemps… Donc M<hi rend="sup">me</hi> Duncan paraît, et dès que nous avons applaudi en elle, avant toute chose, la joie de la danse, nous sommes pris par l’objet du spectacle qu’elle donne. Tour à tour, elle anime des statuettes antiques, des figures de vases que nous avions vues immobiles et qu’elle semble ressusciter ; ou bien, elle invente, elle reconstitue, que vous dirai-je ? elle interprète ; il le faut bien. Ces gestes de tête si antiques et si nouveaux qui placent le cou tantôt dans la ligne du bras et tantôt, renversée, dans la ligne du corps, c’est la résurrection de la danse athénienne. Et quand M<hi rend="sup">me</hi> D. au milieu d’une danse grave, s’arrête tout à coup, lève le genou jusqu’à la poitrine et fait avec la jambe droite un pas lent d’un si beau caractère tragique…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Oui. Vous comprenez ça.</p>
+        <label type="speaker">Moi</label>
+        <p>Une trouvaille !</p>
+        <label type="speaker">La Danseuse</label>
+        <p><pb n="13"/>Vous savez donc l’anglais mieux que le grec ?</p>
+        <label type="speaker">Moi</label>
+        <p>C’est méchant ce que vous dites là et ce n’est pas juste. Sans doute, M<hi rend="sup">me</hi> D. danse un peu en anglais, comme d’autres en français ou en italien ; mais elle danse surtout en grec, et c’est ce dont vous ne douteriez pas si vous saviez le grec mieux que l’anglais.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Oh ! moi, on ne m’a guère appris à danser en littérature, je vous l’ai déjà dit. Et voilà justement le pire défaut que je trouve à vos danses de caractère, c’est qu’elles sont nationales et que vous les aimez surtout en raison de leur exotisme. Vous n’aimez point les danses françaises parce qu’elles parlent notre langage et n’ont pas de mystère pour vous ; mais comme vous ne savez pas le russe, je suis sûre que vous délirez devant M<hi rend="sup">me</hi> Rubinstein. Ne dites pas non.</p>
+        <label type="speaker">Moi</label>
+        <p>Je ne dis pas non. Mais que me parlez-vous de Russie à propos de M<hi rend="sup">me</hi> R. ? Elle n’a jamais dansé qu’en français.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Ah ! vraiment ?</p>
+        <label type="speaker">Moi</label>
+        <p>M<hi rend="sup">me</hi> R. ? c’est la petite-fille spirituelle de Théophile Gautier, c’est la digne élève de Flaubert, c’est toute l’antiquité vue à la française. Et vous voyez combien votre opinion est imprudemment hasardée, puisque le jour où on présente enfin une élève nourrie de notre <pb n="14"/>culture, nous applaudissons, en effet, nous délirons si vous voulez. Un seul regret nous reste, c’est que Flaubert et Gautier, si dignes de rénover l’art chorégraphique, n’aient pas eu d’abord la chance d’inspirer une danseuse vraiment parisienne, et la plus éminente de toutes, mademoiselle ; c’est à vous que ce discours s’adresse.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Merci, après tout ce que vous venez de me dire, je vous tiens quitte de vos compliments.</p>
+        <label type="speaker">Moi</label>
+        <p>Vous les recevrez, malgré vous. Ne pensez pas que j’aurais tenu ici toute cette discussion sur la danse si je ne vous admirais pas à l’égal de vos ennemies.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Moi ? Vous m’admirez aussi ? Ah ! mon cher, vous devenez fade. Vous applaudissez tout le monde.</p>
+        <label type="speaker">Moi</label>
+        <p>Tout le monde ? Oh ! non. Vous et elles. C’est assez.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>C’est trop. Et comment nous conciliez-vous ? Puisque ce sont mes ennemies, comme vous dites si bien.</p>
+        <label type="speaker">Moi</label>
+        <p>Vous ressemblez à M. Ingres.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Physiquement ? Ha ! Ha !</p>
+        <label type="speaker">Moi</label>
+        <p>Ne plaisantez pas. M. Ingres réalisait en 1840 une formule d’art qui était morte ailleurs et qui ne vivait plus que par lui seul. Vous me parliez tout à l’heure d’une toccata de Bach… Mais quoi de plus émouvant que la <hi rend="i">Stratonice</hi> ?<pb n="15"/>Voulez-vous mon sentiment le plus sincère ? La Stratonice est presque plus belle que les plus hauts chefs-d’œuvre du romantisme, et pourtant le romantisme avait raison contre elle. Pourquoi ? Vous allez me demander pourquoi ?</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Oui.</p>
+        <label type="speaker">Moi</label>
+        <p>Parce que la vie même de l’art est soumise à une influence naturelle et constante, que l’on peut haïr, que l’on peut condamner, mais qui est évidente comme le jour et la nuit, et qu’on appelle la Mode.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Ah ! par exemple ! Voilà une phrase que je n’attendais pas de vous.</p>
+        <label type="speaker">Moi</label>
+        <p>Le devoir des artistes est de diriger cette mode et même de la brusquer, mais il ne faut pas lui obéir. Le général qui a dit : « Je suis leur chef, il faut que je les suive ! » était assurément un homme poétique, mais ce n’était pas un homme de guerre, ni un artiste. En art, il y a une mode à considérer, il n’y a pas de mode à suivre.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Ce que vous appelez la mode, c’est la tradition.</p>
+        <label type="speaker">Moi</label>
+        <p>En aucune manière ! La tradition ? Mais c’est no<anchor xml:id="_GoBack"/>tre loi. Et que fait M<hi rend="sup">me</hi> Duncan, sinon reprendre une tradition, plus vieille de vingt siècles que la vôtre ? Nous prétendons seulement que la tradition s’altère, s’abâtardit et que les gestes originels, jadis expressifs, deviennent inintelligents, de même que les anciens <pb n="16"/>caractères chinois, si clairs, si simples dans leur forme primitive, sont devenus aujourd’hui les hiéroglyphes absurdes que vous connaissez.</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Oh ! je vous en prie ! Je ne sais pas non plus le chinois.</p>
+        <label type="speaker">Moi</label>
+        <p>Vous le sauriez en quinze jours si vous le lisiez tel que ses auteurs de jadis l’écrivaient. Mais votre art comme leur écriture est devenu quelque chose d’inutilement abscons, où la formule remplace l’idée, où l’on ne sait même plus si l’artiste comprend la valeur des gestes traditionnels qu’elle répète. Et comme elle n’en est plus émue…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Qu’en savez-vous ?</p>
+        <label type="speaker">Moi</label>
+        <p>Je le sens… Et comme elle n’en est plus émue, elle nous éloigne de l’art qu’elle-même abandonne. Devant ce débat esthétique où nous sommes simples spectateurs, croyez bien que notre considération s’adresse à la danseuse autant qu’à la théorie dont nous voudrions la trouver éprise. À propos de danses, je vous ai parlé de Wagner, de Victor Hugo et de M. Ingres parce que j’ai un vif sentiment de l’égalité entre les arts et, malgré la liberté de mes opinions sur l’avenir de la chorégraphie, je vous admire, mademoiselle, plus que la plupart des poètes ou des musiciens vivants. Le graveur est parfois supérieur au peintre, le tragédien au dramaturge, la danseuse au librettiste. Quels candidats voudrais-je voir <pb n="17"/>élus à l’Académie des Beaux-Arts ? Par rang d’âge, le premier serait Mounet-Sully, le second M<hi rend="sup">me</hi> Sarah Bernhardt…</p>
+        <label type="speaker">La Danseuse</label>
+        <p>Et le troisième, moi ?</p>
+        <label type="speaker">Moi</label>
+        <p>Non.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

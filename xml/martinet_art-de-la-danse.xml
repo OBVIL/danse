@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Essai ou principes élémentaires de l'art de la danse, utiles aux personnes destinées à l'éducation de la jeunesse</title>
+        <author key="Martinet, J.-J.">J.J. Martinet</author>
+        <editor key="Kiss, Dora">Dora Kiss</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Delphine Vernozy</name>
+          <resp>relecture</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2015"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/martinet_art-de-la-danse/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/danse/martinet_art-de-la-danse.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/danse/martinet_art-de-la-danse.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/danse/martinet_art-de-la-danse.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/danse/martinet_art-de-la-danse.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Essai ou principes élémentaires de l'art de la danse, utiles aux personnes destinées à l'éducation de la jeunesse</title>, par <author>J.J. Martinet</author>, maître à danser à Lausanne, <pubPlace>Lausanne</pubPlace> : chez <publisher>Monnier et Jaquerod</publisher>, <date>1797</date>, 72 pages.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1797"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="preface">
+        <head>Choix généraux pour l’établissement du texte</head>
+        <p>L’orthographe a été modernisée.</p>
+        <p>La ponctuation originale a été en partie revue. Des virgules ont été supprimées ou ajoutées, soit pour conférer plus de fluidité au texte, soit pour assurer la bonne compréhension de son contenu. En raison de l<anchor xml:id="_GoBack"/>eur portée signifiante, les virgules qui semblent marquer la succession des actions ont systématiquement été maintenues (ou rétablies si elles manquaient), en dépit du rythme haché qu’elles imposent parfois à la phrase.</p>
+        <p>Dans le texte original, la hiérarchie des titres et sous-titres n’étant pas très consistante, des titres considérés comme manquants ont été ajoutés entre crochets — une même logique de hiérarchisation a été appliquée à l’ensemble du texte.</p>
+      </div>
+    </front>
+    <body>
+      <div type="epigraph">
+        <head>Épître dédicatoire à Madame ****</head>
+        <p>Madame,</p>
+        <p>Si l’art dont j’entreprends de tracer ici les règles n’eût été que frivole, je n’aurais point pris la liberté de vous faire l’hommage de cette faible production : mais en l’écrivant, j’ai entrevu l’espoir d’être utile, et j’ai pensé qu’à ce titre seul elle pouvait mériter de vous être présentée. [Je suis] trop heureux si le public la trouve digne de la protectrice éclairée qui, au défaut du talent, a bien voulu par son suffrage encourager les efforts de l’auteur.</p>
+        <p>Si je voulais donner à mon sujet une importance trop étrangère au but infiniment plus restreint que je me suis prescrit, il me serait aisé, Madame, de vous retracer le point étonnant de perfection où la danse a rapidement été portée de nos jours. Je vous ferais voir Terpsichore elle-même dictant à l’un de ses plus chers favoris (à Gardel) ces ballets si justement vantés, où les fictions les plus brillantes de la mythologie ont reçu plus d’éclat encore de cet art enchanteur, qu’elles ne lui en ont prêté. <hi rend="i">Psyché, le jugement de Pâris, Télémaque</hi> ; c’est dans ces productions que j’oserais nommer sublimes, que la danse, rivale audacieuse de la poésie et de la musique, s’affranchissant enfin de ses gothiques entraves prend un nouvel essor, et ce n’est plus que l’expression fidèle de la nature embellie. Nouveau Protée, elle revêt, avec un succès égal, les formes les plus disparates ; tour à tour sévère, séducteur de cette pantomime à la fois pittoresque et dramatique qui fait asservir à ses lois les nuances les plus fugitives du sentiment, ainsi que les mouvements de l’âme les plus rebelles et les plus impétueux.</p>
+        <p>Je le sens, Madame, en me laissant aller au plaisir de vous peindre ces prodiges nouveaux dont s’enorgueillit encore la scène française, je m’écarte sans doute de la route que vous n’aviez pas dédaigné de m’indiquer. Mais quoi ! il fallait bien une fois répondre aux détracteurs d’un art que vous aimez, et que j’ai le faible mérite d’avoir cultivé toute ma vie avec enthousiasme. Je n’ai point eu la présomption de vouloir initier les jeunes élèves dans les mystères qui ne s’apprennent que dans le sanctuaire de la divinité. Cette ambition était trop au-dessus de mes forces, et d’ailleurs, le but que j’ai dû me proposer n’aurait point été rempli. J’ai voulu simplement exposer avec clarté et précision les premiers principes, et si je puis m’exprimer ainsi, le mécanisme élémentaire de la danse. J’ai cherché surtout à me rendre utile aux mères de famille qui pourront facilement, à l’aide de cet ouvrage, se passer d’un maître, ou du moins présider aux leçons de leurs enfants, et en diriger elles-mêmes les progrès.</p>
+        <p>En parlant des mères de famille, était-il possible que je n’eusse pas devant les yeux celle qui devait leur servir à toutes de modèle ? Cet éloge, Madame, est le seul dont vous soyez jalouse, et c’est le seul aussi que je me permettrai. Que d’autres relèvent avec empressement ces dons aimables que la nature, en souriant, a versé sur votre personne, moi je ne parlerai que des vertus respectables dont vous vous êtes plu à les embellir, et qui n’admirerait pas cette surveillance attentive, cette sollicitude si tendre, et ces soins continuels que vous ne cessez de prêter à l’éducation des enfants que le ciel vous a donnés. J’ai été assez heureux pour en être quelquefois le témoin, et c’est surtout après avoir joui de ce touchant spectacle que j’ai pu m’écrier, avec toutes les personnes qui ont le bonheur de vous approcher : <hi rend="i">Le cœur d’une bonne mère est le chef-d’œuvre de la Divinité</hi>.</p>
+        <p>Je suis avec le plus profond respect,</p>
+        <p>Madame,</p>
+        <p><hi rend="i">Votre très humble et très obéissant serviteur</hi>,</p>
+        <signed><hi rend="i">Martinet</hi></signed>
+      </div>
+      <div type="introduction">
+        <head>Introduction</head>
+        <p>L’art de la danse attira, dans les siècles les plus reculés, l’attention des législateurs ; les Grecs et les Romains, en l’introduisant dans le culte qu’ils rendaient à leurs divinités et, dans les cérémonies publiques, le pratiquèrent avec tant de succès qu’on a de la peine à se persuader aujourd’hui les merveilles que nous en trace l’histoire.</p>
+        <p>Cet art, considéré comme faisant partie de l’éducation, acquiert une importance qu’il ne semble pas d’abord mériter : mais si l’on réfléchit sur la forme que la nature nous a donnée, sur les fonctions qu’elle a attribuées à chacun de nos membres, on sera porté à conclure que, si l’homme n’était pas sans cesse mû par l’imitation, peut-être resterait-il accroupi, ou ne marcherait-il que comme les quadrupèdes ; ce n’est que l’exemple et l’impression que font sur lui les images extérieures, qui le portent à un maintien tout autre que celui que lui donnerait sa structure : or les vrais principes de la danse n’étant autre chose que la belle manière d’exécuter les différents mouvements du corps, de composer son maintien et de se présenter avec grâce, il est indubitable que la danse corrige les vices et les erreurs de la nature.</p>
+        <p>Si l’on considère ses effets, tant sur le moral que sur le physique, on sera forcé de convenir que, par ses différents caractères, elle exprime les passions avec énergie ; qu’il n’est pas de situation de l’âme qu’elle ne puisse peindre avec vérité, et que l’homme en tire des secours innombrables, dont l’importance n’est bien appréciée que par l’œil observateur du philosophe ; peut-être ne serait-il pas indigne de son attention d’examiner si elle ne pourrait pas devenir un moyen de guérison pour ces maladies de l’âme, à la cure desquelles sont impuissants tous les secours de l’art d’Hippocrate.</p>
+        <p>On voit rarement des atrabilaires et des hypocondriaques dans la classe des amateurs de la danse ; elle influe donc sur le caractère, en portant à la gaîté celui qui a du penchant à la tristesse et à la mélancolie : et en la considérant par l’utilité que peut en tirer la médecine dans les maladies où il importe de rendre la circulation aux fluides et de donner du ton aux solides, on conviendra que cet exercice devient très recommandable. On ne peut nier, qu’en nous enseignant la manière de composer notre maintien suivant les usages reçus, cet art n’influe beaucoup sur les opérations de l’esprit. Voyez se présenter dans un cercle une jeune personne embarrassée dans sa marche et dans ses gestes, elle devient préoccupée et par conséquent timide ; se présente-t-elle au contraire avec une contenance sûre et aisée, elle apporte dans ses réparties et dans ses discours plus de présence d’esprit et de jugement. Quand bien même cet exercice ne nous procurerait d’autre avantage que celui de nous donner de l’agilité, de la vivacité et d’entretenir la souplesse et la force dans nos membres, ce serait certainement assez pour le faire préférer à tout autre. Et qu’on ne pense pas que l’équitation, l’escrime, la course, la lutte, et tous les exercices violents de la gymnastique puissent remplir le même objet et rivaliser avec la danse ; outre qu’ils ne peuvent convenir généralement au sexe, à tous les âges et à tous les tempéraments ; c’est qu’encore quelques-uns d’entre eux, en assujettissant à des efforts pénibles, émoussent, ôtent la finesse du tact, et au lieu de cet air gracieux, de cette délicatesse dans les traits, de ces belles proportions dans les membres, de ces mouvements prestes et souples du corps, on ne voit trop souvent se développer que des traits durs, une habitude du corps lourde et matérielle, effet nécessaire de la violente contraction des muscles.</p>
+        <p>C’est avec raison que les mythologistes font les arts enfants du même père. Euterpe est tellement liée avec Terpsichore, qu’il est bien rare de voir la musique sans la danse, et plus rare encore de voir des sujets sensibles à l’harmonie qui ne soient aussi amateurs de la danse. Je pourrais apporter en preuve de l’intimité de ces deux arts quelques exemples de jeunes gens qui, par un défaut d’organe, étaient sans dispositions pour la musique, et qui, par la pratique de la danse, ont acquis une justesse dans l’oreille dont ils ne paraissaient pas susceptibles, et qu’ils n’auraient jamais eu par aucun autre moyen. En effet, si l’on observe que les airs de danse sont composés de phrases musicales courtes, d’un chant agréable et parfaitement cadencé ; que les repos se trouvent une très petite distance, que l’écolier est en quelque sorte forcé de compter ses pas, et de n’en exécuter qu’un nombre fixe dans un temps donné ; on concevra qu’elle fournit un moyen mécanique pour former l’oreille la moins exercée et la plus paresseuse.</p>
+        <p>Mais autant la danse est essentielle à l’éducation de la jeunesse, autant il est important qu’elle soit enseignée par des maîtres qui en connaissent les vrais principes, et qui aient un jugement sain ; car il est bon de savoir que cet art a ses charlatans comme tant d’autres, et qu’il n’y a rien de si commun que de voir faire des méprises intolérables. On copie, on se modèle souvent sur les danseurs de théâtre ; cependant il n’est pas plus du bon ton d’imiter, dans les danses de société, les danseurs de l’opéra que les grotesques d’Italie, ou les baladières de l’Hindoustan ; l’attitude, les gestes ne sont plus les mêmes, et c’est en partie faute de discernement et pour ne pas savoir juger des convenances que tant de maîtres ineptes font de si mauvais écoliers.</p>
+        <p>Combien de jeunes personnes se rendent singulièrement ridicules par des minauderies, des manières empruntées, que le bon goût réprouve, et par des gestes trop souvent indécents qui blessent la bienséance.</p>
+        <p>Les effets de cet art sur le physique de certains individus sont infiniment intéressants ; qu’on se peigne une jeune personne d’un tempérament faible, dont l’éducation aura été négligée ; elle aura naturellement la tête en avant, enfoncée dans les épaules, la poitrine retirée, les genoux crochus et butants, les pieds en dedans, l’habitude du corps chancelante, conservant à peine le centre de gravité : voyez-la sortir après six mois de leçon, d’entre les mains d’un bon maître, les pieds en dehors, le jarret tendu, la hanche bien placée, la poitrine en avant, l’air de tête fier et gracieux, les membres déliés et les mouvements aisés.</p>
+        <p>En présentant au public ce traité élémentaire, je crois lui fournir des moyens d’instruction dans un art qui, sous tous les rapports et à tant d’égards, est devenu précieux à la société, et tellement essentiel à l’éducation, qu’il est comme impossible de figurer sur le théâtre du monde sans en avoir au moins quelques légères connaissances ; et n’eussé-je tracé que les vrais principes, consacrés par l’usage et pratiqués par les meilleurs artistes, je croirais avoir rendu un service aux parents et aux personnes destinées à l’éducation de la jeunesse ; elles pourront au moins, en le lisant avec attention, juger du mérite des maîtres entre les mains desquels ils mettront leurs élèves, et, je dis plus, même leur enseigner les premiers principes sans leur secours.</p>
+      </div>
+      <div>
+        <head>[Des positions]</head>
+        <p>Toute la théorie de l’art de la danse ayant été établie sur cinq positions naturelles, dont on ne doit point s’écarter et qu’on doit observer avec la plus grande régularité, je vais mettre le lecteur à portée de s’en instruire parfaitement.</p>
+        <div>
+          <head>Première position</head>
+          <p>On se placera les deux talons joints l’un contre l’autre, les pieds bien tournés en dehors, en observant qu’ils le soient bien également, le corps d’aplomb, la tête droite, le menton en arrière, les épaules effacées, les bras tendus naturellement sur les côtés, et le tout sans gêne et sans affectation. Voyez la <hi rend="i"><ref target="#pl1">planche première</ref></hi><!--<note resp="editor">[NdE] Voir le traité en ligne, google books, p. 73. En ce qui concerne les techniques du corps, les planches regroupées en fin de traité n’apportent pas d’informations supplémentaires à celles qui sont véhiculées par le texte, aussi il n’a pas été jugé nécessaire de les publier. Elles informent en revanche probablement sur les habits et les coiffures portées à l’époque pour la pratique de la danse.</note>-->.</p>
+        </div>
+        <div>
+          <head>Deuxième position</head>
+          <p>On détachera le pied droit du gauche en le portant en droite ligne sur le côté à la distance d’un pied, et posant la pointe du pied à terre avant le talon, les jarrets tendus, observant qu’en détachant le pied, le corps et la tête ne fassent aucun mouvement. Voyez la <hi rend="i"><ref target="#pl2">planche seconde</ref></hi><!--<note resp="editor">[NdE] Voir le traité en ligne, google books, p. 75.</note>-->.</p>
+        </div>
+        <div>
+          <head>Troisième position</head>
+          <p>On portera le talon du pied droit à la boucle ou au milieu du pied gauche, de manière que les deux pieds se trouvent croisés et également en dehors. Voyez la <hi rend="i"><ref target="#pl3">planche troisième</ref></hi><!--<note resp="editor">[NdE] Voir traité en ligne, google books, p. 77.</note>-->.</p>
+        </div>
+        <div>
+          <head>Quatrième position</head>
+          <p>On détachera le pied droit du gauche en droite ligne en avant, à la distance d’un pied, faisant attention que les pieds ne se croisent point, et que les deux talons soient bien sur la même ligne. Voyez la <hi rend="i"><ref target="#pl4">planche quatrième</ref></hi><!--<note resp="editor">[NdE] Voir traité en ligne, google books, p. 79.</note>-->.</p>
+        </div>
+        <div>
+          <head>Cinquième position</head>
+          <p>On retirera le pied droit en le posant à la pointe du pied gauche sans le dépasser, en observant les mêmes règles que dans les précédentes. Voyez la <hi rend="i"><ref target="#pl5">planche cinquième</ref></hi><!--<note resp="editor">[NdE] Voir traité en ligne, google books, p. 81.</note>-->.</p>
+          <p>Voilà donc les cinq positions naturelles de la danse et qui en font la base, qu’on doit se rendre familières, c’est-à-dire, se les graver dans la mémoire, les répétant souvent, tantôt du pied droit, tantôt du pied gauche, tous les pas dérivant de ces cinq positions, qu’il est très important de bien savoir ; on aura l’attention d’observer pour tous ces mouvements et changements de positions, ce qui a été dit ci-devant.</p>
+        </div>
+      </div>
+      <div>
+        <head>Du plié et du Tendu</head>
+        <p>Lorsqu’on saura bien les cinq positions, on se placera à la première, on pliera les genoux le plus bas et le plus lentement possible, sans lever les talons, ayant toujours les pieds à plate terre, observant qu’en pliant il faut que les genoux tombent en dehors et dans la direction de la pointe des pieds, avançant la ceinture et faisant bien attention que le corps et la tête ne fasse aucun faux mouvement, ce qu’on doit répéter de même, tant du pied droit que du pied gauche. Voyez la <hi rend="i"><ref target="#pl6">planche sixième</ref></hi><!--<note resp="editor">[NdE] Voir traité en ligne, google books, p. 83.</note>-->.</p>
+        <p>On ne saurait trop se persuader combien ce petit exercice, qui ne parait rien signifier, contribue cependant à rendre la flexibilité aux jarrets et procure une démarche aisée et agréable, corrige les mauvaises habitudes contractées, ou qu’on pourrait contracter par la suite<note resp="author">[NdA] L’usage d’une boîte d’une invention très simple m’a mis à même de redresser parfaitement les genoux d’un enfant, âgé de huit à neuf ans, qui était tellement bancroche qu’étant debout, les deux jarrets bien tendus, ses deux genoux se touchaient, et il y avait treize pouces de distance d’un pied à l’autre. Après trois années consécutives d’exercice et de pratique, je suis parvenu à le redresser parfaitement. Ce jeune homme, aujourd’hui âgé de dix-huit ans, est aussi droit qu’il est possible de l’être, et a la démarche parfaitement aisée.</note> : il n’y a donc pas de doute que cet exercice ne soit un point essentiel, et qu’il ne doive être répété tous les jours pendant longtemps pour faciliter les progrès dans cet art.</p>
+      </div>
+      <div>
+        <head>Différentes manières de saluer</head>
+        <div>
+          <head>Révérence ordinaire d’une demoiselle</head>
+          <p>Elle se placera à la première position, les deux bras croisés à la hauteur des coudes, les coudes serrés au corps, sans avoir l’air gêné (voyez <hi rend="i"><ref target="#pl7">planche septième</ref></hi><!--<note resp="editor">[NdE] Voir traité en ligne, google books, p. 85.</note>-->) les épaules effacées, le menton en arrière, pliant les genoux dans cette position, tel que le démontre la <hi rend="i">planche sixième</hi>, ni trop vite ni trop lentement, et se relevant de même ; elle aura soin de ne point lever les talons, et de ne faire aucun faux mouvement du corps, des bras et de la tête.</p>
+        </div>
+        <div>
+          <head>Révérence ordinaire d’un jeune homme</head>
+          <p>Il se placera à la première position, le corps droit, les bras tendus naturellement sur les côtés, sans les raidir ni les abandonner avec nonchalance : s’il a un chapeau il lèvera le bras droit, et prenant son chapeau de la main droite, il le laissera aller tendu de côté, inclinant la tête, le menton touchant la poitrine et pliant du milieu du corps et non de la ceinture, les jarrets tendus ; il laissera tomber naturellement ses bras en avant, sans également les raidir, (voyez <hi rend="i"><ref target="#pl8">planche huitième</ref></hi>) et, en se relevant, son corps, sa tête et ses bras se replaceront dans la même position qu’ils étaient avant la révérence, laissant aller le pied gauche à la quatrième position en arrière. Voyez la <hi rend="i"><ref target="#pl4">planche quatrième</ref></hi>.</p>
+        </div>
+        <div>
+          <head>Révérence de deux personnes se rencontrant dans la rue ou sur un chemin</head>
+          <p>Lorsqu’une demoiselle rencontrera dans la rue quelqu’un qu’elle voudra saluer, si c’est une personne dont on ne diffère aucunement, soit par l’âge soit par la condition, et que l’on ne veuille pas s’arrêter, étant près de la personne qu’elle veut saluer, elle portera le pied droit à la deuxième position, et rapprochant de suite le pied gauche à la première position, elle fera la révérence, et si c’est un jeune homme, il fera sa révérence de même, ôtant son chapeau de la main droite, et laissant tomber son bras tendu sur le côté ; il aura l’attention de céder le haut du pavé à la personne qu’il voudra saluer, supposé que ce soit une dame ou une demoiselle : s’il veut s’arrêter, il ira droit à elle, en la saluant de manière ordinaire ; et, ayant fini la conversation, il portera son pied droit à la deuxième position, [puis] rapprochant son pied gauche à la première position, il fera la révérence : si la personne diffère soit par l’âge, soit par la condition, soit par le sexe, il aura soin de donner le haut de la rue, et de prévenir par sa révérence la personne qu’il voudra saluer.</p>
+        </div>
+        <div>
+          <head>Manière de saluer en entrant dans une chambre ou salon où se tient la société</head>
+          <p>Étant annoncé et entrant dans un salon de compagnie, l’on parcourra des yeux l’assemblée, tâchant de découvrir celui ou ceux qui en sont les honneurs, on fera sa révérence ordinaire, et on ira droit à eux faire une autre révérence d’honnêteté de la même manière. Après les civilités ordinaires de part et d’autre, l’on prendra sa place, et lorsqu’il sera question de se retirer, on ira saluer premièrement les personnes de qui l’on reçoit l’honnêteté, et du pas de la porte, on saluera en général la société ; il en sera de même d’une demoiselle comme d’un jeune homme.</p>
+          <p>Toutes ces différentes manières de saluer doivent s’exécuter sans aucune affectation, mais ce n’est que par une grande pratique qu’on en acquiert l’aisance et la facilité. Les personnes chargées de cette partie de l’éducation auront soin de faire répéter tous les jours à leurs élèves ces différentes révérences, pour les leur rendre familières ; car rien ne se fait avec régularité que par la grande habitude.</p>
+        </div>
+      </div>
+      <div>
+        <head>De la manière de marcher</head>
+        <p>On marchera de la manière la plus naturelle et sans affectation, levant le pied droit en avant, le jarret et le cou-de-pied tendus, la pointe basse, le corps soutenu par la partie gauche, conservant l’équilibre ; on posera le pied à plate terre à la quatrième position, portant ensuite le corps sur la partie droite en avant, le pied gauche se portera également à la quatrième position, ayant soin que les deux talons passent près l’un de l’autre, sans se toucher ni se croiser, observant de parcourir une ligne droite. Voyez la <hi rend="i"><ref target="#pl9">planche neuvième</ref></hi>.</p>
+      </div>
+      <div>
+        <head>De la danse</head>
+        <p>Dans la danse en général il y a deux sortes de pas, qui sont le pas complet et le pas incomplet, plusieurs desquels, plus ou moins précipités, forment le pas complet qui doit s’exécuter dans l’intervalle de deux mesures entières de la musique. Le pas incomplet est formé de pliés, de glissés, de marchés, de tendus et de sautés. Le plié, c’est fléchir les genoux, comme le démontre la <hi rend="i"><ref target="#pl2">planche deuxième</ref></hi> ; <hi rend="i">le glissé</hi>, soit qu’il s’exécute en avant, en arrière, à droite ou à gauche, est l’action de changer le pied d’une position à l’autre sans abandonner terre, ce qui s’exécute ordinairement avec le plié ; <hi rend="i">le marché et le tendu</hi> sont de porter les pieds dans les différentes positions, la pointe du pied basse, le jarret et le cou-de-pied tendus ; <hi rend="i">le sauté</hi>, c’est s’élever par un mouvement rapide, soit sur une jambe, soit sur l’autre ou sur les deux ensemble : on verra, dans la description suivante, des différents genres de danses, l’application et l’emploi des pas ci-dessus désignés.</p>
+      </div>
+      <div>
+        <head>Du menuet</head>
+        <p>On a abandonné depuis longtemps le menuet, et il n’est plus d’usage dans les danses de société, cependant il renferme tous les principes de l’art ; et il est facile de démontrer qu’on ne peut parvenir à danser, je ne dis pas bien, mais même médiocrement sans s’y être appliqué : cette danse développe les membres, leur donne des contours gracieux, du moelleux et de la justesse dans les mouvements, de l’aplomb et du soutien dans l’équilibre du corps ; et si la plupart des danseurs ont des attitudes forcées, des mouvements durs et un équilibre mal assuré, c’est qu’ils ignorent ou qu’ils n’ont pas assez pratiqué ces premiers principes ; aussi voit-on la plupart des danseurs modernes se placer comme des mannequins et se mouvoir comme des automates ; j’invite donc les amateurs à ne point le négliger ; il est très-important de s’appliquer à le bien apprendre, d’autant plus qu’il est à l’art de la danse ce qu’est l’a, b, c, à l’égard des <hi rend="i">mots et des discours</hi>.</p>
+        <p>Le Menuet est composé de trois pas complets souvent répétés, qui sont : le pas en avant, le pas à droite et le pas à gauche ; chaque pas complet est composé de quatre pas incomplets, dont deux sont pliés, glissés, et deux sont marchés, tendus, qui s’exécutent dans l’intervalle de deux mesures à trois temps, qui est la mesure de musique du menuet.</p>
+      </div>
+      <div>
+        <head>Leçon raisonnée du menuet</head>
+        <div>
+          <head>Pas du menuet en avant</head>
+          <p>On fera placer l’écolier à la troisième position, le pied droit devant, et lorsqu’il sera placé, le corps et la tête droite, le menton en arrière, les épaules effacées et les jarrets tendus, on lui dira : pliez, glissez le pied droit à la quatrième position en avant ; pliez, glissez le pied gauche à la quatrième position en avant ; marchez deux pas tendus à la quatrième position en avant. Il faut observer que chaque plié s’achève les jarrets tendus ; on aura l’attention de corriger les défauts des positions, et de prévenir les mauvaises habitudes que pourrait contracter l’écolier dans les différents mouvements qu’on lui fait exécuter.</p>
+          <p>Les deux pas glissés doivent s’exécuter en pliant les genoux et glissant alternativement les pieds sur la pointe, le cou-de-pied tendu à la quatrième position en avant, en observant que la moitié du chemin doit se faire en pliant et l’autre moitié en tendant les jarrets d’un mouvement lent et égal dans l’intervalle des quatre premiers temps des deux mesures, c’est-à-dire que chaque glissé emploie deux temps des deux mesures.</p>
+          <p>Les deux marchés qui complètent le pas s’exécutent en portant les pieds de même à la quatrième position, d’un mouvement plus accéléré, avec les jarrets tendus dans l’intervalle des deux derniers temps des deux mesures, c’est-à-dire que chaque marché emploie un temps des deux mesures.</p>
+        </div>
+        <div>
+          <head>Pas du menuet à droite</head>
+          <p>L’écolier étant placé à la troisième position, on lui dira : pliez, glissez le pied droit à la deuxième position, rapprochez sur la même ligne le pied gauche, le cou-de-pied tendu, sans quitter terre, jusqu’à la moitié de la deuxième position, où, à six pouces du pied droit et sans s’arrêter, pliez, passez le pied gauche à la troisième position derrière le pied droit, et marchez deux pas du côté droit, les jarrets tendus, dont l’un à la deuxième position et l’autre à la troisième derrière le droit.</p>
+        </div>
+        <div>
+          <head>Pas du menuet à gauche</head>
+          <p>Les deux pas complets à gauche du menuet ne sont pas égaux, [tout] comme les deux pas complets à droite ; ils s’exécutent de la manière suivante : pliez, glissez le pied droit à la quatrième position en avant, et rapprochez vivement le gauche, les jarrets tendus, à la première position ; pliez, glissez le pied gauche à la deuxième position, et marchez du côté gauche deux pas tendus ; l’un du pied droit à la troisième position derrière le pied gauche, et l’autre du pied gauche à la troisième position : voilà le premier pas complet.</p>
+          <p>Étant à la deuxième position, pliez, passez le pied droit derrière le gauche à la troisième position, en le retirant sur la pointe un peu vivement, et se relevant sur les deux pointes des pieds dans la même position, les jarrets bien tendus, on soutiendra l’intervalle du temps plié ainsi que la mesure, et pliez, glissez le pied gauche à la deuxième position, marchez deux pas tendus, dont l’un du pied droit à la troisième position derrière le gauche, et l’autre du pied gauche à la deuxième position.</p>
+        </div>
+      </div>
+      <div>
+        <head>Pas sautés et usités dans les contredanses françaises, ou pots pourris, et utiles à d’autres danses</head>
+        <p>Il y a sept pas complets employés dans cette espèce de danse, qui sont : le contretemps en avant, le contretemps en arrière, le balancé, le chassé à droite, le chassé à gauche, le pas de rigaudon du pied droit et le pas de rigaudon du pied gauche. Chaque pas complet s’exécute par quatre pas incomplets, dans l’intervalle de deux mesures 6/8, qui est la mesure ordinaire des pots pourris.</p>
+        <div>
+          <head>Contretemps en avant</head>
+          <p>Portez le pied droit à la quatrième position en avant ; pliez, sautez en place sur le même pied, en levant le pied gauche à la quatrième position en avant, sans le poser ; marchez deux pas tendus à la quatrième position en avant, dont l’un est déjà formé par le pied gauche qui n’est pas posé, et l’autre du pied droit ; pliez, assemblez.</p>
+        </div>
+        <div>
+          <head>Ce que c’est que l’assemblé</head>
+          <p>Un assemblé est un changement de pied, c’est-à-dire que le pied droit se trouvant devant le pied gauche, ou le pied gauche se trouvant devant le droit, soit à la quatrième ou à la troisième position l’on devra, en pliant et sautant, retomber à la troisième position, les deux pieds ensemble, en changeant de pied, c’est-à-dire que si le pied droit est devant, il passe derrière, ainsi que le gauche étant devant, il va derrière ; il faudra observer que les deux talons passent près l’un de l’autre sans se toucher, et que l’on doit retomber légèrement sur les jarrets tendus.</p>
+        </div>
+        <div>
+          <head>Contretemps en arrière</head>
+          <p>L’exécution du contretemps en arrière est égale à celle du contretemps en avant, elle ne diffère qu’en ce qu’il faut aller en arrière. Portez le pied droit à la quatrième position en arrière, pliez, sautez sur le même pied, en levant le pied gauche à la quatrième position en arrière sans le poser, marchez deux pas tendus à la quatrième position en arrière ; pliez, assemblez.</p>
+        </div>
+        <div>
+          <head>Du balancé</head>
+          <p>Pliez, glissez le pied droit à la quatrième position en avant, et rapprochez vivement, sans toucher terre le pied gauche, les jarrets tendus à la première position ; pliez, glissez le pied gauche à la quatrième position en arrière, et retirez vivement le pied droit, les jarrets tendus, à la troisième position devant le pied gauche.</p>
+        </div>
+        <div>
+          <head>Pas de rigaudon qui doivent s’exécuter en place</head>
+          <div>
+            <head>Pas de rigaudon du pied droit</head>
+            <p>Pliez, sautez sur le pied gauche en levant le pied droit de côté à la distance d’un pied, posez-le vivement à la troisième position devant le pied gauche, détachez vivement le pied gauche de derrière le droit, les jarrets tendus, en levant également de côté à la distance d’un pied, posez-le à la troisième position devant le pied droit en pliant, et assemblez.</p>
+          </div>
+          <div>
+            <head>Pas de Rigaudon rigaudon du pied gauche</head>
+            <p>Pliez, sautez sur le pied droit en levant le pied gauche de côté à la distance d’un pied, posez-le vivement à la troisième position devant le pied gauche, détachez vivement le pied droit de derrière le gauche les jarrets tendus, posez-le à la troisième position devant le pied gauche en pliant, et assemblez.</p>
+          </div>
+        </div>
+        <div>
+          <head>[Chassés]</head>
+          <div>
+            <head>Le chassé à droite</head>
+            <p>Portez le pied droit à la deuxième position en pliant, et sautant sur le pied gauche que vous portez dans le même instant à la troisième position derrière le pied droit, et reportant vivement le pied droit à la deuxième position portez le pied gauche devant le droit à la troisième position en pliant, et assemblez.</p>
+          </div>
+          <div>
+            <head>Le chassé à gauche</head>
+            <p>Portez le pied gauche à la deuxième position, en pliant et sautant sur le pied droit, que vous portez dans le même instant à la troisième position derrière le pied gauche, et reportant vivement le pied gauche à la deuxième position, portez le pied droit devant le gauche à la troisième position en pliant, et assemblez.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <head>Des différents genres de la danse</head>
+        <p>Les pas que je viens de décrire sont les éléments dont se composent tous ceux qui s’emploient dans l’exécution des différents genres de danse, tels que les pas de bourrée, de sissonne simple et double, tricotés, chassées, balancés, pas de rigaudon, pas croisés, contretemps, mouchetés, écarts, pirouettes, terre-à-terre, jetés battus, ailes de pigeon, cabrioles, pas de jarret, entrechats, etc. etc.</p>
+        <p>Je ne parlerai pas non plus des figures de la plupart des contredanses, telles que la main, les deux mains, le moulinet, le rond, le dos-à-dos, la poussette, le carré de Mahoni, la chaîne à quatre, la chaîne à huit, etc. et nombre d’autres figures qui se varient au gré des compositeurs.</p>
+        <p>La danse a deux principaux genres, le grave et le gai<note resp="editor">[NdE] Dans le texte original, les noms propres ou communs renvoyant à des danses sont orthographiés systématiquement sans majuscules. Dans la présente édition, les noms propres, renvoyant à de brèves pièces chorégraphiques particulières – qui étaient à l’origine insérées dans un ballet, un bal ou un opéra – sont orthographiés avec majuscule (p. ex. « Tricotées de Paris »). En revanche, les noms communs qui désignent les types de danse – appelés « caractères dansés » à l’époque – sont maintenus sans majuscule (p. ex. « menuet »).</note>.</p>
+        <p>Dans le genre grave sont compris la pantomime, les menuets simples et figurés, le Menuet dauphin, le Menuet de la cour, les passepieds simples et figurés, le Passepied princesse, etc. etc. qui s’exécutent avec les pas graves.</p>
+        <p>Dans le genre gai sont compris les ballets, les entrées de ballet, la chaconne, les danses de caractère, tels que la Matelotte anglaise et hollandaise, l’Arlequine, la Pierrote, la Petite paysanne, le Conquérant, le branle gai, le branle à mener, la bourrée, la gigue, la gavotte, les Triotées de Paris<note resp="editor">[NdE] Orthographié parfois « Tricotets de Paris ».</note>, la Périgourdine, le Congo, le rigaudon, la valse, l’allemande, plusieurs sortes de contredanses, etc.</p>
+        <p>Je ne parlerai pas des danses étrangères, telles que la Monferine, les courantes, etc. qui se dansent en Italie ; le fandango, la munira, et autres qui se dansent en Espagne : la plupart de ces danses sont peu usitées, et ne peuvent être susceptibles de description dans un ouvrage élémentaire.</p>
+      </div>
+      <div>
+        <head>[Conclusion]</head>
+        <p>Je pense qu’il serait inutile, pour le but que je me suis proposé, que j’entrasse dans des détails plus circonstanciés sur les éléments de l’art dont j’ai voulu simplement tracer avec rapidité les principes fondamentaux. Quoique cet ouvrage ne soit pas très étendu, je me flatte cependant de n’avoir rien omis d’essentiel. Si j’eusse voulu épuiser mon sujet et en développer les nombreuses ramifications, il m’eut été facile d’entasser volume sur volume ; mais, et je l’ai déjà dit, je me suis attaché surtout à exposer avec clarté les premières notions de la danse ; j’avais en vue les mères de famille, et même les institutrices qui pourront facilement, moyennant une légère application, suppléer à l’absence d’un maître en consultant ce petit traité. En un mot, j’aurai rempli parfaitement mon but, si mon ouvrage devenait assez utile pour me rendre inutile.</p>
+        <p>Si le temps et mes occupations me le permettaient, je succomberais peut-être à la tentation de donner une suite à ce faible opuscule. Après avoir développé le mécanisme élémentaire de la danse, je me hasarderais peut-être à en retracer à mes lecteurs la poétique, si j’ose m’exprimer ainsi, et le tableau des effets étonnants opérés par le talent combiné de l’artiste qui exécute et du compositeur habile qui asservit à la magie de son art les difficultés les plus indomptables.</p>
+        <p>Je le sens, un tel ouvrage serait probablement fort au-dessus de mes forces, mais j’ai du moins le faible mérite d’avoir entrevu ce que pourrait faire un homme de génie. Me permettra-t-on, non pas d’analyser la théorie de la danse figurée, mais simplement d’exposer ici quelques idées qui donneront peut-être lieu à des observations utiles ?</p>
+        <p>La danse est un amusement qui est peut-être aussi ancien que le monde, et que l’on a consacré avec autant de soin que s’il entrait dans la classe des besoins essentiels. Si c’est un délire, il me semble avoir été consacré par la sagesse de Socrate même. <quote><hi rend="i">Dulce est desipere in loco</hi></quote>. La danse entrait dans le culte du paganisme ; les Chrétiens même, par une indécence qui ne pouvait qu’avilir la majesté du christianisme, ont essayé de l’associer aux cérémonies de la religion. On a dansé en Portugal au sujet de la canonisation de Saint Charles de Borromée, qui avait fait lui-même un traité de cet amusement.</p>
+        <p>Par la danse, j’avoue que je n’entends pas simplement cet art mécanique qui consiste à remuer alternativement les bras et les jambes au son d’un instrument, à se fatiguer en mesure pour exécuter des pas qui ne signifient rien, à avancer sans dessein, à reculer uniquement pour changer de place, enfin à faire toutes les évolutions que les danseurs médiocres regardent comme la perfection de l’art, et qui n’en sont que le commencement. La danse, comme je la conçois, est toute autre chose ; son but doit être de parler aux yeux par le geste, de substituer des mouvements aux paroles, de représenter par des personnages vivants des actions intéressantes, enfin d’introduire sur la scène des comédiens muets, qui, sans le secours de la déclamation, fassent passer dans l’âme des spectateurs les impressions agréables qu’ils vont chercher aux théâtres ; je veux parler enfin de cette pantomime expressive, art connu, si chéri des Romains, et que ce peuple préférerait à tous les autres amusements. On sait à quelle perfection leurs acteurs l’avaient poussé ; on sait que par le geste seul, ils rendaient leurs idées avec tant d’intelligence et de vérité que tout le monde les entendait sans peine. L’histoire nous a transmis les prodiges des Protées, des Empuses, des Pilades et des Bathiles ; ils ne se bornaient pas à des pas légèrement exécutés, à des attitudes régulières, si l’on veut, mais sans âme et sans vie : inspirés par le génie de leur art, ils exécutaient par son secours ce que le poète produit avec des paroles, le musicien avec des sons, le peintre avec des couleurs, le statuaire avec du marbre, c’est-à-dire qu’avec des pas et des gestes ils formaient de grands tableaux et représentaient des fables théâtrales, des véritables drames qui avaient leur exposition, leur nœud et leur dénouement.</p>
+        <p>Mais est-il nécessaire d’avoir recours aux peuples de l’Antiquité, tandis que nous pouvons citer de nos jours une foule de ballets qui ont eu un succès éclatant et mérité ? Nommer Vestris et Gardel, c’est rappeler l’idée du talent porté à son plus haut degré. Ils ont créé une danse toute nouvelle, majestueuse, forte et pathétique ; en un mot, les ballets, sous l’ascendant de leur génie, sont devenus une peinture vivante des passions, des mœurs, des cérémonies et des costumes de tous les peuples. Voilà pour la partie de la composition ; quant à l’exécution, il suffit d’avoir vu danser Vestris, et quelques autres artistes, pour juger que cette exécution est parfaite. Les pas, l’aisance de leur enchaînement, la fermeté, la vitesse, la précision, les déploiements gracieux, tout cela s’y trouve réuni ; mais aussi tout cela doit être animé et dirigé par le génie.</p>
+        <p>N’oublions jamais qu’un ballet est un tableau, et que pour faire un beau ballet, il faut nécessairement que le compositeur soit un grand peintre : la scène est la toile, les danseurs sont les personnages, leurs mouvements sont les couleurs, la fidélité du costume le coloris. Un homme qui veut s’appliquer sérieusement à la danse doit posséder la fable, l’histoire et les poèmes de l’Antiquité. Comme son art n’emprunte ses charmes que de l’imitation, embellie d’un caractère choisi, il faut qu’il étudie les ouvrages où il peut trouver des modèles de cette imitation. Une teinture de géométrie lui sera utile, elle lui apprendra à mettre de la justesse dans les combinaisons et de la précision dans les formes. Le dessin est encore une partie qu’il ne doit pas négliger ; s’il l’ignore il commettra des fautes grossières dans la composition ; les têtes ne sont plus placées agréablement et contrastent mal avec les effacements du corps ; les bras ne seront plus dans des situations aisées, tout sera lourd et privé d’ensemble et d’harmonie. Il est encore plus nécessaire que le maître de ballet connaisse la musique ; elle doit être en quelque sorte la régulatrice de tous les mouvements du danseur, qui ne saisira jamais l’esprit ni le caractère de son rôle, s’il n’asservit pas fidèlement et avec une précision sévère sa pantomime aux impulsions que la mélodie vocale ou instrumentale doit lui communiquer.</p>
+        <p>Muni de toutes ces connaissances, l’artiste peut se livrer hardiment à l’effort de son génie ; mais qu’il s’attache surtout à faire un beau choix. Ce ne sera point dans les tavernes qu’il ira prendre ses modèles. Les sujets ignobles ne prêteront point à ses talents ; il n’y trouverait qu’une nature avilie qui flétrirait son imagination. Il doit se souvenir qu’il est peintre, et ne chercher dans les objets qui l’environnent que des objets dignes d’occuper ses pinceaux.</p>
+        <p>Ici je m’arrête ; je sens que si je me laissais entraîner par mon sujet, il me faudrait entrer dans des développements qui me mèneraient beaucoup trop loin. Avant de finir cependant, je dirai encore un mot de la <hi rend="i">Chorégraphie</hi> ; c’est l’art de décrire la danse : Thoinet Arbeau, chanoine de Langres, est le premier qui l’imagina vers la fin du seizième siècle ; Beauchamps donna dans la suite une forme nouvelle à la chorégraphie, il exprima les pas par des signes auxquels il attacha des significations différentes. Feuillet a travaillé dans la suite sur le même plan. Cet art que les anciens ont peut-être ignoré était autrefois fort simple ainsi que la danse ; mais de nos jours, les pas sont compliqués, doubles, triples même ; leur mélange, leur combinaison est immense et presque incalculable ; il est donc difficile de les écrire et plus encore de les déchiffrer. Cet art est d’ailleurs fort imparfait, il n’indique exactement que l’action des pieds, et s’il désigne les mouvements des bras, il n’exprime ni les positions, ni les contours qu’ils doivent avoir.</p>
+        <p>Je finis en rappelant à mes lecteurs que je me suis déterminé à publier ce petit traité que pour répondre à l’empressement de quelques personnes qui ont désiré d’avoir par écrit les principes d’un exercice qu’ils ne connaissaient que par la pratique. Me rendre utile et agréable a été mon but. Si je ne puis réunir ces deux avantages, le premier me satisfera toujours beaucoup, parce qu’il me donnera lieu de prouver mon zèle et mon application à remplir les fonctions de mon état.</p>
+        <p>Fin.</p>
+      </div>
+    </body>
+    <back>
+      <div type="appendix">
+        <head>Planches</head>
+        <figure xml:id="pl1"><graphic url="martinet_art-de-la-danse/pl1.png"/></figure>
+        <figure xml:id="pl2"><graphic url="martinet_art-de-la-danse/pl2.png"/></figure>
+        <figure xml:id="pl3"><graphic url="martinet_art-de-la-danse/pl3.png"/></figure>
+        <figure xml:id="pl4"><graphic url="martinet_art-de-la-danse/pl4.png"/></figure>
+        <figure xml:id="pl5"><graphic url="martinet_art-de-la-danse/pl5.png"/></figure>
+        <figure xml:id="pl6"><graphic url="martinet_art-de-la-danse/pl6.png"/></figure>
+        <figure xml:id="pl7"><graphic url="martinet_art-de-la-danse/pl7.png"/></figure>
+        <figure xml:id="pl8"><graphic url="martinet_art-de-la-danse/pl8.png"/></figure>
+        <figure xml:id="pl9"><graphic url="martinet_art-de-la-danse/pl9.png"/></figure>
+      </div>
+    </back>
+  </text>
+</TEI>
