@@ -1,1 +1,16 @@
 # danse
+
+* [angiolini_festin-de-pierre](xml/angiolini_festin-de-pierre.xml)
+* [angiolini_programme-semiramis](xml/angiolini_programme-semiramis.xml)
+* [cahusac_danse-ancienne-moderne](xml/cahusac_danse-ancienne-moderne.xml)
+* [cahusac_encyclopedie-anthologie](xml/cahusac_encyclopedie-anthologie.xml)
+* [chasles_notice-ondine](xml/chasles_notice-ondine.xml)
+* [gautier_notice-diable-boiteux](xml/gautier_notice-diable-boiteux.xml)
+* [gautier_notice-giselle](xml/gautier_notice-giselle.xml)
+* [gazettes_morvan](xml/gazettes_morvan.xml)
+* [janin_notice-sylphide](xml/janin_notice-sylphide.xml)
+* [levinson_danse-au-theatre](xml/levinson_danse-au-theatre.xml)
+* [levinson_valery-philosophe-danse](xml/levinson_valery-philosophe-danse.xml)
+* [louys_dialogue-danse](xml/louys_dialogue-danse.xml)
+* [martinet_art-de-la-danse](xml/martinet_art-de-la-danse.xml)
+* [valery_philosophie-danse](xml/valery_philosophie-danse.xml)
