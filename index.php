@@ -49,15 +49,20 @@ else {
         <aside id="aside">
           <?php
 if ( $doc ) {
-  // if (isset($doc['download'])) echo $doc['download'];
-  // auteur, titre, date
+  echo '<nav id="download" title="Téléchargements">
+  | <a target="_blank" href="http://obvil.github.io/danse/xml/'.$doc['code'].'.xml">xml</a>
+  | <a target="_blank" href="'.$basehref.'epub/'.$doc['code'].'.epub">epub</a>
+  | <a target="_blank" href="'.$basehref.'kindle/'.$doc['code'].'.mobi">kindle</a>
+  | <a target="_blank" href="markdown/'.$doc['code'].'.md" title="Markdown">texte brut</a>
+  | <a target="_blank" href="iramuteq/'.$doc['code'].'.txt">iramuteq</a>
+  | <a target="_blank" href="html/'.$doc['code'].'.html">html</a>
+';
+  echo '<p> </p>';
   echo '
 <header>
   <a class="title" href="'.$basehref.$doc['code'].'">'.$doc['title'].'</a>
 </header>
-  <a href="http://obvil.github.io/danse/xml/'.$doc['code'].'.xml">xml</a>
-| <a href="'.$basehref.'epub/'.$doc['code'].'.epub">epub</a>
-| <a href="'.$basehref.'kindle/'.$doc['code'].'.mobi">kindle</a>
+
 <form action="#mark1">
   <a title="Retour aux résultats" href="'.$basehref.'?'.$_COOKIE['lastsearch'].'"><img src="'.$basehref.'../theme/img/fleche-retour-corpus.png" alt="←"/></a>
   <input name="q" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/><button type="submit">🔎</button>
@@ -68,6 +73,15 @@ if ( $doc ) {
 }
 // accueil ? formulaire de recherche général
 else {
+  echo "\n".'<nav id="download" title="Téléchargements">
+  | <a target="_blank" href="http://obvil.github.io/danse/xml/" title="Source XML/TEI">tei</a>
+  | <a target="_blank" href="epub/" title="Livre électronique">epub</a>
+  | <a target="_blank" href="kindle/" title="Mobi, format propriétaire Amazon">kindle</a>
+  | <a target="_blank" href="markdown/" title="Markdown">texte brut</a>
+  | <a target="_blank" href="iramuteq/">iramuteq</a>
+  | <a target="_blank" href="html/">html</a>
+  </nav>';
+  echo '<p> </p>';
   echo'
 <form action="">
   <input style="width: 100%;" name="q" class="text" placeholder="Rechercher de mots" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/>
