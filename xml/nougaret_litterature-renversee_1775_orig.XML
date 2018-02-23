@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La littérature renversée, ou l’art de faire des pièces de théâtre sans
+                    paroles [graphies originales]</title>
+                <author key="Nougaret, Pierre-Jean-Baptiste (1742-1823)">Pierre-Jean-Baptiste
+                    Nougaret</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>Stylage sémantique</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Wordpro</name>
+                    <resp>Numérisation et encodage TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+                <date when="2017"/>
+                <idno type="xml"
+                    >http://obvil.paris-sorbonne.fr/corpus/danse/nougaret_litterature-renversee_1775_orig.xml</idno>
+                <idno type="html"
+                    >http://obvil.paris-sorbonne.fr/corpus/danse/nougaret_litterature-renversee_1775_orig.html</idno>
+                <idno type="txt"
+                    >http://obvil.paris-sorbonne.fr/corpus/danse/nougaret_litterature-renversee_1775_orig.txt</idno>
+                <idno type="epub"
+                    >http://obvil.paris-sorbonne.fr/corpus/danse/nougaret_litterature-renversee_1775_orig.epub</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author>Pierre-Jean-Baptiste Nougaret</author>, <title>La Littérature
+                        renversée, ou l’Art de faire des pièces de théâtre sans paroles ; ouvrage
+                        utile aux poètes dramatiques de nos jours. Avec un Traité du geste,
+                        contenant la manière de représenter les pièces de théâtre à l’aide des bras
+                        et des jambes, pour la commodité des acteurs qui ont une mauvaise
+                        prononciation ; et offrant en outre une excellente méthode aux gens mariés,
+                        pour se quereller dans leur ménage, sans faire de bruit : suivi de l’Art de
+                        se louer soi-même, d’après les principes de M. Lin**</title>,
+                        <pubPlace>Berne, Paris</pubPlace>, <publisher>chez les débitants de
+                        brochures nouvelles</publisher>, <date>1775</date>, XV-64 p. ; in-8. Source
+                    : <ref target="https://books.google.fr/books?id=NYqIf90YKUwC">Google
+                        Livres</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1775"/>
+            </creation>
+            <langUsage>
+                <language ident="fre">fre</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="epigraph" xml:id="epigraphe">
+                <pb n="iv"/>
+                <head>[ÉPIGRAPHE.]</head>
+                <quote>
+                    <p rend="i">L’Auteur qui choisit avec soin le Paradoxe, &amp; qui le défend
+                        avec intrépidité, tirera de ce talent de grands avantages pour sa fortune
+                        &amp; sa réputation.</p>
+                    <bibl>Théorie du Paradoxe, pag. 188.</bibl>
+                </quote>
+            </div>
+            <div type="dedication" xml:id="dedicace">
+                <head>A MONSIEUR DE VOLTAIRE.</head>
+                <salute rend="left"><pb n="v"/><hi rend="sc">Monsieur,</hi></salute>
+                <p><hi rend="i">Ce n’est point à la grandeur ni aux richesses, que je dedie le fruit
+                        de mes veilles, quoique ce soit l’usage. Je ne remplirai point cette Epître
+                        de louanges outrées</hi> ; je ne vous donnerai point de l’encensoir par le
+                    nez, <hi rend="i">comme c’est encore l’usage. Non, <hi rend="sc">Monsieur</hi>,
+                        c’est au vrai mérite que j’offre mon Ouvrage, quoique ce soit très-peu la
+                        coutume. En un mot, c’est à M. <hi rend="sc">de Voltaire</hi> que je fais
+                        hommage de mes premières productions ; &amp; c’est tout dire. Votre nom seul
+                        vaut un éloge, en dépit des mirmidons qui ôsent se mesurer avec le colosse
+                        de la Littérature.</hi></p>
+                <pb n="vj"/>
+                <p><hi rend="i">Je m’arrête &amp; vous renvoie à la Lettre que je vous écris pour
+                        votre instruction, &amp; qui suit immédiatement ma <hi rend="sc"
+                            >Pantomime</hi>. Je vous exhorte d’y jetter les yeux, si vous desirez
+                        d’apprendre encore de nouvelles choses.</hi></p>
+                <p><hi rend="i">Je suis avec l’admiration que vous inspirez à tous ceux qui savent
+                        plus que leur A.B.C.</hi></p>
+                <salute rend="left">MONSIEUR,</salute>
+                <signed>Votre très-humble &amp; très-obéissant Serviteur,<lb/> D**, grand Sauteur du
+                    sieur <hi rend="sc">Nicolet</hi>.</signed>
+            </div>
+            <div type="preface" xml:id="avertissement">
+                <head>AVERTISSEMENT <hi rend="i">DU LIBRAIRE.</hi></head>
+                <p><pb n="vij"/>Les Auteurs Dramatiques font paraître depuis assez long-temps des
+                    Tragédies, des Comédies, des Opéras sérieux, &amp; sur-tout des Opéras bouffons,
+                    ou Comédies-mêlées-d’ariettes. Il faut varier la Scène &amp; donner au Public
+                    des <hi rend="sc">Pantomimes</hi> : voilà ce qui s’appelle du neuf, du nouveau !
+                    Que mes Confrères impriment les productions des cerveaux poétiques de notre
+                    tems ; ils ne débiteront que des Ouvrages cent fois rebattus. Moi, qui me pique
+                    de me distinguer, je ne veux mettre au jour que des <hi rend="sc"
+                        >Pantomimes</hi>.</p>
+            </div>
+            <div type="contents" xml:id="table">
+                <head>TABLE.</head>
+                <list>
+                    <item><pb n="viij"/><hi rend="i">Epître dédicatoire à M. de Voltaire</hi>, pag.
+                        v</item>
+                    <item><hi rend="i">Avertissement du Libraire,</hi> vij</item>
+                    <item><hi rend="i">Discours préliminaire, Préface, Avis au Lecteur ou tout ce
+                            qu’on voudra,</hi> ix</item>
+                    <item><hi rend="i">Les Ressources, ou le Tableau du Monde, Pantomime,</hi>
+                        i</item>
+                    <item><hi rend="i">Lettre d’un Grand-Sauteur à M. de Voltaire, sur les
+                            Pantomimes,</hi> 17</item>
+                    <item><hi rend="i">Post-Face, Post-Scriptum</hi>, ou <hi rend="i">Réflexions sur
+                            l’incertitude des Jugemens en matière de Littérature,</hi> 38</item>
+                    <item><hi rend="i">Traité du Geste, &amp;c.</hi> 49</item>
+                    <item><hi rend="i">L’Art de se louer soi-même,</hi> 61</item>
+                    <item>Par-tout où l’on trouvera <hi rend="i">Poste-face</hi>, lisez <hi rend="i"
+                            >Post-face</hi>. Au reste, le Grand-Sauteur ignore comment ce mot doit
+                        être écrit.</item>
+                </list>
+            </div>
+            <div type="preface" xml:id="discours-preliminaire">
+                <pb n="ix"/>
+                <head>DISCOURS PRÉLIMINAIRE,<lb/><hi rend="i">PRÉFACE,</hi><lb/>AVIS AU
+                        LECTEUR,<lb/><hi rend="i">OU TOUT CE QU’ON
+                        VOUDRA</hi><note place="bottom">Redoutables Censeurs, foudre de la
+                        Littérature, trêve, trêve un moment à vos critiques. Lisez avec attention,
+                        &amp; vous verrez ce que vous n’avez point encore vu ; un Auteur qui se loue
+                        par humilité. <hi rend="i">Note du grand-Sauteur.</hi></note>.</head>
+                <p>Il n’est point aisé de devenir Auteur. Malgré le grand nombre de gens qui
+                    s’avisent d’écrire, les bons Ouvrages sont très-rares. La moindre production
+                    coûte des soins &amp; des peines infinies. Croirait-on qu’il faut plus d’un jour
+                    avant d’accoucher d’un Opéra-bouffon, ou d’une Comédie-mêlée-d’ariettes ?</p>
+                <p>Mais ce n’est pas seulement la difficulté ou le manque de génie, qui doit arrêter
+                    les Poètes modernes. Des raisons plus pressantes, des embarras plus <pb n="x"
+                    />fâcheux, doivent les engager à renoncer à la carrière pénible &amp; brillante
+                    d’hommes de Lettres, à cette montagne stérile, où croissent à peine quelques
+                    lauriers, &amp; sur laquelle un Dieu misérable éblouït une troupe d’infortunés,
+                    qu’il repaît de vent &amp; de fumée. Après avoir pâli, séché sur un Ouvrage, on
+                    fait quelquefois en vain la courbette à un Libraire ; il desire avoir <hi
+                        rend="i">gratis</hi> les manuscrits qu’on lui présente, ou du moins pour
+                    très-peu de chose ; il vous dupe, s’enrichit, &amp; l’Auteur meurt de faim : <hi
+                        rend="i">meurt de faim</hi>, façon de parler hyperbolique, qui approche
+                    pourtant de la vérité.</p>
+                <p>Si c’est un Drame qu’enfante un cerveau poétique, nouvelles peines, nouvelles
+                    tracasseries, &amp; nouveaux chagrins cuisans. Les Comédiens font les grands
+                    Seigneurs, reçoivent orgueilleusement un jeune Auteur qui n’est pas protégé, ou
+                    qui n’a pas <hi rend="i">l’honneur</hi> d’être de leurs amis, &amp; refusent
+                    presque tout, dans la crainte de se tromper : ils encouragent <pb n="xj"
+                    />rarement l’aurore du talent. Ces Messieurs ne pensent pas comme le Public,
+                    &amp; devraient bien avoir pour les Auteurs l’indulgence qu’ils desirent qu’on
+                    ait pour eux-mêmes. Mais s’ils s’arrogent des droits tout-à-fait impertinens, ce
+                    n’est point leur faute ; qu’on s’en prenne à ceux qui pourraient mettre un frein
+                    à leur orgueil, &amp; qui les laissent tranquillement former un Aréopage aussi
+                    indécent que ridicule.</p>
+                <p>On prétend, il est vrai, que la Jurisdiction des <hi rend="i"
+                        >Sénats-comiques</hi> va bientôt être supprimée pour toujours. Si ce projet
+                    s’effectue, les Poètes dramatiques seront encouragés, &amp; l’on fera
+                    disparaître un abus tout-à-fait criant. Je demande qui l’on doit considérer le
+                    plus, ou de celui qui compose une Pièce de théâtre, ou de ceux qui l’apprenent
+                    par cœur ? Je me doute de la réponse, &amp; je dis qu’il est donc absurde qu’un
+                    Auteur ne puisse faire jouer ses Drames, sans avoir humblement sollicité
+                    l’agrément des Comédiens. <pb n="xij"/>C’est à-peu-près comme si le compère de
+                    Polichinel était obligé de demander la permission de ses marionnettes, lorsqu’il
+                    veut les faire mouvoir ...... Mais ce n’est point à un grand-Sauteur à se mêler
+                    des affaires d’Etat.</p>
+                <p>Loin d’être effrayé par les revers &amp; les difficultés qu’éprouvent mes
+                    Confrères en littérature, j’ai résolu de me montrer au grand jour. Quel dommage
+                    qu’un génie tel que le mien ait été si long-temps ignoré ! L’Europe apprendra
+                    qu’elle a un grand homme de plus à admirer : mon esprit sublime fort enfin de
+                    l’obscurité, il va paraître avec éclat. Le soleil, en se montrant sur l’horizon,
+                    efface par sa vive lumière, tous les objets les plus brillans : je vais aussi
+                    faire fondre, dissoudre, éclipser tous <hi rend="i">les infiniment petits</hi>,
+                    à qui la manie d’écrire met la plume à la main. Le croira-t-on ? j’ai eu le
+                    bonheur de concevoir l’idée des Ouvrages que je mets au jours, en faisant le
+                    saut de carpe &amp; celui du tremplin.</p>
+                <pb n="xiij"/>
+                <p>Que les Comédiens refusent chaque semaine trois Tragédies, une Comédie, &amp; une
+                    douzaine d’Opéra-bouffons, ou Comédies-mêlées-d’ariettes ; cela m’est égal :
+                    qu’ils soient fiers, trop délicats, rébarbatifs ; peu m’importe. En dépit d’eux,
+                    le Public va me connaître. Grace au sieur <hi rend="sc">Nicolet</hi>, je suis
+                    certain de briller sur la Scène. Qu’ils tremblent, je me propose de consacrer
+                    mes veilles au Théâtre fameux des Boulevards ; oui, je vais le gratifier de
+                    plusieurs <hi rend="sc">Pantomimes</hi> excellentes, sublimes, merveilleuses :
+                    j’en jure par le <hi rend="i">Parnasse</hi>, aussi respecté des Poètes que le
+                        <hi rend="i">Styx</hi> était redoutable aux Dieux de la Mythologie ; ou
+                    plutôt j’en jure par le <hi rend="i">Repoussoir</hi>, machine qui sert à nous
+                    élever quand nous saisons nos sauts-périlleux : ce serment-là est terrible dans
+                    la bouche d’un grand-Sauteur.</p>
+                <p>Que deviendront les Comédiens, si j’amène la mode des Drames où l’on ne parle
+                    point ! Ce ferait leur jouer un <pb n="xiv"/>assez mauvais tour, &amp; rendre
+                    service au Public .... Exécutons un aussi noble dessein ; qu’ils apprenent à
+                    être moins farouches &amp; plus faciles ; qu’ils fachent que maintenant le plus
+                    petit <hi rend="i">mirmidon</hi> peut s’illustrer, &amp; que la souquenille
+                    &amp; le manteau-court peuvent cacher un grand-homme.</p>
+                <p>Que l’univers aura d’obligations au sieur <hi rend="sc">Nicolet</hi> ! Il m’ouvre
+                    la barrière du théâtre, qu’il n’est guères aisé de franchir la première fois.
+                    Hélas ! peut-être que sans lui je languirais encore dans l’obscurité ; on
+                    ignorerait l’existence d’un génie qui doit être célèbre à jamais. Que mon
+                    amour-propre soit délicieusement chatouillé ! Je grossirai les Dictionnaires des
+                    Auteurs vivans : que j’aurai de plaisir à voir mon nom moulé dans un Livre où
+                    l’on ne met sans doute que celui des gens illustres !</p>
+                <p>Je suis faché que la modestie m’empêche d’en dire davantage. Le Lecteur devinera
+                    tout ce que je n’ôse lui révéler, <pb n="xv"/>&amp; sera contraint d’avouer
+                    qu’il existe enfin un Auteur modeste.</p>
+            </div>
+        <div type="chapter" xml:id="ressources">
+                <pb n="15"/>
+                <head>LES RESSOURCES,<lb/><hi rend="i">OU</hi> LE TABLEAU DU MONDE,<lb/><hi
+                        rend="i">PANTOMIME.</hi></head>
+                <div type="set" xml:id="personnages">
+                    <head>PERSONNAGES<hi rend="sc"> <hi rend="i">de la
+                        Pantomime.</hi></hi></head>
+                    <pb n="14"/>
+                    <castList>
+                        <castItem>LE SULTAN.</castItem>
+                        <castItem>ARLEQUIN.</castItem>
+                        <castItem>LA MAITRESSE d’Arlequin.</castItem>
+                        <castItem>Premier MAGICIEN.</castItem>
+                        <castItem>Second MAGICIEN.</castItem>
+                        <castItem>PAILLASSE.</castItem>
+                        <castItem>Une PARVENUE.</castItem>
+                        <castItem>Gens d’Affaires.</castItem>
+                        <castItem>Troupe de Joueurs.</castItem>
+                        <castItem>Plusieurs petits Génies.</castItem>
+                        <castItem>Troupe de Démons.</castItem>
+                        <castItem>Foule de Peuple.</castItem>
+                    </castList>
+                    <p rend="i">La Scène est dans la Turquie Européenne.</p>
+                </div>
+                <div type="scene" xml:id="scene-01">
+                    <head>SCENE PREMIERE.</head>
+                    <p rend="i">Le Théâtre représente un Palais magnifique.</p>
+                    <p>Arlequin vient avec sa Maitresse ; il l’assure de son amour ; il lui fait
+                        entendre ensuite que le Sultan est fort embarrassé, qu’il est sans argent,
+                        sans ressource : ils s’en moquent.</p>
+                </div>
+                <div type="scene" xml:id="scene-02">
+                    <head><hi rend="i">SCENE II.</hi></head>
+                    <p>La Maitresse d’Arlequin se retire à l’aspect du Sultan, qui fait les
+                        démonstrations du <pb n="2"/>plus affreux désespoir. Il embrasse Arlequin,
+                        &amp; lui prodigue les marques d’une vive amitié : celui-ci feint de le
+                        plaindre quand le Sultan le regarde, &amp; rit à l’écart. Lazzis
+                        d’Arlequin.</p>
+                </div>
+                <div type="scene" xml:id="scene-03">
+                    <head><hi rend="i">SCENE III.</hi></head>
+                    <p>Les Créanciers du Sultan viennent en foule ; ils sont mis grottesquement. Le
+                        Sultan les caresse d’abord ; mais comme ils se montrent inexorables, il les
+                        chasse : Arlequin les suit, sous prétexte de les appaiser.</p>
+                </div>
+                <div type="scene" xml:id="scene-04">
+                    <head><hi rend="i">SCENE IV.</hi></head>
+                    <p>Le Sultan, désespéré, reste seul. Une Musique agréable se sait entendre. Un
+                        Magicien descend du Ciel, dans un char. Le Sultan, épouvanté, se jette la
+                        face contre terre.</p>
+                </div>
+                <div type="scene" xml:id="scene-05">
+                    <head><hi rend="i">SCENE V.</hi></head>
+                    <p>Le Magicien sait signe au Sultan de se relever, &amp; lui sait entendre qu’il
+                        vient lui donner du secours. On apporte par son ordre <pb n="3"/>trois
+                        grands coffres, qu’il assure devoir bientôt se remplir d’argent. Le Sultan,
+                        au comble de la joie, fait sonner de la trompette, pour appeller le
+                        Peuple.</p>
+                </div>
+                <div type="scene" xml:id="scene-06">
+                    <head><hi rend="i">SCENE VI.</hi></head>
+                    <p>Foule de Peuple de tout âge &amp; de toute condition. On entend une Musique
+                        éclatante. Plusieurs petits Génies descendent sur des nuages dorés, chargés
+                        de faisceaux d’échasses. Ils les posent au milieu du Théâtre, &amp;
+                        remontent dans leurs nuages. Le Magicien fait signe au Peuple qu’on ne peut
+                        avoir des échasses qu’avec de l’argent. Marques de désespoir de la part de
+                        ceux qui sont pauvres. Paillasse ne peut en acheter qu’une seule. Scène
+                        plaisante de ceux qui, par orgueil, en prennent plus qu’il ne leur en faut
+                        pour marcher. On voit de jolies femmes en faire présent à leurs amans.
+                        Quelques-unes en vendent en cachette, sans que le Sultan s’en apperçoive.
+                        L’argent est mis dans les coffres. Le Magicien remonte au Ciel.</p>
+                </div>
+                <div type="scene" xml:id="scene-07">
+                    <pb n="4"/>
+                    <head><hi rend="i">SCENE VII.</hi></head>
+                    <p>Arlequin paraît avec un autre Magicien ; il lui fait entendre
+                        qu’il voudrait avoir l’argent qui est dans les coffres. Le Magicien fait des
+                        conjurations, &amp; sort avec Arlequin, en lui faisant signe qu’il ne
+                        tardera point à posséder les trésors qu’il envie.</p>
+                </div>
+                <div type="scene" xml:id="scene-08">
+                    <head><hi rend="i">SCENE VIII.</hi></head>
+                    <p>Le Sultan, enchanté, ouvre les coffres pour considérer ses richesses ; il
+                        n’en sort qu’une épaisse fumée. Le Sultan se livre de nouveau au désespoir,
+                        &amp; sort en adressant des vœux au Ciel.</p>
+                </div>
+                <div type="scene" xml:id="scene-09">
+                    <head><hi rend="i">SCENE IX.</hi></head>
+                    <p rend="i">Le Théâtre change &amp; représente une rue.</p>
+                    <p>Paillasse, monté sur son échasse, fait beaucoup de lazzis ; mais, comme pour
+                        l’avoir, il a donné tout son argent, il fait entendre qu’il meurt de faim.
+                        Un Pauvre vient lui demander l’aumône. Paillasse exprime sa misère, <pb
+                            n="5"/>Le Mendiant lui propose de se défaire de son échasse. Mais
+                        Paillasse, attaché à cette marque d’honneur, rejette avec dédain la
+                        proposition. Cependant, craignant de mourir tout-à-fait de faim, il consent,
+                        après bien des signes d’irrésolution, à en vendre la moitié. Ils se
+                        retirent, chacun d’un côté différent.</p>
+                </div>
+                <div type="scene" xml:id="scene-10">
+                    <head><hi rend="i">SCENE X.</hi></head>
+                    <p rend="i">Le Théâtre représente un jardin agréable.</p>
+                    <p>Arlequin danse avec ses amis, leurs maitresses &amp; la sienne, dont il est
+                        de plus-en-plus enchanté. Sa tendre amie, lorsqu’il ne s’en apperçoit pas,
+                        écoute avec plaisir un autre soupirant, le recherche, minaude &amp; lui
+                        sourit. On sert un repas splendide. Tous s’enivrent. On propose de jouer :
+                        Arlequin perd tout son argent, &amp; s’en va, désespéré, rebuté par sa
+                        maitresse, qui le voit sans le sol. Tous les Acteurs de la scène sortent
+                        après lui, en se moquant du pauvre Arlequin.</p>
+                </div>
+                <div type="scene" xml:id="scene-11">
+                    <head><hi rend="i">SCENE XI.</hi></head>
+                    <p rend="i"><pb n="6"/>Le Théâtre change, &amp; représente une Salle des
+                            appartemens du Sultan.</p>
+                    <p>Des Courtisans, qui se promènent dans la salle, font entendre que le Sultan,
+                        accablé de douleur, est tombé malade : les uns s’en affligent, les autres
+                        s’en réjouïssent.</p>
+                </div>
+                <div type="scene" xml:id="scene-12">
+                    <head><hi rend="i">SCENE XII.</hi></head>
+                    <p>On apporte le Sultan sur un lit ; il se plaint du sort, &amp; veut
+                        mourir.</p>
+                </div>
+                <div type="scene" xml:id="scene-13">
+                    <head><hi rend="i">SCENE XIII.</hi></head>
+                    <p>La muraille de la Salle s’entrouvre avec fracas. Le premier Magicien paraît,
+                        &amp; touche le lit, qui se change en un Trône superbe. Il fait entendre au
+                        Sultan, qu’il va réparer ses pertes. Les faux Courtisans, épouvantés,
+                        prennent la fuite.</p>
+                </div>
+                <div type="scene" xml:id="scene-14">
+                    <pb n="7"/>
+                    <head><hi rend="i">SCENE XIV.</hi></head>
+                    <p>De petits Génies sortent de dessous quatre tables, qui sont
+                        changées en cornes d’abondance. Ils en tirent des robes de toutes couleurs,
+                        &amp; sur-tout beaucoup de noires. Les petits Génies entrent ensuite dans
+                        les cornes d’abondance, &amp; disparaissent. On sonne de la trompette.</p>
+                </div>
+                <div type="scene" xml:id="scene-15">
+                    <head><hi rend="i">SCENE XV.</hi></head>
+                    <p>Le Peuple accourt ; une partie a des échasses, &amp; l’autre n’en a point. On
+                        vend les robes : plusieurs de ceux qui ont des échasses en achettent ; les
+                        autres qui ont employé toute leur fortune au premier achat, ne peuvent en
+                        avoir : sujet de chagrin pour eux. Grand nombre de ceux qui n’ont point
+                        d’échasses font emplette de robes. Les autres, toujours pauvres, restent
+                        dans leur premier état. Pendant cette Scène, plusieurs femmes charmantes
+                        distribuent de ces robes à la dérobée. Paillasse se jette aux genoux du
+                        Sultan, pour en obtenir une. Le Sultan inexorable la lui refuse
+                        constamment ; mais il trouve le moyen d’en <pb n="8"/>excroquer une de
+                        plusieurs couleurs. On lui rend hommage. Marques singulières de sa gloire
+                        &amp; de son amour-propre. L’argent se met de nouveau dans les coffres. Le
+                        Magicien disparaît.</p>
+                </div>
+                <div type="scene" xml:id="scene-16">
+                    <head><hi rend="i">SCENE XVI.</hi></head>
+                    <p>Arlequin &amp; le second Magicien entrent par le fond du Théâtre. Le Sultan
+                        continue de faire des amitiés à Arlequin, qui, feignant d’en être touché,
+                        conjure encore le Magicien, son ami, de lui procurer les trésors renfermés
+                        dans les coffres. Le Magicien qu’il implore fait de nouvelles conjurations,
+                        &amp; sort avec Arlequin &amp; tout le peuple.</p>
+                </div>
+                <div type="scene" xml:id="scene-17">
+                    <head><hi rend="i">SCENE XVII.</hi></head>
+                    <p>Le Sultan, entouré de ses fidèles Courtisans, veut voir ses richesses. Les
+                        coffres s’ouvrent ; il s’en élève des tourbillons de flammes : un bruit
+                        affreux se fait entendre. Le Palais semble être tout en feu. Le Parquet
+                        s’entr’ouvre.</p>
+                </div>
+                <div type="scene" xml:id="scene-18">
+                    <pb n="9"/>
+                    <head><hi rend="i">SCENE XVIII.</hi></head>
+                    <p>Plusieurs Démons sortent des entrailles de la terre, armés de
+                        fourches &amp; de flambeaux. Ils font des grimaces ; des gestes effrayans
+                        &amp; des sauts périlleux. La peur s’empare de tout le monde. Le Sultan
+                        &amp; toute sa Cour s’échappent, pénétrés de frayeur. Les Démons redoublent
+                        leurs sauts, s’abandonnent à la joie, se jettent enfin dans les coffres,
+                        &amp; tout disparaît.</p>
+                </div>
+                <div type="scene" xml:id="scene-19">
+                    <head><hi rend="i">SCENE XIX.</hi></head>
+                    <p rend="i">Le Théâtre représente une Salle richement ornée, éclairée
+                            par des lustres &amp; des girandoles.</p>
+                    <p>On voit Arlequin avec beaucoup de monde : sa Maitresse le dédaigne
+                        toujours.</p>
+                </div>
+                <div type="scene" xml:id="scene-20">
+                    <head><hi rend="i">SCENE XX.</hi></head>
+                    <p>Les Démons rapportent les coffres. Arlequin distribue une partie de l’argent.
+                        Sa Maitresse le recherche alors ; enchanté, il lui prodigue <pb n="10"/>ses
+                        richesses. On joue. Devenu plus défiant par la première épreuve qu’il a
+                        faite, Arlequin s’apperçoit que quelques-uns des Joueurs le filoutent : il
+                        en jette un par la fenêtre. Les autres Escrocs prennent le parti de celui
+                        qui vient d’être puni par Arlequin. Combat entre les amis du mort &amp; ceux
+                        d’Arlequin. Plusieurs sont tués de part &amp; d’autre. Les Vainqueurs
+                        chargent les morts sur leurs épaules, &amp; sortent.</p>
+                </div>
+                <div type="scene" xml:id="scene-21">
+                    <head><hi rend="i">SCENE XXI.</hi></head>
+                    <p rend="i">Le Théâtre représente une Campagne arrosée d’une
+                            rivière.</p>
+                    <p>Arlequin &amp; ses amis jettent dans la rivière les corps de ceux qu’ils ont
+                        tués.</p>
+                </div>
+                <div type="scene" xml:id="scene-22">
+                    <head><hi rend="i">SCENE XXII.</hi></head>
+                    <p rend="i">Le Théâtre représente l’Appartement du Sultan,</p>
+                    <p>Plusieurs Courtisans vêtus de noir &amp; en longs manteaux, font entendre que
+                        le Sultan est mort de douleur.</p>
+                </div>
+                <div type="scene" xml:id="scene-23">
+                    <head><hi rend="i">SCENE XXIII.</hi></head>
+                    <p rend="i"><pb n="11"/>Le Théâtre représente une grande Place, au
+                            milieu de laquelle est un bûcher.</p>
+                    <p>Pompe funèbre du Sultan : son corps est mis sur le bûcher.</p>
+                </div>
+                <div type="scene" xml:id="scene-24">
+                    <head><hi rend="i">SCENE XXIV.</hi></head>
+                    <p>Arlequin &amp; le second Magicien paraissent sur un char traîné par quatre
+                        éléphans. L’un &amp; l’autre insultent à la mémoire du Sultan. On met le feu
+                        au bûcher.</p>
+                </div>
+                <div type="scene" xml:id="scene-25">
+                    <head><hi rend="i">SCENE XXV.</hi></head>
+                    <p>Le jour s’obscurcit ; un bruit affreux &amp; une musique délicieuse se font
+                        entendre alternativement ; la foudre tombe par éclats ; les éclairs semblent
+                        embrâser le Théâtre. Paillasse exprime sa frayeur par des Lazzis plaisans.
+                        Arlequin &amp; le Magicien sont culbutés &amp; engloutis dans les flammes,
+                        qui s’élevent de plusieurs abymes, ouverts tout-à-coup. Le <pb n="12"/>char
+                        se change en un Trône brillant, sur lequel se montre le premier Magicien ;
+                        les quatre éléphans sont métamorphosés en Esprits aériens ; le feu du bûcher
+                        s’éteint, &amp; à sa place paraît une Gloire éclatante de lumière, au milieu
+                        de laquelle est le Sultan ressuscité, qui prie son puissant Protecteur de le
+                        secourir. Le Magicien fait un signe, &amp; ils sont tous enlevés dans les
+                        airs.</p>
+                </div>
+                <div type="scene" xml:id="scene-26">
+                    <head><hi rend="i">SCENE XXVI.</hi></head>
+                    <p rend="i">Le Théâtre représente une Salle du Palais du Sultan.
+                            (Tout le Peuple est rassemblé).</p>
+                    <p>Le Magicien fait sortir de dessous le Théâtre un mortier d’une énorme
+                        grandeur, &amp; fait entendre que, pour de l’argent, on entrera dans le
+                        mortier, &amp;, qu’après y avoir été pilé par les Esprits aériens, on en
+                        sortira plus beau, plus aimable qu’on ne l’était auparavant. Le Peuple se
+                        présente en foule pour essayer la métamorphose : mais très-peu sont reçus,
+                        parce qu’il ne s’en trouve guère qui aient de quoi payer. Ceux qui entrent
+                        dans le mortier, en sortent, après quelques coups de pilon, vêtus avec la
+                        dernière élégance. <pb n="13"/>On les voit se promener, en s’examinant d’un
+                        œil satisfait. Des femmes font entrer dans le mortier quelques-uns de leurs
+                        amis : un d’eux, qu’on a pilé, apperçoit dans la foule une jeune Paysane
+                        très-jolie ; il offre une somme, afin qu’elle éprouve aussi l’heureux
+                        expédient ; &amp; bientôt on la voit paraître vêtue en Duchesse. Un laquais,
+                        un porteur d’eau, un décroteur se présentent ensuite : au moyen de
+                        quelqu’argent qu’ils donnent, on leur permet de se métamorphoser. On les
+                        voit sortir en Gens d’affaires ; c’est-à-dire, avec une large figure, &amp;
+                        des habits richement ridicules.</p>
+                </div>
+                <div type="scene" xml:id="scene-27">
+                    <head><hi rend="i">SCENE XXVII.</hi></head>
+                    <p>Paillasse saute avec adresse dans le mortier : il en sort habillé
+                        grottesquement. Lazzis de Paillasse pour marquer son étonnement, mêlé
+                        d’orgueil.</p>
+                </div>
+                <div type="scene" xml:id="scene-28">
+                    <pb n="14"/>
+                    <head><hi rend="i">SCENE XXVIII.</hi></head>
+                    <p>Le Magicien, qui se doute que cette dernière ressource n’a pas
+                        rempli les coffres du Sultan, fait entendre qu’il est des gens riches, qu’on
+                        peut mettre à contribution : il les fait appeller.</p>
+                </div>
+                <div type="scene" xml:id="scene-29">
+                    <head><hi rend="i">SCENE XXIX.</hi></head>
+                    <p>Les gens qu’a désigné le Magicien arrivent en corps. Il leur demande une
+                        somme considérable. Ils résistent, mais cèdent bien-tôt aux menaces qu’on
+                        leur fait. Ils vuident leurs poches, se dégraissent de tout ce qui leur
+                        donnait un embonpoint prodigieux, &amp; paraissent diminués de moitié.
+                        Celui-là, qui avait les bras &amp; les jambes prodigieusement enflés,
+                        devient semblable à un squelette ; celui-ci, dont le ventre hydropique était
+                        d’une grosseur énorme, diminue à vue d’œil, &amp; se rapétisse tellement,
+                        qu’il est méconnaissable, &amp;c. &amp;c. &amp;c. Le Magicien fait signe à
+                        tous les gens <hi rend="i">dégraissés, désenflés, débouffis</hi>, de sortir
+                        au plutôt. Mais s’appercevant qu’ils menacent <pb n="15"/>le Peuple, il
+                        frappe la terre de sa baguette, elle s’entr’ouvre &amp; les engloutit au
+                        bruit des fanfares, qui se font tout-à-coup entendre.</p>
+                </div>
+                <div type="scene" xml:id="scene-30">
+                    <head><hi rend="i">SCENE DERNIERE.</hi></head>
+                    <p>Le Palais du Sultan devient plus riche &amp; plus brillant. Des guirlandes de
+                        fleurs sont suspendues de tous côtés. On découvre dans le lointain des
+                        jardins illuminés &amp; décorés des mains de l’Art &amp; de la Nature. Le
+                        Peuple vient exprimer au Sultan sa joie &amp; sa reconnaissance. Le Magicien
+                        l’assure qu’il doit compter maintenant sur un bonheur inaltérable. Le Peuple
+                        célèbre sa félicité. On forme un ballet, composé des différens états de la
+                        vie, &amp; qui présente le tableau du Monde. Le Magicien est enlevé dans un
+                        globe de lumière, &amp; fait connaître qu’il est un puissant Génie, par tout
+                        l’éclat qui l’environne : mais il fait entendre en même temps, qu’il n’a
+                        paru céder au Magicien, que pour donner plus d’éclat à son triomphe, &amp;
+                        plus d’expérience au Sultan. Il laisse après lui une nouvelle clarté.
+                        L’alégresse redouble. Le Sultan <pb n="16"/>n’a plus rien à desirer. Le
+                        Peuple se livre aux douces impressions qu’il éprouve ; &amp; tout le monde
+                        se retire au bruit d’une musique vive, qui exprime tour-à-tour les horreurs
+                        de la guerre, &amp; les charmes de la paix.</p>
+                    <trailer><hi rend="i">Fin de la Pantomime.</hi></trailer>
+                </div>
+            </div>
+            <div type="chapter" xml:id="lettre-grand-sauteur">
+                <pb n="17"/>
+                <head>LETTRE<lb/><hi rend="i">D’UN GRAND SAUTEUR</hi><lb/>A M. DE VOLTAIRE,<lb/><hi
+                        rend="i">SUR LES PANTOMIMES</hi><note type="star" place="bottom">Mettons le
+                        Public dans ma confidence. Cette Lettre est une espèce de Parodie de
+                        certaine Lettre qu’on trouve à la fin de la Tragédie intitulée : <hi
+                            rend="i">le Comte de Warwick</hi>. J’ai eu soin de marquer avec des
+                        guillemets les passages qui en sont tirés, &amp; de mettre en caractères
+                        italiques, ceux qui développent souvent les pensées que son Auteur ne fait
+                        qu’indiquer. J’avertirai aussi fidèlement si je m’avise d’extraire des
+                        morceaux de quelques autres Ouvrages. <hi rend="i">Note du grand
+                            Sauteur</hi>.</note>.</head>
+                <salute rend="left"><hi rend="sc">Monsieur,</hi></salute>
+                <p>Bien des gens s’imaginent qu’on ne peut être grand Auteur qu’à Paris ; vous êtes
+                    la preuve du contraire. Le génie est par-tout le même. Le fameux Bayle composait
+                    à la Haie <pb n="18"/>son Dictionnaire immortel ; &amp; vous, Monsieur, du bas
+                    de la montagne où vous êtes confiné, vous inondez l’Europe d’écrits célèbres,
+                    assaisonnés du sel de la fine plaisanterie, &amp; d’une critique quelquefois
+                    trop mordante, dans lesquels l’impie, l’athée, le dévot, peuvent contenter leur
+                    goût.</p>
+                <p><quote>« Je prends la liberté de vous consacrer cet essai de ma
+                        jeunesse ».</quote> Il vous annoncera les talens que l’âge va développer en
+                    moi. Vous connaîtrez que je dois vous égaler un jour. Les réflexions sensées
+                    dont j’accompagne cette Epître, ne pourront manquer de vous convaincre que j’ai
+                    beaucoup lu, beaucoup pensé, que je possède les règles d’un art dégradé de nos
+                    jours ; &amp; que tous ceux qui ôsent courir la même carrière que j’entreprends
+                    de franchir, ne sont que des <hi rend="i">mirmidons</hi>.</p>
+                <p>Vous possédez trop de sciences, votre génie est trop vaste, pour qu’il me soit
+                    permis de douter que vous ne puissiez enfanter des <hi rend="sc"><hi rend="i"
+                            >Pantomimes</hi></hi>. Oui, Monsieur, après le catalogue <pb n="19"/>de
+                    vos talens divers ; lorsqu’on nombrera vos qualités de Poète, d’Historien, de
+                    Géometre, de Physicien, de Romancier, de Fabuliste, d’Auteur dramatique en tout
+                    genre, &amp;c. &amp;c. on ajoutera, &amp; Faiseur de <hi rend="sc"><hi rend="i"
+                            >Pantomimes</hi></hi> : ce sera terminer magnifiquement votre éloge.</p>
+                <p>Je ne puis vous dissimuler ma surprise ; je suis étonné que vous n’en ayez point
+                    encore produit quelques-unes. Ma surprise est redoublée par la vive persuasion
+                    où je suis que vous avez tous les talens nécessaires pour devenir un grand
+                    compositeur de <hi rend="sc"><hi rend="i">Pantomimes</hi></hi> ; seul honneur
+                    qui manque à votre gloire littéraire, &amp; seul capable de satisfaire cette
+                    vaste ambition, qui vous porte à écrire tant d’ouvrages si différens les uns des
+                    autres.</p>
+                <p>Hâtez-vous, Monsieur, de mettre la main à la plume. Craignez d’avoir trop de
+                    rivaux dans la nouvelle carrière que je vous presse de parcourir. Les Tragédies
+                    modernes commencent à ressembler à des <hi rend="sc"><hi rend="i"
+                            >Pantomimes</hi></hi>. Je me contenterai de vous citer <hi rend="i"
+                        >Hypermnestre, Zelmire, la veuve du Malabar, Timoleon, Gaston &amp; Bayard,
+                        &amp;c. &amp;c.</hi></p>
+                <p>Notre Scène comique va bientôt aussi ne peindre que par des gestes les ridicules
+                    des <pb n="20"/>hommes. Rappellez-vous, s’il est possible, <hi rend="i">le
+                        Philosophe sans le savoir, Eugénie, l’Orpheline léguée, le Père de Famille,
+                        &amp;c. &amp;c.</hi> Faites encore attention, que la plupart des Drames <hi
+                        rend="i">du jour</hi> sont décharnés, stériles, &amp; ne contiennent que des
+                    mots. Ne voyez-vous pas-là les commencemens de la <hi rend="sc"><hi rend="i"
+                            >Pantomime</hi></hi> ? Que le Théâtre français éprouve encore un peu de
+                    décadence, &amp; l’on cessera tout-à-fait d’y parler. Les progrès de l’esprit
+                    humain seront alors à leur comble. J’ai pensé mettre ici une phrase pompeuse ;
+                    je l’aurais fait, si je ne savais que le style épistolaire doit être simple
+                    &amp; sans ornement.</p>
+                <p>Que les Sé**, les Lemi**, les du Bel**, les de Ros** gagneraient, si l’usage dont
+                    je parle était adopté de leur vivant !</p>
+                <p>Mais pourquoi ne le serait-il pas, si les représentations théâtrales continuent
+                    d’avoir des admirateurs ? C’est le plus souvent la situation d’un Personnage qui
+                    nous affecte, &amp; non ses discours. Que le silence est quelquefois éloquent !
+                    Oui, s’il est prouvé que les gestes suffisent pour faire entendre ce qui se
+                    passe dans notre âme, la parole est inutile dans les drames ; &amp; il est clair
+                    qu’on doit l’en bannir un jour, puisqu’on commence même à n’y mettre <pb n="21"
+                    />que de petites phrases, qu’on prend pour un dialogue vif &amp; coupé.</p>
+                <p>Que M. de Voltaire ne craigne donc pas de composer des <hi rend="sc"><hi rend="i"
+                            >Pantomimes</hi></hi>, &amp; qu’il lise attentivement les grandes
+                    vérités dont je vais lui faire part.</p>
+                <p>Je suis très-sûr que vous excellez en tout, que je ne suis auprès de vous qu’un
+                    petit Ecolier ; cependant je vais vous parler en Maître. Vous rirez de ma
+                    folie ; n’importe : mon orgueil m’éblouït &amp; me console. Je commence.
+                    Admirez, Monsieur, combien la lecture est utile, &amp; soyez émerveillé de la
+                    profondeur de mon esprit.</p>
+                <p>Il est probable que la <hi rend="sc"><hi rend="i">Pantomime</hi></hi> est de la
+                    plus haute antiquité. Avant d’introduire la parole dans les Drames, on aura
+                    commencé par les gestes tout simplement. Nous ne voyons point ce qu’elle était
+                    dans la Grèce ; mais nous savons qu’elle florissait à Rome, sous les premiers
+                    Empereurs. Aurait-elle été portée tout d’un coup au point de la perfection ?
+                    Elle doit avoir éprouvé le sort des connaissances humaines, qui ne se forment
+                    que par degrés.</p>
+                <p>Mais ce qui achève de prouver combien elle est ancienne, &amp; qu’elle donna même
+                    naissance aux Poèmes dramatiques en récit, c’est qu’on <pb n="22"/>a toujours
+                    dit qu’une Pièce de Théâtre avait des <hi rend="i">Spectateurs</hi>, &amp; non
+                    des <hi rend="i">Auditeurs</hi> : preuve sans réplique que le discours est
+                    étranger dans les Drames, &amp; qu’ils devraient n’être qu’en action. Par quelle
+                    vicissitude la plupart d’entr’eux ont-ils dégénérés jusqu’à devenir
+                    méconnaissables !</p>
+                <p><quote>« Il n’est que trop vrai que la <hi rend="sc"><hi rend="i"
+                            >Pantomime</hi></hi> est depuis long-temps dans ses jours de
+                        décadence ».</quote> Les Grecs &amp; les Romains en firent un spectacle
+                    sublime. Ces Nations ont perdu leur grandeur ; leur antique vertu s’est énervée,
+                    &amp; la <hi rend="sc"><hi rend="i">Pantomime</hi></hi> est tombée chez eux.
+                    Elle ne s’est point relevée parmi les Peuples modernes Les Français, au lieu de
+                    la rétablir dans son premier état, l’ont encore abaissée davantage. Ils croient,
+                    sans doute, que c’est un genre méprisable, fait pour amuser un seul instant. On
+                    oublie qu’elle pourrait peindre les vices, les ridicules des hommes, ainsi que
+                    la Comédie. On compose des <hi rend="sc"><hi rend="i">Pantomimes</hi></hi> qui
+                    ne signifient rien, <quote>« &amp; dont tout le mérite est réservé pour
+                        l’Actrice ou pour le Décorateur : aussi ne reste-t-il rien des ouvrages de
+                        cette espèce, quand la toile est tombée »</quote>.</p>
+                <p>Il faut être juste quand on est honnête-homme, <pb n="23"/>&amp; je ne veux point
+                    que ma nouvelle qualité d’Auteur me fasse perdre les sentimens estimables qui
+                    m’ont toujours distingué. J’avouerai donc que quelques <hi rend="i">Pantomimes
+                        de l’Ambigu Comique</hi> surpassent toutes celles qu’on a données en Europe,
+                    depuis la décadence de cet Art charmant chez les Romains. Avez-vous entendu
+                    parler, Monsieur, du joli Spectacle du sieur Audinot ? Il est composé de petits
+                    Acteurs, qui font ombrage à la grandeur de leurs rivaux : c’est vous en donner
+                    une idée. Il est fâcheux que les Pièces de ce Théâtre ne soient pas toutes sans
+                    paroles, &amp; que le Public ne sente pas assez le mérite des Drames où l’Acteur
+                    n’a rien à dire.</p>
+                <p>Après avoir justement loué <hi rend="i">la Belle au bois dormant, le Braconnier,
+                        &amp;c.</hi> il me sera permis de faire une mention honorable d’une <hi
+                        rend="sc"><hi rend="i">Pantomime</hi></hi>, que nous représentons depuis si
+                    long-temps sur le Théâtre du sieur Nicolet : les Amateurs conçoivent sans peine
+                    qu’il s’agit ici <hi rend="i">de l’Enlèvement d’Europe</hi>. Ah ! Monsieur, que
+                    je vous plains de ne l’avoir jamais vue ! Tous les Elémens y jouent un rôle ; on
+                    y voit en action les Dieux &amp; Paillasse, Junon &amp; Arlequin.</p>
+                <p>Depuis quelque temps on commence à sentir <pb n="24"/>à l’Opéra le mérite des <hi
+                        rend="sc"><hi rend="i">Pantomimes</hi></hi>. A chaque Drame nouveau, on
+                    tâche, bien ou mal, d’en insérer quelques-unes. Mais que ce goût peu réfléchi, y
+                    fait souvent tomber dans d’étranges bévues ! On m’a dit que dernièrement, pour
+                    prouver à un jeune homme combien il est doux d’aimer, on lui montre la tendre
+                    Ariane, que Thésée abandonne sur un rivage inconnu. Tout cela prouve qu’on est
+                    encore loin d’avoir approfondi le genre des Scènes muettes.</p>
+                <p><quote>« On se donne bien de garde, lorsqu’on va à la représentation d’une <hi
+                            rend="sc"><hi rend="i">Pantomime</hi></hi>, de demander les personnages
+                        font-ils les gestes qu’ils doivent faire »</quote> ? Le Sujet est-il
+                    entendu ? Exprime-t-il une action de la vie ? Reconnaîtra t-on les vices de la
+                    Société ? Ces bagatelles étoient reçues chez les Grecs &amp; chez les Romains.
+                    Le bon vieux temps n’est plus, <quote>« &amp; l’on dit tout haut qu’une <hi
+                            rend="sc"><hi rend="i">Pantomime</hi></hi> du siècle d’Alexandre ou de
+                        César, donnée aujourd’hui pour la première fois, seroit à peine
+                        regardée ».</quote></p>
+                <p><quote>« C’est au milieu de tels discours &amp; de tels préjugés, que j’ai ôsé
+                        concevoir &amp; exécuter une <hi rend="sc"><hi rend="i">Pantomime</hi></hi>
+                        <hi rend="i">admirable</hi> »</quote>, dans le vrai goût des Anciens, où
+                    l’on ne peut rien trouver <pb n="25"/>à reprendre. Que j’ai lieu de me
+                    glorifier ! Je suis le seul personnage érudit, sensé digne d’estime, qui existe
+                    actuellement, Voltaire seul excepté.</p>
+                <p><quote>« J’ai pensé »</quote> que les événemens multipliés, que les changemens de
+                    décorations, ne pouvoient que satisfaire les yeux &amp; l’esprit, <quote>« sans
+                        émouvoir la sensibilité de l’âme »</quote> ; que pour faire de véritables
+                        <hi rend="sc"><hi rend="i">Pantomimes</hi></hi>, il falloit choisir une
+                    action théâtrale, joindre les choses aux gestes ; que la <hi rend="sc"><hi
+                            rend="i">Pantomime</hi></hi> n’était pas le talent <quote>« de faire
+                        agir des hommes sur la Scène »</quote>, &amp; d’imaginer des changemens
+                    singuliers ; mais d’avoir quelqu’objet en vue, quelque ridicule à relever. Je le
+                    dis, parce que j’en suis sûr, &amp; que personne ne le sait ; répandre de
+                    l’intérêt dans une <hi rend="sc"><hi rend="i">Pantomime</hi></hi>, l’orner
+                    d’intrigue, d’actions, la rendre un tableau mouvant de la folie des hommes,
+                        <quote>« c’est le caractère distinctif des grands Maîtres, <hi rend="i"
+                            >c’est le mien</hi> »</quote>.</p>
+                <p><quote>« Le mérite n’est pas bien grand d’arranger une action vraisemblable ;
+                        mais créer des êtres à qui l’on donne des passions qu’il saut peindre,
+                        répandre dans les <hi rend="i">gestes</hi> qu’on leur prête, cet intérêt
+                        soutenu, cette chaleur qui donne à l’illusion l’air de la vérité, trouver,
+                        saisir ces sentimens qui s’échappent de l’âme, que <pb n="26"/>les <hi
+                            rend="i">gestes</hi> expriment, &amp; que l’homme médiocre ne rencontre
+                        jamais : voilà le talent rare &amp; supérieur, voilà le génie »</quote> !
+                        (<hi rend="i">Vous voyez bien, Monsieur, que c’est de mes talens dont je
+                        fais l’éloge.</hi>)</p>
+                <p>Que l’éloquence est une belle chose ! C’est le présent le plus cher de la
+                    Nature : mais tout le monde n’en est pas doué. Plus d’un Auteur ne devrait
+                    composer que des <hi rend="sc"><hi rend="i">Pantomimes</hi></hi>. Vous avez fait
+                    un tort considérable au genre que je célèbre, que j’enseigne, &amp; dans lequel
+                    je brille. On est quelquefois si charmé d’entendre parler les Héros de vos
+                    Tragédies, ils disent souvent des vérités si sublimes, &amp; tiennent des
+                    discours si mâles ; votre style est si beau, si harmonieux, qu’on oublie le
+                    plaisir d’aller voir des gens qui se font entendre sans parler, qui découvrent
+                    par leurs gestes les passions qui les agitent. Vous avez donc détruit une partie
+                    de la gloire des <hi rend="sc"><hi rend="i">Pantomimes</hi></hi>. C’est à moi de
+                    leur rendre l’éclat qu’elles ont perdu, jusqu’à ce que vous en preniez la peine
+                    vous-même. Je commence par placer dans celle-ci des coups de Maître, qui
+                    m’immortaliseront.</p>
+                <p><quote>« J’ai cherché la clarté dans le <hi rend="i">geste</hi>, la simplicité
+                        dans la marche. J’ai déployé sur la <pb n="27"/>Scène l’ame rusée &amp;
+                        fourbe d’Arlequin, le comique &amp; le burlesque de Paillasse, &amp; j’ai
+                        cru qu’avec cet avantage je serais bien malheureux, si j’avais besoin de ces
+                        ornemens si superflus, &amp; que l’on croit si nécessaires. Ma jeunesse,
+                        &amp; <hi rend="i">une grande connaissance du vrai beau</hi>, qui, pour
+                        n’être plus suivi, n’est pourtant pas oublié, me feront accueillir <hi
+                            rend="i">avec transport, ou</hi> avec cette indulgence qui récompense
+                        les efforts, &amp; encourage les dispositions. Il serait à souhaiter que mes
+                        succès engageassent <hi rend="i">le petit nombre de</hi> ceux qui se
+                        disputent aujourd’hui la Scène <hi rend="i">Pantomimique</hi>, à rentrer
+                        dans l’ancienne route, qui probablement est la plus sûre, &amp; dans
+                        laquelle, sans doute, ils <hi rend="i">n’iraient pas si</hi> loin que
+                        moi ».</quote>
+                    <quote>« Vous ne serez point surpris, Monsieur, quand vous aurez lu cette <hi
+                            rend="sc"><hi rend="i">Pantomime</hi></hi>, que plusieurs personnes se
+                        soient plaintes de n’y pas trouver de ces <hi rend="i">situations</hi> à
+                        retenir »</quote>, ou de ces <hi rend="i">coups de théâtre</hi>, si fréquens
+                    sur la Scène moderne. <quote>« Je crois bien que vous m’en saurez bon gré ;
+                        quant à ces personnes dont je vous parle, je suis bien fâché de ne pouvoir
+                        les satisfaire ; mais je leur répondrai, &amp; vous appuierez mon avis, sans
+                        doute, que pour bien exceller dans l’Art Pantomimique, <pb n="28"/>il faut
+                        mettre la chose pour le mot, &amp; rien de plus ; que des <hi rend="i"
+                            >gestes</hi> de situation profondément sentis, valent cent fois mieux
+                        que des <hi rend="i">gestes</hi> faits par l’esprit, pour refroidir l’ame ;
+                        qu’enfin il faut préférer le <hi rend="i">geste</hi> qui fait vivre un
+                        ouvrage, à celui qui sait briller l’Acteur »</quote> : soit dit en passant,
+                    ceci peut encore servir de règle pour les Théâtres, où la parole est en usage ;
+                    car je ne prétends pas moins qu’à la gloire d’éclairer mon siècle .... &amp; la
+                    postérité.</p>
+                <p><quote>« Combien de gens ignorent le mérite des <hi rend="sc"><hi rend="i"
+                                >Pantomimes</hi></hi> »</quote> ! Vives &amp; saillantes, sans
+                    froideur &amp; sans lieux communs, remplies de situations rapides qui parlent
+                    aux yeux, &amp; mettent à l’instant le Spectateur au fait, elles sont l’ouvrage
+                    d’hommes de goût, qui sentent, qui réfléchissent. Jugez par-là si je suis
+                    estimable !</p>
+                <p>Je dirai plus : <quote>« quand une <hi rend="sc"><hi rend="i">Pantomime</hi></hi>
+                        est touchante »</quote>, qu’elle est le tableau d’une action de la vie,
+                    qu’elle jette du ridicule sur nos défauts ; en un mot, qu’elle est excellente
+                    comme la mienne, elle vaut un Drame ; <quote>« je la préfere <hi rend="i"
+                            >même</hi> aux <hi rend="i">meilleures Pièces de
+                    Théâtre</hi> »</quote>.</p>
+                <p>On doit dans une <hi rend="sc"><hi rend="i">Pantomime</hi></hi> représenter des
+                    choses ; elle doit être une véritable Comédie, ou une véritable Tragédie, avec
+                        <pb n="29"/>cette différence, que dans les unes on exprime ses pensées à
+                    l’aide du discours, &amp; que dans l’autre on les peint par des gestes. Enfin,
+                    celui qui pourra m’imiter, qui mettra du saillant, du neuf, dans ses <hi
+                        rend="sc"><hi rend="i">Pantomimes</hi></hi>, est sûr de jouïr d’une
+                    réputation immortelle. C’est un genre trop méprisé, qu’il est facile de retirer
+                    de la poussière, qui peut couvrir de gloire, &amp; qui peut s’illustrer à jamais
+                    sous les mains d’un grand Maître.</p>
+                <p>Je vous ferai observer, Monsieur, qu’il est beaucoup plus en vogue chez les
+                    Anglais, que parmi nous<note type="star" place="bottom"><p>On appelle <hi
+                                rend="sc"><hi rend="i">Pantomime</hi></hi> sur le Théâtre de <hi
+                                rend="i">Covent-Garden</hi>, &amp; de <hi rend="i">Drury-Lane</hi> ;
+                            ce qui n’est, à proprement parler, que des <hi rend="i">mascarades</hi>,
+                            sans action liée, &amp; qui n’ont qu’un sens allégorique : par exemple,
+                            on a représenté de nos jours <hi rend="i">la France</hi>, sous la figure
+                            d’un Petit-Maître ; l’<hi rend="i">Angleterre</hi> sous la forme d’une
+                            Reine majestueuse, &amp;c.</p>
+                        <p>Les Anglais ont à Londres un Théâtre, nommé <hi rend="i"
+                                >Saddlen’swells</hi>, qui n’est destiné qu’aux <hi rend="i"
+                                >Pantomimes</hi> à machines. <hi rend="i">Note du grand
+                                Sauteur.</hi></p></note>. Ce Peuple sage &amp; <hi rend="i"
+                        >réfléchisseur</hi> a senti les beautés dont il est susceptible. Telle <hi
+                        rend="sc"><hi rend="i">Pantomime</hi></hi>, représentée à Londres, coûte
+                    quelquefois jusqu’à cent mille écus de frais. Le célèbre M. <hi rend="i"
+                        >Garrik</hi>, cet Acteur excellent, qu’on peut, je crois, comparer à nos <hi
+                        rend="i">Lekin</hi>, malgré l’enthousiasme de tout Paris ; cet Acteur si <pb
+                        n="30"/>admirable &amp; si naturel, doit au seul genre que je préconise la
+                    meilleure partie de sa fortune. Les <hi rend="sc"><hi rend="i"
+                        >Pantomimes</hi></hi> tiennent souvent lieu à Londres des petites Pièces
+                    qu’il est d’usage de jouer après les Drames en cinq actes ; &amp; c’est sur le
+                    Théâtre où se sont immortalisés les <hi rend="i">Shakespear</hi>, les <hi
+                        rend="i">Dryden</hi>, les <hi rend="i">Congrève</hi>, qu’on les représente :
+                    preuve que les <hi rend="sc"><hi rend="i">Pantomimes</hi></hi> vont remplacer en
+                    Angleterre les Poèmes récités, avant que les Français aient eu le courage de se
+                    distinguer entiérement par une aussi heureuse innovation.</p>
+                <p>Mais nos voisins des bords de la Tamise n’ont fait qu’approcher du but. Dans
+                    leurs <hi rend="sc"><hi rend="i">Pantomimes</hi></hi>, ils sacrifient tout aux
+                    décorations, aux machines. Ils sont encore loin d’y mettre l’action, le jeu
+                    nécessaires, &amp; cette peinture des mœurs, sans laquelle un Ouvrage est dénué
+                    de sel &amp; d’agrément.</p>
+                <p><quote>« J’ajouterai qu’il serait bien injuste &amp; bien cruel, que ceux qui ont
+                        des principes contraires se crussent en droit d’être mes ennemis. Je saisis
+                        cette occasion de me plaindre à vous publiquement <hi rend="i">d’une foule
+                            de gens qui ont la faiblesse d’esprit de me croire un homme
+                            ordinaire</hi> »</quote>, <hi rend="i">&amp; qui ôsent me disputer les
+                        lauriers dont mon front est couvert</hi>. Voilà quel est l’aveuglement &amp;
+                    la malice du siècle. Dès qu’on écrit, <pb n="31"/>on s’attire des envieux ; des
+                    critiques outrés &amp; de mauvais plaisans vous turlupinent, vous déchirent. On
+                    maltraite, on insulte, on vilipende, on épigrammatise l’Auteur <quote>« que l’on
+                        n’a jamais vu. Quoi ! faudra-t-il toujours dire aux hommes : Ne haïssez
+                        jamais celui qui ne vous est pas connu, &amp; que peut-être vous auriez
+                        aimé » ?</quote></p>
+                <p>En dépit de ces Censeurs sévères, je ne me trouve pas moins un habile homme.
+                        <quote>« Les désagrémens attachés aux arts de l’esprit, n’affaibliront point
+                        l’amour que j’ai pour eux, &amp; qui est né avec moi »</quote>. Il est rare
+                    que nos talens soient appréciés par nos contemporains ; mais <hi rend="i">un
+                        temps viendra</hi>, comme on l’a dit en grec dans certaine épigraphe, tirée
+                    d’Homère ; <hi rend="i">un temps viendra</hi> que le Public se fera un devoir de
+                    m’applaudir. Si je vis alors, <quote>« la reconnaissance me donnera de nouvelles
+                        forces, &amp; <hi rend="i">achevera de développer mes talens</hi>. Ceux pour
+                        qui <hi rend="i">le vrai beau</hi> est un plaisir utile &amp; réel, seront
+                            <hi rend="i">enthousiasmés de mon mérite</hi>, &amp; leur âme <hi
+                            rend="i">en extase</hi> me saura gré d’avoir fait des <hi rend="sc"><hi
+                                rend="i">Pantomimes</hi></hi> »</quote>. Donc je dois m’attendre de
+                    parvenir à la dernière postérité. Mon âme, <quote>« vous le voyez, Monsieur,
+                        s’épanche devant vous avec liberté. Je suis toutes ses
+                        impressions ».</quote></p>
+                <p><pb n="32"/>Je vous avertis, Monsieur, qu’il est de votre honneur de trouver admirable la <hi
+                        rend="sc"><hi rend="i">Pantomime</hi></hi> que je vous envoie. Depuis six
+                    mois, je cours tout Paris, afin de la lire de cercle en cercle, de société en
+                    société. Elle m’a valu au moins deux cents soupers délicieux. Je vous dirai même
+                    tout bas, avec la modestie qui me caractérise, que toutes les personnes qui
+                    l’ont entendue, en ont été ravies. Les endroits pathétiques ont arraché des
+                    larmes, &amp; les situations plaisantes ont fait éclater de rire, non-seulement
+                    parce qu’ils le méritaient, mais encore parce qu’il est d’usage de rire ou de
+                    pleurer, lorsqu’un Auteur a la complaisance de nous communiquer ses
+                    productions : on monte sa sensibilité selon le genre de l’ouvrage qu’on nous
+                    récite.</p>
+                <p>Apprenez aussi, Monsieur (sans pourtant que je cesse d’être modeste), apprenez
+                    qu’un Amateur de <hi rend="sc"><hi rend="i">Pantomimes</hi></hi> a été si charmé
+                    de la mienne, sur une simple lecture, qu’il a eu la générosité de me faire un
+                    présent considérable.</p>
+                <p>Encore quelques réflexions avant que je termine ma Lettre.</p>
+                <p>Ne soyez pas surpris, Monsieur, si j’ai voulu raisonner sur l’art des <hi
+                        rend="sc"><hi rend="i">Pantomimes</hi></hi>. La manie de paraître
+                    Philosophe, &amp; de discuter <pb n="33"/>toutes sortes de matières, commence à
+                    nous gagner. On a disserté sur le genre, sur les difficultés de
+                        l’Opéra-bouffon<note place="bottom">Peut-être veut-on parler ici de quelques
+                        Préfaces de MM. Quétaut &amp; Sedaine. <hi rend="i">Note de
+                        l’Editeur.</hi></note>. L’on fera surement bientôt un <hi rend="i"
+                        >in-folio</hi> de réflexions sur la manière d’écrire les ariettes. Un pareil
+                    Livre aurait la vogue ; il nous serait aussi utile que les régles de la Comédie
+                    &amp; de la Tragédie, dont on ne se soucie plus<note place="bottom">Les Auteurs
+                        sont aussi Prophètes que l’inintelligible Nostradamus. Ce Livre tant vanté a
+                        paru en effet sous le titre de l’<hi rend="i">Art du Théâtre</hi>, &amp;c.
+                        (Paris, <hi rend="sc">Cailleau</hi>). Il n’a pas eu tout le succès qu’on lui
+                        prédit ici. Ce qui n’a point empêché certain Auteur de prendre la licence de
+                        le piller entièrement, de le réduire en une petite brochure d’environ 100
+                        pages, &amp; de l’intituler : <hi rend="i">Essai sur la Comédie
+                        Lyrique</hi>. (<hi rend="i">Autre note de l’Editeur</hi>).</note>.</p>
+                <p>Je ne vous ai point entretenu de bagatelles ; le sujet que j’ai traité dans cette
+                    Lettre est très-grave. <hi rend="i">Un temps viendra</hi> (pour me servir encore
+                    de l’Epigraphe grecque) <hi rend="i">un temps viendra</hi> que les Français
+                    chériront à la fureur les <hi rend="sc"><hi rend="i">Pantomimes</hi></hi>. Le
+                    goût qu’ils ont pour les singuliers Drames dont je vous ai parlé plus haut,
+                    &amp; sur-tout pour l’Opera-bouffon, annonce la décadence des Lettres, ainsi
+                    qu’un grand amour du futile, qui, s’il croît toujours, <pb n="34"/>nous fera
+                    dédaigner le sublime, retourner aux magots de la Chine, aux collets empesés, aux
+                    Pantins, à la bonhommie de nos premiers pères, &amp; par la suite aux <hi
+                        rend="sc"><hi rend="i">Pantomimes</hi></hi> ; car l’ordre étant une fois
+                    renversé dans la Littérature, ne pourra se rétablir qu’avec le secours du genre
+                    pantomimique.</p>
+                <p>J’en reviens toujours à la <hi rend="sc"><hi rend="i">Pantomime</hi></hi>, comme
+                    l’Avocat Patelin à ses moutons. Afin de vous démontrer tout-à-fait les beautés
+                    qui en résultent, j’ai grande envie de comparer les meilleurs endroits des
+                    Poètes dramatiques à quelques situations frappantes de ma <hi rend="sc"><hi
+                            rend="i">Pantomime</hi></hi>. Mais je n’ai déjà que trop passé les
+                    bornes d’une Lettre. Il me suffira de citer deux ou trois Tragédies, dans
+                    lesquelles un geste, un regard, font le plus grand effet.</p>
+                <p>Sans fatiguer ma mémoire par de longues recherches, je vous rappellerai cette
+                    Scène de <hi rend="i">Zaïre</hi>, où, pour toute réponse aux discours du Sultan,
+                    cette Beauté malheureuse se contente de verser des larmes, ce qui ramène son
+                    amant, lequel s’écrie hors de lui-même :</p>
+                <quote>
+                    <l>Zaïre, vous pleurez !</l>
+                </quote>
+                <p>Dans un autre endroit de la même Pièce, le Sultan, à son tour, fait une vraie <hi
+                        rend="sc"><hi rend="i">Pantomime</hi></hi>. Sans prononcer un seul mot, il
+                    jette <pb n="35"/>un coup d’œil d’indignation sur Zaïre, qui lui dit, toute
+                    éperdue :</p>
+                <quote>
+                    <lg>
+                        <l>Quels regards effrayans vous me lancez ! hélas !</l>
+                        <l>Vous doutez de mon cœur.</l>
+                    </lg>
+                </quote>
+                <p>Passons maintenant à une autre Pièce. Comme les Spectateurs sont violemment
+                    agités, lorsque <hi rend="i">Warvick</hi> s’arrête tout-à-coup dans ce fameux
+                    monologue :</p>
+                <quote>
+                    <lg>
+                        <l>Voilà donc où sa faute &amp; le fort l’ont réduit.</l>
+                        <l>De son ingratitude il voit enfin le fruit.</l>
+                        <l>Il l’a trop mérité. Marchons .... Warwik, arrête.</l>
+                    </lg>
+                </quote>
+                <p>On voit qu’alors il se passe un nouveau combat dans son âme.</p>
+                <p>Mais quelle situation déchirante, lorsque <hi rend="i">Timoléon</hi>, après avoir
+                    dit :</p>
+                <quote>
+                    <l>Il faut donc suivre, ô ciel ! l’arrêt de ton courroux ;</l>
+                </quote>
+                <p>sans rien ajouter davantage, <quote>« étend la main vers les Conjurés, &amp; de
+                        l’autre s’enveloppe de son manteau<note place="bottom">Voyez la dernière
+                            Scène d’une Tragédie intitulée : <hi rend="i">Timoléon</hi>. (<hi
+                                rend="i">Note du grand Sauteur</hi>).</note>. »</quote></p>
+                <p>Que ce silence &amp; ce geste sont expressifs ! Les Spectateurs émus, agités, en
+                    concluent que le grand <hi rend="i">Timoléon</hi>, par un effort plus
+                    qu’héroïque, étouffe dans son âme les sentimens <pb n="36"/>de la nature,
+                    n’écoute que l’amour de la Patrie, &amp; se décide à faire poignarder son
+                    frère : les paroles sont inutiles pour exprimer tant de choses sublimes.</p>
+                <p>Après vous avoir prouvé l’excellence du genre pantomimique, &amp; le mérite dont
+                    j’ai le bonheur d’être doué. Je vais vous faire voir que je possède encore
+                    toutes les vertus morales. Oui, Monsieur, mon caractère &amp; ma personne sont
+                    aussi estimables que mes talens : mais c’est de mes vertus dont il s’agit ici.
+                        <quote>« Il y a long-temps que l’Envie s’est apperçue qu’il valait mieux
+                        calomnier l’homme que l’Ouvrage, parce que l’Ouvrage est sous les yeux du
+                        Lecteur, &amp; que l’homme n’y est pas. Mais s’il peut se dire à lui-même
+                        qu’il n’a jamais été ni faux ni injuste ; qu’il n’a jamais eu cette
+                        bassesse, si commune, de déprécier tout haut ce qu’il admirait tout bas ;
+                        s’il se représente que la franchise qui peut lui nuire est du moins un
+                        meilleur caractère que la politique lâche qui pourrait le servir ; s’il est
+                        bien sûr de n’avoir jamais eu à rougir devant des amis vertueux, ni sur-tout
+                        devant lui-même ; il se consolera du malheur d’être jugé par la foule qui ne
+                        le connaît pas. Enfin, attiré vers l’étude des Lettres par une sensibilité
+                        naturelle, qui seule peut donner du <pb n="37"/>prix à ses Ouvrages ;
+                        content de remplir ses momens par un travail qui plaise à son âme ; tandis
+                        que ses ennemis s’agiteront pour lui nuire, il vivra dans le repos<note
+                            place="bottom">Après la Tragédie intitulée <hi rend="i">Timoleon</hi>,
+                            voyez <hi rend="i">réflexions utiles</hi>.... utiles, selon l’Auteur.
+                                <hi rend="i">Note du grand Sauteur.</hi></note>. »</quote></p>
+                <p><quote>« Ces réflexions, qu’il fallait faire une fois »</quote>, (quelle en est
+                    la nécessité, me demandera-t-on peut-être, sans que je juge à propos de
+                    répondre) <quote>« ces réflexions, <hi rend="i">dis-je</hi>, qu’il fallait faire
+                        une fois, n’éclaireront point le préjugé, &amp; n’adouciront point la
+                        haîne ; on ne l’a pas espéré : mais aux yeux des hommes sages &amp;
+                        désintéressés, qui y reconnaîtront le caractère qui les a dictées, elles
+                        serviront de réponse à l’injustice &amp; à la calomnie<note place="bottom"
+                            >Ce discours si modeste est encore extrait des <hi rend="i">Réflexions
+                                utiles</hi>. (<hi rend="i">Nouvelle note du grand
+                            Sauteur</hi>).</note> ».</quote></p>
+                <p>Vous voyez que j’ai quitté insensiblement la plaisanterie. Je fuis charmé de
+                    trouver l’occasion de vous assurer sérieusement que personne n’admire plus que
+                    moi votre génie, votre érudition, &amp; ne se dit avec plus de sincérité,</p>
+                <salute rend="left">MONSIEUR,</salute>
+                <signed>Votre très-humble &amp; très-obéissant Serviteur, D***, grand Sauteur du
+                        S<hi rend="sup">r</hi> Nicolet.</signed>
+            </div>
+            <div type="postface" xml:id="postface">
+                <pb n="38"/>
+                <head>POSTE-FACE,<lb/><hi rend="i">POST-SCRIPTUM</hi>,<lb/><hi rend="sc"
+                        >ou</hi><lb/><hi rend="i"><hi rend="sc">Réflexions</hi> sur l’incertitude
+                        des jugemens en matière de Littérature.</hi></head>
+                <p>Il faut l’avouer, à ma honte....qu’il est dur cependant pour un Sauteur du
+                    premier mérite, (j’ai pensé dire pour un Auteur) de déclarer, <hi rend="i">à la
+                        face de tout un Public</hi>, qu’il n’est qu’un imbécille, ou que du moins on
+                    l’a cru tel ! Hélas ! il faut en convenir, puisque d’ailleurs je ne saurais le
+                    dissimuler ; ma <hi rend="sc"><hi rend="i">Pantomime</hi></hi>, cet ouvrage que
+                    je regardais comme le chef-d’œuvre de l’esprit humain, n’a point eu l’honneur
+                    d’être exécutée sur le Théâtre du sieur <hi rend="sc">Nicolet</hi>. Le goût
+                    &amp; la délicatesse gagnent donc jusqu’aux spectacles des Boulevards !.... Mais
+                    de ce que ma <hi rend="sc"><hi rend="i">Pantomime</hi></hi> est refusée,
+                    s’ensuit-il qu’elle soit mauvaise ? Concluons en plutôt que c’est une preuve
+                    infaillible de l’excessive crainte de celui qui pouvait mettre mes productions
+                    sur la Scène ; il a trouvé que je n’avais pas le sens commun ; <pb n="39"/>&amp;
+                    son idée lui a paru devoir être celle du Public.</p>
+                <p>Qu’il me soit permis au moins de me plaindre de l’orgueil &amp; du ridicule usage
+                    qui érigent tant de petits Censeurs en arbitres souverains du goût. Comment
+                    peut-il entrer dans une tête passablement organisée que son seul jugement réunît
+                    tous ceux qu’on pourrait donner sur le même objet ? Quoi ! un Particulier, deux,
+                    quatre, douze, &amp; un nombre plus considérable, si l’on veut, ont la vanité de
+                    se croire en état de décider de ce qui peut plaîre ou déplaîre dans le monde !
+                    Quand la pluralité des voix doit seule prononcer, il se trouve un petit Tribunal
+                    qui s’imagine que ses arrêts sont irrévocables.</p>
+                <p>Pour moi, mon amour-propre serait très-peu flatté des applaudissemens d’un seul,
+                    quelqu’éclairé qu’on le suppose ; je ne puis être satisfait que de l’approbation
+                    universelle.</p>
+                <p>Mais comment jugera-t-on du mérite d’un Ouvrage, me demandera-t-on sans doute,
+                    si, selon vous, personne n’est en droit de l’approuver ou de le critiquer ? Ma
+                    réponse est toute simple. Un seul Lecteur peut fort bien décider de ce qui lui
+                    déplaît, ou de ce qu’il approuve, selon l’impression dont il est susceptible,
+                    par le plus ou le moins de finesse de ses organes, <pb n="40"/>&amp; par le
+                    degré de ses connaissances ; mais il s’en suivra toujours que son jugement est
+                    unique, &amp; qu’il n’exprime que les sentimens d’un seul individu. Pour qu’il
+                    eût l’autorité requise, à laquelle la raison est forcée de se soumettre, il
+                    faudrait qu’il fût conforme à celui de tout le Public : &amp; c’est le nombre
+                    des éditions d’un Livre, la lenteur ou la rapidité de son débit, &amp; les
+                    suffrages unanimes qu’un Drame reçoît au Théâtre, qui sont la véritable marque
+                    de leur succès ou de leur peu de mérite.</p>
+                <p>A propos de ce que j’avance ici, je me suis souvent étonné de la manière rapide
+                    avec laquelle, lors d’une représentation théâtrale, le Parterre, c’est à dire,
+                    une assemblée de cinq ou six-cents personnes, décide du mérite d’une Pièce. Je
+                    me suis souvent demandé la raison de cette unanimité de suffrages qu’accorde la
+                    multitude. Comment se peut-il, me suis-je dit vingt fois, qu’un nombre
+                    considérable de Spectateurs devienne bons Juges des Ouvrages d’esprit, tandis
+                    qu’il n’y a peut-être pas trois de ces mêmes Spectateurs en état d’écrire ?
+                    Cette singularité, à laquelle on ne fait point assez d’attention, me paraît
+                    difficile à expliquer. Je vais pourtant essayer de résoudre une partie de la
+                    question, puisqu’il m’est impossible d’en donner une solution entière &amp;
+                    précise.</p>
+                <p><pb n="41"/>Ne peut-on pas dire d’abord que le vrai beau devant plaîre
+                    généralement, ne saurait se montrer sans exciter l’admiration, &amp; que tout ce
+                    qui n’est pas lui nous rebute, nous fatigue ? Il me semble encore que quelques
+                    Spectateurs délicats suffisent pour éclairer tous ceux qui les environnent :
+                    leurs pôres étant ouverts, leurs esprits étant agités, dans la chaleur d’une
+                    première représentation, lancent une inombrable quantité de petits corpuscules,
+                    qui, se liant avec ceux émanés de leurs voisins, portent par-tout le sentiment
+                    qui les anime ; &amp; la commotion, excitée par la connaissance intime du goût,
+                    devient bientôt générale : ainsi que les impulsions de l’électricité,
+                    s’étendraient jusqu’à l’infini.</p>
+                <p>Si ces raisons avaient quelque chose de satisfaisant, on en conclurait peut-être
+                    que le suffrage d’un petit nombre suffit, au moins au Théâtre, puisque je donne
+                    à entendre que c’est ordinairement lui qui fait le succès des Ouvrages qu’on y
+                    représente ; mais avant qu’on se décide tout-à-fait, j’observerai que je donne
+                    aussi à entendre qu’il saut que l’émotion particulière devienne générale, pour
+                    faire autorité : je prierai de remarquer encore que je dis plus haut qu’il n’y a
+                    point de vrai beau, s’il ne plaît à tout le monde ; de même que l’électricité
+                        <pb n="42"/>agit sur une chaîne non-interrompue.</p>
+                <p>Il est pourtant nécessaire de remarquer que les applaudissemens qu’on accorde aux
+                    ouvrages dramatiques, ne sont pas toujours une preuve de leur bonté. Le goût de
+                    la Nation peut être séduit par un caprice de mode, par une fantaisie passagère.
+                    Il revient tôt ou tard de son erreur, &amp; méprise ce qui faisait autrefois
+                    l’objet de son admiration. La <hi rend="i">Phèdre</hi> de Pradon l’emporta
+                    quelque temps sur celle de Racine ; &amp; l’<hi rend="i">Athalie</hi> de ce
+                    grand Homme ne fut pas toujours regardée comme un chef-d’œuvre. Nos enfans
+                    riront sûrement un jour du prodigieux succès des Drames informes mêlés
+                    d’ariettes ; de même que nous nous étonnons de l’admiration qu’inspiraient à nos
+                    bons aïeux leur <hi rend="i">Mère Sote</hi>, &amp; les Drames pieux dont il
+                    s’édifiaient si ridiculement.</p>
+                <p>Il est encore vrai que tel Auteur peut mettre en vogue des Ouvrages sans mérite,
+                    &amp; dont la réputation soit passagère ; parce qu’il a l’art de saisir le goût
+                    de son siècle, &amp; que ce qui plaît à un siècle ne réunit pas toujours le vrai
+                    beau, digne d’être estimé dans tous les temps.</p>
+                <p>On insistera peut-être pour contredire mon sentiment, sur ce qui distingue le
+                    succès des Ouvrages d’esprit en tout genre. Ne peut-il pas arriver, me
+                    répliquera-t-on, que tel homme <pb n="43"/>qui s’arroge le droit de prononcer
+                    définitivement, réunisse toutes les connaissances répandues parmi l’espèce
+                    humaine, ou possède ce tact fin, cette délicatesse de goût, qui devient
+                    l’interprète du goût universel, dont il est comme émané ; car qu’est-ce que la
+                    saine critique, si ce n’est le sentiment intime de ce qui peut généralement nous
+                    plaîre ; sentiment acquis par l’étude ou par l’heureuse conformation des
+                    organes ?</p>
+                <p>Je répondrai en peu de mots à cette grave objection, qu’il est impossible qu’un
+                    seul homme réunisse toutes les connaissances humaines, dont l’ensemble forme une
+                    véritable clarté ; &amp; que quand il les posséderait même toutes, les préjugés,
+                    la faiblesse de sa nature, offusqueraient toujours son jugement, de manière à
+                    rendre aux yeux du Sage ses décisions incertaines.</p>
+                <p>Il est donc avéré qu’en Littérature, comme en toute autre chose, le sentiment
+                    général l’emporte sur celui d’un seul ou d’un plus grand nombre ; &amp; que sans
+                    cette pluralité des voix on ne peut rien statuer de certain. Quelques
+                    réflexions, jettées rapidemment, vont achever de faire disparaître tous les
+                    doutes.</p>
+                <p>La postérité n’est autre chose que le suffrage unanime de tous les siècles.</p>
+                <p><pb n="44"/>Pourquoi mettrait-on tant d’ouvrages au jour, si l’approbation d’un
+                    seul Lecteur suffisait pour en assurer le mérite ?</p>
+                <p>Les Drames dont on enrichir la Scène, n’attendent-ils pas leur succès des
+                    applaudissemens continuels du Public ?</p>
+                <p>L’homme le plus savant, le plus raisonnable propose ses idées, &amp; ne se
+                    glorifie de leur justesse, que lorsqu’il est certain qu’on les approuve.</p>
+                <p>Dans mon particulier je soumets tout ce que je viens d’écrire à la censure
+                    générale ; c’est à elle qu’il appartient d’y mettre le sceau de la vérité.</p>
+                <p>S’il est prouvé que le sentiment d’un seul est moins que rien, &amp; même celui
+                    de plusieurs hommes assemblés, pourquoi tant de gens s’ingérent-ils donc de dire
+                    hautement le leur, &amp; de le regarder comme infaillible ? Je l’ai déjà
+                    remarqué, c’est que la vanité nous séduit, &amp; que l’usage permet au petit
+                    nombre de juger du goût universel.</p>
+                <p>Par exemple, quelle contradiction bizarre dans le procédé de toutes les
+                    Académies ? Pourquoi lisent-elles publiquement les Ouvrages couronnés ? Est-ce
+                    afin que les suffrages unanimes confirment les leurs ? Mais s’il arrive que ces
+                    mêmes suffrages unanimes révoquent <pb n="45"/>leurs arrêts, (ce qu’on ne voit
+                    que trop souvent) le Prix en est-il moins adjugé<note place="bottom"><p>Quelques
+                            personnes trouveront peut-être que c’est soutenir un vrai paradoxe, que
+                            de prétendre qu’il n’appartient absolument qu’au Public de décider du
+                            mérite des Ouvrages littéraires. Un petit nombre de Gens de goût,
+                            diront-ils, fixe le sentiment général. Mais qu’il soit permis de citer
+                            ici un ou deux passages du Discours que vient de prononcer à l’Académie
+                            Française M. de Lamoignon de Malesherbes : <quote>« Le Public s’est
+                                élevé un Tribunal indépendant de toutes les Puissances, &amp; que
+                                toutes les Puissances respectent, qui apprécie tous les talens, qui
+                                prononce sur tous les genres de mérite ... cette vérité que j’expose
+                                dans l’assemblée des Gens de Lettres, a déjà été présentée à des
+                                Magistrats, &amp; aucun n’a refusé de reconnaître ce Tribunal du
+                                Public, comme le Juge Souverain de tous les Juges de la
+                                terre ».</quote>
+                            <hi rend="i">Note de l’Editeur.</hi></p></note> ?</p>
+                <p>Il résulte encore de tout ceci que les Comédiens ont grand tort de se croire en
+                    état de décider si un Drame est digne ou non de paraître sur la Scène. Soyez
+                    moins paresseux, parce que vous êtes trop riches ; ayez un Théâtre où soient
+                    représentées toutes les Pièces qu’on vous apporte ; attendez que le véritable
+                    Juge des productions de l’esprit les ait mises à leur place ; &amp; convenez
+                    enfin que parce que vous avez une mémoire excellente, &amp; l’art de faire
+                    valoir les vers des Auteurs, vous n’en êtes <pb n="46"/>pas pour cela plus
+                    spirituels ni plus grands connaisseurs dans tout ce qui concerne la
+                    Poétique.</p>
+                <p>Il s’ensuit aussi que le Lecteur d’un Ouvrage, &amp; que le Spectateur d’un
+                    Drame, se trompent en regardant leur jugement comme infaillible, &amp;
+                    lorsqu’ils prononcent en dernier ressort à leur petit Tribunal.</p>
+                <p>Les Journalistes sont encore dans l’erreur, puisqu’ils donnent leurs avis comme
+                    des loix, &amp; veulent apprendre au Public ce qu’il doit estimer ou
+                    dédaigner.</p>
+                <p>Voilà des réflexions bien profondes pour un sujet qui n’en paraissait guère
+                    susceptible. On a peut-être oublié que toutes les belles choses que je viens
+                    d’écrire ont leur source dans le refus qu’ôse faire le sieur <hi rend="sc"
+                        >Nicolet</hi> de ma <hi rend="sc"><hi rend="i">Pantomime</hi></hi>. Si les
+                    Lecteurs sont étrangement surpris qu’une très-petite cause ait amené d’aussi
+                    grands effets, j’avouerai de bonne-foi que le sieur <hi rend="sc">Nicolet</hi>
+                    n’est qu’un prétexte dont je me suis servi pour avoir lieu de mettre au jour mes
+                    savantes idées.</p>
+                <p>Mais ce qui n’est que trop réel, c’est que le sieur <hi rend="sc">Nicolet</hi> a
+                    rejetté ma <hi rend="sc"><hi rend="i">Pantomime</hi></hi>. Comme j’étais loin de
+                    m’y attendre, &amp; que j’étais au contraire fortement persuadé qu’elle serait
+                    accueillie avec transport, j’ai écrit mon espèce de préface &amp; ma Lettre à M.
+                    de Voltaire, <pb n="47"/>dans une aussi douce conviction. Après avoir vu
+                    détruire par l’événement mes plus chères espérances, je n’ai pu me résoudre à
+                    perdre à jamais les charmantes productions de mon esprit, &amp; je me suis dit
+                    qu’il fallait les donner au Public sans y rien changer. Ainsi je raisonne de ma
+                        <hi rend="sc"><hi rend="i">Pantomime</hi></hi> comme si elle avait été
+                    jouée, tandis qu’elle ne l’a point été ; j’en parle comme si le Public l’avait
+                    très-bien reçue, tandis qu’il ne la connaît que par le moyen de l’impression,
+                    &amp; qu’il pourrait sort bien la trouver détestable.</p>
+                <p>Cette singularité me fera peut-être honneur, sur-tout dans un temps où l’on se
+                    croit Philosophe lorsqu’on affecte d’être bizarre. J’observe pourtant ici, pour
+                    la tranquillité de mon amour-propre, plutôt que par intérêt pour la vérité, que
+                    je ne suis pas le premier Auteur qui ait été cruellement trompé dans ses
+                    projets.</p>
+                <p>On sera surpris, sans doute, de voir la manière ouverte dont je sais mon éloge.
+                    J’ai cru d’après les exemples que j’en vois tous les jours, j’ai cru qu’il était
+                    du bon-ton de se louer soi-même, &amp; que la modestie n’était plus de mode.
+                    Sans parler des Extraits que tant d’Auteurs font de leurs Ouvrages, &amp; qu’ils
+                    insérent dans les Journaux, comme s’ils étaient d’une main étrangère ; sans
+                    parler des petites ruses en usage <pb n="48"/>parmi les Littérateurs, je me
+                    contenterai de citer la <hi rend="i">Lettre</hi> qui accompagne certaine
+                    Tragédie assez connue, &amp; dont j’ai eu la hardiesse d’insérer des fragmens
+                    dans ma missive adressée aussi à Monsieur de Voltaire. Mais si l’on veut encore
+                    un exemple frappant d’un amour-propre qui ne prend pas la peine de se cacher,
+                    qu’on parcoure le nouvel Ouvrage de M.L**, intitulé : <hi rend="i">Théorie du
+                        Libelle</hi><note place="bottom">Voyez ci-après ce que j’en dirai dans l’<hi
+                            rend="i">Art de se louer soi-même</hi>. (<hi rend="i">Note du Grand
+                            Sauteur</hi>).</note>.</p>
+                <p>Mais voilà qui est décidé ; je renoncé à la manie d’écrire. Assez de gens sans
+                    moi barbouilleront du papier ; d’ailleurs, je suis assez persuadé de mon
+                    mérite ; je me prodigue assez de louanges moi-même, sans avoir besoin des
+                    suffrages d’autrui. Les seuls applaudissemens que j’envie, ce sont ceux des
+                    Spectateurs rassemblés au Théâtre du sieur <hi rend="sc">Nicolet</hi>. Plutôt
+                    que d’écrire de mauvais vers ou de pitoyable prose, il vaut encore mieux faire
+                    des sauts périlleux. Je conseille néanmoins aux Auteurs tourmentés par la manie
+                    de s’illustrer, de composer des <hi rend="sc"><hi rend="i"
+                    >Pantomimes</hi></hi> : ils ne courront plus risque dans leurs Pièces de
+                    Théâtre, de faire débiter tant de choses insipides ou ennuyeuses.</p>
+            </div>
+            <div type="appendix" xml:id="traite-geste">
+                <pb n="49"/>
+                <head><hi rend="i">TRAITÉ</hi> DU GESTE, <lb/><hi rend="i"><hi rend="sc"
+                            >Contenant</hi> la maniere de représenter les Pièces de Théatre, à
+                        l’aîde des bras &amp; des jambes, pour la commodité des Acteurs nazillans,
+                        begayans, gasconnans ; &amp;c. &amp;c. &amp; offrant, en outre, une
+                        excellente Méthode aux gens mariés, pour se quereller dans leur ménage, sans
+                        faire de bruit.</hi></head>
+                <p><hi rend="sc">L’estimable</hi> antipathie que j’ai pour les Drames mal écrits,
+                    &amp; qui m’a fait desirer qu’on ressuscitât la Pantomime, me porte encore à
+                    souhaiter vivement, qu’en attendant cette utile résurrection, les Acteurs en
+                    tout genre soient tenus de ne jouer leurs rôles que par signes ou par le moyen
+                    des gestes. On trouvera peut-être que je forme des vœux bien bizarres, &amp;
+                    l’on m’accusera d’avoir des idées aussi creuses que celles des fous qui se
+                    repaissent de <hi rend="i">Châteaux en Espagne</hi>. Un moment, ne me jugez pas
+                    sans m’entendre ; je vais vous déduire mes raisons. Je rapporterai ensuite les
+                    principales objections avec lesquelles je me doute qu’on voudra pulvériser mon
+                    systême ; <pb n="50"/>&amp; je me flatte de les réduire en une fumée encore plus
+                    légère que celle qui s’évapore des fourneaux de l’Alchymiste, pour prix de l’or
+                    qu’il avait la bonhommie d’attendre. Si l’on me condamne, à la bonne-heure....
+                    je n’avouerai point que j’ai tort, mais je plaindrai l’erreur de mon siécle ;
+                    car je suis aussi têtu qu’un Philosophe, qu’un Economiste ou qu’un
+                    Encyclopédiste.</p>
+                <p>Pour revenir à mon sujet, n’est-il pas vrai que si les Acteurs ne jouaient que
+                    par signes, les Spectateurs ne seraient plus ennuyés, dégoûtés, révoltés par le
+                    mauvais style de la plupart des Pièces nouvelles ? Combien d’inconséquences,
+                    d’absurdités, de <hi rend="i">platitudes</hi>, tranchons le mot, n’entend-on pas
+                    dans ces nouveautés éphémères, fautes qui se trouveraient naturellement
+                    supprimées ! On voit que mon systême serait sur-tout très-favorable à une foule
+                    d’Auteurs d’Opéras-comiques. D’ailleurs, les Drames marcheraient rapidement, ne
+                    traîneraient plus en longueur ; les Actes seraient courts, &amp; l’on n’en
+                    verrait plus de postiches.</p>
+                <p>Que d’avantages résulteraient encore de mon projet, s’il était adopté ! Je ne
+                    veux m’arrêter ici qu’à ceux qui concernent personnellement les Acteurs. Combien
+                    de fois n’est-on pas au supplice par la mauvaise prononciation des héros de
+                    Théâtre ! L’un semble siffler en déclamant ; l’autre a tout l’accent d’un bas
+                    Normand, qui voudrait faire le beau parleur ; celui-ci change souvent les
+                    voyelles en <hi rend="i">s</hi>, écorche impitoyablement les oreilles par ses
+                    barbares élisions, &amp; <hi rend="i">gasconise</hi> comme s’il était <pb n="51"
+                    />encore dans sa Province ; enfin celui-là parle tellement du nez, qu’on serait
+                    tenté de croire que sa langue est montée dans son cerveau. Lorsqu’on entend un
+                    si grand nombre de personnages, Grecs, Romains, Tartares ou Mahométans,
+                    estropier la Langue Française, on s’imagine, par l’effet de l’illusion
+                    théâtrale, voir réellement ces illustres Personnages s’efforcer de s’exprimer
+                    dans un idiôme qui leur est tout-à-fait étranger : c’est ainsi que tant de
+                    Comédiens de Provinces parviennent à prêter quelque vraisemblance à leurs
+                    rôles.</p>
+                <p>Ce que je dis des rôles tragiques peut encore s’appliquer à ceux de la Comédie ;
+                    ajoutez que dans celle-ci la prononciation vicieuse choque bien davantage.
+                    Cependant, quel renversement de l’ordre naturel ! La maitresse parle souvent
+                    plus mal que la soubrette ; le valet a le langage d’un homme de Cour ; &amp; le
+                    Marquis, dépeint par le Poète comme un agréable répandu dans les meilleures
+                    Sociétés, s’énonce quelquefois aussi mal que s’il venait de sortir du
+                    Collége.</p>
+                <p>Ne m’attachant ici qu’aux fautes contre la Langue, qui échappent à beaucoup
+                    d’Acteurs, je n’observerai point combien ils estropient de vers, soit dans la
+                    chaleur du débit, soit par ignorance du rithme &amp; de la mesure. Je consens
+                    aussi à passer sous silence leurs bévues dans le débit même de leurs rôles.
+                    Combien de fois font-ils parler le Prince qu’ils représentent avec une fierté
+                    ridicule, tandis que ce Prince ne devrait mettre que de la noblesse dans ses
+                    discours ? La colère chez eux devient fureur ; la crainte, poltronnerie ;
+                    l’amour, <pb n="52"/>une faiblesse pusillanime, ou un emportement ridicule :
+                    enfin ils sont quelquefois aussi éloigné du ton de leurs rôles, qu’un chanteur
+                    est hors de mesure lorsqu’il chante faux.</p>
+                <p>Comment remédier à un si grand nombre d’inconvéniens ! .... Comment y remédier ?
+                    Je l’ai déjà dit, en ne faisant représenter sur nos Théâtres que des Pantomimes,
+                    ou du moins en prescrivant à tous les Acteurs l’obligation de jouer à la muette,
+                    si l’on veut conserver les Poèmes immortels qui font tant d’honneur au Théâtre
+                    Français.</p>
+                <p>J’entends de ma petite chambre, située auprès du Boulevard, les clameurs que ces
+                    mots font élever contre moi. <quote>« Monsieur le Grand-Sauteur, s’écrie-t-on,
+                        excelle mieux sans doute à faire le saut du Tremplin, qu’à raisonner juste.
+                        Comment diable voulez-vous qu’on nous représente nos meilleures Comédies,
+                        nos meilleures Tragédies, si vous prétendez que les Acteurs ne les rendent,
+                        non plus à l’aide de leurs poumons, mais par le moyen de leurs bras &amp; de
+                        leurs jambes ? Selon toute apparence, Monsieur le Mime, votre cervelle s’est
+                        renversée lorsque vous faisiez quelque saut périlleux ».</quote></p>
+                <p>C’est par de bonnes raisons que je vais répondre aux injures dont on pourra me
+                    gratifier. J’avoue d’abord qu’il serait à souhaiter qu’on ne représentât par
+                    gestes que les Pièces nouvelles, attendu que, pour l’ordinaire, elles ne font
+                    pas aussi-bien écrites que celles de Corneille, Molière, Racine, Voltaire,
+                    &amp;c. &amp;c. mais comme il faut établir une règle générale, à cause des abus
+                    qui se glisseraient, si l’on <pb n="53"/>se relâchait en quelque chose, je pense
+                    qu’il vaudrait mieux se priver du plaisir d’entendre réciter les vers de ces
+                    grands Hommes, afin de remédier plus sûrement à la mal-adresse des Acteurs,
+                    &amp; au privilège qu’ont les Dramatiques modernes d’ennuyer le Public.</p>
+                <p>Cela posé, je dirai qu’il me semble que des <hi rend="i">Gesticulateurs</hi>
+                    habiles pourraient représenter à la muette les excellentes Pièces, sans faire
+                    rien perdre de leurs beautés, parce que, tandis qu’ils les rendraient à l’aîde
+                    de différens signes, ceux des Spectateurs, qui voudraient en prendre la peine,
+                    liraient le Poème, pour juger si les gestes correspondent à l’action ; ainsi que
+                    cela se pratique à l’Opéra, où l’on n’entend pas facilement les paroles.</p>
+                <p>Je crois que l’on pourrait cependant faire quelque exception, si l’on jugeait à
+                    propos d’adopter mon systême : par exemple, une fois par mois on représenterait
+                    à l’ordinaire chacune des Pièces des plus fameux Poètes : on donnerait aussi
+                    quelquefois, à la manière usitée de nos jours, mais bien rarement, &amp; sans
+                    tirer à conséquence, <hi rend="i">l’Hypermnestre</hi> de M. le Mi**, le <hi
+                        rend="i">Warwick</hi> de M. de la Har**, &amp; <hi rend="i">Gaston &amp;
+                        Bayard</hi>, de M. de Bel**, en faveur des beaux vers répandus dans ces
+                    trois Ouvrages.</p>
+                <p>On permettrait encore au petit nombre d’Acteurs qui parlent bien leur Langue,
+                    &amp; qui, de nos jours, se sont illustrés sur la Scène ; on leur permettrait,
+                    dis-je, de joindre quelquefois la parole aux gestes. Par exemple, <hi rend="i"
+                        >le Kain, Brisard, Molé, Monvel</hi>, les demoiselles <hi rend="i"
+                        >Saint-Val, Raucourt, Doligny, Fanier, Luzy</hi> ; les <pb n="54"/>sieurs
+                        <hi rend="i">Bellecourt, Préville, Augé ; Clairval</hi>, au Théâtre
+                    italien ; <hi rend="i">Larrivée, Legros</hi>, &amp; la demoiselle <hi rend="i"
+                        >Arnould</hi>, à l’Opéra, jouïraient seuls de ce privilège singulier.</p>
+                <p>S’il se présentait un Acteur, sur quelque Théâtre que ce fût, qui eût un bel
+                    organe, &amp; s’exprimât avec grâce, mais qui parût gêné dans son maintien,
+                    ainsi que cela n’arrive que trop souvent ; de temps en temps il serait le maître
+                    de déclamer ou de chanter ses rôles, tandis qu’un autre Acteur placé à côté de
+                    lui, ferait tous ses gestes : méthode sagement pratiquée par les Anciens. Ce
+                    privilège serait accordée à . . . . . . . . . . . . . . . . &amp;c. &amp;c.
+                    &amp;c. Cinquante <hi rend="i">&amp;c.</hi> viendraient ici aussi-bien que dans
+                    un écrit qui a tant fait de bruit.</p>
+                <p><quote>« Mais (insistent mes nombreux Critiques) n’est-il pas absurde de vouloir
+                        nous priver du plaisir d’entendre chanter les divines ariettes de
+                        l’Opéra-comique, &amp; les airs sublimes du Chevalier Gluck ? Comment notre
+                        oreille se passerait-elle d’être si délicieusement chatouillée par la
+                        ravissante mélodie des Philidor, des Monsigny, des Grétri » ?</quote> Je
+                    réponds à cette grave objection, que je rends justice aux rares talens des
+                    habiles <hi rend="i">Orphées</hi>, qui enchantent la France &amp; l’Europe
+                    entière, &amp; que je n’ai nullement dessein de troubler en rien les charmans
+                    effets de leur art. Mais n’est-il pas prouvé qu’on n’entend presque jamais les
+                    paroles chantées ? La cause en est sans doute dans l’habitude qu’ont les Acteurs
+                    des deux Opéras, de ne point <pb n="55"/>assez ouvrir la bouche, peut-être dans
+                    la crainte de faire la grimace ; ou bien les accompagnemens trop forts étouffent
+                    tout-à-fait leur voix. Quoi qu’il en soit, un bel-esprit moderne a proposé à
+                    tous les Chanteurs de n’articuler que les notes, puisque c’est, dit-il, peine
+                    perdue de prononcer des paroles qu’on ne saurait entendre. Suis-je donc si
+                    ridicule de vouloir que ces mêmes Chanteurs se contentent tout simplement de
+                    faire des gestes, &amp; que l’orchestre seul exprime les passions qu’ils seront
+                    supposés ressentir ? Les Auditeurs auront-ils un plaisir moins vif,
+                    entendront-ils moins des airs charmans, &amp; seront-ils moins frappés par des
+                    effets admirables de musique ?</p>
+                <p>Si tout ce que j’ai dit jusqu’à présent n’avait persuadé qu’à demi les Lecteurs,
+                    je les prierais de s’intéresser au moins à la conservation des Acteurs qu’ils
+                    chérissent. Ouvrons les Annales de notre Théâtre, on y verra que les fureurs
+                    d’Oreste coûtèrent la vie à <hi rend="i">Montfleury</hi>. Rappellons-nous
+                    combien de célèbres Comédiens, à force de crier dans leurs rôles, deviennent
+                    poitrinaires, &amp; crachent le sang le reste de leurs jours : l’un se rompt une
+                    veine dans l’estomac, &amp; l’autre se foule même le tendon d’Achille. Que
+                    d’Acteurs sont morts pulmoniques ! Ces images douloureuses, que je suis
+                    contraint de retracer ici, doivent engager tous les cœurs sensibles à faire des
+                    vœux pour qu’on sente généralement la nécessité de ne faire monter sur la scène
+                    que des <hi rend="i">Gesticulateurs</hi>, &amp; non des Comédiens généreux, qui
+                    abrégent leurs jours avec un courage héroïque, <pb n="56"/>en cherchant à rendre
+                    trop au naturel les passions de leurs personnages, &amp; qui s’époumonent pour
+                    mieux se faire entendre.</p>
+                <p>Je me doute qu’on m’objectera que les représentations théâtrales perdraient toute
+                    leur illusion, si l’on n’y admettait que la Pantomime ou le geste. Je ne puis
+                    répondre à cette dernière difficulté, sans entrer dans un noble enthousiasme. Eh
+                    quoi ! Vous n’avez donc pas lu l’histoire ancienne ? Vous ignorez donc mille
+                    traits curieux, répandus dans différens Auteurs, &amp; qui prouvent le pouvoir,
+                    l’énergie, la sublimité des gestes ? L’art oratoire n’en emprunte-t-il pas toute
+                    sa force ? Dans le monde, dans la Société, ne témoigne-t-on pas mieux par un
+                    seul geste son mépris, sa colère, son admiration, son ennui, qu’en employant un
+                    flux de paroles ? Mais pour donner un exemple tout-à-fait poétique, qu’Homère
+                    est expressif, lorsqu’il dit en deux vers : <quote>« Jupiter marque son
+                        approbation par un seul mouvement de tête, &amp; ce mouvement fait trembler
+                        l’olympe &amp; tout l’univers ».</quote></p>
+                <p>Rappellez-vous encore ce que les Anciens ont écrit de Pylade &amp; de Bathilde,
+                    les plus fameux Pantomimistes qui aient jamais parus. Tout Rome, rempli
+                    d’admiration, partagea son estime entre ces deux grands hommes ; deux partis
+                    divisèrent la ville, &amp; faillirent même à s’égorger pour défendre la gloire
+                    de celui dont ils étaient les partisans. Ils inspiraient par leurs gestes, par
+                    leurs regards, la joie ou la crainte, la pitié ou la fureur.</p>
+                <p>Après un exemple aussi frappant, il serait inutile d’en rapporter d’autres. Mais
+                    je veux <pb n="57"/>convaincre les plus incrédules. Vous dites donc que le Geste
+                    n’est rien sans la parole ? Vous n’avez sans doute jamais su ce vieux conte
+                    qu’on fait d’un Prédicateur : se trouvant court en chaire, il s’avisa de
+                    prononcer des <hi rend="i">si</hi>, des <hi rend="i">mais</hi>, des <hi rend="i"
+                        >car</hi>, &amp; d’autres monosyllabes pareils, qu’il accompagnait de
+                    mouvemens des pieds &amp; des mains, comme s’il avait débité à son Auditoire les
+                    meilleures choses du monde. Après avoir ainsi fixé l’attention pendant plus
+                    d’une heure, il se retira, laissant tous ses Auditeurs très-émerveillés de son
+                    éloquence.</p>
+                <p>Encore un autre trait. Trois ou quatre gestes, faits pourtant par un homme du
+                    peuple, confondirent, dit-on, un habile Philosophe, qui ne douta point qu’il
+                    n’eût disputé avec un Savant du premier mérite.</p>
+                <p>Le Lecteur voit par ces différents traits combien les gestes sont expressifs,
+                    lorsqu’ils sont l’ouvrage réfléchi d’une personne intelligente, puisque, même
+                    quand ils ne signifient rien, ils présentent à l’esprit des idées complettes.
+                    Ils servent de commentaires au discours, &amp; la déclamation ne saurait briller
+                    sans leur appui ; au lieu qu’ils peuvent aisément se passer d’elle. On sait
+                    qu’un fameux Acteur tragique de nos jours, à l’exemple de l’Orateur Démosthène,
+                    a long-temps étudié devant un miroir les gestes qu’il se proposait d’employer au
+                    Théâtre.</p>
+                <p>Dans un Ouvrage considérable, que j’ai dessein de publier quelque jour, je
+                    donnerai des règles sur le Geste dramatique, tant comique que sérieux. J’y ferai
+                    voir qu’il y en a <pb n="58"/>qui subjugueront les applaudissemens, tout aussi
+                    bien que ces ports de voix forcés dont se servent actuellement les Comédiens.
+                    J’y ferai voir que la plupart des Actrices &amp; des Danseuses qui paraissent
+                    gantées sur la Scène, entendent peu leurs intérêts, puisqu’il n’y a rien qui
+                    flatte tant l’œil du Spectateur que l’aspect d’une jolie main, &amp; la
+                    blancheur d’un bras délicat. J’apprendrai enfin au Pantomimiste, que, de même
+                    que le débit ampoulé d’une belle tirade, arrache des applaudissemens convulsifs
+                    du Parterre, il peut aussi par de certains gestes <hi rend="i">d’appareil</hi>,
+                    faits avec affectation sur le bord du Théâtre, ravir, enthousiasmer tous les
+                    Spectateurs.</p>
+                <p>Mais je renvoie cette importante matière à l’Ouvrage où je la discute à fond ;
+                    &amp; je finirai ce petit Traité par deux observations dignes d’y trouver
+                    place.</p>
+                <p>Il me semble que mon projet sur la déclamation à la muette, devrait s’étendre
+                    jusques sur le Barreau. En effet, si l’on y établissait l’usage de ne plaider
+                    les Causes que par signes, quelques-uns de Messieurs les Avocats étourdiraient
+                    moins les Juges ; les Plaidoyers n’auraient qu’une juste longueur ; &amp; l’on
+                    ne verrait pas tant de Jurisconsultes atteints de rhumes meurtriers &amp;
+                    d’extinction de voix. — Mais comment citeraient-ils les Loix ? — En faisant
+                    porter avec eux les Auteurs dont ils auraient besoin, &amp; en indiquant aux
+                    Juges le volume &amp; la page. Les Orateurs ou Avocats romains, dans les Causes
+                    criminelles, &amp; lorsqu’il s’agissait de quelque malheureux opprimé, se
+                    contentaient souvent de montrer aux Magistrats un tableau qui représentait
+                    l’événement dont <pb n="59"/>il était question, afin, par cette peinture muette,
+                    d’émouvoir plus sûrement le cœur des Juges. Mon systême adopté, combien
+                    d’Avocats n’éprouveraient plus l’affront d’être rayés du Tableau !</p>
+                <p>Les criailleries que l’on entend tous les jours entre maris &amp; femmes dans les
+                    menages du peuple, me font desirer que l’on veuille y apprendre à se quereller
+                    par signes. Ce n’est qu’aux gens du commun que j’offre mon projet, non que je
+                    m’imagine que les gens de condition soient plus heureux lorsqu’ils sont mariés ;
+                    mais parce qu’on m’a dit qu’il était d’usage parmi eux de ne point contredire
+                    leur épouse, qui, de son côté, s’inquiète peu des actions de <hi rend="i"
+                        >Monsieur</hi> ; on se quitte lorsqu’on s’ennuie, chacun prend un hôtel
+                    séparé, &amp; vit au gré de ses caprices : on appelle cela, je crois, <hi
+                        rend="i">le bon ton</hi>. Ce n’est donc point aux gens du grand monde
+                    enchaînés par l’hymen, que mon projet peut être utile. C’est à vous que je
+                    l’adresse, rustiques Bourgeois, vous qui êtes réellement maris, &amp; qui faites
+                    souvent retentir votre voisinage des querelles qui s’élèvent entre vous &amp;
+                    vos pétulantes moitiés. Croyez-moi, les uns &amp; les autres, ménagez davantage
+                    vos poumons, &amp; n’instruisez point tout votre quartier de vos secrets
+                    domestiques. Ne vous disputez que par gestes .... Maris, n’allez pas croire que
+                    je parle d’un certain geste expressif, qui met toujours une femme à la raison ;
+                    si je vous donnais un tel conseil, la conversation serait trop tôt finie, &amp;
+                    vous n’en seriez pas meilleurs amis : je crois seulement que vous en devez faire
+                    la démonstration, &amp;, <pb n="60"/>à force de la réitérer à propos, vous aurez
+                    la paix dans votre ménage. Pour vous, tendres épouses, souvent compagnes
+                    infortunées d’hommes brutaux ; dans des momens d’orage, témoignez par votre
+                    silence la douleur qui vous accable : si des signes extérieurs ne peuvent
+                    fléchir un mari furieux, prodigue, ivrogne, infidèle, montrez-lui sans rien dire
+                    vos enfans ; &amp; ces innocentes créatures, en joignant leurs mains, en lui
+                    faisant de tendres caresses, toucheront son cœur, &amp; lui feront sentir tout
+                    ce qu’il vous doit. Si cet expédient n’avait aucun succès, recourez au dernier
+                    moyen ; portez votre main au front, en formant un angle aigu avec l’index &amp;
+                    le doigt du milieu : soyez persuadées que ce signe énergique le rendra plus
+                    raisonnable.</p>
+                <p>C’est ainsi que mon systême, s’il était adopté au théâtre, serait encore
+                    extrêmement utile à la Société. Mais, loin de goûter mes idées, on va peut-être
+                    me traiter comme tous les faiseurs de projets. Je prie au moins de considérer
+                    que je ne fonde point ma fortune sur celui que je donne au Public, &amp; que je
+                    n’ai point engagé des citoyens crédules à me faire de grosses avances, sur
+                    l’espoir de les enrichir bientôt avec moi. Content d’exceller dans ma profession
+                    de Sauteur &amp; d’Acteur Pantomimiste, je me borne à souhaiter d’avoir dans ce
+                    dernier genre tous les habitans du monde pour confrères. Qu’on essaie à mettre
+                    mon systême en usage, &amp; je me flatte qu’on avouera que la connaissance du
+                    geste est la science la plus sublime dans laquelle l’homme puisse exceller.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
