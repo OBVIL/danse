@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-03-20T09:38:25+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Danse et musique</title>
+        <author key="Suarès, André (1868-1948)">André Suarès</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Delphine Maître </name>
+          <resp>OCR et Stylage sémantique </resp>
+        </respStmt>
+        <respStmt>
+          <name>Delphine Vernozy</name>
+          <resp>Relecture</resp>
+        </respStmt>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>Édition TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/suares_danse-et-musique_1921</idno>
+        <availability status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+          <p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+          <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+          <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+          <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+          <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+        </licence></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Source : André <author>Suarès</author>, <title><hi rend="i">« Danse et musique »</hi></title>, in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., p. 133-141. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1921"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="133"/>
+        <head>Danse et musique,
+<lb/>par André Suarès</head>
+      <div>
+        <head>I</head>
+        <p>Toute danse appelle l’amour. Tout ballet laisse un regret : l’âme un instant ravie n’est pas satisfaite : elle retombe ou le spectacle l’a prise, d’où la musique l’a relevée, l’invitant à la suivre, mais ou la danse ne lui a pas permis de se fixer. Cette folle Ménade s’enivre de ses <pb n="134"/>bonds ; elle ne brûle que du vin qu’elle boit ; elle n’aspire pas à une ivresse éternelle, celle que la vigne du cœur verse à l’esprit. Elle n’a rien d’intérieur ; elle n’est point méditative. Même furieuses, ses passions sont éphémères, et toujours courantes ; elle est toute charnelle et toute à la volupté : elle n’en a même pas les mélancolies, tant sa nature est légère. Ainsi, après l’avoir saisie humblement par la main, après s’être suspendue à ses bras, la danse trahit la musique. Elle lui demande ce grand cœur, passionné et tendre, dont elle ne fait rien : elle ne lui donne pas le sien, car elle n’en a pas. Comme la jeunesse, elle n’a que son élan et son caprice à donner. Et qu’est-ce donc, pour l’art et la suprême convoitise de l’homme, que le corps même le plus charmant, s’il est sans âme ?</p>
+      </div>
+      <div>
+        <head>II</head>
+        <p>L’ancien ballet est un conte ou une épopée sans paroles, que les gestes figurent et que la musique accompagne avec un excès de fidélité. Le ballet semble immuable : on le dirait lié à cette forme surannée. Les Russes y ont mis beaucoup plus de surprise, une vie et une couleur parfois admirables. Mais ils ont beau faire : toutes leurs inventions ne vont qu’à embellir un art qui a fait son temps. Ils rendent à la mode une beauté démodée : le ballet de Nijinski ressuscite le ballet de Vestris, comme l’Europe de 1914 rappelle celle du Directoire.</p>
+        <p>Quel abus du ballet en tout genre, à tutu ou sans tutu. Tant qu’il y aura du tutu dans le ballet, on n’aura pas la danse. Je parle de tutu pour faire bref : Le tutu n’est qu’un signe, celui du rond de jambe, des bras en l’air, du sourire collé au visage humain, comme un masque de bouche à l’autre masque : même dans le feu, ce sourire est glacé. On croit voir un peuple de poupées et de pantins en cire. Une femme, passe encore ; mais il me souvient avec horreur d’un danseur scandinave : je ne sais rien de plus ridicule, de plus laid et de plus lourd que ce Lapon gras, fessu, aux larges cuisses, au ventre mou qui faisait la femme, bien pis l’almée.</p>
+      </div>
+      <div>
+        <head>III</head>
+        <p>La danse est la promesse d’un art, et n’est pas de l’art véritable. La danse formelle doit disparaître. La danse pour la danse n’a pas de sens. <pb n="135"/>Le destin de la danse est d’être enfin la servante de la musique. En musique, comme en tout, c’est le poème qui compte le plus.</p>
+        <p>Tout tourne en film et en ballet. Film et ballet sont les deux conquêtes de l’art par la plèbe. Le ciné tend à remplacer le drame et la comédie. Le ballet se substitue à la tragédie en vers et au drame lyrique. Il n’y a pas de plus cruel abaissement. Les gestes sont le signe du sauvage. Partout où l’image tient lieu de la parole, la matière évince l’esprit.</p>
+        <p>Les pauvres multitudes sont ravies de ne point penser, et de n’avoir même pas à faire le moindre effort d’imagination. On leur sert <hi rend="i">Bérénice</hi> sans vers et sans nuances : l’anecdote est tout ce qu’il leur faut. Les foules de l’élite sont à peine moins grossières : des <hi rend="i">Mille et Une Nuits</hi>, on leur fera une galerie de peintures persanes ; et demain, on leur offrira, en guise d’<hi rend="i">Hamlet</hi>, un carton d’estampes anglaises ou chinoises. Le ballet n’est rien de plus que le cinéma des riches.</p>
+      </div>
+      <div>
+        <head>IV</head>
+        <p>Le mime nu et réduit au seul langage des gestes est une forme puérile de l’art. La danse pure, aux rythmes simples et carrés, en est une forme sauvage et presque liée à l’instinct. Par contre, mime et danse à leur juste place, donnant le secours de la plastique et du mouvement à la musique et au poème, peuvent faire la plus belle et la plus riche des œuvres d’art.</p>
+        <p>À mon gré, la symphonie seule n’y suffit pas. J’y voudrais aussi des voix récitantes et des chœurs. Il y faudrait le goût le plus sobre et l’expression la plus concise : le moins de paroles qu’il se pût, et du sens le plus essentiel ou le plus fécond en résonances, en échos pensants.</p>
+        <p>La musique aspire à cette forme suprême, comme à sa délivrance. Le poème symphonique l’annonce. Le jeu scénique n’ajoute rien aux grandes fresques de Wagner : il les gâte plutôt, parce qu’il les ravale à la taille et à la présence des interprètes. On n’a pas besoin de voir les ondines, ni les nains, ni les géants, qui sont toujours de pauvres hères et toujours ridicules. On entend mieux les voix, quand on ne voit point les corps. S’il dépouille le comédien, le chanteur n’en est que plus fidèle à la musique. Le bon serait que l’on vit de belles figures mimer les êtres <pb n="136"/>ou l’action, et qu’on entendît de beaux chants, sans qu’ils fussent visibles. Wagner n’est pas traîné seulement au concert par l’avarice ou la paresse des chefs d’orchestre : <hi rend="i">Tristan</hi> excepté, sa musique y est plus musique et plus elle-même qu’à la scène, où le spectacle la corrompt. <hi rend="i">Parsifal</hi>, cette messe sublime, pour la meilleure part, est le concert mimé que je veux dire.</p>
+        <p>La voix mérite bien qu’on la traite enfin comme un incomparable instrument d’orchestre : le luth des passions, la viole humaine.</p>
+        <p>Peu de paroles : aussi bien ne les perçoit-on jamais. Quelques-unes, mais du plus haut prix ; et qui ont la portée du texte religieux à l’église : de celles qui font rêver la vie, ou qui nomment en nous les cimes où elle touche, les abîmes où elle se penche, les autres horizons. Pour la musique, tout poème doit être plus ou moins mystique. Les beaux mimes faisant voir l’action, les voix invisibles faisant entendre les sentiments et les âmes, quel spectacle ce pourrait être.</p>
+      </div>
+      <div>
+        <head>V</head>
+        <p>Il est un grand rythme, qui est au rythme banal ce que l’harmonie des vrais musiciens est à la mélodie des autres.</p>
+        <p>Les ensembles de la pensée musicale, ses courbes diverses et leurs relations entre elles définissent ce rythme. Ainsi, une suite d’architectures constitue la fresque monumentale d’une ville : la Cité, puis le Louvre, puis la Concorde et les Champs-Élysées. Ou bien la Seigneurie, la place du Dôme avec le Campanile, et les retours obstinés et félins de Florence sur l’Arno.</p>
+        <p>Je vois fort bien un poème de musique mimée, dont les grands rythmes seraient faits uniquement par l’alternance calculée des mouvements, tantôt lents, tantôt rapides, ici des ondulations, là des bonds plus vifs ou plus vites ; alternant par masses, comme un palais avec une église, une loge avec un clocher, ou mieux encore comme les strophes et les antistrophes, toutes de mètres différents.</p>
+      </div>
+      <div>
+        <head>VI</head>
+        <p>La barre de mesure porte tout le ballet moderne, à l’égal de l’ancien. De là, l’ennuyeuse monotonie des mimes. L’abus du rythme simple <pb n="137"/>et carré montre que cet art est encore dans les langes ; mais cette enfance est usée ; elle se répète sans cesse, elle radote. La splendeur de la mise en scène n’y change rien. Le ballet est si vieilli qu’il tourne en peinture : c’est un tableau vivant, que la symphonie veut embellir et qu’elle nuance.</p>
+        <p>La barre de mesure soutient toute la tradition des gestes et des pas, si niais la plupart et si ridicules. Cette barre est de fer, pour la solidité : elle a été forgée par Vulcain, en don vengeur à Terpsichore.</p>
+        <p>Le rythme passe de bien loin la mesure : il y supplée. Il est même une sorte ample et libre de rythme qui va décidément contre la mesure.</p>
+        <p>Pour suppléer au rythme simple, si usé et si lourd d’ennui, il y a l’arabesque sonore, avec sa courbe aux éléments infinis, qui est un rythme délivré.</p>
+      </div>
+      <div>
+        <head>VII</head>
+        <p>En tout art, mais en musique plus qu’en nul autre, nous allons à un discours libre de toute entrave, à une forme non serve qui ne saurait être prescrite, et qui ne puisse être imitée : celle qui convient à une œuvre, et à elle seule, parce qu’elle est le signe de l’émotion qui l’a fait naître. L’arabesque sonore enferme un poème, et ne peut servir à en circonscrire aucun autre : elle en est le rythme réel. Là, toute fraude est impossible ; toute feinte, interdite. De même que l’harmonie naturelle révèle sans masque le génie sensible du musicien, l’arabesque sonore et son rythme libre expriment son esprit.</p>
+      </div>
+      <div>
+        <head>VIII</head>
+        <p>En ce qui concerne le poème, l’allégorie est venue, de tout temps, en aide à la figuration grossière de l’anecdote. Les mimes sont des allégories, si tôt qu’ils ne sont plus des drames muets. Le squelette armé de la faux évoque la mort. Une forte matrone, qui tient les balances, le regard dans les frises, sans voir où elle pose le pied, c’est la justice ; et l’on devine aisément qu’elle va boiter dans la coulisse ; car elle ne sortira pas de scène, sans avoir trébuché. Cette façon de penser enfantine est pourtant le grand art du ballet : l’anecdote mimée, l’histoire sans paroles n’étant vraiment que le plus humble degré du drame. Partout où l’on fait fi de la parole <pb n="138"/>belle, on fait fi de la pensée. Il faut bien des efforts pour penser à une époque où tout est plastique. Les Saisons, les Heures, les Âges de la vie, les voyages aux plus lointains pays de Tendre, toutes les Indes galantes du lieu commun ont nourri l’ancien ballet d’allégories. Et peu s’en faut que le ballet ne s’en soit cru pensant. Aujourd’hui, je ne sache pas qu’il pense.</p>
+      </div>
+      <div>
+        <head>IX</head>
+        <p>Le rythme en est resté, dans la plupart des hommes, à la numération si simple de l’origine : le battement du cœur, le souffle respiratoire, cette mesure à deux temps ou à quatre ; et la marche qui est fonction des deux autres mouvements. Cette distribution régulière des temps forts et des temps faibles revient périodiquement dans le discours poétique ou musical : elle paraît fatale, tant elle est organique. Et plus elle est infaillible, plus elle est monotone. L’homme commun n’a pas encore compris le sens de la nuance, en ce domaine. Toute la question est de la période, en effet, quel en est le genre, quelle la teneur, quelle l’étendue. Un monde inconnu s’ouvre au sens du nombre et à l’oreille : il n’est pas possible qu’on s’en tienne toujours aux quinze ou vingt premières cases de la table de Pythagore. Le rythme, tel qu’on l’entend communément, est aussi loin du rythme à venir que la symétrie de l’harmonie véritable. La symétrie est l’expédient le plus vulgaire, et la parodie même d’un ordre harmonieux. Elle aussi est fondée sur la nécessité organique de l’homme. Mais cette ordonnance n’est pas la seule ; il n’y a pas que des courbes planes ; il en est dont tous les points ne sont pas dans le même plan. Je conçois la musique faisant les mêmes découvertes, et les transposant de l’espace à l’ordre du temps. La période est une révolution verbale du sentiment dans la pensée : la voici qui part, qui fait route et qui achève son beau circuit : elle s’accomplit dans le retour de la figure. Les formes rigides du ballet doivent disparaître : elles font injure au poème de la danse.</p>
+        <p>Déjà la danse quitte le bond à deux ou à trois temps, pour des figures plus complexes et plus rares. La marche en cadence est plus riche, cent fois, en toute sorte de rythmes que les rythmes marqués de nos danses. La lenteur pâmée, les langueurs frémissantes et les secousses brusques des danses nouvelles sont des essais à pénétrer dans ce monde séduisant de l’arabesque sonore et des rythmes inconnus.</p>
+      </div>
+      <div>
+        <head>X</head>
+        <p>Si propre aux sentiments et à la passion, la musique l’est beaucoup moins au drame. Tout ce qui est trop précis finit par lui nuire ; elle-même nuit toujours à l’action : par nature, elle l’arrête, elle la fixe. Le cri est le contraire du chant, et jusqu’à un certain point le dialogue même. Dès qu’elle parle au sentiment, toute musique est lente. Au contraire, elle <pb n="139"/>invite au rêve ; elle en ouvre les avenues, à l’infini. Je dirai tout d’abord par où je veux conclure : le drame des idées non rationnelles est le drame musical entre tous. Il ne peut plus y avoir de métaphysique persuasive ou pénétrante qu’en musique. Et cette musique doit être un poème de danse, ou ne s’en mêler pas.</p>
+        <p>Quand la science ou le bon sens vulgaire s’en prennent à la métaphysique, elle n’a plus qu’à refuser le combat, à céder la place et à fuir. La science et la raison commune triomphent à peu de frais : elles sont les servantes du Seigneur, qui sont devenues ses maîtresses ; et elles comptent bien hériter du domaine, quand il sera mort du cœur. Ces deux filles de ferme ont l’insolence tranquille des paysans qui, une fois propriétaires, ne se rappellent plus leur servage de la veille ; et tandis qu’ils remuent du purin, qu’ils entassent du fumier et qu’ils préparent leurs champs, ils demandent avec la plus morne outrecuidance à Newton formulant ses équations sous un pommier, et bien plus encore à Shakespeare écrivant la <hi rend="i">Tempête</hi> : <quote>« À quoi cela sert-il ? Mange-t-on du papier ? Il n’est bons chiffres que la somme des recettes au retour du marché. »</quote> Mais Shakespeare sourit, et fait parler Caliban.</p>
+        <p>La science a raison dans son ordre, comme le sens commun dans le train de la vie quotidienne. Toutefois, tant qu’il y aura des esprits pour rêver, pour concevoir le monde et n’y pas être seulement, la religion et la métaphysique seront pour eux une nécessité : comme elle est la plus amoureuse, elle est la plus profonde, sinon la plus directe. L’art y répond ; et entre tous les arts, la poésie et la musique.</p>
+      </div>
+      <div>
+        <head>XI</head>
+        <p>J’admire en riant comme ma solution est de nature à satisfaire tous les amours propres. Les gens de bon sens diront qu’il est bien digne de la métaphysique et de la religion qu’elles se résolvent en art, en musique et en poème : toutes ces fumées sont bien faites pour répondre les unes des autres. Je le crois aussi. La raison géométrique n’a plus rien à faire ici. Où la logique prend fin, que le rêve de la poésie commence. Faut-il l’avouer ? L’amour, tel que l’homme l’a conçu, le <pb n="141"/>cœur, la charité, la musique, l’art enfin ne sont point de la raison ni du bon sens. La musique est métaphysique en son fond. Elle est du temps qui se fait oublier. Grâce à la musique, le temps est l’espace du cœur, ou de l’esprit rendu sensible au cœur par l’émotion. La musique est désormais la véritable expression de la religion et de la philosophie première. En vers ou en prose, le grand poème ne l’est sans doute pas moins ; mais il ne s’adresse qu’au solitaire. La musique seule fait l’assemblée.</p>
+        <p>Infini ou absolu, Amour enfin, Dieu sensible au cœur, voilà ce que l’art des sons propose à l’homme. Ces divins propos ou ces fantômes n’ont plus de réalité que dans le poème symphonique de la danse. Et grâce à la Muse, nous en aurons fini, une fois pour toutes, avec la querelle rationnelle. Ainsi le ballet est la forme suprême de la métaphysique.</p>
+        <byline><hi rend="sc">André Suarès</hi>.</byline>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

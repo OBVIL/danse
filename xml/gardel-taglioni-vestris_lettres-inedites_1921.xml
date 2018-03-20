@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-03-19T19:23:07+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quelques lettres inédites de célébrités chorégraphiques</title>
+        <author key="Gardel, Pierre-Gabriel (1729-1808)">Pierre-Gabriel Gardel</author>
+        <author key="Taglioni, Marie (1804-1884)">Marie Taglioni</author>
+        <author key="Vestris, Gaetano (1729-1808)">Gaetano Vestris</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Delphine Maître</name>
+          <resp>OCR et Stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Delphine Vernozy</name>
+          <resp>Relecture</resp>
+        </respStmt>
+        <respStmt>
+         <name>Éric Thiébaud</name>
+          <resp>Édition TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/gardel-taglioni-vestris_lettres-inedites_1921</idno>
+        <availability status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+          <p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+          <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+          <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+          <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+          <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+        </licence></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Source : Gaetano <author>Vestris</author>, Pierre-Gabriel <author>Gardel</author> et Marie <author>Taglioni</author>, <title><hi rend="i">« Quelques lettres inédites de célébrités chorégraphiques »</hi></title>, in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., p. 222-226. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1921"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>     
+        <pb n="222"/>
+        <head>Quelques lettres inédites de célébrités chorégraphiques</head>
+      <p>On a beaucoup écrit sur la vie des artistes de la danse au <num>xviii<hi rend="sup">e</hi></num> siècle. Les Goncourt ont réuni les éléments d’intéressantes biographies. Il reste à écrire d’après des documents authentiques la vie d’un Gardel, d’un Viganò, d’une Taglioni… Pour contribuer à ces futurs ouvrages, voici quelques lettres inédites de plusieurs chorégraphes ou danseuses célèbres.</p>
+      <p>D’abord une lettre du fameux Gaetano Vestris qui offre un certain intérêt pour l’histoire de la danse sous la Révolution. Cette lettre est adressée d’Angleterre à Gardel.</p>
+      <quote>
+        <p rend="right">Londres, ce 17 mai 1791.</p>
+        <p><hi rend="i">J’avais répondu d’avance, mon cher Gardel, à la lettre obligeante du</hi> 5<hi rend="i"> de ce mois, par celle que j’adressai dernièrement au Comité. Mes camarades à qui je te prie de faire mes compliments ont dû voir que je ne demandais pas mieux que de revenir à Paris sous deux mois au plus tard pour contribuer avec eux aux amusements de cette capitale. L’éloignement de Mons. Boucerf (?) dont la bonté pouvait seule m’en éloigner, son remplacement par Mons. Jean-Jacques Le Roux et surtout l’amitié de mes camarades, dont je fais le plus grand cas, ne peuvent qu’augmenter ce désir. J’espère, mon cher Gardel, que tu voudras bien être l’interprète et le garant de mes sentiments pour le Comité, et me croire pour la vie ton sincère ami</hi>,</p>
+        <p>N° 2 Haymarket.</p>
+        <p rend="right">
+          <hi rend="i">VESTRIS.</hi>
+        </p>
+      </quote>
+      <p><pb n="223"/>Voici une lettre de Gardel, qui n’est pas datée, mais qui a dû être écrite sous le Consulat, lorsque Fourcroy exerçait les fonctions de Directeur de l’Instruction publique. Les deux ballets auxquels Gardel fait allusion furent représentés : <hi rend="i">Daphnis et Pandrose</hi> le 14 janvier 1803 et <hi rend="i">Achille à Scyros</hi> le 18 décembre 1804.</p>
+      <quote>
+        <p rend="indent">                      GARDEL, Chef des Ballets du Théâtre des Arts</p>
+        <p rend="indent">                                            Au citoyen FOURCROI, Conseiller d’État.</p>
+        <p/>
+        <p rend="indent"><hi rend="sc">Citoyen Conseiller d’État</hi>,</p>
+        <p/>
+        <p rend="indent"><hi rend="i">J’ai appris, par le C<hi rend="sup">n</hi> Cellérien, que le sieur Gallet vous avait adressé un mémoire dans lequel il cherche à prouver que tous les maîtres de Ballets (ou tous les individus qui croient l’être) ont le droit d’établir des ballets d’action au Théâtre des Arts. Il appuie, m’a-t-on dit, son assertion sur l’exemple des Compositeurs de Musique et sur les Poètes lyriques qui (mérite à part) jouissent également de la faculté de mettre leurs ouvrages. J’ignore</hi>, 
+          <hi rend="sc">Citoyen Conseiller d’État</hi><hi rend="i">, quels autres moyens de persuasion il emploie pour mettre votre justice en défaut ; mais comme je les crois inférieurs à celui que je viens de citer, je vous prie de me permettre de le réfuter.</hi></p>
+        <p><hi rend="i">Si Gluck, Sacchini Grétry, Guillard, etc., étaient attachés au Théâtre des Arts et recevaient, par l’Administration, une somme par année pour se charger de tous les remplissages de la copie, et des poèmes, et de tout ce qui peut, enfin, s’appeler corvée, à condition que pour récompenser cet ingrat travail ils établiraient tant d’ouvrages nouveaux par an. Serait-il juste qu’au moment de jouir de cette convention et après en avoir été privés 5 eu 6 ans par l’effet des circonstances, serait-il juste, dis-je, qu’un individu quelconque vint, en dépit de toute espèce de loyauté, l’emporter sur les engagements, sur les règlements, sur la réputation, sur les services, et peut-être sur le talent ? non sans doute. Eh bien</hi>, 
+          <hi rend="sc">Citoyen Conseiller d’État</hi><hi rend="i">, c’est ce que propose de me faire en ce moment le C<hi rend="sup">n</hi> Gallet. Je ne compare sûrement point mon faible talent à ceux des hommes célèbres que je viens de citer, mais seulement ma position qui serait la même.</hi></p>
+        <p><hi rend="i">Depuis six ans</hi> ! <hi rend="sc">Citoyen Conseiller d’État</hi><hi rend="i">, les petites intrigues, les négligences, les manques de volonté éloignent la mise de mes ouvrages. J’ai pour les établir des arrêtés, des ordres, des délibérations de toutes les administrations, de toutes les autorités qui se sont succédées depuis ce temps. Les décorations de</hi> Guillaume Tell<hi rend="i"> ont été faites trois fois : celles de</hi> Daphnis et Pandrose<hi rend="i"> sont commencées depuis à peu près 2 ans, et celles d’</hi>Achille à Scyros<hi rend="i"> ne sont pas encore esquissées, je ne me suis jamais plaint : mon camarade Milon a donné trois Ballets, je n’en ai nullement murmuré parce qu’il pouvait être utile à l’administration de connaître les dispositions et les talents de ce jeune compositeur, et parce qu’il était, comme moi, attaché au Théâtre des Arts. Mais ici un étranger arrive, et se prétend le droit de me ravir le seul agrément de ma pénible place ? et ce que j’ai acquis, par six années de patience, de résignation, et de travaux, d’autant plus écrasants qu’ils étaient purement de métier ; non</hi>, <hi rend="sc">Citoyen Conseiller d’État</hi><hi rend="i">, vous ne souffrirez pas que trente ans de services sans reproches, et j’ose dire, non pas sans éloges, soient payés par un tel affront.</hi></p>
+        <p><hi rend="i">Mais en laissant de côté les considérations et les droits qui me sont particuliers, qu’il me soit permis de faire quelques observations sur les conséquences de cette innovation que l’on cherche à introduire.</hi></p>
+        <p><hi rend="i">Je connais, en France</hi> seulement, 20 <hi rend="i">maîtres de ballets (sans compter les grands faiseurs de</hi> grandes pantomimes<hi rend="i">) qui, n’ayant que cela à faire, peuvent produire par an chacun</hi> 20 <hi rend="i">programmes de Ballets d’action. Si</hi> ces <hi rend="i">maîtres de Ballets, bons ou mauvais, ont le droit d’établir leurs productions sur le théâtre de l’Opéra de Paris, quel est l’homme à talent qui voudra rester attaché à ce théâtre pour n’avoir que les travaux désagréables de la place, et pour être le très humble serviteur du premier venu ? aucun. Cependant il est plus essentiel qu’on semble le penser que la place dont il s’agit soit tenue par un homme d’un talent avoué, car la médiocrité compromettrait bien souvent le succès de maints opéras qui coûtent de</hi> 50 <hi rend="i">à</hi> 80 000 l. <hi rend="i">à monter. Qui choisira d’ailleurs </hi><pb n="224"/><hi rend="i">dans ces</hi> 400 <hi rend="i">programmes celui ou les deux que l’on peut établir par année ? Le programme d’un Ballet d’action n’est qu’un squelette où l’on ne peut découvrir la chair, la finesse de la peau, les contours agréables, les belles couleurs, que le compositeur seul peut lui donner. Tous Ballets coûtent ; et lorsque le succès est douteux, l’Établissement court les risques d’un arriéré. Quels sont les maîtres de Ballets qui viennent solliciter cette atroce injustice ? ceux qui sont sans place, et ceux qui intriguent : il faut donc que le maître des Ballets au premier Théâtre du Monde, qui par son travail n’a pas une heure de repos dans toute une année, et qui pour ce même travail a besoin de la plus grande tranquillité, soit à la merci de l’homme sans place ou de l’intrigant</hi> ?</p>
+        <p><hi rend="i">Il est temps</hi>, <hi rend="sc">Citoyen Conseiller d’État</hi>, <hi rend="i">de faire enfin cesser les intrigues de ceux qui veulent des places (qu’ils ne sauraient peut-être pas bien occuper), dirigées contre ceux qui les occupent, et qui prouvent qu’ils peuvent les occuper encore.</hi></p>
+        <p><hi rend="i">Je demande à vous</hi>, <hi rend="sc">Citoyen Conseiller d’État</hi>, <hi rend="i">je demande au Gouvernement, ce que tous</hi> mes <hi rend="i">confrères ont dans tous les pays étrangers, c’est-à-dire à être nommé Maître des Ballets en chef et sans partage des Théâtres du Gouvernement français, ou si je n’en suis pas jugé digne, je demande une retraite honorable, et telle que peut la mériter un homme qui a servi trente</hi> ans <hi rend="i">son pays de toutes les manières qui peuvent avoir rapport à l’art qu’il exerce et par tous les sacrifices qui ont été à son pouvoir.</hi></p>
+        <p><hi rend="i">Je vous prie d’être bien convaincu</hi>, <hi rend="sc">Citoyen Conseiller d’État</hi>, <hi rend="i">que si j’obtiens de vous l’une ou l’autre de ces faveurs, je vous en aurai une éternelle obligation.</hi></p>
+        <p rend="indent"><hi rend="sc">Salut et respect</hi>,</p>
+        <p rend="right">GARDEL.</p>
+      </quote>
+      <p>Depuis 1793, Gardel, tout en s’occupant activement de l’Opéra, n’y avait pas eu de ballets représentés. Il est possible qu’il ait eu des difficultés avec le Comité de Salut Public. Le document suivant tendrait à nous le faire croire :</p>
+      <quote>
+        <p rend="center i">CONVENTION NATIONALE</p>
+        <p/>
+        <p rend="center i">COMITÉ DE SÛRETÉ GÉNÉRALE ET DE SURVEILLANCE DE LA CONVENTION NATIONALE</p>
+        <p/>
+        <p rend="center"><hi rend="i">Du</hi> 21<hi rend="sup">me</hi><hi rend="i"> ventôse, l’an second de la République Française, une et indivisible.</hi></p>
+        <p/>
+        <p>Le Comité de Sûreté Générale de la Convention Nationale arrête que le Citoyen Gardel, directeur du grand Opéra, se rendra sur-le-champ au lieu ordinaire de ses séances, pour lui donner des renseignements qui lui deviennent nécessaires dans l’intérêt de la chose publique.</p>
+        <p rend="right i">Les représentants du peuple, membres du Comité de Sûreté,<lb/>
+        Élie LACOSTE, VADIER, M. BAYLE, DUBARRAU Louis du Bas-Rhin.</p>
+      </quote>
+      <p>Avant de quitter Gardel donnons cette lettre sans date qu’il adressait pour sa fête à la danseuse Victoire Saulnier et qui nous rappelle la facilité avec laquelle s’attendrissaient les contemporains du sensible Robespierre…</p>
+      <quote>
+        <p rend="indent i">Il y a bien longtemps que je sens tout l’excès de mon malheur, mais jamais avec autant d’amertume qu’aujourd’hui. Je me flattais de l’espoir d’aller déposer sur les deux belles joues de Victoire, le baiser d’une sincère, d’une véritable, d’une éternelle amitié et je me vois forcé d’appliquer sur un papier glacé, le chaud papier de pure amitié ! Je ne vous dirai pas aujourd’hui les motifs qui me contraignent à me priver d’un grand plaisir. Ce n’est pas un jour de fête que l’on doit parler de douleur, de…, etc., etc., mais on peut prouver sa bonne intention <pb n="225"/>et manifester ses regrets. Recevez les donc, Belle Victoire, ainsi que tous mes vœux et l’assurance de mon attachement et de tout mon dévouement.</p>
+        <p rend="right i">GARDEL.</p>
+        <p rend=" indent i">P.-S. — Si votre cœur vous portait à venir me voir, ne l’écoutez pas, je vous prie, par ce temps-ci, et soyez assurée qu’aussitôt que je croirai pouvoir le faire sans danger, ce sera moi qui irai vous présenter mes hommages.</p>
+      </quote>
+      <p>Il serait intéressant de publier un recueil de lettres de Maria Taglioni. La Sylphide avait de l’esprit à défaut d’orthographe. On en peut juger par ce fragment d’une lettre non datée adressée de Londres à une amie :</p>
+      <quote>
+        <p rend="indent"><hi rend="i">Un mot sur les théâtres d’ici. D’abord nous sommes arrivés le</hi> 22<hi rend="i"> à</hi> 9<hi rend="i"> heures du soir après une traversée terrible dont je suis sortie triomphante, car je n’ai pas été malade. J’ai trouvé un logement qu’on nous avait retenu en face du théâtre. Jeudi j’ai été voir le spectacle. On donnait</hi> Don Juan<hi rend="i"> chanté par Rubini, Tamburini, Lablache, Grisi et Persiani. Le public était très froid surtout pour Grisi. Elle s’est fait le plus grand tort en se séparant de son mari qui, à ce qu’il paraît, s’était très bien conduit pour elle ; cela rend le public froid et tout le succès retombe sur la Persiani. Personne n’a été redemandé après l’opéra. Le ballet qu’on donnait était</hi> Robert le Diable<hi rend="i">, composé par M. Guerra. Ce n’est pas grand-chose. Laporte y avait fait grande dépense. Les danseuses et danseurs sont détestables. Perrot est ici qui se promène ; il avait été engagé par Brunne qui, après avoir donné les animaux savants et des concerts à un Schelling a fait banqueroute et Perrot en est pour son voyage. Laporte veut bien l’engager mais pour peu et lui ne veut pas pour rien comme fait Guerra qui a donné sa femme par-dessus le marché et je vous assure que le</hi> par-dessus le marché<hi rend="i"> n’est pas fameux. Ce soir je vais voir la Garcia, sœur de la Malibran. On prétend qu’on n’a jamais vu un talent comme celui-là. Elle chante Desdemona. Je suis bien contente de l’entendre…</hi></p>
+      </quote>
+      <p>De Saint-Pétersbourg elle écrit quelques années plus tard une lettre intéressante :</p>
+      <quote>
+        <p rend="right"><hi rend="i">Saint-Pétersbourg</hi>, 5/17<hi rend="i"> janvier</hi> 1842.</p>
+        <p rend="i">Mon cher Monsieur Courtin,</p>
+        <p/>
+        <p rend="indent i">Quoiqu’il soit un peu tard pour venir vous souhaiter la bonne année car vous êtes au <hi rend="i">17</hi> et nous ne sommes qu’au <hi rend="i">5</hi>. Mais enfin tel tardifs (<hi rend="i">sic</hi>) que soient mes vœux, ils n’en sont pas moins vrais et sincères et plus sincères, je vous l’assure, que ceux de bien des gens qui croiraient manquer à toutes les convenances en passant ce premier de janvier sans se donner tant de vœux et de baisers de Judas. Que puis-je vous souhaiter ? De la santé, rien que de la santé et tout ce que je souhaite, moi, c’est de pouvoir bientôt vous embrasser.</p>
+        <p rend="i">Je quitte la Russie au mois de mars pour sans doute n’y plus revenir ; je vais passer un an en Italie. Je commencerai par Milan où je serai au mois de mai. J’aimerais pourtant bien aussi venir faire un petit tour à Paris. Je verrai s’il n’y a pas moyen d’arranger cela.</p>
+        <p rend="i">Quel hiver avez-vous cette année ? Le nôtre ici ne ressemble nullement à ceux des années précédentes. Nous n’avons pas de neige, par conséquent pas de traînage, ce qui rend tout fort cher et il n’y a que peu de jours qu’il fait un bon froid. Avant, le temps était humide et triste, ce qui heureusement n’influe pas beaucoup sur notre caractère. Nous sommes toujours gais et tous en bonne santé. Il n’y a que moi qui ai été très malade à mon retour de Stockholm, cependant cela n’a pas eu de longues suites.</p>
+        <p rend="i">La Suède m’a beaucoup plu. J’y ai été fêtée en vraie reine. J’y ai vu ma bonne grand-mère et les frères de… J’y ai été reçue à la cour et Leurs Majestés m’ont fait de beaux cadeaux, ce qui du reste ne me manque <pb n="226"/>pas ici. Mon bénéfice qui a eu lieu dernièrement avec un ballet nouveau qui a eu un très grand succès, m’a valu un superbe cadeau de l’Empereur du prix de dix mille roubles. J’espère que celui de mon second bénéfice ne sera pas moindre. Nous montons encore un ballet pour cette représentation.</p>
+        <p rend="i">Nous avons en ce moment beaucoup de nouveautés. Mademoiselle Dupont, des Français, qui est engagée au Théâtre Français d’ici pour jouer les mères nobles, la pauvre femme a eu bien des déboires ; Mademoiselle Damoreau qui donne des concerts ne la trouve plus assez jeune. Elle est venue espérant faire fortune ; ce temps-là est passé pour la Russie. Elle a pourtant chanté deux fois à la Cour ; on lui trouva une grande perfection, mais pas de voix et chantant beaucoup trop de romances. Mademoiselle Falcon est aussi ici, mais elle a le bon esprit de dire quelle n’est venue que pour voir sa sœur, que peut-être elle donnera un concert. Elle a su mettre le directeur dans sa manche, les autres, au contraire, s’en sont fait un ennemi et que peut hélas un pot Je terre contre un pot de fer ! Mademoiselle Valérie Miro est aussi venue ; la pauvre femme a débuté, a eu assez de succès dans les <hi rend="i">Jeux de l’Amour</hi> mais elle n’a pas réussi dans l’<hi rend="i">École des Vieillards</hi> et ce jour-là elle jouait devant la cour. Sa partie a donc été perdue et elle se trouve dans une bien triste position. Elle n’a absolument rien. Voilà ce que c’est que les gens qui ne veulent pas écouter les bons conseils ! Je leur avais dit : « Ne venez pas sans engagement ». Elles ont cru que j’avais peur d’elles et maintenant quelles sont là, elles sont forcées de me rendre justice.</p>
+        <p rend="i">Je vous ai parlé de tout ce monde, mon cher Courtin, parce que vous les connaissez, car du reste il n’y a pas de nouvelles à donner d’ici.</p>
+        <p rend="i">Embrassez ma bonne Monette pour moi, pour nous tous et que je lui souhaite tout le bonheur possible. Amitiés de tous pour vous, et moi je vous embrasse de cœur.</p>
+        <p rend="right i">Maria TAGLIONI.</p>
+      </quote>
+</div>    </body>
+  </text>
+</TEI>
