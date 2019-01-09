@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -24,11 +23,15 @@
           <name>Éric Thiébaud</name>
           <resp>édition TEI</resp>
         </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>édition TEI</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/cahusac_encyclopedie-anthologie</idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/cahusac_articles-encyclopedie</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -70,7 +73,7 @@
     </front>
     <body>
       <head>Articles pour l’<hi rend="i">Encyclopédie</hi></head>
-      <div>
+      <div type="chapter">
         <head>Sur la danse et le ballet</head>
         <div type="article" xml:id="ballet">
           <head>Ballet</head>
@@ -186,7 +189,7 @@
           <p>La <hi rend="i">danse</hi> ensevelie dans la barbarie avec les autres arts, reparut avec eux en Italie dans le quinzième siècle ; l’on vit renaître les ballets dans une fête magnifique qu’un gentilhomme de Lombardie nommé <hi rend="i">Bergonce de Botta</hi>, donna à Tortone pour le mariage de Galéas duc de Milan avec Isabelle d’Aragon. Tout ce que la poésie, la musique, la <hi rend="i">danse</hi>, les machines peuvent fournir de plus brillant, fut épuisé dans ce spectacle superbe ; la description qui en parut étonna l’Europe, et piqua l’émulation de quelques hommes à talents, qui profitèrent de ces nouvelles lumières pour donner de nouveaux plaisirs à leur nation. C’est l’époque de la naissance des grands ballets, voyez <ref target="#ballet">Ballet</ref>, et de l’opéra, voyez <ref target="http://artflsrv02.uchicago.edu/cgi-bin/philologic/getobject.pl?c.10:1515.encyclopedie0416">Opéra [Article de Jaucourt]</ref>. (<hi rend="i">B</hi>) [voir <ref target="http://obvil.paris-sorbonne.fr/corpus/danse/cahusac_danse-ancienne-moderne/origine-des-ballets">Traité historique, II<hi rend="sup">e</hi> partie, livre I, chap. 2, « Origine des ballets »]</ref></p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur la danse ancienne</head>
         <div type="article" xml:id="cordace">
           <head>Cordace</head>
@@ -344,7 +347,7 @@
           <p>La danse de la <hi rend="i">grue</hi> fut nommée ainsi, parce que tous les danseurs s’y suivaient à la file, comme sont les grues lorsqu’elles volent en troupe. Plutarque, dans la <hi rend="i">Vie de Thésée</hi>. Voyez <ref target="#ballet">Ballet</ref>. (<hi rend="i">B</hi>)</p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur la danse moderne</head>
         <div type="article" xml:id="baladin">
           <head>Baladin</head>
@@ -452,7 +455,7 @@
           <p>Au surplus, l’art des Laval et des Marcel, qui ont senti l’un et l’autre ce que la Danse devait être, est un aide sûr pour la belle nature ; le <hi rend="i">geste</hi> qu’elle anime trouve dans leurs pratiques mille moyens de s’embellir ; ils ont étudié les ressorts secrets de la nature humaine ; ils en connaissent les forces, les possibilités, la liaison. Les routes que peut leur indiquer une pareille connaissance, sont plus que suffisantes pour rendre les différents mouvements du corps, flexibles, rapides, brillants et moelleux. C’est sous de tels maîtres que la danse française peut acquérir cette expression enchanteresse qui lui donne, sans parler, autant de charmes qu’en étalent la bonne poésie et l’excellente musique. Les pas de deux, sur tout de galanterie ou de passion ; les pas seuls de grâce, les beaux développements des bras et des autres parties du corps qui se font sous un masque insensible, recevront enfin quelque jour, par les soins de nos excellents maîtres, la vie qui leur manque, qui peut seule ranimer la Danse et satisfaire pleinement les vrais amateurs. (<hi rend="i">B</hi>) [voir <ref target="http://obvil.paris-sorbonne.fr/corpus/danse/cahusac_danse-ancienne-moderne/preuves-de-la-possibilite-de-la-danse-en-action">Traité historique, II<hi rend="sup">e</hi> partie, livre IV, chap. 6, « Preuves de la possibilité de la Danse en action »]</ref></p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur la poétique du ballet et de l’opéra</head>
         <div type="article" xml:id="comedie-ballet">
           <head>Comédie-ballet</head>
@@ -542,7 +545,7 @@
           <p>Il semble qu’on se serve plus communément du terme de <hi rend="i">fête</hi> pour les divertissements des tragédies en musique, que pour ceux des ballets. C’est un plus grand mot consacré au genre, que l’opinion, l’habitude et le préjugé paraissent avoir décidé le plus grand. <hi rend="i">Voyez</hi> <ref target="http://artflsrv02.uchicago.edu/cgi-bin/philologic/getobject.pl?c.10:1515.encyclopedie0416">Opéra [Article de Jaucourt]</ref> (<hi rend="i">B</hi>)</p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur l’artiste</head>
         <div type="article" xml:id="decorateur">
           <head>Décorateur</head>
@@ -590,7 +593,7 @@
           <p>Ce n’est donc que par une étude assidue et profonde de la nature, des passions, des chefs-d’œuvre des Arts, qu’on peut développer, nourrir, réchauffer, étendre le <hi rend="i">génie</hi>. On pourrait le comparer à ces grands fleuves, qui ne paraissent à leur source que de faibles ruisseaux : ils coulent, serpentent, s’étendent ; et les torrents des montagnes, les rivières des plaines se mêlent à leur cours, grossissent leurs eaux, ne font qu’un seul tout avec elles : ce n’est plus alors un léger murmure, c’est un bruit imposant qu’ils excitent ; ils roulent majestueusement leurs flots dans le sein de l’océan, après avoir enrichi les terres heureuses qui en ont été arrosées. Voilà l’examen philosophique de l’<hi rend="i">enthousiasme</hi> ; voyez à l’<hi rend="i">article</hi> <ref target="http://artflsrv02.uchicago.edu/cgi-bin/philologic/getobject.pl?c.4:579.encyclopedie0416">Eclectisme [Article de Diderot] </ref>surtout à la page 276, un abrégé historique de quelques-uns de ses effets. (<hi rend="i">B</hi>) [<ref target="http://obvil.paris-sorbonne.fr/corpus/danse/cahusac_danse-ancienne-moderne/regles-generales-a-observer-dans-les-actions-de-danse">Voir Traité historique, II<hi rend="sup">e</hi> partie, livre IV, chap. 12, « Règles générales à observer dans les actions de Danse »]</ref></p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur les artistes de l’opéra</head>
         <div type="article" xml:id="chanteur-chanteuse">
           <head>Chanteur, Chanteuse</head>
@@ -654,7 +657,7 @@
           <p>La plupart des danseurs qui <hi rend="i">figurent</hi> à l’opéra, sont de très bons maîtres à danser, qui savent fort bien la danse. Qu’on conçoive par-là ce qu’on pourrait leur faire faire, si on s’appliquait à ne donner que des ballets en action. <hi rend="i">Voyez</hi> <ref target="#ballet">Ballet</ref>, <ref target="#danse">Danse</ref>, <ref target="#figurant-figurante">Figurant</ref>, <ref target="http://artflsrv02.uchicago.edu/cgi-bin/philologic/getobject.pl?c.10:2588.encyclopedie0416">Pantomime [Article de Jaucourt]</ref>. (<hi rend="i">B</hi>)</p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur l’interprétation du chanteur</head>
         <div type="article" xml:id="chanter">
           <head>Chanter — avec Jean-Jacques Rousseau</head>
@@ -777,14 +780,14 @@
           <p>Mais il faut toujours en revenir aux principes : la prononciation ne peut être bonne, que lorsqu’elle est sans défaut. Ainsi dans l’éducation des enfants, on ne peut trop veiller à la correction des défauts de la voix, de la prononciation, et du ton que leurs organes prennent souvent de leurs différents entours : dans ces moments, le plus petit défaut devient successivement un désagrément ; et dans un âge plus avancé, lorsqu’on entre dans le monde, le ton qu’on a pris dans les premiers ans produit des effets presque aussi prompts que ceux qu’on voit produire au premier abord à certaines physionomies. (<hi rend="i">B</hi>)</p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur la musique ancienne</head>
         <div type="article" xml:id="epodes">
           <head>Epodes</head>
           <p><hi rend="sc">Epodes</hi>, (<hi rend="i">Musique.</hi>) chant des anciens chœurs des Grecs, qu’ils exécutaient sans se mouvoir, pour représenter l’immobilité de la terre qu’ils croyaient fixe. <hi rend="i">Voyez</hi> <ref target="#ballet">Ballet</ref>, <ref target="#choeurs">Chœurs</ref>, <ref target="#danse">Danse</ref>. (<hi rend="i">B</hi>)</p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur la musique moderne</head>
         <div type="article" xml:id="basse-contre">
           <head>Basse-contre</head>
@@ -949,7 +952,7 @@
           </quote>
           <p>Il n’est personne qui ne sente qu’un chant qui serait l’<hi rend="i">expression</hi> véritable de ces paroles, ne saurait servir pour d’autres qui présenteraient un sens absolument contraire ; or le chant que Lully met dans la bouche de l’horrible Méduse, dans ce morceau et dans tout cet acte, est si agréable, par conséquent si peu convenable au sujet, si fort en contre-sens, qu’il irait très bien pour exprimer le portrait que l’amour triomphant ferait de lui-même. On ne représente ici, pour abréger, que la parodie de ces cinq vers, avec les accompagnements, leur chant et la basse. On peut être sûr que la parodie très aisée à faire du reste de la scène, offrirait partout une démonstration aussi frappante.</p>
           <figure>
-          <graphic url="cahusac_encyclopedie-anthologie/fig1.jpg"/>
+            <graphic url="https://github.com/OBVIL/danse/blob/gh-pages/images/cahusac_articles-encyclopedie_img01.jpg"/>
           <!-- http://fr.wikisource.org/wiki/Fichier:Encyclopedie-6-p317-expression.jpeg -->
           </figure>
           <p>Il n’y a donc évidemment, ni dans le chant de ce morceau, ni dans les accompagnements qui n’en sont qu’une froide répétition, rien qui caractérise l’affreux personnage qui parle, et les paroles fortes qu’il dit : l’<hi rend="i">expression</hi>, en un mot, y est totalement manquée.</p>
@@ -965,7 +968,7 @@
           <p>Si l’opéra exige de l’<hi rend="i">expression</hi> dans tous les chants et dans chacune des différentes symphonies, il est évident qu’il en demande aussi dans la danse. Voyez <ref target="#ballet">Ballet</ref>, <ref target="#danse">Danse</ref>, <ref target="#chant">Chant</ref>, <ref target="#debit">Débit</ref>, <ref target="#debiter">Débiter</ref>, Maître à chanter [Article non rédigé], <ref target="#declamation">Déclamation</ref>, <ref target="#execution">Exécution</ref>, <ref target="http://artflsrv02.uchicago.edu/cgi-bin/philologic/getobject.pl?c.10:1515.encyclopedie0416">Opéra [Article de Jaucourt]</ref>, <ref target="http://artflsrv02.uchicago.edu/cgi-bin/philologic/getobject.pl?c.12:2392.encyclopedie0416">Récitatif [Article de Rousseau]</ref>, <hi rend="i">et</hi> Rôle [Article non rédigé]. (<hi rend="i">B</hi>)</p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur les fêtes modernes</head>
         <div type="article" xml:id="branle_fete">
           <head>Branle</head>
@@ -1589,7 +1592,7 @@
           <p>Pour troisième acte de cet agréable spectacle, on fit partir d’abord du bas des deux montagnes, et ensuite par gradation, des saillies, des crevasses, des cavités, et enfin du sommet des deux monts, une très grande quantité d’artifice suivi et diversifié, ce qui formait comme deux montagnes de feu dont l’action n’était interrompue que par des volcans clairs et brillants, qui sortaient à plusieurs reprises de tous côtés et du sommet des rochers. Les intervalles des différents temps auxquels les volcans partaient, étaient remplis par des fougades très vives par le grand nombre et par la singularité des fusées. La fin fut marquée par plusieurs girandes. (<hi rend="i">B</hi>)</p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sur les machines de théâtre</head>
         <div type="article" xml:id="changement">
           <head>Changement</head>
