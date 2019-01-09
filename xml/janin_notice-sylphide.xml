@@ -13,6 +13,10 @@
         <respStmt>
           <name>Delphine Maître </name>
           <resp>OCR, Stylage sémantique</resp>
+          </respStmt>
+        <respStmt>
+          <name>Eric Thiébaud</name>
+          <resp>XML-TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -89,7 +93,7 @@
         <p>Portée à ce degré de légèreté et d’élégance, la danse devient, tout à fait, un art digne de tenir sa place à côté des plus beaux-arts. Cet art a frappé même les meilleurs esprits et les plus graves. Naguère encore, à propos (qui le croirait ?) de M. de Rancé, le réformateur de la Trappe, M. de Chateaubriand, s’arrêtant dans le récit de ces austérités chrétiennes, se mettait à saluer, d’un sourire jeune encore, la danse de Marie Taglioni, et ce nom-là, inattendu dans un si grave sujet, ajoutait une grâce nouvelle à ce livre tout rempli des plus austères et mélancoliques reflets.</p>
         <ab type="ornament">***</ab>
         <p><pb n="23"/>Il y a dans Shakspeare un passage qui exprime assez bien l’effet produit par une de ces belles représentations de <hi rend="i">la Sylphide</hi>, quand mademoiselle Taglioni dansait de toute son âme et de tout son cœur : <quote>« L’air est rempli de bruits, de sons et de doux airs qui donnent du plaisir sans jamais nuire. »</quote> Mais personne ne saurait dire combien de douleurs mademoiselle Taglioni savait mettre dans le dénouement de son drame ; on eût dit l’agonie d’un beau lis ; elle mourait peu à peu, lentement, d’une mort aérienne, l’horrible sorcière regardant d’un œil narquois cette mort funeste. Cependant les sœurs de la Sylphide descendaient des nuages portant le linceul de gaze, et le groupe mélancolique se perdait là-haut dans le nuage silencieux.</p>
-        <p rend="right"><hi rend="sc">Jules Janin</hi>.</p>
+        <signed><hi rend="sc">Jules Janin</hi>.</signed>
       </div>
     </body>
   </text>

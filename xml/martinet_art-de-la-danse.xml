@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -221,7 +221,7 @@
         <p>Muni de toutes ces connaissances, l’artiste peut se livrer hardiment à l’effort de son génie ; mais qu’il s’attache surtout à faire un beau choix. Ce ne sera point dans les tavernes qu’il ira prendre ses modèles. Les sujets ignobles ne prêteront point à ses talents ; il n’y trouverait qu’une nature avilie qui flétrirait son imagination. Il doit se souvenir qu’il est peintre, et ne chercher dans les objets qui l’environnent que des objets dignes d’occuper ses pinceaux.</p>
         <p>Ici je m’arrête ; je sens que si je me laissais entraîner par mon sujet, il me faudrait entrer dans des développements qui me mèneraient beaucoup trop loin. Avant de finir cependant, je dirai encore un mot de la <hi rend="i">Chorégraphie</hi> ; c’est l’art de décrire la danse : Thoinet Arbeau, chanoine de Langres, est le premier qui l’imagina vers la fin du seizième siècle ; Beauchamps donna dans la suite une forme nouvelle à la chorégraphie, il exprima les pas par des signes auxquels il attacha des significations différentes. Feuillet a travaillé dans la suite sur le même plan. Cet art que les anciens ont peut-être ignoré était autrefois fort simple ainsi que la danse ; mais de nos jours, les pas sont compliqués, doubles, triples même ; leur mélange, leur combinaison est immense et presque incalculable ; il est donc difficile de les écrire et plus encore de les déchiffrer. Cet art est d’ailleurs fort imparfait, il n’indique exactement que l’action des pieds, et s’il désigne les mouvements des bras, il n’exprime ni les positions, ni les contours qu’ils doivent avoir.</p>
         <p>Je finis en rappelant à mes lecteurs que je me suis déterminé à publier ce petit traité que pour répondre à l’empressement de quelques personnes qui ont désiré d’avoir par écrit les principes d’un exercice qu’ils ne connaissaient que par la pratique. Me rendre utile et agréable a été mon but. Si je ne puis réunir ces deux avantages, le premier me satisfera toujours beaucoup, parce qu’il me donnera lieu de prouver mon zèle et mon application à remplir les fonctions de mon état.</p>
-        <p>Fin.</p>
+        <trailer>Fin.</trailer>
       </div>
     </body>
     <back>

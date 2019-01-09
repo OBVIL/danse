@@ -4,3 +4,4 @@ kindle/
 toc/
 conf.php
 *.sqlite
+.DS_Store
