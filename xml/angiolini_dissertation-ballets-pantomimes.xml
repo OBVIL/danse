@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -19,11 +19,19 @@
           <name>Vincent Jolivet</name>
           <resp>édition TEI</resp>
           </respStmt>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>XML-TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>XML-TEI</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/angiolini_programme-semiramis</idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/angiolini_dissertation-ballets-pantomimes</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -128,7 +136,7 @@
         <p>En revanche le maître de ballets, non seulement se déclare l’auteur de ces textes, mais encore adhère totalement à ses contenus et, bien qu’il ne les ait pas entièrement pensés et rédigés, il les assume comme siens. Pour Angiolini, l’expérience collective de <hi rend="i">Sémiramis</hi> représente le troisième volet d’une phase expérimentale qui lui permet de formuler une poétique de la danse qu’il ne cessera de soutenir. Influencé par les idées de Calzabigi, Angiolini fera de la tragédie en ballet le socle de sa réforme<note resp="editor">Malgré l’échec de la <hi rend="i">Sémiramis</hi> dont il parle dans ses <hi rend="i">Lettere</hi>, à peine parti de Vienne pour gagner la Cour de St Petersburg, Angiolini retente la tragédie et, en s’inspirant d’un livret de Métastase, il créé l’un de ses chefs-d’œuvre les plus célèbres, <hi rend="i">Le Départ d’Enée ou Didon abandonnée</hi>. Sur les enjeux de ce ballet dans le cadre de la réforme du théâtre italien et pour une analyse dramaturgique de ses sources, nous renvoyons à nos études à paraître : Arianna Fabbricatore, « Elementi di drammaturgia. <hi rend="i">Ballo della Didone</hi> : la riforma razionale della danza di Gasparo Angiolini », in <hi rend="i">Rivista di Letteratura Teatrale</hi>, Fabrizio Serra editore, 2015. Idem, « Gasparo Angiolini et la réforme morale de la danse italienne » in <hi rend="i">Danse et morale</hi> « European Drama and Performance Studies », n. 8, Paris, Classiques Garnier, 2015.</note>.</p>
         <p>En définitive, tout en sachant que ces textes sont le résultat d’un « nous » qui se construit en mesure variable autour de Calzabigi, qui en représente sûrement le centre inspirateur, il nous semble impossible, d’effacer la participation d’Angiolini en tant qu’auteur. D’autre part, si on peut parler du <hi rend="i">Don Juan</hi> et de <hi rend="i">Sémiramis</hi> d’Angiolini, en considérant le fait que ces deux textes - avec celui de <hi rend="i">Citeria Assediata</hi> - constituent les fondements de sa poétique, nous ne pouvons oublier qu’ils ont été inspirés et écrits avec la participation de Calzabigi. Afin de rendre visible les deux niveaux d’auctorialité, nous choisissons de faire apparaitre, dans la forme de la référence bibliographique, la double appartenance de ces deux livrets fondateurs, la première, plus manifeste, de Gasparo Angiolini, et entre parenthèses la deuxième, moins évidente, pourtant bien présente, de Ranieri Calzabigi.</p>
       </div>
-      <div>
+      <div  type="notes">
         <head>Note sur l’établissement du texte </head>
         <p>Nous avons procédé à la modernisation de l’orthographe et de la morphologie, en revanche aucune modification n’a été faite à la ponctuation ;<anchor xml:id="_GoBack"/> nous avons conservé l’orthographe des noms propres (exception faite pour Novère &gt; Noverre ; Stoutgard &gt; Stuttgart) ainsi que les majuscules telles qu’elles apparaissent dans le texte original.</p>
         <p>En raison de la présence centrale du « Plan du ballet », seul titre mentionné dans le texte original, et pour une meilleure répartition du texte, nous avons ajouté deux titres qui signalent les deux parties de la <hi rend="i">Dissertation</hi> situées avant et après le susdit plan.</p>
@@ -148,7 +156,7 @@
           <bibl>Traduction du Père <author>Sanadon</author>.</bibl>        
         </epigraph>
       </div>
-      <div>
+      <div type ="chapter">
         <head>[Première partie]</head>
         <p n="1" rend="noindent">Dans le Programme que j’ai publié, il y a trois ans, à l’occasion du Ballet de <title>Don Juan</title>, j’ai donné quelques notions de la Danse Pantomime des Anciens ; et ayant promis d’en parler plus amplement, lorsque je ferais paraître quelque nouveau Spectacle de ce genre, je vais m’acquitter de mon engagement à l’occasion du Ballet de <hi rend="i">Sémiramis</hi> que je fais paraître aujourd’hui sur la Scène.</p>
         <p n="2" rend="noindent">Je ferai remarquer d’abord, que le sujet du <hi rend="i">Festin de Pierre</hi> m’avait été fourni par la Comédie Héroïque, et que c’est de la Tragédie que j’emprunte celui de <hi rend="i">Sémiramis</hi>.</p>
@@ -173,7 +181,7 @@
         <p n="21" rend="noindent">Il serait superflu de parler de la troisième unité, c’est-à-dire, de celle de l’Action, après avoir tant répété que l’Action des Ballets Pantomimes doit être simple et une, pour me servir encore de l’expression d’<persName type="author">Horace</persName>. Je crois qu’on ne doit se permettre aucune licence à cet égard.</p>
         <p n="22" rend="noindent">Je vais maintenant rendre compte au Public de la marche que j’ai donnée au Ballet Pantomime-tragique de <title>Sémiramis</title>.</p>
       </div>
-      <div>
+      <div type="chapter">
         <head>Plan du Ballet</head>
         <p n="23" rend="noindent">C’est de la Tragédie de Monsieur de Voltaire que je l’ai tiré ; j’ai suivi à peu près son plan pour ce qui regarde les événements ; mais j’ai été forcé d’y faire des changements pour approprier son plan au plan d’un Ballet. Je ne me suis pas écarté de mes maximes. J’ai conservé les personnages de <persName type="character">Sémiramis</persName>, de <persName type="character">Ninias</persName>, d’<persName type="character">Oroès</persName> Pontife de Babylone, et surtout l’ombre de <persName type="character">Ninus</persName>. On retrouvera les confidents dans ceux qui suivent de plus près les trois personnages. A l’égard d’<persName type="character">Assur</persName> complice du crime de la Reine, d’<persName type="character">Azoma</persName>, de <persName type="character">Cédar</persName>, personnages purement épisodiques, j’ai dû les abandonner. C’est l’ombre de <persName type="character">Ninus</persName> qui joue un grand rôle dans mon Ballet. Elle me sert beaucoup pour me faire entendre, et rend ma catastrophe vraiment terrible et tragique. Le Ballet est divisé en trois actes.</p>
         <p n="24" rend="noindent">Le premier se passe dans un Cabinet magnifique de la Reine. On la voit assise et endormie, appuyée à une table couverte de rouleaux, qui dans l’Antiquité tenaient la place des livres, et des papiers. Son sommeil est extrêmement agité ; il semble qu’elle a des rêves affreux. L’ombre de <persName type="character">Ninus</persName> paraît ; <persName type="character">Sémiramis</persName> croit la voir en songe, et son trouble en augmente. L’ombre après l’avoir menacée d’un poignard qu’elle tient en sa main, la secoue, la réveille et disparaît. La Reine se lève ; l’horreur est peinte sur son visage ; elle cherche partout le fantôme, et elle croit le voir partout. Alors en levant les yeux, elle est frappée d’un nouveau prodige : une main trace devant elle sur les murs de son Cabinet ce vers.</p>
@@ -193,7 +201,7 @@
         </quote>
         <p n="29" rend="noindent">Et dans le même moment un poignard tombe à ses pieds. Il recule épouvanté ; mais les Mages rentrent avec <persName type="character">Oroès</persName>. Instruit par lui, et par les mots qu’il a vus sur le tombeau, qu’il est fils de <persName type="character">Ninus</persName>, il reçoit le Bandeau Royal, et l’épée de son père, et on lui ordonne de la part des Dieux d’entrer dans le tombeau, et d’immoler comme une victime qui leur est agréable, la personne qu’il y rencontrera. <persName type="character">Ninias</persName> entre, et en attendant, les Prêtres rappellent le peuple, et continuent leurs prières. <persName type="character">Ninias</persName> sort ensuite du tombeau comme égaré ; le poignard qu’il tient en sa main est ensanglanté. Des gémissements qui partent du Mausolée, et qu’il entend, le pénètrent d’horreur. Il tombe entre les bras des Mages. Alors <persName type="character">Sémiramis</persName> paraît, pâle, échevelée, la mort peinte sur son visage, et se traînant à peine. Des femmes accourent et la soutiennent. <persName type="character">Ninias</persName> s’apercevant qu’il a tué sa mère, court se jeter à ses pieds ; il y déplore son erreur et sa malheureuse destinée. Il lui présente le poignard teint encore de son sang, la suppliant de lui donner la mort. Le fer échappe de la main de <persName type="character">Sémiramis</persName>. Elle reconnaît son fils, l’embrasse, lui pardonne, tombe, et meurt. <persName type="character">Ninias</persName> reprend le poignard pour se percer ; les Mages le désarment, l’entrainent ; la toile tombe, et le spectacle finit.</p>
       </div>
-      <div>
+      <div type="chapter">
         <head>[Seconde partie]</head>
         <p n="30" rend="noindent">Par l’exposé que je viens de faire, on voit que ce Ballet forme une Action complète ; qu’elle y est vive, intéressante, et marche toujours à sa fin, sans être retardée par des épisodes, qui ne saurait que la refroidir ; que sur ce plan on pourrait en faire une Tragédie comme celle des Grecs, en faisant parler mes personnages, et en substituant des Cœurs de Mages, de Satrapes, de peuple, de femmes au corps de Ballet que j’ai employé ; et je répète ici avec cette satisfaction qu’on ressent lorsqu’on fait part au Public de ses découvertes, que je crois que le théâtre des Grecs doit uniquement nous guider pour nos plans, et qu’il n’y a aucune Tragédie de ce Théâtre, qui ne puisse être traitée avec succès en Ballet Pantomime. Le Théâtre moderne nous présente beaucoup plus d’épines. On doit en apercevoir les raisons dans tout ce que j’ai dit jusqu’ici. Il nous faut prendre d’autres routes pour nos Ouvrages Dramatiques, comme on voit que j’ai fait dans <title>Sémiramis</title>. Je me réserve à donner mes idées à ce sujet dans quelque autre Programme.</p>
         <p n="31" rend="noindent">Mais en attendant, je ne puis m’empêcher de dire ici qu’il n’y a rien de moins propre pour les Ballets Pantomimes, que les plans des Opéra Français ; et surtout si on voulait les suivre d’un bout à l’autre. On est là dans le pays des enchantements, et il n’y a rien de moins intéressant aujourd’hui. Les épisodes surchargent d’ailleurs ces Opéra, et ils sont souvent amenés par le moyen d’une Baguette. Nous devons resserrer non pas étendre les actions théâtrales. Nous composons pour les yeux. C’est avec un verre convexe qui réunit tous les rayons dans un seul point, qu’il nous faut regarder les sujets que nous voulons traiter ; le moindre écart fait perdre de vue les personnages par lesquels nous voulons émouvoir les passions. Quand même nous pourrions à notre gré multiplier les Danseurs pour se donner du repos les uns les autres, ferions-nous autre chose que diviser l’intérêt ou le distraire ? Lorsqu’on a présenté dans les principaux rôles, des Danseurs propres à toucher, si dans les rôles subalternes on produit un Danseur élégant, la pitié ou la terreur qu’on aura presque réveillé, fera place à l’admiration, et l’intérêt sera perdu sans retour.</p>

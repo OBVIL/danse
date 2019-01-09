@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -19,6 +19,14 @@
         <respStmt>
           <name>Stella Louis</name>
           <resp>Encodage TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>XML-TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>XML-TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -49,15 +57,17 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <body>
-      <div>
+    <front>
+      <div type="introduction">
         <head>[Note introductive]</head>
         <p>Transcription du livret original, publié en reprint <hi rend="i">in</hi> Christoph Willibald Gluck<term rend="index" key="Gluck Christoph Willibald"/>, <hi rend="i">Sämtliche Werke</hi>, 7 vol., éd. Rudolf Gerber, Gerhard Croll<term rend="index" key="Croll Gerhard "/>, von der Akademie der Wissenschaften und der Literatur, Mainz, Kassel Bärenreiter, 1951, vol. VII supplément, « Les livrets ». Un édition avait été précédemment proposée par Anna Laura Bellina <hi rend="i">in</hi> Ranieri Calzabigi<term rend="index" key="Calzabigi Ranieri"/>, <hi rend="i">Scritti teatrali e letterari</hi>, 2 vol., éd. Anna Laura Bellina<term rend="index" key="Anna Laura Bellina"/>, Roma, Salerno editrice, 1994.</p>
         <p>Sur la question de l’autorialité partagée avec Ranieri Calzabigi, nous renvoyons à notre introduction à la <ref target="angiolini_programme-semiramis.xml">Dissertation sur les ballets pantomimes</ref> du même auteur.</p>
         <p>Etablissement du texte : Nous avons procédé à la modernisation de l’orthographe et de la morphologie, en revanche aucune modification n’a été faite à la ponctuation ; nous avons conservé l’orthographe des noms propres ainsi que les majuscules telles qu’elles apparaissent dans le texte original.</p>
         <p>Pour une lecture plus aisée, nous avons ajouté deux titres qui signalent une première partie et le plan du ballet.</p>
       </div>
-      <div>
+    </front>
+    <body>
+      <div type ="frontispiece">
         <head>[Titre complet figurant sur le frontispice]</head>
         <label>Le Festin de Pierre Ballet Pantomime Composé par Mr. Angiolini Maître des Ballets du Théâtre près de la Cour à Vienne, et représenté pour la première fois sur ce Théâtre le Octobre 1761. À Vienne. Chez Jean Thomas Trattner Libraire et Imprimeur de la Cour. 1761</label>
         <p/>
@@ -73,7 +83,7 @@
           <bibl>Traduction du Père Tarteron.</bibl>
         </quote>
       </div>
-      <div>
+      <div type="chapter">
         <head>[Première partie]</head>
         <p rend="indent">[1] Le Spectacle que je présente au Public est un Ballet Pantomime dans le goût des Anciens. Ceux qui ont lu les auteurs Grecs ou Latins qui, soiten Original soit en Traduction, sont dans les mains de tout le monde, connaissent les noms célèbres de Pylade et de Bathylle qui vivaient sous le Règne d’Auguste. Les merveilles de leur Art sont immortalisées par les Historiens, les Orateurs et les Poètes. Lucien nous a même laissé un Traité de cet Art célèbre, qu’on peut regarder comme une espèce de Poétique des Danses Pantomimes, quoiqu’il soit imparfait.</p>
         <p>[2] Le sublime de l’ancienne Danse était la Pantomime, et celle-ci était l’art d’imiter les mœurs, les passions, les actions des Dieux, des Héros, des hommes, par des mouvements et des attitudes du corps, par des gestes et des signes faits en cadence et propres à exprimer ce qu’on avait dessein de représenter. Cesmouvements, ces gestes devaient former, pour ainsi dire, un discours suivi : c’était une espèce de Déclamation, faite pour les yeux, dont on rendait l’intelligence plus aisée aux Spectateurs par le moyen de la Musique qui variait ses sons, suivant que l’Acteur Pantomime avait dessein d’exprimer l’amour ou la haine, la fureur ou le désespoir.</p>
@@ -88,7 +98,7 @@
         <p>[11] Il n’en a pas été ainsi jusqu’à présent : si l’on en excepte notre Théâtre et les Pantomimes qui y ont été données par mon Maître, le célèbre Hilverding. Mais on peut assurer hardiment qu’en général nous n’avons connu, pour ainsi dire, que le simple Alphabet de la Danse. Nous n’avons fait que bégayer comme les enfants, sans pouvoir mettre deux phrases ensemble. Des spectateursfroids et tranquilles ont admiré nos pas, nos attitudes, nos mouvements, notre cadence, notre « à plomb », avec la même indifférence qu’on admire des yeux, des bouches, des nez, des mains artistement crayonnés. Qu’il y a loin de là à l’assemblage d’un beau portrait vivant du Titien, ou de Van Dyck qui nous enchante, à la composition pittoresque et animée d’un grand tableau de Raphaël ou de Rubens<term rend="index" key="Rubens Peter Paul"/> qui nous ravit, qui secoue notre âme avec violence ! Quel est celui d’entre nous qui s’est jamais vanté de pouvoir représenter en Danse un seul personnage célèbre, comme Hercule, Thésée, Alexandre, dans sa dignité et dans la vérité de leurs caractères ? Et cependant quelle distance encore entre ces portraits isolés et l’ensemble d’une grande histoire, telle que le <hi rend="i">Sacrifice d’Iphigénie</hi>, l’Entrevue de Coriolan avec sa Mère ; Médée qui déchire ses enfants ; ou Clytemnestre qui fait assassiner Agamemnon ! Quelle que puisse être la présomption que nous avons de nous mêmes, un sentiment intérieur nous forcera toujours d’avouer notre pauvreté actuelle et la richesse des anciens.</p>
         <p>[12] Cette richesse m’a ébloui : je l’ai ambitionnée avec transport. C’est elle qui m’a donné la hardiesse de mettre en pratique ce que j’ai recueilli, par un travail assidu, touchant les Pantomimes de l’antiquité. Si mes efforts ne sont pas couronnés par le succès, je n’enserai pas rebuté. L’Art n’est pas responsable des fautes de l’Artiste. Je réussirai peut-être mieux lorsque j’aurai ajouté l’expérience à l’étude ; et le Public me fera certainement un mérite de l’avoir entrepris dans la vue de lui plaire, et me tiendra compte du défaut des moyens : nous manquons de tout ce qui serait nécessaire pour de tels Spectacles.</p>
       </div>
-      <div>
+      <div type="chapter">
         <head>[Plan du ballet]</head>
         <p rend="indent">[13] J’ai divisé le Ballet en trois actes. Le premier représente une rue publique. La maison du Commandeur est d’un côté, celle de Don Juan de l’autre. L’action commence par uneSérénade que Don Juan donne à Donna Elvire sa Maîtresse, fille du Commandeur. Il obtient l’entrée dans la maison où il est surpris par le Père. Il se bat contre lui ; le Commandeur est tué ; on l’emporte.</p>
         <p>[14] Dans le second Acte Don Juan donne chez lui un grand repas, précédéd’un bal, à ses amis et à ses Maîtresses. Lorsqu’on a dansé on se met à table. Au plus fort de la joie, le Commandeur en statue, frappe rudement à la porte. On va ouvrir ; il entre dans la salle ; les conviés sont épouvantés, ils prennent la fuite. Don Juan reste seul avec la statue. Il la prie, par dérision, de manger. Elle refuse, et convie, à son tour, Don Juan à manger à son tombeau. Don Juan accepte, et reconduit le Commandeur. Le bruit cesse ; les conviés, un peu rassurés reviennent dans la salle, mais la frayeur les accompagne, ce qui donne lieu à une entrée de Trembleurs. Don Juan revient. Il tâche de les rassurer ; ils l’abandonnent. Il reste seul avec son laquais, il donne des ordres, et sort.</p>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -23,6 +22,10 @@
         <respStmt>
           <name>Éric Thiébaud</name>
           <resp>édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>XML-TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -54,7 +57,7 @@
   </teiHeader>
   <text>
     <front>
-      <div><head>Louis de Cahusac, <hi rend="i">Écrits sur la danse.</hi></head>
+      <div type="introduction"><head>Louis de Cahusac, <hi rend="i">Écrits sur la danse.</hi></head>
         <p>Louis de Cahusac, né en 1706, mort en 1759, est surtout connu aujourd’hui comme l’un des principaux librettistes de ballets de Rameau — avec qui il n’a réalisé qu’une seule tragédie : <hi rend="i">Zoroastre</hi>, créée en 1749. Il a rédigé un important traité sur la danse, intitulé <hi rend="i">La Danse ancienne et moderne</hi>, publié à la fin de l’année 1753 chez Jean Néaulme à La Haye (et daté, conformément à l’usage, de 1754).</p>
         <p>Cahusac était également membre de l’équipe des rédacteurs de l’<hi rend="i">Encyclopédie</hi> dirigée par Denis Diderot et Jean Le Rond d’Alembert, et chargé des articles sur la danse, le ballet, l’opéra et les fêtes. Pour la musique et le chant, il est parfois associé dans le même texte avec Jean-Jacques Rousseau, en charge des questions de musique, et pour les termes d’orchestique, il travaille avec un auteur qui ne signe pas et que nous n’avons à ce jour pas identifié.</p>
         <p>Entre 1751 et 1757, paraissent les sept premiers volumes de l’<hi rend="i">Encyclopédie</hi>. Les avanies de toutes sortes qui s’abattent sur le projet entraînent une interruption importante de la publication en octobre 1758. Elle ne reprend qu’en 1766 avec le tome VIII (les volumes de planches commencent à paraître en 1762 seulement). Entre temps, Cahusac a perdu la tête et a été enfermé aux Petits-Maisons à Charenton, où il est mort en 1759. Il n’a donc pu terminer les articles qu’il avait prévu de rédiger, qui apparaissent de deux manières : dans les renvois prévus depuis les articles publiés, mais aussi dans son traité où le matériau préparatoire a été en partie reversé.</p>
@@ -68,10 +71,9 @@
       </div>
     </front>
     <body>
-      <div>
       <head>La Danse Ancienne et moderne ou Traité historique de la danse.</head>
       <head type="sub">Par <hi rend="sc">M. de Cahusac</hi>, de l’Académie Royale des Sciences et Belles-Lettres de Prusse.</head>
-      <div>
+      <div type="introduction">
         <head>Avant-propos</head>
         <p>Il est rare qu’on ne se passionne pas pour les genres d’étude que l’on s’est choisi. J’ai craint ce danger en écrivant cet Ouvrage, et pour m’en garantir, je me suis rappelé mille fois les prétentions ridicules des différents maîtres du <hi rend="i">Bourgeois Gentilhomme</hi>.</p>
         <p>Je déclare donc, avant d’entrer en matière, que je ne crois point la Danse la plus excellente chose qu’on puisse faire, et que je suis persuadé qu’il y a dans le monde des objets d’une plus grande importance que ne le sont même les beaux-arts.</p>
@@ -116,9 +118,9 @@
         <p>J’ai eu souvent besoin d’exemples pour éclaircir mes propositions ou pour les prouver ; mais j’ai cru devoir les prendre ailleurs que dans les Ouvrages lyriques des Auteurs vivants. J’ai parlé de Quinault comme on aurait dû toujours en penser, et de Lamotte [La Motte], comme j’en pense.</p>
         <p>Un Ecrivain, au reste, qui voudrait faire un Traité philosophique sur la Rhétorique, n’aurait garde de s’amuser à des recherches frivoles de Grammaire. Aristote et Quintilien ont supposé les lettres, les mots, la langue, en un mot trouvée et convenue. En écrivant de la <hi rend="i">Danse</hi>, je suppose de même les pas et les figures, qui ne sont que les lettres et les mots de cet Art.</p>
       </div>
-      <div>
+      <div type="section">
         <head>Première partie</head>
-        <div>
+        <div type="book">
           <head>Livre premier</head>
           <div type="chapter" xml:id="de-l-utilite-de-la-theorie-dans-tous-les-arts">
             <head>Chapitre I. De l’utilité de la Théorie dans tous les Arts.</head>
@@ -258,7 +260,7 @@
             <p>En parcourant les Annales du Monde, on est quelquefois surpris de la multiplicité des folies des hommes. Peut-être ne devrait-on être étonné, que de ce qu’au milieu de tant d’extravagances successives, et presque toutes si contagieuses, il est possible encore de trouver quelques sages.</p>
           </div>
         </div>
-        <div>
+        <div type="book">
           <head>Livre second</head>
           <div type="chapter" xml:id="de-la-danse-profane">
             <head>Chapitre I. De la Danse profane</head>
@@ -409,7 +411,7 @@
             <p>Entrez dans ces jardins plantés, et cultivés par des mains habiles. Ces arbres vous paraissent tous d’une égale beauté. Chacun de leurs rameaux s’élève vers le ciel : il n’en est point qui rampe sur la terre. Admirez le pouvoir, les fruits, les miracles d’une bonne culture.</p>
           </div>
         </div>
-        <div>
+        <div type="book">
           <head>Livre troisième</head>
           <div type="chapter" xml:id="naissance-du-theatre">
             <head>Chapitre I. Naissance du Théâtre</head>
@@ -521,7 +523,7 @@
             <p>Nous nous sommes contentés à moins jusqu’à ce jour ; et nous croyons de bonne foi connaître, aimer, posséder la Danse. Combien de fois n’ai-je pas ouï dire à des gens même de goût et d’esprit, que les Français étaient les meilleurs danseurs de l’Europe, qu’ils avaient porté l’Art de nos jours, aussi loin qu’il pouvait aller, etc. C’est ainsi que nos bons aïeux, il y a trois cents ans, satisfaits d’une abondance grossière, s’imaginaient avoir fait dans leurs festins, une chère très délicate. Ils en avaient le fond ; mais l’Art de l’employer leur fut inconnu. Sur nos théâtres nous avons de même des pieds excellents, des jambes brillantes, des bras admirables. Quel dommage, que l’Art de la Danse nous manque !</p>
           </div>
         </div>
-        <div>
+        <div type="book">
           <head>Livre quatrième</head>
           <div type="chapter" xml:id="epoque-du-plus-haut-point-de-gloire-de-l-art">
             <head>Chapitre I. Époque du plus haut point de gloire de l’Art</head>
@@ -655,9 +657,9 @@
           </div>
         </div>
       </div>
-      <div>
+      <div type="section">
         <head>Seconde partie</head>
-        <div>
+        <div type="book">
           <head>Livre premier</head>
           <div type="chapter" xml:id="renaissance-des-arts">
             <head>Chapitre I. Renaissance des Arts</head>
@@ -781,7 +783,7 @@
             <p>Le Souverain qui sait bien choisir, pour imaginer, arranger et conduire une Fête d’éclat, diminue quelquefois de moitié sa dépense, et double toujours sa gloire.</p>
           </div>
         </div>
-        <div>
+        <div type="book">
           <head>Livre deuxième</head>
           <div type="chapter" xml:id="des-ballets-ambulatoires">
             <head>Chapitre I. Des Ballets Ambulatoires</head>
@@ -954,7 +956,7 @@
             <p>Feu M. Turgot aurait fait l’équivalent d’un pareil miracle, sans surcharger le Peuple, et sans importuner le Roi. Ce Magistrat que la postérité, pour l’honneur de notre siècle, mettra de niveau avec les hommes les plus célèbres du siècle de Louis XIV<note resp="author">Lors du Mariage de Madame Infante, <hi rend="i">que pourrait-il faire</hi>, disait-on, <hi rend="i">pour le Mariage d’un Dauphin</hi> ? Il fallait en juger par ce qu’il fit alors. </note>, sut bien changer une cour irrégulière, en une salle de Bal la plus magnifique qu’on eut vue encore en Europe, et un édifice gothique, en un Palais des Fées. Tout prospère, tout s’embellit, tout devient admirable sous la main vivifiante d’un homme de génie. [Voir <ref target="cahusac_encyclopedie#Fêtes-de-la-Ville-de-Paris">Fêtes de la Ville de Paris</ref>]</p>
           </div>
         </div>
-        <div>
+        <div type="book">
           <head>Livre troisième</head>
           <div type="chapter" xml:id="des-fetes-dont-la-danse-a-ete-le-fond-a-la-cour-de-france">
             <head>Chapitre I. Des Fêtes dont la Danse a été le fond à la Cour de France, depuis l’année 1610 jusqu’en l’année 1643</head>
@@ -1172,7 +1174,7 @@
             <p>Le Théâtre Lyrique qui lui doit le Ballet moderne, lui est redevable encore de deux genres aimables, qui pouvaient procurer à la Musique des moyens de se varier, et à la Danse des occasions heureuses de se développer, si ces deux Arts avaient fait alors en France des progrès proportionnés à ceux de tous les autres. Ce Poète a porté à l’Opéra, la Pastorale et l’Allégorie<note resp="author">Voyez <hi rend="i">Issé</hi> et <hi rend="i">Le Carnaval et la Folie</hi>.</note>. Il est galant, tendre, original, dans les compositions qu’il n’a imaginées que d’après lui. Il peut marcher alors à côté de Quinault. <hi rend="i">L’Europe Galante, Issé, Le Carnaval et la Folie</hi> ne sont pas inférieurs aux meilleurs Opéras de ce beau génie ; mais il est froid, insipide, languissant dans tous ses autres ouvrages lyriques, et tel que ses ennemis l’ont cru, ou l’ont voulu faire croire. Il y a des hommes dans la Littérature, qui sont faits, pour voler de leurs propres ailes ; et alors ils s’élèvent jusque dans le Ciel. Ils retombent, dès qu’ils imitent. Ce ne sont plus même des hommes ; ils grimacent comme des singes. [Voir <ref target="cahusac_encyclopedie#Ballet">Ballet</ref>]</p>
           </div>
         </div>
-        <div>
+        <div type="book">
           <head>Livre quatrième</head>
           <div type="chapter" xml:id="caractere-que-doit-avoir-la-danse-theatrale">
             <head>Chapitre I. Caractère que doit avoir la Danse Théâtrale</head>
@@ -1319,7 +1321,6 @@
             <p>FIN.</p>
           </div>
         </div>
-      </div>
       </div>
     </body>
   </text>
