@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Pierre Louÿs</author>, <title>Dialogue sur la danse</title> [<hi rend="i">Fémina-Noël</hi>, 1910], in <title>Œuvres complètes</title>, tome XI, Paris, éditions Montaigne, 1930, p. 5-17, source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k45075">Gallica</ref>.</bibl>
+        <bibl><author>Pierre Louÿs</author>, <title>Dialogue sur la danse</title> [<hi rend="i">Fémina-Noël</hi>, 1910], in <title>Œuvres complètes</title>, tome XI, Paris, éditions Montaigne, 1930, <biblScope>p. 5-17</biblScope>. PDF : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k45075">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -53,9 +53,10 @@
   <text>
     <body>
       <div>
+        <pb n="7"/>
         <head>Dialogue sur la danse</head>
         <label type="speaker">La Danseuse</label>
-        <p><pb n="7"/>Et qui vous fait tant aimer les danses de caractère ?</p>
+        <p>Et qui vous fait tant aimer les danses de caractère ?</p>
         <label type="speaker">Moi</label>
         <p>Ah ! Mademoiselle, si vous dites tout de suite le sujet de mon article, il n’aura plus aucun intérêt pour le lecteur.</p>
         <label type="speaker">La Danseuse</label>

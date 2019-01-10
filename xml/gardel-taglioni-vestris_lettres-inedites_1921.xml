@@ -43,7 +43,7 @@
         </licence></availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Source : Gaetano <author>Vestris</author>, Pierre-Gabriel <author>Gardel</author> et Marie <author>Taglioni</author>, <title><hi rend="i">« Quelques lettres inédites de célébrités chorégraphiques »</hi></title>, in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., p. 222-226. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl>
+        <bibl>Source : Gaetano <author>Vestris</author>, Pierre-Gabriel <author>Gardel</author> et Marie <author>Taglioni</author>, « <title><hi rend="i">Quelques lettres inédites de célébrités chorégraphiques</hi></title> », in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., <biblScope>p. 222-226</biblScope>. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

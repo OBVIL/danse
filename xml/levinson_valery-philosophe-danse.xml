@@ -39,12 +39,12 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>André Levinson</author>, <title>Paul Valéry philosophe de la danse</title>, <date>1936</date>.</bibl>
+        <bibl><author>André Levinson</author>, <title>Paul Valéry philosophe de la danse</title>, <pubPlace>Paris</pubPlace>, <publisher>La Tour d'Ivoire</publisher>, <date>1927</date>, <biblScope>47 p., in-8</biblScope>. PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k9768150w">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1936"/>
+        <date when="1927"/>
       </creation>
       <langUsage>
         <language ident="fr"/>
@@ -56,9 +56,9 @@
       <div type="epigraph">
         <epigraph>
           <p>La belle mobilité des transitions que nous admirons en de pareilles artistes est ici suspendue pour un instant, de telle façon que nous apercevons en même temps le passé, le présent et l’avenir, ce qui nous suffit pour accéder à un état céleste.</p>
-        </epigraph>
-        <signed>Goethe « Le Tombeau de la Danseuse »</signed>
-      </div>
+        <bibl>Goethe, « Le Tombeau de la Danseuse »</bibl>
+      </epigraph>
+        </div>
       <div>
         <head>Paul Valéry philosophe de la danse</head>
         <p>Parmi les <quote>« vices impunis »</quote> que suscite la fréquentation familière des ouvrages de l’esprit, nul ne me semble plus digne d’indulgence que l’indiscrète ferveur du glossateur. Or une <quote>« variété »</quote> de M. Paul Valéry, <quote>« calme bloc »</quote>, est, plus que tout autre essai, un fait à jamais accompli, inaltérable, et qui se dérobe à la frivole surcharge d’une exégèse. Valéry dit tout ce qu’il se propose de dire, et tait ce qu’il a entendu cacher. Les arceaux de ses vastes architectures s’ouvrent sur l’espace ; mais leurs portes sont condamnées par une incoercible volonté. À quoi bon, s’il en est ainsi, tenter l’escalade ? Avant tout pour la jouissance de <hi rend="i">citer</hi>, c’est-à-dire de transcrire, de sa propre main et de sa meilleure encre, des fragments d’un texte admiré. En répétant le geste même qu’accomplit l’écrivain en formant ses vocables je m’associe, dévot calligraphe, à l’effort musculaire et à l’incitation nerveuse qui tracèrent ces pleins et ces déliés. J’espère ainsi en surprendre l’impulsion intime ; la littérature n’est-elle pas le plus subtil des métiers manuels ? Ma volupté de scribe est, dès lors, pareille à celle du danseur qui absorbe une musique en mimant de tous ses membres et jusque dans ses entrailles les oscillations du corps sonore.</p>

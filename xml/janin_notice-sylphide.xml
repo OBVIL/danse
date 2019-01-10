@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Jules Janin</author>, « Notice sur <hi rend="i">La Sylphide</hi> », in <title>Les Beautés de l’Opéra, ou Chefs-d’œuvre lyriques illustrés par les premiers artistes de Paris et de Londres</title>, sous la dir. de Giraldon, avec un texte explicatif rédigé par Théophile Gautier, Jules Janin et Philarète Chasles, <pubPlace>Paris</pubPlace>, <publisher>Soulié</publisher>, <date>1845</date>, 10 part. en 1 vol., ill., 7<hi rend="sup">e</hi> partie. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k63784014">Gallica</ref>.</bibl>
+        <bibl><author>Jules Janin</author>, « Notice sur <hi rend="i">La Sylphide</hi> », in <title>Les Beautés de l’Opéra, ou Chefs-d’œuvre lyriques illustrés par les premiers artistes de Paris et de Londres</title>, sous la dir. de Giraldon, avec un texte explicatif rédigé par Théophile Gautier, Jules Janin et Philarète Chasles, <pubPlace>Paris</pubPlace>, <publisher>Soulié</publisher>, <date>1845</date>, 10 part. en 1 vol., ill., 7<hi rend="sup">e</hi> partie, <biblScope>p. 3-23</biblScope> [f. 183-203]. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k63784014">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

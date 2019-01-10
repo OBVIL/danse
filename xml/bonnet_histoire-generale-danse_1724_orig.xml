@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Histoire générale de la danse sacrée et profane [graphie originale]</title>
+                <title>Histoire générale de la danse sacrée et profane [graphies originales]</title>
                 <author key="Bonnet, Jacques (1644-1724)">Jacques Bonnet</author>
                 <author key="Bourdelot, Pierre Michon (1610-1684)">Pierre Michon Bourdelot</author>
             </titleStmt>
@@ -61,8 +61,8 @@
                         musique, et le Parallèle de la peinture et de la poésie. Dédiée à S. A. R.
                         Monseigneur le Duc d’Orléans, petit-fils de France. Par M. Bonnet, ancien
                         payeur des gages au Parlement</title>, <pubPlace>Paris</pubPlace>,
-                        <publisher>d’Houry fils</publisher>, <date>1724</date>, XL-269-[3] p. ;
-                    in-12. Source : <ref target="https://archive.org/details/histoiregenerale00bonn"
+                        <publisher>d’Houry fils</publisher>, <date>1724</date>, <biblScope>XL-269-[3] p. ;
+                    in-12</biblScope>. PDF : <ref target="https://archive.org/details/histoiregenerale00bonn"
                         >Internet Archive</ref>.</bibl>
             </sourceDesc>
         </fileDesc>
@@ -2640,7 +2640,7 @@
                         <l>Les varie en cent façons ;</l>
                         <l>Leurs pas, leur course inégale</l>
                         <l>Représentent le Dédale</l>
-                        <l>De la fille de Minos :<note type="star" place="bottom"><p>Danse figurée
+                        <l>De la fille de Minos :<note place="bottom"><p>Danse figurée
                                     des Athéniennes, inventée à l’occasion de la suite d’Ariane,
                                     &amp; de son heureuse sortie du labirinte. Vulcain l’avoit
                                     représentée sur le bouclier d’Achille.</p></note></l>
@@ -2761,7 +2761,7 @@
                     flambeaux. Les Suisses épouvantez de cette hardiesse, allerent en <pb n="151"
                     />avertir M. de N.… qui ne balança pas d’ordonner aux Suisses d’ouvrir toutes
                     les portes, se doutant bien qu’il falloit que ce fût des personnes de la
-                    premiere qualité, pour faire une action si hardie.<note type="star"
+                    premiere qualité, pour faire une action si hardie.<note
                         place="bottom"><p>Ce fait est rapporté dans le Journal secret des
                             Divertissemens de la Cour de Louis XIV.</p></note> Tout le cortege entra
                     dans la cour, &amp; l’on vit paroître dans le bal une bande de douze masques

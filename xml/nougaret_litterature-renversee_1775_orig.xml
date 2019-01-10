@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>La littérature renversée, ou l’art de faire des pièces de théâtre sans
-                    paroles [graphie originale]</title>
+                    paroles [graphies originales]</title>
                 <author key="Nougaret, Pierre-Jean-Baptiste (1742-1823)">Pierre-Jean-Baptiste
                     Nougaret</author>
             </titleStmt>
@@ -68,10 +68,10 @@
                         prononciation ; et offrant en outre une excellente méthode aux gens mariés,
                         pour se quereller dans leur ménage, sans faire de bruit : suivi de l’Art de
                         se louer soi-même, d’après les principes de M. Lin**</title>,
-                        <pubPlace>Berne, Paris</pubPlace>, <publisher>chez les débitants de
-                        brochures nouvelles</publisher>, <date>1775</date>, XV-64 p. ; in-8. Source
-                    : <ref target="https://books.google.fr/books?id=NYqIf90YKUwC">Google
-                        Livres</ref>.</bibl>
+                        <pubPlace>Berne</pubPlace>, <pubPlace>Paris</pubPlace>, <publisher>chez les
+                        débitants de brochures nouvelles</publisher>, <date>1775</date>,
+                        <biblScope>XV-64 p. ; in-8</biblScope>. PDF : <ref
+                        target="https://books.google.fr/books?id=NYqIf90YKUwC">Google</ref>.</bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -79,7 +79,7 @@
                 <date when="1775"/>
             </creation>
             <langUsage>
-                <language ident="fre">fre</language>
+                <language ident="fre"/>
             </langUsage>
         </profileDesc>
     </teiHeader>
@@ -89,9 +89,9 @@
                 <pb n="iv"/>
                 <head>[ÉPIGRAPHE.]</head>
                 <quote>
-                    <p rend="i">L’Auteur qui choisit avec soin le Paradoxe, &amp; qui le défend
-                        avec intrépidité, tirera de ce talent de grands avantages pour sa fortune
-                        &amp; sa réputation.</p>
+                    <p rend="i">L’Auteur qui choisit avec soin le Paradoxe, &amp; qui le défend avec
+                        intrépidité, tirera de ce talent de grands avantages pour sa fortune &amp;
+                        sa réputation.</p>
                     <bibl>Théorie du Paradoxe, pag. 188.</bibl>
                 </quote>
             </div>
@@ -153,11 +153,11 @@
             <div type="preface" xml:id="discours-preliminaire">
                 <pb n="ix"/>
                 <head>DISCOURS PRÉLIMINAIRE,<lb/><hi rend="i">PRÉFACE,</hi><lb/>AVIS AU
-                        LECTEUR,<lb/><hi rend="i">OU TOUT CE QU’ON
-                        VOUDRA</hi><note place="bottom">Redoutables Censeurs, foudre de la
-                        Littérature, trêve, trêve un moment à vos critiques. Lisez avec attention,
-                        &amp; vous verrez ce que vous n’avez point encore vu ; un Auteur qui se loue
-                        par humilité. <hi rend="i">Note du grand-Sauteur.</hi></note>.</head>
+                        LECTEUR,<lb/><hi rend="i">OU TOUT CE QU’ON VOUDRA</hi><note place="bottom"
+                        >Redoutables Censeurs, foudre de la Littérature, trêve, trêve un moment à
+                        vos critiques. Lisez avec attention, &amp; vous verrez ce que vous n’avez
+                        point encore vu ; un Auteur qui se loue par humilité. <hi rend="i">Note du
+                            grand-Sauteur.</hi></note>.</head>
                 <p>Il n’est point aisé de devenir Auteur. Malgré le grand nombre de gens qui
                     s’avisent d’écrire, les bons Ouvrages sont très-rares. La moindre production
                     coûte des soins &amp; des peines infinies. Croirait-on qu’il faut plus d’un jour
@@ -235,13 +235,13 @@
                     tout ce que je n’ôse lui révéler, <pb n="xv"/>&amp; sera contraint d’avouer
                     qu’il existe enfin un Auteur modeste.</p>
             </div>
-        <div type="chapter" xml:id="ressources">
+            <div type="chapter" xml:id="ressources">
                 <pb n="15"/>
-                <head>LES RESSOURCES,<lb/><hi rend="i">OU</hi> LE TABLEAU DU MONDE,<lb/><hi
-                        rend="i">PANTOMIME.</hi></head>
+                <head>LES RESSOURCES,<lb/><hi rend="i">OU</hi> LE TABLEAU DU MONDE,<lb/><hi rend="i"
+                        >PANTOMIME.</hi></head>
                 <div type="set" xml:id="personnages">
-                    <head>PERSONNAGES<hi rend="sc"> <hi rend="i">de la
-                        Pantomime.</hi></hi></head>
+                    <head>PERSONNAGES<hi rend="sc">
+                            <hi rend="i">de la Pantomime.</hi></hi></head>
                     <pb n="14"/>
                     <castList>
                         <castItem>LE SULTAN.</castItem>
@@ -310,10 +310,10 @@
                 <div type="scene" xml:id="scene-07">
                     <pb n="4"/>
                     <head><hi rend="i">SCENE VII.</hi></head>
-                    <p>Arlequin paraît avec un autre Magicien ; il lui fait entendre
-                        qu’il voudrait avoir l’argent qui est dans les coffres. Le Magicien fait des
-                        conjurations, &amp; sort avec Arlequin, en lui faisant signe qu’il ne
-                        tardera point à posséder les trésors qu’il envie.</p>
+                    <p>Arlequin paraît avec un autre Magicien ; il lui fait entendre qu’il voudrait
+                        avoir l’argent qui est dans les coffres. Le Magicien fait des conjurations,
+                        &amp; sort avec Arlequin, en lui faisant signe qu’il ne tardera point à
+                        posséder les trésors qu’il envie.</p>
                 </div>
                 <div type="scene" xml:id="scene-08">
                     <head><hi rend="i">SCENE VIII.</hi></head>
@@ -347,7 +347,7 @@
                 <div type="scene" xml:id="scene-11">
                     <head><hi rend="i">SCENE XI.</hi></head>
                     <p rend="i"><pb n="6"/>Le Théâtre change, &amp; représente une Salle des
-                            appartemens du Sultan.</p>
+                        appartemens du Sultan.</p>
                     <p>Des Courtisans, qui se promènent dans la salle, font entendre que le Sultan,
                         accablé de douleur, est tombé malade : les uns s’en affligent, les autres
                         s’en réjouïssent.</p>
@@ -367,10 +367,10 @@
                 <div type="scene" xml:id="scene-14">
                     <pb n="7"/>
                     <head><hi rend="i">SCENE XIV.</hi></head>
-                    <p>De petits Génies sortent de dessous quatre tables, qui sont
-                        changées en cornes d’abondance. Ils en tirent des robes de toutes couleurs,
-                        &amp; sur-tout beaucoup de noires. Les petits Génies entrent ensuite dans
-                        les cornes d’abondance, &amp; disparaissent. On sonne de la trompette.</p>
+                    <p>De petits Génies sortent de dessous quatre tables, qui sont changées en
+                        cornes d’abondance. Ils en tirent des robes de toutes couleurs, &amp;
+                        sur-tout beaucoup de noires. Les petits Génies entrent ensuite dans les
+                        cornes d’abondance, &amp; disparaissent. On sonne de la trompette.</p>
                 </div>
                 <div type="scene" xml:id="scene-15">
                     <head><hi rend="i">SCENE XV.</hi></head>
@@ -405,17 +405,17 @@
                 <div type="scene" xml:id="scene-18">
                     <pb n="9"/>
                     <head><hi rend="i">SCENE XVIII.</hi></head>
-                    <p>Plusieurs Démons sortent des entrailles de la terre, armés de
-                        fourches &amp; de flambeaux. Ils font des grimaces ; des gestes effrayans
-                        &amp; des sauts périlleux. La peur s’empare de tout le monde. Le Sultan
-                        &amp; toute sa Cour s’échappent, pénétrés de frayeur. Les Démons redoublent
-                        leurs sauts, s’abandonnent à la joie, se jettent enfin dans les coffres,
-                        &amp; tout disparaît.</p>
+                    <p>Plusieurs Démons sortent des entrailles de la terre, armés de fourches &amp;
+                        de flambeaux. Ils font des grimaces ; des gestes effrayans &amp; des sauts
+                        périlleux. La peur s’empare de tout le monde. Le Sultan &amp; toute sa Cour
+                        s’échappent, pénétrés de frayeur. Les Démons redoublent leurs sauts,
+                        s’abandonnent à la joie, se jettent enfin dans les coffres, &amp; tout
+                        disparaît.</p>
                 </div>
                 <div type="scene" xml:id="scene-19">
                     <head><hi rend="i">SCENE XIX.</hi></head>
-                    <p rend="i">Le Théâtre représente une Salle richement ornée, éclairée
-                            par des lustres &amp; des girandoles.</p>
+                    <p rend="i">Le Théâtre représente une Salle richement ornée, éclairée par des
+                        lustres &amp; des girandoles.</p>
                     <p>On voit Arlequin avec beaucoup de monde : sa Maitresse le dédaigne
                         toujours.</p>
                 </div>
@@ -432,8 +432,7 @@
                 </div>
                 <div type="scene" xml:id="scene-21">
                     <head><hi rend="i">SCENE XXI.</hi></head>
-                    <p rend="i">Le Théâtre représente une Campagne arrosée d’une
-                            rivière.</p>
+                    <p rend="i">Le Théâtre représente une Campagne arrosée d’une rivière.</p>
                     <p>Arlequin &amp; ses amis jettent dans la rivière les corps de ceux qu’ils ont
                         tués.</p>
                 </div>
@@ -445,8 +444,8 @@
                 </div>
                 <div type="scene" xml:id="scene-23">
                     <head><hi rend="i">SCENE XXIII.</hi></head>
-                    <p rend="i"><pb n="11"/>Le Théâtre représente une grande Place, au
-                            milieu de laquelle est un bûcher.</p>
+                    <p rend="i"><pb n="11"/>Le Théâtre représente une grande Place, au milieu de
+                        laquelle est un bûcher.</p>
                     <p>Pompe funèbre du Sultan : son corps est mis sur le bûcher.</p>
                 </div>
                 <div type="scene" xml:id="scene-24">
@@ -471,8 +470,8 @@
                 </div>
                 <div type="scene" xml:id="scene-26">
                     <head><hi rend="i">SCENE XXVI.</hi></head>
-                    <p rend="i">Le Théâtre représente une Salle du Palais du Sultan.
-                            (Tout le Peuple est rassemblé).</p>
+                    <p rend="i">Le Théâtre représente une Salle du Palais du Sultan. (Tout le Peuple
+                        est rassemblé).</p>
                     <p>Le Magicien fait sortir de dessous le Théâtre un mortier d’une énorme
                         grandeur, &amp; fait entendre que, pour de l’argent, on entrera dans le
                         mortier, &amp;, qu’après y avoir été pilé par les Esprits aériens, on en
@@ -499,9 +498,9 @@
                 <div type="scene" xml:id="scene-28">
                     <pb n="14"/>
                     <head><hi rend="i">SCENE XXVIII.</hi></head>
-                    <p>Le Magicien, qui se doute que cette dernière ressource n’a pas
-                        rempli les coffres du Sultan, fait entendre qu’il est des gens riches, qu’on
-                        peut mettre à contribution : il les fait appeller.</p>
+                    <p>Le Magicien, qui se doute que cette dernière ressource n’a pas rempli les
+                        coffres du Sultan, fait entendre qu’il est des gens riches, qu’on peut
+                        mettre à contribution : il les fait appeller.</p>
                 </div>
                 <div type="scene" xml:id="scene-29">
                     <head><hi rend="i">SCENE XXIX.</hi></head>
@@ -541,15 +540,15 @@
             <div type="chapter" xml:id="lettre-grand-sauteur">
                 <pb n="17"/>
                 <head>LETTRE<lb/><hi rend="i">D’UN GRAND SAUTEUR</hi><lb/>A M. DE VOLTAIRE,<lb/><hi
-                        rend="i">SUR LES PANTOMIMES</hi><note place="bottom">Mettons le
-                        Public dans ma confidence. Cette Lettre est une espèce de Parodie de
-                        certaine Lettre qu’on trouve à la fin de la Tragédie intitulée : <hi
-                            rend="i">le Comte de Warwick</hi>. J’ai eu soin de marquer avec des
-                        guillemets les passages qui en sont tirés, &amp; de mettre en caractères
-                        italiques, ceux qui développent souvent les pensées que son Auteur ne fait
-                        qu’indiquer. J’avertirai aussi fidèlement si je m’avise d’extraire des
-                        morceaux de quelques autres Ouvrages. <hi rend="i">Note du grand
-                            Sauteur</hi>.</note>.</head>
+                        rend="i">SUR LES PANTOMIMES</hi><note place="bottom">Mettons le Public dans
+                        ma confidence. Cette Lettre est une espèce de Parodie de certaine Lettre
+                        qu’on trouve à la fin de la Tragédie intitulée : <hi rend="i">le Comte de
+                            Warwick</hi>. J’ai eu soin de marquer avec des guillemets les passages
+                        qui en sont tirés, &amp; de mettre en caractères italiques, ceux qui
+                        développent souvent les pensées que son Auteur ne fait qu’indiquer.
+                        J’avertirai aussi fidèlement si je m’avise d’extraire des morceaux de
+                        quelques autres Ouvrages. <hi rend="i">Note du grand
+                    Sauteur</hi>.</note>.</head>
                 <salute rend="left"><hi rend="sc">Monsieur,</hi></salute>
                 <p>Bien des gens s’imaginent qu’on ne peut être grand Auteur qu’à Paris ; vous êtes
                     la preuve du contraire. Le génie est par-tout le même. Le fameux Bayle composait
@@ -766,14 +765,14 @@
                     de la poussière, qui peut couvrir de gloire, &amp; qui peut s’illustrer à jamais
                     sous les mains d’un grand Maître.</p>
                 <p>Je vous ferai observer, Monsieur, qu’il est beaucoup plus en vogue chez les
-                    Anglais, que parmi nous<note place="bottom"><p>On appelle <hi
-                                rend="sc"><hi rend="i">Pantomime</hi></hi> sur le Théâtre de <hi
-                                rend="i">Covent-Garden</hi>, &amp; de <hi rend="i">Drury-Lane</hi> ;
-                            ce qui n’est, à proprement parler, que des <hi rend="i">mascarades</hi>,
-                            sans action liée, &amp; qui n’ont qu’un sens allégorique : par exemple,
-                            on a représenté de nos jours <hi rend="i">la France</hi>, sous la figure
-                            d’un Petit-Maître ; l’<hi rend="i">Angleterre</hi> sous la forme d’une
-                            Reine majestueuse, &amp;c.</p>
+                    Anglais, que parmi nous<note place="bottom"><p>On appelle <hi rend="sc"><hi
+                                    rend="i">Pantomime</hi></hi> sur le Théâtre de <hi rend="i"
+                                >Covent-Garden</hi>, &amp; de <hi rend="i">Drury-Lane</hi> ; ce qui
+                            n’est, à proprement parler, que des <hi rend="i">mascarades</hi>, sans
+                            action liée, &amp; qui n’ont qu’un sens allégorique : par exemple, on a
+                            représenté de nos jours <hi rend="i">la France</hi>, sous la figure d’un
+                            Petit-Maître ; l’<hi rend="i">Angleterre</hi> sous la forme d’une Reine
+                            majestueuse, &amp;c.</p>
                         <p>Les Anglais ont à Londres un Théâtre, nommé <hi rend="i"
                                 >Saddlen’swells</hi>, qui n’est destiné qu’aux <hi rend="i"
                                 >Pantomimes</hi> à machines. <hi rend="i">Note du grand
@@ -824,15 +823,15 @@
                     parvenir à la dernière postérité. Mon âme, <quote>« vous le voyez, Monsieur,
                         s’épanche devant vous avec liberté. Je suis toutes ses
                         impressions ».</quote></p>
-                <p><pb n="32"/>Je vous avertis, Monsieur, qu’il est de votre honneur de trouver admirable la <hi
-                        rend="sc"><hi rend="i">Pantomime</hi></hi> que je vous envoie. Depuis six
-                    mois, je cours tout Paris, afin de la lire de cercle en cercle, de société en
-                    société. Elle m’a valu au moins deux cents soupers délicieux. Je vous dirai même
-                    tout bas, avec la modestie qui me caractérise, que toutes les personnes qui
-                    l’ont entendue, en ont été ravies. Les endroits pathétiques ont arraché des
-                    larmes, &amp; les situations plaisantes ont fait éclater de rire, non-seulement
-                    parce qu’ils le méritaient, mais encore parce qu’il est d’usage de rire ou de
-                    pleurer, lorsqu’un Auteur a la complaisance de nous communiquer ses
+                <p><pb n="32"/>Je vous avertis, Monsieur, qu’il est de votre honneur de trouver
+                    admirable la <hi rend="sc"><hi rend="i">Pantomime</hi></hi> que je vous envoie.
+                    Depuis six mois, je cours tout Paris, afin de la lire de cercle en cercle, de
+                    société en société. Elle m’a valu au moins deux cents soupers délicieux. Je vous
+                    dirai même tout bas, avec la modestie qui me caractérise, que toutes les
+                    personnes qui l’ont entendue, en ont été ravies. Les endroits pathétiques ont
+                    arraché des larmes, &amp; les situations plaisantes ont fait éclater de rire,
+                    non-seulement parce qu’ils le méritaient, mais encore parce qu’il est d’usage de
+                    rire ou de pleurer, lorsqu’un Auteur a la complaisance de nous communiquer ses
                     productions : on monte sa sensibilité selon le genre de l’ouvrage qu’on nous
                     récite.</p>
                 <p>Apprenez aussi, Monsieur (sans pourtant que je cesse d’être modeste), apprenez

@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Apologie de la danse et la parfaite méthode de l’enseigner tant aux cavaliers
-                    qu’aux dames [graphie originale]</title>
+                    qu’aux dames [graphies originales]</title>
                 <author key="Lauze, François de (1570?-1630?)">François de Lauze</author>
             </titleStmt>
             <editionStmt>
@@ -58,7 +58,7 @@
                 <bibl><author>François de Lauze</author>, <title>Apologie de la danse et la parfaite
                         méthode de l’enseigner tant aux cavaliers qu’aux dames. Par F. de
                         Lauze</title>, <pubPlace>s. l.</pubPlace>, <publisher>s. n.</publisher>,
-                        <date>1623</date>, [6]-69 p. : titre gravé ; in-4. Source : <ref
+                        <date>1623</date>, <biblScope>[6]-69 p. : titre gravé ; in-4</biblScope>. PDF : <ref
                         target="http://gallica.bnf.fr/ark:/12148/bpt6k1040284n"
                     >Gallica</ref>.</bibl>
             </sourceDesc>

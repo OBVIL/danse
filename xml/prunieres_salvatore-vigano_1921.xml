@@ -40,7 +40,7 @@
           <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
         </licence></availability>
       </publicationStmt>
-      <sourceDesc><bibl>Source : Henry <author>Prunières</author>, <title><hi rend="i">« Salvatore Viganò »</hi></title>, in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., p. 167-190. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl></sourceDesc>
+      <sourceDesc><bibl>Source : <author>Henry Prunières</author>, <title><hi rend="i">« Salvatore Viganò »</hi></title>, in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., <biblScope>p. 167-190</biblScope>. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl></sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation><date when="1921"/></creation>
