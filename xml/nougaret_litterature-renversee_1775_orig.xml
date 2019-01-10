@@ -20,6 +20,10 @@
                     <name>Wordpro</name>
                     <resp>Numérisation et encodage TEI</resp>
                 </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>XML-TEI</resp>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Sorbonne Université, LABEX OBVIL</publisher>
@@ -537,7 +541,7 @@
             <div type="chapter" xml:id="lettre-grand-sauteur">
                 <pb n="17"/>
                 <head>LETTRE<lb/><hi rend="i">D’UN GRAND SAUTEUR</hi><lb/>A M. DE VOLTAIRE,<lb/><hi
-                        rend="i">SUR LES PANTOMIMES</hi><note type="star" place="bottom">Mettons le
+                        rend="i">SUR LES PANTOMIMES</hi><note place="bottom">Mettons le
                         Public dans ma confidence. Cette Lettre est une espèce de Parodie de
                         certaine Lettre qu’on trouve à la fin de la Tragédie intitulée : <hi
                             rend="i">le Comte de Warwick</hi>. J’ai eu soin de marquer avec des
@@ -762,7 +766,7 @@
                     de la poussière, qui peut couvrir de gloire, &amp; qui peut s’illustrer à jamais
                     sous les mains d’un grand Maître.</p>
                 <p>Je vous ferai observer, Monsieur, qu’il est beaucoup plus en vogue chez les
-                    Anglais, que parmi nous<note type="star" place="bottom"><p>On appelle <hi
+                    Anglais, que parmi nous<note place="bottom"><p>On appelle <hi
                                 rend="sc"><hi rend="i">Pantomime</hi></hi> sur le Théâtre de <hi
                                 rend="i">Covent-Garden</hi>, &amp; de <hi rend="i">Drury-Lane</hi> ;
                             ce qui n’est, à proprement parler, que des <hi rend="i">mascarades</hi>,

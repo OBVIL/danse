@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/xsl/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -10,11 +10,19 @@
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>XML-TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>XML-TEI</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/gazettes_morvan</idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/temoignages-gazettes-vers</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -25,7 +33,9 @@
           </licence>
         </availability>
       </publicationStmt>
-      <sourceDesc/>
+      <sourceDesc>
+        <bibl/>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
@@ -39,8 +49,8 @@
   <text>
     <body>
       <head>TÉMOIGNAGES DES GAZETTES EN VERS
-      <lb/>SUR LES SPECTACLES DANSÉS
-      <lb/>ENTRE 1660 ET 1671</head>
+        <lb/>SUR LES SPECTACLES DANSÉS
+        <lb/>ENTRE 1660 ET 1671</head>
       <div xml:id="a1660">
         <head>
           <num>1660</num>
@@ -50,8 +60,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1660-02-07">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1660"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1660"/>
+              </index>
               <head>Loret, lettre du 7 février 1660</head>
               <lg>
                 <l>Hier, qu’il était Vendredi,</l>
@@ -86,8 +98,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1660-02-21">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1660"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1660"/>
+              </index>
               <head>Loret, lettre du 21 février 1660</head>
               <lg>
                 <l>Mollier, Esprit de bon aloi,</l>
@@ -133,8 +147,10 @@
           <div>
             <head><hi rend="i">La Muse historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1660-07-24">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1660"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1660"/>
+              </index>
               <head>Loret, lettre du 24 juillet 1660</head>
               <lg>
                 <l>Une grande Troupe, ou Famille</l>
@@ -176,8 +192,10 @@
           <div>
             <head><hi rend="i">La Muse historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1660-08-21">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1660"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1660"/>
+              </index>
               <head>Loret, lettre du 21 août 1660</head>
               <lg>
                 <l>Au Collège des Jésuites,</l>
@@ -227,8 +245,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1660-11-27">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1660"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1660"/>
+              </index>
               <head>Loret, lettre du 27 novembre 1660</head>
               <lg>
                 <l>Dans le Louvre, dernièrement,</l>
@@ -254,8 +274,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1660-12-04">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1660"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1660"/>
+              </index>
               <head>Loret, lettre du 4 décembre 1660</head>
               <lg>
                 <l><hi rend="i">Xerxès</hi>, Poème Dramatique,</l>
@@ -289,8 +311,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1660-12-11">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1660"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1660"/>
+              </index>
               <head>Loret, lettre du 11 décembre 1660</head>
               <lg>
                 <l>Enfin, il faut que je le die,</l>
@@ -312,8 +336,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1660-12-18">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1660"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1660"/>
+              </index>
               <head>Loret, lettre du 18 décembre 1660</head>
               <lg>
                 <l>Cette Collation finie</l>
@@ -350,8 +376,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1661-02-19">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1661"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1661"/>
+              </index>
               <head>Loret, lettre du 19 février 1661</head>
               <lg>
                 <l>Dans fort peu, le Ballet du Roi,</l>
@@ -453,8 +481,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1661-02-26">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1661"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1661"/>
+              </index>
               <head>Loret, lettre du 26 février 1661</head>
               <lg>
                 <l>Malgré la dur[e]té qu’accompagne,</l>
@@ -590,8 +620,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1661-03-05">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1661"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1661"/>
+              </index>
               <head>Loret, lettre du 5 mars 1661</head>
               <lg>
                 <l>Pour plaire à quatre Demoiselles,</l>
@@ -641,8 +673,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1661-07-10">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1661"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1661"/>
+              </index>
               <head>Loret, lettre du 10 juillet 1661</head>
               <lg>
                 <l>[…]</l>
@@ -675,8 +709,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1661-07-31">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1661"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1661"/>
+              </index>
               <head>Loret, lettre du 31 juillet 1661</head>
               <lg>
                 <l>Ce fut le soir de ce Jour-là</l>
@@ -812,8 +848,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1661-08-06">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1661"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1661"/>
+              </index>
               <head>Loret, lettre du 6 août 1661</head>
               <lg>
                 <l>[…]</l>
@@ -846,8 +884,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1661-08-20">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1661"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1661"/>
+              </index>
               <head>Loret, lettre du 20 août 1661</head>
               <lg>
                 <l>Mais il ne faut pas que je die</l>
@@ -881,8 +921,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1661-08-27">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1661"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1661"/>
+              </index>
               <head>Loret, lettre du 27 août 1661</head>
               <lg>
                 <l>La Pièce, tant et tant louée,<note>La Comédie Les Fâcheux.</note></l>
@@ -911,8 +953,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1668-08-18">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 18 août 1668</head>
               <lg>
                 <l>Comme chacun, à leur exemple</l>
@@ -948,8 +992,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1661-09-03">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1661"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1661"/>
+              </index>
               <head>Loret, lettre du 3 septembre 1661</head>
               <lg>
                 <l>De l’autre mois, le dernier jour,</l>
@@ -981,8 +1027,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1662-01-21">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1662"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1662"/>
+              </index>
               <head>Loret, lettre du 21 janvier 1662</head>
               <lg>
                 <l>J’étais prié d’y comparaître,</l>
@@ -1019,8 +1067,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1662-02-04">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1662"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1662"/>
+              </index>
               <head>Loret, lettre du 4 février 1662</head>
               <lg>
                 <l>[…]</l>
@@ -1051,8 +1101,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1662-02-11">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1662"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1662"/>
+              </index>
               <head>Loret, lettre du 11 février 1662</head>
               <lg>
                 <l>Le sept du mois, Mardi passé,</l>
@@ -1304,8 +1356,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1662-02-18">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1662"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1662"/>
+              </index>
               <head>Loret, lettre du 18 février 1662</head>
               <lg>
                 <l>Maintenant, qu’en grattant ma têtes,</l>
@@ -1331,8 +1385,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1662-02-25">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1662"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1662"/>
+              </index>
               <head>Loret, lettre du 25 février 1662</head>
               <lg>
                 <l>Le Grand Ballet d’<hi rend="i">Hercule Amant</hi>,</l>
@@ -1502,8 +1558,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1662-04-22">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1662"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1662"/>
+              </index>
               <head>Loret, lettre du 22 avril 1662</head>
               <lg>
                 <l>Mardi, le grand Ballet <hi rend="i">d’Hercule</hi>,</l>
@@ -1533,8 +1591,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1662-05-06">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1662"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1662"/>
+              </index>
               <head>Loret, lettre du 6 mai 1662</head>
               <lg>
                 <l>Ce Ballet, qui par le passé</l>
@@ -1564,8 +1624,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1662-08-26">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1662"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1662"/>
+              </index>
               <head>Loret, lettre du 26 août 1662</head>
               <lg>
                 <l>Mardi, le vingt-et-deux tout juste,</l>
@@ -1612,8 +1674,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1663-01-13">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1663"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1663"/>
+              </index>
               <head>Loret, lettre du 13 janvier 1663</head>
               <lg>
                 <l>En cette Maison noble et belle,</l>
@@ -1661,8 +1725,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1663-01-20">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1663"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1663"/>
+              </index>
               <head>Loret, lettre du 20 janvier 1663</head>
               <lg>
                 <l>Moi, votre très humble Valet,</l>
@@ -1782,8 +1848,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1663-02-24">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1663"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1663"/>
+              </index>
               <head>Loret, lettre du 24 février 1663</head>
               <lg>
                 <l>Ce Ballet noble et magnifique,</l>
@@ -1891,8 +1959,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1663-08-11">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1663"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1663"/>
+              </index>
               <head>Loret, lettre du 11 août 1663</head>
               <lg>
                 <l>Dans Clermont, où par excellent<note>Collège des Jésuites.</note></l>
@@ -1928,8 +1998,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1663-08-25">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1663"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1663"/>
+              </index>
               <head>Loret, lettre du 25 août 1663</head>
               <lg>
                 <l>[…]</l>
@@ -1958,8 +2030,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1663-10-06">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1663"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1663"/>
+              </index>
               <head>Loret, lettre du 6 octobre 1663</head>
               <lg>
                 <l>[…]</l>
@@ -2011,8 +2085,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1664-02-02">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1664"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1664"/>
+              </index>
               <head>Loret, lettre du 2 février 1664</head>
               <lg>
                 <l>Dans un Salon, ou grande Sale,</l>
@@ -2108,8 +2184,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1664-02-16">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1664"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1664"/>
+              </index>
               <head>Loret, lettre du 16 février 1664</head>
               <lg>
                 <l>Mercredi, fut le premier jour</l>
@@ -2423,8 +2501,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1664-02-23">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1664"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1664"/>
+              </index>
               <head>Loret, lettre du 23 février 1664</head>
               <lg>
                 <l>Je vous dis donc, de bonne foi,</l>
@@ -2468,8 +2548,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1664-03-01">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1664"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1664"/>
+              </index>
               <head>Loret, lettre du 1<hi rend="sup">er</hi> mars 1664</head>
               <lg>
                 <l>Ce Ballet si bien ordonné,</l>
@@ -2497,8 +2579,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1664-04-26">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1664"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1664"/>
+              </index>
               <head>Loret, lettre du 26 avril 1664</head>
               <lg>
                 <l>De Monsieur, l’Altesse Royale</l>
@@ -2524,8 +2608,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1664-05-10">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1664"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1664"/>
+              </index>
               <head>Loret, lettre du 10 mai 1664</head>
               <lg>
                 <l>De nouvelles je suis à sec,</l>
@@ -2603,8 +2689,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1664-08-02">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1664"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1664"/>
+              </index>
               <head>Loret, lettre du 2 août 1664<note>Propos sur <hi rend="i">La Princesse d’Élide</hi></note></head>
               <lg>
                 <l>Sur le soir, une Comédie</l>
@@ -2638,8 +2726,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1664-11-08">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1664"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1664"/>
+              </index>
               <head>Loret, lettre du 8 novembre 1664<note>Propos sur <hi rend="i">La Princesse d’Élide</hi></note></head>
               <lg>
                 <l>De Monsieur, la Troupe Comique,</l>
@@ -2696,8 +2786,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1669-08-31">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 31 août 1669</head>
               <lg>
                 <l>Notre belle et riante COUR</l>
@@ -2725,8 +2817,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1664-06-07">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1664"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1664"/>
+              </index>
               <head>Loret, lettre du 7 juin 1664</head>
               <lg>
                 <l>[…]</l>
@@ -2767,8 +2861,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1665-01-31">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>Loret, lettre du 31 janvier 1665</head>
               <lg>
                 <l>Un Ballet, beau par excellence,</l>
@@ -2992,8 +3088,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1665-02-07">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>Loret, lettre du 7 février 1665</head>
               <lg>
                 <l>Comme durant le Carnaval,</l>
@@ -3159,8 +3257,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="loret_1665-02-14">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>Loret, lettre du 14 février 1665</head>
               <lg>
                 <l>Jeudi, douze du mois présent,</l>
@@ -3190,8 +3290,10 @@
           <div>
             <head><hi rend="i">La Muse Historique</hi> de Loret</head>
             <div type="letter" xml:id="loret_1665-02-14b">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>Loret, lettre du 14 février 1665</head>
               <lg>
                 <l>Une Mascarade galante,</l>
@@ -3251,8 +3353,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Loret</head>
             <div type="letter" xml:id="loret_1665-02-14c">
-              <index indexName="creator" n="loret"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="Loret, Jean (1595-1665)"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>Loret, lettre du 14 février 1665</head>
               <lg>
                 <l>[…]</l>
@@ -3333,8 +3437,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame la Duchesse de Nemours</hi> de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1665-06-21">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 21 juin 1665</head>
               <lg>
                 <l>Le ROI, dont la magnificence</l>
@@ -3411,8 +3517,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1665-06-21">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>Robinet, lettre du 21 juin 1665</head>
               <lg>
                 <l>[…]</l>
@@ -3444,8 +3552,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame la Duchesse de Nemours</hi> de la Gravette de Mayolas :</head>
             <div type="letter" xml:id="gravette_1665-08-16">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 16 août 1665</head>
               <lg>
                 <l>[…]</l>
@@ -3480,8 +3590,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame la Duchesse de Nemours</hi> de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1665-09-20">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 20 septembre 1665</head>
               <lg>
                 <l>[…]</l>
@@ -3507,8 +3619,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1665-09-20">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>Robinet, lettre en vers du 20 septembre 1665</head>
               <lg>
                 <l>[…] </l>
@@ -3534,8 +3648,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1665-10-04">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1665"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1665"/>
+              </index>
               <head>Robinet, lettre du 4 octobre 1665</head>
               <lg>
                 <l>Mais, pour achever ce Chapitre</l>
@@ -3628,8 +3744,8 @@
           <div>
             <head>La Muse de la Cour à Mademoiselle Borel, Fille de Monseigneur l’Ambassadeur de Hollande d’Adrien Perdou de Subligny</head>
             <div type="letter" xml:id="subligny_1666-01-03">
-              <index indexName="creator" n="subligny"/>
-              <index indexName="year" n="1666"/>
+              <index><term type="creator" key="Subligny, Adrien-Thomas Perdou de (1640-17..?)"/>
+                <term type="year" key="1666"/></index>
               <head>Subligny, huitième semaine, lettre du 3 janvier 1666</head>
               <lg>
                 <l>CURIEUX, allez voir la Pièce du Marais ;</l>
@@ -3662,8 +3778,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame la Duchesse de Nemours</hi> de La Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1666-01-17">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 17 janvier 1666</head>
               <lg>
                 <l>Le commencement et le cours</l>
@@ -3710,8 +3828,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1666-01-16">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>Robinet, lettre du 16 janvier 1666</head>
               <lg>
                 <l>Sa MAJESTÉ, le même jour,</l>
@@ -3740,8 +3860,8 @@
           <div>
             <head>La Muse de la  Cour à son Éminence Monseigneur le Prince Orsini d’Adrien Perdou de Subligny</head>
             <div type="letter" xml:id="subligny_1666_01_18">
-              <index indexName="creator" n="subligny"/>
-              <index indexName="year" n="1666"/>
+              <index><term type="creator" key="Subligny, Adrien-Thomas Perdou de (1640-17..?)"/>
+                <term type="year" key="1666"/></index>
               <head>Subligny, dixième semaine, lettre du 18 janvier 1666</head>
               <lg>
                 <l>Le ROI ces jours passés vit les grandes Machines</l>
@@ -3760,8 +3880,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1666-03-06">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>Robinet, lettre du 6 mars 1666</head>
               <lg>
                 <l>[…]</l>
@@ -3788,8 +3910,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame la Duchesse de Nemours</hi> de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1666-01-17b">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 17 janvier 1666</head>
               <lg>
                 <l>Monseigneur le Duc de CRÉQUI,</l>
@@ -3816,8 +3940,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1666-01-16b">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>Robinet, lettre du 16 janvier 1666</head>
               <lg>
                 <l>[…]</l>
@@ -3873,8 +3999,10 @@
           <div>
             <head>Lettre en vers à Madame la Duchesse de Nemours de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1666-08-08">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 8 août 1666</head>
               <lg>
                 <l>Il ne faut pas que notre Plume</l>
@@ -3909,8 +4037,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1666-08-08">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>Robinet, lettre du 8 août 1666</head>
               <lg>
                 <l>Au COLLÈGE des JÉSUITES,</l>
@@ -3936,8 +4066,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1666-10-17">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>Robinet, lettre du 17 octobre 1666</head>
               <lg>
                 <l>L’autre Jour, notre belle REINE,</l>
@@ -3961,8 +4093,8 @@
           <div>
             <head>La Muse de la Cour à Monseigneur le Dauphin d’Adrien Perdou de Subligny</head>
             <div type="letter" xml:id="subligny_1666-11-18">
-              <index indexName="creator" n="subligny"/>
-              <index indexName="year" n="1666"/>
+              <index><term type="creator" key="Subligny, Adrien-Thomas Perdou de (1640-17..?)"/>
+                <term type="year" key="1666"/></index>
               <head>Subligny, vingt-sixième semaine, lettre du 18 novembre 1666<note>S’agirait-il de la répétition du Ballet des Muses ?</note></head>
               <lg>
                 <l>Quelqu’un de SAINT GERMAIN vient de me rapporter</l>
@@ -3987,8 +4119,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1666-12-05">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>Robinet, lettre du 5 décembre 1666</head>
               <lg>
                 <l>À présent la Réjouissance</l>
@@ -4003,8 +4137,8 @@
           <div>
             <head>La Muse de la Cour à Monseigneur le Dauphin d’Adrien Perdou de Subligny</head>
             <div type="letter" xml:id="subligny_1666-12-09">
-              <index indexName="creator" n="subligny"/>
-              <index indexName="year" n="1666"/>
+              <index><term type="creator" key="Subligny, Adrien-Thomas Perdou de (1640-17..?)"/>
+                <term type="year" key="1666"/></index>
               <head>Subligny, vingt-neuvième semaine, lettre du 9 décembre 1666</head>
               <lg>
                 <l>Vos Danseurs font-ils des merveilles ?</l>
@@ -4025,8 +4159,10 @@
           <div>
             <head>Lettre en vers à Madame de Robinet</head>
             <div type="letter" xml:id="robinet_1666-12-12">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>Robinet, lettre du 12 décembre 1666</head>
               <lg>
                 <l>Ce Ballet, fait avec Dépense</l>
@@ -4236,8 +4372,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1666-12-26">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1666"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1666"/>
+              </index>
               <head>Robinet, lettre du 26 décembre 1666</head>
               <lg>
                 <l>L’auguste BALLET des NEUFS SŒURS,</l>
@@ -4271,8 +4409,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1667-01-09">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 9 janvier 1667<note>Prestation de Madame dans le ballet</note></head>
               <lg>
                 <l>Mais, pour revenir au BALLET,</l>
@@ -4291,8 +4431,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1667-01-23">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 23 janvier 1667</head>
               <lg>
                 <l>La COUR, à SAINT GERMAIN en LAYE,</l>
@@ -4338,8 +4480,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1667-01-30">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 30 janvier 1667</head>
               <lg>
                 <l>On se divertit chaque jour</l>
@@ -4362,8 +4506,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1667-02-13">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 13 février 1667</head>
               <lg>
                 <l>Ils avaient cet ANGE auprès d’eux</l>
@@ -4386,8 +4532,8 @@
           <div>
             <head>La Muse Dauphine à Monseigneur le Dauphin d’Adrien Perdou Subligny</head>
             <div type="letter" xml:id="subligny_1667-02-17">
-              <index indexName="creator" n="subligny"/>
-              <index indexName="year" n="1667"/>
+              <index><term type="creator" key="Subligny, Adrien-Thomas Perdou de (1640-17..?)"/>
+                <term type="year" key="1667"/></index>
               <head>Subligny, seconde semaine, lettre du 17 février 1667</head>
               <lg>
                 <l>Mon style passe le galant,</l>
@@ -4421,8 +4567,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1667-02-20">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 20 février 1667</head>
               <lg>
                 <l>On a, depuis le Treizième,</l>
@@ -4436,8 +4584,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1667-02-27">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 27 février 1667</head>
               <lg>
                 <l>Notre COUR éclatante et gaie,</l>
@@ -4465,8 +4615,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1667-06-12">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 12 juin 1667</head>
               <lg>
                 <l>Encor un mot de notre Ville,</l>
@@ -4494,8 +4646,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1667-10-22">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 22 octobre 1667</head>
               <lg>
                 <l>Nos vaillants PALADINS de FLANDRES,</l>
@@ -4574,8 +4728,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1667-01-09b">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 9 janvier 1667</head>
               <lg>
                 <l>Mercredi, le cas est certain,</l>
@@ -4609,8 +4765,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1667-02-13b">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 13 février 1667</head>
               <lg>
                 <l>Mardi, leurs ROYALES ALTESSES,</l>
@@ -4630,8 +4788,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1667-06-12b">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 12 juin 1667</head>
               <lg>
                 <l>Depuis hier, pareillement,</l>
@@ -4653,8 +4813,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1667-06-19">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 19 juin 1667</head>
               <lg>
                 <l>Je vis à mon aise et très bien,</l>
@@ -4704,8 +4866,8 @@
           <div>
             <head>La Muse de la Cour à Monseigneur le Dauphin d’Adrien Perdou de Subligny</head>
             <div type="letter" xml:id="subligny_1667-02-24">
-              <index indexName="creator" n="subligny"/>
-              <index indexName="year" n="1667"/>
+              <index><term type="creator" key="Subligny, Adrien-Thomas Perdou de (1640-17..?)"/>
+                <term type="year" key="1667"/></index>
               <head>Subligny, troisième semaine, lettre du 24 février 1667</head>
               <lg>
                 <l>Ballets, Bals, Mascarade, Courses,</l>
@@ -4725,8 +4887,8 @@
           <div>
             <head>La Muse de la Cour à Monseigneur le Dauphin d’Adrien Perdou de Subligny</head>
             <div type="letter" xml:id="subligny_1667-03-03">
-              <index indexName="creator" n="subligny"/>
-              <index indexName="year" n="1667"/>
+              <index><term type="creator" key="Subligny, Adrien-Thomas Perdou de (1640-17..?)"/>
+                <term type="year" key="1667"/></index>
               <head>Subligny, quatrième semaine, lettre du 3 mars 1667</head>
               <lg>
                 <l>Vous ne nous disiez point, SEIGNEUR,</l>
@@ -4754,8 +4916,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1667-03-10">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 10 mars 1667</head>
               <lg>
                 <l>Le grand BALLET IMPÉRIAL,</l>
@@ -4806,8 +4970,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1667-06-12c">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 12 juin 1667</head>
               <lg>
                 <l>Encor un mot de notre Ville,</l>
@@ -4860,8 +5026,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1667-08-13">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1667"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1667"/>
+              </index>
               <head>Robinet, lettre du 13 août 1667</head>
               <lg>
                 <l>Achevant de Gazetiser,</l>
@@ -4910,8 +5078,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1668-01-21">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 21 janvier 1668</head>
               <lg>
                 <l>Le lendemain, se fit un Bal</l>
@@ -5023,8 +5193,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1668-01-21b">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 21 janvier 1668</head>
               <lg>
                 <l>Dans le PALAIS des TUILERIES,</l>
@@ -5078,8 +5250,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1668-04-28">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 28 avril 1668</head>
               <lg>
                 <l>Depuis toute cette semaine,</l>
@@ -5120,8 +5294,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1668-07-07">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 7 juillet 1668</head>
               <lg>
                 <l>NOS COMIQUES ITALIENS,</l>
@@ -5181,8 +5357,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1668-07-14">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 14 juillet 1668</head>
               <lg>
                 <l>Celle des Acteurs d’Italie<note>Le Théâtre sans Comédie et les Comédiens Juges et Parties, dont le Sieur de Cintio est Auteur.</note></l>
@@ -5206,8 +5384,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1668-06-30">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 30 juin 1668<note>Préparation du Grand Divertissement</note></head>
               <lg>
                 <l>À VERSAILLE, où l’on fait flores,</l>
@@ -5221,8 +5401,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1668-07-07b">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 7 juillet 1668<note>Préparation du Grand Divertissement</note></head>
               <lg>
                 <l>Mais, avant que l’on en soit là</l>
@@ -5266,8 +5448,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1668-07-14b">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 14 juillet 1668<note>Préparation du Grand Divertissement</note></head>
               <lg>
                 <l>Le Spectacle superbe et rare</l>
@@ -5281,8 +5465,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1668-07-21">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 21 juillet 1668</head>
               <lg>
                 <l>Dans le PARC de ce beau VERSAILLE,</l>
@@ -5426,8 +5612,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1668-09-08">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 8 septembre 1668</head>
               <lg>
                 <l>Nos COMIQUES ITALIENS,</l>
@@ -5457,8 +5645,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1668-09-15">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1668"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1668"/>
+              </index>
               <head>Robinet, lettre du 15 septembre 1668</head>
               <lg>
                 <l>Les Grands Comiques d’Italie,</l>
@@ -5503,8 +5693,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1669-02-02">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 2 février  1669<note>Préparation du ballet</note></head>
               <lg>
                 <l>Ici, notre Grand POTENTAT</l>
@@ -5515,8 +5707,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1669-02-16">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 16 février 1669</head>
               <lg>
                 <l>Clio, dont le beau Feu me brûle,</l>
@@ -5542,8 +5736,10 @@
           <div>
             <head>Lettre en vers et en prose au Roi de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1669-02-21">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 21 février 1669</head>
               <lg>
                 <l>Le Grand Ballet est commencé</l>
@@ -5603,8 +5799,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1669-02-23">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 23 février 1669</head>
               <lg>
                 <l>J’eus, l’autre jour, mauvaise grâce</l>
@@ -5801,8 +5999,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1669-03-09">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 9 mars 1669</head>
               <lg>
                 <l>Le lendemain, le Grand Ballet</l>
@@ -5839,8 +6039,10 @@
           <div>
             <head>Lettre en vers et en prose au Roi de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1669-03-10">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 10 mars 1669</head>
               <lg>
                 <l>SIRE, quoi que vous puissiez faire,</l>
@@ -5887,8 +6089,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1669-03-02">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 2 mars 1669</head>
               <lg>
                 <l>Ici, partout, on masque, on balle,</l>
@@ -5918,8 +6122,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1669-03-09b">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 9 mars 1669</head>
               <lg>
                 <l>[…]</l>
@@ -5966,8 +6172,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1669-03-09c">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 9 mars 1669</head>
               <lg>
                 <l>Enfin, Mardi, notre Grand SIRE,</l>
@@ -6026,8 +6234,10 @@
           <div>
             <head><hi rend="i">Lettres en vers</hi> de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1669-10-11">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 11 août 1669</head>
               <lg>
                 <l>Mardi, j’allais d’un pas fort prompt</l>
@@ -6087,8 +6297,10 @@
           <div>
             <head>Lettres en vers et en prose au Roi de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1669-08-17">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>La Gravette de Mayolas, lettre du 17 août 1669</head>
               <lg>
                 <l>[…]</l>
@@ -6114,8 +6326,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1669-08-17">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 17 août 1669</head>
               <lg>
                 <l>Dimanche, notre dit GRAND SIRE,</l>
@@ -6191,8 +6405,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1669-10-12">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 12 octobre 1669</head>
               <lg>
                 <l>[…]</l>
@@ -6265,8 +6481,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1669-11-23">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1669"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1669"/>
+              </index>
               <head>Robinet, lettre du 23 novembre 1669</head>
               <lg>
                 <l>Enfin j’ai vu, SEMEL et BIS,</l>
@@ -6317,8 +6535,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1670-01-11">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 11 janvier 1670<note>De quel spectacle s’agit-il ? D’un spectacle déjà représenté ou bien de la répétition du futur divertissement comme le précise les « Chronologies moliéresques » ?</note></head>
               <lg>
                 <l>Toujours la Cour, nombreuse et gaie,</l>
@@ -6344,8 +6564,10 @@
           <div>
             <head><hi rend="i">Lettres en vers au Roi</hi> de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1670-01-15">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>La Gravette de Mayolas, 2<hi rend="sup">ème</hi> lettre du mois de janvier<note>S’agit-il de la répétition des Amants magnifiques ?</note></head>
               <lg>
                 <l>La REINE, qu’un chacun contemple</l>
@@ -6369,8 +6591,10 @@
           <div>
             <head><hi rend="i">Lettres en vers à Madame</hi> de Robinet</head>
             <div type="letter" xml:id="robinet_1670-02-08">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 8 février 1670</head>
               <lg>
                 <l>Comme voici le Carnaval,</l>
@@ -6408,8 +6632,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1670-02-15">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 15 février 1670</head>
               <lg>
                 <l>Le Divertissement Royal</l>
@@ -6431,8 +6657,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1670-02-22">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 22 février 1670</head>
               <lg>
                 <l>Lundi, veille de Mardi gras,</l>
@@ -6559,8 +6787,10 @@
           <div>
             <head>Lettres en vers et en prose au Roi de la Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1670-02-28">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>La Gravette de Mayolas, lettre de la fin février 1670</head>
               <lg>
                 <l>Grand ROI, de qui la complaisance,</l>
@@ -6591,8 +6821,10 @@
           <div>
             <head>Lettres en vers et en prose au Roi de La Gravette de Mayolas</head>
             <div type="letter" xml:id="gravette_1670-07-31">
-              <index indexName="creator" n="gravette"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="La Gravette de Mayolas"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>La Gravette de Mayolas, lettre de juillet-août 1670</head>
               <lg>
                 <l>Dans le Collège de Clermont</l>
@@ -6628,8 +6860,10 @@
           <div>
             <head>Lettres en vers à Monsieur de Robinet</head>
             <div type="letter" xml:id="robinet_1670-09-13">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 13 septembre 1670</head>
               <lg>
                 <l>[…]</l>
@@ -6679,8 +6913,10 @@
           <div>
             <head>Lettres en vers à Monsieur de Robinet</head>
             <div type="letter" xml:id="robinet_1670-10-18">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 18 octobre 1670</head>
               <lg>
                 <l>Mardi, Ballet, et Comédie,<note>Intitulé Le Bourgeois gentilhomme.</note></l>
@@ -6696,8 +6932,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1670-11-01">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 1<hi rend="sup">er</hi> novembre 1670</head>
               <lg>
                 <l>Cependant, notre belle Cour,</l>
@@ -6715,8 +6953,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1670-11-15">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 15 novembre 1670</head>
               <lg>
                 <l>J'ajoute, encore, pour la fin,</l>
@@ -6740,8 +6980,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1670-11-22">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 22 novembre 1670</head>
               <lg>
                 <l>La première, en forme d’avis,</l>
@@ -6775,8 +7017,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1670-12-20">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 20 décembre 1670</head>
               <lg>
                 <l>[…]</l>
@@ -6797,8 +7041,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1670-12-27">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1670"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1670"/>
+              </index>
               <head>Robinet, lettre du 27 décembre 1670</head>
               <lg>
                 <l>Ajoutons, fermant ce Chapitre,</l>
@@ -6833,8 +7079,10 @@
           <div>
             <head>Lettres en vers à Monsieur de Robinet</head>
             <div type="letter" xml:id="robinet_1671-01-24">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 24 janvier 1671</head>
               <lg>
                 <l>Le dix-sept de ce mois, tout juste,</l>
@@ -7040,8 +7288,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1671-02-07">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 7 février 1671</head>
               <lg>
                 <l>Le fameux Ballet de Psiché,</l>
@@ -7056,8 +7306,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1671-07-25">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 25 juillet 1671</head>
               <lg>
                 <l><hi rend="i">Psiché</hi>, l’admirable <hi rend="i">Psiché</hi>,</l>
@@ -7073,8 +7325,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1671-08-01">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 1<hi rend="sup">er</hi> août 1671</head>
               <lg>
                 <l>Je ne puis, après ce Chapitre,</l>
@@ -7276,8 +7530,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1671-08-14">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 14 août 1671</head>
               <lg>
                 <l>En bonne Santé, ledit <hi rend="i">Sire</hi>,</l>
@@ -7299,8 +7555,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1671-09-26">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 26 septembre 1671</head>
               <lg>
                 <l>La Belle PSICHE, qui tout charme,<note>Madle Molière</note></l>
@@ -7316,8 +7574,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1671-10-03">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 3 octobre 1671</head>
               <lg>
                 <l>Souffrez, Grande <hi rend="i">Altesse Royale</hi>,</l>
@@ -7427,8 +7687,10 @@
           <div>
             <head>Lettres en vers à Monsieur de Robinet</head>
             <div type="letter" xml:id="robinet_1671-04-11">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 11 avril 1671</head>
               <lg>
                 <l>À propos, le grand <hi rend="i">Opéra</hi>,</l>
@@ -7461,8 +7723,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1671-04-18">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du samedi 18 avril 1671</head>
               <lg>
                 <l>Je l’ai vu cet <hi rend="i">Opéra</hi> là,</l>
@@ -7658,8 +7922,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1671-06-20">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettres du samedi 20 juin 1671</head>
               <lg>
                 <l>[…]</l>
@@ -7684,8 +7950,10 @@
           <div>
             <head>Lettres en vers à Monsieur de Robinet</head>
             <div type="letter" xml:id="robinet_1671-01-31">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 31 janvier 1671</head>
               <lg>
                 <l>[…]</l>
@@ -7713,8 +7981,10 @@
           <div>
             <head>Lettres en vers à Monsieur de Robinet</head>
             <div type="letter" xml:id="robinet_1671-08-08">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 8 août 1671</head>
               <lg>
                 <l>[…]</l>
@@ -7771,8 +8041,10 @@
           <div>
             <head>Lettres en vers à Monsieur de Robinet</head>
             <div type="letter" xml:id="robinet_1671-11-14">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 14 novembre 1671</head>
               <lg>
                 <l>[…]</l>
@@ -7975,8 +8247,10 @@
           <div>
             <head>Lettres en vers à Monsieur de Robinet</head>
             <div type="letter" xml:id="robinet_1671-12-05">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1671"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1671"/>
+              </index>
               <head>Robinet, lettre du 5 décembre 1671</head>
               <lg>
                 <l>Un Ballet, Ballet des Ballets,</l>
@@ -7992,8 +8266,10 @@
               </lg>
             </div>
             <div type="letter" xml:id="robinet_1672-02-20">
-              <index indexName="creator" n="robinet"/>
-              <index indexName="year" n="1672"/>
+              <index>
+                <term type="creator" key="Robinet, Charles (1608?-1698)"/>
+                <term type="year" key="1672"/>
+              </index>
               <head>Robinet, lettre du 20 février 1672</head>
               <lg>
                 <l>Depuis quinze Jours on redanse,</l>

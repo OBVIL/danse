@@ -25,6 +25,10 @@
          <name>Éric Thiébaud</name>
           <resp>Édition TEI</resp>
         </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>XML TEI</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Sorbonne Université, LABEX OBVIL</publisher>

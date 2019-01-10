@@ -23,6 +23,10 @@
           <name>Éric Thiébaud</name>
           <resp>Édition TEI</resp>
         </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>XML-TEI</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Sorbonne Université, LABEX OBVIL</publisher>
@@ -443,7 +447,7 @@
       <p>D’où reviens-tu ?</p>
       <label type="speaker">ATHIKTÉ</label>
       <p>Asile, asile, ô mon asile, ô Tourbillon ! — J’étais en toi, ô mouvement, en dehors de toutes les choses…</p>
-      <byline><hi rend="sc">Paul Valéry</hi>.</byline>
+      <signed><hi rend="sc">Paul Valéry</hi>.</signed>
       </div>
     </body>
   </text>

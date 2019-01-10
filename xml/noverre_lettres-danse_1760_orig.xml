@@ -105,7 +105,7 @@
                     <hi rend="i">Le très-humble, très-obéissant, &amp; très-dévoué serviteur, <hi
                             rend="sc">Noverre</hi>.</hi></signed>
             </div>
-        <div>
+        <div type="section">
             <pb n="1"/>
         <head><hi rend="i">LETTRES</hi> SUR <hi rend="i">LA DANSE.</hi></head>
             <div type="chapter" xml:id="lettre-01">
@@ -269,7 +269,7 @@
                     Maîtres de Ballets qui sentent ; il y en a si peu qui soient excellents
                     Comédiens, &amp; qui possédent l’Art de peindre les <pb n="16"/>mouvements de
                     l’ame, par les gestes ! Il est, dis-je, si difficile de rencontrer parmi nous
-                    des Batyle &amp; des Pilade<note type="star" place="bottom">Danseurs Pantomimes
+                    des Batyle &amp; des Pilade<note place="bottom">Danseurs Pantomimes
                         du temps d’Auguste.</note>, que je ne saurois me dispenser de condamner tous
                     ceux qui par l’enthousiasme qu’ils ont d’eux-mêmes, cherchent à se faire imiter.
                     S’ils sentent foiblement, ils exprimeront de même, leurs gestes seront froids,
@@ -1091,7 +1091,7 @@
                         n="93"/>séduisit l’œil, &amp; il embrassoit toutes les parties sans se
                     fatiguer ; mon Ballet eut d’autant plus de succès que dans celui que j’ai
                     intitulé le <hi rend="i">Ballet Chinois</hi>, &amp; que je remis à Lyon<note
-                        type="star" place="bottom">Ce Ballet a été donné à Paris &amp; à Londres,
+                        place="bottom">Ce Ballet a été donné à Paris &amp; à Londres,
                         avec des habits pleins de goût, de la composition du sieur Boquet,
                         Dessinateur de l’Académie Royale de Musique.</note>, le mauvais arrangement
                     des couleurs &amp; leur mêlange choquant blessoit les yeux ; toutes les Figures
@@ -1590,9 +1590,9 @@
                     Poëte une nouvelle expression, une nouvelle grace ; tel sentiment négligé par
                     l’un est embelli par l’autre ; telle pensée affoiblie par <pb n="139"/>celui-ci
                     est rendue avec énergie par celui-là ; tel beau vers énervé par <hi rend="i"
-                        >Gronne</hi><note type="star" place="bottom">Maître de Musique du Roi de
+                        >Gronne</hi><note place="bottom">Maître de Musique du Roi de
                         Prusse.</note> est peint avec des traits de feu &amp; de génie par <hi
-                        rend="i">Hasse</hi>.<note type="star" place="bottom">Maître de Chapelle du
+                        rend="i">Hasse</hi>.<note place="bottom">Maître de Chapelle du
                         Roi de Pologne, Electeur de Saxe.</note> L’avantage sans doute eût été
                     certain non seulement pour la Danse, mais encore pour les autres Arts qui
                     concourent aux charmes &amp; à la perfection de l’Opéra, si le célebre <hi
@@ -1768,7 +1768,7 @@
                     sur-tout lorsque mes fibres ont naturellement plus de propension &amp; plus de
                     tendance à se déployer dans le dernier sens où elles viennent d’être mues ; en
                     un mot, Monsieur, cette chûte soudaine, ce brusque passage du pathétique à
-                    l’enjoué, du diatonique enharmonique,<note type="star" place="bottom">Le Trio
+                    l’enjoué, du diatonique enharmonique,<note place="bottom">Le Trio
                         des Parques d’<hi rend="i">Hippolite</hi> &amp; d’<hi rend="i">Aricie</hi>
                         qui n’avoit pu être rendu à l’Opéra tel qu’il est, offre un exemple de ce
                         genre. Nous en avions un du second dans le tremblement de terre fait pour le
@@ -4081,7 +4081,7 @@
             <div type="chapter" xml:id="lettre-13">
                 <pb n="362"/>
                 <head><hi rend="i">LETTRE XIII.</hi></head>
-                <p>La <hi rend="i">Chorégraphie</hi><note type="star" place="bottom"><p><hi rend="i"
+                <p>La <hi rend="i">Chorégraphie</hi><note place="bottom"><p><hi rend="i"
                                 >Thoinet Arbeau</hi>, Chanoine de Langres s’est distingué le premier
                             par un Traité qu’il donna en 1588, &amp; qu’il a intitulé <hi rend="i"
                                 >Orchesographie</hi>. Il écrivoit au-dessous de chaque note de l’air
@@ -4267,7 +4267,7 @@
                     habile homme d’en faire un plus habile que lui ? Est-ce avilir son mérite &amp;
                     flétrir sa réputation que de faire revivre ses talents dans ceux d’un Ecolier ?
                     Eh ! Monsieur, le Public pourroit-il savoir mauvais gré à Mr. <hi rend="i"
-                        >Jeliote</hi>,<note type="star" place="bottom">L’Orphée de notre siecle,
+                        >Jeliote</hi>,<note place="bottom">L’Orphée de notre siecle,
                         l’ornement de la Scene lyrique &amp; le plus célebre Chanteur que l’Opéra
                         ait jamais eu. Il réunit aux charmes de la voix un goût &amp; une expression
                         admirable ; il est aussi habile Musicien qu’il étoit excellent Acteur,
@@ -4498,7 +4498,7 @@
                         rend="i">Menuets</hi> me tuent ; la monotonie de la Musique m’engourdit
                     &amp; je deviens aussi pauvre qu’elle, car elle substitue, pour ainsi dire, en
                     moi la stérilité à l’abondance. Une Musique au contraire expressive, harmonieuse
-                    &amp; variée, telle que celle sur laquelle j’ai travaillé<note type="star"
+                    &amp; variée, telle que celle sur laquelle j’ai travaillé<note
                         place="bottom">Cette Musique est de M. <hi rend="i">Granier</hi>,
                         accompagnateur du Concert de Lyon, &amp; je dois ici lui rendre la justice
                         qui lui est due, en assurant qu’il est peu de Musiciens aussi capables
@@ -4527,7 +4527,7 @@
                         Pâris</hi>, la Descente <hi rend="i">d’Orphée aux Enfers, Renaud, &amp;
                         Armide</hi>, &amp;c. Et je me tairai même encore sur ceux de la <hi rend="i"
                         >Fontaine de Jouvence</hi>, &amp; des <hi rend="i">Caprices de
-                        Galathée</hi>.<note type="star" place="bottom"><p>Cette Galathée est la même
+                        Galathée</hi>.<note place="bottom"><p>Cette Galathée est la même
                             que celle dont <hi rend="i">Horace</hi> parle dans le portrait qu’il
                             fait d’une jeune beauté, à laquelle un amant tente de dérober un
                             baiser.</p>
@@ -4997,7 +4997,7 @@
                     produit un effet étonnant ; <hi rend="i">Constance</hi> évanouie aux pieds du
                     Sacrificateur, <hi rend="i">Dorval</hi> &amp; <hi rend="i">Clairville</hi>
                     voyant à peine la lumiere, sont renversés dans les bras de quelques
-                        Sauvages.<note type="star" place="bottom">Cette Scene en remontant à
+                        Sauvages.<note place="bottom">Cette Scene en remontant à
                         l’arrivée de <hi rend="i">Constance</hi> &amp; de <hi rend="i"
                             >Clairville</hi> offre une reconnoissance touchante ; le coup de Théatre
                         qui la suit est intéressant, &amp; le combat qui termine cette action vive
@@ -5022,7 +5022,7 @@
                 <p><pb n="444"/>Le jour devient plus beau, les flots irrités s’abaissent, le calme
                     succede à la tempête, plusieurs Tritons &amp; plusieurs <pb n="445"/>Naïades
                     folâtrent dans les eaux ; un vaisseau richement orné paroît sur la Mer.<note
-                        type="star" place="bottom">L’Amour sous la forme d’un Corsaire le commande ;
+                        place="bottom">L’Amour sous la forme d’un Corsaire le commande ;
                         les Jeux &amp; les Plaisirs sont employés aux différentes manœuvres ; une
                         troupe de Nymphes vêtues en Amazones sont les soldats qui servent sur ce
                         bord : tout est élégant, tout annonce &amp; caractérise enfin la présence de
@@ -5081,7 +5081,7 @@
                     amoureuse, &amp; offrent un grand <hi rend="i">grouppe</hi> distribué avec
                     élégance ; <pb n="450"/>on leve l’ancre, les Zéphyrs &amp; les soupirs des
                     amants enflent les voiles, le vaisseau prend le large, &amp; poussé par des
-                    vents favorables il vogue vers Cythere.<note type="star" place="bottom"><p>Ce
+                    vents favorables il vogue vers Cythere.<note place="bottom"><p>Ce
                             Ballet a été mis avec soin &amp; rien n’a été épargné. Les Nymphes
                             avoient des habits galants dont les corsets différoient peu de ceux des
                             Amazones. Les vêtements des Sauvages étoient d’une forme singuliere
@@ -5125,7 +5125,7 @@
                 <p><hi rend="i">Fernand</hi> est amant d’<hi rend="i">Inès ; Clitandre</hi>, petit
                     Maître François, est amant de <hi rend="i">Béatrix</hi> amie d’<hi rend="i"
                         >Inès</hi> ; voilà les Personnages sur lesquels roule toute l’intrigue. <hi
-                        rend="i">Clitandre</hi> à propos d’un coup d’Echec<note type="star"
+                        rend="i">Clitandre</hi> à propos d’un coup d’Echec<note 
                         place="bottom">Quelques choses qu’aient pu dire les petits critiques au
                         sujet de la Scene simultanée de M. <hi rend="i">Diderot</hi> &amp; de la
                         partie de trictrac jouée dans la premiere Scene du <hi rend="i">Pere de
