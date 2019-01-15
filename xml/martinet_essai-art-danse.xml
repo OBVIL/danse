@@ -665,31 +665,31 @@
       <div type="appendix">
         <head>Planches</head>
         <figure xml:id="pl1">
-          <graphic url="../images/martinet_essai-art-danse_img01.png"/>
+          <graphic url="http://obvil.github.io/danse/images/martinet_essai-art-danse_img01.png"/>
         </figure>
         <figure xml:id="pl2">
-          <graphic url="../images/martinet_essai-art-danse_img02.png"/>
+          <graphic url="http://obvil.github.io/danse/images/martinet_essai-art-danse_img02.png"/>
         </figure>
         <figure xml:id="pl3">
-          <graphic url="../images/martinet_essai-art-danse_img03.png"/>
+          <graphic url="http://obvil.github.io/danse/images/martinet_essai-art-danse_img03.png"/>
         </figure>
         <figure xml:id="pl4">
-          <graphic url="../images/martinet_essai-art-danse_img04.png"/>
+          <graphic url="http://obvil.github.io/danse/images/martinet_essai-art-danse_img04.png"/>
         </figure>
         <figure xml:id="pl5">
-          <graphic url="../images/martinet_essai-art-danse_img05.png"/>
+          <graphic url="http://obvil.github.io/danse/images/martinet_essai-art-danse_img05.png"/>
         </figure>
         <figure xml:id="pl6">
-          <graphic url="../images/martinet_essai-art-danse_img06.png"/>
+          <graphic url="http://obvil.github.io/danse/images/martinet_essai-art-danse_img06.png"/>
         </figure>
         <figure xml:id="pl7">
-          <graphic url="../images/martinet_essai-art-danse_img07.png"/>
+          <graphic url="http://obvil.github.io/danse/images/martinet_essai-art-danse_img07.png"/>
         </figure>
         <figure xml:id="pl8">
-          <graphic url="../images/martinet_essai-art-danse_img08.png"/>
+          <graphic url="http://obvil.github.io/danse/images/martinet_essai-art-danse_img08.png"/>
         </figure>
         <figure xml:id="pl9">
-          <graphic url="../images/martinet_essai-art-danse_img09.png"/>
+          <graphic url="http://obvil.github.io/danse/images/martinet_essai-art-danse_img09.png"/>
         </figure>
       </div>
     </back>
