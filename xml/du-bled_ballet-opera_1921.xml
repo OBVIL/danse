@@ -2,12 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--Odette: 2018-03-20T09:37:56+01:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Le Ballet de l’Opéra</title>
-        <author key="Du Bled, Victor (1848-1927)">Victor Du Bled</author>
+        <author key="Du Bled, Victor (1848-1927)" ref="https://data.bnf.fr/fr/12405605/victor_du_bled/">Victor Du Bled</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -21,13 +21,13 @@
         </respStmt>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>Édition TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2018"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/du-bled_ballet-opera_1921</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/du-bled_ballet-opera_1921</idno>
         <availability status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
           <p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
           <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
@@ -37,7 +37,7 @@
         </licence></availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>, Victor <author>Du Bled</author>, « <title><hi rend="i">Le Ballet de l’Opéra</hi></title> », in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., <biblScope>p. 191-205</biblScope>. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl>
+        <bibl>Victor Du Bled, «Le Ballet de l’Opéra », in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., p. 191-205. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -45,7 +45,7 @@
         <date when="1921"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

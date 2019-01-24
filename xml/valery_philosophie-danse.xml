@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Philosophie de la danse</title>
-        <author key="Valéry, Paul (1871-1945)">Paul Valéry</author>
+        <author key="Valéry, Paul (1871-1945)" ref="https://data.bnf.fr/fr/11927470/paul_valery/">Paul Valéry</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -16,13 +16,13 @@
         </respStmt>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2016"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/valery_philosophie-danse</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/valery_philosophie-danse</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -34,7 +34,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Paul Valéry</author>, « <title><hi rend="i">Philosophie de la danse</hi></title> » [conférence à l’Université des Annales, 5 mars 1936 ; publiée dans <hi rend="i">Conferencia</hi>, 1<hi rend="sup">er</hi> novembre 1936], in <hi rend="i">Œuvres I. Variété</hi>, <pubPlace>Paris</pubPlace>, <pubPlace>Gallimard</pubPlace>, <date>1957</date>, p. 1390-1403.</bibl>
+        <bibl>Paul Valéry, « Philosophie de la danse » [conférence à l’Université des Annales, 5 mars 1936 ; publiée dans <hi rend="i">Conferencia</hi>, 1<hi rend="sup">er</hi> novembre 1936], in <hi rend="i">Œuvres I. Variété</hi>, <pubPlace>Paris</pubPlace>, <publisher>Gallimard</publisher>, <date>1957</date>, p. 1390-1403.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -42,7 +42,7 @@
         <date when="1936"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

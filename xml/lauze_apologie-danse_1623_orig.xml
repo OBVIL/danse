@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Apologie de la danse et la parfaite méthode de l’enseigner tant aux cavaliers
                     qu’aux dames [graphies originales]</title>
-                <author key="Lauze, François de (1570?-1630?)">François de Lauze</author>
+                <author key="Lauze, François de (1570?-1630?)" ref="https://data.bnf.fr/fr/12618893/francois_de_lauze/">François de Lauze</author>
             </titleStmt>
             <editionStmt>
                 <edition>OBVIL</edition>
@@ -19,18 +19,15 @@
                     <name>Wordpro</name>
                     <resp>Numérisation et encodage TEI</resp>
                 </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>édition TEI</resp>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Sorbonne Université, LABEX OBVIL</publisher>
                 <date when="2018"/>
-                <idno type="tei"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/lauze_apologie-danse_1623_orig.xml</idno>
-                <idno type="html"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/lauze_apologie-danse_1623_orig.html</idno>
-                <idno type="txt"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/lauze_apologie-danse_1623_orig.txt</idno>
-                <idno type="epub"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/lauze_apologie-danse_1623_orig.epub</idno>
+                <idno>http://obvil.sorbonne-universite.site/corpus/danse/lauze_apologie-danse_1623_orig</idno>
                 <availability status="restricted">
                     <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
                         <p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire
@@ -55,10 +52,10 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl><author>François de Lauze</author>, <title>Apologie de la danse et la parfaite
+                <bibl>François de Lauze, <hi rend="i">Apologie de la danse et la parfaite
                         méthode de l’enseigner tant aux cavaliers qu’aux dames. Par F. de
-                        Lauze</title>, <pubPlace>s. l.</pubPlace>, <publisher>s. n.</publisher>,
-                        <date>1623</date>, <biblScope>[6]-69 p. : titre gravé ; in-4</biblScope>. PDF : <ref
+                        Lauze</hi>, <pubPlace>s. l.</pubPlace>, <publisher>s. n.</publisher>,
+                        <date>1623</date>, [6]-69 p. : titre gravé ; in-4. PDF : <ref
                         target="http://gallica.bnf.fr/ark:/12148/bpt6k1040284n"
                     >Gallica</ref>.</bibl>
             </sourceDesc>
@@ -81,9 +78,9 @@
                 </figure>
             </div>
             <div type="dedication" xml:id="dedicace-1">
-                <head>A MONSEIGNEVR :<lb/>MONSEIGNEVR LE MARQVIS de <hi rend="i">Buckingham</hi>
+                <head><hi rend="uc">A Monseignevr</hi> :<lb/><hi rend="uc">Monseignevr le marqvis</hi> de <hi rend="i">Buckingham</hi>
                     Grand Escuier, &amp; Grand Admiral d’Angleterre, &amp;c.</head>
-                <p><hi rend="sc">Monseignevr,</hi></p>
+                <p><hi rend="sc">Monseignevr</hi>,</p>
                 <p>Celuy qui offrit nagueres á vostre Grandeur comme vne nouueauté ce que i’auois Il
                     y a quatre ans commencé sur la danse, ne m’a pas causé tant de desplaiseir de se
                     preualoir en cela de mes peines, comme de publier vne piece qui ressentoit
@@ -113,7 +110,7 @@
                     <hi rend="i">F. De Lauze</hi></signed>
             </div>
             <div type="epigraph" xml:id="epigraphe-1">
-                <head>AVX CAVALIERS ET AVX DAMES<lb/>par luy mesme.</head>
+                <head><hi rend="uc">Avx cavaliers et avx dames</hi><lb/>par luy mesme.</head>
                 <lg>
                     <l><hi rend="i">Qvi desire scauoir les premiers Elemens,</hi></l>
                     <l><hi rend="i">Et le bal mesuré d’une parfaite danse :</hi></l>
@@ -141,9 +138,8 @@
                 <signed>F. De Valse.</signed>
             </div>
             <div type="epigraph" xml:id="epigraph-2">
-                <head>FRANCISCO DE LAVSE IN OPVS SVVM DE SALTATIONE.<lb/><hi rend="sc"
-                        >Anagrammatismvs,</hi><lb/>FRANCISCVS DE LAVSE, FRANCIS LAVS &amp;
-                    DECVS.</head>
+                <head><hi rend="uc">Francisco de Lavse in opvs svvm de saltatione</hi>.<lb/><hi rend="sc"
+                    >Anagrammatismvs,</hi><lb/><hi rend="uc">Franciscvs de de Lavse, Francis Lavs &amp;decvs.</hi></head>
                 <lg>
                     <l>Mos erat in latio dum pua optata vigebat :</l>
                     <l> Romulidas variis sæpe agitare locis.</l>
@@ -167,7 +163,7 @@
                 <signed>A.R.</signed>
             </div>
             <div type="epigraph" xml:id="epigraphe-3">
-                <head>A LVY MESME.</head>
+                <head><hi rend="uc">A lvy mesme.</hi></head>
                 <lg>
                     <l><hi rend="i">La cour se va mouuent aux regles de ta danse,</hi></l>
                     <l><hi rend="i">L’Amour du hault des Cieux tes leue des autelz,</hi></l>
@@ -238,7 +234,7 @@
                     son iugement.</p>
             </div>
             <div type="preface" xml:id="preface">
-                <head>PREFACE.</head>
+                <head><hi rend="uc">Preface.</hi></head>
                 <p><pb n="5"/>Ie m’amusois vn iour à considerer d’où procedoit le malheur de
                     plusieurs qui escriuent, que ceux en faueur de qui ils ont employé vne bonne
                     partie de leur vie, ne payent ordinairement tant de sueurs &amp; de veilles que
@@ -352,7 +348,7 @@
             </div>
         <div type="chapter" xml:id="apologie-danse">
                 <pb n="11"/>
-                <head>APOLOGIE DE LA DANSE.</head>
+                <head><hi rend="uc">Apologie de la danse.</hi></head>
                 <p>I’ay balancé long-temps si ie lairrois eschapper de mes mains ce
                     traicté, pour l’incertitude de la reüssie de ma peine, attendu la qualité du
                     sujet dont ie parle, &amp; la diuersité de tant d’esprits qui choquent
@@ -645,7 +641,7 @@
             </div>
             <div type="chapter" xml:id="methode-cavaliers">
                 <pb n="25"/>
-                <head>METHODE POVR LES CAVALIERS.</head>
+                <head><hi rend="uc">Methode povr les cavaliers.</hi></head>
                 <p>Cevx qui croyent l’obseruation de plusieurs figures du tout
                     necessaires pour bien monstrer à danser par liure, &amp; representer plus
                     naïuement les mouuemens qui se doiuent obseruer à la danse, ne s’accordent pas
@@ -1216,7 +1212,7 @@
             </div>
             <div type="epigraph" xml:id="dedicace-2">
                 <pb n="52"/>
-                <head>A MADAME LA MARQVISE DE BVCKINGHAM, &amp;c.</head>
+                <head><hi rend="uc">A Madame la marqvise de Bvckingham</hi>, &amp;c.</head>
                 <salute rend="left"><hi rend="i">MADAME,</hi></salute>
                 <p><hi rend="i">Si vous considerez que toutes choses tendent necessairement à leur
                         centre, ie m’asseure que vous ne trouuerez pas estrange que ce discours
@@ -1234,7 +1230,7 @@
                     <hi rend="sc">F. de Lavze.</hi></signed>
             </div>
             <div type="chapter" xml:id="methode-dames">
-                <head>METHODE POVR LES DAMES.</head>
+                <head><hi rend="uc">Methode povr les dames.</hi></head>
                 <p><pb n="53"/>Il est indubitable que la beauté des Dames a seruy de subiect aux
                     enuieux, pour blasmer cest exercice : Car disent ils, si les perfections d’vn
                     beau visage armé desia de mil mignardises &amp; d’appas sont anoblies des graces
@@ -1263,7 +1259,7 @@
                     des pieds en dedans, auec celle qu’elle aura les ayant ouuertes qu’on aprouuera
                     mon aduis.</p>
                 <div type="section" xml:id="principes">
-                    <head><hi rend="i">DES PRINCIPES.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Des principes.</hi></hi></head>
                     <p>Et pource que le visage d’vne Dame est le premier obiect qui attire les yeux
                         des regardans pour iuger de sa grace, il faut en premier lieu s’estudier à
                         luy bien placer la teste &amp; regler sa veuë, qui doit tousiours estre
@@ -1275,7 +1271,7 @@
                         sorte.</p>
                 </div>
                 <div type="section" xml:id="reverence">
-                    <head><hi rend="i">DE LA REVERENCE.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">De la reverence.</hi></hi></head>
                     <p>Lors que sa discretion luy fera iuger le temps de saluer la compagnie qu’elle
                         reçoit ou qu’elle aborde, il faut qu’elle escarte tant soit peu l’vn des
                         pieds à costé, &amp; d’vn mesme temps glisser doucement l’autre quasi tout
@@ -1330,7 +1326,7 @@
                         veux commencer par là.</p>
                 </div>
                 <div type="section" xml:id="premier-branle-dames">
-                    <head><hi rend="i">DV PREMIER BRANSLE.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Dv premier bransle.</hi></hi></head>
                     <p>Ie diray donc que le Bransle simple composé de huict pas, (apres auoir faict
                         la reuerence telle que ie la viens de d’escrire, qui sera commencee du pied
                         droict, tant deuant la compagnie qu’en tournant deuant vn Caualier,) se
@@ -1362,7 +1358,7 @@
                 </div>
                 <div type="section" xml:id="branle-gai">
                     <pb n="59"/>
-                    <head><hi rend="i">DV BRANSLE GAY.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Dv bransle gay.</hi></hi></head>
                     <p>Tovt de mesmes qu’il a esté dict pour vn Caualier, il faut qu’vne
                         Dame commence le Bransle Gay par le dernier pas, à fin de bien prendre la
                         cadance, &amp; pour ce faire en pliant tant soit peu les genoüils, on
@@ -1386,7 +1382,7 @@
                         sont fort des agreables.</p>
                 </div>
                 <div type="section" xml:id="branle-de-poitou">
-                    <head><hi rend="i">DV BRANSLE DE POICTOV.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Dv bransle de Poictov.</hi></hi></head>
                     <p>Le troisiesme est le bransle de Poictou, où il faut compter douze pas, lequel
                         se commence (apres vne reuerence qu’on fera semblable à celle du premier,)
                         par vn temps ou deux, auec vn ou plusieurs pas coulez, en tournant deuant
@@ -1428,7 +1424,7 @@
                 </div>
                 <div type="section" xml:id="quatrieme-branle">
                     <pb n="62"/>
-                    <head><hi rend="i">DV QVATRIESME BRANSLE.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Dv quatriesme bransle.</hi></hi></head>
                     <p>Le quatriesme bransle, se nomme le bransle double de Poictou,
                         auquel nous compterons quinze pas à fin de le faire mieux comprendre. Les
                         cinq premiers se font ne plus ne moins comme les cinq premiers du precedant,
@@ -1451,7 +1447,7 @@
                 </div>
                 <div type="section" xml:id="cinquieme-branle">
                     <pb n="63"/>
-                    <head><hi rend="i">DV CINQVIESME BRANSLE.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Dv cinqviesme bransle.</hi></hi></head>
                     <p>Le cinquiesme se faict de mesme le precedant, excepté qu’en
                         celuy-cy on fait deux glissades en retrogradant du costé droict, &amp; en
                         l’autre on n’en fait qu’vne, au partir desquelles on releue le pied gauche
@@ -1478,7 +1474,7 @@
                         gauche en l’air, lequel estant porté à costé sera suiuy d’vn pas couppé.</p>
                 </div>
                 <div type="section" xml:id="gavotte">
-                    <head><hi rend="i">DE LA GAVOTTE.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">De la gavotte.</hi></hi></head>
                     <p>Qvand à la Gauotte qu’on danse à la fin des bransles, les pas &amp; les
                         actions en sont si communes &amp; si cogneuës de chacun qu’il seroit inutile
                         de la descrire par le menu, d’aillieurs qu’on la danse diuersement en
@@ -1490,7 +1486,7 @@
                 </div>
                 <div type="section" xml:id="courante-dames">
                     <pb n="65"/>
-                    <head><hi rend="i">DE LA COVRANTE.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">De la covrante.</hi></hi></head>
                     <p>Apres auoir consideré la diuersité des pas de courante qu’on fait
                         auiourd’huy, ie n’en ay point trouué qu’vne Dame peust acquerir auec plus de
                         facilité, n’y qui luy donne vne action plus belle ny plus aduantageuse que
@@ -1521,7 +1517,7 @@
                         deffaut obligera.</p>
                 </div>
                 <div type="section" xml:id="gaillarde-dames">
-                    <head><hi rend="i">DE LA GAILLARDE.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">De la gaillarde.</hi></hi></head>
                     <p>Il faut premierement apres auoir esté conduite en presence de la compagnie,
                         faire les deux reuerences qu’on obserue ordinairement aux Gaillardes, de
                         mesme celle dont i’ay cy deuant parlé aux Bransles, &amp; au partir de la

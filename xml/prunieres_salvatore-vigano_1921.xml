@@ -7,7 +7,7 @@
     <fileDesc>
       <titleStmt>
       <title>Salvatore Viganò</title>
-      <author key="Prunières, Henry (1886-1942)">Henry Prunières</author>
+        <author key="Prunières, Henry (1886-1942)" ref="https://data.bnf.fr/fr/12536166/henry_prunieres/">Henry Prunières</author>
       </titleStmt>
       <editionStmt>
       <edition>OBVIL</edition>
@@ -21,17 +21,17 @@
         </respStmt>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>Édition TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Anne-Laure Huet</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2018"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/prunieres_salvatore-vigano_1921</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/prunieres_salvatore-vigano_1921</idno>
         <availability status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
           <p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
           <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
@@ -40,12 +40,12 @@
           <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
         </licence></availability>
       </publicationStmt>
-      <sourceDesc><bibl>Source : <author>Henry Prunières</author>, <title><hi rend="i">« Salvatore Viganò »</hi></title>, in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., <biblScope>p. 167-190</biblScope>. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl></sourceDesc>
+      <sourceDesc><bibl>Henry Prunières, <hi rend="i">« Salvatore Viganò »</hi>, in « Le Ballet au <hi rend="sc">xix</hi><hi rend="sup">e</hi> siècle », numéro spécial de la <hi rend="i">Revue musicale</hi> du 1<hi rend="sup">er</hi> décembre 1921, <pubPlace>Paris</pubPlace>, <publisher>Éditions de la Nouvelle Revue française</publisher>, <date>1921</date>, 135 p., p. 167-190. PDF : <ref target="http://www.archive.org/details/leballetau19esi00pariuoft">Internet Archive</ref>.</bibl></sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation><date when="1921"/></creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

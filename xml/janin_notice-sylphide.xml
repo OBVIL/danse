@@ -6,7 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Notice sur La Sylphide</title>
-        <author key="Janin, Jules (1804-1874)">Jules Janin</author>
+        <author key="Janin, Jules (1804-1874)" ref="https://data.bnf.fr/fr/12401456/jules_janin/">Jules Janin</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -16,13 +16,17 @@
           </respStmt>
         <respStmt>
           <name>Eric Thiébaud</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2016"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/janin_notice-sylphide</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/janin_notice-sylphide</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -34,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Jules Janin</author>, « Notice sur <hi rend="i">La Sylphide</hi> », in <title>Les Beautés de l’Opéra, ou Chefs-d’œuvre lyriques illustrés par les premiers artistes de Paris et de Londres</title>, sous la dir. de Giraldon, avec un texte explicatif rédigé par Théophile Gautier, Jules Janin et Philarète Chasles, <pubPlace>Paris</pubPlace>, <publisher>Soulié</publisher>, <date>1845</date>, 10 part. en 1 vol., ill., 7<hi rend="sup">e</hi> partie, <biblScope>p. 3-23</biblScope> [f. 183-203]. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k63784014">Gallica</ref>.</bibl>
+        <bibl>Jules Janin, « Notice sur <hi rend="i">La Sylphide</hi> », in <hi rend="i">Les Beautés de l’Opéra, ou Chefs-d’œuvre lyriques illustrés par les premiers artistes de Paris et de Londres</hi>, sous la dir. de Giraldon, avec un texte explicatif rédigé par Théophile Gautier, Jules Janin et Philarète Chasles, <pubPlace>Paris</pubPlace>, <publisher>Soulié</publisher>, <date>1845</date>, 10 part. en 1 vol., ill., 7<hi rend="sup">e</hi> partie, p. 3-23 [f. 183-203]. PDF : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k63784014">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -42,7 +46,7 @@
         <date when="1845"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

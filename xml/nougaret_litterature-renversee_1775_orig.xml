@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>La littérature renversée, ou l’art de faire des pièces de théâtre sans
                     paroles [graphies originales]</title>
-                <author key="Nougaret, Pierre-Jean-Baptiste (1742-1823)">Pierre-Jean-Baptiste
+                <author key="Nougaret, Pierre-Jean-Baptiste (1742-1823)" ref="https://data.bnf.fr/fr/12001097/pierre-jean-baptiste_nougaret/">Pierre-Jean-Baptiste
                     Nougaret</author>
             </titleStmt>
             <editionStmt>
@@ -22,20 +22,13 @@
                 </respStmt>
                 <respStmt>
                     <name>Anne-Laure Huet</name>
-                    <resp>XML-TEI</resp>
+                    <resp>édition TEI</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Sorbonne Université, LABEX OBVIL</publisher>
                 <date when="2018"/>
-                <idno type="tei"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/nougaret_litterature-renversee_1775_orig.xml</idno>
-                <idno type="html"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/nougaret_litterature-renversee_1775_orig.html</idno>
-                <idno type="txt"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/nougaret_litterature-renversee_1775_orig.txt</idno>
-                <idno type="epub"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/nougaret_litterature-renversee_1775_orig.epub</idno>
+                <idno>http://obvil.sorbonne-universite.site/corpus/danse/nougaret_litterature-renversee_1775_orig</idno>
                 <availability status="restricted">
                     <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
                         <p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire
@@ -60,17 +53,17 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl><author>Pierre-Jean-Baptiste Nougaret</author>, <title>La Littérature
+                <bibl>Pierre-Jean-Baptiste Nougaret, <hi rend="i">La Littérature
                         renversée, ou l’Art de faire des pièces de théâtre sans paroles ; ouvrage
                         utile aux poètes dramatiques de nos jours. Avec un Traité du geste,
                         contenant la manière de représenter les pièces de théâtre à l’aide des bras
                         et des jambes, pour la commodité des acteurs qui ont une mauvaise
                         prononciation ; et offrant en outre une excellente méthode aux gens mariés,
                         pour se quereller dans leur ménage, sans faire de bruit : suivi de l’Art de
-                        se louer soi-même, d’après les principes de M. Lin**</title>,
+                        se louer soi-même, d’après les principes de M. Lin**</hi>,
                         <pubPlace>Berne</pubPlace>, <pubPlace>Paris</pubPlace>, <publisher>chez les
                         débitants de brochures nouvelles</publisher>, <date>1775</date>,
-                        <biblScope>XV-64 p. ; in-8</biblScope>. PDF : <ref
+                        XV-64 p. ; in-8. PDF : <ref
                         target="https://books.google.fr/books?id=NYqIf90YKUwC">Google</ref>.</bibl>
             </sourceDesc>
         </fileDesc>
@@ -96,7 +89,7 @@
                 </quote>
             </div>
             <div type="dedication" xml:id="dedicace">
-                <head>A MONSIEUR DE VOLTAIRE.</head>
+                <head><hi rend="uc">A monsieur de Voltaire.</hi></head>
                 <salute rend="left"><pb n="v"/><hi rend="sc">Monsieur,</hi></salute>
                 <p><hi rend="i">Ce n’est point à la grandeur ni aux richesses, que je dedie le fruit
                         de mes veilles, quoique ce soit l’usage. Je ne remplirai point cette Epître
@@ -119,7 +112,7 @@
                     sieur <hi rend="sc">Nicolet</hi>.</signed>
             </div>
             <div type="preface" xml:id="avertissement">
-                <head>AVERTISSEMENT <hi rend="i">DU LIBRAIRE.</hi></head>
+                <head><hi rend="uc">Avertissement <hi rend="i">du libraire.</hi></hi></head>
                 <p><pb n="vij"/>Les Auteurs Dramatiques font paraître depuis assez long-temps des
                     Tragédies, des Comédies, des Opéras sérieux, &amp; sur-tout des Opéras bouffons,
                     ou Comédies-mêlées-d’ariettes. Il faut varier la Scène &amp; donner au Public
@@ -130,7 +123,7 @@
                         >Pantomimes</hi>.</p>
             </div>
             <div type="contents" xml:id="table">
-                <head>TABLE.</head>
+                <head><hi rend="uc">Table.</hi></head>
                 <list>
                     <item><pb n="viij"/><hi rend="i">Epître dédicatoire à M. de Voltaire</hi>, pag.
                         v</item>
@@ -152,8 +145,7 @@
             </div>
             <div type="preface" xml:id="discours-preliminaire">
                 <pb n="ix"/>
-                <head>DISCOURS PRÉLIMINAIRE,<lb/><hi rend="i">PRÉFACE,</hi><lb/>AVIS AU
-                        LECTEUR,<lb/><hi rend="i">OU TOUT CE QU’ON VOUDRA</hi><note place="bottom"
+                <head><hi rend="uc">Discours préliminaire,<lb/><hi rend="i">préface,</hi><lb/>avis au lecteur,<lb/><hi rend="i">ou tout ce qu'on voudra</hi></hi><note place="bottom"
                         >Redoutables Censeurs, foudre de la Littérature, trêve, trêve un moment à
                         vos critiques. Lisez avec attention, &amp; vous verrez ce que vous n’avez
                         point encore vu ; un Auteur qui se loue par humilité. <hi rend="i">Note du
@@ -237,10 +229,10 @@
             </div>
             <div type="chapter" xml:id="ressources">
                 <pb n="15"/>
-                <head>LES RESSOURCES,<lb/><hi rend="i">OU</hi> LE TABLEAU DU MONDE,<lb/><hi rend="i"
-                        >PANTOMIME.</hi></head>
+                <head><hi rend="uc">Les ressources,<lb/><hi rend="i">ou</hi> le tableau du monde,<lb/><hi rend="i"
+                        >pantomime.</hi></hi></head>
                 <div type="set" xml:id="personnages">
-                    <head>PERSONNAGES<hi rend="sc">
+                    <head><hi rend="uc">Personnages</hi><hi rend="sc">
                             <hi rend="i">de la Pantomime.</hi></hi></head>
                     <pb n="14"/>
                     <castList>
@@ -260,14 +252,14 @@
                     <p rend="i">La Scène est dans la Turquie Européenne.</p>
                 </div>
                 <div type="scene" xml:id="scene-01">
-                    <head>SCENE PREMIERE.</head>
+                    <head><hi rend="uc">Scene premiere.</hi></head>
                     <p rend="i">Le Théâtre représente un Palais magnifique.</p>
                     <p>Arlequin vient avec sa Maitresse ; il l’assure de son amour ; il lui fait
                         entendre ensuite que le Sultan est fort embarrassé, qu’il est sans argent,
                         sans ressource : ils s’en moquent.</p>
                 </div>
                 <div type="scene" xml:id="scene-02">
-                    <head><hi rend="i">SCENE II.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene II.</hi></hi></head>
                     <p>La Maitresse d’Arlequin se retire à l’aspect du Sultan, qui fait les
                         démonstrations du <pb n="2"/>plus affreux désespoir. Il embrasse Arlequin,
                         &amp; lui prodigue les marques d’une vive amitié : celui-ci feint de le
@@ -275,19 +267,19 @@
                         d’Arlequin.</p>
                 </div>
                 <div type="scene" xml:id="scene-03">
-                    <head><hi rend="i">SCENE III.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene III.</hi></hi></head>
                     <p>Les Créanciers du Sultan viennent en foule ; ils sont mis grottesquement. Le
                         Sultan les caresse d’abord ; mais comme ils se montrent inexorables, il les
                         chasse : Arlequin les suit, sous prétexte de les appaiser.</p>
                 </div>
                 <div type="scene" xml:id="scene-04">
-                    <head><hi rend="i">SCENE IV.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene IV.</hi></hi></head>
                     <p>Le Sultan, désespéré, reste seul. Une Musique agréable se sait entendre. Un
                         Magicien descend du Ciel, dans un char. Le Sultan, épouvanté, se jette la
                         face contre terre.</p>
                 </div>
                 <div type="scene" xml:id="scene-05">
-                    <head><hi rend="i">SCENE V.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene V.</hi></hi></head>
                     <p>Le Magicien sait signe au Sultan de se relever, &amp; lui sait entendre qu’il
                         vient lui donner du secours. On apporte par son ordre <pb n="3"/>trois
                         grands coffres, qu’il assure devoir bientôt se remplir d’argent. Le Sultan,
@@ -295,7 +287,7 @@
                         Peuple.</p>
                 </div>
                 <div type="scene" xml:id="scene-06">
-                    <head><hi rend="i">SCENE VI.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene VI.</hi></hi></head>
                     <p>Foule de Peuple de tout âge &amp; de toute condition. On entend une Musique
                         éclatante. Plusieurs petits Génies descendent sur des nuages dorés, chargés
                         de faisceaux d’échasses. Ils les posent au milieu du Théâtre, &amp;
@@ -309,20 +301,20 @@
                 </div>
                 <div type="scene" xml:id="scene-07">
                     <pb n="4"/>
-                    <head><hi rend="i">SCENE VII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene VII.</hi></hi></head>
                     <p>Arlequin paraît avec un autre Magicien ; il lui fait entendre qu’il voudrait
                         avoir l’argent qui est dans les coffres. Le Magicien fait des conjurations,
                         &amp; sort avec Arlequin, en lui faisant signe qu’il ne tardera point à
                         posséder les trésors qu’il envie.</p>
                 </div>
                 <div type="scene" xml:id="scene-08">
-                    <head><hi rend="i">SCENE VIII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene VIII.</hi></hi></head>
                     <p>Le Sultan, enchanté, ouvre les coffres pour considérer ses richesses ; il
                         n’en sort qu’une épaisse fumée. Le Sultan se livre de nouveau au désespoir,
                         &amp; sort en adressant des vœux au Ciel.</p>
                 </div>
                 <div type="scene" xml:id="scene-09">
-                    <head><hi rend="i">SCENE IX.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene IX.</hi></hi></head>
                     <p rend="i">Le Théâtre change &amp; représente une rue.</p>
                     <p>Paillasse, monté sur son échasse, fait beaucoup de lazzis ; mais, comme pour
                         l’avoir, il a donné tout son argent, il fait entendre qu’il meurt de faim.
@@ -334,7 +326,7 @@
                         retirent, chacun d’un côté différent.</p>
                 </div>
                 <div type="scene" xml:id="scene-10">
-                    <head><hi rend="i">SCENE X.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene X.</hi></hi></head>
                     <p rend="i">Le Théâtre représente un jardin agréable.</p>
                     <p>Arlequin danse avec ses amis, leurs maitresses &amp; la sienne, dont il est
                         de plus-en-plus enchanté. Sa tendre amie, lorsqu’il ne s’en apperçoit pas,
@@ -345,7 +337,7 @@
                         après lui, en se moquant du pauvre Arlequin.</p>
                 </div>
                 <div type="scene" xml:id="scene-11">
-                    <head><hi rend="i">SCENE XI.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XI.</hi></hi></head>
                     <p rend="i"><pb n="6"/>Le Théâtre change, &amp; représente une Salle des
                         appartemens du Sultan.</p>
                     <p>Des Courtisans, qui se promènent dans la salle, font entendre que le Sultan,
@@ -353,12 +345,12 @@
                         s’en réjouïssent.</p>
                 </div>
                 <div type="scene" xml:id="scene-12">
-                    <head><hi rend="i">SCENE XII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XII.</hi></hi></head>
                     <p>On apporte le Sultan sur un lit ; il se plaint du sort, &amp; veut
                         mourir.</p>
                 </div>
                 <div type="scene" xml:id="scene-13">
-                    <head><hi rend="i">SCENE XIII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XIII.</hi></hi></head>
                     <p>La muraille de la Salle s’entrouvre avec fracas. Le premier Magicien paraît,
                         &amp; touche le lit, qui se change en un Trône superbe. Il fait entendre au
                         Sultan, qu’il va réparer ses pertes. Les faux Courtisans, épouvantés,
@@ -366,14 +358,14 @@
                 </div>
                 <div type="scene" xml:id="scene-14">
                     <pb n="7"/>
-                    <head><hi rend="i">SCENE XIV.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XIV.</hi></hi></head>
                     <p>De petits Génies sortent de dessous quatre tables, qui sont changées en
                         cornes d’abondance. Ils en tirent des robes de toutes couleurs, &amp;
                         sur-tout beaucoup de noires. Les petits Génies entrent ensuite dans les
                         cornes d’abondance, &amp; disparaissent. On sonne de la trompette.</p>
                 </div>
                 <div type="scene" xml:id="scene-15">
-                    <head><hi rend="i">SCENE XV.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XV.</hi></hi></head>
                     <p>Le Peuple accourt ; une partie a des échasses, &amp; l’autre n’en a point. On
                         vend les robes : plusieurs de ceux qui ont des échasses en achettent ; les
                         autres qui ont employé toute leur fortune au premier achat, ne peuvent en
@@ -388,7 +380,7 @@
                         Magicien disparaît.</p>
                 </div>
                 <div type="scene" xml:id="scene-16">
-                    <head><hi rend="i">SCENE XVI.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XVI.</hi></hi></head>
                     <p>Arlequin &amp; le second Magicien entrent par le fond du Théâtre. Le Sultan
                         continue de faire des amitiés à Arlequin, qui, feignant d’en être touché,
                         conjure encore le Magicien, son ami, de lui procurer les trésors renfermés
@@ -396,7 +388,7 @@
                         &amp; sort avec Arlequin &amp; tout le peuple.</p>
                 </div>
                 <div type="scene" xml:id="scene-17">
-                    <head><hi rend="i">SCENE XVII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XVII.</hi></hi></head>
                     <p>Le Sultan, entouré de ses fidèles Courtisans, veut voir ses richesses. Les
                         coffres s’ouvrent ; il s’en élève des tourbillons de flammes : un bruit
                         affreux se fait entendre. Le Palais semble être tout en feu. Le Parquet
@@ -404,7 +396,7 @@
                 </div>
                 <div type="scene" xml:id="scene-18">
                     <pb n="9"/>
-                    <head><hi rend="i">SCENE XVIII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XVIII.</hi></hi></head>
                     <p>Plusieurs Démons sortent des entrailles de la terre, armés de fourches &amp;
                         de flambeaux. Ils font des grimaces ; des gestes effrayans &amp; des sauts
                         périlleux. La peur s’empare de tout le monde. Le Sultan &amp; toute sa Cour
@@ -413,14 +405,14 @@
                         disparaît.</p>
                 </div>
                 <div type="scene" xml:id="scene-19">
-                    <head><hi rend="i">SCENE XIX.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XIX.</hi></hi></head>
                     <p rend="i">Le Théâtre représente une Salle richement ornée, éclairée par des
                         lustres &amp; des girandoles.</p>
                     <p>On voit Arlequin avec beaucoup de monde : sa Maitresse le dédaigne
                         toujours.</p>
                 </div>
                 <div type="scene" xml:id="scene-20">
-                    <head><hi rend="i">SCENE XX.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XX.</hi></hi></head>
                     <p>Les Démons rapportent les coffres. Arlequin distribue une partie de l’argent.
                         Sa Maitresse le recherche alors ; enchanté, il lui prodigue <pb n="10"/>ses
                         richesses. On joue. Devenu plus défiant par la première épreuve qu’il a
@@ -431,31 +423,31 @@
                         chargent les morts sur leurs épaules, &amp; sortent.</p>
                 </div>
                 <div type="scene" xml:id="scene-21">
-                    <head><hi rend="i">SCENE XXI.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XXI.</hi></hi></head>
                     <p rend="i">Le Théâtre représente une Campagne arrosée d’une rivière.</p>
                     <p>Arlequin &amp; ses amis jettent dans la rivière les corps de ceux qu’ils ont
                         tués.</p>
                 </div>
                 <div type="scene" xml:id="scene-22">
-                    <head><hi rend="i">SCENE XXII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XXII.</hi></hi></head>
                     <p rend="i">Le Théâtre représente l’Appartement du Sultan,</p>
                     <p>Plusieurs Courtisans vêtus de noir &amp; en longs manteaux, font entendre que
                         le Sultan est mort de douleur.</p>
                 </div>
                 <div type="scene" xml:id="scene-23">
-                    <head><hi rend="i">SCENE XXIII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XXIII.</hi></hi></head>
                     <p rend="i"><pb n="11"/>Le Théâtre représente une grande Place, au milieu de
                         laquelle est un bûcher.</p>
                     <p>Pompe funèbre du Sultan : son corps est mis sur le bûcher.</p>
                 </div>
                 <div type="scene" xml:id="scene-24">
-                    <head><hi rend="i">SCENE XXIV.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XXIV.</hi></hi></head>
                     <p>Arlequin &amp; le second Magicien paraissent sur un char traîné par quatre
                         éléphans. L’un &amp; l’autre insultent à la mémoire du Sultan. On met le feu
                         au bûcher.</p>
                 </div>
                 <div type="scene" xml:id="scene-25">
-                    <head><hi rend="i">SCENE XXV.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XXV.</hi></hi></head>
                     <p>Le jour s’obscurcit ; un bruit affreux &amp; une musique délicieuse se font
                         entendre alternativement ; la foudre tombe par éclats ; les éclairs semblent
                         embrâser le Théâtre. Paillasse exprime sa frayeur par des Lazzis plaisans.
@@ -469,7 +461,7 @@
                         airs.</p>
                 </div>
                 <div type="scene" xml:id="scene-26">
-                    <head><hi rend="i">SCENE XXVI.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XXVI.</hi></hi></head>
                     <p rend="i">Le Théâtre représente une Salle du Palais du Sultan. (Tout le Peuple
                         est rassemblé).</p>
                     <p>Le Magicien fait sortir de dessous le Théâtre un mortier d’une énorme
@@ -490,20 +482,20 @@
                         des habits richement ridicules.</p>
                 </div>
                 <div type="scene" xml:id="scene-27">
-                    <head><hi rend="i">SCENE XXVII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XXVII.</hi></hi></head>
                     <p>Paillasse saute avec adresse dans le mortier : il en sort habillé
                         grottesquement. Lazzis de Paillasse pour marquer son étonnement, mêlé
                         d’orgueil.</p>
                 </div>
                 <div type="scene" xml:id="scene-28">
                     <pb n="14"/>
-                    <head><hi rend="i">SCENE XXVIII.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XXVIII.</hi></hi></head>
                     <p>Le Magicien, qui se doute que cette dernière ressource n’a pas rempli les
                         coffres du Sultan, fait entendre qu’il est des gens riches, qu’on peut
                         mettre à contribution : il les fait appeller.</p>
                 </div>
                 <div type="scene" xml:id="scene-29">
-                    <head><hi rend="i">SCENE XXIX.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene XXIX.</hi></hi></head>
                     <p>Les gens qu’a désigné le Magicien arrivent en corps. Il leur demande une
                         somme considérable. Ils résistent, mais cèdent bien-tôt aux menaces qu’on
                         leur fait. Ils vuident leurs poches, se dégraissent de tout ce qui leur
@@ -518,7 +510,7 @@
                         bruit des fanfares, qui se font tout-à-coup entendre.</p>
                 </div>
                 <div type="scene" xml:id="scene-30">
-                    <head><hi rend="i">SCENE DERNIERE.</hi></head>
+                    <head><hi rend="uc"><hi rend="i">Scene derniere</hi></hi></head>
                     <p>Le Palais du Sultan devient plus riche &amp; plus brillant. Des guirlandes de
                         fleurs sont suspendues de tous côtés. On découvre dans le lointain des
                         jardins illuminés &amp; décorés des mains de l’Art &amp; de la Nature. Le
@@ -539,8 +531,8 @@
             </div>
             <div type="chapter" xml:id="lettre-grand-sauteur">
                 <pb n="17"/>
-                <head>LETTRE<lb/><hi rend="i">D’UN GRAND SAUTEUR</hi><lb/>A M. DE VOLTAIRE,<lb/><hi
-                        rend="i">SUR LES PANTOMIMES</hi><note place="bottom">Mettons le Public dans
+                <head><hi rend="uc">Lettre<lb/><hi rend="i">d'un grand sauteur</hi><lb/>A M. de Voltaire,<lb/><hi
+                        rend="i">sur les pantomimes</hi></hi><note place="bottom">Mettons le Public dans
                         ma confidence. Cette Lettre est une espèce de Parodie de certaine Lettre
                         qu’on trouve à la fin de la Tragédie intitulée : <hi rend="i">le Comte de
                             Warwick</hi>. J’ai eu soin de marquer avec des guillemets les passages
@@ -956,7 +948,7 @@
             </div>
             <div type="postface" xml:id="postface">
                 <pb n="38"/>
-                <head>POSTE-FACE,<lb/><hi rend="i">POST-SCRIPTUM</hi>,<lb/><hi rend="sc"
+                <head><hi rend="uc">Poste-face</hi>,<lb/><hi rend="uc"><hi rend="i">Post-scriptum</hi></hi>,<lb/><hi rend="sc"
                         >ou</hi><lb/><hi rend="i"><hi rend="sc">Réflexions</hi> sur l’incertitude
                         des jugemens en matière de Littérature.</hi></head>
                 <p>Il faut l’avouer, à ma honte....qu’il est dur cependant pour un Sauteur du
@@ -1158,7 +1150,7 @@
             </div>
             <div type="appendix" xml:id="traite-geste">
                 <pb n="49"/>
-                <head><hi rend="i">TRAITÉ</hi> DU GESTE, <lb/><hi rend="i"><hi rend="sc"
+                <head><hi rend="uc"><hi rend="i">Traité</hi> du geste</hi>, <lb/><hi rend="i"><hi rend="sc"
                             >Contenant</hi> la maniere de représenter les Pièces de Théatre, à
                         l’aîde des bras &amp; des jambes, pour la commodité des Acteurs nazillans,
                         begayans, gasconnans ; &amp;c. &amp;c. &amp; offrant, en outre, une

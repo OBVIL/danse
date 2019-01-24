@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Dialogue sur la danse</title>
-        <author key="Louÿs, Pierre (1870-1925)">Pierre Louÿs</author>
+        <author key="Louÿs, Pierre (1870-1925)" ref="https://data.bnf.fr/fr/11913504/pierre_louys/">Pierre Louÿs</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -16,17 +16,17 @@
         </respStmt>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>XML-TEI</resp>
+          <resp>édition Tei</resp>
         </respStmt>
         <respStmt>
           <name>Anne-Laure Huet</name>
-          <resp>XML-TEI</resp>
+          <resp>édition Tei</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2016"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/louys_dialogue-danse</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/louys_dialogue-danse</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Pierre Louÿs</author>, <title>Dialogue sur la danse</title> [<hi rend="i">Fémina-Noël</hi>, 1910], in <title>Œuvres complètes</title>, tome XI, Paris, éditions Montaigne, 1930, <biblScope>p. 5-17</biblScope>. PDF : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k45075">Gallica</ref>.</bibl>
+        <bibl>Pierre Louÿs, « Dialogue sur la danse [<hi rend="i">Fémina-Noël</hi>, 1910] », in <hi rend="i">Œuvres complètes</hi>, tome XI, <pubPlace>Paris</pubPlace>, <publisher>éditions Montaigne</publisher>, <date>1930</date>, p. 5-17. PDF : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k45075">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,7 +46,7 @@
         <date when="1910"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

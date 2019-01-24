@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Lettres sur la danse et sur les ballets (1<hi rend="sup">re</hi> éd.)
                     [graphies originales]</title>
-                <author key="Noverre, Jean Georges (1727-1810)">Jean Georges Noverre</author>
+                <author key="Noverre, Jean Georges (1727-1810)" ref="https://data.bnf.fr/fr/11917921/jean_georges_noverre/">Jean Georges Noverre</author>
             </titleStmt>
             <editionStmt>
                 <edition>OBVIL</edition>
                 <respStmt>
-                    <name>Eric Thiébaud</name>
+                    <name>Éric Thiébaud</name>
                     <resp>Stylage sémantique</resp>
                 </respStmt>
                 <respStmt>
                     <name>Wordpro</name>
                     <resp>Numérisation et encodage TEI</resp>
                 </respStmt>
+                <respStmt>
+                    <name>Anne-Laure Huet</name>
+                    <resp>édition TEI</resp>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Sorbonne Université, LABEX OBVIL</publisher>
                 <date when="2018"/>
-                <idno type="tei"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/noverre_lettres-danse_1760_orig.xml</idno>
-                <idno type="html"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/noverre_lettres-danse_1760_orig.html</idno>
-                <idno type="txt"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/noverre_lettres-danse_1760_orig.txt</idno>
-                <idno type="epub"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/noverre_lettres-danse_1760_orig.epub</idno>
+                <idno>http://obvil.sorbonne-universite.site/corpus/danse/noverre_lettres-danse_1760_orig</idno>
                 <availability status="restricted">
                     <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
                         <p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire
@@ -55,12 +52,12 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl><author>Jean Georges Noverre</author>, <title>Lettres sur la danse, et sur les
-                        ballets <hi rend="i">[première édition]</hi>, par M. Noverre, maître des
+                <bibl>Jean Georges Noverre, <hi rend="i">Lettres sur la danse, et sur les
+                        ballets [première édition], par M. Noverre, maître des
                         ballets de Son Altesse Sérénissime Monseigneur le Duc de Wurtemberg, et
-                        ci-devant des théâtres de Paris, Lyon, Marseille, Londres, etc.</title>,
+                        ci-devant des théâtres de Paris, Lyon, Marseille, Londres, etc.</hi>,
                         <pubPlace>Lyon</pubPlace>, <publisher>Aimé Delaroche</publisher>,
-                    <date>1760</date>, <biblScope>[4]-484 p. ; in-8</biblScope>. PDF : <ref
+                    <date>1760</date>, [4]-484 p. ; in-8. PDF : <ref
                         target="https://archive.org/details/lettressurladans00noveuoft">Internet
                         Archive</ref>.</bibl>
             </sourceDesc>

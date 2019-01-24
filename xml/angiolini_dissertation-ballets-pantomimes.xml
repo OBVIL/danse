@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Dissertation sur les Ballets Pantomimes des Anciens, pour servir de programme au Ballet Pantomime Tragique de Sémiramis</title>
-        <author key="Angiolini, Gasparo (1731-1803)">Gasparo Angiolini [Ranieri Calzabigi]</author>
+        <author key="Angiolini, Gasparo (1731-1803)" ref="https://data.bnf.fr/fr/10461796/gasparo_angiolini/">Gasparo Angiolini [Ranieri Calzabigi]</author>
         <editor key="Fabbricatore, Arianna (1970-....)">Arianna Fabbricatore</editor>
       </titleStmt>
       <editionStmt>
@@ -21,17 +21,17 @@
           </respStmt>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Anne-Laure Huet</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/angiolini_dissertation-ballets-pantomimes</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/angiolini_dissertation-ballets-pantomimes</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -43,7 +43,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Gasparo Angiolini</author> [Ranieri Calzabigi], <title>Dissertation sur les Ballets Pantomimes des Anciens, pour servir de programme au Ballet Pantomime Tragique de Sémiramis</title>, <pubPlace>Vienne</pubPlace>, Chez <publisher>Jean-Thomas de Trattnern</publisher>, Imprimeur de la Cour, <date>1765</date>, <biblScope>in-8°</biblScope>.</bibl>
+        <bibl>Gasparo Angiolini [Ranieri Calzabigi], <hi rend="i">Dissertation sur les Ballets Pantomimes des Anciens, pour servir de programme au Ballet Pantomime Tragique de Sémiramis</hi>, Chez <publisher>Jean-Thomas de Trattnern</publisher>, Imprimeur de la Cour, <pubPlace>Vienne</pubPlace>, <date>1765</date>, in-8°.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -51,7 +51,7 @@
         <date when="1765"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
