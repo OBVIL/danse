@@ -1,0 +1,2208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2019-01-25T13:28:38+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Trattato del ballo nobile di Giambattista Dufort</title>
+        <author key="Dufort, Jean-Baptiste (1680-17..)">Jean-Baptiste Dufort</author>
+        <editor>Arianna B. Fabbricatore</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Arianna B. Fabbricatore </name>
+          <resp>relecture, édition, stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Eric Thiébaud </name>
+          <resp>OCR, édition TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/dufort_trattato-ballo-nobile/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Jean-Baptiste Dufort (1680-17..), <hi rend="i">Trattato del Ballo Nobile di
+            Giambattista Dufort indirizzato all’Eccellenza delle signore Dame, e de’ signori
+            Cavalieri Napoletani</hi>. In <pubPlace>Napoli</pubPlace>
+          <date>1728</date>. Nella Stamperia di <publisher>Felice Mosca</publisher>. PDF : <ref
+            target="https://www.loc.gov/item/09001083/">Library of Congress</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1728"/>
+      </creation>
+      <langUsage>
+        <language ident="ita"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="presentazione">
+        <head>Presentazione</head>
+        <div xml:id="nota-al-testo">
+          <head>Nota al testo</head>
+          <p>Per la presente edizione, si è applicato un criterio essenzialmente conservativo. Poche
+            sono le modifiche apportate, in accordo con le esigenze di un’edizione digitale che
+            possa dialogare con altri testi dell’epoca e permettere ricerche all’interno di un
+            corpus scelto. Nel dettaglio son state conservate le maiuscole e l’ortografia dei nomi
+            propri; rettificata l’ortografia di alcuni avverbi (daddosso → da dosso; peravventura →
+            per avventura; perlaqualcosa → per la qual cosa; in somma → insomma; forsi → forse;
+            leggiermente → leggermente; alcerto → al certo; più tosto → piuttosto; non dimeno →
+            nondimeno; a punto → appunto; ognu’uno → ognuno; finattanto → fintanto); modernizzata
+            l’ortografia delle preposizioni (su la → sulla; co i → coi; de i → dei), soppressa la
+            “j” al posto delle “ii”; normalizzato l’uso dell’apostrofo (un altra → un’altra),
+            corretto gli accenti (nè → né), rettificate ancora le seguenti parole: mezo → mezzo;
+            Pariggi → Parigi; legiadro → leggiadro; esemplo → esempio; franzese → francese. Il
+            corsivo di alcune parole messe in evidenza è stato riservato per le parole straniere,
+            mentre le virgolette lo hanno sostituito nella funzione di messa in rilievo. È stata
+            corretta l’ortografia dei nomi dei passi che Dufort cita in francese nonché i termini
+            Boëmienne → <hi rend="i">Bohémienne</hi>; Alamanda → <hi rend="i">Allemande</hi>. Il
+            lettore troverà nella tabella seguente l’ortografia originale e il capitolo
+            corrispondente.</p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 46%" rend="col1"/>
+              <span type="col" style="width: 27%" rend="col2"/>
+              <span type="col" style="width: 26%" rend="col3"/>
+            </spanGrp>
+            <row>
+              <cell cols="3" rend="center">Passi citati nel Trattato di Dufort</cell>
+            </row>
+            <row>
+              <cell>Ortografia originale</cell>
+              <cell>Ortografia corretta</cell>
+              <cell>Capitolo</cell>
+            </row>
+            <row>
+              <cell>Battimenti</cell>
+              <cell>
+                <hi rend="b">[ <hi rend="i">Battement</hi> ]</hi>
+              </cell>
+              <cell>30</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Bilanciato <hi rend="i">Balancé</hi>
+                </hi>
+              </cell>
+              <cell>Balancé</cell>
+              <cell>26</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Cadente <hi rend="i">Tombé</hi>
+                </hi>
+              </cell>
+              <cell>Tombé</cell>
+              <cell>27</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Contrattempo <hi rend="i">Contretemps</hi>
+                </hi>
+              </cell>
+              <cell>Contretemps</cell>
+              <cell>19</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Fioretto <hi rend="i">De Bouréé, ou Fleuret</hi>
+                </hi>
+              </cell>
+              <cell>
+                <hi rend="b">
+                  <hi rend="i">Bourrée</hi>
+                </hi>
+                <hi rend="b">
+                  <hi rend="i">, ou Fleuret</hi>
+                </hi>
+              </cell>
+              <cell>18</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Gagliarda <hi rend="i">De Gagliarde</hi>
+                </hi>
+              </cell>
+              <cell>Gaillarde</cell>
+              <cell>24</cell>
+            </row>
+            <row>
+              <cell>Giro della gamba</cell>
+              <cell>
+                <hi rend="b">[ <hi rend="i">Tour de jambe</hi> ]</hi>
+              </cell>
+              <cell>30</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Gittato <hi rend="i">Jetté</hi>
+                </hi>
+              </cell>
+              <cell>Jeté</cell>
+              <cell>12</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Grave <hi rend="i">Grave, ou de Courante</hi>
+                </hi>
+              </cell>
+              <cell>Grave, ou de Courante</cell>
+              <cell>25</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Mezzo Contrattempo <hi rend="i">Demi-Contretemps</hi>
+                </hi>
+              </cell>
+              <cell>Demi-Contretemps</cell>
+              <cell>20</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Mezzo Gittato <hi rend="i">Demi-Jetté</hi>
+                </hi>
+              </cell>
+              <cell>
+                <hi rend="b"><hi rend="i">Demi</hi>- </hi>
+                <hi rend="b">
+                  <hi rend="i">Jeté</hi>
+                </hi>
+              </cell>
+              <cell>13</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Mezzo Tronco <hi rend="i">Demi-Coupé</hi>
+                </hi>
+              </cell>
+              <cell>Demi-Coupé</cell>
+              <cell>14</cell>
+            </row>
+            <row>
+              <cell>Movimenti del ginocchio, Balonné</cell>
+              <cell>Ballonné</cell>
+              <cell>30</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Piegato, e Rialzato <hi rend="i">Plié, et Relevé</hi>
+                </hi>
+              </cell>
+              <cell>Plié, et Relevé</cell>
+              <cell>9</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Pirola <hi rend="i">Piroüette</hi>
+                </hi>
+              </cell>
+              <cell>Pirouette</cell>
+              <cell>10</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Rigodone <hi rend="i">De Rigaudon</hi>
+                </hi>
+              </cell>
+              <cell>Rigaudon</cell>
+              <cell>21</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Saltante <hi rend="i">Sauté</hi>
+                </hi>
+              </cell>
+              <cell>Sauté</cell>
+              <cell>11</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Scacciato <hi rend="i">Chassé</hi>
+                </hi>
+              </cell>
+              <cell>Chassé</cell>
+              <cell>17</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Sdrucciolata <hi rend="i"> Glissade</hi>
+                </hi>
+              </cell>
+              <cell>Glissade</cell>
+              <cell>28</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Semplice, o Naturale <hi rend="i">Simple, ou Naturel</hi>
+                </hi>
+              </cell>
+              <cell>Simple, ou Naturel</cell>
+              <cell>8</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Sfuggito <hi rend="i">Eschapé, ou Sailli</hi>
+                </hi>
+              </cell>
+              <cell>
+                <hi rend="b">
+                  <hi rend="i">Echappé</hi>
+                </hi>
+                <hi rend="b">
+                  <hi rend="i">, ou Sailli</hi>
+                </hi>
+              </cell>
+              <cell>16</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Sissone <hi rend="i">De Sissonne</hi>
+                </hi>
+              </cell>
+              <cell>Sissonne</cell>
+              <cell>22</cell>
+            </row>
+            <row>
+              <cell>Staccato</cell>
+              <cell>
+                <hi rend="b">[ <hi rend="i">Dégagé</hi> ]</hi>
+              </cell>
+              <cell>30</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Tronco <hi rend="i">Coupé</hi>
+                </hi>
+              </cell>
+              <cell>Coupé</cell>
+              <cell>15</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="b">Unito <hi rend="i">Assemblé</hi>
+                </hi>
+              </cell>
+              <cell>Assemblé</cell>
+              <cell>23</cell>
+            </row>
+          </table>
+        </div>
+      </div>
+      <div xml:id="testo">
+        <head>Trattato del Ballo Nobile di Giambattista Dufort</head>
+        <div type="book" xml:id="tratatto-ballo-nobile">
+          <head>Trattato del Ballo Nobile</head>
+          <div type="dedication" xml:id="tratatto-ballo-nobile_dedica">
+            <head>[Dedica]</head>
+            <salute>[1] Eccellenze,</salute>
+            <p>[2] Le signorili e generose maniere che l’Eccellenze Vostre, infin da quel tempo
+              ch’ebbi l’onor di essere annoverato tra’ vostri servidori, compiaciute sempremai si
+              sono benignamente usare inverso di me, mi hanno di sì fatto peso d’obbligazioni
+              aggravato, che l’aver io abbandonata la Francia, ove nacqui, parte non meno
+              considerabile dell’Europa che di tutto il Mondo; l’essermi poco curato di parecchie
+              altre Città cospicue d’<placeName>Italia</placeName>; ed ultimamente l’aver diliberato
+              impiegare nel vostro servizio il restante tempo della mia vita, mi sono tutte sembrate
+              cose le quali anzi mi potrebbono in picciola parte alleggiare che del tutto sottrarre
+              da quella importabilissima gravezza. Per non tralasciare intanto alcun altro mezzo da
+              soddisfare al giusto insieme ed ardente disiderio che tengo d’andarmene tuttavia il
+              meglio che posso alleviando; ed oltracciò per non offendere nel difforme vizio
+              dell’ingratitudine; essendomi a rintracciar messo altra via, da fare alcuna cosa la
+              qual vi potesse piacere (poiché ogni vostro, avvegnaché lieve gradimento, sarebbe per
+              tormi da dosso una gran parte del detto peso) m’è venuto finalmente pensato fare un
+                <hi rend="i">Trattato del Ballo Nobile</hi>, nel quale fossero con ogni possibile
+              chiarezza raccolte e dichiarate le regole ed i precetti generali d’una tal arte. E di
+              già dopo aver io durate lunghissime fatiche, finalmente eccolo per mezzo delle stampe
+              uscito alla luce del Mondo: la quale, perciocché soventi volte addiviene che, per
+              diverse cagioni, in densissima tenebra si tramuti con sommo detrimento della stima de’
+              poveri Autori, ho avuto l’ardimento d’allogar nel suo fronte il chiaro e
+              splendidissimo nome dell’Eccellenze Vostre, acciocché, se per avventura gli manca il
+              proprio lume, abbia modo, nella copia che ne gli bisogna, da provvedersene. Quindi
+              messomi a nuovamente pensare che altro scemamento d’obbligazioni si fosse per me fatto
+              con una tale fatica, ho trovato pur quello assai lieve, e queste tuttavia pesantissime
+              ed infinite. Per la qual cosa ho chiaramente coll’esperienza ravvisato il peso della
+              vostra grandezza e la leggerezza della mia insufficienza; e che io posso
+              dall’Eccellenze vostre esser colmato di benefizi, ma che non posso né anche in
+              picciola parte soddisfargli. Supplisca adunque alle mie necessarie mancanze l’innata
+              generosità dell’animo vostro. E prendiate con gradimento non già quello che vi si
+              dovrebbe, ma ciò ch’io sono in istato di potervi presentare. E dando da tempo in tempo
+              qualche occhiata a questo libro che io vi óffero, piacciavi ch’io ne ritragga il
+              frutto non già d’ammaestramento, ma di ricordazion delle cose che voi perfettamente
+              sapete. Ed ultimamente, pregando il più che so e posso l’Eccellenze Vostre a tenermi
+              sotto quella valevolissima protezione che finora ho goduta, finisco facendovi
+              profondissimo inchino.</p>
+            <dateline>Di Napoli addì 6 Novembre 1728.</dateline>
+            <signed>Dell’Eccellenze Vostre umilissimo divotissimo ed obbligatissimo servidor vero
+              Giambatista Dufort.</signed>
+          </div>
+          <div type="introduction" xml:id="tratatto-ballo-nobile_avviso">
+            <head>Avviso a chi legge</head>
+            <p>[1] Quantunque l’invenzion della Danza sia antichissima, per quello che ne scrivono
+              molti Autori che trattano degl’Inventori di essa e delle <term type="people"
+                >Nazioni</term> presso le quali fu in grandissimo uso; tuttavia non si può
+              fermamente dire che gli Antichi, i quali invero ballavano o saltavano regolati
+              dall’armonia, abbiano avuta notizia della Danza regolata, cioè composta di que’ soli
+              passi i quali, secondo le regole appresso trovate, si possono adoperare.</p>
+            <p>[2] Gl’<term type="people">Italiani</term>, senz’alcuna contraddizione, furono i
+              primi a dar le regole della Danza, sulle quali scrissero alcuni libri. Il più antico
+              di essi fu dato alle stampe a <placeName>Milano</placeName> l’anno 1468, e che ha
+              questo titolo: <title>Il Ballarino perfetto</title> di <persName>Messer Rinaldo
+                Rigoni</persName>, Dedicato al Serenissimo Signore <persName>Galeazzo Sforza Duca di
+                Milano</persName>; ed il più novello è stampato in <placeName>Venezia</placeName>
+              l’anno 1581, il cui titolo è quest’altro: <ref
+                target="http://www.pbm.com/~lindahl/caroso/facsimile/all.pdf"><title>Il
+                  Ballarino</title></ref> di Messer <persName>Fabrizio Caroso da
+                Sermoneta</persName>, diviso in due Trattati, Dedicato alla Serenissima Signora, la
+              Signora <persName>Bianca Cappello de’ Medici Gran Duchessa di Toscana</persName>.</p>
+            <p>[3] I <term type="people">Spagnoli</term> poi furono i primi che impararono la Danza
+                <term type="people">Italiana</term>, a cui aggiunsero alcune capriole ed il suono
+              delle castagnette; per la qual cagione questa Danza, che prima si diceva <term
+                type="people">Italiana</term>, appresso ricevè due nomi co’ quali era
+              indifferentemente, siccome è anche di presente, chiamata, cioè <term type="people"
+                >Italiana</term> e <term type="people">Spagnola</term>. I passi di questa Danza,
+              comeche fatti in cadenza sopra alcune arie di malissimo “gusto”, non erano già
+              naturali, ma sì faticosi e forzati. I piedi si teneano paralleli, donde nasceva che i
+              passi riuscivano duri ed inflessibili. Le braccia sopra i lati distese e diritte, come
+              si vede dalle figure delle quali vanno adorni i libri di sopra recati. Le figure eran
+              poco considerabili e del tutto spogliate del buon “gusto” che regna oggidì. Insomma
+              questa Danza <term type="people">Italiana</term> o <term type="people"
+              >Spagnola</term>, la quale immagino che a quel tempo riuscita fosse gradevole, di
+              presente sarebbe in vero molto ridicolosa a vedere; in guisaché Monsieur
+                <persName>Filibois</persName>, Maestro di Ballo nella Corte Imperiale, ne ha
+              composto un carattere buffonesco, il quale, vestito egli all’antica maniera <term
+                type="people">Italiana</term>, con somma ammirazione di tutti sopra i più cospicui
+              teatri d’<placeName>Italia</placeName> ha ballato.</p>
+            <p>[4] Egli non ha guari che in alcuni Collegi d’<placeName>Italia</placeName> v’erano
+              de’ Maestri di Ballo <term type="people">Italiani</term> e <term type="people"
+                >Spagnoli</term>, i quali insegnavano questa Danza. Ma appresso, essendo arrivata
+              ne’ detti Collegi la Danza <term type="people">Francese</term>, incontinente l’<term
+                type="people">Italiana</term>, oscurata ed avvilita dalla vaghezza di quella, si
+              cominciò a disusare; ed in pochissimo tempo accadde che la danza <term type="people"
+                >Francese</term> s’imparava per necessità, dove la <term type="people"
+                >Spagnola</term> (contuttoché i Maestri, seguendo l’uso francese, lasciate avessero
+              le lor parallele positure de’ piedi e la durezza ed inflessibilità delle loro braccia)
+              s’imparava solamente per rarità.</p>
+            <p>[5] Se gl’<term type="people">Italiani</term>, com’è detto, furono i primi Inventori
+              della Danza regolata, bisogna pur confessare che i <term type="people">Francesi</term>
+              stati son quelli che l’hanno ridotta a miglior perfezione. Hanno essi saputo alla
+              danza da Teatro adattare tutto ciò che si può immaginare di spiritoso e sorprendevole,
+              ed a quella da Sala di più nobile e maestoso. Monsieur de
+                <persName>Beauchamp</persName>, compositore di Balli nelle prime Opere in musica
+              introdotte a <placeName>Parigi</placeName>, imprese sotto <persName>Luigi il
+                Grande</persName>, a cui ebbe egli l’onore di dar lezione di ballo, questa non men
+              penosa che leggiadra fatica. Alla quale poi Monsieur <persName>Pecour</persName>,
+              compositore di balli nell’<placeName>Accademia Reale di Parigi</placeName>, ha dato
+              con tanto applauso l’ultima mano. Insomma questi due chiarissimi Professori hanno sì
+              fattamente perfezionata la Danza, e levatala a così alto segno, che non solamente
+              hanno in piccolo spazio di tempo fatto mandare in disuso tutte le altre Danze, ma
+              hanno obbligato moltissime <term type="people">Nazioni</term>, e forse le più colte
+              del Mondo tutto, a non preggiarsi in altra maniera che nella francesca, ballare.</p>
+            <p>[6] Di queste due specie di Danze, quella da Teatro, per lo <term type="technical"
+                >raddoppiamento</term> de’ passi <term type="technical">battuti</term>, <term
+                type="technical">capriolati</term> o <term type="technical">pirolati</term>, si
+              rende assai faticosa a ballare. Ella non serve, né dovrebbe servire, se non a’ <term
+                type="technical">Professori di Ballo</term>, de’ quali, riuscendone per lo Teatro
+              assai pochi, vengono in conseguenza a farsi molto preggiare. E per contrario la <term
+                type="dance">Danza da Sala</term>, o da <term type="dance">Festino</term> che
+              vogliam dire, della quale io tratto nel presente libro, è assai men faticosa di quella
+              da Teatro. Serve alle Dame, Cavalieri ed altre gentili persone, e per fino i Monarchi
+              non hanno ritegno di volerla imparare, e perciò poi ha ricevuto il nome di <term
+                type="dance">Ballo Nobile</term>.</p>
+            <p>[7] Questa Danza è uno de’ tre nobili esercizi che s’insegnano in tutte l’Accademie e
+              Collegi dell’<placeName>Europa</placeName>, i quali sono il Cavalcare, la Scherma e la
+              Danza. De’ quali quest’ultima perfeziona e dà grazia alle persone ben fatte, ed
+              all’incontro nasconde i difetti di coloro a’ quali la Natura è stata poco liberale de’
+              doni suoi.</p>
+            <p>[8] Questo si è il più nobile e leggiadro divertimento, così delle Corti sovrane che
+              dell’altre Città cospicue. Ed in vero non v’è in esse cosa più magnifica, e che dia
+              maggior diletto, quanto le feste di Ballo, nelle quali si fanno ammirare e
+              contradistinguere, tra gli altri, coloro che sanno perfettamente la Danza.</p>
+            <p>[9] Questo nobile esercizio, non essendo già violento, ma temperato, oltre l’esser
+              richiesto e necessario nelle persone di distinzione, serve parimente a coloro che
+              hanno bisogno, per conservarsi nella salute, di tenere il corpo esercitato.</p>
+            <p>[10] Or sopra esercizio ed arte così nobile, essendomi io per lungo spazio di tempo
+              messo a considerare se trovar si potessero le regole generali per mezzo delle quali si
+              potesse con ogni agevolezza e perfettamente ballare ogni Danza, alla perfine m’è
+              venuto fatto di ritrovarle, e con ogni possibile distinzione le ho messe in chiaro nel
+              presente Trattato; nel quale spezialmente ho renduti aperti i movimenti del corpo,
+              donde procedono tutti i passi del ballo nobile. I quali essendo, tra le parti della
+              Danza, la principale, ho dovuto minutamente ad uno ad uno andargli disaminando, per
+              ravvisar di quanti e quali movimenti ciascuno di essi sia composto; affine di
+              conoscere facilmente il principio, il mezzo ed il fine di ciascun passo; e sopra quale
+              de’ detti movimenti si trovi la cadenza, o battuta, di quell’aria che si vuole
+              ballare, senza la qual notizia è impossibile il poterla ravvisare. Ed ho anche voluto,
+              lasciate da parte le figure dimostrative d’Uomini e Donne, le quali non servono a
+              nulla, se non a guarnire i libri e dar diletto a’ ragazzi, servirmi delli segni di
+                <title>Chorografia, o dell’Arte di scriver le Danze</title>, ne’ quali agevolmente
+              si comprendono le positure ed i movimenti di ciascun passo.</p>
+            <p>[11] E finalmente questo mio libro potrà esser molto utile a tutti gli amadori di
+              cotal arte, e di semplice solazzo a’ buoni Maestri di Ballo. Quando adunque, savissimo
+              Leggitore, ti sia a grado il voler imparare la Danza Nobile, piaciati leggerlo
+              attentamente, e vivi felice.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_1">
+            <head>Capitolo I. Del Ballo, e delle parti che lo compongono</head>
+            <p>[1] Il Ballo è un’arte di muovere ordinatamente il corpo, affine di piacere agli
+              spettatori.</p>
+            <p>[2] Per acquistare una tal’arte fa di mestieri saper secondo la regola appoggiare i
+              piedi sulla terra, equilibrare il corpo, muoverlo a tempo con alcuni artifiziosi e
+              leggiadri passi, accompagnarlo eziandio col regolato movimento delle braccia, ed
+              ultimamente saper tutte queste cose adoperare, sulle figure: nel che consiste il
+              compimento dell’opera.</p>
+            <p>[3] E per ordinatamente procedere alla sposizione di tutte le parti del ballo nobile,
+              cominciando dalle più semplici, ed alle più composte ed intralciate a parte a parte
+              passando, daremo principio al presente trattato dalle positure de’ piedi, accioché
+              ognun sappia in quanti modi si possano, graziosamente e con regola, tenere appoggiati
+              sulla terra, e schifi tutte l’altre maniere sconce e disordinate, le quali non possono
+              nella danza aver luogo. Secondariamente diremo dell’equilibrio, che dee tenere il
+              corpo nel ballo: e faremo conoscere, quanto sia necessario il saperlo ben pone in uso.
+              Nel terzo luogo, situati i piedi sulla terra ed il corpo in equilibrio, dimosterremo
+              come bisogni muoverlo: e additeremo tutti i movimenti che mai si possono ballando fare
+              ed il sommo utile che dalla lor notizia si può trarre. Innanzi poi di procedere a’
+              passi, i quali da’ movimenti vengon composti, diremo nel quarto luogo della cadenza e
+              de’ tempi suoi, senza la cui intelligenza non si può nel ballo alcuno passo formare.
+              Nel quinto luogo dichiareremo tutti i passi del ballo nobile, de’ quali ad uno ad uno
+              e partitamente trattando, mosterremo la positura, l’equilibrio, i movimenti ed il
+              valore: e queste cose non solamente si vedranno in iscritto, ma eziandio nelle figure,
+              dalle quali i capitoli che di tutto ciò trattano vanno accompagnati ed adorni.
+              Appresso nel sesto luogo tratteremo del movimento delle braccia, il quale è anche una
+              parte del ballo assai necessaria. E nel settimo luogo diremo della figura, ovvero del
+              cammino che far dee colui che balla, su del quale voglionsi porre in atto tutte quelle
+              cose che si saranno, ne’ capitoli precedenti a quello della figura, dimostrate. Or, da
+              questa generale idea data della danza nobile, è da passare con debito ordine alla
+              particolare dimostrazione delle qui sopra recate parti che la compongono.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_2">
+            <head>Capitolo II. Delle Positure de’ piedi</head>
+            <p>[1] Le positure de’ piedi, le quali, comunque fatte, sono infinite, si riducono nella
+              danza al solo numero di dieci. Delle quali cinque hanno uso così nel ballo nobile che
+              in quello da teatro, e s’appellano positure vere o buone; e le restanti cinque nel
+              solo ballo da teatro, le quali positure son dette false.</p>
+            <p>[2] La vera o buona positura consiste nel situare i piedi sulla terra secondo una
+              certa e determinata misura, in modo che quelli tengano egualmente le lor punte rivolte
+              in fuori.</p>
+            <p>[3] La falsa positura, per contrario, consiste nel situare i piedi sulla terra anche
+              secondo una certa e determinata misura, in modo che amendue, o almeno una delle lor
+              punte, siano rivolte al di dentro.</p>
+            <p>[4] Or essendo mio intendimento di trattare solamente della danza nobile, da parte la
+              teatrica e le di lei false positure lasciando, procedo innanzi alla dichiarazione
+              delle cinque buone. Le quali, perché meglio si comprendano, l’esporremo sotto gli
+              occhi nelle figure che seguiranno: per la intelligenza delle quali si deono prima
+              d’ogn’altra cosa diciferare i pochi segni che le compongono.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img01.png"/>
+            </figure>
+            <p>[5] La figura ACBD rappresenta la presenza del corpo, i cui lati sono additati dalle
+              lettere AB, la parte davanti da C e la deretana da D.</p>
+            <p>[6] La linea EF, la quale non si troverà solamente nelle figure delle positure de’
+              piedi, ma anche di tutti i passi, mostra il principio del cammino sul quale deono
+              avviarsi i passi del ballo per incominciar la figura.</p>
+            <p>[7] La figura GHI dinota il piede, di cui G mostra il tallone, H la noce ed I la
+              punta.</p>
+            <p>[8] E la figura LM rappresenta i due piedi, de’ quali M dinota il destro ed L il
+              sinistro. E per non incorrere in alcuno errore nel discernere un piede dall’altro, non
+              si dee già regolare da’ loro talloni, sì che giacendo questi a lato destro s’abbia da
+              estimare che rappresentino il piè destro, ovvero giacendo a lato sinistro s’abbia da
+              credere che dinotino il piè sinistro: ma si è da prender regola dalle lineette a’
+              talloni appiccate, le quali, dall’uno o dall’altro lato che guardino, mostrano
+              costantissimamente l’uno o l’altro piede, cioè il destro se a destra, ed il sinistro
+              se a sinistra stanno rivolte. E nel vero se nella quinta positura, come innanzi
+              ravviseremo, si volesse alcun regolare dalla giacitura de’ talloni, e non già dalla
+              guardatura delle suddette piccole linee, leggermente potrebbe pigliare un per un altro
+              piede. Ritorniamo di presente alle positure de’ piedi, donde ci dipartimmo.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img02.png"/>
+            </figure>
+            <p>[9] La prima positura consiste nel tenere in tal modo i piedi appoggiati sulla terra,
+              che i lor talloni si trovino egualmente l’uno all’altro congiunti, tenendosi, come è
+              detto, i piedi rivolti al di fuori.</p>
+            <p>[10] La seconda nel tenere i piedi aperti sopra una medesima linea, serbandosi tra’
+              due talloni la distanza d’un piede intero.</p>
+            <p>[11] La terza nel tenere la parte deretana del tallone d’un piede alla noce
+              dell’altro congiunta.</p>
+            <p>[12] La quarta si fa situando i piedi uno innanzi l’altro sopra la medesima linea,
+              serbando tra l’uno e l’altro tallone la distanza d’un piede intero.</p>
+            <p>[13] La quinta ed ultima positura consiste nel tenere sì fattamente i piedi
+              appoggiati sulla terra, che la parte deretana del tallone del piè che si trova innanzi
+              vada direttamente a formare quasi un angolo retto sulla punta del piè che rimane
+              addietro.</p>
+            <p>[14] Or qui è da avvertire che le addotte regole delle positure de’ piedi allora
+              hanno il suo vigore e si debbono osservare, qualora ambedue i piedi stanno appoggiati
+              sulla terra. Perciocché quando un sol piede vi si trova fermo, il che tratto tratto
+              nel ballo accade, non v’ha altro obbligo a rispetto dell’altro il quale si trova in
+              aria, che, volendolo appoggiare, si mandi giù sopra una delle dette positure, fuor
+              delle quali non è lecito in niun modo di tenere i piedi nel ballo nobile. Ed
+              avvegnaché alcuna volta, ne’ passi che si fanno col movimento circolare, i piedi si
+              trovino sopra alcuna delle cinque false positure, le quali, come è detto, voglionsi
+              solamente adoperare nella danza da teatro: tuttavia però, oltre che ciò nasce da pura
+              necessità e dalla naturalezza del circolar movimento, i piedi non vi rimangono fermi e
+              stabili: ma incontanente deono passare sopra una delle buone positure. Per la qual
+              cosa questo necessario difetto viene a rendersi impercettibile.</p>
+            <p>[15] Si vogliono oltre a ciò due altre cose avvertire prima che si conduca al termine
+              il presente capitolo. La prima si è che bisogna bene addestrarsi a porre in opera le
+              riferite positure de’ piedi, le quali sì sono necessarie a chi è vago d’imprendere il
+              ballo nobile come le lettere dell’alfabeto a chi è disideroso di saper leggere; ovvero
+              come le fondamenta abbisognano all’edifizio. La seconda si è che si dee ognuno
+              guardare d’esser troppo scrupoloso e sofistico intorno alla loro misura. Onde se, per
+              avventura adoperandole, non si serbasse una matematica esattezza (purché non si
+              venisse ad uscire fuori della linea sopra cui si deono i piedi appoggiare), non si
+              commetterebbe alcun fallo: tanto maggiormente che chi balla non ha né piedi, né chi
+              guarda nel visivo senso il compasso, per non incorrere o per osservare gl’insensibili
+              difetti che mai possono intervenire. Perché, se nel situare i piedi sulla seconda o
+              quarta positura un pocolin si sbagliasse della diterminata distanza d’un piede intero,
+              il quale, come di sopra è detto, dee trovarsi fraposto tra l’uno e l’altro tallone,
+              non sarebbe al certo cosa da imputare ad errore. E la sperienza, delle cose maestra e
+              regolatrice, ci fa alle volte conoscere che la disposizione o natural costituzione
+              dello scolare patir non potendo tutto il rigore delle suddette leggi, deesi egli
+              dispensare da cotanta e sì per lui malagevole esattezza. E però il giudicioso e
+              prudente Maestro dee badar bene sopra i naturali difetti, per potergli, se non già
+              come si dovrebbe, almeno come potrà il meglio, correggere ed ammendare.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_3">
+            <head>Capitolo III. Dell’Equilibrio del Corpo</head>
+            <p>[1] Sposte le positure de’ piedi, le quali, come è detto, appartengono al ballo
+              nobile, l’ordine impreso richiede che dell’equilibrio del corpo si faccia nel presente
+              luogo parola; per quindi procedere innanzi a’ movimenti ed a’ passi che dee fare.</p>
+            <p>[2] L’equilibrio rispetto al ballo consiste nel tenere il corpo diritto, grazioso,
+              ben disposto e niente forzato oltra la sua naturalezza, in modo che tutto il suo peso
+              s’appoggi sopra le piante, ovvero sopra le punte de’ piedi, in quelle diverse maniere
+              che or ora farem vedere.</p>
+            <p>[3] Si può il corpo equilibrare in sei modi tra lor differenti. Primieramente
+              tenendolo appoggiato sopra amendune le piante de’ piedi. Secondariamente sopra
+              amendune le punte loro. Nel terzo modo sopra la pianta d’un piede, toccandosi colla
+              punta dell’altro la piana terra. Appresso nel quarto modo, si può tenere tutto il
+              corpo appoggiato sopra la punta d’un solo piede, toccandosi la terra colla punta
+              dell’altro. Nel quinto modo si può equilibrare tutto il corpo sopra la pianta d’un
+              piede, senza che l’altro tocchi affatto la terra. E nel sesto ed ultimo modo sulla
+              punta d’un piede, tenendosi l’altro in aria.</p>
+            <p>[4] La notizia di questi equilibri non serve già per andare investigando nella
+              formazione de’ passi, quante volte, ed in quanti modi il peso del corpo si vada
+              trovando, or su questo or su quell’altro equilibrio: il che sarebbe un voler andare
+              all’infinito, ed un voler più tosto filosofare che ballare. Anzi io porto fermissima
+              opinione che, se colui che balla volesse andare disaminando gli equilibri di ciascun
+              passo, ponendo mente al peso del corpo che or si trova sulle piante, ed or sulle punte
+              de’ piedi nelle sei maniere dette di sopra, non dico già in una misura o tempo
+              d’armonia, ma forse in cento, non sarà per formare un solo passo. Ma sì solamente
+              bisogna, per sapere, equilibrato che sarà il corpo in uno de’ detti modi, da qual
+              piede si deano i passi incominciare e come si vogliano finire, per trovarsi il corpo
+              in istato da poter formare i passi che sieguono appresso. Sopra di che dar si possono
+              due regole generali.</p>
+            <p>[5] La prima si è che, equilibrato il corpo ne i due primi modi, cioè sopra le piante
+              o sopra le punte de’ piedi, si possono indifferentemente i passi coll’uno o coll’altro
+              piè cominciare. La seconda che, equilibrato il corpo negli altri quattro modi, cioè
+              sopra la pianta ovvero sopra la punta d’un piede, toccandosi colla punta dell’altro la
+              piana terra, ovvero tenendosi in aria; non si possono da quel piè cominciare i passi
+              sopra di cui si trova tutto il peso del corpo, fuor solamente i contratempi ed i mezzi
+              contratempi, come a suo luogo faremo aperto.</p>
+            <p>[6] Sono finalmente da avvertire alcune cose intorno all’equilibrio o portamento
+              della Dama e del Cavaliere rispetto alla danza nobile. La Dama adunque dee tenere la
+              testa diritta e la gorgia alquanto recata in fuori; il guardo non alto, né basso, ma
+              sì a mezz’aria: le spalle basse e tirate indietro, accioché il petto comparisca ben
+              largo; lo stomaco avanzato ed il ventre ritirato; i piedi in fuori; le braccia basse
+              sopra il mezzo di ciascun lato, non troppo aperte, né troppo serrate; le mani,
+              coll’indice e pollice delle quali deve ella tenere l’uno e l’altro lato della vesta,
+              voglionsi tenere colle piante non troppo rivolte innanzi, accioché non apparisca
+              troppo distesa, né molto rivolte indietro, per non comprimerla e farla vedere troppo
+              angusta, ma sì sono da tenere nel mezzo di questi due modi. E soprattutto avverta a
+              far ciò con un’aria nobile, graziosa, facile e naturale. Il Cavaliere tenga anche la
+              testa diritta: le spalle basse ed alquanto ritirate indietro; lo stomaco un poco
+              avanzato innanzi; il ventre niente recato in fuori, ma sì ritirato; i ginocchi distesi
+              in fuori; le gambe diritte ed i piedi bene in fuori rivolti. E soprattutto si guardi
+              di parere affettato, schifi la forza e prenda un’aria nobile, agevole e naturale.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_4">
+            <head>Capitolo IV. De’ Movimenti del Corpo</head>
+            <p>[1] Il movimento del corpo si è quel portarsi di colui che balla, o in giro sopra il
+              suo proprio luogo, o dal luogo ove ei si trova in un altro.</p>
+            <p>[2] I movimenti o sono semplici, ovvero composti. I semplici sono quelli che
+              s’adoperano tutti soli e che non vanno uniti a più spezie di movimenti. I composti,
+              per contrario, sono quelli che vanno congiunti a più movimenti di spezie diversa. I
+              movimenti semplici sono quattro, cioè piegato, rialzato, andante e circolare. Il
+              piegato si fa piegando i ginocchi. Il rialzato, rialzando o distendendo i ginocchi.
+              L’andante si fa camminando innanzi, addietro, dall’uno e dall’altro lato. Ed il
+              circolare movendo il corpo in giro senza uscir dal suo propio luogo. I composti, i
+              quali costano di due, o al più di tre semplici movimenti congiunti in uno, ed i quali
+              sono assai frequenti nel ballo, sono per esempio: il piegar camminando un passo, il
+              qual movimento è composto di due semplici, cioè del piegato e dell’andante; il piegar
+              girando sul medesimo luogo a man destra o sinistra, il quale è parimente composto di
+              due semplici, cioè del piegato e del circolare; il camminare un passo girando, il
+              quale anche costa di due semplici, cioè dell’andante e del circolare; il piegar
+              camminando e girando, che è prodotto da tre semplici, cioè dal piegato, dall’andante e
+              dal circolare. Egli è inutile di recare in mezzo altri esempi de’ movimenti composti;
+              ed all’incontro non è da tacere che, qualora si adoperano dal corpo più movimenti
+              congiunti in uno, non s’hanno da contare per più movimenti, ma per un solo.</p>
+            <p>[3] S’avverta oltracciò che a’ salti, i quali si fanno nei passi del ballo nobile,
+              comeche per esser adoperati abbiano primieramente bisogno del piegamento de’ ginocchi,
+              non si dee attribuire altro movimento distinto del rialzato, sì perché regolarmente
+              dal medesimo distendimento de’ ginocchi, nel quale, come è detto, consiste il
+              movimento rialzato, e per cui le piante de’ piedi calcano con empito la terra, vengono
+              prodotti; e sì ancora, perciocché ogni movimento del corpo al piegato contrario, qual
+              è il salto, deesi veracemente rialzato chiamare. Ed avvegnaché paia che, se non
+              l’alzata che fa in aria il salto, almeno la cascata di quello non si possa col
+              rialzato movimento confondere, o in un congiugnere, che dir vogliamo: essendo il
+              levarsi in aria ed il cader giù due movimenti tra loro contrari e che non possono
+              insieme stare. Tuttavia, se si considera che il primo di essi fa del salto la
+              principal parte, e che il secondo è un suo necessario finimento, cagionato non già
+              dalla forza del ballatore, ma sì dalla natura, si potrà chiaramente comprendere che la
+              cascata del salto non si dee nel ballo avere per movimento diverso del rialzato. Tanto
+              maggiormente, che dal passo saltante in fuori, il quale, come per innanzi nel suo
+              particolare capitolo avvertiremo, non ha quasi uso alcuno nel ballo nobile, tutti gli
+              altri salti si vogliono sì leggermente fare, acciocché il sostenuto e grave portamento
+              della persona non si scomponga; che si dee più tosto far sembianti di saltare, che
+              veramente levarsi in aria. E questo ammonimento, il quale è assai utile a’ Cavalieri,
+              massimamente a coloro che sono troppo grandi della persona, è necessarissimo alle
+              Dame, alle quali in niun modo è lecito saltare nel Ballo nobile.</p>
+            <p>[4] Da’ movimenti, così semplici che composti, traggono tutti i passi del ballo, come
+              da una sola cagione, l’origin loro. Per la qualcosa si dee studiosamente riflettere
+              sopra la loro natura e differenza, affine di conoscere in un tratto di quanti e quali
+              movimenti sia ciascuno passo prodotto; e qual di essi si debba nel principio, qual
+              nella fine de’ passi trovare; e finalmente sopra qual de’ detti movimenti si trovi la
+              cadenza, o battuta dell’armonia di quell’aria che si vuole ballare.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_5">
+            <head>Capitolo V. Della Cadenza.</head>
+            <p>[1] Da’ movimenti, come è detto, vengono prodotti tutti i passi del ballo nobile. I
+              quali esser non dovendo dall’altrui talento, ma sì bene dall’armonia regolati, però,
+              secondo l’ordine che nel principio prendemmo, seguita nel presente luogo a dire della
+              cadenza.</p>
+            <p>[2] Manifesta cosa è adunque che, essendo la danza figliuola dell’armonia, alcuno non
+              sappia né possa ballare s’egli non conosce e co’ movimenti del corpo la cadenza di
+              quella non siegue. E ciò è tanto vero che, quantunque alcuno abbia tutta l’agilità,
+              speditezza e grazia della persona, e che sappia formare tutti i passi; se peravventura
+              non saprà adattargli alla misura dell’armonia, egli non saprà mai ballare.</p>
+            <p>[3] Potrei qui fare un diffuso catalogo, riducendo le varie maniere ed i diversi
+              tempi co’ quali l’armonia si misura, se il mio proponimento stato fosse d’insegnare
+              altrui la musica; ma perciocché ad altro è inteso il mio fine, cioè a trattare del
+              ballo nobile, perciò parleremo di quelle sole misure che cotal arte riguardano.</p>
+            <p>[4] In tutta la danza adunque altre misure di tempi non hanno luogo che la misura di
+              due tempi, detta binaria, e quella di tre tempi, ternaria volgarmente appellata. E
+              tutte le altre misure, delle quali la musica abbonda, si possono di leggieri nel ballo
+              a queste due misure di due e di tre tempi ridurre. E, se con tutto il rigore parlar
+              volessimo, ci converrebbe dire che non v’ha, né vi può avere, alcuna misura la qual
+              binaria o ternaria non sia, perciocché, esser non potendo altrimenti i numeri che pari
+              o impari, tutte le misure dell’armonia deono esser di ragion dupla, ovvero tripla.
+              Onde i Maestri di Musica non possono già mutare la sustanza delle ragioni, o misure
+              dell’armonia, essendo elleno eterne, immutabili e necessarie: ma sì possono variarne i
+              modi, dividendole e suddividendole a lor talento, senza però ch’elle cessino di
+              rimaner tutte duple, ovvero triple.</p>
+            <p>[5] Il tempo binario s’adopera per lo più in quelle danze che speditamente e con
+              prestezza deono esser ballate: come per esempio la <term type="dance">Giga</term>, la
+                <term type="dance">Gavotta</term>, la <term type="dance">Bourrée</term>, il <term
+                type="dance">Rigodone</term>, l’<term type="dance">Allemande</term>, ed altre
+              simili. Il tempo ternario serve a quell’altre danze, le quali si vogliono posatamente
+              e con maggior gravità delle prime ballare: come per esempio la <term type="dance"
+                >Sarabanda</term>, la <term type="dance">Ciaccona</term>, la <term type="dance"
+                >Follia</term>, l’<term type="dance">Amabile</term>, ed altre simili. E comeché
+              v’abbia delle danze, l’arie delle quali sono così posate che sembrano più tarde di
+              quelle che sono sul tempo ternario composte, e le quali sono notate sopra quattro
+              tempi, che i Musici dicono otto dodici, come per esempio l’<term type="dance">Entrata
+                grave</term>, e l’arie che i <term type="people">Francesi</term> chiamano di <hi
+                rend="i"><term type="dance">Lure</term></hi>; tuttavia però queste medesime arie si
+              riducono al tempo binario, sopra cui vengono ad esser ballate, senza che in niuna cosa
+              si muti la posatezza o gravità loro.</p>
+            <p>[6] Abbiasi dunque per fermo e per regola indubitata che nel ballo altre misure di
+              tempi non hanno luogo che la binaria e la ternaria, le quali, come è detto, a due e
+              tre si riducono; e che si deono, o presto o tardi, secondo il buon genio de’
+              ballatori, esattissimamente e senza scemarne o crescerne un sol momento, sonare.</p>
+            <p>[7] Ed ultimamente è da avvertire che color che vogliono in breve spazio imparare il
+              ballo, è di bisogno che ottimamente sappiano la natura de’ detti due tempi. Da questo
+              però non ne siegue che quei che non ne hanno perfetta notizia non possano, come quegli
+              altri che gli hanno per le mani, ballare in cadenza: veggendosi tutto giorno
+              esattissimamente ballare alcune persone, le quali la musica, o le proprietà e
+              naturalezza de’ detti due tempi non sanno; perciocché facendosi loro per li buoni
+              Maestri intendere che ogni passo del ballo deesi fare nello spazio d’un tempo, o
+              misura d’armonia, e dinotandosi loro sopra qual movimento de’ passi si trovi la
+              cadenza, o battuta della detta misura; coll’esercizio continuo e col tenersi a mente
+              le sole due spiegate misure del tempo binario e ternario, imprender potranno con ogni
+              esattezza a ballare: ma sì ne viene in conseguenza che in così brieve tempo, come
+              coloro che avranno di quelli una perfetta conoscenza e che sapranno la musica, non
+              impareranno a ballare. Ed all’incontro i Maestri di ballo hanno obbligo spezialissimo
+              di saper tanto di musica, quanto basti loro per intendere compiutamente i detti due
+              tempi; perciocché altrimenti non potranno giammai far acquistare per via di pratica a’
+              loro scolari che non sanno di musica quegli abiti che si richieggono per ballare in
+              cadenza.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_6">
+            <head>Capitolo VI. De’ Passi del ballo nobile.</head>
+            <p>[1] Si è dato finora sufficientemente ad intendere in che modo si deano i piedi
+              tenere appoggiati sulla terra, come sia da tenersi il corpo in equilibrio ed in che
+              maniera bisogni muoverlo a tempo. Or non potendosi il corpo muovere, se non col
+              formare que’ passi i quali si convengono far nel ballo; per seguire l’ordine impreso,
+              si doverà de’ passi in questo luogo far parola. E ciò farò io colla maggior chiarezza
+              che sia possibile, quantunque questa materia sia molto intralciata e malagevole; e
+              contuttoché alcuno non ce ne abbia infino ad ora dato in iscritto una chiara e
+              distinta idea.</p>
+            <p>[2] I movimenti, così semplici che composti, adoperati sopra le positure de’ piedi, e
+              gli equilibri del corpo sono origine, principio e cagione di tutti i passi del ballo
+              nobile. I quali essendo moltissimi, se ne vuol parlare per innanzi partitamente ad uno
+              ad uno. Siaci ora prima d’ogn’altra cosa lecito tutti i lor nomi qui riferire. I
+              quali, per secondar la presente usanza, o costume, che dir vogliamo (giacché ad alcuni
+              amadori di cotal arte, per non dir tutti, s’odono nominar in francese; ed all’incontro
+              ad alcuni altri, i quali sono d’assai minor numero, in toscano) così nell’uno, come
+              nell’altro idioma saran per noi rapportati.</p>
+            <p rend="lmarg1">[3] <hi rend="i">I Passi del Ballo Nobile sono i seguenti.</hi></p>
+            <p>Semplice, o Naturale. <hi rend="i">Simple, ou Naturel.</hi></p>
+            <p>Piegato, e Rialzato. <hi rend="i">Plié, et Relevé.</hi></p>
+            <p>Pirola. <hi rend="i">Pirouette.</hi></p>
+            <p>Saltante. <hi rend="i">Sauté.</hi></p>
+            <p>Gittato. <hi rend="i">Jeté.</hi></p>
+            <p>Mezzo Gittato. <hi rend="i">Demi-Jeté.</hi></p>
+            <p>Mezzo Tronco. <hi rend="i">Demi-Coupé.</hi></p>
+            <p>Tronco. <hi rend="i">Coupé.</hi></p>
+            <p>Sfuggito. <hi rend="i">Echappé, ou Sailli.</hi></p>
+            <p>Scacciato. <hi rend="i">Chassé.</hi></p>
+            <p>Fioretto. <hi rend="i">De Bourrée, ou Fleuret.</hi></p>
+            <p>Contrattempo. <hi rend="i">Contretemps.</hi></p>
+            <p>Mezzo Contrattempo. <hi rend="i">Demi-Contretemps.</hi></p>
+            <p>Di Rigodone. <hi rend="i">De Rigaudon.</hi></p>
+            <p>Di Sissone. <hi rend="i">De Sissonne.</hi></p>
+            <p>Unito. <hi rend="i">Assemblé.</hi></p>
+            <p>Di Gagliarda. <hi rend="i">De Gaillarde.</hi></p>
+            <p>Grave <hi rend="i">Grave, ou de Courante.</hi></p>
+            <p>Bilanciato. <hi rend="i">Balancé.</hi></p>
+            <p>Cadente. <hi rend="i">Tombé.</hi></p>
+            <p>La Sdrucciolata, <hi rend="i">Glissade.</hi></p>
+            <p>Staccato. <hi rend="i">Dégagé.</hi></p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_7">
+            <head>Capitolo VII. Dichiarazione de’ segni che si trovano nelle Figure de’
+              Passi.</head>
+            <p>[1] Tutte le figure de’ Passi che seguiranno, essendo di tanti e sì diversi segni
+              composte che mal si potrebbono, secondoché io estimo comprendere, se prima la
+              significazione di quelli non si sapesse; convenevole cosa è che, innanzi d’entrare a
+              dire de’ passi, i quali fanno di questo trattato la maggior parte, la sposizione de’
+              detti segni si dea premettere. Ed avvegnaché, oltre di quelli che noi qui recheremo,
+              abbiavi alcuni altri pochi segni i quali, a coloro che vogliono saper porre in
+              iscritto le danze, sono necessari; tuttavia, non trattando io della Corografia, ovvero
+              dell’arte di scriver le danze, stata già da altri sufficientemente insegnata, ma sì
+              solamente dell’arte del Ballo; ho dovuto in questo luogo rapportare quei soli segni
+              che sono opportuni ad intendere le figure de’ passi che seguiranno.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img03.png"/>
+            </figure>
+            <p>[2] La figura ABC rappresenta il passo, di cui A dinota il luogo dove si trovava il
+              piede prima di camminare, la linea AB il cammino fatto e la linea BC il sito del piede
+              dopo d’aver camminato, del quale B rappresenta il sito del tallone e C della punta del
+              piede.</p>
+            <p>[3] Il movimento piegato si descrive in due modi tra lor differenti. Primieramente
+              con una piccola linea appiccata al passo, in giù riguardante, come si vede nella
+              figura D, ed in secondo luogo con una consimil linea aggiunta al piede, come P
+              rappresenta.</p>
+            <p>[4] Il movimento rialzato notasi parimente così sul passo, come dinota la lettera E,
+              che sul piede, come Q, con una piccola linea all’uno ed all’altro ad angoli retti
+              congiunta.</p>
+            <p>[5] Il salto è additato dal passo F, a cui sono due piccole linee l’una all’altra
+              vicine aggiunte ad angoli retti.</p>
+            <p>[6] Lo sdrucciolamento vien dinotato da due linee, la prima delle quali è ad angoli
+              retti al passo attaccata, e la seconda ad angoli retti alla prima linea, e parallela
+              al passo, come G rappresenta.</p>
+            <p>[7] La cascata da due altre piccole linee vien dimostrata, la prima delle quali è al
+              passo unita ad angoli retti, e la seconda ad angoli retti sulla punta della prima
+              cascante, parallela al passo ed in su rivolta, come H fa vedere.</p>
+            <p>[8] Il tenere il piè in aria si può in due guise significare. In primo luogo
+              troncandosi con una piccola linea verso la punta il passo, come dimostra I; ed in
+              secondo luogo troncandosi con una consimil linea il piede anche verso la punta, come R
+              fa vedere.</p>
+            <p>[9] Il punto messo davanti alla punta del piede del passo K dinota il dovere
+              appoggiare il piè sulla punta senza che il corpo vi sia su portato. Ed il medesimo
+              dimostra il punto messo davanti ad un piede, come la lettera S rappresenta.</p>
+            <p>[10] Il movimento circolare adoperato nel luogo ove si trova il corpo notasi sopra i
+              piedi con un mezzo quarto di circolo, quando si voglia mostrare un mezzo quarto di
+              giro, in quella guisa che s’osserva nel piede T; con un quarto di circolo, quando un
+              quarto di giro s’ha a significare, come si vede nella lettera V; con un mezzo circolo,
+              volendosi dimostrar mezzo giro, in quel modo che mostra X; e finalmente con tre quarti
+              di circolo, quando sono da notarsi tre quatti di giro, come Z ne dà a divedere. Quando
+              però dinotar si volesse il movimento circolare andante, le porzioni di circolo
+              andrebber messe non già sulli piedi ma sopra i passi.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img04.png"/>
+            </figure>
+            <p>[11] Due passi si congiungono insieme con una linea all’uno ed all’altro attaccata,
+              in quella maniera che mostra N, la quale alli passi L ed M serve di legamento.</p>
+            <p>[12] Ed ultimamente, quando si vuol dinotare che un passo deve andare due volte più
+              veloce d’un altro, si vogliono adoperare due linee, in quella guisa che dinota la
+              lettera O, per cui si dà ad intendere che il passo congiunto, cioè L, debba andar due
+              volte più veloce del passo M, che lo congiugne.</p>
+            <p>[13] Per la compiuta intelligenza de’ suddetti segni due cose mi rimangono ad
+              avvertire. La prima si è che, quando essi si trovano notati sopra i passi, dinotano
+              che si debbano i movimenti per loro dimostrati adoperar camminando; ove, quando vanno
+              notati sopra i piedi, vogliono dimostrare doversi i detti movimenti fare sopra le
+              positure. E la seconda si è che, ritrovandosi due o più de’ detti segni così sopra i
+              passi che sopra i piedi notati, i primi movimenti, salti, sdrucciolamenti e cascate
+              che s’hanno a fare sono quelli che stanno più prossimi al capo nero de’ passi, ovvero
+              al tallone de’ piedi; e poi da mano in mano succedono i secondi, e quanti mai ve ne
+              fussero dinotati; serbando spezialmente una regola intorno alli segni de’ passi: che
+              dove essi si troveranno notati, cioè nel principio, nel mezzo o nella fine de’ detti
+              passi, in quel medesimo luogo, cioè nel principio, nel mezzo o nella fine del cammino,
+              deonsi i detti movimenti, salti, sdrucciolamenti e cascate adoperare.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_8">
+            <head>Capitolo VIII. Del Passo Semplice, o Naturale.</head>
+            <p>[1] Questo passo si chiama Semplice o Naturale perciocché anzi vien formato per
+              semplicità di natura, la quale insegna a tutti a camminare, che per sottigliezza
+              d’umano pensamento o per arte. Si può cominciare e finire sopra ognuna delle cinque
+              positure, e si può fare camminando avanti, addietro, a man destra o sinistra, o
+              veramente in giro. Costa d’un solo movimento e s’adopera in tre differenti maniere.
+              Primieramente facendo camminare naturalmente l’uno o l’altro piede. Secondariamente
+              levando il piè che cammina in aria, col quale si descrive dallato un mezzo cerchio
+              prima d’appoggiarlo a terra. Ed in terzo luogo si fa sdrucciolando col piede, il
+              quale, mentre cammina, dee leggermente toccare colla punta la terra. Potrebbesi a
+              questo passo attribuire un tempo, massimamente quando far si dovesse nel secondo o nel
+              terzo modo: ma radissime volte interviene, che se gli dia questo valore; per la qual
+              cosa serve per lo più nella danza di legamento d’uno in altro passo, o per meglio
+              dire, di riempimento di misura. E si descrive nelle tre guise che sieguono.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img05.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_9">
+            <head>Capitolo IX. Del Passo Piegato e Rialzato [Plié et relevé]</head>
+            <p>[1] Il passo Piegato e Rialzato, il quale si può fare sopra tutte le positure de’
+              piedi, costa di due semplici movimenti, cioè del piegato e del rialzato, e s’adoperi
+              in cotal modo: si spieghino primieramente amenduni i ginocchi e poi si rialzino; ed
+              appresso s’equilibri il corpo sopra un sol piede e si tocchi colla punta dell’altro
+              insensibilmente la terra, ovvero si levi in aria. I due movimenti, piegato e rialzato
+              che si trovano in questo passo, hanno il valore d’un tempo, la cui battuta si trova
+              sul secondo movimento. Ed avvegnaché alcun de’ piedi non cammini nel far questo passo:
+              tuttavia, a’ detti movimenti che lo compongono, s’è messo nome di passo Piegato e
+              Rialzato, il quale, perciocché si adopera sul propio luogo, e senza che i piedi
+              camminino, si descrive co’ segni a’ piedi congiunti, secondo le regole date di sopra,
+              nel modo che siegue.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img06.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_10">
+            <head>Capitolo X. Della Pirola [Pirouette]</head>
+            <p>[1] Dicemmo nel capitolo de’ movimenti, che il movimento circolare far si possa in
+              due differenti maniere, cioè girando sul propio corpo e senza uscir del luogo dove
+              alcuno si trova, ovvero camminando in giro, cioè uscendo fuor del luogo ove si trova
+              il corpo. Or la Pirola s’adopera quando si vuol girare nel primo modo; e per camminar
+              girando voglionsi usare altri passi.</p>
+            <p>[2] Il movimento circolare, nell’una e nell’altra maniera che far si voglia, si
+              partisce in due mezzi giri: in quattro quarti di giro ed in otto mezzi quarti di giro.
+              Si potrebbe anche suddividere in vie più piccole particelle: ma peroché ciò facendo,
+              le parti del giro si renderebbero impercettibili; però nel ballo altre divisioni che
+              le qui indicate non hanno luogo.</p>
+            <p>[3] Or ciò posto, convien sapere che si può la Pirola in due modi, cioè girando per
+              la parte di dentro e girando per quella di fuori, adoperare. De’ quali è da parlarsi
+              partitamente ad uno ad uno.</p>
+            <p>[4] La Pirola girata per la parte di dentro si fa qualora, ritrovandosi il piè destro
+              davanti al sinistro, si gira il corpo per la sinistra: ovvero, ritrovandosi il piè
+              sinistro davanti al destro, si gira il corpo per la destra. Questa Pirola si può fare
+              di mezzo quarto di giro sulla terza, quarta, e talora sulla prima positura; d’un
+              quarto di giro sempre sulla terza o sulla quarta; e di mezzo giro, il quale non è da
+              oltrepassare per non porre i piedi sopra alcuna della false positure, le quali, come è
+              detto, non sono da usare nel ballo nobile, sulla quinta positura. Sopra ognuna di
+              queste positure si fa cotal Pirola piegando i ginocchi, girando in dentro e
+              distendendogli o rialzandogli nella fine del mezzo quarto, o del quarto, ed
+              ultimamente del mezzo giro. Per la qual cosa ella racchiude due movimenti, cioè il
+              piegato girando ed il rialzato dopo l’aver piegato. Ed in qualunque modo che far si
+              voglia, cioè di mezzo quarto, d’un quarto o di mezzo giro, vale un sol tempo, la cui
+              battuta si trova sul secondo movimento, cioè sul rialzato. Onde un modo dall’altro
+              nella maggiore o minore velocità differisce, sì che la Pirola di mezzo giro dee farsi
+              due volte più veloce di quella d’un quarto; e quella d’un quarto doppiamente veloce
+              della Pirola di mezzo quarto, accioché ella comunque fatta abbia d’un solo tempo il
+              valore.</p>
+            <p>[5] La Pirola girata per la parte di fuori si fa quando, ritrovandosi il piè destro
+              davanti al sinistro, si gira il corpo per la destra: ovvero qualora ritrovandosi il
+              sinistro davanti al destro, si gira il corpo per la sinistra. Si comincia sopra
+              qualunque positura di piedi, e si faccia in questo modo: si pieghino i ginocchi e si
+              porti il piede dalla banda che si dee girare, ed appoggiatolo a terra si rialzino i
+              ginocchi, e si termini sulle punte de’ piedi il giro che si ha a fare. Contiene anche
+              due movimenti, il primo de’ quali si è il piegato, con cui unitamente si porta il
+              piede dalla banda che si dee girare, ed il secondo si è il rialzato, con cui si
+              termina il giro. Si può fare d’un mezzo quarto, d’un quarto, di mezzo giro e di tre
+              quarti di giro. Li quali non sono da oltrapassare, per non iscomporre la gravità o
+              serietà del corpo nel ballo nobile. Ed in qualunque modo che far si voglia, non val
+              più che un tempo, la cui battuta si trova sul secondo movimento, cioè sul rialzato.
+              Per la qual cosa in altro la Pirola di tre quarti da quella di mezzo giro non
+              differisce, fuor solamente in ciò che la prima si fa una volta e mezza più veloce
+              della seconda; e quella di mezzo giro dee farsi due volte più veloce della Pirola d’un
+              quarto; e quella d’un quarto doppiamente veloce della Pirola di mezzo quarto;
+              accioch’elleno comunque adoperate siano in un sol tempo comprese. Avvertasi dunque
+              bene in tutte le maniere di far le Pirole, che altra cosa è la velocità con cui girar
+              si deono i mezzi quarti, i quarti, i mezzi giri ed i tre quarti di giro; ed altra cosa
+              è la misura, o tempo dell’armonia. E nel vero la misura è sempre la medesima: ma la
+              velocità delle Pirole or dee essere maggiore, or minore, secondo quelle parti di giro
+              che s’hanno a fare per andar bene a tempo.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img07.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_11">
+            <head>Capitolo XI. Del Passo Saltante [Sauté]</head>
+            <p>[1] Il Passo Saltante, il qual di rado viene usato nel ballo nobile, si fa sopra
+              tutte le positure de’ piedi, da una in altra, saltando. Contiene due movimenti, cioè
+              il piegato ed il rialzato col salto. E quantunque soglionsi impiegare due di questi
+              passi per compiere un tempo, tuttavia la battuta si trova sempre sulla cascata del
+              primo salto. L’esempio sia questo: se si vuol’egli fare dalla terza alla seconda
+              positura, e dalla seconda alla terza. Equilibrato il corpo nel primo modo, si pieghino
+              i ginocchi, e si rialzino saltando, e cadasi giù sulla seconda positura. Quindi si
+              ripieghino immediate i ginocchi, si rialzino risaltando e si ricada sulla terza
+              positura con quel piede innanzi che nel principio trovossi addietro.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img08.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_12">
+            <head>Capitolo XII. Del Passo Gittato [Jeté]</head>
+            <p>[1] Cominciasi questo passo indifferentemente dall’uno o dall’altro piede sopra
+              qualunque positura. È composto di due movimenti, il primo de’ quali si è il piegato,
+              ed il secondo il rialzato andante col salto. Per esempio: se alcuno lo voglia fare
+              dalla quarta alla medesima positura col piè destro dietro al sinistro, è di bisogno
+              ch’e’ pieghi i ginocchi, e che rialzandogli salti innanzi e cada sopra il piè destro
+              alla quarta positura. E comeche il suo valore sia veramente d’un tempo, la cui battuta
+              si trova sulla cascata del salto; nullaperòdimeno è solito farsi due di questi passi,
+              massimamente quando alcun se ne serva nella misura a due tempi, nel qual caso la
+              battuta anche si trova sulla cascata del primo Gittato, ed il secondo serve di
+              legamento al passo che deve appresso succedere. Quando però si voglia impiegare un sol
+              Passo Gittato per compiere una misura, bisognerà fermarvisi e servirsi di qualche
+              bello e grazioso atteggiamento per finattanto che giunga il punto dell’altra misura,
+              per procedere a’ passi che sieguono appresso.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img09.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_13">
+            <head>Capitolo XIII. Del Passo Mezzo Gittato [Demi-jeté]</head>
+            <p>[1] L’uso di questo passo è assai frequente nel ballo nobile, ed avvegnaché rade
+              volte nel principio: tuttavia si trova spessissimo nella fine di molti passi. In niuna
+              cosa dal precedente, intorno alla positura, equilibrio, movimenti e misura, è diverso.
+              E la lor principale differenza consiste nell’operare i movimenti del passo Mezzo
+              Gittato per metà e più soavemente di quelli del passo Gittato.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_14">
+            <head>Capitolo XIV. Del Passo Mezzo Tronco [Demi-coupé]</head>
+            <p>[1] Si può cominciar questo passo dall’uno o dall’altro piede sopra qualunque
+              positura o si voglia andare innanzi, o addietro, o a destra, o a sinistra, od
+              ultimamente in giro, secondoché la danza, la qual si balla, richiede. Due movimenti
+              son contenuti in questo passo: il primo è il piegato camminando ed il secondo il
+              rialzato, poiché camminato si sia. Vale egli una misura, la qual si trova sul secondo
+              movimento. L’esempio sia questo: volendosi col piè destro far questo passo per innanzi
+              alla quarta alla medesima positura, si trovi dietro al sinistro, sul quale equilibrato
+              il corpo, deonsi piegare i ginocchi, facendo nel medesimo tempo passare il piè destro
+              innanzi alla quarta positura; ed appresso rialzandogli, conviene equilibrare il corpo
+              sul destro piede e levar di terra il sinistro, se la danza che si balla il domanda;
+              altrimente è da equilibrarsi sopra quel piede il quale a partire non dovrà essere il
+              primo, toccandosi il suolo colla punta dell’altro piede, accioché si trovi a’ passi
+              che sieguono libero e disbrigato. Questo passo Mezzo tronco, sì perché da sé solo ha
+              grandissimo uso nella danza, e sì ancora perciocché entra nella formazione di molti
+              passi, cioè del Tronco, del Fioretto, del Bilanciato e della Sdrucciolata, come per
+              innanzi, di lor trattando, farem vedere, vien ad essere un de’ principali passi del
+              ballo nobile, il qual descrive in questo modo.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img10.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_15">
+            <head>Capitolo XV. Del Passo Tronco [Coupé]</head>
+            <p>[1] Questo passo è composto d’un Mezzo tronco congiunto ad un passo Naturale comunque
+              fatto, cioè o del tutto semplice, o accompagnato dallo sdrucciolamento del piede,
+              ovvero del mezzo cerchio: le quali tre maniere di fare il detto passo sufficientemente
+              nel capitolo del passo Semplice o Naturale furon per noi rendute aperte. Per la qual
+              cosa contiene egli tre movimenti, il primo de’ quali si è il piegato camminando, il
+              secondo il rialzato dopo d’essersi camminato ed il terzo si è l’andante. Si può fare
+              sopra tutte le positure, e per ove si voglia, cioè andandosi innanzi, addietro, a man
+              destra o sinistra, o finalmente in giro. Per esempio, se far si volesse per innanzi
+              dalla terza alla quarta positura, partendosi col piè dritto, converrebbe, equilibrato
+              primieramente il corpo sul piè sinistro, col destro addietro sulla punta, piegare i
+              ginocchi, facendo nel medesimo tempo passare innanzi il piè destro alla quarta
+              positura; quindi sarebbe da rialzarsi e da equilibrarsi sopra lo stesso piè dritto, ed
+              alzatosi di terra il sinistro, far si vorrebbe un passo Naturale alla quarta positura
+              in una delle tre dette maniere. Né solamente può terminarsi il passo Tronco con un
+              passo Naturale, ma anche col battimento di piede: il quale come si debba adoperare,
+              appresso nel suo capitolo mostreremo. Ha egli il valore d’un tempo, la cui battuta si
+              trova sul secondo movimento.</p>
+            <p>[2] Havvi eziandio un altro modo di far questo passo, che volgarmente passo Tronco a
+              due tempi vien detto. È anche composto di due passi, cioè d’un Mezzo tronco e d’un
+              Mezzo gittato. In alcuna cosa dal precedente, salvo ne’ movimenti, non differisce,
+              perciocché, ove quello ne ha tre, questo ne contien quattro, cioè due del Mezzo Tronco
+              ed altri due del Mezzo gittato. E senza distesamente recarne altro esempio, basterà di
+              sapere che quando colui che balla si sarà alzato ed inalberato sul piè destro, uopo è
+              che senza indugio ei levi in aria il sinistro allato al destro e, ripiegati alquanto i
+              ginocchi, col medesimo piè sinistro convien che faccia un Mezzo gittato dalla banda
+              dinanzi alla quarta positura. Se gli attribuisce anche un tempo, la cui battuta si
+              trova parimente sul movimento rialzato del passo Mezzo tronco; e si descrive nelle
+              seguenti maniere.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img11.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_16">
+            <head>Capitolo XVI. Del passo Sfuggito [Echappé]</head>
+            <p>[1] Il Passo Sfuggito, non altrimente che il Saltante sposto di sopra, comeché sia
+              annoverato tra’ passi del ballo nobile, pur tuttavia non è da farsene conto, ma sì è
+              da schifarsi, spezialmente nelle danze composte, ove si dee ognun guardare di far
+              entrare que’ passi che di leggieri possono il grave e sostenuto portamento della Dama
+              scomporre. In alcuna cosa dal Saltante, fuorché ne’ movimenti, non differisce. E nel
+              vero, ove i movimenti di quello sono il piegato ed il rialzato col salto, i movimenti
+              di questo sono il rialzato sulle punte e l’andante. Per fare adunque il passo Sfuggito
+              dalla prima alla seconda, e dalla seconda alla terza positura, si vuole equilibrare il
+              corpo sopra amenduni i piedi e succedevolmente, senza piegare i ginocchi, vuolsi
+              levare sopra le punte loro ed incontanente deono i piedi sdrucciolando scappare e
+              scorrere alla seconda positura. E nello stesso momento che sopra d’essa si giugne
+              bisogna levarsi nuovamente sulle punte e ritornar nel medesimo modo sulla terza
+              positura.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img12.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_17">
+            <head>Capitolo XVII. Del Passo Scacciato [Chassé]</head>
+            <p>[1] Questo passo si chiama Scacciato, perciocché in esso un de’ piedi, percotendo
+              l’altro, lo scaccia via e gli fa fare un passo Naturale. Quantunque adoperar si possa
+              per innanzi, addietro, dall’uno e dall’altro lato ed ultimamente in giro: tuttavia
+              nelle composizioni de’ buoni Maestri di danze non si vede egli usato che dallato
+              ovvero addietro; riuscendo invero l’altre guise molto sconce e niente alla vista
+              gradevoli. Due sole positure di piedi, cioè la seconda e la quarta, gli possono servir
+              di cominciamento, non facendosi questo d’ordinario, salvoché addietro ovvero dallato.
+              Contiene tre movimenti, cioè il piegato, il rialzato e l’andante, e s’adopera in
+              questo modo. Volendosi, per esempio, fare addietro sopra la quarta positura col piè
+              sinistro davanti al destro: equilibrato primieramente il corpo sopra amendune le
+              piante de’ piedi, si pieghino i ginocchi, ed appresso rialzandogli è da saltare col
+              piè sinistro, il quale leggermente venga addietro a percuotere col tallone nella noce
+              del piè destro, facendogli fare un passo Semplice alla quarta positura. Il medesimo
+              s’adoperi nel passo Scacciato fatto dallato. Fannosi ordinariamente due di questi
+              passi per compiere una misura di tempo, la cui battuta si trova sul secondo movimento,
+              cioè sul rialzato del primo Scacciato: e si descrive nelle guise che sieguono.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img13.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_18">
+            <head>Capitolo XVIII. Del Fioretto [Fleuret]</head>
+            <p>[1] Il passo detto Fioretto è sì necessario nel ballo nobile che non si può comporre
+              alcuna danza senza di esso, ove di questo solo si può formare una danza intera. E
+              perciò è da porre ogni studio e sollicitudine, acciocché di esso si dia una compiuta e
+              distinta dichiarazione.</p>
+            <p>[2] Da’ tre differenti modi coi quali si fa questo passo ha egli ricevuto tre diverse
+              dinominazioni, le quali sono queste: Fioretto Semplice, Fioretto in Iscacciato e
+              Fioretto in Gittato. Sono non pertanto tra di loro in ogn’altra cosa differenti, fuor
+              ne’ movimenti e nel tempo, come ad uno ad uno in questo luogo di lor trattando farem
+              vedere.</p>
+            <p>[3] Il Fioretto Semplice, il quale è più degli altri due usato e necessario nel ballo
+              nobile, si può fare sopra tutte le positure de’ piedi in diversi modi e sopra
+              differenti figure: ma sempre co’ medesimi movimenti e misure di tempo. Quattro
+              movimenti sono in questo passo compresi: il primo de’ quali si è il piegato
+              camminando, il secondo il rialzato, il terzo ed il quarto sono due movimenti andanti
+              in due semplici passi. Vale una misura, la cui battuta si trova sul secondo movimento,
+              cioè sul rialzato. Il suo esempio sia questo: volendosi fare il Fioretto innanzi dalla
+              terza alla quarta positura cominciandosi col piè dritto, s’equilibri il corpo sul piè
+              sinistro, tenendosi il piè destro addietro sulla punta. Si pieghino appresso i
+              ginocchi, mandandosi nel medesimo tempo il piè destro innanzi alla quarta positura;
+              quindi si rialzino e si facciano due passi Semplici, il primo de’ quali col piè
+              sinistro ed il secondo col destro, amenduni alla quarta positura. Se bisognasse far un
+              altro Fioretto, a questo già dichiarato congiunto, si converrebbe incominciare col piè
+              sinistro. Ed ultimamente è da avvertire che, se nel luogo del secondo passo Naturale
+              sostituir si volesse un leggerissimo Mezzo gittato, sarebbe invero per riuscire assai
+              più dilettevole per vaghezza.</p>
+            <p>[4] Il Fioretto in Iscacciato si fa in assai meno modi che il precedente, e se gli
+              può veramente dar questo nome quando si va solamente innanzi o addietro; perciocché,
+              così nell’uno che nell’altro modo adoperato, un piede va a percuotere ed a scacciar
+              l’altro. E nel vero volendolo fare innanzi: poiché si sarà rialzato il primo passo,
+              che s’era camminando piegato, il piede che adopera il secondo passo va ad urtare colla
+              noce dietro al tallone dell’altro, facendogli fare il terzo passo. E volendosi fare
+              addietro, dopoché si sarà, piegando i ginocchi, camminato addietro il primo passo, e
+              dopoché si sarà rialzato, il piè che si trova innanzi faccia il suo passo Naturale e
+              vada a percuotere col tallone nella noce del piè che si trova addietro, e gli faccia
+              fare il terzo passo, che viene ad essere il secondo Naturale. Ed il Fioretto in questi
+              due modi si può fare sopra tutte le positure de’ piedi. Ma qualora il Fioretto si vuol
+              fare dallato ovvero in giro, nel qual caso deesi cominciare dalla seconda positura,
+              non si conviene, propiamente parlando, dire Fioretto in Iscacciato, perciocché
+              nell’uno, né nell’altro modo un piè non urta, né scaccia l’altro, e piuttosto viene ad
+              essere un Fioretto in passo Sfuggito. Per esempio, se si vuol fare dal lato dritto:
+              messi i piedi, come è detto, sulla seconda positura, ed equilibrato il corpo sopra
+              amenduni i piedi, si vogliono piegare i ginocchi più soavemente che negli altri
+              Fioretti, e nel tempo che si rialzano, è di bisogno far passare il piè manco per
+              dietro al dritto nella terza positura; e nel momento che il piè manco tocca la terra,
+              senza alcuno indugio far si convengono due passi Semplici dal lato dritto, il primo
+              de’ quali si faccia col piè destro alla seconda positura, ed il secondo col piè
+              sinistro per innanzi al dritto alla terza positura. Se si volesse far un altro
+              Fioretto per lo medesimo lato, ovvero girando per esso, subito terminato il terzo
+              passo, sarebbe di bisogno portare il piè dritto dallato alla seconda positura, ed
+              appresso fare il Fioretto in quella maniera che si vorrebbe. Ed in questo caso il
+              Fioretto sarebbe di quattro passi composto e di cinque movimenti, i quali velocemente
+              esser dovrebbono adoperati, affine di chiudergli in una sola misura di tempo. Ma
+              comeché questo Fioretto di quattro passi siasi per me veduto usare ad alcune persone,
+              tuttavia però io porto fermissima opinione ch’egli non sia in alcun modo da usare nel
+              ballo nobile.</p>
+            <p>[5] Il Fioretto in Gittato è assai più laudevole, grazioso e ben fatto che non è il
+              precedente. È composto d’un Mezzo gittato e di due Semplici passi. Cominciasi sopra
+              tutte le positure de’ piedi. Per esempio: volendol fare a lato sinistro con trovarsi i
+              piedi sulla seconda positura, s’equilibri il corpo sopra il piè manco, toccandosi la
+              terra colla punta dell’altro piede, col quale si faccia un Mezzo gittato a sinistra
+              sopra la quinta positura: ed appresso si facciano due passi Semplici dal medesimo lato
+              sinistro, cioè il primo col piè sinistro alla seconda positura ed il secondo col
+              destro per innanzi al sinistro alla quinta positura: ed il corpo rimanga equilibrato
+              sopra quel piede cha a partire non dovrà essere il primo. La battuta di questo passo
+              si trova sulla cascata del Mezzo Gittato.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img14.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_19">
+            <head>Capitolo XIX. Del Contrattempo [Contretemps]</head>
+            <p>[1] Adoperasi il Contrattempo dall’uno o dall’altro piede sopra ogni altra positura
+              di piedi, che sulla prima. In qualunque modo e sopra qualunque figura che s’adoperi
+              questo passo, contiene quattro movimenti: il primo de’ quali si è il piegato, il
+              secondo il rialzato col salto, il terzo ed il quarto sono due semplici movimenti
+              andanti. La misura di esso si trova a punto sulla cascata del salto, cioè nel fine del
+              secondo movimento. L’esempio del Contrattempo sia questo: volendosi fare innanzi dalla
+              terza alla quarta positura col piè dritto dietro al sinistro, si vuole equilibrare il
+              corpo sopra il sinistro, tenendosi il destro sulla punta; ed appresso si pieghino i
+              ginocchi e si rialzino saltando, e si cada sopra il piè manco, levandosi il dritto in
+              aria: e succedevolmente si facciano innanzi due passi Semplici, cioè il primo col piè
+              dritto ed il secondo col sinistro, amenduni alla quarta positura. E se si vuol fare il
+              Contrattempo dal lato dritto sulla seconda positura: convien piegare i ginocchi e,
+              rialzandogli, saltare e cadere sopra il piè destro levando di terra il sinistro, la
+              cui gamba si tenga distesa allato al piè destro; ed appresso si vogliono fare due
+              passi Semplici, il primo de’ quali col piè manco per sopra al dritto alla quinta
+              positura, ed il secondo col piè destro alla seconda positura. Il Contrattempo ed il
+              Mezzo contrattempo, che qui appresso dichiareremo, sono que’ passi ne’ quali, come per
+              addietro dicemmo nel capitolo de’ Movimenti, si debbono i salti sì leggermente fare,
+              acciocché il grave e sostenuto portamento della persona non si scomponga, che deesi
+              più tosto far sembianti di saltare che veramente levarsi in aria.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img15.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_20">
+            <head>Capitolo XX. Del Mezzo contrattempo [Demi-contretemps]</head>
+            <p>[1] Il Mezzo Contrattempo si può fare coll’uno o coll’altro piede sopra tutte le
+              cinque positure, ed avvegnaché s’adoperi in due differenti maniere; tuttavia ritiene
+              sempre lo stesso nome. Contiene or due, ed or tre movimenti, secondoché viene messo in
+              opera; perciocché o si vorrà fare nel primo modo, cioè piegando i ginocchi,
+              rialzandogli saltando e cadendo sopra un piede, tenendosi l’altro levato in aria, ed
+              in questo caso conterrà due movimenti, cioè il piegato ed il rialzato; o si vorrà fare
+              nel secondo modo, cioè piegando i ginocchi, rialzandogli saltando e cadendo sopra un
+              sol piede, ed ultimamente facendo un passo Semplice col piè che rimane in aria; ed
+              avrà tre movimenti, cioè il piegato, il rialzato e l’andante. La battuta del suo tempo
+              si trova sulla cascata del salto, ove termina il secondo movimento. L’esempio del
+              Mezzo contrattempo a due movimenti sia questo: se si vuol fare sulla terza positura
+              tenendo addietro il piè dritto, conviene primieramente equilibrare il corpo sul piè
+              sinistro, col destro sulla punta, ed appresso si vogliono piegare i ginocchi, e
+              rialzandogli saltare, e cadere sopra il piè manco, levando il piè destro in aria. E
+              l’esempio del Mezzo contrattempo a tre movimenti col tenersi i piedi sulla medesima
+              positura, e modo che s’è detto del precedente, sia quest’altro: s’equilibri in prima
+              il corpo sopra il piè manco tenendosi addietro il dritto sulla punta; e quindi si
+              pieghino i ginocchi e si rialzino saltando e cadendo sopra il piè sinistro, e col
+              destro, il quale si trova in aria, si faccia un passo Semplice sopra quella positura
+              che la composizione della danza richiede.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img16.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_21">
+            <head>Capitolo XXI. Del Passo di Rigodone [Rigaudon]</head>
+            <p>[1] Questo passo è composto d’un Contrattempo e d’un Passo Saltante cascato sopra
+              amenduni i piedi. Egli non si può far camminando innanzi o addietro, a man destra o
+              sinistra, ma sì sul medesimo luogo ove il corpo si trova, da cui non si dee uscir
+              fuori. Si può anche adoperare, ma molto di rado, in giro, cioè girando un quarto, due
+              quarti e per fino ad un giro intero, siccome m’è venuto in acconcio d’osservare in
+              diverse danze, e spezialmente nella <term type="dance">Melania</term> di
+                <persName>Balon</persName> l’anno mille settecento tredici composta. Essendo esso
+              composto de’ due detti passi, viene a contenere sei movimenti, cioè quattro del
+              Contrattempo e due del passo Saltante, siccome ne’ lor capitoli fu dimostro; e per la
+              stessa ragione racchiude due tempi, la battuta del primo de’ quali si trova sulla
+              cascata del Contrattempo, e la battuta del secondo sulla cascata del salto a due
+              piedi. Adoperasi d’ordinario nel tempo binario: e chi vuol sapere la maniera, colla
+              quale si pone in uso, ponga mente a questo esempio. Situati i piedi sulla prima
+              positura ed il corpo nel primo equilibrio, il qual, come dicemmo, consiste nel tenere
+              il suo peso sopra amendune le piante de’ piedi, convien piegare i ginocchi e
+              rialzandogli saltare, e cadere sopra il piè dritto, levando dallato in aria il
+              sinistro, il qual poi è da riporre a terra sulla prima positura, ed incontanente
+              levato il piè dritto anche dal suo lato in aria, si riponga nello stesso modo sulla
+              medesima positura; e questo si è il Contrattempo. Quindi bisogna ripiegare i ginocchi,
+              e rialzandogli saltare, e cadere co’ piedi parimente sulla prima positura: e questo è
+              il Passo Saltante, ove termina il Passo di Rigodone.</p>
+            <p>[2] E finalmente si vuole avvertire che al fine del detto passo è di bisogno che vada
+              congiunto a un Passo Staccato, il quale, come a suo luogo farem vedere, non consiste
+              in altro che in islontanare e staccare un piede dall’altro per mandarlo giù a quella
+              positura donde il susseguente passo convien che parta: purché però partir non debba
+              dalla prima positura, dove si diè termine al Passo di Rigodone.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img17.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_22">
+            <head>Capitolo XXII. Del Passo di Sissone [Sissonne]</head>
+            <p>[1] Il Passo di Sissone, il quale o si fa sul propio luogo ove si trova il corpo,
+              ovvero camminando avanti, addietro ed in giro, si può cominciare sopra quattro
+              positure di piedi, cioè sulla seconda, terza, quarta e quinta, delle quali la seconda
+              abbisogna solamente per girare dall’uno o dall’altro lato. È composto di quattro
+              movimenti, de’ quali il primo è un leggerissimo piegato, il secondo un soave rialzato
+              col salto d’un piede cascato sopra amenduni sulla quinta positura, il terzo si è un
+              altro piegato ben basso, il qual si trova sempre sulla quinta positura, ed il quarto
+              ed ultimo si è un altro rialzato col salto cascato sopra un sol piede. Per esempio:
+              volendolo fare innanzi e cominciarlo e finirlo col piè diritto, equilibrato in prima
+              il corpo sul piè sinistro col destro addietro sulla punta, si pieghino alquanto i
+              ginocchi e rialzandogli, si faccia un leggerissimo salto col medesimo piè sinistro,
+              mandando il piè destro innanzi e facendogli fare dallato nel medesimo tempo del salto
+              un mezzo cerchio in aria, acciocché ambedue i piedi cadano nello stesso punto sulla
+              quinta positura. Dopodiché si vogliono immediatamente ben piegare i ginocchi, e
+              rialzandogli si risalti e si ricada sopra il piè dritto, tenendo il sinistro in aria
+              addietro, ovvero allato al destro, ed i ginocchi ben distesi.</p>
+            <p>[2] Vale questo passo un tempo, la cui battuta, senz’altro esempio, si trova per la
+              somma agilità e speditezza dei due primi, sul terzo movimento, cioè sul secondo
+              piegato, dove fa mestieri fermarsi tanto quanto bisogni di tempo da poter compiere col
+              distendimento de’ ginocchi e col secondo salto e cascata, la misura di questo
+              passo.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img18.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_23">
+            <head>Capitolo XXIII. Del Passo Unito [Assemblé]</head>
+            <p>[1] Il Passo Unito dall’uno o dall’altro piede per lo più si comincia sopra la terza,
+              quarta e quinta positura, e d’ordinario si termina sulla prima, ed alcuna volta sulla
+              terza. È composto di due movimenti, il primo de’ quali si è il piegato ed il secondo
+              il rialzato andante, saltando con un piede e cadendo sopra amenduni. La sua misura si
+              trova sulla cascata del passo, dove termina il secondo movimento ed ove si fa l’unione
+              di questo passo. L’esempio sia questo: volendolo fare dalla quarta positura alla prima
+              col piè dritto innanzi al sinistro, s’equilibri il corpo sopra il piè destro ed
+              appresso si pieghino i ginocchi e, mentreché si rialzano, saltisi col piè dritto, ed
+              il sinistro si mandi innanzi descrivendo dallato un mezzo cerchio, e nella cascata del
+              salto cadano amenduni nello stesso punto sulla prima positura.</p>
+            <p>[2] Ordinariamente, alla fine di questo passo va congiunto un Passo Staccato, per
+              poter prendere del seguente passo la positura, purché egli da quella, dove l’Unito
+              passo finisce, non debba cominciare, perciocché in tal caso il passo Staccato non
+              servirebbe a nulla.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img19.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_24">
+            <head>Capitolo XXIV. Del Passo di Gagliarda</head>
+            <p>[1] Cominciasi questo passo dall’uno o dall’altro piede, sopra la terza, quarta e
+              quinta positura, e si termina sulla seconda. È composto d’un passo Unito alla prima
+              positura, e d’un altro passo Naturale alla seconda. Per la qual cosa è superfluo di
+              recarne altro esempio, potendosi osservare quello che s’è addotto nel capitolo
+              precedente, a cui è da aggiungere un solo passo Naturale fatto dallato alla seconda
+              positura da quel medesimo piede con cui sarà per fare l’unione del detto passo. Onde
+              il Passo di Gagliarda viene a contenere tre movimenti, cioè il piegato ed il rialzato
+              saltando con un piede e cadendo sopra amenduni del passo Unito, ed il movimento
+              andante del Passo Naturale. Vale un tempo la cui battuta si trova sul secondo,
+              movimento, cioè sulla cascata del rialzato. E si descrive in questa maniera.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img20.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_25">
+            <head>Capitolo XXV. Del Passo Grave [Grave ou Courante]</head>
+            <p>[1] Questo passo, il quale un tempo di <hi rend="i">Courante</hi> era appellato,
+              perciocché serviva di principal passo ad una danza assai raguardevole così detta, la
+              quale alle magnifiche feste di ballo delle Corti sovrane dava cominciamento; il suo
+              primiero nome perdette, e Passo Grave cominciossi a chiamare; dapoiché il Minuetto,
+              nato da bassi natali, cioè tra’ contadini d’<placeName>Angiò</placeName>, Provincia
+              della <placeName>Francia</placeName>, sotto <persName>Luigi il Grande</persName>
+              levossi in tanta superbia che, fatto dare il bando alla detta danza, occupò il luogo
+              di quella e mandolla del tutto in disuso.</p>
+            <p>[2] Cominciasi indifferentemente dall’uno o dall’altro piede, sopra tutte le cinque
+              positure, e si termina d’ordinario andandosi innanzi sulla quarta, e dall’uno o
+              dall’altro lato sulla seconda e, ritornando dalla seconda positura, termina sulla
+              quinta. È composto di tre movimenti. Il primo de’ quali si è il piegato, il secondo il
+              rialzato ed il terzo si è l’andante, con cui si sdrucciola colla punta d’un piede
+              soavemente per terra. Vale una misura, la cui battuta si trova sul secondo movimento,
+              cioè nella fine del rialzato. Per esempio, dovendosi col piè destro fare il Passo
+              Grave innanzi dalla quarta alla medesima positura; equilibrato primieramente il corpo
+              sul piè sinistro, tenendo addietro il piè destro sulla punta, si pieghino i ginocchi e
+              nello stesso tempo si levi alquanto di terra il piè dritto, il qual venga colla noce a
+              toccare il tallone del piè sinistro alla terza positura: ed appresso rialzandogli, si
+              vuol portare il medesimo piè dritto per aria facendo un poco di giro alla seconda
+              positura; ed ultimamente si mandi innanzi sdrucciolando colla punta del piede alla
+              quarta positura. Se si volesse far questo passo innanzi dalla terza alla quarta
+              positura, partendo col piè dritto, che si trova innanzi al sinistro, si converrebbe
+              piegare rialzare e sdrucciolar camminando a linea dritta sulla quarta positura. Il
+              medesimo è da fare anche dallato. Egli non deve adoperarsi addietro nel ballo nobile.
+              E volendosi fare in giro, non si vuol passare il quarto del circolo.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img21.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_26">
+            <head>Capitolo XXVI. Del Passo Bilanciato [Balancé]</head>
+            <p>[1] Il Passo Bilanciato, in qualunque modo fatto, in niuna cosa dal Mezzo tronco è
+              differente. Per la qual cagione non so a qual fine abbia d’avere un nome da quello
+              diverso. Immagino non pertanto che verisimilmente abbia il nome di Bilanciato, sì
+              perché nel far questo passo s’adoperano due Mezzi tronchi, un da un piede e l’altro
+              dall’altro; e sì ancora perciocché nel rialzare ciascuno de’ Mezzi tronchi, si viene
+              un poco ad inclinare sul fianco di quel ginocchio che si distende, spezialmente quando
+              si fanno dallato, per ove facendosi, gli si conviene veramente il nome di Bilanciato,
+              perciocché assomiglia molto alla figura, e movimento della bilancia; dove facendosi
+              innanzi, addietro o in giro, non gli s’appartiene questo nome, ma si deono più tosto
+              appellare passi Mezzo tronchi.</p>
+            <p>[2] Tutte le positure de’ piedi, fuorché la seconda, gli possono servire di
+              cominciamento. Per esempio: volendolo fare dalla prima alla seconda, si pieghino i
+              ginocchi portandosi il piè dritto alla seconda positura, e quindi rialzato ed
+              equilibrato il corpo sopra lo stesso piè dritto, si levi il sinistro in aria e si
+              mandi giù a terra allato al dritto a quattro dita di distanza, tenendosi ben distesi i
+              ginocchi. Dopodiché si ripieghino i ginocchi portandosi il piè sinistro alla seconda
+              positura ed appresso rialzandogli, s’equilibri il corpo sopra il medesimo piè
+              sinistro, e si levi il piè dritto in aria. Ed ecco compiuti i due passi Mezzo tronchi,
+              l’un dal piè destro e l’altro dal sinistro, de’ quali ognuno vale un tempo, come nel
+              capitolo del passo Mezzo Tronco dicemmo. Onde il Passo Bilanciato contiene due misure,
+              la battuta delle quali si trova sul movimento rialzato dell’uno e dell’altro passo
+              Mezzo tronco.</p>
+            <p>[3] Il passo Bilanciato, non già come altri il prende, cioè fatto per ogni banda, ma
+              rigorosamente preso, cioè fatto dallato, donde ha ricevuto un tal nome, ed in quella
+              guisa ch’è stato qui sopra descritto, comeché un tempo fosse stato fosse in uso; nulla
+              però di meno, da che la danza nobile s’è ridotta a miglior perfezione, e che il “buon
+              gusto” è arrivato al sommo, è divenuto un di que’ passi che sono andati per la sconcia
+              lor veduta in disuso. E si descrive nella seguente maniera.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img22.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_27">
+            <head>Capitolo XXVII. Del Passo Cadente [Tombé]</head>
+            <p>[1] Questo si può dire l’unico passo nel quale il corpo dal suo naturale equilibrio
+              esce fuori. Può solamente farsi dallato, e si comincia con uno de’ piedi in aria: e
+              perciò nel cominciamento non ha positura, perciocché, come dicemmo, la positura vuol
+              amenduni i piedi appoggiati sopra la terra. Contiene due movimenti, il primo de’ quali
+              si è il piegato cadente giù basso, ed il secondo il rialzato, con cui si salta sopra
+              un de’ piedi. Per esempio: volendosi far questo passo col piè sinistro dietro al
+              destro, messosi il corpo nel quinto equilibrio sul piè dritto, ed il sinistro
+              tenendosi in aria allato al destro in distanza della seconda positura; vada pian piano
+              uscendo fuori del preso equilibrio, e secondoché s’anderà egli inclinando dal lato
+              dritto, così il piè sinistro vada cadendo giù colla gamba distesa, e finalmente caduto
+              che sarà dietro al piè dritto sulla quinta positura, si pieghino subitamente i
+              ginocchi, e rialzandogli, si faccia col piè destro per innanzi un leggerissimo Mezzo
+              gittato alla quarta positura, il quale restituisca il corpo nel suo naturale
+              equilibrio, e termini questo passo. Il suo valore si è d’un tempo, la cui battuta si
+              trova sul movimento piegato del piè che cade giù. E quantunque a prima vista sembri
+              che, compiendosi il tempo di questo passo sul movimento piegato, e che dovendosi al
+              Mezzo gittato attribuire un tempo, l’intero passo Cadente debba adoperarsi nello
+              spazio di due tempi; pur nondimeno, se si considera che il movimento piegato è comune
+              alla cascata di questo passo, ed al Mezzo gittato, a cui, perché già si trova
+              consumato il primo movimento, altro non rimane che il rialzato; si comprenderà molto
+              bene che questo passo debba contenere un solo tempo, la cui battuta, come è detto, si
+              trova sul piegato movimento, e che il secondo movimento, cioè il rialzato del Mezzo
+              gittato, deve servire di riempimento della detta misura, e di legamento o passaggio,
+              che dir vogliamo, a’ passi che sieguono appresso.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img23.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_28">
+            <head>Capitolo XXVIII. Della Sdrucciolata [Glissade]</head>
+            <p>[1] La Sdrucciolata, la quale può cominciarsi sulla terza o sulla quinta positura,
+              s’usa per lo più qualora camminar si voglia a man dritta o sinistra, e si può anche
+              adoperare con uno, o due quarti di giro. È composta di due passi Tronchi fatti
+              dallato, i quali riempier dovendo un solo tempo, ne viene in conseguenza che ciascun
+              di essi si debba fare due volte più velocemente d’un passo Tronco, il quale, come
+              dicemmo al suo luogo, serba il valore d’una misura. E per la medesima ragione,
+              contenendo ogni passo Tronco tre movimenti, la Sdrucciolata ne dee contener sei. Per
+              esempio: volendosi fare la Sdrucciolata a lato sinistro col piè dritto innanzi al
+              manco sulla terza positura, si pieghino i ginocchi facendo un passo col piè sinistro
+              alla seconda positura, e nel medesimo punto che si rialzano, si dee subitamente
+              sdrucciolare col piè dritto dietro al manco alla terza positura. Ed ecco il primo
+              passo Tronco, ed una metà della Sdrucciolata. Quindi facciasi un altro passo Tronco
+              col piè sinistro, e si sdruccioli col dritto avanti al manco sulle medesime positure.
+              E questo sarà il secondo passo Tronco, e l’altra metà della Sdrucciolata. La battuta
+              del suo tempo si trova sul movimento rialzato del primo Tronco, ed il rimanente del
+              passo serve di riempimento di tempo per finattantoché arrivi la battuta del passo che
+              siegue appresso.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img24.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_29">
+            <head>Capitolo XXIX. Del Passo Staccato [Dégagé]</head>
+            <p>[1] Tutte le volte che i piedi si trovano sopra alcuna positura da cui non si può
+              cominciare il passo che siegue appresso, è da ricorrere all’aiuto del Passo Staccato,
+              così detto perciocché stacca o slontana un piede dalla positura ove si trova e lo
+              conduce sopra un’altra: e per lo suo mezzo lasciato un de’ piedi a terra, coll’altro
+              si va a trovare la positura di quel cotal passo che si ha a fare. Per esempio,
+              ritrovandosi i piedi sulla prima o terza positura, e volendosi fare un Contrattempo
+              dall’un de’ lati, il quale, come è detto, non si può incominciare che dalla seconda
+              posizione; in tal caso dovrà ricorrersi a questo Passo Staccato, con cui si spicca e
+              si allontana un piede dalla positura ove si trova, e si gitta sulla seconda per poter
+              cominciare il Contrattempo. Per la qual cosa questo passo, a cui non si attribuisce
+              alcuna misura, od altra cosa che a’ passi competa, serve solo di passaggio d’una
+              positura in un’altra.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_30">
+            <head>Capitolo XXX. Del Giro della gamba, del Battimento del piede, e de’ Movimenti del
+              ginocchio da’ <term type="people">Francesi</term> detti Ballonné [Tour de jambe,
+              Battement, Ballonné]</head>
+            <p>[1] Il Giro della gamba, il quale in altro non consiste che in un mezzo cerchio che
+              essa, da qualunque positura partendo, descrive in aria, o si fa unito al alcun passo,
+              per esempio ad un Tronco, nel quale dopo d’essersi inalberato il corpo sopra un sol
+              piede, coll’altro si fa un mezzo cerchio, ove termina il detto passo: ed in tal caso
+              il Giro della gamba serve di legamento, o per meglio dire, per leggiadro riempimento
+              di misura, ed in alcuna cosa dal passo Semplice a mezzo cerchio non differisce. Ovvero
+              s’adopera tutto solo e separatamente da ogn’altro passo: ed in questo caso non serve
+              già di riempimento di tempo, ma sì vale una misura, ed in questo caso deesi sostener
+              tanto in aria, infinoché l’empia e la corra tutta.</p>
+            <p>[2] Il Battimento del piede è quel movimento che si fa in aria da un piede avente la
+              sua gamba distesa od alquanto piegata, col quale movimento viene ad incrocicchiarsi
+              dietro al tallone, e sopra il collo dell’altro che si trova a terra appoggiato; ed
+              appresso dopo aver fatti i detti movimenti, o rimansi in aria, ovvero s’appoggia sopra
+              una delle cinque positure. Il piede si può battere una, o al più due volte, il qual
+              numero non si vuol passare nel ballo nobile. Serve solamente di riempimento della
+              misura d’un passo e di legamento ad un altro. Per esempio: volendosi fare per addietro
+              un passo Tronco terminato co’ battimenti del piede; il piè che terminar deve il detto
+              passo, lasciata la quarta positura venga ad incrocicchiarsi in aria sopra il collo del
+              piede sopra cui si trova inalberato ed equilibrato il corpo, ed appresso passi a fare
+              il medesimo dietro al tallone di quello, leggermente toccandolo colla noce, e quindi
+              vadasi ad appoggiare sopra la debita positura, donde debbono i susseguenti passi
+              partire, e dove termina il Passo Tronco sopra e sotto battuto.</p>
+            <p>[3] I due movimenti fatti da un ginocchio in aria, i quali i <term type="people"
+                >Francesi</term> appellano <hi rend="i">Ballonné</hi>, in quella medesima maniera
+              che il passo Staccato serve solo di passaggio d’una positura in un’altra, servono di
+              semplice passaggio d’uno in un altro passo: e perciò non s’attribuisce loro alcuna
+              misura, od altra cosa che spetti a’ passi. Per esempio: volendo passare del Mezzo
+              contrattempo a due movimenti al passo Gittato; finito il Mezzo contrattempo coll’uno o
+              coll’altro piede, la gamba la quale rimane in aria si pieghi per lo ginocchio, e
+              nuovamente distesala, si mandi giù alla positura del passo Gittato.</p>
+            <figure>
+              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img25.png"/>
+            </figure>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_31">
+            <head>Capitolo XXXI. Del Movimento delle Braccia</head>
+            <p>[1] Dettosi distesamente, e con quella chiarezza che m’è stata possibile, di tutti i
+              passi del ballo nobile, l’ordine che infin dal principio di questo trattato prendemmo,
+              del movimento delle braccia nel presente luogo mi strigne a dire. Il quale, secondoché
+              io estimo, non è già parte del ballo men necessaria dell’altre. E perciò convenevole
+              cosa è che, adoperatosi sopra di quella ogni studio, se ne dia una compiuta
+              dimostrazione.</p>
+            <p>[2] In due modi adunque molto tra loro diversi muovonsi le braccia nel ballo nobile,
+              le quali però vengono in due differenti maniere dinominate, perocché o braccia ritonde
+              si dicono, ovvero braccia di opposizione.</p>
+            <p>[3] Per muoverle in quel modo donde vengono dette braccia ritonde è di bisogno prima
+              d’ogn’altra cosa aprirle e distenderle sopra i lati loro, tra’ gomiti ed i fianchi un
+              palmo di distanza serbando, ed un poco più d’un palmo tra i fianchi e le mani. Le
+              quali si deono tenere colle palme rivolte al mezzo di ciascun lato non del tutto
+              serrando le dita, né del tutto aprendole, che invero cosa non molto leggiadra sarebbe:
+              ma sì nel mezzo di questi due modi. Quindi si vogliono piegare i gomiti portando
+              ciascheduna mano davanti alla presenza del corpo in modo che il concavo d’esse si
+              trovi dirimpetto al mezzo d’ognuna delle tasche della giubba in distanza di cinque o
+              sei dita: e che le braccia per lo piegamento de’ lor gomiti facciano un poco di
+              circolo, ed appariscono ritonde dalle giunture delle spalle fino all’estremità delle
+              mani. Ed appresso si deono soavemente far ritornare nel primiero lor sito, serbando
+              nel muoverle le suddette determinate distanze, e terminando il loro movimento con un
+              leggerissimo giro d’amenduni i polsi. Per bene imparare il movimento delle braccia
+              ritonde è di bisogno esercitarsi del continuo a muoverle nella divisata maniera, e
+              secondo le mostrate distanze, sopra i passi Tronchi finiti collo sdrucciolamento del
+              piede, o col mezzo cerchio, od a due tempi per innanzi, ovvero sopra i Contrattempi
+              fatto dallato, o in giro, e sopra altri passi. Le braccia ritonde contengono due
+              movimenti, de’ quali il primo s’adopera dalle braccia, qualora ritrovandosi nel primo
+              lor sito, cioè sopra i lati loro, piegati i gomiti si conducono fino al mezzo delle
+              tasche, ove termina questo primo movimento; ed il secondo quando, ritrovandosi le
+              braccia, come è detto, sul mezzo delle tasche, ritornano nel loro primiero sito sui
+              lati. Il movimento delle braccia ritonde ha il valore d’un tempo, la cui battuta si
+              trova nella fine d’ogni primo movimento, cioè appunto nell’arrivare delle mani sul
+              mezzo delle tasche: ed il secondo movimento serve di riempimento della detta misura, e
+              di passaggio, o legamento a’ movimenti delle braccia che sieguono appresso.</p>
+            <p>[4] Il movimento delle braccia d’opposizione s’adoperi in quest’altro modo. Si
+              trovino primieramente le braccia nel primo sito già mostrato nell’esempio delle
+              ritonde, ed appresso alzandosi un braccio, si porti innanzi nel medesimo tempo, che
+              l’altro abbassandosi si dee aprire sul lato. Se si vuol dunque mandare innanzi il
+              sinistro ed aprire il destro dallato, conviene, piegando bene di dentro il gomito del
+              primo, portare il braccio innanzi, facendo un poco di giro, ed avvicinare la mano
+              verso al mezzo del ventre in distanza di quattro o di cinque dita, in modo che tutto
+              il suo concavo sia rivolto verso la terra, e succedevolmente si faccia di giù in su un
+              soave giro di polso. E nel medesimo tempo che il braccio sinistro comincerà il suo
+              movimento, il destro, il quale, come è detto, dee anche trovarsi sul primo sito delle
+              braccia ritonde, s’allontani lateralmente dal suo fianco colla palma della mano un
+              poco addietro riguardante, ed appresso si faccia soavemente un giro di polso per
+              innanzi nel medesimo tempo che la man sinistra lo fa, come è detto, di giù in su. E
+              quivi termina il movimento delle braccia d’opposizione. Or che si trovano le braccia
+              in un altro sito dal primo diverso, se si volessero muovere col medesimo movimento,
+              converrebbe col braccio destro far tutto quello che finora col sinistro s’è adoperato,
+              e col sinistro si vorrebbe fare il contrario, ritornando di su in giù colla mano in
+              dentro sopra il suo lato, e terminando col giro di polso per innanzi. Ed in questa
+              divisata maniera si possono far tanti di questi movimenti, quanti mai se ne vogliono.
+              Adoperasi cotal movimento sul passo Grave, sul Fioretto, sul passo Mezzo tronco, e
+              sopra altri passi, dove si conviene, per impararlo, esercitare. Ed i quali, se si
+              cominciano partendo col piè dritto, il sinistro braccio deve andare innanzi in su, ed
+              il dritto dallato in giù: ed all’incontro, se si cominciano partendo col piè sinistro,
+              è di bisogno che vada innanzi in sul braccio dritto, e che per lo sinistro si faccia
+              il contrario. E perciò questo movimento è detto d’opposizione. Le braccia
+              d’opposizione contengono parimente due movimenti: il primo de’ quali viene adoperato
+              nel tempo che un braccio, dal suo primo sito, giugne verso al mezzo del ventre e che
+              l’altro s’allontana dal suo lato; ed il secondo movimento consiste ne’ giri di polso
+              fatti da amendune le mani nel modo di sopra descritto. Il movimento delle braccia
+              d’opposizione vale eziandio un tempo, la cui battuta si ritrova sulla fine del primo
+              movimento, ed il secondo serve di riempimento dell’intera sua misura, e di legamento
+              ai movimenti di braccia, che sieguono appresso.</p>
+            <p>[5] Ed ultimamente si vuole avvertire che la medesima misura di tempo la qual regola
+              i movimenti de’ piedi, regolar dee quelli delle braccia. Per la qual cosa la battuta è
+              loro comune, e tutto l’avvedimento consiste nel saper congiugnere i movimenti di
+              quelli e di queste in un medesimo istante.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_32">
+            <head>Capitolo XXXII. <hi rend="i">Della Riverenza</hi></head>
+            <p>[1] Cominciasi la Riverenza nel ballo nobile sulla prima ovvero sulla terza positura,
+              ed avvegnaché qui si dividano i Maestri di ballo, e da alcuni questa, da alcuni altri
+              quella sia commendata ed usata; pur nondimeno, per quanto io v’ho potuto su riflettere
+              e considerare, le ho trovate egualmente laudevoli, posto che colui che fa la Riverenza
+              si sappia sopra di quelle positure graziosamente e con ogni leggiadria mantenere.</p>
+            <p>[2] Or volendo il Cavaliere cominciar la sua Riverenza dall’una o dall’altra di
+              queste due positure, poiché egli avrà scorto che la Dama si trova in istato di far la
+              sua, stacchi soavemente il piè destro e mandilo sulla seconda positura. E quindi,
+              equilibrato il corpo sopra questo medesimo piede, faccia nell’istesso tempo due cose.
+              L’una si è, ch’egli dee alzar di terra il tallone del piè sinistro, colla cui punta,
+              piegando a poco a poco il ginocchio, sdruccioli soavemente per terra dietro al piè
+              dritto alla terza positura, serbando quattro o cinque dita di distanza tra la noce del
+              sinistro ed il tallone del destro piede; e l’altra si è che nel tempo dell’alzata del
+              tallone del piè sinistro, egli deve alzare il sinistro braccio, distendendolo dal suo
+              lato all’altezza della spalla, e nello stesso punto che egli comincerà a sdrucciolare
+              col piè sinistro, porti, piegando il gomito, la mano al cappello in modo che tutto il
+              braccio venga a formare un mezzo cerchio, ed appresso, senza punto chinar la testa, se
+              ’l tolga via; ed aprendo poi, o distendendo il braccio, lo lasci cader giù dalla banda
+              del suo lato, tenendo il di sopra del cappello rivolto innanzi. Si vuole oltre a
+              questo, ben avvertire che nel medesimo istante ch’e’ comincerà a sdrucciolare col piè
+              sinistro, convien che a poco a poco cominci leggiadramente a piegare il corpo sulla
+              cintura dalla parte dinanzi a proporzione che il piè sinistro anderà sdrucciolando,
+              acciocché, finito che avrà di sdrucciolare, e nel tempo che tutto il piede si troverà
+              appoggiato sulla terza positura, si stia da lui facendo la parte più bassa del suo
+              piegamento: sul quale deesi alquanto fermare, tenendo il ginocchio destro ben disteso
+              ed il sinistro alquanto piegato, in maniera che questi si trovin congiunti e la fronte
+              dell’uno non isporga più in fuori della fronte dell’altro. Il che adempiuto, raddrizzi
+              egli il suo corpo, e lo riponga nel suo naturale equilibrio: ed in ciò termina la
+              prima Riverenza ch’egli far dee agli spettatori del Ballo. Quindi faccia un passo
+              Naturale col piè dritto alla quarta positura, ed un altro col sinistro alla seconda,
+              girando un quarto di giro al di dentro per la man manca: e nel medesimo modo che
+              sdrucciolò col piè sinistro, sdruccioli ora col dritto dietro al manco nella terza
+              positura, serbando tra l’uno e l’altro piede la distanza detta di sopra, ed appresso
+              faccia un altro piegamento, e raddirizzato ch’e’ si sarà, avrà terminata la seconda
+              Riverenza fatta alla Dama colla quale egli balla.</p>
+            <p>[3] Nel modo detto di sopra si riponga anche la Dama sulla prima o sulla terza
+              positura, tenendo le braccia distese giù per lo mezzo di ciascun lato. E quindi
+              stacchi il piè sinistro e lo conduca alla seconda positura, ed appresso sdruccioli col
+              piè dritto dietro al sinistro alla terza positura, od alquanto meno, quando le
+              riuscisse di maggior comodo. E ciò adoperato faccia la sua Riverenza, piegando
+              egualmente e soavemente i ginocchi in fuori e facendo ciascun d’essi alquanto andar
+              dal suo lato; e quella terminata, s’alzi e si riponga nel suo naturale equilibrio,
+              dove finisce la di lei Riverenza fatta agli aspettanti del ballo. Faccia ella appresso
+              col piè sinistro un passo Naturale alla quarta positura, e poi ne faccia un altro col
+              piè dritto alla seconda, girando un quarto di giro al di dentro per la destra,
+              acciocché venga a porsi dinanzi al Cavaliere col quale balla; e sdrucciolato che avrà
+              col piè sinistro dietro al destro alla terza positura, od alquanto meno, come è detto,
+              gli faccia quella medesima Riverenza che si è sopra descritta. E qui termina la
+              Riverenza fatta al Cavaliere col quale balla.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_33">
+            <head>Capitolo XXXIII. <hi rend="i">Della Figura</hi></head>
+            <p>[1] Secondo l’ordine preso nel principio di questo trattato, seguita ora a dire
+              dell’ultima parte principale del ballo nobile, che è la Figura, della quale convien
+              che si dica distintamente, e con quella chiarezza che sia possibile. La Figura adunque
+              nella danza altra cosa non è che il cammino che descrive colui che balla, sul qual
+              convien che con arte descriva quei passi che si convengono. Or questa Figura, ovvero
+              questo cammino fatto con arte, si può sopra quattro linee ben differenti adoperare. Le
+              quali sono la retta, la diametrale, l’obliqua e la circolare.</p>
+            <p>[2] La linea retta si è quella che, cominciando dal principio d’una sala, va
+              direttamente, e senza piegare dall’uno o dall’altro lato, a terminare al suo fondo, in
+              modo che sia parallela al muro destro e sinistro di quella. Sopra la qual linea non
+              solamente si può camminare andando innanzi, ma anche addietro.</p>
+            <p>[3] La diametrale è quella che trasversalmente da un lato della sala va verso
+              l’altro, e la quale alle due altre mura è parallela, cioè a quello che ci sta dinanzi
+              alla presenza del corpo ed a quell’altro che si ritrova dietro le spalle.</p>
+            <p>[4] La linea obliqua si è quella che, cominciando da un angolo della sala, va a
+              terminare all’angolo opposto della medesima.</p>
+            <p>[5] E la circolare è quella che si figura in una stanza o sala, così ritonda, che da
+              un punto che si trova nel suo mezzo sino a qualunque parte di essa, vi ha un’eguale
+              distanza. Né solamente si deono appellare linea retta, diametrale, obliqua e
+              circolare, le qui sopra recate, ma eziandio tutte le lor parallele.</p>
+            <p>[6] Dalle dette linee semplici e dalla loro combinazione dirivano e si compongono
+              tutte le figure del ballo, le quali sono di numero infinite: e nel vero secondoché il
+              corpo muta il suo sito ballando (il che tratto tratto nel ballo interviene) le
+              predette linee cambiano parimente il lor sito.</p>
+            <p>[7] Or dagli andamenti o cammini di color che ballano sopra le dette linee semplici o
+              composte vengono prodotte due spezie di Figure, le quali Regolari ed Irregolari son
+              volgarmente appellate.</p>
+            <p>[8] La Figura Regolare si fa qualora due ballatori formano i passi sopra le descritte
+              linee a piè contrario, cioè un cominciando i passi col piè dritto, l’altro col
+              sinistro, l’un camminando a man dritta, l’altro a man manca; l’un girando per la
+              dritta, l’altro per la sinistra: insomma un facendo il contrario dell’altro.</p>
+            <p>[9] La Figura Irregolare, all’incontro, s’adopera qualora due ballatori danzano sopra
+              le dette linee col medesimo piede, cioè un cominciando i passi col piè dritto e
+              l’altro anche col dritto, l’un camminando a man manca e l’altro a man manca, l’un
+              girando per la destra e l’altro parimente per la destra, ed ultimamente facendo
+              amenduni, o sopra l’istessa o sopra diverse figure, col medesimo piede gl’istessi
+              passi.</p>
+            <p>[10] Tutta la bellezza e leggiadria delle figure del ballo consiste in sapere unire
+              ed accordare bene le Regolari colle Irregolari in modo che diano meraviglia insieme e
+              diletto alla vista degli aspettanti.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-ballo-nobile_34">
+            <head>Capitolo XXXIV. Avvertimenti generali a coloro che vogliono perfettamente
+              imprendere il ballo nobile</head>
+            <p>[1] Tutte le scienze e le arti, e generalmente le cose tutte che si possono
+              dall’umana mente sapere, imparar si possono dagli uomini in due modi ben differenti.
+              Primieramente per via di regole generali ed invariabili, per le quali s’acquista il
+              vero e diritto saper delle cose, e per le quali agevolmente s’intendono e si adoperano
+              tutte le particolarità che sotto le dette regole son contenute. Ed in secondo luogo
+              per via d’esempi e col voler sapere le particolarità delle cose: il qual modo è invero
+              assai difettoso e mancante. Quindi accade ch’essendo le regole di novero pochissime,
+              ma che nello stesso tempo istruiscono e rendono chiara la mente, ed aperta a
+              comprendere e porre in atto tutte le cose infinite sotto di esse raccolte ed inchiuse,
+              coloro che sanno per la loro via si possono dire che sappiano compiutamente e da
+              maestri, e che in un tratto possono tutti gl’innumerabili esempi in esse compresi
+              conoscere ed operare. Ove per contrario coloro che sanno le cose per via d’esempi, si
+              può dir che non sanno nulla, perciocché essendo gli esempi di novero infiniti, e
+              variando essi per ogni piccola circustanza, non possono già nell’angusta comprension
+              della mente dell’Uomo capire e contenersi. Ed avvegnaché paia che il saper per via
+              d’esempi sia molto più agevole dello intender per via di regole, perché veramente è
+              assai più difficile d’imprendere le regole della musica, che il mandarsi in memoria,
+              udendola più volte, un’aria nel Teatro (il qual esempio serva per tutti gli altri, che
+              di ogni scienza e di ogni arte si possono in mezzo produrre). Tuttavia però se si
+              riguarda a due sole cose, cioè al novero degli esempi, il quale essendo infinito, non
+              si può dire veramente che s’imprendan tosto, ma deesi affermare che non si potrà mai
+              finir d’apparargli, perché invero, contuttoché alcun vivesse più secoli e che di
+              giorno in giorno si mandasse in memoria nuove arie e cantate di musica, pur ne gli
+              resterebbero infinite altre da imparare, per le quali sapere vi vorrebbe una vita che
+              mai non finisse, ed in secondo luogo, se si pone mente a’ difetti ed errori dove
+              offendono costoro li quali, non avendo perle mani i principi e le regole di quella
+              cotal arte, i cui esempi si mandano in memoria, del continuo corrono in fallo, senza
+              che nemmeno se ne possano accorgere ed avvertire; si dovrà fermamente dire che non
+              v’ha, né vi può avere, più sicura e più corta via da poter le cose sapere che,
+              lasciati da banda gli esempi, i quali sono propri per gli infingardi ed ignoranti,
+              s’imprendano le regole, i principi ed i precetti generali delle Scienze, e delle Arti,
+              colli quali in un tratto s’intendono e si pongono in opera tutti gli esempli che sotto
+              di lor vengono contenuti. E nel vero è molto meglio sapere le regole della Musica,
+              senza tenere a mente una sola Cantata, che saper mille Cantate, senza aver le regole
+              della Musica, perciocché chi saprà la Musica sarà abile a cantarne, non mille o
+              dumilia, ma sì bene infinite, e tutte quelle che gli si presenteranno davanti a
+              cantare.</p>
+            <p>[2] Or quanto finora s’è detto nel presente capitolo si può di leggieri applicare e
+              rivolgere al Ballo ed a coloro che sono vaghi di perfettamente impararlo. I quali
+              deono pone tutto il loro studio alle regole ed a’ precetti generali di cotal arte, per
+              li quali si può ballare ogni presente e futura danza; e per contrario deono schifare e
+              fuggire il saper per la sola via degli esempi, cioè il voler imparare il ballo, non
+              già cominciando dalle sue regole, ma volendo questa o quell’altra danza adoperare e
+              porre in atto, per far sembianti d’essere stati in un tratto abili a sapere molto in
+              pochissimo tempo. E da ciò poi ne nasce che vi saranno di quelli i quali si crederanno
+              saper ballare molte danze ed in verità non sapranno fare un sol passo; laddove se il
+              tempo speso ad imprendere quelle danze imperfettamente l’avesser voluto impiegare alle
+              regole di sopra dimostre, non solamente sarebbono stati abili a poter ballare assai
+              più danze, e più regolata-mente di quelle che non sanno; ma eziandio non avrebbono
+              male speso il loro tempo e non sarebbono certamente rimasi fuor d’ogni loro credenza
+              ingannati.</p>
+            <p>[3] Coloro adunque che vogliono far tutto il profitto nel ballo nobile, aprano gli
+              occhi dell’intelletto e non si lascino trasportare, anzi si ridano di quegli altri li
+              quali, senza saper nulla, s’affrettano ad imparare un mescuglio di danze, di capriole
+              e di passi difficili, e credendo di fargli ottimamente, non fanno altro che
+              strapazzarsi inutilmente le gambe e tutto il corpo, ed i quali quanto più
+              s’affrettano, tanto più vanno errati; simili a coloro i quali, ritrovandosi in una ben
+              folta ed intralciata foresta, smarrito il dritto sentiero, quanto più corrono ed
+              affrettano il cammino per quella, tanto più s’allontanano dalla diritta via. Ma
+              lasciato da banda il capriccio di costoro, seguano la seguente regola: pongano ogni
+              studio ed ogni sollicitudine ad imprendere i passi di sopra spiegati e soprattutto
+              badino a’ lor movimenti e misura di tempo: perciocché, quantunque i passi si possano
+              fare sopra diverse positure di piedi e sopra diverse figure; tuttavia però conservano
+              constantemente i medesimi movimenti e valore. E poiché sapranno far bene i detti
+              passi, è di bisogno che imparino a legargli ed incatenargli assieme in varie guise e
+              maniere, or unendone due, or tre, or quattro ed or cinque, e da mano in mano via più
+              crescendo nel numero, ballandogli poco a poco sopra diverse figure e sopra arie loro
+              convenienti del tempo binario e ternario. Ed allorché saran pervenuti alla conoscenza
+              di saper unire e legare assieme molti de’ detti passi, ravvisandone le debite
+              positure, gl’equilibri, i movimenti ed il valor della misura, potranno liberamente
+              inoltrarsi ad imprendere qualunque danza che si è trovata finora, e che si troverà ed
+              inventerà in appresso.</p>
+            <p>[4] Questa si è adunque l’unica regola che si vuole seguire, e questa veggiamo che
+              sieguono i valenti Maestri di ballo, i quali non sanno già questa o quella danza, ma
+              sì bene le regole da farle tutte, e le già trovate, e che mai si possano dall’umano
+              ingegno inventare. E veggiamo tutto giorno intervenire, che venute di fuori delle
+              danze novellamente composte, per difficili che si vogliano immaginare, non avendo esse
+              altra cosa di nuovo che le figure, le quali per se stesse son facilissime; da coloro
+              che hanno le dette regole per le mani, in brieve ora esattamente si ballano,
+              perciocché non hanno a far altro che porre in opera sopra le dette danze ristesse cose
+              che sanno.</p>
+          </div>
+        </div>
+        <div type="book" xml:id="tratatto-minuetto">
+          <head>Trattato del Minuetto</head>
+          <div type="chapter" xml:id="tratatto-minuetto_1">
+            <head>Capitolo I. Del Minuetto, e delle parti che lo compongono</head>
+            <p>[1] Quantunque potrei qui francamente affermare, che avendo io sposte le sette parti
+              principali del ballo nobile, le quali infin dal cominciamento di quest’opera promisi
+              di render chiare, mi sia dalla presa fatica diliberato, e che oramai sia tempo di dare
+              alla penna ed alla mano riposo; pur nondimeno, il prender nuova lena ed il fare un
+              altro Trattato a parte sul Minuetto mi sembra, per le ragioni che seguiranno, sì
+              necessario, che se il primo Trattato di cui mi sono espedito, da questo secondo
+              seguitato non fusse, convenevolmente assai difettoso e mancante potrebbesi
+              riputare.</p>
+            <p>[2] Io mi sono del tutto persuaso che chiunque saprà le positure de’ piedi,
+              gl’equilibri ed i movimenti del corpo, e chi nel misurato tempo dell’armonia saprà
+              formare ed incatenare assieme i passi di sopra dimostri, e muovere le braccia così
+              ritonde che d’opposizione, ed ultimamente chi avrà l’intelligenza delle figure
+              regolari ed irregolari prodotte dalle quattro linee, cioè dalla retta, dalla
+              diametrale, dall’obliqua e dalla circolare, sarà non solamente abile a ballare ogni
+              danza, ma eziandio ad inventarne e comporne da sé medesimo delle altre: per la qual
+              cagione io non sono in obbligo di trattare delle danze in particolare. Ma d’altra
+              parte, considerando che il Minuetto, sorto tra bassi natali, cioè tra’ Contadini
+                d’<placeName>Angiò</placeName>, Provincia della <placeName>Francia</placeName>, i
+              quali senz’alcun artifizio e quasi naturalmente lo ballano, e ridotto poi in miglior
+              ordine e vaghezza sotto <persName>Luigi il Grande</persName>, abbia incontrato una
+              tale felice sorte, che da vile, umile e basso ch’egli era, per tratto di tempo è
+              divenuto così pomposo, che fattosi del tutto dimentico della sua infima condizione,
+              oggidì ritiene ed occupa il principal luogo tra la danza nobile. Senzaché ha sortito
+              un altro maggior privilegio, il qual si è che non si comincia ad imparare la danza
+              nobile se non da quello, e però si potrebbe appellare l’introduzione o la porta della
+              danza; ed oltracciò non si dà cominciamento, se non da esso, alle grandi e solenni
+              feste di ballo: perciò ho dovuto onorarlo ancor io, e contradistinguerlo tra tutte
+              l’altre danze, col far sopra di esso uno spezial Trattato, affine di renderlo il più
+              che sia possibile chiaro ed aperto, e per mostrare altrui il modo e la maniera che si
+              convien tenere per saperlo nobilmente e leggiadramente ballare.</p>
+            <p>[3] E per ordinatamente procedere alla dichiarazione del Minuetto, diremo intorno di
+              esso cinque cose. Primieramente del passo di Minuetto, delle sue principali mutazioni
+              e del modo presente di porlo in opera, così sulla linea obliqua e circolare, che a man
+              destra e sinistra. Secondariamente diremo del Movimento delle braccia del Minuetto.
+              Nel terzo luogo della Cadenza del Minuetto: non già ch’ella sia diversa da uno de’
+              tempi descritti di sopra nel capitolo della Cadenza, ma sì perciocché la Cadenza del
+              Minuetto si batte per comodità di coloro che lo ballano, in un altro modo ben
+              differente dall’altre danze. Nel quarto luogo si dirà della Figura del Minuetto. E nel
+              quinto ed ultimo luogo diremo d’alcuni altri passi, ornamenti, o abbellimenti, che dir
+              vogliamo, i quali posson rendere più vago e leggiadro il Minuetto. Dove sarà terminato
+              il suo Trattato.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-minuetto_2">
+            <head>Capitolo II. Del Passo del Minuetto</head>
+            <p>[1] Il Minuetto si è l’unica danza composta d’un solo passo rinnovato sopra la stessa
+              figura: il quale, o s’adoperi dalla Dama o dal Cavaliere, si comincia sempre col piè
+              dritto, ove tutti gli altri passi del ballo nobile indifferentemente coll’uno o
+              coll’altro piede si possono cominciare.</p>
+            <p>[2] Il passo del Minuetto è stato sempre, ne’ tempi andati ed anche di presente,
+              composto di quattro passi: ed avvegnaché da tempo in tempo avute abbia intorno a’ suoi
+              movimenti diverse mutazioni; tuttavia io non intendo ridirle qui tutte; ma ne recherò
+              tre sole, le quali, secondoché estimo, sono le principali.</p>
+            <p>[3] Primieramente fu in uso il passo di Minuetto in francese detto <hi rend="i">à la
+                Bohémienne</hi>, che in toscano sarebbe lo stesso che dire alla Zingaresca,
+              perciocché questa parola francese <hi rend="i">Bohémien</hi> nel toscano idioma
+              equivale alla voce Zingaro. Durò per lungo spazio di tempo: ed era composto d’un passo
+              Mezzo tronco fatto col piè destro, d’un passo Sdrucciolo adoperato col piè sinistro,
+              d’un altro passo Naturale del piè destro ed ultimamente d’un altro passo Gittato del
+              piè sinistro, ove terminava l’intero passo di Minuetto detto <hi rend="i">à la
+                Bohémienne.</hi></p>
+            <p>[4] Succede poi in secondo luogo il Passo di Minuetto a Fioretto, il quale, perocché
+              era men bello del precedente, durò per assai poco tempo. Era composto d’un Mezzo
+              tronco del piè destro e d’un Fioretto fatto col piè sinistro.</p>
+            <p>[5] Andati i descritti due passi in disuso, venne nel terzo ed ultimo luogo il passo
+              di Minuetto che oggidì s’usa, il quale senz’alcuna contraddizione è assai più bello e
+              gentile degli altri due; e sono per affermare che difficilmente i posteri ne saran per
+              trovare un altro più nobile e ben fatto di esso. Il qual passo, perciocché si fa in
+              tre differenti maniere, cioè diversamente adoperandosi sulla linea obliqua per
+              innanzi, e circolare, secondariamente andando a man dritta, e nel terzo luogo
+              ritornando sulla sinistra, convenevole cosa è che partitamente, di lor trattando, si
+              faccia parola.</p>
+            <p>[6] Il passo adunque di Minuetto sull’obliqua per la banda dinanzi e sulla linea
+              circolare adoperisi in questo modo: facciasi primieramente un Mezzo tronco col piè
+              dritto a poco meno della quarta positura, venendo la gamba sinistra per aria a
+              distendersi allato la destra, in distanza della metà della seconda positura. Ove
+              fattosi, col tenersi bassa la punta del piede, e quasi toccante la terra, un
+              istantaneo fermamento, ripiegato alquanto il ginocchio destro, passi nel medesimo
+              tempo il piè sinistro innanzi, facendo un leggerissimo passo Sdrucciolo ad un poco più
+              della quarta positura; quindi si faccia col piè dritto un passo Naturale a poco men
+              della quarta positura; ed ultimamente un Mezzo gittato col piè sinistro anche a poco
+              meno della quarta positura, il quale si dee sì leggermente fare, che quasi divenga
+              impercettibile, perciocché quanto più sarà adoperato soavemente, tanto più sarà per
+              riuscire gradevole alla vista de’ riguardanti.</p>
+            <p>[7] Il passo di Minuetto con cui si va a lato dritto è da adoperarsi in quest’altro
+              modo: facciasi primieramente un Mezzo tronco dallato col piè dritto alla seconda
+              positura, il quale, poiché si sarà rialzato, portisi il piè sinistro colla punta bassa
+              allato al destro, e si tengano ben distesi i ginocchi e quindi ripiegatigli, si faccia
+              col piè sinistro un passo Sdrucciolo dietro al destro alla terza positura: ed appresso
+              rialzatigli, si facciano due passi Semplici, il primo de’ quali col piè dritto alla
+              seconda positura ed il secondo col piè sinistro dietro al destro alla terza
+              positura.</p>
+            <p>[8] Il passo di Minuetto con cui si ritorna sul lato sinistro, si pone in opera in
+              quest’altra maniera: facciasi in prima un Mezzo tronco col piè destro per innanzi al
+              sinistro dalla terza alla quinta positura, ovvero col piè destro dietro al sinistro
+              dalla terza alla terza positura, o finalmente nel luogo del Mezzo tronco si
+              sostituisca un passo Piegato e Rialzato sulla terza positura: in secondo luogo si
+              faccia, col piè sinistro avente la gamba distesa e la punta bassa, e piegando
+              insensibilmente il dritto ginocchio, un passo ad un poco più della seconda positura;
+              succeda poi a questo un passo Semplice del piè destro dietro al manco alla terza
+              positura, e nel quarto luogo s’adoperi col piè sinistro un leggerissimo Mezzo gittato
+              alla seconda positura.</p>
+            <p>[9] Ciascun di questi tre dichiarati passi di Minuetto è composto di sei movimenti,
+              il primo de’ quali si è il piegato d’amenduni i ginocchi, camminando col piè destro,
+              il secondo il rialzato sopra lo stesso piede, sul quale si trova la battuta dell’aria
+              del Minuetto, come appresso nel capitolo della sua Cadenza dimostreremo, il terzo
+              movimento si è il piegato del dritto ginocchio, sdrucciolando col piè sinistro, il
+              quarto il rialzato sul medesimo piè sinistro, il quinto si è un movimento andante
+              fatto con un passo Naturale dal piè dritto, ed il sesto ed ultimo è un altro movimento
+              andante fatto dal piè sinistro in un Mezzo gittato. Il quale avvegnacché, come di
+              sopra dicemmo, contenga due movimenti, cioè il piegato e l’andante col salto, pur
+              nondimeno per la somma leggerezza con cui si dee adoperare, rendendosi il piegamento
+              ed il salto impercettibile, non gli rimane altro movimento visibile che l’andante, e
+              per la medesima ragione non gli si dee che un solo movimento attribuire.</p>
+            <p>[10] La più bella e leggiadra maniera da far questo passo è di rialzare il secondo
+              movimento del Mezzo tronco sulla punta del piè dritto, alzando alquanto il tallone di
+              terra, e nel ripiegare del dritto ginocchio, appoggiare leggermente il tallone sulla
+              terra: camminare appresso il secondo ed il terzo passo sopra la punta del piede; ed il
+              quarto passo, il quale come è detto è un Mezzo gittato, è da farsi leggermente cader
+              sulla punta; e ripiegando incontanente, dopo l’ultimo de’ quattro passi che formano
+              quello del Minuetto, il ginocchio dritto, convien leggermente appoggiare a terra il
+              tallone del piè sinistro, ed appresso adoperare gli altri passi di Minuetto che far si
+              convengono. Ma perciocché vi sono alcuni i quali per la loro naturale disposizione, e
+              perché hanno troppo alto il collo del piede, se non con estrema difficoltà non possono
+              rialzar sulla punta; ed alcuni altri, per contrario, i quali, perché hanno il collo
+              del piede assai basso ed i ginocchi troppo robusti e quasi inflessibili, appoggiar non
+              possono il tallone sopra la terra; perciò son da avvertire i primi a rialzare
+              leggerissimamente, ed in modo che i talloni non facciano alcun romore, ed i secondi ad
+              appoggiare tutta la pianta del piè sulla terra, acciocché così facendo vengano un poco
+              ad alzar di terra il tallone. Senzaché a questi naturali difetti dee rimediare e
+              supplire l’abilità del Maestro di ballo, il quale ha obbligo spezialissimo di
+              ammendare e coprire il meglio che si possa le mancanze della natura coll’arte,
+              adattando agli Scolari que’ passi e quelle distanze di positure de’ piedi che le loro
+              disposizioni o naturali costituzioni patiscono, acciocché possano, in niuna cosa
+              cedendo agli altri, a’ quali la natura è stata liberale de’ doni suoi, ottimamente
+              ballare.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-minuetto_3">
+            <head>Capitolo III. Del Movimento delle braccia del Minuetto</head>
+            <p>[1] In quella stessa guisa che da tempo in tempo s’andaron mutando i movimenti del
+              passo del Minuetto, si sono ancora in tre differenti maniere cambiati i movimenti
+              delle sue braccia.</p>
+            <p>[2] Primieramente, tenendosi alte, si muovevano in due tempi, in un de’ quali si
+              piegavano per lo gomito, e nell’altro si distendevano.</p>
+            <p>[3] Secondariamente, tenendosi le braccia alquanto più basse, si faceva questo
+              movimento in tre tempi: nel primo de’ quali si bassavano in modo che le mani
+              giugnessero fino alla parte delle tasche della giubba a’ lati più vicina; nel secondo
+              tempo, piegando i gomiti, si rialzavano le braccia; e finalmente nel terzo tempo
+              ritornavano nel loro primiero sito, ove rivoltesi alquanto le palme delle mani alla
+              banda dinanzi, a questo movimento si dava fine.</p>
+            <p>[4] La terza maniera di muover le braccia si è quella che oggidì s’usa, la quale è
+              parimente a tre tempi, e che invero è di gran lunga più nobile e graziosa delle altre
+              due di sopra descritte, e si adopera nel modo che siegue: si distendano in prima
+              liberamente e senza fare alcuna forza, le braccia allato agli angoli delle tasche, più
+              vicini alle pieghe della giubba, tenendosi le mani colle palme non del tutto serrate
+              né aperte, ma sì nel mezzo di questi modi, rivolte verso la giubba. Nello stesso tempo
+              poi che si piegano i ginocchi per incominciare il passo del Minuetto, sono da portare
+              soavemente le braccia per sopra l’una e l’altra banda dinanzi della giubba, e quasi a
+              fior d’essa, insino al mezzo delle sue tasche: e questo si faccia nel primo tempo. Nel
+              medesimo tempo poi che il piè diritto rialza il Mezzo tronco, si vogliono, piegando
+              insensibilmente i gomiti, alzar le braccia in modo che ciascuna mano si venga due sole
+              dita ad allontanare dalla giubba: e ciò si faccia nel secondo tempo. E nello spazio
+              che si fanno i tre altri passi, i quali compiono il passo del Minuetto, fa di bisogno,
+              movendole colle medesime distanze, farle anche soavemente tornare nel primo lor sito:
+              e questo si faccia nel terzo tempo, ove termina il movimento delle braccia del
+              Minuetto, la cui battuta si trova a punto sul principio del secondo tempo. Avvertasi
+              finalmente che questi tre movimenti in tre tempi fatti, si deono adoperare senza
+              fermarsi o ristare in alcuno di essi, immediate l’un dopo l’altro: e la lor bellezza
+              consiste nel sapergli legare assieme in maniera che facendogli l’uno all’altro
+              succedere, riempiano unitamente un passo ed una misura dell’aria del Minuetto.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-minuetto_4">
+            <head>Capitolo IV. Della Cadenza del Minuetto</head>
+            <p>[1] Crederà forse taluno, leggendo questo solo titolo, “Della Cadenza del Minuetto”,
+              ch’io, resomi dimentico affatto di quello che si è detto di sopra nel capitolo della
+              Cadenza, sia nel presente luogo a ragionare di qualche altro tempo dal binario o dal
+              ternario diverso: ma se mai precipitosamente, prima del debito tempo, così fattamente
+              opinar volesse, senza alcun fallo si troverebbe assai lontano dal vero e forte della
+              sua estimazione ingannato. E nel vero, quanto di sopra è detto, costantemente
+              confermo, e sono sempre per confermare: ma sì solamente dico che l’aria del Minuetto,
+              la qual è di tempo ternario, dee essere, per le ragioni che seguiranno, diversamente
+              dall’altre arie, battuta, come or ora farem vedere.</p>
+            <p>[2] Il passo del Minuetto, il quale, come dicemmo, inchiude sei movimenti, cioè il
+              piegato andante del piè destro, l’elevato del medesimo piede, il piegato del diritto
+              ginocchio, sdrucciolando col piè sinistro, l’elevato sopra il medesimo piè sinistro,
+              il movimento andante del piè diritto e l’altro andante del piè sinistro, contiene due
+              misure di tempo. Or perché ogni passo del ballo dee esser racchiuso in una sola
+              misura, acciocché venga meglio regolato dall’orecchio, ed i suoi movimenti vadano
+              esattamente in cadenza; il passo del Minuetto, il quale contiene entro di sé quattro
+              passi da sei movimenti composti, per esser bene e con tutta l’esattezza ballato è di
+              bisogno che ambedue le misure che esso contiene non siano battute, perciocché
+              agevolmente confonder potrebbono la mente di colui che balla: ma sì conviene che se ne
+              batta una sola e che l’altra rimanga in aria. Per la qual cagione avvegnaché il tempo
+              ternario, o tripola che dir vogliamo, del Minuetto, batter si potesse in questo modo,
+              cioè facendo trovare la prima battuta sul secondo movimento di questo passo, e la
+              seconda sul quarto; pur nondimeno, per non confondere coloro che ballano, o fargli
+              torre in iscambio una per un’altra misura, si dee solamente battere la prima, la qual
+              si trova sempre sul secondo movimento, cioè sul rialzato del piè destro, e l’altra
+              battuta rimanga in aria; ed in tal guisa si vuol continuare negli altri passi del
+              Minuetto a battere la sola prima misura, la qual costantemente si trova sul secondo
+              movimento di ciascun passo del Minuetto. Ed i Maestri di ballo devono nella sposta
+              maniera a’ loro Scolari impararlo, perciocché, così facendo, ognuno de’ detti passi
+              conterrà un solo tempo, e si renderà agevolissimo ad esser ballato in cadenza; dove
+              sarebbe per riuscire difficilissimo, se batter si volesse l’una e l’altra misura.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-minuetto_5">
+            <head>Capitolo V. Della Figura del Minuetto</head>
+            <p>[1] Secondo l’ordine preso dal principio di questo Trattato, seguita nel quarto luogo
+              a dire della Figura del Minuetto. La quale, comeché un tempo stata fosse questa S<note
+                resp="editor" place="bottom">[NdE]S inversé dans le texte original.</note>, di
+              presente ha preso la forma d’un Z, la quale senza alcun dubbio è più laudevole della
+              prima, perciocché coloro che ballano sopra a questa seconda vengono del continuo a
+              trovarsi l’un dirimpetto all’altro, ed in conseguenza possono assai meglio “figurare”:
+              nel che consiste una delle maggiori e più visibili perfezioni della danza.</p>
+            <p>[2] Per descrivere adunque, ballando, la Figura del Minuetto, prima d’ogn’altra cosa
+              convien che la Dama ed il Cavaliere, poiché avranno compiute le loro riverenze, delle
+              quali sufficientemente dicemmo di sopra, si diano la mano e facciano assieme per
+              innanzi un passo di Minuetto: e quindi, fatti che avrà la Dama intorno al Cavaliere
+              due passi di Minuetto, e che questi ne avrà nell’istesso tempo fatti in giro altri
+              due, camminando addietro e formando un mezzo cerchio per la destra, lascino la mano e
+              si mettano sul principio della linea diametrale del Z, cioè la Dama verso quel luogo
+              dove cominciaronsi le riverenze, ed il Cavaliere sull’opposita diametrale.
+              Incominciasi poi la Figura, facendosi due passi di Minuetto a lato dritto sulla linea
+              diametrale, alquanto partecipante dell’obliqua, contraria all’obliqua della Figura del
+              Minuetto. Facciano appresso due altri passi a man sinistra, co’ quali ritornino sul
+              principio della già scorsa diametrale, donde partirono. Quindi, messisi sull’obliqua
+              della detta Figura, facciano per innanzi, passando l’un per la destra dell’altro, e
+              presentandosi alquanto, nel passare, vicendevolmente la presenza del corpo, due altri
+              passi di Minuetto; nel secondo de’ quali, facendosi il Mezzo gittato, si adoperi un
+              quarto di giro dalla obliqua della Figura di Minuetto alla sua obliqua contraria. Si
+              facciano poi nuovamente i due passi a lato destro, al primo de’ quali si dia principio
+              con un Mezzo tronco fatto con un quarto e mezzo di giro per la banda di dentro, e
+              quindi ritornando sul lato sinistro, si facciano due altri passi di Minuetto, nella
+              maniera di sopra dimostra. E qui si dà termine all’intera figura del Z.</p>
+            <p>[3] Or sopra ciascheduna linea della descritta Figura seguitino, per fintanto che
+              piacerà a loro, a far due de’ nomati passi, non già perché vi sia alcun obbligo di
+              serbare questo prefisso numero, ma sì bene per meglio “figurare”: nel che, come di
+              sopra è detto, consiste una delle maggiori e più visibili perfezioni della danza.</p>
+            <p>[4] S’avverta però bene, che quantunque dipenda dall’arbitrio della Dama e del
+              Cavaliere il ballare poco o assai tempo sulla Figura del Minuetto, pur nondimeno
+              bisogna rimanersi d’offendere nell’uno o nell’altro di queste due estremità, le quali
+              sono egualmente da biasimare. Ed acciocché non s’incorra in alcuno di questi difetti,
+              la migliore e più sicura regola che convien seguire si è che, dopo aversi la Dama ed
+              il Cavaliere lasciata la mano, facciano su per la mostrata Figura tre interi passaggi:
+              i quali compiuti, ritrovandosi amenduni sull’estremità dell’obliqua, facciano sopra di
+              essa per innanzi un passo di Minuetto; e nel medesimo tempo che lo cominceranno
+              convien che si alzino dalla banda dinanzi, quasi all’altezza della spalla, il braccio
+              destro, e piegatolo soavemente per lo gomito al di dentro, tra il petto e la mano un
+              palmo di distanza serbando (il qual atto si fa in segno di baciamano) e distese poi
+              per essi leggermente le braccia nel tempo istesso che sarà terminato il detto passo,
+              si diano lateralmente la mano, e facciano assieme due Passi di Minuetto in un giro
+              intero, cioè descrivendo mezzo cerchio per ciascheduno. Quindi, terminati che avranno
+              i detti due passi, lascino la mano e facciano, andando alquanto al di dietro, uno o
+              due passi di Minuetto, secondo la capacità della stanza ove si balla, sulla linea
+              diametrale. Facciano appresso sull’obliqua contraria a quella della Figura del Z un
+              passo dalla banda dinanzi, e nel medesimo tempo che si richiede per adoperarlo,
+              facciano col braccio e colla mano sinistra tutto ciò che fecero per addietro col
+              braccio e colla man destra; e datisi nuovamente la mano, facciano nel modo detto di
+              sopra due altri passi di Minuetto in un altro giro. Si ripongano appresso sopra la
+              linea diametrale, e facciano un passaggio e mezzo, o al più due, sopra la stessa
+              Figura del Z, e nel ritrovarsi sull’estremità dell’obliqua, facciano per innanzi un
+              altro passo di Minuetto, nell’incominciamento del quale alzino non già uno, ma
+              amendune le braccia, e fatti che avranno nel modo divisato di sopra, i medesimi
+              movimenti anche in segno di baciamano, si porgano vicendevolmente l’una e l’altra
+              mano; e se il Cavaliere, il quale dee essere il conduttor della Dama, si troverà
+              sull’obliqua dalla banda che s’incominciò il Minuetto, dovrà con esso lei descrivere
+              un giro intero; dove, se si troverà sulla parte contraria dell’obliqua, non dovrà fare
+              che un mezzo giro, e condottala sul medesimo luogo dond’ella si partì nel principio
+              del Minuetto, si lascino le mani, e ripostosi anche il Cavaliere nel suo primiero
+              luogo, facciano parimente la solita riverenza.</p>
+          </div>
+          <div type="chapter" xml:id="tratatto-minuetto_6">
+            <head>Capitolo VI. D’alcuni altri passi ed ornamenti, co’ quali si può rendere più
+              leggiadro il Minuetto</head>
+            <p>[1] Quantunque paia a prima vista, ch’essendo il Minuetto, come di sopra dicemmo,
+              composto d’un solo passo rinnovato sopra la stessa figura, si possa agevolmente e con
+              assai meno difficoltà dell’altre danze, imparare: pur nondimeno, se si considera
+              ch’egli per piacere agli spettatori dee esser accompagnato dal grazioso e niente
+              affettato portamento del corpo, da un passo facile e soave il quale non abbia alcuna
+              affettazione o durezza, da una giusta positura di piedi, secondo le misure di sopra
+              dimostre, dal bello e leggiadro movimento delle braccia, da una speziale attenzione a
+              ben “figurare”, ed ultimamente da un orecchio ben dilicato a seguitar la cadenza; si
+              dovrà fermamente dire che il Minuetto non sia tanto agevole, com’altri crede, ad esser
+              bene ed ottimamente ballato. Ed io porto fermissima opinione, che anche concesso che
+              il Minuetto sia facile ad esser ballato, è nondimeno difficilissimo, più che ogn’altra
+              danza, a piacere agli spettatori; perciocché essendo egli composto, come è detto, d’un
+              solo passo rinnovato sopra la stessa agevolissima figura, vengono i Circonstanti a
+              vedere la medesima cosa e perciò in breve spazio di tempo, riguardando essi il
+              Minuetto, possono esser dal rincrescimento assaliti, ed in piccola ora si possono
+              tediare: a differenza dell’altre danze nelle quali, essendovi copia di passi e figure,
+              veggono del continuo cose nuove, e perciò difficilmente vi si possono annoiare. E da
+              ciò nasce che il Minuetto, come dissi, quantunque più facile dell’altre danze a
+              ballare, si rende più malagevole a piacere agli spettatori: e che per conseguire il
+              fine di rendersi a quelli gradevole, uopo è che sia accompagnato dalle perfezioni di
+              sopra recate.</p>
+            <p>[2] Il Minuetto, comeche ballato con proprietà, e col suo solo passo, sia laudevole
+              ed incontri l’altrui piacere; tuttavia può essere anche ornato da alcuni altri passi
+              conformi alla sua misura e figura, cioè che non oltrepassano il suo valore di tempo, e
+              che non guastano né contraffanno la figura del Z.</p>
+            <p>[3] Si può adunque, terminato il primo passo di Minuetto sulla linea diametrale a man
+              destra, invece del secondo, fare per la banda dinanzi un passo Grave col piè diritto,
+              ed un Mezzo gittato col sinistro alla quinta positura. Il quale, poiché sarà
+              terminato, voglionsi incontinente ben piegare i ginocchi (donde incominciano i passi
+              sulla diametrale a man manca) ed appresso rialzatigli, si dee seguitare il passo di
+              Minuetto col piè sinistro, e finire nel modo detto di sopra.</p>
+            <p>[4] Si possono eziandio, mentre si fa il passo Grave, alzare un poco più le braccia;
+              e chinato alquanto il capo verso la destra, si potrà gittare lo sguardo alla punta di
+              quel piede con cui si fa questo passo, e riguardatala per infino alla metà del suo
+              cammino, è da riporre il capo nel suo naturale equilibrio. Avvertasi nondimeno, che se
+              colui che fare intende questo piegamento di testa, non si confidasse, adoperandolo, di
+              mostrarvi una grazia naturalissima e niente affettata, sarebbe meglio astenersene.</p>
+            <p>[5] Si possono anche fare, in porgendo la man sinistra, invece del passo di Minuetto,
+              il Grave ed il Mezzo gittato. Il quale, poiché sarà terminato, si dee al solito,
+              camminando e dando la mano, seguire il passo di Minuetto: e dopo che si sarà quella
+              lasciata, nel mentre si faranno a lato destro, secondo l’ampiezza di quel luogo ove si
+              balla, uno o due passi di Minuetto, si potrà nuovamente chinare il capo nella divisata
+              maniera.</p>
+            <p>[6] Qui si vuole avvertire, che il passo Grave ed il Mezzo gittato far non si possono
+              quando è da porgere la man destra, perciocché la positura de’ piedi ove il Cavaliere
+              si trova, non è adatta a potergli fare: tanto maggiormente che la Dama, non seguendo
+              forse questa regola o quantità di passi, può prevenirlo, porgendogli la mano (la quale
+              non è lecito in niun modo rifiutare) e con ciò non gli darà tempo da prendere la
+              positura richiesta a poter cominciare il Grave, od altro passo, fuor quello del
+              Minuetto. E però la via più sicura che bisogna tenere si è che, qualora è da porgere
+              la man destra, si faccia il solito passo del Minuetto.</p>
+            <p>[7] Si possono parimente fare, in luogo del secondo passo di Minuetto a man destra,
+              due Mezzo tronchi, il primo col piè destro per innanzi alla quarta positura,
+              approssimando senza alcuno indugio il piè sinistro dietro al destro alla terza
+              positura, e tenendolo in aria, ovvero sopra la punta: ed il secondo Mezzo tronco col
+              piè sinistro, ritornando addietro alla quarta positura; dopo del quale bisogna
+              subitamente alzare il piè destro e ricominciare il passo di Minuetto.</p>
+            <p>[8] Havvi ancora degli altri passi, adatti alla Dama ed al Cavaliere, co’ quali si
+              può rendere adorno il Minuetto ed i quali conoscono i buoni Maestri di ballo. Ed
+              all’incontro ve ne ha degli altri assai, del qual numero sono i passi Saltanti
+              semplici o capriolati, i passi raddoppiati, che si fanno velocemente, ed i passi che
+              girano più d’un quarto di giro, i quali generalmente son da schifare, come quelli che
+              scompongono la persona e contraffanno la figura del Minuetto.</p>
+            <p>[9] Ed ultimamente è da avvertire che i passi o piegamenti di testa, co’ quali si può
+              rendere il Minuetto più adorno, non si deono troppo spesso fare, perciocché di
+              leggieri partorir potrebbono affettazione, e muterebbongli la figura. Per la qual
+              cagione, nell’intero suo decorso far si potranno una, due o al più tre volte, e gli
+              saran per aggiugnere somma grazia e leggiadria: dove il trapassare questo numero
+              sarebbe lo stesso che voler incorrere nel grave difetto di coloro che sono più vaghi
+              degli ornamenti che della sustanza delle cose.</p>
+          </div>
+        </div>
+        <div type="chapter" xml:id="della-contradanza">
+          <head>Della Contradanza</head>
+          <p>[1] Dettosi sufficientemente del Minuetto, e delle maniere colle quali si può
+            nobilmente ballare; convien che di passaggio si faccia anche parola della Contradanza,
+            giacché da qualche tempo a questa parte, non già perché lo meriti, ma piuttosto per
+            vedersi in moto un gran numero di persone, ed affine di ravvisar l’ordine nella
+            confusione e nella mischia, ha messo il piè tra le danze nobili.</p>
+          <p>[2] La Contradanza si può fare o con determinato numero di Dame e di Cavalieri, ovvero
+            indeterminato, cioè di quante e quanti mai ne possono entro quella stanza, ove si balla,
+            capire.</p>
+          <p>[3] La Contradanza di numero diterminato, cioè di quattro, d’otto, o al più di dodici
+            persone, è composta di figure e di passi regolati, fatti sopra alcune arie agevoli e
+            corte. Vuol essere solamente ballata da quelle Dame e da que’ Cavalieri che sanno le
+            regole del ballo nobile, o almeno quei soli passi i quali deono entrar nella
+            Contradanza. Ed affine di evitare ogni confusione, fa di mestiere, prima d’esporsi agli
+            occhi del pubblico, o separatamente, ovvero uniti assieme, impararla, perciocché così
+            facendo non potranno se non piacere agli spettatori del ballo.</p>
+          <p>[4] La Contradanza di numero indeterminato, cioè d’altrettante Dame e Cavalieri messi a
+            fila sopra due linee, quanti ne comporta l’ampiezza di quel luogo dove si balla, è
+            composta di sole regolate figure, e di passi non regolati. Vuol essere parimente ballata
+            da coloro che sanno la danza nobile, o almeno quei soli passi che vi bisognano, cioè il
+            Fioretto, il Mezzo tronco, il Tronco, il Mezzo contrattempo, il Contrattempo, il
+            Saltante, il passo di Rigodone, lo Scacciato e l’Unito. Si potrebbe anche tra questi
+            annoverare un antichissimo passo detto Zoppetto, il quale altro non è, che un passo
+            Tronco dopo il cui movimento rialzato si leva in aria il piè che lo termina, ed
+            appresso, appoggiandolo a terra, bisogna lasciarvisi leggermente su cadere, e ripiegare
+            incontinente i ginocchi, per incominciare un altro Tronco. Quantunque però questo passo
+            siasi per me veduto, e tutto giorno si vegga, usare ad alcune persone di distinzione,
+            pur nondimeno io non sarei per consigliare alcuno a servirsene. Ora con questi passi si
+            può ballare la Contradanza assai regolarmente per quello che s’attiene alle figure ed
+            alla cadenza, non già a’ movimenti de’ passi. E contuttoché sia cosa impossibile, il
+            potersi color che ballano incontrare facendo gli stessi passi, quando questi non siano
+            regolati e stabiliti sulle figure; tuttavia valendo ogni passo, come di sopra dicemmo,
+            una misura d’armonia, eglino perfettamente riempiranno, con diversi movimenti, così la
+            cadenza che la regolata figura.</p>
+          <p>[5] Tra tutte le Contradanze di numero indeterminato, le più regolate, e che piacciono
+            più dell’altre, sono quelle ove entra il solo passo di Minuetto, le quali vogliono esser
+            ballate da coloro che sanno ballare il Minuetto in cadenza. La loro regola, ed il
+            diletto che danno altrui, procedono dall’esser quelle danzate sopra alcune arie dalle
+            quali si può in un tratto comprendere quanti passi di Minuetto in ciascheduna figura si
+            possono contenere.</p>
+          <p>[6] Or, da quello che finora è detto, apertamente si scorge che coloro i quali non
+            sanno la danza nobile, o almeno que’ soli passi che nelle Contradanze abbisognano, non
+            le potranno in alcun modo ballare. Né varrà il dire che que’ tali che non hanno della
+            danza, o de’ richiesti passi, notizia, basta solo che siano sulle dette linee tra quelli
+            fraposti che sanno ottimamente ballare; perciocché, non sapendo essi con esattezza fare
+            un solo passo, ed in conseguenza venendosi le già regolate o stabilite figure a
+            descrivere prima o dopo il debito tempo, per necessità vi dovrà nascere un continuo
+            sconcerto ed una vergognosissima confusione.</p>
+          <p>[7] La poca fatica che si dura nel comporre le figure della Contradanza fa sì che
+            ognuno, o bene, o male, e secondo la propria sufficienza, ne vada tutto giorno a suo
+            modo inventando delle nuove: donde procede l’infinito numero che se ne trova; in guisa
+            che alle volte interviene che vi saranno delle Contradanze ignote a tutti, fuor
+            solamente a coloro che le introducono. Sopra di che è da dare questo avviso, che non è
+            cosa ben fatta il voler nelle conversazioni, e tanto meno ne’ solenni Festini, imparare
+            estemporaneamente alcuna di queste nuove Contradanze: ma si conviene innanzi tratto
+            appararle almeno a due Dame ed a due Cavalieri, che a cominciarle dovranno essere i
+            primi, acciocché gli altri, udite prima l’arie di quelle, e ravvisatene le figure, le
+            possano convenevolmente ballare.</p>
+        </div>
+        <div type="chapter" xml:id="delle-riverenze">
+          <head>Delle Riverenze fuor della Danza</head>
+          <p>[1] Quantunque il far motto delle Riverenze fuor della danza paia cosa alla proposta
+            materia, di cui mi sono diliberato, poco appartenente; pur nondimeno, considerando
+            quanto sian esse nella società civile e nell’usar necessarie, mi piace (quando altri non
+            fusser contenti di veder questo capitolo disgiunto dal <title>Trattato del Ballo
+              Nobile</title>) anzi d’espormi alla lor giusta, ovvero ingiusta censura, che
+            tralasciar cosa da cui possono spezialmente le Dame ed i Cavalieri, in serviggio de’
+            quali a sì fatta fatica messo mi sono, alcun profitto ritrarre. Le Riverenze adunque
+            fuor della danza, avvegnaché anzi procedano dal “buon gusto” di chi le fa, dal
+            conversare, e dall’aver imparato a ballare, che da particolari precetti; tuttavia vi
+            sono anche alcune regole generali e costanti, per le quali si possono esattamente e con
+            tutta la grazia adoperare. Si riducon queste al solo numero di quattro, cioè al riverire
+            camminando innanzi, addietro, a man destra e sinistra, ed a piè fermo.</p>
+          <p>[2] Or volendo il Cavaliere salutare alcuno nel primo modo, mandi, ovvero sdruccioli
+            (secondo l’opportunità di quel luogo ove si dimora), un piè per innanzi, e tenendo il
+            cappello colla man sinistra, chini il corpo, o poco o assai, secondo il merito della
+            persona che riverisce, la quale riguardi egli un pochetto, e graziosamente, nel viso. E
+            volendo nuovamente risalutarla, poiché avrà fatti alquanti passi dalla banda dinanzi,
+            torni, nel divisato modo, a fare la Riverenza.</p>
+          <p>[3] Le Riverenze che sono da fare camminando addietro servono ordinariamente nel
+            prendere, che alcun fa, congedo da un altro da cui si vuol dipartire. Si fanno queste in
+            quel numero che si conviene, chinando il corpo, e portando, o leggermente sdrucciolando,
+            un piè dopo l’altro, per fintanto che sia lecito di sottrarre lo sguardo della persona
+            che egli saluta.</p>
+          <p>[4] Le Riverenze che si vogliono fare dall’uno e dall’altro lato sono invero le più
+            difficili. Servono ne’ luoghi dove vi ha gran copia di persone, e ne’ quali v’è obbligo
+            di salutar camminando o solamente quelle che stanno a lato diritto, ovvero quelle che
+            dimorano a man sinistra, o finalmente così l’une che l’altre. Dovendo adunque il
+            Cavaliere entrare in una Galleria, od altra stanza, ove si trovano a man destra e
+            sinistra, e nel fondo di quella, assai Dame e Cavalieri seduti, o che stanno in piedi,
+            convien che, entrato che sarà in essa, faccia a tutta la brigata la sua prima Riverenza:
+            e quindi messosi a camminare sopra la linea retta, e volendo egli salutare alcuna
+            persona a lato destro, innanzi di farsele troppo di presso, guardatala graziosamente nel
+            viso, e nello stesso tempo presentatale alquanto la presenza del corpo, sdruccioli
+            soavemente, o mandi verso l’obliqua il piè destro, e chinando verso di lei il corpo, le
+            faccia la Riverenza. Ed appresso, volendo egli salutare alcuno a man sinistra, cammini,
+            se bisogna, uno, due, o più passi, e portato, o sdrucciolato, che avrà col piè manco
+            verso l’obliqua sinistra, gli faccia, nel modo detto di sopra, la Riverenza. E s’egli
+            vorrà continuare dall’una e dall’altra banda le sue Riverenze, avverta bene a passare da
+            una all’altra obliqua contraria, acciocché non volti le spalle alle persone che stanno
+            da un de’ lati.</p>
+          <p>[5] Ed ultimamente, le Riverenze a piè fermo servono qualora si vogliono salutare
+            quelle persone alle quali si sta molto di presso. Si fanno esse staccando un de’ piedi
+            dallato ed appoggiatolo a terra; si porti, o si sdruccioli dietro di esso leggermente
+            coll’altro piede, chinandosi il corpo e facendosi quanto è detto di sopra.</p>
+          <p>[6] Quanto finora è detto serva anche di regola alla Dama nel far le sue Riverenze, la
+            quale può solamente rimanersi di sdrucciolare: e quando vorrà salutare alcuno, basterà
+            solo che si fermi tenendo i piedi sulla prima o sulla terza positura, o alquanto più
+            lontani, quando le fosse più comodo: ed appresso pieghi amenduni i ginocchi nel modo di
+            sopra mostrato nel capitolo della riverenza.</p>
+          <trailer>IL FINE</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
