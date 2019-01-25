@@ -52,14 +52,6 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-          <titlePart>TRATTATO <lb/>TEORICO-PRATTICO <lb/>DI BALLO</titlePart>
-          <byline>DI <lb/><docAuthor>GENNARO MAGRI</docAuthor> <lb/>NAPOLITANO
-            <lb/><hi rend="i">Maestro di Ballo de’ Reali Divertimenti di Sua Maestà <lb/>Siciliana, della Reale Accademia Militare,</hi> <lb/>ed <lb/>ALLA NOBILE ACCADEMIA DI MUSICA, E <lb/>DI BALLO DE’ SIGNORI CAVALIERI, DI <lb/>CUI N’È PUR MAESTRO; <lb/><hi rend="i">DEDICATO</hi></byline>
-          <docImprint>In <placeName>Napoli</placeName> 1779 presso <name>Vincenzo Orsino</name> con licenza de’ superiori.</docImprint>
-        </titlePage>
-    </front>
     <body>
       <div xml:id="presentazione">
         <head>Presentazione</head>
