@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Essai ou principes élémentaires de l'art de la danse, utiles aux personnes destinées
           à l'éducation de la jeunesse</title>
         <author key="Martinet, J.-J.">J.J. Martinet</author>
-        <editor key="Kiss, Dora">Dora Kiss</editor>
+        <editor key="Kiss, Dóra">Dora Kiss</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -18,17 +18,17 @@
         </respStmt>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Anne-Laure Huet</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/martinet_essai-art-danse</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/martinet_essai-art-danse</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -50,10 +50,10 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><title>Essai ou principes élémentaires de l'art de la danse, utiles aux personnes
-            destinées à l'éducation de la jeunesse</title>, par <author>J.J. Martinet</author>,
-          maître à danser à Lausanne, <pubPlace>Lausanne</pubPlace> : chez <publisher>Monnier et
-            Jaquerod</publisher>, <date>1797</date>, <biblScope>72 p.</biblScope> PDF : <ref
+        <bibl>J.J. Martinet, <hi rend="i">Essai ou principes élémentaires de l'art de la danse, utiles aux personnes
+            destinées à l'éducation de la jeunesse, par J.J. Martinet,
+            maître à danser à Lausanne</hi>, <pubPlace>Lausanne</pubPlace> : chez <publisher>Monnier et
+            Jaquerod</publisher>, <date>1797</date>, 72 p. PDF : <ref
             target="https://books.google.fr/books?id=9YVGz9Ing8UC">Google</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
@@ -62,7 +62,7 @@
         <date when="1797"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

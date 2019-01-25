@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Témoignages des gazettes en vers sur les spectacles dansés entre 1660 et 1671</title>
+        <author key="Boursault, Edme (1638-1701)" ref="https://data.bnf.fr/fr/11893528/edme_boursault/">Edme Boursault</author>
+        <author key="La Gravette de Mayolas"  ref="">La Gravette de Mayolas</author>
+        <author key="Loret, Jean (1595?-1665)"  ref="https://data.bnf.fr/fr/10220640/jean_loret/">Jean Loret</author>
+        <author key="Robinet, Charles (1608?-1698)"  ref="https://data.bnf.fr/fr/12358194/charles_robinet/">Charles Robinet</author>
+        <author key="Subligny, Adrien-Thomas Perdou de (1636-1696)"  ref="https://data.bnf.fr/fr/12214641/adrien-thomas_perdou_de_subligny/">Adrien-Thomas Perdou de Subligny</author>
         <editor>Oriane Morvan</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Anne-Laure Huet</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/temoignages-gazettes-vers</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/temoignages-gazettes-vers</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -34,7 +39,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl/>
+        <bibl>Edme Boursault, La Gravette de Mayolas, Charles Robinet, Adrien-Thomas Perdou de Subligny, <hi rend="i">Témoignages des gazettes en vers sur les spectacles dansés entre 1660 et 1671</hi>, à partir de la recherche d'Oriane Morvan, « Le spectacle de Cour vu par les gazetiers entre 1660 et 1673 », mémoire de master 2, sous la direction de Georges Forestier.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -42,15 +47,15 @@
         <date notBefore="1660" notAfter="1671"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <head>TÉMOIGNAGES DES GAZETTES EN VERS
-        <lb/>SUR LES SPECTACLES DANSÉS
-        <lb/>ENTRE 1660 ET 1671</head>
+      <head rend="uc">Témoignages des gazettes en vers
+        <lb/>sur les spectacles dansés
+        <lb/>entre 1660 et 1671</head>
       <div xml:id="a1660">
         <head>
           <num>1660</num>

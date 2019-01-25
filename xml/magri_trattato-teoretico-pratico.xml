@@ -2,12 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--Odette: 2019-01-18T13:39:41+01:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="magri_trattato-teoretico-pratico" xml:lang="ita">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Trattato teorico-prattico di ballo di Gennaro Magri napolitano</title>
-        <author key="Magri, Gennaro (1737?-1789)">Gennaro Magri</author>
+        <author key="Magri, Gennaro (1737?-1789)" ref="https://data.bnf.fr/fr/14643224/gennaro_magri/">Gennaro Magri</author>
         <editor>Arianna B. Fabbricatore</editor>
       </titleStmt>
       <editionStmt>
@@ -19,6 +19,10 @@
         <respStmt>
           <name>Eric Thiébaud </name>
           <resp>OCR, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>édition Tei</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -35,7 +39,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Gennaro Magri</author> (ca 1737-1789), <title>Trattato teorico prattico di ballo di Gennaro Magri, Maestro di Ballo de’ Reali Divertimenti di Sua Maestà Siciliana, della Reale Accademia Militare, ed alla Nobile Accademia di Musica, e di Ballo de’ Signori Cavalieri, di cui n’è pur Maestro, dedicato</title>, In <pubPlace>Napoli</pubPlace>, <date>1779</date>, presso <publisher>Vincenzo Orsino</publisher> con licenza de’ superiori. PDF: <ref target="https://archive.org/details/danceman115">Internet Archive</ref></bibl>
+        <bibl>Gennaro Magri (ca 1737-1789), <hi rend="i">Trattato teorico prattico di ballo di Gennaro Magri, Maestro di Ballo de’ Reali Divertimenti di Sua Maestà Siciliana, della Reale Accademia Militare, ed alla Nobile Accademia di Musica, e di Ballo de’ Signori Cavalieri, di cui n’è pur Maestro, dedicato</hi>, In <pubPlace>Napoli</pubPlace>, <date>1779</date>, presso <publisher>Vincenzo Orsino</publisher> con licenza de’ superiori. PDF: <ref target="https://archive.org/details/danceman115">Internet Archive</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -429,7 +433,7 @@
         <p>[13] La mia intenzione fu di dar un compiuto trattato a’ dilettanti. Se rimasi tradito dall’esito, non è colpa di volontà. L’umano intendimento ha i limiti suoi. Mi sono sforzato non però d’introdurne nel ballo quella bellezza ch’è diretta. Non piacque al riflessionista, poco, anzi nulla debbo curarmene, perché non è egli Giudice competente di somiglievoli contese. Quando l’opera mia verrà nelle mani dei buoni e disappassionati intendenti, riceverò di buon’animo le modeste correzioni. Nella vita sociale deve darsi il primo luogo a Messer Galateo. Comunque non però siffatte correzioni s’imprendano, il mio cortese leggitore farà nella prevenzione che l’idee del ballo siccome son rinserrate nell’umano intendimento, così, ancorché bene si concepiscano, possono esser male rappresentate o male intese da chi entra a leggere commosso ed agitato dalla tirannica passion del partito. Vivi felice.</p>
       </div>
       <div type="book" xml:id="part-1">
-        <head>PARTE PRIMA</head>
+        <head><hi rend="uc">Parte prima</hi></head>
         <div type="chapter" xml:id="part-1_1">
           <head>Capitolo I. Dell’Utilità della Danza</head>
           <p>[1] Non il solo dilettevole, come altri credono, è l’oggetto di questa piacevole Facultà; ma l’utile che si ricava da essa è più del dolce; a segno che, oso dire, rendesi in un Cavaliere necessaria ed importante. La maniera di presentarsi in una Conversazione, il ricevere con garbo le persone in Casa, il modo di contenersi in una adunanza e distinguer con il saluto e con le riverenze le persone, son cose tutte che si apprendono dalla Danza. Né questo solo, ella dà pure alle membra una bella disposizione, che accresce aria ed un bel portamento al nostro corpo. Non pretendo dire che questa disposizione, qual dalla Danza vien data al corpo nostro, sia il dotarlo di una nuova simmetria: ma solo rende più disposta e ben messa quell’istessa che dalla natura ebbe il corpo umano. Vediamo noi per ordinario che gli uomini tengono le loro membra in una positura così negletta, che in essi non giungonsi ad osservare e distinguere tutte quelle belle disposizioni e misure che sono dalla natura distribuite al nostro meccanismo. Chi però avrà imparata la Danza non lascia la simmetria del suo corpo in quella negligenza, ma va disponendo ciascun membro in proprio sito, e mostra la giusta proporzione e l’ordine di tutta la macchina. Come pur su di ciò saggiamente si avvisò il sign. Cavalier <persName key="Planelli, Antonio (1747-1803)">Planelli</persName>. Anzi più delle volte una buona artifiziosa disposizione cela alcuni difettuzzi che in certi corpi sono apposti, o per loro natura o per vizi contratti da una mala abituazione, come meglio faremo osservare.</p>

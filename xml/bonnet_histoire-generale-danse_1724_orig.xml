@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Histoire générale de la danse sacrée et profane [graphies originales]</title>
-                <author key="Bonnet, Jacques (1644-1724)">Jacques Bonnet</author>
+                <author key="Bonnet, Jacques (1644-1724)" ref="https://data.bnf.fr/fr/12462211/jacques_bonnet/">Jacques Bonnet</author>
                 <author key="Bourdelot, Pierre Michon (1610-1684)">Pierre Michon Bourdelot</author>
             </titleStmt>
             <editionStmt>
@@ -23,14 +23,7 @@
             <publicationStmt>
                 <publisher>Sorbonne Université, LABEX OBVIL</publisher>
                 <date when="2018"/>
-                <idno type="tei"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/bonnet_histoire-generale-danse_1724_orig.xml</idno>
-                <idno type="html"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/bonnet_histoire-generale-danse_1724_orig.html</idno>
-                <idno type="txt"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/bonnet_histoire-generale-danse_1724_orig.txt</idno>
-                <idno type="epub"
-                    >http://obvil.paris-sorbonne.fr/corpus/danse/bonnet_histoire-generale-danse_1724_orig.epub</idno>
+                <idno>http://obvil.sorbonne-universite.site/corpus/danse/bonnet_histoire-generale-danse_1724_orig</idno>
                 <availability status="restricted">
                     <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
                         <p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire
@@ -55,14 +48,14 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl><author>Jacques Bonnet [et Pierre Michon Bourdelot]</author>, <title>Histoire
+                <bibl>Jacques Bonnet [et Pierre Michon Bourdelot], <hi rend="i">Histoire
                         générale de la danse sacrée et profane ; ses progrès et ses révolutions,
                         depuis son origine jusqu’à présent. Avec un Supplément de l’histoire de la
                         musique, et le Parallèle de la peinture et de la poésie. Dédiée à S. A. R.
                         Monseigneur le Duc d’Orléans, petit-fils de France. Par M. Bonnet, ancien
-                        payeur des gages au Parlement</title>, <pubPlace>Paris</pubPlace>,
-                        <publisher>d’Houry fils</publisher>, <date>1724</date>,
-                        <biblScope>XL-269-[3] p. ; in-12</biblScope>. PDF : <ref
+                        payeur des gages au Parlement</hi>, <pubPlace>Paris</pubPlace>,
+                    d’<publisher>Houry fils</publisher>, <date>1724</date>,
+                        XL-269-[3] p. ; in-12. PDF : <ref
                         target="https://archive.org/details/histoiregenerale00bonn">Internet
                         Archive</ref>.</bibl>
             </sourceDesc>
@@ -79,8 +72,7 @@
     <text>
         <body>
             <div type="dedication" xml:id="dedicace">
-                <head>A<lb/>SON ALTESSE ROYALE<lb/>MONSEIGNEUR<lb/>LE DUC D’ORLEANS,<lb/>PETIT-FILS
-                    DE FRANCE.</head>
+                <head rend="uc">A<lb/>son altesse royale<lb/>Monseigneur<lb/>le duc d'Orléans,<lb/>petit-fils de France.</head>
                 <salute rend="left"><pb n="v"/>MONSEIGNEUR,</salute>
                 <p><hi rend="i">Le goût universel que</hi>
                     <hi rend="sc">Votre Altesse Royale</hi>
@@ -129,7 +121,7 @@
                     >Bonnet</hi>.</signed>
             </div>
             <div type="preface" xml:id="preface">
-                <head>PRÉFACE.</head>
+                <head rend="uc">Préface.</head>
                 <p><pb n="xj"/>La liaison qui est entre la Danse &amp; la Musique, m’a jetté
                     insensiblement dans la nécessité de donner l’Histoire de l’une, après avoir
                     publié celle de l’autre ; &amp; comme il me paroît à propos de prévenir mon
@@ -287,7 +279,7 @@
                     laquelle j’aurai eu au moins le mérite de l’invention.</p>
             </div>
             <div type="privilege" xml:id="approbation">
-                <head>APPROBATION <lb/><hi rend="i">De M. l’Abbé</hi>
+                <head><hi rend="uc">Approbation</hi><lb/><hi rend="i">De M. l’Abbé</hi>
                     <hi rend="sc">Richard</hi>, <hi rend="i">Doyen des Chanoines de l’Eglise Royale
                         &amp; Collégiale de Ste Opportune à Paris, Prieur-Seigneur de l’Hôpital,
                         &amp;c. Censeur Royal.</hi></head>
@@ -350,7 +342,7 @@
                     <hi rend="sc">Richard</hi>, <hi rend="i">Censeur Royal</hi>.</signed>
             </div>
             <div type="privilege" xml:id="privilege">
-                <head><hi rend="i">PRIVILEGE DU ROY.</hi></head>
+                <head rend="uc"><hi rend="i">Privilege du roy.</hi></head>
                 <p>Louis par la grace de Dieu Roy de France &amp; de Navarre ; A nos Amés &amp;
                     féaux Conseillers les Gens tenans nos Cours de Parlement, Maîtres des Requêtes
                     ordinaires de notre Hôtel, Grand Conseil, Prevost de Paris, Baillifs, Senechaux,
@@ -409,10 +401,10 @@
                         rend="i">Juin</hi> 1723. <hi rend="i">BALLARD, Syndic</hi>.</p>
             </div>
             <div xml:id="histoire-generale-danse">
-                <head>HISTOIRE GENERALE DE LA DANSE SACRÉE ET PROPHANE :<lb/>SON origine, ses
+                <head><hi rend="uc">Histoire generale de la danse sacrée et prophane : </hi><lb/><hi rend="uc">son</hi> origine, ses
                     progrès &amp; ses révolutions.</head>
                 <div type="chapter" xml:id="chapitre-1">
-                    <head>CHAPITRE PREMIER.<lb/><hi rend="i">De la Danse en général, suivant
+                    <head><hi rend="uc">Chapitre premier</hi>.<lb/><hi rend="i">De la Danse en général, suivant
                             l’opinion des Anciens.</hi></head>
                     <p><pb n="1"/>Il n’y a point d’Histoire touchant les Sciences &amp; les Arts,
                         qui ne renferme quelques instructions avantageuses pour la société civile.
@@ -884,7 +876,7 @@
                         Monde, comme je vais le faire voir.</p>
                 </div>
                 <div type="chapter" xml:id="chapitre-2">
-                    <head>CHAPITRE II.<lb/><hi rend="i">De la Danse Sacrée des Hébreux, des
+                    <head><hi rend="uc">Chapitre II</hi>.<lb/><hi rend="i">De la Danse Sacrée des Hébreux, des
                             Chrétiens dans la primitive Eglise, &amp; des Payens, depuis son origine
                             jusqu’à présent.</hi></head>
                     <p>J’ose avancer ici, après Pitagore &amp; Lucien, que la danse Sacrée a été
@@ -1285,7 +1277,7 @@
                         Caldéens, les Egyptiens, les Perses, &amp; les Grecs.</p>
                 </div>
                 <div type="chapter" xml:id="chapitre-3">
-                    <head>CHAPITRE III.<lb/><hi rend="i">Des mouvemens de la Danse par rapport aux
+                    <head><hi rend="uc">Chapitre III.</hi><lb/><hi rend="i">Des mouvemens de la Danse par rapport aux
                             actions humaines, suivant les préceptes des Egyptiens &amp; des
                             Grecs.</hi></head>
                     <p>Les Anciens qui ont jugé que la représentation des Balets étoit une maniere
@@ -1466,7 +1458,7 @@
                         l’exécution.</p>
                 </div>
                 <div type="chapter" xml:id="chapitre-4">
-                    <head>CHAPITRE IV.<lb/><hi rend="i">De la Danse des Balets des Anciens &amp; des
+                    <head><hi rend="uc">Chapitre IV.</hi><lb/><hi rend="i">De la Danse des Balets des Anciens &amp; des
                             Modernes, avec quelques descriptions des plus singulieres, &amp; de
                             l’origine de la danse Théâtrale.</hi></head>
                     <pb n="70"/>
@@ -2195,7 +2187,7 @@
                         12, à Leyde 1706, vol. premier, page 151.</p>
                 </div>
                 <div type="chapter" xml:id="chapitre-5">
-                    <head>CHAPITRE V.<lb/><hi rend="i">De l’usage de la Danse grave &amp; sérieuse,
+                    <head><hi rend="uc">Chapitre V.</hi><lb/><hi rend="i">De l’usage de la Danse grave &amp; sérieuse,
                             convenable aux Bals de cérémonie.</hi></head>
                     <p><pb n="112"/>Il est difficile de prouver précisément l’origine des Bals de
                         cérémonie, qui se font à l’occasion des réjouissances publiques, ou des
@@ -2795,7 +2787,7 @@
                     </quote>
                 </div>
                 <div type="chapter" xml:id="chapitre-6">
-                    <head>CHAPITRE VI.<lb/><hi rend="i">De l’origine des Bals masquez.</hi></head>
+                    <head><hi rend="uc">Chapitre VI.</hi><lb/><hi rend="i">De l’origine des Bals masquez.</hi></head>
                     <p><pb n="146"/>Les Fêtes Saturnales chez les Romains, avoient tant de rapport à
                         la licence de notre Carnaval, qu’on ne peut pas douter que ce ne soit de-là
                         que le bal masqué tire son origine.</p>
@@ -3016,7 +3008,7 @@
                         finir ce Chapitre, qu’en laissant le Lecteur à la noce.</p>
                 </div>
                 <div type="chapter" xml:id="chapitre-7">
-                    <head>CHAPITRE VII.<lb/><hi rend="i">Des Spectacles des Danseurs de corde, &amp;
+                    <head><hi rend="uc">Chapitre VII.</hi><lb/><hi rend="i">Des Spectacles des Danseurs de corde, &amp;
                             de l’Art Gymnastique, &amp; des sauts périlleux.</hi></head>
                     <p><pb n="161"/>J’ai crû devoir employer dans l’Histoire générale de la Danse,
                         ce qui concerne celle des Danseurs de corde, après avoir eu connoissance du
@@ -3347,7 +3339,7 @@
                         monts Pyrénées, où ces animaux sont fort communs.</p>
                 </div>
                 <div type="chapter" xml:id="chapitre-8">
-                    <head>CHAPITRE VIII.<lb/><hi rend="i">De la Musique naturelle attribuée à Dieu
+                    <head><hi rend="uc">Chapitre VIII.</hi><lb/><hi rend="i">De la Musique naturelle attribuée à Dieu
                             comme l’Auteur de la Nature.</hi></head>
                     <head type="sub">Pour servir de Supplément à l’Histoire de la Musique, imprimée
                         en 1715.</head>
@@ -3528,7 +3520,7 @@
                         consister la Musique élémentaire &amp; celle des Oracles.</p>
                 </div>
                 <div type="chapter" xml:id="chapitre-9">
-                    <head>CHAPITRE IX.<lb/><hi rend="i">De la Musiqué Elémentaire attribuée aux
+                    <head><hi rend="uc">Chapitre IX.</hi><lb/><hi rend="i">De la Musiqué Elémentaire attribuée aux
                             Esprits Aëriens &amp; aux Oracles de l’Antiquité.</hi></head>
                     <p><pb n="195"/>Il s’agit de faire voir en quoi les anciens Philosophes ont fait
                         consister cette Musique : la matiere en pourra paroître fabuleuse à ceux qui
@@ -3768,7 +3760,7 @@
                 </div>
             </div>
             <div type="appendix" xml:id="catalogue-danses">
-                <head>CATALOGUE<lb/><hi rend="i">Des Danses dont je fais mention dans cette
+                <head><hi rend="uc">Catalogue</hi><lb/><hi rend="i">Des Danses dont je fais mention dans cette
                         Histoire.</hi></head>
                 <list>
                     <item>De la danse Sacrée des Hébreux.</item>
@@ -3805,7 +3797,7 @@
                 <trailer><hi rend="i">Fin du Catalogue des Danses.</hi></trailer>
             </div>
             <div type="appendix" xml:id="parallele-peinture-poesie">
-                <head>PARALELE<lb/>DE<lb/>LA PEINTURE<lb/>ET DE<lb/>LA POESIE.</head>
+                <head><hi rend="uc">Paralele</hi><lb/>DE<lb/>LA PEINTURE<lb/>ET DE<lb/>LA POESIE.</head>
                 <p><pb n="213"/>Mon dessein n’est pas de soutenir que la Peinture l’emporte
                     absolument sur la Poésie.</p>
                 <p>Je n’ai jamais douté que ces deux Arts ne soient d’une égale considération, ni
@@ -4608,7 +4600,7 @@
                     Dessein, aussi bien que celui de la Forge ; joint que tout ce qu’on en peut dire
                     touchant son origine, paroît toujours fabuleux, faute de preuves plus certaines
                     à cause de son antiquité.</p>
-                <trailer>FIN.</trailer>
+                <trailer><hi rend="uc">FIN</hi>.</trailer>
             </div>
         </body>
     </text>

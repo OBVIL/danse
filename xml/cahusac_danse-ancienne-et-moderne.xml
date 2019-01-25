@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>La danse ancienne et moderne ou Traité historique de la danse</title>
-        <author key="Cahusac, Louis de (1706-1759)">Louis de Cahusac</author>
+        <author key="Cahusac, Louis de (1706-1759)" ref="https://data.bnf.fr/fr/11990784/louis_de_cahusac/">Louis de Cahusac</author>
         <editor>Laura Naudeix</editor>
       </titleStmt>
       <editionStmt>
@@ -25,11 +25,11 @@
         </respStmt>
         <respStmt>
           <name>Anne-Laure Huet</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2015"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/danse/cahusac_danse-ancienne-et-moderne</idno>
         <availability status="restricted">
@@ -43,7 +43,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Louis de Cahusac</author>, <title>La Danse ancienne et moderne ou Traité historique de la danse</title>, A <pubPlace>La Haye</pubPlace>, chez <publisher>Jean Neaulme</publisher>, <date>1754</date>, <biblScope>3 vol in-12</biblScope>. PDF : Gallica (<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1081313">tome I</ref>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k108132g">tome II</ref>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k108133v">tome III</ref>).</bibl>
+        <bibl>Louis de Cahusac, <hi rend="i">La Danse ancienne et moderne ou Traité historique de la danse</hi>, A <pubPlace>La Haye</pubPlace>, chez <publisher>Jean Neaulme</publisher>, <date>1754</date>, 3 vol in-12. PDF : Gallica (<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1081313">tome I</ref>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k108132g">tome II</ref>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k108133v">tome III</ref>).</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -51,7 +51,7 @@
         <date when="1754"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

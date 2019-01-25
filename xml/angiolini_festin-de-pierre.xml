@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Le Festin de Pierre</title>
-        <title type="sub">Ballet Pantomime</title>
-        <author key="Angiolini, Gasparo (1731-1803)">Gasparo Angiolini [Ranieri Calzabigi]</author>
+        <title>Le Festin de Pierre. Ballet Pantomime</title>
+        <author key="Angiolini, Gasparo (1731-1803)" ref="https://data.bnf.fr/fr/10461796/gasparo_angiolini/">Gasparo Angiolini [Ranieri Calzabigi]</author>
         <editor key="Fabbricatore, Arianna (1970-....)">Arianna Fabbricatore</editor>
       </titleStmt>
       <editionStmt>
@@ -18,21 +17,21 @@
         </respStmt>
         <respStmt>
           <name>Stella Louis</name>
-          <resp>Encodage TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Anne-Laure Huet</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2017"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/angiolini_festin-de-pierre</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/angiolini_festin-de-pierre</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -44,7 +43,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><title>Le Festin de Pierre</title> Ballet Pantomime Composé par Mr. <author>Angiolini</author> Maître des Ballets du Théâtre près de la Cour à Vienne, et représenté pour la première fois sur ce Théâtre le Octobre <date>1761</date>. À <pubPlace>Vienne</pubPlace>. Chez <publisher>Jean Thomas Trattner Libraire et Imprimeur de la Cour</publisher>, <date>1761</date></bibl>
+        <bibl>Gasparo Angiolini [Ranieri Calzabigi], <hi rend="i">Le Festin de Pierre. Ballet Pantomime Composé par Mr. Angiolini Maître des Ballets du Théâtre près de la Cour à Vienne, et représenté pour la première fois sur ce Théâtre le Octobre 1761</hi>, À <pubPlace>Vienne</pubPlace>. Chez <publisher>Jean Thomas Trattner</publisher> Libraire et Imprimeur de la Cour, <date>1761</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -52,7 +51,7 @@
         <date when="1761"/>
       </creation>
       <langUsage>
-        <language ident="fr">fr</language>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

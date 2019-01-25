@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Notice sur Ondine</title>
-        <author key="Chasles, Philarète (1798-1873)">Philarète Chasles</author>
+        <author key="Chasles, Philarète (1798-1873)" ref="https://data.bnf.fr/fr/12298447/philarete_chasles/">Philarète Chasles</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -16,17 +16,17 @@
         </respStmt>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Anne-Laure Huet</name>
-          <resp>XML-TEI</resp>
+          <resp>édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2016"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/danse/chasles_notice-ondine</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/danse/chasles_notice-ondine</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Philarète Chasles</author>, « Notice sur <hi rend="i">Ondine</hi> », in <title>Les Beautés de l’Opéra, ou Chefs-d’œuvre lyriques illustrés par les premiers artistes de Paris et de Londres</title>, sous la dir. de Giraldon, avec un texte explicatif rédigé par Théophile Gautier, Jules Janin et Philarète Chasles, <pubPlace>Paris</pubPlace>, <publisher>Soulié</publisher>, <date>1845</date>, 10 part. en 1 vol., ill., 9<hi rend="sup">e</hi> partie, <biblScope>p. 3-23</biblScope> [f. 243-263]. PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k63784014/f243">Gallica</ref>.</bibl>
+        <bibl>Philarète Chasles, « Notice sur Ondine », in <hi rend="i">Les Beautés de l’Opéra, ou Chefs-d’œuvre lyriques illustrés par les premiers artistes de Paris et de Londres, sous la dir. de Giraldon, avec un texte explicatif rédigé par Théophile Gautier, Jules Janin et Philarète Chasles</hi>, <pubPlace>Paris</pubPlace>, <publisher>Soulié</publisher>, <date>1845</date>, 10 part. en 1 vol., ill., 9<hi rend="sup">e</hi> partie, p. 3-23 [f. 243-263]. PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k63784014/f243">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,7 +46,7 @@
         <date when="1845"/>
       </creation>
       <langUsage>
-        <language ident=""/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
