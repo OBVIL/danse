@@ -101,106 +101,76 @@
             </row>
             <row>
               <cell>Battimenti</cell>
-              <cell>
-                <hi rend="b">[ <hi rend="i">Battement</hi> ]</hi>
-              </cell>
+              <cell> [<hi rend="i">Battement</hi>] </cell>
               <cell>30</cell>
             </row>
             <row>
               <cell>
-                <hi rend="b">Bilanciato <hi rend="i">Balancé</hi>
-                </hi>
+                Bilanciato <hi rend="i">Balancé</hi>
               </cell>
               <cell>Balancé</cell>
               <cell>26</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Cadente <hi rend="i">Tombé</hi>
-                </hi>
+              <cell> Cadente <hi rend="i">Tombé</hi>
               </cell>
               <cell>Tombé</cell>
               <cell>27</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Contrattempo <hi rend="i">Contretemps</hi>
-                </hi>
+              <cell> Contrattempo <hi rend="i">Contretemps</hi>
               </cell>
               <cell>Contretemps</cell>
               <cell>19</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Fioretto <hi rend="i">De Bouréé, ou Fleuret</hi>
-                </hi>
+              <cell> Fioretto <hi rend="i">De Bourée, ou Fleuret</hi>
               </cell>
               <cell>
-                <hi rend="b">
-                  <hi rend="i">Bourrée</hi>
-                </hi>
-                <hi rend="b">
-                  <hi rend="i">, ou Fleuret</hi>
-                </hi>
+                <hi rend="i">Bourrée</hi>
+                <hi rend="i">, ou Fleuret</hi>
               </cell>
               <cell>18</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Gagliarda <hi rend="i">De Gagliarde</hi>
-                </hi>
+              <cell> Gagliarda <hi rend="i">De Gagliarde</hi>
               </cell>
               <cell>Gaillarde</cell>
               <cell>24</cell>
             </row>
             <row>
               <cell>Giro della gamba</cell>
-              <cell>
-                <hi rend="b">[ <hi rend="i">Tour de jambe</hi> ]</hi>
-              </cell>
+              <cell> [<hi rend="i">Tour de jambe</hi>] </cell>
               <cell>30</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Gittato <hi rend="i">Jetté</hi>
-                </hi>
+              <cell> Gittato <hi rend="i">Jetté</hi>
               </cell>
               <cell>Jeté</cell>
               <cell>12</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Grave <hi rend="i">Grave, ou de Courante</hi>
-                </hi>
+              <cell> Grave <hi rend="i">Grave, ou de Courante</hi>
               </cell>
               <cell>Grave, ou de Courante</cell>
               <cell>25</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Mezzo Contrattempo <hi rend="i">Demi-Contretemps</hi>
-                </hi>
+              <cell> Mezzo Contrattempo <hi rend="i">Demi-Contretemps</hi>
               </cell>
               <cell>Demi-Contretemps</cell>
               <cell>20</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Mezzo Gittato <hi rend="i">Demi-Jetté</hi>
-                </hi>
+              <cell> Mezzo Gittato <hi rend="i">Demi-Jetté</hi>
               </cell>
               <cell>
-                <hi rend="b"><hi rend="i">Demi</hi>- </hi>
-                <hi rend="b">
-                  <hi rend="i">Jeté</hi>
-                </hi>
+                <hi rend="i">Demi-Jeté</hi>
               </cell>
               <cell>13</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Mezzo Tronco <hi rend="i">Demi-Coupé</hi>
-                </hi>
+              <cell> Mezzo Tronco <hi rend="i">Demi-Coupé</hi>
               </cell>
               <cell>Demi-Coupé</cell>
               <cell>14</cell>
@@ -211,103 +181,75 @@
               <cell>30</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Piegato, e Rialzato <hi rend="i">Plié, et Relevé</hi>
-                </hi>
+              <cell> Piegato, e Rialzato <hi rend="i">Plié, et Relevé</hi>
               </cell>
               <cell>Plié, et Relevé</cell>
               <cell>9</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Pirola <hi rend="i">Piroüette</hi>
-                </hi>
+              <cell> Pirola <hi rend="i">Piroüette</hi>
               </cell>
               <cell>Pirouette</cell>
               <cell>10</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Rigodone <hi rend="i">De Rigaudon</hi>
-                </hi>
+              <cell> Rigodone <hi rend="i">De Rigaudon</hi>
               </cell>
               <cell>Rigaudon</cell>
               <cell>21</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Saltante <hi rend="i">Sauté</hi>
-                </hi>
+              <cell> Saltante <hi rend="i">Sauté</hi>
               </cell>
               <cell>Sauté</cell>
               <cell>11</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Scacciato <hi rend="i">Chassé</hi>
-                </hi>
+              <cell> Scacciato <hi rend="i">Chassé</hi>
               </cell>
               <cell>Chassé</cell>
               <cell>17</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Sdrucciolata <hi rend="i"> Glissade</hi>
-                </hi>
+              <cell> Sdrucciolata <hi rend="i"> Glissade</hi>
               </cell>
               <cell>Glissade</cell>
               <cell>28</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Semplice, o Naturale <hi rend="i">Simple, ou Naturel</hi>
-                </hi>
+              <cell> Semplice, o Naturale <hi rend="i">Simple, ou Naturel</hi>
               </cell>
               <cell>Simple, ou Naturel</cell>
               <cell>8</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Sfuggito <hi rend="i">Eschapé, ou Sailli</hi>
-                </hi>
+              <cell> Sfuggito <hi rend="i">Eschapé, ou Sailli</hi>
               </cell>
               <cell>
-                <hi rend="b">
-                  <hi rend="i">Echappé</hi>
-                </hi>
-                <hi rend="b">
-                  <hi rend="i">, ou Sailli</hi>
-                </hi>
+                <hi rend="i">Echappé</hi>
+                <hi rend="i">, ou Sailli</hi>
               </cell>
               <cell>16</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Sissone <hi rend="i">De Sissonne</hi>
-                </hi>
+              <cell> Sissone <hi rend="i">De Sissonne</hi>
               </cell>
               <cell>Sissonne</cell>
               <cell>22</cell>
             </row>
             <row>
               <cell>Staccato</cell>
-              <cell>
-                <hi rend="b">[ <hi rend="i">Dégagé</hi> ]</hi>
-              </cell>
+              <cell> [<hi rend="i">Dégagé</hi>] </cell>
               <cell>30</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Tronco <hi rend="i">Coupé</hi>
-                </hi>
+              <cell> Tronco <hi rend="i">Coupé</hi>
               </cell>
               <cell>Coupé</cell>
               <cell>15</cell>
             </row>
             <row>
-              <cell>
-                <hi rend="b">Unito <hi rend="i">Assemblé</hi>
-                </hi>
+              <cell> Unito <hi rend="i">Assemblé</hi>
               </cell>
               <cell>Assemblé</cell>
               <cell>23</cell>
@@ -516,7 +458,8 @@
               occhi nelle figure che seguiranno: per la intelligenza delle quali si deono prima
               d’ogn’altra cosa diciferare i pochi segni che le compongono.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img01.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img01.png"/>
             </figure>
             <p>[5] La figura ACBD rappresenta la presenza del corpo, i cui lati sono additati dalle
               lettere AB, la parte davanti da C e la deretana da D.</p>
@@ -537,7 +480,8 @@
               guardatura delle suddette piccole linee, leggermente potrebbe pigliare un per un altro
               piede. Ritorniamo di presente alle positure de’ piedi, donde ci dipartimmo.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img02.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img02.png"/>
             </figure>
             <p>[9] La prima positura consiste nel tenere in tal modo i piedi appoggiati sulla terra,
               che i lor talloni si trovino egualmente l’uno all’altro congiunti, tenendosi, come è
@@ -804,7 +748,8 @@
               solamente dell’arte del Ballo; ho dovuto in questo luogo rapportare quei soli segni
               che sono opportuni ad intendere le figure de’ passi che seguiranno.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img03.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img03.png"/>
             </figure>
             <p>[2] La figura ABC rappresenta il passo, di cui A dinota il luogo dove si trovava il
               piede prima di camminare, la linea AB il cammino fatto e la linea BC il sito del piede
@@ -841,7 +786,8 @@
               però dinotar si volesse il movimento circolare andante, le porzioni di circolo
               andrebber messe non già sulli piedi ma sopra i passi.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img04.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img04.png"/>
             </figure>
             <p>[11] Due passi si congiungono insieme con una linea all’uno ed all’altro attaccata,
               in quella maniera che mostra N, la quale alli passi L ed M serve di legamento.</p>
@@ -878,7 +824,8 @@
               cosa serve per lo più nella danza di legamento d’uno in altro passo, o per meglio
               dire, di riempimento di misura. E si descrive nelle tre guise che sieguono.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img05.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img05.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_9">
@@ -895,7 +842,8 @@
               camminino, si descrive co’ segni a’ piedi congiunti, secondo le regole date di sopra,
               nel modo che siegue.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img06.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img06.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_10">
@@ -953,7 +901,8 @@
               velocità delle Pirole or dee essere maggiore, or minore, secondo quelle parti di giro
               che s’hanno a fare per andar bene a tempo.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img07.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img07.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_11">
@@ -968,7 +917,8 @@
               ripieghino immediate i ginocchi, si rialzino risaltando e si ricada sulla terza
               positura con quel piede innanzi che nel principio trovossi addietro.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img08.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img08.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_12">
@@ -987,7 +937,8 @@
               bello e grazioso atteggiamento per finattanto che giunga il punto dell’altra misura,
               per procedere a’ passi che sieguono appresso.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img09.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img09.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_13">
@@ -1018,7 +969,8 @@
               innanzi, di lor trattando, farem vedere, vien ad essere un de’ principali passi del
               ballo nobile, il qual descrive in questo modo.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img10.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img10.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_15">
@@ -1052,7 +1004,8 @@
               trova parimente sul movimento rialzato del passo Mezzo tronco; e si descrive nelle
               seguenti maniere.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img11.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img11.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_16">
@@ -1071,7 +1024,8 @@
               bisogna levarsi nuovamente sulle punte e ritornar nel medesimo modo sulla terza
               positura.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img12.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img12.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_17">
@@ -1093,7 +1047,8 @@
               passi per compiere una misura di tempo, la cui battuta si trova sul secondo movimento,
               cioè sul rialzato del primo Scacciato: e si descrive nelle guise che sieguono.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img13.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img13.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_18">
@@ -1164,7 +1119,8 @@
               sopra quel piede cha a partire non dovrà essere il primo. La battuta di questo passo
               si trova sulla cascata del Mezzo Gittato.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img14.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img14.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_19">
@@ -1190,7 +1146,8 @@
               acciocché il grave e sostenuto portamento della persona non si scomponga, che deesi
               più tosto far sembianti di saltare che veramente levarsi in aria.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img15.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img15.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_20">
@@ -1216,7 +1173,8 @@
               destro, il quale si trova in aria, si faccia un passo Semplice sopra quella positura
               che la composizione della danza richiede.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img16.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img16.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_21">
@@ -1248,7 +1206,8 @@
               positura donde il susseguente passo convien che parta: purché però partir non debba
               dalla prima positura, dove si diè termine al Passo di Rigodone.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img17.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img17.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_22">
@@ -1275,7 +1234,8 @@
               distendimento de’ ginocchi e col secondo salto e cascata, la misura di questo
               passo.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img18.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img18.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_23">
@@ -1295,7 +1255,8 @@
               passo finisce, non debba cominciare, perciocché in tal caso il passo Staccato non
               servirebbe a nulla.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img19.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img19.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_24">
@@ -1311,7 +1272,8 @@
               andante del Passo Naturale. Vale un tempo la cui battuta si trova sul secondo,
               movimento, cioè sulla cascata del rialzato. E si descrive in questa maniera.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img20.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img20.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_25">
@@ -1343,7 +1305,8 @@
               medesimo è da fare anche dallato. Egli non deve adoperarsi addietro nel ballo nobile.
               E volendosi fare in giro, non si vuol passare il quarto del circolo.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img21.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img21.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_26">
@@ -1377,7 +1340,8 @@
               gusto” è arrivato al sommo, è divenuto un di que’ passi che sono andati per la sconcia
               lor veduta in disuso. E si descrive nella seguente maniera.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img22.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img22.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_27">
@@ -1407,7 +1371,8 @@
               gittato, deve servire di riempimento della detta misura, e di legamento o passaggio,
               che dir vogliamo, a’ passi che sieguono appresso.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img23.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img23.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_28">
@@ -1430,7 +1395,8 @@
               passo serve di riempimento di tempo per finattantoché arrivi la battuta del passo che
               siegue appresso.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img24.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img24.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_29">
@@ -1483,7 +1449,8 @@
               coll’altro piede, la gamba la quale rimane in aria si pieghi per lo ginocchio, e
               nuovamente distesala, si mandi giù alla positura del passo Gittato.</p>
             <figure>
-              <graphic url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img25.png"/>
+              <graphic
+                url="http://obvil.github.io/danse/images/dufort_trattato-ballo-nobile_img25.png"/>
             </figure>
           </div>
           <div type="chapter" xml:id="tratatto-ballo-nobile_31">

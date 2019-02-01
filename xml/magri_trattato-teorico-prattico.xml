@@ -6,7 +6,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Trattato teorico-prattico di ballo di Gennaro Magri napolitano</title>
+        <title>Trattato teorico-prattico di ballo di Gennaro Magri</title>
         <author key="Magri, Gennaro (1737?-1789)" ref="https://data.bnf.fr/fr/14643224/gennaro_magri/">Gennaro Magri</author>
         <editor>Arianna B. Fabbricatore</editor>
       </titleStmt>
@@ -28,7 +28,7 @@
       <publicationStmt>
         <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2018"/>
-        <idno>http://obvil.sorbonne.universite.site/corpus/danse/magri_trattato-teoretico-pratico</idno>
+        <idno>http://obvil.sorbonne.universite.site/corpus/danse/magri_trattato-teorico-prattico</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : 	« Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
@@ -119,29 +119,29 @@
           </row>
           <row>
             <cell>
-              <p rend="b">Coupé </p>
+              <p>Coupé </p>
             </cell>
             <cell>
-              <p rend="b">Mezzo Tronco, Mezzo Coupè</p>
-              <p rend="b">Coupè, Passo Tronco;</p>
+              <p>Mezzo Tronco, Mezzo Coupè</p>
+              <p>Coupè, Passo Tronco;</p>
             </cell>
             <cell>
-              <p rend="b">16</p>
-              <p rend="b">17</p>
+              <p>16</p>
+              <p>17</p>
             </cell>
           </row>
           <row>
             <cell>
-              <p rend="b">Jeté;</p>
-              <p rend="b">Demi-jeté</p>
+              <p>Jeté;</p>
+              <p>Demi-jeté</p>
             </cell>
             <cell>
-              <p rend="b">Passo Gettato, Pas Jettè;</p>
-              <p rend="b">Mezzo Gettato, Demì Jettè</p>
+              <p>Passo Gettato, Pas Jettè;</p>
+              <p>Mezzo Gettato, Demì Jettè</p>
             </cell>
             <cell>
-              <p rend="b">18</p>
-              <p rend="b">19</p>
+              <p>18</p>
+              <p>19</p>
             </cell>
           </row>
           <row>
@@ -161,41 +161,41 @@
           </row>
           <row>
             <cell>
-              <p rend="b">Tombé;</p>
-              <p rend="b">Demi-tombé</p>
+              <p>Tombé;</p>
+              <p>Demi-tombé</p>
             </cell>
             <cell>
-              <p rend="b">Passo Cadente, Pas Tombè;</p>
-              <p rend="b">Mezzo Cadente, Demì Tombè</p>
+              <p>Passo Cadente, Pas Tombè;</p>
+              <p>Mezzo Cadente, Demì Tombè</p>
             </cell>
             <cell>
-              <p rend="b">23</p>
-              <p rend="b">24</p>
+              <p>23</p>
+              <p>24</p>
             </cell>
           </row>
           <row>
             <cell>Grave, pas, courante </cell>
             <cell>
-              <p rend="b">Passo Grave ou Courante;</p>
-              <p rend="b">Mezzi Passi Gravi</p>
+              <p>Passo Grave ou Courante;</p>
+              <p>Mezzi Passi Gravi</p>
             </cell>
             <cell>
-              <p rend="b">25</p>
-              <p rend="b">26</p>
+              <p>25</p>
+              <p>26</p>
             </cell>
           </row>
           <row>
             <cell>
-              <p rend="b">Échappé;</p>
-              <p rend="b">Demi-échappé</p>
+              <p>Échappé;</p>
+              <p>Demi-échappé</p>
             </cell>
             <cell>
-              <p rend="b">Passo Sfuggito, Pas Eschapè;</p>
-              <p rend="b">Mezzo Sfuggito, Demì Eschapè</p>
+              <p>Passo Sfuggito, Pas Eschapè;</p>
+              <p>Mezzo Sfuggito, Demì Eschapè</p>
             </cell>
             <cell>
-              <p rend="b">27</p>
-              <p rend="b">28</p>
+              <p>27</p>
+              <p>28</p>
             </cell>
           </row>
           <row>
@@ -205,16 +205,16 @@
           </row>
           <row>
             <cell>
-              <p rend="b">Sissonne;</p>
-              <p rend="b">Demi-Sissonne</p>
+              <p>Sissonne;</p>
+              <p>Demi-Sissonne</p>
             </cell>
             <cell>
-              <p rend="b">Passo di Sissone, Pas de Sissonne;</p>
-              <p rend="b">Mezzo Sissone</p>
+              <p>Passo di Sissone, Pas de Sissonne;</p>
+              <p>Mezzo Sissone</p>
             </cell>
             <cell>
-              <p rend="b">30</p>
-              <p rend="b">31</p>
+              <p>30</p>
+              <p>31</p>
             </cell>
           </row>
           <row>
@@ -234,16 +234,16 @@
           </row>
           <row>
             <cell>
-              <p rend="b">Chassé;</p>
-              <p rend="b">Demi-chassé</p>
+              <p>Chassé;</p>
+              <p>Demi-chassé</p>
             </cell>
             <cell>
-              <p rend="b">Passo Scacciato, Pas Chassè;</p>
-              <p rend="b">Mezzo Scacciato, Demì Chassè</p>
+              <p>Passo Scacciato, Pas Chassè;</p>
+              <p>Mezzo Scacciato, Demì Chassè</p>
             </cell>
             <cell>
-              <p rend="b">35</p>
-              <p rend="b">36</p>
+              <p>35</p>
+              <p>36</p>
             </cell>
           </row>
           <row>
@@ -278,15 +278,15 @@
           </row>
           <row>
             <cell>
-              <p rend="b">Fouetté</p>
+              <p>Fouetté</p>
             </cell>
             <cell>
-              <p rend="b">Fuetè;</p>
-              <p rend="b">Mezzo Fuetè</p>
+              <p>Fuetè;</p>
+              <p>Mezzo Fuetè</p>
             </cell>
             <cell>
-              <p rend="b">43</p>
-              <p rend="b">44</p>
+              <p>43</p>
+              <p>44</p>
             </cell>
           </row>
           <row>
@@ -296,16 +296,16 @@
           </row>
           <row>
             <cell>
-              <p rend="b">Contretemps pas de;</p>
-              <p rend="b">Demi-contretemps</p>
+              <p>Contretemps pas de;</p>
+              <p>Demi-contretemps</p>
             </cell>
             <cell>
-              <p rend="b">Contratempo, Contratems;</p>
-              <p rend="b">Mezzo Contratempo, Demi Contratems</p>
+              <p>Contratempo, Contratems;</p>
+              <p>Mezzo Contratempo, Demi Contratems</p>
             </cell>
             <cell>
-              <p rend="b">46</p>
-              <p rend="b">47</p>
+              <p>46</p>
+              <p>47</p>
             </cell>
           </row>
           <row>
