@@ -77,57 +77,57 @@
           <row>
             <cell cols="3" rend="center">Passi descritti da Magri (in ordine di capitolo)</cell>
           </row>
-          <row>
+          <row rend="left">
             <cell>Ortografia modernizzata</cell>
             <cell>Ortografia originale</cell>
             <cell>Chapitre</cell>
           </row>
           <row>
-            <cell>Simple ou naturel</cell>
+            <cell>Simple ou naturel<lb/><lb/></cell>
             <cell>Passo Naturale o Semplice, Simple ou naturel</cell>
-            <cell>9</cell>
+            <cell><p rend="left">9</p></cell>
           </row>
           <row>
             <cell/>
             <cell>Piegare e del rilevare</cell>
-            <cell>10</cell>
+            <cell><p rend="left">10</p></cell>
           </row>
           <row>
             <cell>Dégagé</cell>
             <cell>Passo Staccato, Degagè</cell>
-            <cell>11</cell>
+            <cell><p rend="left">11</p></cell>
           </row>
           <row>
             <cell>Marché, pas</cell>
             <cell>Passo marciato, Pas marchè</cell>
-            <cell>12</cell>
+            <cell><p rend="left">12</p></cell>
           </row>
           <row>
-            <cell>Marcel, pas de</cell>
+            <cell>Marcel, pas de<lb/><lb/></cell>
             <cell>Passo di Marseglia, Pas de Mareseilles</cell>
-            <cell>13</cell>
+            <cell><p rend="left">13</p></cell>
           </row>
           <row>
-            <cell>Battement</cell>
+            <cell>Battement<lb/><lb/></cell>
             <cell>Battimento del piede, Battimente</cell>
-            <cell>14</cell>
+            <cell><p rend="left">14</p></cell>
           </row>
           <row>
-            <cell>Tordichamb</cell>
+            <cell>Tordichamb<lb/><lb/></cell>
             <cell>Tordichamb / Tordichamp / Tordicamp</cell>
-            <cell>15</cell>
+            <cell><p rend="left">15</p></cell>
           </row>
           <row>
             <cell>
-              <p>Coupé </p>
+              <p>Coupé<lb/><lb/></p>
             </cell>
             <cell>
               <p>Mezzo Tronco, Mezzo Coupè</p>
               <p>Coupè, Passo Tronco;</p>
             </cell>
             <cell>
-              <p>16</p>
-              <p>17</p>
+              <p rend="left">16</p>
+              <p rend="left">17</p>
             </cell>
           </row>
           <row>
@@ -140,238 +140,238 @@
               <p>Mezzo Gettato, Demì Jettè</p>
             </cell>
             <cell>
-              <p>18</p>
-              <p>19</p>
+              <p rend="left">18</p>
+              <p rend="left">19</p>
             </cell>
           </row>
           <row>
             <cell/>
             <cell>Pistoletta a terra</cell>
-            <cell>20</cell>
+            <cell><p rend="left">20</p></cell>
           </row>
           <row>
             <cell>Tortillé</cell>
             <cell>Tortigliè</cell>
-            <cell>21</cell>
+            <cell><p rend="left">21</p></cell>
           </row>
           <row>
             <cell>Balancé</cell>
             <cell>Passo Bilanciato, Pas Balancè</cell>
-            <cell>22</cell>
+            <cell><p rend="left">22</p></cell>
           </row>
           <row>
             <cell>
               <p>Tombé;</p>
-              <p>Demi-tombé</p>
+              <p>Demi-tombé<lb/><lb/></p>
             </cell>
             <cell>
               <p>Passo Cadente, Pas Tombè;</p>
               <p>Mezzo Cadente, Demì Tombè</p>
             </cell>
             <cell>
-              <p>23</p>
-              <p>24</p>
+              <p rend="left">23</p>
+              <p rend="left">24</p>
             </cell>
           </row>
           <row>
-            <cell>Grave, pas, courante </cell>
+            <cell>Grave, pas, courante<lb/><lb/></cell>
             <cell>
               <p>Passo Grave ou Courante;</p>
               <p>Mezzi Passi Gravi</p>
             </cell>
             <cell>
-              <p>25</p>
-              <p>26</p>
+              <p rend="left">25</p>
+              <p rend="left">26</p>
             </cell>
           </row>
           <row>
             <cell>
               <p>Échappé;</p>
-              <p>Demi-échappé</p>
+              <p>Demi-échappé<lb/><lb/></p>
             </cell>
             <cell>
               <p>Passo Sfuggito, Pas Eschapè;</p>
               <p>Mezzo Sfuggito, Demì Eschapè</p>
             </cell>
             <cell>
-              <p>27</p>
-              <p>28</p>
+              <p rend="left">27</p>
+              <p rend="left">28</p>
             </cell>
           </row>
           <row>
             <cell>Bourrée pas de</cell>
             <cell>Bourèè</cell>
-            <cell>29</cell>
+            <cell><p rend="left">29</p></cell>
           </row>
           <row>
             <cell>
               <p>Sissonne;</p>
-              <p>Demi-Sissonne</p>
+              <p>Demi-Sissonne<lb/><lb/></p>
             </cell>
             <cell>
               <p>Passo di Sissone, Pas de Sissonne;</p>
               <p>Mezzo Sissone</p>
             </cell>
             <cell>
-              <p>30</p>
-              <p>31</p>
+              <p rend="left">30</p>
+              <p rend="left">31</p>
             </cell>
           </row>
           <row>
-            <cell>Gaillarde, pas de</cell>
+            <cell>Gaillarde, pas de<lb/><lb/></cell>
             <cell>Passo di Gagliarda, Pas de Gaillarde</cell>
-            <cell>32</cell>
+            <cell><p rend="left">32</p></cell>
           </row>
           <row>
             <cell/>
             <cell>Sarabonda Passo di</cell>
-            <cell>33</cell>
+            <cell><p rend="left">33</p></cell>
           </row>
           <row>
             <cell>Coursé</cell>
             <cell>Coursè</cell>
-            <cell>34</cell>
+            <cell><p rend="left">34</p></cell>
           </row>
           <row>
             <cell>
               <p>Chassé;</p>
-              <p>Demi-chassé</p>
+              <p>Demi-chassé<lb/><lb/></p>
             </cell>
             <cell>
               <p>Passo Scacciato, Pas Chassè;</p>
               <p>Mezzo Scacciato, Demì Chassè</p>
             </cell>
             <cell>
-              <p>35</p>
-              <p>36</p>
+              <p rend="left">35</p>
+              <p rend="left">36</p>
             </cell>
           </row>
           <row>
             <cell>Ballonné</cell>
             <cell>Balonnè</cell>
-            <cell>37</cell>
+            <cell><p rend="left">37</p></cell>
           </row>
           <row>
             <cell>Développé</cell>
             <cell>Deviluppè</cell>
-            <cell>38</cell>
+            <cell><p rend="left">38</p></cell>
           </row>
           <row>
             <cell>Glissade</cell>
             <cell>Glissata, Glissade</cell>
-            <cell>39</cell>
+            <cell><p rend="left">39</p></cell>
           </row>
           <row>
             <cell>Assemblé</cell>
             <cell>Passo Unito, Assemblè</cell>
-            <cell>40</cell>
+            <cell><p rend="left">40</p></cell>
           </row>
           <row>
             <cell>Ballotté</cell>
             <cell>Balottè</cell>
-            <cell>41</cell>
+            <cell><p rend="left">41</p></cell>
           </row>
           <row>
             <cell>Emboité</cell>
             <cell>Ambuettè</cell>
-            <cell>42</cell>
+            <cell><p rend="left">42</p></cell>
           </row>
           <row>
             <cell>
-              <p>Fouetté</p>
+              <p>Fouetté<lb/><lb/></p>
             </cell>
             <cell>
               <p>Fuetè;</p>
               <p>Mezzo Fuetè</p>
             </cell>
             <cell>
-              <p>43</p>
-              <p>44</p>
+              <p rend="left">43</p>
+              <p rend="left">44</p>
             </cell>
           </row>
           <row>
             <cell>Pirouette</cell>
             <cell>Pirola, Piroùèttes</cell>
-            <cell>45</cell>
+            <cell><p rend="left">45</p></cell>
           </row>
           <row>
             <cell>
               <p>Contretemps pas de;</p>
-              <p>Demi-contretemps</p>
+              <p>Demi-contretemps<lb/><lb/></p>
             </cell>
             <cell>
               <p>Contratempo, Contratems;</p>
               <p>Mezzo Contratempo, Demi Contratems</p>
             </cell>
             <cell>
-              <p>46</p>
-              <p>47</p>
+              <p rend="left">46</p>
+              <p rend="left">47</p>
             </cell>
           </row>
           <row>
             <cell>Temps de cuisse</cell>
             <cell>Tempi di Coscia, Tems de Cuisse</cell>
-            <cell>48</cell>
+            <cell><p rend="left">48</p></cell>
           </row>
           <row>
             <cell>Fleuret</cell>
             <cell>Fioretto, Fleuret, Fleurè</cell>
-            <cell>49</cell>
+            <cell><p rend="left">49</p></cell>
           </row>
           <row>
             <cell>Brisé</cell>
             <cell>Brisè</cell>
-            <cell>50</cell>
+            <cell><p rend="left">50</p></cell>
           </row>
           <row>
             <cell>Rigaudon, pas de</cell>
             <cell>Rogodone, Rigaudon</cell>
-            <cell>51</cell>
+            <cell><p rend="left">51</p></cell>
           </row>
           <row>
             <cell>Troussé</cell>
             <cell>Trusè</cell>
-            <cell>52</cell>
+            <cell><p rend="left">52</p></cell>
           </row>
           <row>
             <cell/>
             <cell>Ciaccona Passo della</cell>
-            <cell>53</cell>
+            <cell><p rend="left">53</p></cell>
           </row>
           <row>
             <cell>Flinc Flanc</cell>
             <cell>Flinc Flanc</cell>
-            <cell>54</cell>
+            <cell><p rend="left">54</p></cell>
           </row>
           <row>
             <cell>Soubresaut</cell>
             <cell>Soubresaut</cell>
-            <cell>55</cell>
+            <cell><p rend="left">55</p></cell>
           </row>
           <row>
             <cell>Carré</cell>
             <cell>Carè</cell>
-            <cell>56</cell>
+            <cell><p rend="left">56</p></cell>
           </row>
           <row>
             <cell/>
             <cell>Rondeau / Rondò</cell>
-            <cell>57</cell>
+            <cell><p rend="left">57</p></cell>
           </row>
           <row>
             <cell>Attitude</cell>
             <cell>Attitudine</cell>
-            <cell>58</cell>
+            <cell><p rend="left">58</p></cell>
           </row>
           <row>
             <cell/>
             <cell>Braccia</cell>
-            <cell>59</cell>
+            <cell><p rend="left">59</p></cell>
           </row>
           <row>
             <cell/>
             <cell>Capriole</cell>
-            <cell>60</cell>
+            <cell><p rend="left">60</p></cell>
           </row>
         </table>
         <p>Per rendere più agevole la lettura e la citazione del testo, sono stati aggiunti due titoli entro parentesi quadra: Dedica e Conclusione.</p>

@@ -95,13 +95,13 @@
               <cell cols="3" rend="center">Passi citati nel Trattato di Dufort</cell>
             </row>
             <row>
-              <cell>Ortografia originale</cell>
+              <cell>Ortografia originale<lb/><lb/></cell>
               <cell>Ortografia corretta</cell>
               <cell>Capitolo</cell>
             </row>
             <row>
               <cell>Battimenti</cell>
-              <cell> [<hi rend="i">Battement</hi>] </cell>
+              <cell>[<hi rend="i">Battement</hi>] </cell>
               <cell>30</cell>
             </row>
             <row>
@@ -112,19 +112,19 @@
               <cell>26</cell>
             </row>
             <row>
-              <cell> Cadente <hi rend="i">Tombé</hi>
+              <cell>Cadente <hi rend="i">Tombé</hi>
               </cell>
               <cell>Tombé</cell>
               <cell>27</cell>
             </row>
             <row>
-              <cell> Contrattempo <hi rend="i">Contretemps</hi>
+              <cell>Contrattempo <hi rend="i">Contretemps</hi>
               </cell>
               <cell>Contretemps</cell>
               <cell>19</cell>
             </row>
             <row>
-              <cell> Fioretto <hi rend="i">De Bourée, ou Fleuret</hi>
+              <cell>Fioretto <hi rend="i">De Bourée, ou Fleuret</hi><lb/><lb/>
               </cell>
               <cell>
                 <hi rend="i">Bourrée</hi>
@@ -133,36 +133,36 @@
               <cell>18</cell>
             </row>
             <row>
-              <cell> Gagliarda <hi rend="i">De Gagliarde</hi>
+              <cell>Gagliarda <hi rend="i">De Gagliarde</hi>
               </cell>
               <cell>Gaillarde</cell>
               <cell>24</cell>
             </row>
             <row>
               <cell>Giro della gamba</cell>
-              <cell> [<hi rend="i">Tour de jambe</hi>] </cell>
+              <cell>[<hi rend="i">Tour de jambe</hi>] </cell>
               <cell>30</cell>
             </row>
             <row>
-              <cell> Gittato <hi rend="i">Jetté</hi>
+              <cell>Gittato <hi rend="i">Jetté</hi>
               </cell>
               <cell>Jeté</cell>
               <cell>12</cell>
             </row>
             <row>
-              <cell> Grave <hi rend="i">Grave, ou de Courante</hi>
+              <cell>Grave <hi rend="i">Grave, ou de Courante</hi><lb/><lb/>
               </cell>
               <cell>Grave, ou de Courante</cell>
               <cell>25</cell>
             </row>
             <row>
-              <cell> Mezzo Contrattempo <hi rend="i">Demi-Contretemps</hi>
+              <cell>Mezzo Contrattempo <hi rend="i">Demi-Contretemps</hi>
               </cell>
               <cell>Demi-Contretemps</cell>
               <cell>20</cell>
             </row>
             <row>
-              <cell> Mezzo Gittato <hi rend="i">Demi-Jetté</hi>
+              <cell>Mezzo Gittato <hi rend="i">Demi-Jetté</hi>
               </cell>
               <cell>
                 <hi rend="i">Demi-Jeté</hi>
@@ -170,7 +170,7 @@
               <cell>13</cell>
             </row>
             <row>
-              <cell> Mezzo Tronco <hi rend="i">Demi-Coupé</hi>
+              <cell>Mezzo Tronco <hi rend="i">Demi-Coupé</hi>
               </cell>
               <cell>Demi-Coupé</cell>
               <cell>14</cell>
@@ -181,49 +181,49 @@
               <cell>30</cell>
             </row>
             <row>
-              <cell> Piegato, e Rialzato <hi rend="i">Plié, et Relevé</hi>
+              <cell>Piegato, e Rialzato <hi rend="i">Plié, et Relevé</hi>
               </cell>
               <cell>Plié, et Relevé</cell>
               <cell>9</cell>
             </row>
             <row>
-              <cell> Pirola <hi rend="i">Piroüette</hi>
+              <cell>Pirola <hi rend="i">Piroüette</hi>
               </cell>
               <cell>Pirouette</cell>
               <cell>10</cell>
             </row>
             <row>
-              <cell> Rigodone <hi rend="i">De Rigaudon</hi>
+              <cell>Rigodone <hi rend="i">De Rigaudon</hi>
               </cell>
               <cell>Rigaudon</cell>
               <cell>21</cell>
             </row>
             <row>
-              <cell> Saltante <hi rend="i">Sauté</hi>
+              <cell>Saltante <hi rend="i">Sauté</hi>
               </cell>
               <cell>Sauté</cell>
               <cell>11</cell>
             </row>
             <row>
-              <cell> Scacciato <hi rend="i">Chassé</hi>
+              <cell>Scacciato <hi rend="i">Chassé</hi>
               </cell>
               <cell>Chassé</cell>
               <cell>17</cell>
             </row>
             <row>
-              <cell> Sdrucciolata <hi rend="i"> Glissade</hi>
+              <cell>Sdrucciolata <hi rend="i"> Glissade</hi>
               </cell>
               <cell>Glissade</cell>
               <cell>28</cell>
             </row>
             <row>
-              <cell> Semplice, o Naturale <hi rend="i">Simple, ou Naturel</hi>
+              <cell>Semplice, o Naturale <hi rend="i">Simple, ou Naturel</hi>
               </cell>
               <cell>Simple, ou Naturel</cell>
               <cell>8</cell>
             </row>
             <row>
-              <cell> Sfuggito <hi rend="i">Eschapé, ou Sailli</hi>
+              <cell>Sfuggito <hi rend="i">Eschapé, ou Sailli</hi><lb/><lb/>
               </cell>
               <cell>
                 <hi rend="i">Echappé</hi>
@@ -232,24 +232,24 @@
               <cell>16</cell>
             </row>
             <row>
-              <cell> Sissone <hi rend="i">De Sissonne</hi>
+              <cell>Sissone <hi rend="i">De Sissonne</hi>
               </cell>
               <cell>Sissonne</cell>
               <cell>22</cell>
             </row>
             <row>
               <cell>Staccato</cell>
-              <cell> [<hi rend="i">Dégagé</hi>] </cell>
+              <cell>[<hi rend="i">Dégagé</hi>] </cell>
               <cell>30</cell>
             </row>
             <row>
-              <cell> Tronco <hi rend="i">Coupé</hi>
+              <cell>Tronco <hi rend="i">Coupé</hi>
               </cell>
               <cell>Coupé</cell>
               <cell>15</cell>
             </row>
             <row>
-              <cell> Unito <hi rend="i">Assemblé</hi>
+              <cell>Unito <hi rend="i">Assemblé</hi>
               </cell>
               <cell>Assemblé</cell>
               <cell>23</cell>
