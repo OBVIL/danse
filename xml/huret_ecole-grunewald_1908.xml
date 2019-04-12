@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>L’École de danse de Grünewald</title>
+                <author key="Huret, Jules (1863-1915)"
+                    ref="https://data.bnf.fr/fr/12515547/jules_huret/">Jules Huret</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, TEI-XML</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Nolwenn Chevalier</name>
+                    <resp>édition TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/danse/huret_ecole-grunewald_1908</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Jules Huret, « L’École de danse de Grünewald », in <hi rend="i">En
+                        Allemagne</hi>, <pubPlace>Paris</pubPlace>,
+                        <publisher>E. Fasquelle</publisher>, <date>1908</date>, p. 261-268. PDF :
+                        <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5682434f"
+                    >Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1908"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="261" xml:id="p261"/>
+                <head>L’école de danse du Grünewald</head>
+                <argument>
+                    <p>Un foyer d’art inattendu. — L’École Isadora Duncan. — Disgrâce frappante du
+                        ballet italien. — L’antiquité ressuscitée. — Tanagra. — Éducation des jeunes
+                        danseuses. — La forêt, la gymnastique, l’hydrothérapie, la musique. — Pieds
+                        nus et jambes nues. — L’Impératrice et les petites danseuses. — Il ne faut
+                        pas que la danse meure.</p>
+                </argument>
+                <p>L’éternel ballet italien, insipide et disgracieux, continue à ennuyer les
+                    Allemands, comme il ennuie toute l’Europe, car l’Amérique, l’Inde, les pays
+                    musulmans et ceux d’Extrême-Orient ont, heureusement, d’autres danses ! Les
+                    Américains ont même inventé une danse libre et vivante, qui détrônera un jour ou
+                    l’autre le morne ballet, à moins que l’Allemagne ne prenne les devants…</p>
+                <p>Car, à part sa propreté et ses nouvelles maisons, il est une chose que j’envie à
+                    Berlin pour Paris : c’est l’École de danse du Grünewald.</p>
+                <p>Qu’est-ce donc que cette école ?</p>
+                <p>Je discutais un jour avec un illustre professeur allemand les raisons qui font
+                    que la Prusse n’a pas, en somme, d’art.</p>
+                <p>— La Prusse a créé le caporalisme, et les qualités <pb n="262" xml:id="p262"
+                    />d’ordre et de discipline du Prussien vous l’ont permis, on peut même dire que
+                    vous avez fait prospérer tout ce qui peut prospérer par le génie de
+                    l’organisation, mais vous manquez et vous manquerez longtemps encore des
+                    qualités qui font l’art et les artistes la fantaisie, le goût, la grâce et la
+                    liberté.</p>
+                <p>Il me répondit :</p>
+                <p>— Quand une nation manque d’un produit nécessaire, elle l’importe. Nous
+                    importerons des artiste. Vous nous prenez nos musiciens, vous imitez notre
+                    musique, nous prendrons modèle sur vos sculpteurs et sur vos peintres, nous
+                    imiterons vos couturières.</p>
+                <p>« Nous avons déjà ce dont nulle part au monde vous ne trouverez l’équivalent ou
+                    même l’approchant : l’École de danse d’Isadora Duncan. »</p>
+                <p>Je ne connaissais pas cette danseuse. J’avais vu son nom sur des affiches
+                    lorsqu’elle était venue à Paris, mais je m’étais refusé à l’aller voir
+                    danser.</p>
+                <p>On m’avait bien dit : ce qu’elle fait est curieux, ne ressemble à rien. Elle
+                    danse sur du Schumann… Et je me figurais des sortes de tableaux vivants, ces
+                    poses plastiques si horripilantes à voir. Et quand on me raconta l’enthousiasme
+                    de Rodin, de Carrière, de Saint-Marceaux pour l’étrangère, je commençai à penser
+                    que j’avais dû me tromper, et je me promis de ne pas laisser passer l’occasion
+                    de voir Isadora Duncan.</p>
+                <p>Et voilà que le hasard me fait un matin, à l’aube, rencontrer à la gare de
+                    Silésie, une dame étrange enveloppée de voiles bruns aux plis gracieux, la tête
+                    couverte d’un morceau de feutre ramené vers les oreilles par un voile. Elle
+                    descendait du train de Francfort et cherchait une voiture. Je vis ses pieds <pb
+                        n="263"/>nus dans des sandales à jour. La figure était celle d’une jolie
+                    jeune femme aux traits distingués, au regard rêveur et doux. Je l’entendis
+                    parler au Schutzmann, d’une voix frêle et caressante. Elle avait l’air d’une
+                    jeune sœur de cette admirable miss Booth, qui fonda l’armée du Salut.</p>
+                <p>Je le sus plus tard, c’était miss Isadora Duncan.</p>
+                <p>Le lendemain les affiches annoncèrent ses représentations.</p>
+                <p>J’y allai un soir, puis deux, puis trois. Du premier coup j’avais été pris : elle
+                    m’avait révélé la beauté du mouvement. Je savais désormais, par elle, qu’un bras
+                    levé, que des jambes remuant des plis de tunique, au rythme d’une belle musique,
+                    qu’une main se tendant vers une fleur invisible, qu’un cou incliné, peuvent vous
+                    paraître aussi beaux, vous émouvoir aussi profondément que la plus noble
+                    symphonie. Deux heures s’écoulèrent, et mes yeux ne se fatiguaient pas de la
+                    voir, ni mon esprit de suivre le sien à la recherche des beaux gestes et des
+                    lignes pures.</p>
+                <p>Je songeais, en la regardant, aux ballerines des Opéras. Grâce à elle, je
+                    comprenais ce que veulent faire ces pauvres filles quand elles lèvent la jambe,
+                    le pied, ou tendent les bras en corbeille. Oui, oui, c’est pour imiter les
+                    bas-reliefs de la Grèce, c’est pour réjouir nos yeux par la grâce et la
+                    souplesse de leurs gestes, qu’elles se donnent tout ce mal, qu’elles gigotent et
+                    tournent comme des totons, qu’elles se dressent sur la pointe de leur orteil
+                    comme des pantins de fil de fer, des automates bien articulés….. A cette heure
+                    où, avec des gestes de panathénée, Isadora Duncan se meut, libre et forte,
+                    gracieuse et variée, les jolies ballerines de Milan, de Paris, <pb n="264"
+                        xml:id="p264"/>de Saint-Pétersbourg, de Berlin et de Londres me font l’effet
+                    de moniteurs de l’École de gymnastique militaire de Joinville, s’exerçant en
+                    robes de gaze, à devenir des almées ! A la fois bayadère et tanagréenne, tour à
+                    tour vierge pudique et bacchante excitée, que danse-t-elle ? Où a-t-elle pris
+                    ces pas, ces courses rapides, ces essors d’ange tombé qui s’efforce à remonter
+                    au ciel dans une trajectoire eurythmique, ces balancements de fleur pensante ?
+                    Quelle cinématique lui a enseigné de se mouvoir ainsi, de donner à tout son
+                    corps simultanément les belles lignes des statues en marche, de ne jamais bouger
+                    sans une élégance divine, de régler ses moindres déplacements selon une
+                    insaisissable cadence ?</p>
+                <p>C’est dans son simple génie que naquit ce miracle. Car elle a beau passer sa vie
+                    à décomposer les gestes des statues grecques, des estampes japonaises, des
+                    figures creusées dans les pylônes égyptiens, la seule imitation ne suffirait pas
+                    à produire les milliers d’attitudes différentes qu’en une seule danse elle fait
+                    vivre aux yeux ravis.</p>
+                <ab type="ornament">***</ab>
+                <p>Après avoir vu danser Isadora Duncan, j’allai visiter les musées de Berlin, et je
+                    compris soudain ce que recèlent de vie gracieuse et noble les bas-reliefs de
+                    l’antiquité. Ces jambes et ces bras de pierre, ces draperies immobiles, sont les
+                    secondes admirablement fixées de beaux mouvements humains dont le secret était
+                    mort pour nous.</p>
+                <p>Ainsi, peu à peu, après Athènes, après Rome, l’art de la danse s’était perdu, ou
+                    du moins, transmis de <pb n="265" xml:id="p265"/>travers, comme il arrive
+                    toujours quand des choses délicates et achevées sont imitées par des barbares ou
+                    des enfants.</p>
+                <p>Aujourd’hui, qui le croirait ? ce sont les danses des statues grecques que nous
+                    voyons sur toutes les scènes de l’Europe ! Elles veulent imiter les tanagras,
+                    les filles d’opéra qui mettent leurs bras en cerceau au-dessus de leur tête,
+                    lèvent leurs jambes comme des tiges d’acier et courent ainsi à rapides petits
+                    pas de canard… Mais, par bonheur, c’est dans le même but que danse Isadora
+                    Duncan. Elle seule a <hi rend="i">compris</hi> dans notre temps, comment
+                    marchaient, comment couraient, comment portaient les guirlandes et les amphores
+                    les filles de l’Hellade, et c’est cela, avec mille autres grâces, qu’elle
+                    ressuscite au son des musiques de notre temps. C’est cela qu’elle veut faire
+                    revivre pour la joie des hommes, pour la joie de l’art.</p>
+                <p>Et voilà pourquoi elle a fondé de ses deniers avec une passion qui fait
+                    maintenant le but de sa vie, une école où elle reçoit gratuitement, héberge,
+                    habille, instruit, vingt jeunes enfants allemands, hollandais, russes, français,
+                    scandinaves.</p>
+                <p>Elle a loué en pleine forêt du Grünewald, à une demi-heure de Berlin, une grande
+                    villa avec un jardin, a installé des dortoirs, des réfectoires, une salle de
+                    danse et de gymnastique, une salle d’hydrothérapie, et chaque jour les enfants
+                    font des exercices d’assouplissement, selon la méthode suédoise, apprennent à
+                    courir, à marcher dans la pleine liberté de mouvement des enfants grecs, tels
+                    qu’on les voit sur des bas-reliefs qui demeurent. Une musique accompagne leur
+                    gymnastique dansante, car le but à atteindre, c’est que la future danseuse vive
+                    les rythmes, <pb n="266" xml:id="p266"/>les sente et les interprète avec la même
+                    facilité qu’elle respire.</p>
+                <p>Toute la journée, mises à part les heures d’études et d’exercices, les enfants
+                    jouent dans la forêt qui s’étend tout autour de l’école. Elles courent pieds
+                    nus, dansent des rondes autour des grands arbres, tressent des guirlandes de
+                    fleurs et en font des motifs d’exercices en chantant des airs rythmiques. Vêtues
+                    d’une sorte de tunique à la grecque, courte et lâche, les jambes nues, les
+                    cheveux libres sous un béret souple, ce sont vraiment de petits anges, car la
+                    plupart sont jolies, angéliquement jolies. L’Impératrice en promenade les
+                    aperçut un jour, fit arrêter sa voiture, les admira, s’informa. Mais quand elle
+                    sut que c’étaient les élèves de la danseuse aux jambes nues, elle repartit sans
+                    insister davantage.</p>
+                <p>Je les ai vues danser, un soir, autour d’Isadora Duncan, habillées de bleu, de
+                    blanc, de rose, et je crois que jamais spectacle humain ne m’a plus profondément
+                    ému. La vue de la pureté, de l’innocence, de la candeur unies à la beauté et à
+                    la grâce, procure aux vieux pécheurs une émotion que j’appellerai divine pour en
+                    marquer la qualité rare et noble.</p>
+                <p>Ces corps d’enfants souples et beaux, leurs longs cheveux bouclés et libres,
+                    leurs petits bras s’agitant au rythme des jambes et des pieds nus, au son d’une
+                    musique suave, la grâce merveilleuse du moindre de leurs gestes débarrassés de
+                    cette sorte d’ankylose empruntée et maladroite que donnent chez nous aux petits
+                    rats d’opéra les exercices mal compris, surtout leurs yeux, leurs doux yeux
+                    candides et tendres d’enfants du Nord, me mirent dans un état d’exaltation pure
+                    et religieuse que je ne connaissais pas. Comme <pb n="267" xml:id="p267"/>elles
+                    sautaient très haut, ainsi que des balles, sur le tapis sombre, comme elles
+                    étaient vêtues d’étoffes claires et voltigeantes, les petites filles me firent
+                    exactement l’effet de petits anges ; je lus une infinie bonté dans leur infinie
+                    douceur, et leur tendre sourire me rappela celui des images saintes qu’aima mon
+                    enfance. La musique aidant, j’eus l’illusion d’une sorte de miracle religieux,
+                    d’une Chandeleur improvisée ; je baignais dans la blancheur et l’immarcessible,
+                    et mon émotion était d’une suavité inconnue.</p>
+                <p>Je sus un grand gré à miss Isadora Duncan du bonheur que je lui devais doublement
+                    dans cette soirée, et j’enviai pour la France la gloire de ressusciter un tel
+                    art. Mais elle me dit :</p>
+                <p>— C’est à Berlin, c’est en Allemagne que mon succès fut toujours le plus grand et
+                    le plus constant. C’est à l’Allemagne que ma reconnaissance a voulu rendre ce
+                    que je lui devais. Dans vingt-cinq ou trente ans, mes idées auront prévalu, mais
+                    en attendant il faut lutter.</p>
+                <p>Et cette petite créature énergique lutte avec une ardeur, une ténacité héroïques.
+                    Elle a dépensé toute sa fortune pour édifier son école, et c’est avec le produit
+                    de son labeur qu’elle subvient à son entretien. Déjà un comité de professeurs
+                    éminents et de gens du monde s’est fondé pour l’aider à gérer son œuvre de
+                    beauté, mais l’appui financier qu’il lui faudrait ne s’est pas encore trouvé.
+                    Son école lui coûte 60,000 marks, et les souscriptions ne s’élèvent qu’à 2,000
+                    marks.</p>
+                <p>La résistance vient du côté des ballerines officielles et de leurs
+                    « cavaliers ».</p>
+                <p>Un jour ou l’autre, il faudra bien que l’État <pb n="268" xml:id="p268"/>prussien
+                    apprenne l’existence de cette école d’esthétique sans pareille au monde, et
+                    l’agglomère à son magnifique Conservatoire de Berlin. Ce jour-là, on ne pourra
+                    plus dire que la Prusse ne fait pas d’artistes.</p>
+                <p>Elle s’exténue à lutter, car elle est à peu près seule à avoir la foi, avec sa
+                    sœur, miss Élisabeth Duncan, qui est, en fait, la directrice de l’École du
+                    Grünewald. Intelligente et fine, adorant sa sœur comme une déesse, elle a
+                    sacrifié sa vie à son adoration. Quand miss Isadora s’en va à travers l’Europe
+                    chercher, en dansant, les capitaux nécessaires à alimenter l’école gratuite,
+                    miss Élisabeth continue son œuvre.</p>
+                <p>— Il ne faut pas que la danse meure, répète-t-elle avec une énergie
+                    attendrie.</p>
+                <p>Pourtant cette vie de sacrifice ne pourra pas durer toujours. Son rêve, c’est
+                    qu’un congrès de sculpteurs et de musiciens s’émeuve à l’idée de voir sombrer
+                    son idée et décide de la faire vivre. Souhaitons ardemment qu’il se réalise<note
+                        n="1" place="bottom">J’apprends que miss Duncan, actuellement en tournée en
+                        Amérique où son succès est prodigieux, n’est pas décidée à continuer son
+                        École du Grünewald, et qu’elle songerait à la faire émigrer en France, à
+                        Paris. Ce serait tant mieux pour nous, mais tant pis pour
+                    Berlin !</note>.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

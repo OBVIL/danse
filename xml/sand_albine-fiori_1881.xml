@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Albine Fiori</title>
+                <author key="Sand, George (1804-1876)" ref="https://data.bnf.fr/fr/11923601/george_sand/">George Sand</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, TEI-XML</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Nolwenn Chevalier</name>
+                    <resp>édition TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>édition TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.site/corpus/danse/sand_albine-fiori_1881</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>George Sand, « Albine
+                        Fiori », <hi rend="i">La Nouvelle Revue</hi>, 3e année,
+                        tome IX, mars-avril <date>1881</date>,
+                        p. 78-100, 432-448. PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k35918b">Gallica</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1881"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="book">
+                <pb n="78" xml:id="p78"/>
+                <head>Albine<note n="1" place="bottom">Tous droits réservés.</note>. <lb/>Le dernier roman de George Sand</head>
+                <div2 type="letter">
+                    <head type="sur">Première lettre. </head>
+                    <head type="main"><hi rend="i">A monsieur le duc d’Autremont, château
+                            d’Autremont.</hi></head>
+                    <dateline>Paris, le …</dateline>
+                    <p>Mon cher Flaminien, vous recevrez au premier jour le jeune architecte que je
+                        vous expédie. Si je vous parle de lui comme d’un colis, ne pensez point que
+                        je fasse peu de cas de sa personne. C’est un garçon d’un vrai mérite et que
+                        je connais depuis longtemps ; je l’ai eu pour élève durant mon
+                        professorat au collège de… Il s’appelle Juste Odoard, nom de fantaisie ou
+                        pseudonyme, comme vous voudrez, car il sort des Enfants-Trouvés. Il a été
+                        adopté par une vieille fille qui, n’ayant point de fortune à lui laisser, a
+                        eu le grand sens de lui faire donner une bonne éducation dont il a eu
+                        l’esprit de profiter, et maintenant il aide sa mère adoptive à vivre dans
+                        une certaine aisance. Il est parfait pour elle, il est le meilleur des fils.
+                        C’est vous dire d’un mot que vous aurez affaire à un cœur droit et à une
+                        bonne conscience.</p>
+                    <p>Voici pour ce qui touche la question d’intérêt. Juste Odoard veut gagner le
+                        plus possible : il est très pratique. Il a un but respectable. Mais
+                        avec vous, il ne fera point de conditions. Je lui ai dit qui vous êtes et
+                        qu’il suffirait de vous indiquer le minimum et le maximum de ces sortes
+                        d’honoraires pour vous mettre à même de lui témoigner largement le degré de
+                        satisfaction qu’il vous donnera par son savoir et son activité. Je vous
+                        communique <pb n="79" xml:id="p79"/>ces chiffres sur une feuille à part avec le relevé
+                        des travaux exécutés par mon jeune architecte dans ces derniers temps et qui
+                        sont ses états de service. Comme, sans être très intimement lié avec lui, je
+                        ne l’ai pourtant jamais perdu de vue, je peux vous conseiller d’avoir, quant
+                        à la gestion des intérêts que vous lui confierez, une tranquillité
+                        absolue.</p>
+                    <p>Et maintenant, comme votre repos d’esprit me paraît plus important que les
+                        réparations de votre demeure, laissez-moi vous dire ce que je pense de
+                        l’espèce d’association à laquelle vous m’avez prescrit de travailler.</p>
+                    <p>Vous voulez continuer à vivre dans l’austère solitude de votre vieux manoir,
+                        puisque vous consacrez du temps et de l’argent à le rendre plus élégant et
+                        plus confortable ; c’est le tour qu’ont pris vos pensées depuis
+                        quelques années, et je l’approuve, parce que je garde l’espérance de vous
+                        voir associer à votre existence celle d’une femme aimable et vertueuse.
+                        J’ose vous en parler pour la seconde fois depuis l’expiration de votre
+                        deuil, et peut-être me répondrez-vous cette fois-ci comme la première :
+                        que vous n’êtes pas encore disposé à remplacer la digne compagne que vous
+                        avez perdue il y a cinq ans. Mais vous en avez trente, mon cher enfant, et
+                        c’est le bon âge pour recommencer une vie nouvelle. Vous réfléchirez, et, si
+                        vous me le permettez, j’y reviendrai dans ma prochaine lettre. Sans votre
+                        agrément, je ne saurais brusquer par mon insistance la délicatesse de vos
+                        sentiments intimes.</p>
+                    <p>Mais il m’est permis de vous dire que la solitude est mauvaise, surtout à une
+                        âme passionnée comme la vôtre, et pourtant je ne vous vois pas sans quelque
+                        appréhension disposé à traiter Juste Odoard comme un compagnon et un ami. Ce
+                        sont vos propres expressions. Vous m’avez dit : « Trouvez-moi un
+                        homme de talent pour les travaux d’art que je veux faire exécuter chez moi.
+                        Qu’il soit honnête et intelligent, je n’en demande pas davantage pour faire
+                        avec lui un bail de dix-huit mois ou deux ans et pour lui rendre ma solitude
+                        moins austère en le traitant comme un compagnon et un ami. »</p>
+                    <p>Je reconnais bien là la bonté candide de vos jeunes années, et je sais assez
+                        la bienveillante douceur de votre caractère pour <pb n="80" xml:id="p80"/>être certain
+                        que vous tiendrez parole. Mais si mon jeune architecte a tout profit à
+                        recueillir de vos généreuses intentions, en sera-t-il de même pour
+                        vous ? S’il peut suffire d’être honnête et intelligent pour mériter de
+                        devenir le compagnon et l’ami d’un homme tel que vous, dans la vie
+                        changeante et mêlée d’une grande ville, il en va tout autrement dans le
+                        tête-à-tête prolongé d’une retraite comme la vôtre.</p>
+                    <p>Juste Odoard ne s’y ennuiera pas, parce qu’il sera occupé et qu’il aime le
+                        travail avec passion ; mais il gardera, de la contention d’esprit de
+                        ses laborieuses journées, une certaine animation, bonne ou mauvaise, qui
+                        cadrera peut-être fort mal avec le calme de vos habitudes de recueillement.
+                        Il est trop bien élevé pour être exubérant ou fantasque, mais il est
+                        beaucoup plus <hi rend="i">en dehors</hi> que vous, et peut-être vous
+                        blessera-t-il sans le savoir en voulant vous faire partager des idées ou
+                        seulement des appréciations qui ne sont pas les vôtres. Par exemple, je le
+                        crois beaucoup plus partisan des doctrines libérales que nous ne le sommes,
+                        vous et moi. Peut-être même est-il républicain, et s’il s’est abstenu de
+                        jamais discuter avec moi, il est possible que ce soit par pure déférence. Il
+                        ne se permettra, je crois, jamais de discuter vos principes si vous ne l’y
+                        encouragez pas. Mais s’il est et votre compagnon et votre ami, vous le lui
+                        permettrez, et, en supposant que vous n’ayez jamais à rompre que des lances
+                        courtoises, ce sera pour vous un trouble intérieur, une sorte d’ébranlement
+                        de votre air vital qui vous amusera peut-être durant quelques jours, mais
+                        qui risque de vous devenir insupportable, et qui sait ?
+                        malsain. — En outre, ce jeune homme a des passions probablement,
+                        et il comprendra difficilement que vous mettiez un frein religieux aux
+                        vôtres. Que vous dirai-je ? Je le crois excellent et aussi pur que le
+                        permet la vie du siècle ; mais c’est un ouvrier qui bâtit des églises
+                        et des chapelles sans se soucier beaucoup, je le crains, de l’idée qu’on y
+                        vénère. Vous n’êtes point habitué à la discussion et je sais que vous ne
+                        l’aimez pas. Laisserez-vous battre en brèche vos plus chers principes, et si
+                        vous ne pouvez vous y résoudre, car cela est impossible à qui porte en soi
+                        la flamme de la croyance, ne regretterez-vous pas le temps perdu à repousser
+                        de vains sophismes ?</p>
+                    <pb n="81" xml:id="p81"/>
+                    <p>Je vous dis toutes les réflexions qui me sont venues ce matin
+                        après avoir remis à Juste Odoard la lettre qui le fera pénétrer dans vos
+                        sanctuaires. Je me suis gardé de lui dire sur quel pied d’intimité vous
+                        comptez l’accueillir, et cela à cause d’une réponse qu’il m’a faite et qui
+                        m’a donné à penser. Comme je le prévenais d’avoir à ne blesser en rien vos
+                        idées politiques et religieuses, il ne m’a point dit : « Ces
+                        idées, je les respecte. » Il m’a dit : « Les idées des
+                        autres, cela ne me regarde pas. » J’ai été frappé du ton bref et du
+                        regard froid, et dès lors toutes les appréhensions que je viens de vous
+                        soumettre ont surgi rapidement dans mon esprit. Il m’a demandé s’il
+                        trouverait des facilités pour se loger et se nourrir dans votre
+                        montagne ; j’ai pris alors sur moi de lui répondre que vous lui
+                        assuriez le vivre et le couvert dans de bonnes conditions de bien-être et
+                        qu’il n’aurait à se préoccuper de rien ; mais que vous étiez fort
+                        studieux et qu’il ne vous verrait qu’à vos heures de loisir. Il a compris
+                        qu’il mangerait chez lui et ne serait admis auprès de vous que sur votre
+                        invitation. « Alors, m’a-t-il dit, ce sera la solitude. Je vais
+                        emporter beaucoup de livres et de papier pour écrire. » Et il m’a
+                        quitté sans montrer aucun mécontentement.</p>
+                    <p>Donc, mon ami, vous êtes libre de suivre mon conseil ou de révoquer mon
+                        arrêt. Je vous demande de réfléchir et de m’aimer toujours comme je vous
+                        aime.</p>
+                    <signed><hi rend="sc">Melchior de Sainte-Fauste</hi>.</signed>
+                </div2>
+                <div2 type="letter">
+                    <head type="sur">Deuxième lettre. </head>
+                    <head type="main"><hi rend="i">A monsieur le duc d’Autremont, au château
+                        d’Autremont.</hi></head>
+                    <dateline>Lyon, le …</dateline>
+                    <salute>Monsieur le duc,</salute>
+                    <p>J’ai quitté Paris, comptant arriver chez vous après-demain, car je devais
+                        m’arrêter en route pour faire mes adieux à ma mère et rester un jour auprès
+                        d’elle. Mais je l’ai trouvée souffrante, et je ne puis la quitter avant de
+                        m’assurer que son indisposition n’a rien de grave. Je suis assez renseigné
+                        sur votre caractère pour avoir la confiance d’être pardonné.</p>
+                    <pb n="82" xml:id="p82"/>
+                    <p>Agréez, monsieur le duc, l’expression de mes sentiments
+                        dévoués.</p>
+                    <signed><hi rend="sc">Juste Odoard</hi>, <lb/><hi rend="i">Arch.</hi></signed>
+                </div2>
+                <div2 type="letter">
+                    <head type="sur">Troisième lettre. </head>
+                    <head type="main"><hi rend="i">A monsieur Juste Odoard, à Lyon.</hi></head>
+                    <dateline>Autremont, le…</dateline>
+                    <p>Je ne vous pardonne pas, monsieur, je vous approuve. Je sais combien vous
+                        êtes attaché à votre mère adoptive, et je serais désolé de vous séparer
+                        d’elle avant de vous savoir parfaitement tranquille.</p>
+                    <p>Croyez, monsieur, à mes sentiments tout dévoués.</p>
+                    <signed><hi rend="sc">Flaminien d’Autremont</hi>.</signed>
+                </div2>
+                <div2 type="letter">
+                    <head type="sur">Quatrième lettre. </head>
+                    <head type="main"><hi rend="i">Flaminien d’Autremont à Melchior de
+                            Sainte-Fauste.</hi></head>
+                    <p>Je vous remercie, mon ami, et je suis sûr que votre choix est excellent. Je
+                        n’ai pas encore reçu votre envoyé. Il me prévient, par un mot, qu’il est
+                        forcé de s’arrêter à Lyon auprès de sa mère. Je l’attends sans grande
+                        impatience. Mes travaux peuvent attendre quelques jours de plus. Mais ne
+                        croyez pas que je m’en occupe dans la prévision d’un nouveau mariage et ne
+                        prenez pas la peine de me remontrer les dangers et les douleurs de la
+                        solitude. Je les connais mieux que vous ; vous ne me direz rien dont je
+                        ne sois, à mes dépens, largement convaincu.</p>
+                    <p>Mais il y a quelque chose de pis que les souffrances qu’on endure seul et que
+                        l’on peut combattre sans pitié pour soi-même. Il y a la souffrance à deux,
+                        le mariage, le mariage mal assorti si vous voulez ; quand ne l’est-il
+                        pas pour un homme élevé comme je l’ai été ?</p>
+                    <p>Je vous étonne, je vous effraie peut-être ! Il faut qu’à la fin je vous
+                        éclaire sur mon passé matrimonial. Il le faut absolument <pb n="83" xml:id="p83"/>puisque
+                        vous me demandez la permission de me parler de l’avenir et que je dois vous
+                        refuser, c’est-à-dire vous supplier de ne m’en parler jamais. Je vous ai
+                        caché le secret de ma vie, et si ma pauvre jeune compagne eût vécu, je ne
+                        vous l’aurais jamais révélé. Les peines du mariage s’aggravent par la
+                        constatation absolue qu’on en fait sur soi-même en les confiant, fût-ce à
+                        son propre père. Après le mien, vous êtes certainement mon meilleur ami. Eh
+                        bien, je ne vous ai rien dit, et lui, il est mort sans rien savoir et me
+                        croyant heureux. Je ne me pardonnerais pas d’avoir assombri ses derniers
+                        jours par l’aveu de la vérité.</p>
+                    <p>Comment il m’a élevé, vous le savez ; vous y avez concouru en vous
+                        chargeant de m’instruire. L’homme qu’à vous deux vous avez fait de moi, au
+                        fond de ce cher pays sauvage et de ce triste manoir où j’ai tant souffert et
+                        dont je ne veux plus sortir, ni lui ni vous ne l’avez connu. Ma confession
+                        serait longue et vous ne la comprendriez pas toute ; je ne vous dirai
+                        que ce qui fait l’objet de vos interrogations.</p>
+                    <p>Mon ami, ne faites pas fausse route ; ce n’est pas la crainte de ne pas
+                        retrouver le bonheur que j’ai goûté qui me fait repousser le mariage. C’est
+                        la crainte justement d’en retrouver un semblable.</p>
+                    <p>Et je le retrouverais à coup sûr, ce bonheur amer et troublé, car toute la
+                        faute vient de moi, et comme je me suis trompé, je me tromperais encore. On
+                        se modifie, on ne se change pas.</p>
+                    <p>Vous n’avez pas connu M<hi rend="sup">me</hi> d’Autremont, vous m’aviez
+                        quitté presque à la veille de mon mariage. J’étais beaucoup trop jeune et
+                        trop écrasé par la volonté bénie de mon père pour savoir où j’allais. Je
+                        n’avais que vingt ans, je n’avais aucune notion de la nature intellectuelle
+                        et morale de la femme. J’avais perdu ma mère dès mes premières années, et
+                        j’étais aussi pur que la jeune fille dont je devenais l’époux. La passion
+                        avait couvé en moi dans les ténèbres de l’entendement. Nul ne m’avait dit ce
+                        que l’amour doit développer en nous de délicatesse et de grandeur. On
+                        m’avait interdit de rien chercher, de rien deviner. Vous-même… mais je ne
+                        vous fais pas de reproche, mon ami. Vous ne saviez pas non plus ! Vous
+                        aviez vécu calme et sans combat, vous ne pouviez m’apprendre ce que vous
+                        ignoriez ; mon père <pb n="84" xml:id="p84"/>l’aurait pu, il avait adoré sa femme,
+                        il ne s’était jamais consolé de sa perte. Il n’a pas voulu m’éclairer. Il a
+                        cru que l’amour est d’autant plus grand et plus beau qu’il est une
+                        révélation soudaine dont il ne faut pas laisser seulement pressentir les
+                        délices ; et pour que cette révélation ne me fût pas faite dans des
+                        hasards indignes, il me tint sous le joug d’une piété austère qui imputait à
+                        crime toute pensée dont la femme est l’objet. Il résulta de cette contrainte
+                        que j’appris à souffrir beaucoup sans me plaindre et sans m’écouter. Ce fut
+                        le côté fort et salutaire ; mais il en résulta aussi que je ne sus
+                        point en quoi consistait ma force et comment elle pouvait réagir sur mes
+                        instincts. Il y a dans l’emportement de la passion longtemps contenue une
+                        sauvagerie que l’amour seul doit vaincre. La religion ne nous enseigne pas
+                        cela, elle nous commande de nous abstenir, et quand elle nous lâche, tête
+                        baissée, dans le mariage sanctifié par elle, elle nous dit :
+                        « Croissez et multipliez », sans s’inquiéter des dangers de notre
+                        liberté subite et de l’abus que nous pouvons en faire. Quand elle prend la
+                        nuance mystique, elle fait pis. Elle nous dit de mépriser le plaisir des
+                        sens, de n’en user qu’en vue de la paternité et de ne point accorder à la
+                        créature l’amour sublime et complet que nous devons à Dieu seul.</p>
+                    <p>Mon ami, tout cela est faux. Dieu ne nous permet pas seulement d’aimer, il
+                        nous le commande. S’il a mis en nous la flamme d’une ardeur puissante, c’est
+                        pour que nous la divinisions en nous-mêmes par le dévoûment, par le
+                        sacrifice au besoin.</p>
+                    <p>Ma femme était une enfant élevée comme moi dans l’ignorance de la plus
+                        importante, de la plus sacrée des vérités humaines. Mes transports
+                        l’effrayaient, et au lieu de savoir les enchaîner par la persuasion, elle
+                        les augmentait par le dépit que m’inspirait sa froideur. En peu de temps,
+                        j’acquis la certitude qu’elle ne m’aimait pas. Je n’avais pas su me faire
+                        aimer. Je n’accusai que moi ; mais je ne compris pas en quoi consistait
+                        ma faute, et je devins sombre et désespéré sans m’aviser d’une expansion de
+                        cœur qui m’eût peut-être sauvé.</p>
+                    <p>Je dis <hi rend="i">peut-être</hi>, parce que, même à présent, je ne suis pas
+                        certain que ma femme l’eût comprise. Elle était, je vous l’ai dit, une
+                        enfant, et je crois qu’elle était destinée à l’être toujours. Par <pb n="85" xml:id="p85"/>réaction contre la dévotion rigide qui avait pesé sur elle comme sur moi,
+                        elle avait contracté une humeur railleuse et un besoin de rire de tout qui
+                        allait, faute d’aliments, jusqu’à rire de rien, pour le seul plaisir de
+                        rire. Je l’aimais toujours, elle ; mais son rire, je le haïssais. Il me
+                        déchirait l’âme. Par moments, j’essayais de lui laisser un libre cours et de
+                        partager cette fausse gaieté née d’une disposition toute contraire à
+                        l’épanouissement de l’âme heureuse. Cela était au-dessus de mes
+                        forces ; je la fuyais au milieu de ses amers éclats et des miens
+                        propres, pour aller me cacher et fondre en larmes.</p>
+                    <p>Elle me trouva bizarre et ne tarda pas à me croire fou. Un jour, mes yeux
+                        tombèrent sur une lettre qu’elle écrivait à une de ses cousines et qu’elle
+                        laissa en brouillon sur sa table, peut-être avec l’intention de me la faire
+                        lire. « Ma chère Calixte, lui disait-elle, je m’ennuie de plus en plus
+                        dans cet horrible donjon noir, en face de ces neiges éternellement blanches
+                        et solennellement bêtes. Je regrette notre pays plat si commode et si gai,
+                        nos petits chemins doux dans les bois clairsemés, notre pauvre maison si
+                        riante ! On m’a voulu riche et j’ai été sotte, je me suis laissé marier
+                        à un beau garçon excellent que j’aime bien, mais qui est studieux, baroque,
+                        sauvage et un tantinet extravagant. Il adore tout ce que je déteste et ne
+                        s’intéresse qu’à ce qui me fait bâiller. Il est instruit, savant même à ce
+                        qu’on dit. Moi je n’en sais rien et ça m’est égal : je l’ai vu trois
+                        fois pendant une heure chaque fois, avant de l’épouser, et toujours en
+                        présence de la famille. Il m’a faite duchesse et prisonnière un beau
+                        matin ; moi papillon de jardin il m’a changée en corneille noire dans
+                        sa montagne. Je suis devenue leste ; il s’en est étonné. J’essaie à
+                        présent de redevenir gaie, il s’en fâche. Il me fait des reproches que je ne
+                        comprends pas. Je lui en fais qu’il ne comprend pas davantage. Enfin c’est
+                        le mariage d’un aigle avec une linotte et ça ne va pas du tout. Comme il est
+                        très bon et que mon ennui l’afflige, il me jure que, plus tard, il me fera
+                        voyager et voir le monde, mais son vieux père est dans un triste état de
+                        santé qui ne permet pas que nous nous absentions, et Dieu sait combien
+                        durera cette maladie, qui dure déjà depuis deux ans ! Je crains d’être
+                        bientôt plus malade que lui et de partir la <pb n="86" xml:id="p86"/>première. Était-ce
+                        la peine d’être jeune, gentille et <hi rend="i">frétillante</hi>, comme
+                        disait papa, pour laisser mes os sur ce rocher hanté par les vautours ?
+                        Plains-moi, et si Maximilien te demande de mes nouvelles, dis-lui que je
+                        suis parfaitement heureuse et satisfaite. Mais, à toi, je puis bien dire que
+                        mes parents eussent mieux fait de me laisser épouser ce petit officier sans
+                        nom et sans fortune qui, du moins, partageait tous mes goûts, et qui,
+                        n’ayant guère plus d’esprit et de savoir que moi, ne m’eût pas infligé le
+                        supplice d’être par trop son inférieure. Ah ! l’ambition des parents
+                        fait loi dans le monde et c’est tant pis pour nous ! »</p>
+                    <p>Telle est la teneur et tels sont les principaux griefs de cette lettre que
+                        j’abrège beaucoup, mais dont le dernier trait enfonça le poison dans mon
+                        cœur. Ainsi, non seulement j’étais ridicule et insupportable à ma femme,
+                        mais elle en avait aimé un autre qu’elle regrettait ! Je l’avais
+                        rencontré chez elle, ce Maximilien. C’était un véritable idiot ! Je
+                        sentis du mépris pour elle, de la colère contre ses parents qui m’avaient
+                        trompé. Mon pauvre père avait souhaité ce mariage pour moi, parce que la
+                        mère de ma femme avait été la meilleure amie de ma mère. Cette personne
+                        excellente et charmante, pour qui je me sentais le cœur d’un fils, je la
+                        détestais, du moment que je découvrais le mobile de sa conduite.</p>
+                    <p>La jalousie me dévorait. Je ne voulus rien laisser paraître, mais ma femme
+                        vit bien, à mon attitude et à l’altération de mes traits, que je savais
+                        tout ; un peu effrayée de mon air sombre, elle me remit cette affreuse
+                        lettre, en me disant qu’elle n’avait pas compté l’envoyer et qu’elle l’avait
+                        écrite uniquement pour se soulager et se distraire. Que ce fût le brouillon
+                        ou l’original, que la lettre fût partie ou non, peu m’importait, je n’aimais
+                        plus ma femme, je la trouvais foncièrement égoïste et cruelle, jusqu’à
+                        souhaiter la mort de mon père.</p>
+                    <p>J’avais tort, j’ai hâte de vous le dire. Ses épanchements n’avaient pas la
+                        portée que je leur attribuais. Elle était légère, et quand elle essayait de
+                        réfléchir et de résumer, elle dépasait le but. « A qui la faute ?
+                        me disait-elle, on ne m’a pas appris cela, ou je n’ai pas pu l’apprendre.
+                        Pourquoi, vous qui êtes un <hi rend="i">homme supérieur</hi>, ne m’avez-vous
+                        pas fait subir un examen <pb n="87" xml:id="p87"/>avant de m’épouser ; vous auriez
+                        vu que je suis une femmelette, et vous m’eussiez laissée chez moi d’où je ne
+                        demandais pas à sortir. »</p>
+                    <p>Pouvais-je lui répondre qu’elle avait tort de pas vouloir s’élever au niveau
+                        de l’<hi rend="i">homme supérieur</hi> qui lui avait fait l’honneur de la
+                        choisir ? Pouvais-je lui avouer que j’avais eu tort de l’accepter de la
+                        main de mon père sans la connaître, ou que mon père avait eu tort de croire
+                        que tout s’arrange pour le mieux dans le mariage, sans que personne s’en
+                        mêle, pourvu que les convenances sociales aient été consultées ?</p>
+                    <p>Quelqu’un avait eu tort, sans aucun doute ; mais le pire de tous les
+                        torts c’eût été de se plaindre. Je me renfermai dans le silence et j’essayai
+                        de la distraire et de la promener comme un enfant qu’il faut amuser à tout
+                        prix. Elle mourait d’envie de monter à cheval ; je l’accompagnai dans
+                        ses excursions que je trouvais cruellement trop longues, car il me fallait
+                        laisser seul mon pauvre père habitué à ma société et à mes soins de tous les
+                        instants. Il ne se plaignait pas ; il m’exhortait au contraire à
+                        distraire ma femme ; mais ces absences le tuaient et je vis qu’il
+                        dépérissait rapidement. Alors je restai près de lui et ma femme sortit
+                        seule.</p>
+                    <p>Ce n’étaient que des promenades dans le parc avec notre vieux ami Clairac
+                        pour écuyer. Mais je dus, au bout de peu de jours, la prier de s’en
+                        abstenir. Le médecin avait déclaré qu’elle était enceinte. Elle me promit de
+                        ne pas s’exposer à un accident. Mais au moment où, dans la joie de mon âme,
+                        j’étais prêt à lui rendre toute la ferveur de mon premier amour, elle fondit
+                        en larmes ; c’est la seule fois que je l’ai vue pleurer. Elle
+                        regrettait sa liberté, les voyages que je lui avais promis ; elle se
+                        révoltait contre l’esclavage absolu que sa situation allait lui imposer
+                        pendant deux ou trois ans peut-être !</p>
+                    <p>Je dévorai encore cette amertume et je dus trouver des consolations pour
+                        cette douleur. Je m’imposai de lui cacher la joie que j’éprouvais, mais je
+                        courus en faire part à mon père. Je le trouvai si pâle que j’en fus effrayé.
+                        Il me dit qu’il venait d’éprouver un peu de défaillance, mais que ce n’était
+                        rien. Il écouta la bonne nouvelle que je lui annonçais en souriant, et en
+                        même <pb n="88" xml:id="p88"/>temps qu’il attachait sur moi ses beaux yeux attendris, il
+                        pâlissait de plus en plus. Je lui saisis les mains : elles étaient
+                        glacées. Il retint faiblement les miennes comme s’il voulait me dire quelque
+                        parole suprême, mais il ne le put ; ses traits devinrent immobiles, ses
+                        yeux fixes, et il expira en souriant. Ce sourire d’adorable tendresse, je le
+                        vois, je le verrai toujours !</p>
+                    <p>Ma femme partagea ma douleur et la calma autant qu’il était en elle. Mais
+                        elle ne savait pas les paroles d’amour et de foi qui apaisent et relèvent.
+                        Elle fut pourtant très bonne et s’affecta de ma douleur. Elle s’en affecta
+                        même trop, car elle tomba malade. Cette délicate et rieuse créature n’était
+                        pas née pour souffrir. La tristesse la tuait. Il fallait l’arracher à ce
+                        séjour qu’elle détestait. Je m’arrachai, moi, à la tombe à peine refroidie
+                        de mon père, je conduisis ma femme chez ses parents. Ils avaient beaucoup
+                        aimé les miens, ils me témoignèrent de l’affection. Mais leur affliction ne
+                        pouvait se comparer à la mienne et ils éprouvaient le désir bien naturel de
+                        voir leur fille revenir promptement à la joie et à la santé. Ma contrainte
+                        était extrême. Il ne dépend pas de moi d’oublier vite et je me cachais pour
+                        ne pas attrister ma famille par ma présence. Ma femme ne s’en plaignait pas.
+                        Au contraire, je la voyais faire un pénible effort sur elle-même pour
+                        reprendre sa gravité quand je reparaissais. J’étais donc forcé de vivre
+                        seul, au milieu des siens, et je regrettais amèrement ma solitude
+                        d’Autremont où il m’eût été permis de pleurer mon père.</p>
+                    <p>On organisa, dans un château voisin, une partie de chasse à laquelle nous
+                        fûmes invités. Je craignais de me trouver condamné à subir, autour de nous,
+                        une gaîté bruyante, douloureux contraste avec notre deuil ; je
+                        craignais aussi la fatigue pour ma femme dont la santé se rétablissait à
+                        souhait. Je la suppliai de refuser. Elle en eut du dépit et tout de suite la
+                        migraine. La mère me reprocha de m’opposer aux distractions nécessaires,
+                        disait-elle, à la vie de son enfant. Elles iraient en voiture, au pas, s’il
+                        le fallait. Je dus céder, je montai à cheval, j’étais écrasé par les plus
+                        sombres pressentiments. Je ne voulus point me mêler à la chasse, je suivais
+                        la calèche où était ma femme, mais à distance, car j’avais, disait-elle, une
+                        figure de croque-mort qui parfois l’épouvantait.</p>
+                    <pb n="89" xml:id="p89"/>
+                    <p>Vous savez qu’une arme à feu déchargée trop près effraya les
+                        chevaux qui prirent le mors aux dents. C’était ce malheureux imbécile de
+                        Maximilien qui tenait les rênes. J’avais voulu les prendre, on n’y avait pas
+                        consenti. Je me promettais de le dégoûter de ses assiduités auprès de ma
+                        femme quand nous serions seuls. Mais il fut tué sur le coup en voulant
+                        sauter pour se mettre à la tête des chevaux emportés. Je courais ventre à
+                        terre, j’arrivai à temps pour arrêter la voiture et l’empêcher de verser. Ma
+                        femme ne paraissait pas très effrayée pour son compte, ma belle-mère avait
+                        conservé son sang-froid, on ne s’inquiétait que de Maximilien qu’on avait vu
+                        tomber et qui ne se relevait pas. Un instant après, on le vit mort, dans les
+                        bras des piqueurs qui l’emportaient. Ma femme poussa des cris perçants.
+                        L’aimait-elle encore ? L’avait-elle réellement aimé ? Était-elle
+                        capable de ressentir et de nourrir une passion quelconque ? Je préférai
+                        ne pas le croire et attribuer cette crise nerveuse à l’impression subite
+                        d’un pareil drame. Je ne m’occupai que de la soigner et de la calmer. La
+                        chasse, comme on peut le croire, fut interrompue. Nous rentrâmes, et ma
+                        femme se mit au lit. Vous savez le reste. Elle ne se releva plus. Après huit
+                        jours de fièvre et de délire, elle expira dans mes bras sans me reconnaître.
+                        Ainsi, en moins d’un mois, j’avais perdu père, femme et enfant. J’étais seul
+                        au monde. Je courus m’enfermer à Autremont, ne connaissant plus d’autre
+                        volupté dans la vie que de pleurer et souffrir en liberté.</p>
+                    <p>Voilà le tragique roman de ma jeunesse. Cet enfant que vous avez instruit
+                        avec tant de zèle, de patience et de bonté, n’est arrivé à la virilité que
+                        pour épuiser, en un jour, toutes les amertumes de la vie. Je vous ai appris,
+                        alors, en peu de mots, les malheurs dont j’étais frappé. Vous m’avez écrit
+                        pour me conseiller la résignation. J’étais tout résigné, en ce sens que je
+                        ne me suis plaint à personne et que je n’ai jamais fait entendre ni un
+                        sanglot ni un murmure. Il est tellement inutile d’être lâche !</p>
+                    <p>J’ai voyagé, j’ai fait mon devoir envers moi-même, en ce sens que j’ai
+                        conservé mon être normal et physique dans les conditions de l’équilibre
+                        extérieur nécessaire à l’homme pour ne point devenir nuisible aux autres. Je
+                        n’ai professé ni la théorie du désespoir, ni celle du découragement. Mes
+                        amis se sont mariés <pb n="90" xml:id="p90"/>autour de moi, je ne les en ai pas
+                        détournés. Quelques-uns m’ont dit, après une courte expérience :
+                        « La femme est un enfant qu’il faut toujours amuser pour qu’elle vous
+                        aime, ou laisser à son confesseur pour qu’elle ne vous aime pas trop. »
+                        J’ai répondu : « Aimons pour être aimés », et je n’ai pas
+                        rouvert ma plaie par d’inutiles expansions.</p>
+                    <p>Je suis donc résigné, n’en doutez pas. Mais je ne veux pas refaire
+                        l’expérience, car j’ai mal aimé, et je ne saurais probablement pas aimer
+                        mieux. On ne m’a pas appris à faire de l’amour un idéal et une poésie. On
+                        m’a laissé systématiquement ignorer les voluptés de la tendresse. J’ai aimé
+                        avec les sens, avant que mon cœur eût parlé et se fût révélé à moi-même. Mon
+                        intelligence, plus cultivée et plus développée que celle de la pauvre enfant
+                        qui fut ma femme, n’avait pas reçu la notion de la douceur et de
+                        l’attendrissement paternels, qui seule peut, dans ces conditions, unir et
+                        niveler deux âmes. J’avais accepté cette enfant comme mon égale, j’étais
+                        tout porté à la chérir et à l’admirer toujours. Pourtant je n’ai pas su me
+                        mettre à son plan et dissimuler mes exigences. J’ai senti mourir en moi
+                        l’affection que je n’avais pas su faire naître en elle. Je me fusse soumis à
+                        ses caprices pour la faire vivre, mais en souffrant d’abdiquer ainsi ma
+                        raison et ma conscience. Elle eût bien vu ma contrainte, et ne se fût jamais
+                        trouvée heureuse. Je ne me fusse jamais plaint d’elle, elle se fût plainte
+                        de moi toute sa vie.</p>
+                    <p>C’est tant pis pour moi, je n’accuse jamais Dieu, donc je crois que tout le
+                        mal qui nous arrive vient de notre ignorance et que nos désastres sont notre
+                        ouvrage. Si, par une combinaison particulière de penchants et d’idées, je
+                        suis un être sombre, je dois me garder d’entraîner un autre être dans ma
+                        nuit. Il ne s’agit pas de savoir si je m’y trouve bien, il s’agit de
+                        n’associer personne à mon mal.</p>
+                    <p>Vous me feriez souffrir, mon ami, si vous répondiez au fond de cette lettre
+                        et si vous aviez des réflexions sur ce que je viens de vous raconter. En
+                        blâmant la compagne que j’ai perdue, vous raviveriez des remords peut-être
+                        illusoires, mais très cruels. En me défendant vis-à-vis de moi-même, vous me
+                        rendriez peut-être injuste envers une mémoire que je veux respecter. De même
+                            <pb n="91" xml:id="p91"/>qu’en me blâmant, si je mérite le blâme, vous rendriez mon
+                        horizon encore plus noir et ma déception plus profonde. Je ne vous parlerai
+                        plus de ces choses, ne m’en parlez jamais, si vous m’aimez !</p>
+                    <p>Je fais bâtir parce que mon pauvre vieux manoir devient réellement
+                        inhabitable pendant l’hiver et que je ne suis pas décidé à continuer le
+                        métier d’oiseau voyageur, pour aller chercher tous les ans le soleil en
+                        Italie ou en Espagne. Mes études se trouvent très mal de cette émigration
+                        annuelle, mes dispositions d’esprit en ressentent une fluctuation qui
+                        ôterait toute vue d’ensemble à mon travail ; votre jeune architecte me
+                        rendra donc grand service s’il marche vite, et je suis résolu à lui en
+                        savoir gré de toutes les manières. Ne vous inquiétez pas de la lutte de
+                        principes qui peut s’engager entre nous. Vous m’avez connu fervent, mais
+                        vous ne savez pas à quel point j’ai appris à mes dépens l’indulgence et la
+                        modestie ! Merci pourtant pour vos bons avis et pour vos affectueuses
+                        préoccupations. Je suis à vous toujours du plus profond de mon cœur.</p>
+                    <signed><hi rend="sc">Flaminien</hi>.</signed>
+                </div2>
+                <div2 type="letter">
+                    <head type="sur">Cinquième lettre. </head>
+                    <head type="main"><hi rend="i">Juste Odoard à M<hi rend="sup">lle</hi> de
+                            Nesmes, à Lyon.</hi></head>
+                    <dateline>Château d’Autremont, le …</dateline>
+                    <p>Est-ce bien vrai que tu es tout à fait bien, ma mère chérie ? Que tu es
+                        bonne de m’avoir envoyé ce télégramme que je viens de recevoir. J’espère que
+                        la poste de demain m’apportera une vraie lettre de ton écriture, et que je
+                        pourrai avoir l’esprit libre et le cœur content pour faire connaissance avec
+                            <hi rend="i">le patron</hi> dont je viens recevoir les ordres en
+                        attendant qu’il m’accorde l’amitié promise.</p>
+                    <p>Moi, j’ai peine à croire, si bon qu’il soit, que je puisse m’attacher
+                        beaucoup à un fervent catholique, à une espèce de saint tel que me l’a
+                        dépeint le très chrétien M. de Sainte-Fauste. Ces braves gens-là sont
+                        capables de tous les bons procédés, mais ils <pb n="92" xml:id="p92"/>n’aiment réellement
+                        personne. C’est tout simple, ils n’ont besoin d’aucun de leurs semblables.
+                        Ils traitent de pair à compagnon avec le bon Dieu, qui est certainement un
+                        ami plus intéressant et un camarade plus gentil que le meilleur d’entre
+                        nous. Nous devons nous contenter des restes qu’il nous laisse dans ces âmes
+                        noyées en lui. Je ne compte donc que fort peu sur l’affection promise, je te
+                        l’ai dit, et je t’ai dit aussi de ne pas croire que je m’ennuierai dans la
+                        solitude. D’abord je ne suis jamais seul ; je te porte partout avec
+                        moi, et l’habitude de t’écrire de longues lettres me console amplement de
+                        l’absence d’interlocuteurs.</p>
+                    <p>Pour commencer, je vais te raconter mon arrivée ici, hier soir, par un joli
+                        brouillard qui ne m’a pas permis de soupçonner la forme ou la couleur du
+                        pays. J’ai su, par la lenteur du trajet, que la pauvre haridelle louée à
+                        Chambéry gravissait péniblement les étages d’une interminable montée. Mon
+                        conducteur était pourtant pressé d’arriver. Il paraissait fort inquiet de
+                        voir augmenter l’intensité de ce brouillard, qui lui permettait à peine de
+                        suivre un chemin bordé de précipices. Mais comme je ne le voyais pas, je
+                        m’ennuyais, et j’ai pris le parti de marcher pendant la dernière heure du
+                        trajet pour ne pas m’endormir et ne pas arriver chez M. le duc avec la
+                        figure d’un abruti. Il faisait encore assez de jour pour que je pusse voir
+                        où je posais les pieds.</p>
+                    <p>Bien préservé par le bon macfarlane que tu m’as donné, je n’étais pas mouillé
+                        par les nuages qui m’enveloppaient. Un coup de vent a tout à coup enlevé le
+                        rideau, et je me suis trouvé en face d’un grand vieux manoir romantique
+                        perché sur un plateau de roches qui semblait émerger du vide, car les pentes
+                        abruptes restaient plongées dans un océan de nuées grises qui donnaient
+                        l’idée du chaos. Par la déchirure qui se faisait au-dessus de ma tête, je
+                        voyais un ciel chargé de bandes noires, lourdes, sur un fond glauque qui
+                        faisait ressortir la dentelure hardie des toits aigus du château ;
+                        c’était très bizarre et très beau. Je ne sentais plus aucune fatigue.</p>
+                    <p>La grille était ouverte toute grande ; je pénétrai dans une cour étroite
+                        et sombre, et me trouvai en face d’un petit vieillard escorté de deux
+                        domestiques portant des flambeaux. Ce n’était pas le duc, qui a vingt-six
+                        ans, ni son père, qui est mort depuis <pb n="93" xml:id="p93"/>longtemps. Mais ce pouvait
+                        être son grand-père ou son grand-oncle, car il avait une mise irréprochable
+                        et une apparence des plus distinguées. Comme je le saluais avec respect, il
+                        comprit ma méprise en homme habitué à faire son effet, et après m’avoir
+                        demandé si j’étais l’hôte attendu, M. Juste Odoard, il se hâta de
+                        m’apprendre qu’il était M. Champorel, premier valet de chambre et homme de
+                        confiance de M. le duc. Celui-ci était absent depuis le matin ; il
+                        était allé voir un parent malade et probablement il ne rentrerait pas avant
+                        le lendemain. Il avait prévu que je pourrais arriver dans la soirée, et il
+                        avait chargé ledit Champorel de me recevoir de son mieux.</p>
+                    <p>En parlant ainsi, le vieillard ne me permit pas de m’occuper de mon
+                        conducteur, que j’avais devancé et qui entrait après moi dans la cour.</p>
+                    <p>— On aura soin de ce brave homme, me dit-il. Eh ! c’est le père
+                        Rédoré ! On le soignera bien, monsieur, on le payera, ça ne vous
+                        regarde pas ; on le fera coucher, on ne le laissera pas repartir avec
+                        le temps qu’il fait. Vous, vous êtes mouillé, ayez la bonté de me suivre
+                        bien vite. Il y a un bon feu qui vous attend.</p>
+                    <p>Je le suivis à travers une suite de cloîtres à ogives jusqu’à un pavillon qui
+                        m’a été assigné pour logement et qui est d’un confort irréprochable :
+                        chambre à coucher capitonnée, vastes cheminées resplendissantes du feu clair
+                        des branches et des pommes de pin, atelier vaste et bien clos, cabinets de
+                        toilette… et <hi rend="i">une vue !</hi> ajoutait le majordome :
+                        Vous verrez ça demain ; le brouillard sera tombé. Dans cette saison il
+                        ne tient pas.</p>
+                    <p>En parlant ainsi, il allumait les flambeaux et faisait signe à un de ses
+                        subordonnés de me débarrasser de mon manteau, à l’autre de me déchausser et
+                        de me présenter des pantoufles ouatées qui, plantées sur la tête des hauts
+                        landiers de fer, attendaient, en se chauffant le ventre, l’arrivée de mon
+                        Excellence.</p>
+                    <p>Tu vois si je suis choyé et si tu peux être tranquille sur le compte de ton
+                        grand benêt de fils, lequel, habitué à tes gâteries, se laissait faire
+                        majestueusement, ce qui donnait de son savoir-vivre une haute idée à ces
+                        messieurs les larbins. Qui se laisse servir sait payer, c’est la devise des
+                        antichambres.</p>
+                    <p>− Monsieur veut-il manger tout de suite ?</p>
+                    <pb n="94" xml:id="p94"/>
+                    <p>— Certainement, monsieur Champorel.</p>
+                    <p>— Monsieur veut-il manger chez lui ?</p>
+                    <p>— Avec plaisir, monsieur Champorel.</p>
+                    <p>— Monsieur prend du café ?</p>
+                    <p>— Toujours, monsieur Champorel.</p>
+                    <p>— Monsieur veut des cigares ou des cigarettes ?</p>
+                    <p>— J’ai ce qu’il me faut, monsieur Champorel.</p>
+                    <p>— Vous avez entendu, mes enfants, dit-il en s’adressant aux deux
+                        subalternes d’un ton d’autorité paternelle. Allez, et faites vite.</p>
+                    <p>— A présent, ajouta-t-il, en s’adressant à moi, je vais défaire la malle
+                        de monsieur, pour lui présenter sa robe de chambre ?</p>
+                    <p>— Je n’en ai pas, monsieur Champorel. C’est un vêtement qui n’est pas de
+                        mon âge.</p>
+                    <p>— Pardon, monsieur, dans notre climat, quand on ne remue pas, il faut
+                        être ouaté. Je cours chercher celle que monsieur le duc a dit de préparer
+                        pour vous.</p>
+                    <p>Il sort et revient avec une robe de chambre de soie piquée et ouatée que
+                        j’hésite à endosser.</p>
+                    <p>Il insiste :</p>
+                    <p>— C’est parce que vous avez chaud qu’il faut ne pas vous refroidir. Vous
+                        êtes ici dans le château du diable.</p>
+                    <p>— Pourquoi cela ?</p>
+                    <p>— Des murs de deux mètres d’épaisseur imbibés de nuages ! Songez
+                        donc, il faut y entretenir la chaleur de l’enfer, ou s’attendre aux
+                        rhumatismes.</p>
+                    <p>— Vous ne me paraissez pas encore atteint de ce mal, monsieur Champorel.
+                        Quel âge avez-vous donc ?</p>
+                    <p>— Soixante-seize ans, monsieur, et il y en a cinquante que je vis ici au
+                        service de la famille. Je n’ai pas de rhumatismes, c’est vrai, et je suis
+                        ingambe comme un jeune homme. Mais je suis ouaté de la tête aux pieds sans
+                        que cela paraisse. Mettez, mettez la robe de chambre, pour faire plaisir à
+                        papa Champorel. C’est comme cela que M. le duc me nomme ; il fait
+                        toutes mes volontés, et vous verrez que vous les ferez aussi, quand vous me
+                        connaîtrez.</p>
+                    <pb n="95" xml:id="p95"/>
+                    <p>— Je ne demande pas mieux, papa Champorel, car je vois bien
+                        que votre volonté est toujours de procurer du bien-être aux autres.</p>
+                    <p>— C’est bien cela ; monsieur a compris. A présent, voilà le souper.
+                        Restez dans l’antichambre, mes enfants, je servirai monsieur.</p>
+                    <p>Si j’avais écouté mon premier mouvement, j’aurais prié ce bon vieux de
+                        s’asseoir en face de moi et de partager mon repas. Mais je l’eusse
+                        probablement scandalisé. Je dus me laisser servir par ce petit fantôme de
+                        grand-père, fluet, propret, joli avec sa figure anguleuse bien dessinée, ses
+                        petits yeux noirs perçants, éclairant sa face pâle, et ses fines mèches de
+                        cheveux d’argent voltigeant sur un crâne d’ivoire poli. Souper exquis, vins
+                        délicieux, café presque égal au tien. On vit ici sur un grand pied. J’ai
+                        déjà peur d’y engraisser.</p>
+                    <p>J’aurais volontiers fêté la dive bouteille, j’avais chaud et soif, et je
+                        n’avais que mon lit à gagner pour dormir comme un loir, mais la présence du
+                        père Champorel me rappelait à moi-même et je n’ai pas dérogé à mes habitudes
+                        de sobriété. Le vieux renard m’observait et fit la remarque que j’étais
+                        aussi <hi rend="i">petit buveur</hi> que M. le duc. Je n’étais pas fâché
+                        d’avoir quelques détails sur le compte du châtelain, et le Champorel ne
+                        demandait qu’à causer. Je vis bientôt que quand il s’agissait de son maître,
+                        il était inépuisable et voici ce que j’ai appris :</p>
+                    <p>M. d’Autremont a été marié à vingt ans et veuf à vingt-un. Il a aimé sa femme
+                        qui ne l’aimait pas. Elle l’eût rendu malheureux. M. Champorel ne la
+                        regrette point, bien que son maître, <hi rend="i">qui a un cœur d’or</hi>,
+                        l’ait longtemps pleurée.</p>
+                    <p>Je savais déjà que M. de Sainte-Fauste a été le gouverneur du jeune duc.
+                        « M. de Sainte-Fauste, — c’est Champorel qui
+                        parle, — est un parfait honnête homme, de mœurs pures et très
+                        attaché à ses élèves ; mais il n’était pas, pour l’intelligence, à la
+                        hauteur de M. le duc. Il a la dévotion étroite, tandis que M. le duc avait
+                        la piété ardente. Il a trop pesé sur l’esprit de l’enfant. Il lui disait
+                        tout et ne le laissait rien imaginer. Il lui expliquait la nature et
+                        l’histoire à son point de vue. Depuis, M. le duc a étudié seul et juge
+                        autrement. Il s’est absorbé dans les livres et abîmé dans ses <pb n="96" xml:id="p96"/>réflexions. Ce qu’il a conclu, je ne suis pas en état de le juger, mais je
+                        sais ce qu’il a souffert pour devenir ce qu’il est. C’est un homme qui n’a
+                        pas son égal au monde pour la patience, la charité, le courage et la vertu.
+                        Vous verrez, monsieur, vous l’adorerez, et quand il vous faudra le quitter,
+                        vous pleurerez, c’est Champorel qui vous le dit ! »</p>
+                    <p>M. d’Autremont s’est peu à peu retiré du monde où, du reste, il ne s’est
+                        jamais lancé qu’avec une extrême réserve. Il n’a pas eu de passions depuis
+                        son veuvage, une seule amourette qu’il a étouffée en lui-même, sans rien
+                        dire, mais non sans souffrir, Champorel l’a bien vu ! Il n’a pas
+                        d’ambition politique, il prétend qu’il appartient à <hi rend="i">une race
+                            sociale qui doit se fondre dans le grand courant sans essayer de le
+                            remonter</hi>.</p>
+                    <p>Tu vois que Champorel a de la littérature ou qu’il retient religieusement les
+                        paroles de son maître. Enfin, de son intéressant bavardage, il m’est resté
+                        une impression rassurante et un respect anticipé pour ce roi des hommes qui,
+                        en dépit du proverbe, est l’idéal de son valet de chambre.</p>
+                    <p>Le bonhomme était sincère et touchant, au bout du compte, et quand les autres
+                        domestiques eurent enlevé le couvert, je n’ai pu résister au désir de lui
+                        offrir une tasse de café pour prolonger la conversation. Il a accepté,
+                        disant qu’il en avait déjà pris, mais que le café étant le lait des
+                        vieillards, surtout dans la saison humide, il me ferait volontiers raison.
+                        J’ai bien vu, a-t-il ajouté, que Monsieur eût désiré me faire manger avec
+                        lui, comme M. le duc qui me reproche toujours de le laisser manger seul. Le
+                        vieux Champorel est pénétrant, il lit dans l’âme des honnêtes gens, il n’y a
+                        que les coquins qui lui sont absolument fermés. Il sait donc déjà que M.
+                        Juste Odoard est un cœur digne de comprendre M. le duc. Mais le vieux
+                        Champorel est pour les vieux usages. Sans avoir de préjugés, il n’aime pas
+                        que les anciennes classes se rapprochent trop vite des nouvelles. Il a vécu
+                        à sa place, dans un temps où les places étaient encore marquées. Il sait
+                        bien qu’un jour approche où il n’y aura plus de numéros et où chacun
+                        s’assoira où il voudra ; mais il n’est pas d’âge à voir ce jour-là. Il
+                        veut finir comme il a commencé.</p>
+                    <p>Ayant dégusté son café avec beaucoup de grâce, le Caleb du <pb n="97" xml:id="p97"/>château d’Autremont emporta les tasses, me montra que l’appartement était
+                        muni de sonnettes, dans le cas où j’aurais besoin de quelque chose et se
+                        retira en me souhaitant une bonne nuit.</p>
+                    <p>Je n’ai pas dormi tout de suite. Je pensais à toi, à moi, à mon hôte et à
+                        Champorel. Comme l’homme est, malgré qu’il en ait, un profond égoïste, je
+                        pensais à nous deux d’abord. Je comparais l’existence que tu m’as faite à
+                        celle de ce grand seigneur riche qui a eu père et mère, femme et enfant, et
+                        qui vit tout seul à présent dans un château fantastique perché je ne sais où
+                        entre ciel et terre. En y entrant j’ai songé <hi rend="i">au palais de
+                            l’enchanteur</hi> qui me faisait frissonner dans mon enfance, quand tu
+                        me contais des légendes de chevalerie. En me réchauffant dans un vaste lit
+                        moelleux, garni de tentures et de pasquilles, j’ai songé à mon premier
+                        réveil dans un petit lit tout blanc auprès du tien ; j’avais sept ans,
+                        je sortais d’un taudis, quand tu me pris au fond de la misère sordide pour
+                        faire de moi ton fils, pour me laver, me purifier et abriter mon sommeil
+                        sous ton rideau. Tu n’étais pas riche, tu avais juste assez pour nous deux,
+                        et quand il a fallu payer le collège tu as vécu de privations sans me le
+                        dire. Tu as fait de moi un homme et j’ai été heureux bien longtemps sans
+                        savoir et sans comprendre ce que te coûtait mon bonheur. Sous quelle étoile
+                        bienfaisante suis-je donc né ? Et quand tu m’as adopté, quand il m’a
+                        fallu apprendre que tu m’avais donné la vie matérielle, intellectuelle et
+                        morale sans y être poussée par le devoir et la nature, j’ai constaté que
+                        j’étais un orphelin abandonné des hommes et recueilli par un bon ange comme
+                        le héros d’un conte de fées. Quelle chance pour moi ! Quelle exception
+                        je suis, d’avoir été choisi par un être d’exception tel que toi ! car
+                        j’ai encore compris plus tard quelque chose de plus héroïque en toi que la
+                        charité. Tu pouvais être calomniée ! cet enfant que tu prenais dans tes
+                        bras, jeune encore, — tu n’avais que trente ans, — on
+                        pouvait l’attribuer à une faute commise, et toi, tu souriais à l’idée du
+                        soupçon ! Tu disais : Peu m’importe ; il n’y a que la vérité
+                        qui blesse. Et tu m’appelais ton fils, je te disais : Maman devant tout
+                        le monde. Tes amies ne t’approuvaient pas. Tu leur répondais :
+                        Laissez-moi donc tranquille, ne me rappelez pas qu’il ne m’appartient pas.
+                        Laissez-moi me figurer que j’ai eu le <pb n="98" xml:id="p98"/>bonheur de le mettre au
+                        monde ! Ah ! comme tu m’as aimé, et qu’avais-je fait pour mériter
+                        cela ?</p>
+                    <p>Aussi, en songeant à ce brave garçon qui est duc et millionnaire, qui fait
+                        bâtir des châteaux dont je vais être le maçon, et qui, j’en suis sûr, a bien
+                        recommandé à ses gens de me traiter avec tous les égards que les personnes
+                        de bonne compagnie doivent à leurs inférieurs, j’ai ri comme un fou de mon
+                        infériorité ! Mais je suis bon prince, moi aussi, et j’ai ressenti une
+                        pitié profonde, moi, le sans-nom et l’ouvrier, pour ce haut personnage qui
+                        n’a jamais été aimé comme je le suis ! C’est pourquoi je me figure
+                        qu’il n’a jamais pu et ne pourra jamais aimer comme j’aime !</p>
+                    <p>J’ai dormi deux heures, après quoi j’ai été réveillé par des voix qui
+                        partaient d’assez loin, mais que le brouillard semblait apporter sous mes
+                        fenêtres. Je me suis levé, je ne sais pourquoi, car rien de ce qui peut se
+                        passer ici ne me regarde et ne m’intéresse encore. Ce damné brouillard avait
+                        augmenté au point qu’en enjambant le balcon, il me semblait que j’aurais pu
+                        mettre le pied sur une masse solide. Au fond de cet abîme indéfinissable, je
+                        voyais apparaître de petits points rouges à peine perceptibles qui
+                        changeaient de place, disparaissaient et reparaissaient de nouveau. Une
+                        horloge à la voix lamentable sonnait lentement minuit. Je n’étais pas
+                        inquiet, mais curieux ; je me suis rhabillé à demi, j’ai ouvert la
+                        fenêtre et j’ai entendu distinctement les voix qui se passaient de l’une à
+                        l’autre de loin en loin un seul mot : <hi rend="i">Rien !</hi>
+                        Cherchait-on une personne en danger ? Je me suis rhabillé tout à fait.
+                        J’ai allumé une jolie lanterne de bronze doré à vitres de cristal que
+                        Champorel avait placée sur ma cheminée et qui m’avait paru nécessaire pour
+                        circuler dans les galeries beaucoup trop aérées du château. J’ai gagné la
+                        cour par où j’étais arrivé ; j’ai trouvé les gens debout et la grille
+                        ouverte. J’ai appris alors que l’on était inquiet de M. le duc. Il lui
+                        arrivait si rarement de découcher, qu’à moins que son parent ne fût très
+                        mal, il devait être en route pour revenir, et M. Champorel, voyant le
+                        brouillard redoubler, avait résolu de ne se point coucher et d’aller
+                        attendre son maître avec des hommes et des flambeaux au pied de la montagne.
+                        J’étais curieux de cet effet de <pb n="99" xml:id="p99"/>voix et de lumières dans les
+                        nuages. Je résolus d’aller rejoindre Champorel et je pouvais fort bien y
+                        aller seul ; mais un des domestiques qui m’avaient servi voulut
+                        absolument m’accompagner, assurant qu’il fallait bien connaître le chemin
+                        pour s’y risquer même avec un falot <hi rend="i">en temps de
+                            nuée</hi> ; je trouvai le père Champorel installé au coin d’un bon
+                        feu dans une maisonnette fort propre occupée par un des gardes de la
+                        propriété.</p>
+                    <p>— Comment ! s’écria le Caleb en me voyant, Monsieur ne dort
+                        pas ! Il veut donc s’exposer à attraper du mal par cette nuit
+                        maudite ?</p>
+                    <p>— Eh bien ! et vous, monsieur Champorel ! à votre âge !
+                        C’est moi qui devrais vous gronder.</p>
+                    <p>— Oh ! il n’y a pas d’âge qui tienne, quand on est inquiet !
+                        La nuit est mauvaise, je vous dis, très mauvaise, même dans les bas, à
+                        preuve qu’il y a ici un voyageur pour… dont le cocher a été forcé de
+                        s’arrêter. Puisque vous voilà, il faut vous en retourner au château,
+                        monsieur Odoard et emmener le jeune voyageur. C’est un enfant qui a besoin
+                        de repos et M. le duc serait fâché si, en son absence, on manquait aux
+                        devoirs de l’hospitalité. Vous direz qu’on lui donne une chambre et tout ce
+                        dont il aura besoin, et puis vous vous recoucherez !</p>
+                    <p>— Je n’ai pas d’ordres à donner au château, monsieur Champorel ;
+                        c’est vous qui allez y retourner avec le voyageur, si bon vous semble. Moi
+                        j’ai dormi, je ne suis pas fatigué ; d’ailleurs je suis jeune et très
+                        dur à la fatigue. Je vous donne ma parole d’honneur d’occuper ici votre
+                        poste et d’y rester jusqu’au jour, si M. le duc n’arrive pas auparavant.</p>
+                    <p>— Et pourquoi feriez-vous cela, monsieur Odoard ? Vous ne
+                        connaissez pas assez mon maître…</p>
+                    <p>— Je vous connais assez pour m’intéresser à vous, monsieur Champorel, si
+                        vous voulez bien le permettre.</p>
+                    <p>— Vous êtes un grand cœur, monsieur, ça ne m’étonne pas ; j’avais
+                        vu cela du premier coup d’œil. Mais…</p>
+                    <p>Il insista pour me renvoyer ; j’insistai pour rester, et, après un
+                        combat de générosité où mon obstination triompha de la sienne, il se décida
+                        à aller faire ses offres de service au voyageur qui était resté dans sa
+                        voiture. Il revint en disant que le <pb n="100" xml:id="p100"/>jeune homme préférait
+                        dormir dans ses fourrures et voulait repartir à la première éclaircie. Enfin
+                        il me quitta en disant au garde de me faire du thé, ajoutant que M. le duc,
+                        s’il arrivait, serait peut-être content de trouver une boisson chaude avant
+                        de gravir la montagne.</p>
+                    <p>Quand le thé fut prêt, je pensai encore à ce jeune voyageur qui se morfondait
+                        dans sa voiture, et je résolus d’aller lui en offrir une tasse.</p>
+                    <p>— Ici, ma chère mère, j’ouvre une parenthèse pour te demander pardon des
+                        minuties de mon racontage. Comme il est toujours prolixe ! vas-tu dire.
+                        Qu’ai-je besoin de m’occuper de ce voyageur qui passe et que nous ne
+                        reverrons plus. Oh ? pardon, tu vas t’intéresser à lui, car il y a là
+                        certainement une aventure. Et d’abord, te souviens-tu d’Albine Fiori, cette
+                        petite danseuse de passage qui fit fureur à Lyon pendant un mois en …, il y a
+                        cinq ans ? Oh ! certainement tu t’en souviens, car j’en étais
+                        amoureux fou, et tu t’en inquiétais assez ! J’allais tous les soirs au
+                        théâtre ; je mettais mes plus beaux habits et faisais une notable
+                        consommation de cravates neuves, comme si elle eût dû m’apercevoir et me
+                        remarquer dans la foule. Le fait est qu’elle ne me remarqua pas du
+                        tout ; mais j’en fus un peu consolé en apprenant qu’elle n’avait
+                        remarqué personne, qu’elle était tenue de près par son père et qu’elle était
+                        une enfant parfaitement innocente ou raisonnable. Il faut pourtant que je te
+                        confesse aujourd’hui…</p>
+                    <p>On m’apporte ta lettre. Tu te portes tout à fait bien. Je suis heureux !
+                        Tu me fais mille questions : je vais te répondre en continuant ma
+                        lettre. J’ai le temps ; M. le duc a envoyé un exprès. Il sera de retour
+                        pour dîner. Je reprends mon récit des évènements de la nuit dernière.</p>
+                    <signed><hi rend="sc">Juste Odoard</hi>.</signed>
+                    <byline>George SAND.</byline>
+                    <trailer><hi rend="i">(</hi>La deuxième partie à la prochaine livraison.<hi rend="i">)</hi></trailer>
+                </div2>
+            </div1>
+            <div1 type="book">
+                <pb n="432" xml:id="p432"/>
+                <head>Albine<note n="1" place="bottom">Tous droits réservés. — Voir la <hi
+                            rend="i">Nouvelle Revue</hi> du 1<hi rend="sup"
+                        >er</hi> mars.</note>. <lb/>Le dernier roman de George Sand</head>
+                <head type="sub">Deuxième partie</head>
+                <div2 type="letter">
+                    <head type="sur">Sixième lettre. </head>
+                    <head type="main"><hi rend="i">Juste Odoard à M<hi rend="sup">lle</hi> de
+                            Nesmes, à Lyon.</hi></head>
+                    <dateline>Château d’Autremont, le …</dateline>
+                    <p>Ah ! d’abord, la confession que je t’ai promise ! Imagine-toi qu’à
+                        Lyon, il y a cinq ans, en proie aux délicieuses agitations du premier
+                        amour, — c’était bien le premier, puisque je m’en souviens si
+                        bien, — je commis l’énormité d’acheter un superbe bouquet avec
+                        l’intention de le lancer à ma jeune nymphe. Mais au moment où j’allais le
+                        faire, une pluie de fleurs tomba sur elle des avant-scènes et de
+                        l’orchestre. Je me sentis tout honteux. Je m’étais flatté d’avoir eu seul
+                        cette idée de l’acclamer, parce que, les jours précédents, on s’était
+                        contenté de l’applaudir. Je me figurais que mon bouquet lancé au moment où
+                        elle saluait, ferait sur elle un effet prodigieux. Mais trente bouquets
+                        devancèrent le mien. Honteux et dépité, je le gardai dans mon chapeau entre
+                        mes genoux, attendant je ne sais quel moment favorable qui ne se présenta
+                        plus, et je sortis du théâtre, remportant mon offrande inaperçue et ma
+                        douleur incomprise.</p>
+                    <p>Je rencontrai sur la place une douzaine de camarades qui <pb n="433" xml:id="p433"/>n’étaient pas plus contents que moi, car ils avaient compté faire un grand
+                        vacarme d’enthousiasme qui avait été étouffé et perdu dans l’enthousiasme
+                        universel. Ils prirent subitement la détermination d’aller attendre la
+                        danseuse à la sortie des artistes, afin de lui faire, à eux seuls, un petit
+                        succès détaché dont elle pourrait leur tenir compte par un remerciement ou
+                        un sourire. Je pris aussitôt la tête du cortège ; mon bouquet, que
+                        j’agitais en l’air, me donnait le droit de me présenter le premier et, au
+                        besoin, si j’en avais le courage, de porter la parole.</p>
+                    <p>Nous arrivons au nombre d’une trentaine (d’autres s’étant joints à nous) à la
+                        petite porte sombre par où sortent les artistes. C’était un défilé de
+                        vilains comparses, de laides choristes, sordidement vêtus de haillons dont
+                        ils s’étaient enveloppés à la hâte en dépouillant le clinquant de leurs
+                        costumes. Plus tard vinrent les premiers sujets de l’opéra et du ballet, que
+                        nous applaudîmes, en essayant de distinguer parmi eux le véritable objet de
+                        notre ovation. Mais il ne parut que le dernier et alors notre hésitation fut
+                        grande. Figure-toi une petite créature informe, toute roulée dans un vieux
+                        paletot d’homme, avec un chiffon de tricot rouge autour de la tête. Derrière
+                        elle son père, une espèce de petit Polichinelle blême et crasseux, s’était
+                        fait une sorte de cache-nez du maigre châle de sa fille à laquelle il avait
+                        donné son propre vêtement pour la mieux préserver. Cela sentait la misère,
+                        mais aussi la vertu, et cette pensée me rendit le courage prêt à
+                        m’abandonner. Le vieux s’était arrêté à parler dans le couloir avec un
+                        employé. La jeune fille s’arrêta sur le seuil pour l’attendre. Un quinquet
+                        frappait d’une lueur jaune sa figure maigre, distinguée plutôt que jolie.
+                        Les camarades me poussèrent brusquement en avant, disant : « C’est
+                        elle, cette fois, c’est bien elle : va donc ! »</p>
+                    <p>Alors, ému jusqu’aux larmes et tremblant de tout mon corps, je lui présentai
+                        le bouquet en bégayant : « Mademoiselle, au nom des jeunes gens de
+                        la ville…</p>
+                    <p>— C’est bien, c’est bien, messieurs, dit le père en saisissant le
+                        bouquet qu’il remit à sa fille. » Et, parlant avec un accent italien
+                        exagéré : « Nous sommes étrangers et ma fille ne parle pas assez
+                        le français pour vous répondre. Je vous remercie pour elle <pb n="434" xml:id="p434"/>et
+                        vous prie de la laisser passer. La soirée est froide et quand on vient de
+                        danser… »</p>
+                    <p>Notre petite foule s’écarta avec respect et, dans le mouvement brusque que
+                        fit le vieux Fiori pour prendre le bras de sa fille, il fit tomber une des
+                        fleurs du bouquet de camélias que j’avais offert ; l’incident entrava
+                        la marche d’Albine ; tous se précipitèrent pour ramasser cette fleur
+                        dont chacun voulait conserver un pétale. En ce moment, elle leva les yeux
+                        sur moi qui étais resté le plus près. Elle détacha vivement du bouquet une
+                        autre fleur et me la présenta en disant d’un petit ton mélancolique et
+                        doux : « <hi rend="i">Mille grazie, signor</hi>. » Et puis
+                        elle passa, et le lendemain elle partit sans cortège et sans bruit de la
+                        ville où elle avait eu son premier succès.</p>
+                    <p>L’année suivante, elle débutait à Naples, où elle était portée aux
+                        nues ; puis elle revenait par Rome et je me trouvais là, faisant mes
+                        études. Le hasard voulut, … j’ai dû te raconter cette rencontre, je n’en suis
+                        pas sûr pourtant, j’étais si occupé ! Et puis je n’avais pas de
+                        confidence à te faire, je ne songeais plus à être amoureux. L’art et ses
+                        premiers éblouissements absorbaient tout mon être. Donc, le hasard voulut
+                        que M<hi rend="sup">lle</hi> Fiori descendît dans l’hôtel où j’étais
+                        installé. C’était le Carême, les théâtres étaient fermés. Elle ne dansait
+                        pas, elle passait. Elle s’arrêtait, parce que son père était souffrant. Je
+                        la vis monter l’escalier ; elle me parut toujours chétive, point belle,
+                        mais agréable et sympathique. Elle avait gardé sa bonne renommée, mais
+                        assurément elle n’avait gardé aucun souvenir de moi.</p>
+                    <p>Dans la nuit, j’entendis du bruit, des plaintes, des allées et venues dans
+                        l’appartement voisin du mien ; puis on ouvrit. Un pas léger et rapide
+                        frôla ma porte. Je n’étais pas couché, je travaillais, je sortis aussitôt et
+                        vis M<hi rend="sup">lle</hi> Fiori éperdue, qui cherchait du secours. Son
+                        père était gravement indisposé. Je lui offris de courir chercher un médecin,
+                        et au bout d’un quart d’heure j’en ramenai un qui trouva le bonhomme fort
+                        mal. Il pratiqua des frictions et je dus l’aider, ce qui n’empêcha pas le
+                        vieillard de mourir dans la matinée.</p>
+                    <p>J’ignore si une grande tendresse unissait le père et la fille, et si M<hi
+                            rend="sup">lle</hi> Fiori est une personne extraordinairement courageuse
+                        ou <pb n="435" xml:id="p435"/>résignée. Je ne la vis pas pleurer. Elle agissait autour de
+                        son père, cherchant avec une grande présence d’esprit et une énergie
+                        ingénieuse tout ce qui pouvait le soulager. Le dévouement était réel et
+                        entier, mais sans attendrissement. Quand il se sentit au plus mal, il voulut
+                        lui parler, mais il n’en eut pas la force, et ne put que lui dire à voix
+                        basse : « Souviens-toi, tu m’as juré. »</p>
+                    <p>Quand il eut rendu le dernier soupir, elle garda sa main dans les siennes et
+                        resta assise près de lui, immobile et muette. Je ne sais pas si elle avait
+                        remarqué ma présence ; à ce moment, elle n’avait plus conscience de ce
+                        qui se passait autour d’elle. J’allai, sur la demande du médecin, chercher
+                        une femme de confiance qu’il me désigna dans la ville et qu’il chargea de
+                        veiller sur le mort et sur la jeune fille. C’était l’heure de l’école de
+                        dessin ; de là je me rendis à mes études ordinaires et ne revis M<hi
+                            rend="sup">lle</hi> Fiori que le lendemain soir, quand on porta le corps
+                        à l’église. Elle voulut le suivre, disant que ce pauvre homme sans famille
+                        et sans amis dans Rome ne devait pas <hi rend="i">aller seul</hi> au
+                        cimetière. Ému de son isolement, je lui offris mon bras qu’elle prit en me
+                        disant : « Vous êtes bon ! Que Dieu vous conserve vos
+                        parents ! » Cependant, au bas de l’escalier, nous trouvâmes
+                        quelques artistes de passage qui connaissaient les Fiori et qui, prévenus
+                        par hasard, accouraient à la hâte. M<hi rend="sup">lle</hi> Fiori prit alors
+                        le bras d’un vieux directeur de ballets et me remercia, en me disant que
+                        j’étais dispensé de la triste fonction pour laquelle je m’étais si
+                        généreusement offert. Puis elle me demanda mon nom et, comme je lui
+                        remettais ma carte, elle me regarda comme si, n’ayant pas encore observé ma
+                        figure, elle voulait en garder le souvenir. Je l’aurais volontiers
+                        accompagnée ; elle m’intéressait avec sa pâleur, ses yeux secs dilatés
+                        par une sorte d’effort surhumain. Mais je craignis d’être indiscret, surtout
+                        dans un moment où elle avait droit à tous les respects. J’espérais la revoir
+                        le jour suivant. Mais dès le matin elle était partie. Elle allait danser à
+                        Pétersbourg, où l’attendait un engagement contracté à Naples, avec un dédit
+                        qu’elle n’aurait pas eu le moyen de payer et qui ne lui permettait pas de
+                        s’arrêter pour pleurer son père ; c’est du moins ce qui me fut raconté
+                        dans l’hôtel, où l’on parlait d’elle avec autant d’estime que d’intérêt.</p>
+                    <pb n="436" xml:id="p436"/>
+                    <p>A présent, je ferme ma parenthèse et, de ces temps reculés, je
+                        passe à ma veillée de la nuit dernière. Je ne pensais nullement à une
+                        anecdote romanesque et je dégustais en égoïste le thé que l’on venait de me
+                        servir, lorsque je fus pris de remords et engageai mon hôte à en offrir au
+                        voyageur enfoui dans sa voiture.</p>
+                    <p>— Le voyageur, répondit-il d’un air narquois, ou la voyageuse ?</p>
+                    <p>Cela est roulé dans un grand manteau et porte une espèce de casquette, mais
+                        M. Champorel prétend que c’est un chapeau à la mode de Paris et que le petit
+                        monsieur est une demoiselle.</p>
+                    <p>— Alors, raison de plus !… je vais l’inviter…</p>
+                    <p>— Attendez, reprit le garde, la voilà qui vient d’elle-même !</p>
+                    <p>Et, comme il regardait par la porte, restée ouverte :</p>
+                    <p>— C’est bien une dame, ajouta-t-il, et pas déguisée du tout. Faut-il que
+                        son conducteur soit bête, il l’a prise tout le temps pour un
+                        garçon !</p>
+                    <p>Elle entra, portant sur le bras son manteau de fourrure et parut surprise de
+                        me voir ; elle avait cru sans doute que tous les gens du château
+                        étaient repartis, mais elle me rendit tranquillement mon salut et s’approcha
+                        du feu. Je m’étais levé et je la regardais avec stupeur. Etait-ce une
+                        illusion ? Il me semblait la reconnaître.</p>
+                    <p>Mon attention attira la sienne ; elle me regarda à son tour, et tout à
+                        coup, me tendant la main :</p>
+                    <p>— Monsieur Juste Odoard ! me dit-elle d’un air subitement attendri.
+                        Je n’espérais pas vous rencontrer jamais, et je suis heureuse de vous
+                        revoir. Je n’ai jamais oublié le secours que vous m’avez donné et l’intérêt
+                        que vous m’avez témoigné dans une circonstance bien cruelle. Je me suis
+                        reproché de ne vous en avoir presque pas remercié ; j’étais foudroyée,
+                        je n’avais guère ma tête. A présent, merci, merci de tout mon
+                        cœur !</p>
+                    <p>Elle me serra encore la main et ajouta à voix basse :</p>
+                    <p>— Ne prononcez pas mon nom. Puis-je vous parler sans qu’on nous
+                        écoute ?</p>
+                    <p>Je répondis en l’invitant à prendre une tasse de thé, ce qui <pb n="437" xml:id="p437"/>me
+                        fournit le prétexte de renvoyer le garde à sa cuisine pour en préparer
+                        d’autre.</p>
+                    <p>J’appris alors de M<hi rend="sup">lle</hi> Fiori qu’elle arrivait de Russie,
+                        où elle avait dansé quatre ans avec succès et profit.</p>
+                    <p>— Maintenant, dit-elle, je retourne en Italie, et l’on me propose un
+                        engagement. Je ne suis pas décidée à l’accepter. Il vaudrait mieux écouter
+                        les propositions qui me sont faites à Paris ou à Londres. Mais je suis bien
+                        fatiguée. Le climat artificiel où l’on est forcé de vivre à Pétersbourg est
+                        énervant, j’ai besoin de quelques semaines de repos, et je vais les passer
+                        dans les montagnes où je suis née. Pour qu’on m’y laisse tranquille, j’ai
+                        besoin de garder en route l’incognito le plus absolu. Voulez-vous me rendre
+                        le service de ne dire à personne que vous m’avez rencontrée ici ?</p>
+                    <p>— Cela me sera d’autant plus facile que je ne connais encore personne
+                        dans ce pays. J’y suis depuis quelques heures.</p>
+                    <p>— En voyage, comme moi ?</p>
+                    <p>— Non, je m’arrête dans un grand diable de château perdu dans le
+                        brouillard au-dessus de nos têtes.</p>
+                    <p>— Le château d’Autremont, on m’a dit ce nom-là ; et qu’allez-vous
+                        faire dans ce château ?</p>
+                    <p>— Travailler un an ou deux. Je suis architecte.</p>
+                    <p>— Alors vous connaissez le propriétaire ?</p>
+                    <p>— Le duc d’Autremont ? Pas encore. Il est en course. On l’attend
+                        d’un moment à l’autre, et même je l’attends ici, où l’on pense qu’il
+                        s’arrêtera pour laisser souffler ses chevaux avant de gravir la route très
+                        escarpée qui mène à son manoir.</p>
+                    <p>— Ici, vraiment ? Je pourrais le voir ! s’écria M<hi
+                            rend="sup">lle</hi> Fiori, soudainement émue. Ah ! c’est comme un
+                        rêve !</p>
+                    <p>Et, comme elle voyait ma surprise :</p>
+                    <p>— Je ne veux pas vous cacher, reprit-elle avec une tranquillité aussi
+                        surprenante que son premier élan, que j’ai pour le duc d’Autremont une
+                        affection sérieuse. Ne riez pas ; je peux m’en vanter, c’est la force
+                        de mon âme et la fierté de ma vie que ce sentiment-là ! Puisque vous
+                        allez le connaître, parlez-lui de moi quelque jour, à l’occasion, et
+                        dites-lui de vous raconter de quelle manière nous avons fait
+                        connaissance.</p>
+                    <pb n="438" xml:id="p438"/>
+                    <p>— Si vous me le racontiez vous-même ?</p>
+                    <p>— Non, ce serait trop long, et je ne veux pas qu’il me surprenne
+                        ici.</p>
+                    <p>— Vous vous réjouissiez à l’idée de le voir ?</p>
+                    <p>— Je ne dois pas le revoir. Il est sans doute remarié ?</p>
+                    <p>— Non, et l’on dit qu’il veut rester veuf.</p>
+                    <p>— Il a sans doute des enfants ?</p>
+                    <p>— Il paraît que non. Il vit tout seul et veut vivre ainsi.</p>
+                    <p>— Pauvre cher ange ! Il ne se console pas de la perte de sa
+                        femme !</p>
+                    <p>— Ce n’est pas cela. Il n’a pas été heureux avec elle.</p>
+                    <p>— Alors, qu’est-ce que c’est donc ?</p>
+                    <p>— Que sait-on ? Vous, peut-être ?</p>
+                    <p>— Moi ? Quelle folie ! Je n’ai jamais rien été et ne serai
+                        jamais rien dans sa vie.</p>
+                    <p>— Mais il est quelque chose dans la vôtre ?</p>
+                    <p>— Dans la mienne, il est tout. Mais quelle différence !</p>
+                    <p>— Voyons, racontez-moi donc… je vais envoyer dormir ce garde qui tourne
+                        autour de nous.</p>
+                    <p>— Eh bien, comme vous voudrez. Je peux raconter tout ce que je suis et
+                        tout ce que j’ai été. Quand on est une ballerine condamnée à vivre à peu
+                        près nue sous les regards du public, il est bon d’avoir une âme que l’on
+                        peut dévoiler avec autant d’assurance que son pauvre corps.</p>
+                    <p>Frappé, comme tu peux croire, de cet épisode chorégraphique, je m’assurai que
+                        le garde était allé sur le chemin attendre l’arrivée du maître, et je priai
+                            M<hi rend="sup">lle</hi> Fiori de parler.</p>
+                    <p>— Je suis, me dit-elle, une enfant trouvée abandonnée par des parents
+                        inconnus.</p>
+                    <p>— Oh ! oh ! c’est juste le commencement de ma propre
+                        histoire !</p>
+                    <p>— Vrai ? Eh bien nous sommes deux parvenus dans toute la force du
+                        mot. M. Fiori n’était pas mon père ; c’était un vieux danseur désormais
+                        sans emploi, vivant de quelques leçons qu’il donnait là où il en pouvait
+                        trouver, lorsque, passant dans la montagne où je gardais encore les chèvres
+                        à l’âge de dix ans, il me vit danser sur l’herbe avec mes compagnes une
+                        espèce de <pb n="439" xml:id="p439"/>tarentelle. Le voilà tout aussitôt qui admire ma
+                        maigreur, ma souplesse et ma légèreté et qui m’offre de m’emmener, de
+                        m’instruire dans son art et de me faire gagner beaucoup d’argent. Je n’avais
+                        aucune espèce de notion sur la vie et sur le monde. J’étais à l’état
+                        sauvage, je ne savais pas lire et je sentais l’horreur de la misère sans
+                        m’en rendre compte.</p>
+                    <p>Ce qui me séduisit dans son offre, c’est la promesse qu’il me fit de
+                        m’habiller, et comme il parlait de m’acheter une robe neuve, je lui déclarai
+                        que je voulais la chemise aussi. Je n’en avais jamais eu, et quelques-unes
+                        de mes compagnes en avaient, ce qui me paraissait un luxe enivrant. La femme
+                        qui me nourrissait et me battait en me faisant travailler pour son compte
+                        fut vite d’accord avec M. Fiori, et, pour deux pièces d’or, me céda à lui
+                        sans regrets. Je le suivis sans appréhension, enchantée de voir du nouveau
+                        et impatiente de changer les guenilles d’indienne qui me pendaient sur le
+                        corps contre les robes d’or et d’argent qu’il me promettait.</p>
+                    <p>Je ne tardai pas à être satisfaite. D’abord j’eus, pour la tenue décente du
+                        voyage, une robe propre et deux chemises, avec des bas et un chapeau de
+                        paille à rubans. Mon maître ne voulut pas me donner de souliers. Il jugea
+                        que des espadrilles de toile risqueraient moins de me blesser et de me
+                        déformer les pieds, et comme je réclamais : « Petite bête, me
+                        dit-il, tu ne sais donc pas que toute ta fortune à venir est dans tes
+                        pattes ? Tu es bien heureuse d’avoir marché sans chaussures toute ta
+                        vie. Tu n’auras jamais ces maladies terribles du pied qui, sur douze
+                        apprenties danseuses, en font mettre dix de côté, infirmes pour
+                        toujours ». Dès notre première étape, il rencontra un autre danseur de
+                        ses amis, qui l’invita à dîner et lui demanda si j’étais quelque chose. M.
+                        Fiori se tourna vers moi et me dit : « Danse, qu’on voie ce que tu
+                        sais faire. » Il me donna le rythme avec un tambour de basque et je
+                        dansai ma tarentelle. Ma surprise fut grande quand je vis l’autre
+                        s’extasier, dire que j’étais un sujet exceptionnel, un être aérien, une
+                        merveille, un trésor, et offrir cent francs payés sur l’heure si mon maître
+                        voulait me céder à lui.</p>
+                    <p>M. Fiori refusa et m’emmena à … où, tout de suite, il me produisit sur le
+                        théâtre de la localité dans un costume <pb n="440" xml:id="p440"/>d’emprunt et un maillot.
+                        Je fus très applaudie, et le lendemain j’eus à moi un costume de gaze à
+                        paillettes et des pantoufles de satin blanc. J’étais ivre de joie et je
+                        suppliai M. Fiori de ne me vendre à personne, car les offres pleuvaient
+                        autour de lui. J’étais une valeur, et comme je voyais bien que mon maître
+                        était pauvre, j’avais fort à redouter qu’il ne se laissât tenter.</p>
+                    <p>Mais Fiori était un parfait honnête homme. « Je ne sais pas, me
+                        répondit-il, si tu me rapporteras ce que tu vas me coûter, mais ce que je
+                        sais, et ce que tu ne sais pas, toi, c’est que : qui prend un enfant au
+                        théâtre, prend un devoir que tout le monde n’est pas capable de
+                        remplir. »</p>
+                    <p>Ce fut là toute la préoccupation de sa vie. Autant par jalousie de mon avenir
+                        que par rectitude de conscience, il me tint sous ses yeux à toute heure et
+                        me préserva énergiquement de tous les dangers attachés à ma misérable
+                        situation. De tendresse et d’indulgence, il ne fallait pas lui en
+                        demander ; j’étais sa chose, et pourvu que je fusse toujours propre,
+                        reluisante et fonctionnant bien, comme sa montre, il était content de lui et
+                        de moi. Il me faisait beaucoup travailler. Il était bon professeur, et comme
+                        j’étais infatigable et soumise, me trouvant dans les conditions d’un bonheur
+                        relatif, il n’avait jamais lieu de me maltraiter. A la moindre distraction
+                        de ma part, il me parlait durement, ne m’épargnait pas les gros mots et me
+                        menaçait de tous les supplices. Mais il eût trop craint, en me frappant, de
+                        casser le précieux bibelot qui le faisait vivre, et il n’épargnait rien pour
+                        le tenir en bon état. Même, quand il vit que ses colères me faisaient
+                        trembler et pleurer, il craignit pour ma santé, si nécessaire à mes progrès
+                        et prit sur lui de m’épargner les vives émotions. Il jugea nécessaire de
+                        m’apprendre à lire et à écrire, et de me faire changer mon patois contre la
+                        connaissance de la langue italienne ; mais là s’arrêtèrent mes leçons.
+                        Quand il vit que je prenais goût à la lecture et désirais former un peu mon
+                        esprit, il m’ôta les livres des mains en me disant : « Apprends
+                        que quiconque se consacre à la danse est réputé bête et que c’est justement
+                        là notre supériorité. Notre esprit est dans nos jambes ; si nous le
+                        laissons remonter au cerveau, nous ne sommes plus rien, nous sommes
+                        perdus. »</p>
+                    <p>Voilà toute l’éducation que j’avais reçue quand je débutai à <pb n="441" xml:id="p441"/>Turin, dans la <hi rend="i">Sylphide</hi>. J’avais quinze ans, et je
+                        n’avais pas encore la force physique de tenir un emploi. Mon père, car
+                        j’appelais ainsi M. Fiori, ne me produisait qu’à l’essai, pour un petit
+                        nombre de représentations. Je n’étais jamais malade, mais j’avais besoin de
+                        ménagements, je n’avais pas fini ma croissance et quand j’avais dansé huit
+                        ou dix fois de suite, on me prescrivait un nombre égal de jours de repos.
+                        J’étais accueillie par tous les publics et toutes les directions avec
+                        beaucoup de bienveillance. On me trouvait de grandes dispositions et on
+                        prédisait à mon père un grand avenir pour moi, à la
+                        condition… — On achevait la phrase en lui parlant à
+                        l’oreille. — Il répondait d’un air bourru :
+                        « Parbleu ! j’y veille, et le diable sera bien fin s’il me la
+                        prend. » Quand je lui demandais l’explication de ces paroles
+                        mystérieuses, il me répondait : « Ça ne te regarde pas. Une
+                        danseuse ne doit rien savoir et ne penser à rien qu’à son art. » A
+                        force de m’entendre parler de cette chose sacrée, je l’avais prise au
+                        sérieux, et je dois dire que le père Fiori était bien véritablement un
+                        artiste. S’il avait un grand avantage matériel à retirer de mon talent, il
+                        avait une plus haute satisfaction à me produire et à me voir progresser. Il
+                        croyait à la danse, comme on croit à une religion. Il en goûtait le côté
+                        poétique, et pratiquait le plus profond mépris pour les tours de force, les
+                        pointes et les renversements exagérés où le muscle domine et proscrit la
+                        grâce. Il avait dans la tête toute une statuaire dansante, pour laquelle il
+                        manifestait son enthousiasme ou son dédain avec une vivacité qui
+                        m’intéressait, car il ne manquait pas d’esprit et trouvait toujours
+                        l’expression saisissante et pittoresque. Il avait des notions d’anatomie
+                        raisonnée et voulait que la pose humaine fût toujours dans un accord logique
+                        avec la structure. Il ne savait pas dessiner, mais, par des lignes très bien
+                        agencées, il exprimait sur le papier ou sur le plancher avec de la craie,
+                        les courbes naturelles et la raison des mouvements du corps. On le trouvait
+                        pédant et ennuyeux, mais je ne m’ennuyais pas de ses enseignements et j’en
+                        appréciais la justesse, car il savait me faire exécuter les choses les plus
+                        difficiles, sans fatigue et presque sans effort. J’aimais le succès, et
+                        aucune pensée étrangère à mon art ne me détournait du travail. Si j’avais de
+                        l’éloignement et du mépris pour la débauche que, <pb n="442" xml:id="p442"/>malgré tous
+                        ses soins, mon père ne pouvait m’empêcher d’apercevoir, c’était surtout
+                        parce que je voyais des artistes sacrifier leur idéal d’avenir à la réalité
+                        grossière du présent.</p>
+                    <p>J’en étais là, lorsque je débutai dans la <hi rend="i">Sylphide</hi> avec des
+                        ailes de papillon que je faisais palpiter en posant la main sur mon cœur. Le
+                        danseur, objet de ma tendresse de commande, était un beau maladroit qui me
+                        faisait grand’peur, parce qu’il me soutenait mal dans les poses où je devais
+                        m’abandonner en me fiant à son aide. Je ne sais si vous avez vu ce ballet,
+                        où la Taglioni, soulevée par des fils invisibles, semblait planer dans
+                        l’espace, et à plusieurs reprises, s’envolait littéralement et comme malgré
+                        elle, quand l’amoureux voulait la saisir. Le théâtre de … donnait la <hi
+                            rend="i">Sylphide</hi> pour la première fois, et les fils qui devaient
+                        me porter n’étaient pas, malgré toutes les instructions et les soins de mon
+                        père, d’une solidité bien rassurante. J’avoue que je n’y pensais pas, sauf
+                        quand mon danseur, en feignant de me retenir, passait dans ma ceinture
+                        l’anneau qui devait me servir à m’envoler. Je craignais qu’en plaçant mal
+                        cet anneau, il ne me fît manquer mon effet. Mais, dans l’accident qui
+                        m’arriva, il n’y eut pas de sa faute. La corde m’enleva très bien et
+                        m’emporta rapidement dans la coulisse. J’avais pris mon élan d’une manière
+                        si heureuse, que la salle applaudit avec transport pour la première fois.
+                        Les jours précédents, j’avais satisfait mon public, je ne l’avais pas
+                        enthousiasmé. On me trouvait trop maigre, trop enfant, pas assez jolie.</p>
+                    <p>Je faillis payer cher ce petit triomphe. Comme j’arrivais dans la coulisse, à
+                        cinq mètres du sol, une poulie mal assujettie cassa et je tombai. Mais je ne
+                        touchai pas le plancher, deux bras vigoureux me saisirent et me remirent
+                        dans ceux de mon père, après m’avoir tenue un instant suspendue. Je n’eus
+                        aucun mal ; mais mon sauveur, ébranlé par l’effort qu’il avait dû faire
+                        en me recevant, avait perdu l’équilibre et il alla tomber à la renverse sur
+                        une espèce de treuil en fer qui manœuvrait les cordages. On le releva
+                        évanoui et sanglant ; c’était le jeune duc d’Autremont qui était là
+                        depuis le commencement de l’acte. Amené par un de ses amis qui était
+                        propriétaire du théâtre et qui avait insisté pour lui en faire les honneurs,
+                        je ne l’avais pas remarqué, et je puis <pb n="443" xml:id="p443"/>dire que quand je l’ai
+                        vu pour la première fois, il avait l’aspect d’un cadavre. On le porta dans
+                        le foyer, et j’allais l’y suivre quand mon père me retint d’une main de fer,
+                        en me disant : « Eh bien, eh bien, et la pièce ? »</p>
+                    <p>Le public ne s’était aperçu de rien ; la pièce continuait, et je dus la
+                        finir sans avoir conscience de ce que je faisais. Quand je rentrai dans la
+                        coulisse, égarée et tremblante, je n’avais pas la force de
+                        questionner ; mon père accourut pour me dire : « Ce n’est
+                        rien, il va mieux, une toute petite blessure à la tête, le médecin est là et
+                        le chirurgien aussi. » Mais je voyais à l’air troublé et consterné des
+                        autres personnes, que mon père me trompait et que quelque chose de grave
+                        était arrivé.</p>
+                    <p>Enfin, la pièce finie, je cours au foyer et j’y trouve le blessé immobile et
+                        pâle comme s’il était mort, étendu sur un divan. L’ami qui l’avait amené et
+                        deux médecins étaient là, ainsi que d’autres personnes empressées à les
+                        aider. Je les pousse, je les écarte, et je viens tomber à genoux auprès du
+                        blessé. Alors seulement, je vois qu’il est vivant et qu’il a repris
+                        connaissance, car il me regarde et m’adresse un faible sourire. On lui
+                        demande s’il souffre, il répond que non, et demande qu’on l’aide à se lever.
+                        Mais le médecin s’y oppose, et donne des ordres pour qu’on le laisse seul
+                        avec son confrère et deux femmes de service, disant au malade que ce n’est
+                        pas grave pourvu qu’il se tienne absolument tranquille ; mais nous
+                        faisant bien comprendre par ses regards qu’il ne répond de rien et ne peut
+                        se prononcer.</p>
+                    <p>Mon père m’emmène dans la loge, et répondant à mes questions, m’apprend que
+                        ce jeune duc est du Dauphiné, veuf depuis un an, habitant ses terres et de
+                        passage à……, où il ne connaissait que le propriétaire du théâtre, chez
+                        lequel il était descendu peu de jours auparavant. Aussitôt rhabillée, je
+                        veux retourner au foyer. M. Fiori s’y oppose. Le médecin ne veut ni bruit ni
+                        mouvement autour du malade.</p>
+                    <p>— Je ne ferai aucun bruit, dis-je, je ne remuerai pas ; mais je
+                        veux être là, je ne le quitterai pas tant qu’il sera en danger.</p>
+                    <p>Mon père refuse, il veut que j’aille me coucher et que je dorme, car je danse
+                        encore le lendemain. Alors j’entre en <pb n="444" xml:id="p444"/>révolte pour la première
+                        fois de ma vie, et je déclare que, si on me contraint, je ne danserai plus
+                        ni le lendemain ni jamais. Mon père est obligé de céder après avoir épuisé
+                        les injures, les reproches et les menaces. Stupéfait de mon obstination, il
+                        se résigne à m’attendre dans un couloir où il s’endort sur un banc pendant
+                        que je veille le blessé.</p>
+                    <p>Le duc était calme et me sourit encore. Puis, il eut deux heures de sommeil
+                        pendant lesquelles médecins et gardiens s’assoupirent sur des fauteuils. Moi
+                        seule je n’éprouvais aucune fatigue, je m’étais glissée tout près du divan
+                        et je regardais fixement M. d’Autremont. Dans une vie nomade comme la
+                        mienne, on voit chaque jour tant de figures nouvelles qu’on les oublie vite,
+                        et souvent même on n’y fait pas plus d’attention qu’aux arbres qu’en voyage
+                        on voit filer aux bords des chemins. Sans doute, je ne reverrais plus cette
+                        belle figure pâle si tranquille, si noble et si douce. Ou il partirait
+                        bientôt guéri, ou il mourrait de sa blessure, et moi j’irais danser à
+                        l’autre bout du monde, comme si de rien n’était. Je voulais conserver son
+                        image dans ma mémoire, et je trouvais, à la contempler obstinément, je ne
+                        sais quel plaisir amer tout trempé de mes larmes.</p>
+                    <p>Tout à coup il ouvrit les yeux et rencontra les miens. Il ne me parla pas,
+                        mais il ouvrit sa main comme cherchant la mienne que je lui donnai aussitôt,
+                        et il la garda en la pressant faiblement. Puis il referma les yeux et se
+                        rendormit.</p>
+                    <p>Je ne pouvais retirer ma main sans le réveiller. Le jour parut et il
+                        s’éveilla tout à fait. On s’empressa autour de lui. Il assura qu’il avait
+                        bien dormi, qu’il ne souffrait pas et consentait à rester encore là quelques
+                        heures sans remuer. Et comme mon père, qui s’était glissé dans le foyer,
+                        voulait m’emmener malgré ma résistance, le médecin demanda au duc s’il
+                        trouvait quelque satisfaction à me voir près de lui. « Oui,
+                        répondit-il, beaucoup. Sa main d’enfant me réchauffe, et son bon regard qui
+                        me remercie m’empêche de faire de mauvais rêves. »</p>
+                    <p>Alors le médecin m’ordonna de rester et mon père fut obligé de se
+                        retirer.</p>
+                    <p>Quand le soleil fut levé, M. d’Autremont fut emporté sur un brancard et
+                        conduit au domicile de son ami où j’allai prendre de <pb n="445" xml:id="p445"/>ses
+                        nouvelles dans l’après-midi. Il avait un peu de fièvre et s’agitait pour
+                        savoir quelles personnes étaient dans la pièce voisine. On lui dit que
+                        c’étaient mon père et moi. Il voulut nous voir ; mon père était bien
+                        forcé de lui témoigner de l’intérêt et de le remercier de ce qu’il avait
+                        fait pour moi. Il n’écouta pas, et se tournant vers moi, il me demanda si
+                        j’allais encore le quitter. « Non, répondis-je, je resterai tant qu’il
+                        vous plaira.</p>
+                    <p>— Merci, reprit-il ; quand vous êtes là, je me sens mieux.</p>
+                    <p>Il ne fallait plus me parler d’aller danser le soir. On dut changer le
+                        spectacle et je restai trois jours et trois nuits dans la chambre du malade,
+                        presque toujours assise auprès de lui et souvent la main dans la sienne.</p>
+                </div2>
+                <div2 type="letter">
+                    <head type="sur">Septième lettre. </head>
+                    <head type="main"><hi rend="i">Juste Odoard à M<hi rend="sup">lle</hi> de
+                            Nesmes.</hi></head>
+                    <p>Je l’ai vu enfin, ce grand personnage, grand de toute la tête plus que moi,
+                        beau comme un dieu antique, timide comme une jeune fille, mélancolique et
+                        doux, sympathique et charmant à ce point que j’ai peur de me prendre
+                        d’amitié sérieuse pour lui sans être payé de retour. J’ai dans l’idée que
+                        les gens parfaits doivent trouver tous les autres au-dessous d’eux. Tu
+                        m’aimes pourtant, toi ; il n’y a que cela qui me donne un peu d’aplomb
+                        dans la vie.</p>
+                    <p>Il s’est informé de moi en descendant de voiture, et tout de suite m’a
+                        cherché dans le parc où j’avais été contempler encore l’admirable vue qu’il
+                        domine.</p>
+                    <p>M. d’Autremont, ou M. Flaminien, comme l’appelle Champorel quand il lui
+                        parle, a, comme je te l’ai dit, vingt-six ans, mais on lui en donnerait bien
+                        trente. Sa figure porte les traces des grandes douleurs de sa première
+                        jeunesse. Il est bien mis, avec une sorte de négligence. Sa démarche est
+                        celle d’un homme qui s’abandonne à la vie, plutôt qu’il ne la retient et qui
+                        semble avoir renoncé à toute espèce de lutte. Il est venu à moi, la main
+                        ouverte et le sourire aux lèvres ; mais c’était le sourire un peu <pb n="446" xml:id="p446"/>forcé des gens craintifs. Son regard ne plongeait pas dans le
+                        mien, tant il semblait le redouter. Il m’a demandé pardon d’avoir été forcé
+                        de s’absenter au moment de mon arrivée, s’est enquis des soins dont j’avais
+                        été l’objet, et surtout de l’état de ma santé.</p>
+                    <p>Il a une voix pure comme son visage, avec peu d’inflexions. Cela coule dans
+                        l’oreille comme le bruit d’une eau qui court dans l’herbe discrètement.
+                        Enfin il a, au plus haut point, ce que l’on appelle le charme, d’autant plus
+                        qu’il ne paraît pas s’en douter et que, s’il a de l’esprit, il n’en veut pas
+                        montrer. Ses expressions sont simples et ne cherchent pas le
+                        pittoresque.</p>
+                    <p>Je pense que je ne lui ai pas déplu ; car, au bout de quelques instants,
+                        il m’a paru avoir surmonté le premier malaise et ne plus se forcer pour
+                        m’encourager. Il ne voulait pas encore, disait-il, me parler de ses projets
+                        de construction ; mais je lui ai répondu que je commençais à m’en
+                        tourmenter et qu’il me rendrait grand service en donnant un aliment à mes
+                        réflexions.</p>
+                    <p>« Eh bien, m’a-t-il dit, nous avons le temps de faire le tour de
+                        l’édifice avant de dîner. » Et tout en marchant, il a ajouté :
+                        « Vous voyez ! Ce vieux manoir formé d’entassements de diverses
+                        époques est froid et incommode. Je ne vous dirai pas qu’il est un peu
+                        triste, je sais qu’il est navrant ; mais je l’aime ainsi, et sauf
+                        quelques réparations peut-être nécessaires à sa solidité. — vous
+                        en jugerez, — je n’y veux pas toucher. Mais il me faut une
+                        habitation d’hiver à 200 mètres plus bas que la terrasse où nous sommes. Le
+                        climat est tout différent, surtout si nous pouvons établir un logis
+                        quelconque tourné vers le midi. Là est la difficulté. La montagne est si
+                        rapide de ce côté-là, qu’il faudra entailler considérablement la roche et
+                        peut-être compromettre la solidité des assises du manoir actuel. C’est là ce
+                        que je vous demande d’examiner avec la plus scrupuleuse attention et avant
+                        tout.</p>
+                    <p>— Avant tout, monsieur le duc, il faudrait me dire quelle importance
+                        vous voulez donner à la construction nouvelle.</p>
+                    <p>— J’en veux donner autant que possible, je suis habitué aux grands
+                        appartements. Mais on peut leur assigner peu de profondeur eu se rattrapant
+                        sur le développement en largeur. »</p>
+                    <pb n="447" xml:id="p447"/>
+                    <p>Nous avions descendu le flanc escarpé de la montagne. J’examinai
+                        la roche et pris de l’œil mes mesures. Le projet n’était pas impraticable,
+                        mais il offrait de grandes difficultés à vaincre, partant de grosses
+                        dépenses. « Cela ne fait rien, dit-il, ce sera du travail pour les gens
+                        du pays. ».</p>
+                    <p>Nous avons causé ainsi pendant deux heures, et puis la cloche nous a avertis
+                        de l’approche du dîner.</p>
+                    <p>Le duc avait passé son bras sous le mien. Il craignait que je n’eusse le
+                        vertige sur cette pente violente où il se promenait comme dans sa chambre.
+                        Mais c’est mon état de ne pas avoir le vertige, et je le rassurai. Comme M.
+                        de Sainte-Fauste m’avait prévenu que je prendrais mes repas dans le logement
+                        que l’on me destinait, j’allais prendre congé de mon hôte. « Où
+                        allez-vous donc ? me dit-il. Est-ce que vous voulez me refuser le
+                        plaisir de manger avec vous ? » Il m’a conduit dans une salle
+                        immense, d’un beau style ogival, toute rehaussée de panoplies authentiques
+                        et d’ornementations sérieuses, avec un mobilier ancien de diverses époques,
+                        composé de pièces d’une grande valeur. Le couvert était mis près d’une vaste
+                        cheminée où flambaient des arbres tout entiers. « Voyez le local, me
+                        dit-il, il est bien noir ; s’il vous déplaît ou vous attriste, nous
+                        pourrons demain manger ailleurs. Moi, cela m’est tout à fait indifférent. Je
+                        suis bien partout. » Il disait cela du ton dont il eût dit :
+                        « Partout je suis triste. »</p>
+                    <p>Cependant, il ne fit aucune réflexion chagrine sur quoi que ce soit. Je ne
+                        pense pas qu’il m’ouvre jamais les profondeurs de son cœur meurtri, car il
+                        me paraît esclave d’un savoir-vivre à toute épreuve, et la crainte
+                        d’attrister les autres semble dominer chez lui tout besoin
+                        d’épanchement.</p>
+                    <p>Le dîner, servi par Champorel et ses deux aides, fut exquis. Le duc mangea
+                        peu et ne but pas du tout. En remarquant que j’étais sobre aussi, il
+                        craignit que je fusse contraint par son exemple. « Je suis gênant de ne
+                        pas manger, me dit-il. Je vois qu’instinctivement vous faites comme moi sans
+                        vous en apercevoir. Voyons, papa Champorel, fais-moi manger pour que notre
+                        hôte mange. » Et il tendit son assiette au vieillard, enchanté de sa
+                        résolution.</p>
+                    <pb n="448" xml:id="p448"/>
+                    <p>Je te rapporte tous ces riens pour que tu juges par les
+                        préoccupations de l’homme, de l’aménité de son attitude et de la bonté de
+                        son cœur, d’autant plus évidente qu’il est plus timide à se montrer. Nous
+                        avons passé la soirée dans son cabinet, où il m’a introduit en me faisant
+                        traverser un salon encore plus grand que la salle, encore plus beau et non
+                        moins sévère. Il m’a prié de fumer, bien qu’il ne fume pas, et m’a montré
+                        l’aspect du logis qu’il veut planter au-dessous de celui où nous sommes. Il
+                        dessine très bien et a orné son projet de la végétation que, pour
+                        l’encadrer, il veut obtenir sur le roc au moyen de terres rapportées. Je
+                        l’ai prié de me laisser examiner toutes choses le lendemain.</p>
+                    <p>C’est d’autant plus facile, m’a-t-il dit, qu’il lui fallait repartir dès le
+                        jour pour retourner auprès de son parent malade. Il ne m’eût pas quitté s’il
+                        n’eût été préoccupé de l’idée de le laisser seul.</p>
+                    <p>Il est donc parti ce matin, à cheval, pour aller et revenir plus vite, et
+                        depuis six heures jusqu’à midi j’ai exploré le vieux manoir de la cave au
+                        grenier. J’ai arpenté et mesuré la montagne dans tous les sens…</p>
+                        <p>……………………………</p>
+                    <byline>George SAND.</byline>
+                    <postscript>
+                        <p rend="i">Interrompu le 29 mai 1876.</p>
+                    <p rend="i">George Sand est morte le 8 juin 1876.</p>
+                    </postscript>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

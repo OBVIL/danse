@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tableau de Paris. Chapitre XII</title>
+                <author key="Texier, Edmond (1815-1887)"
+                    ref="https://data.bnf.fr/fr/11926289/edmond_auguste_texier/">Edmond
+                    Texier</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, TEI-XML</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Nolwenn Chevalier</name>
+                    <resp>édition TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/danse/texier_tableau-de-paris-chap-12_1852</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Edmond Texier, <hi rend="i">Tableau de Paris</hi>, chap. XII, <pubPlace>Paris</pubPlace>,
+                        <publisher>Paulin et Le Chevalier</publisher>, <date>1852</date>, tome I,
+                    p. 104-109. PDF : <ref target="https://archive.org/details/tableaudeparis01texi"
+                        >Internet Archive</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1852"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter">
+                <pb n="104" xml:id="p104"/>
+                <head>[Chapitre XII. Extrait]</head>
+                <p>Passons maintenant à l’Opéra.</p>
+                <p>L’établissement d’une Académie royale de musique à Paris date du seizième siècle.
+                    Jean-Antoine Baïf, né à Venise, pendant que son père y était ambassadeur, fut le
+                    premier parmi les Français qui tenta l’accord de la poésie française avec la
+                    musique. Malheureusement il se trompa dans l’exécution ; à l’exemple des
+                    anciens, il voulut introduire des vers français composés d’iambes, de dactyles,
+                    de spondées, etc. ; tentative absurde et tout à fait contraire au génie de
+                    notre langue. Baïf établit dans sa maison, située rue des Fossés-Saint-Victor,
+                    une Académie de musique autorisée par lettres-patentes de Charles IX, qui
+                    s’en déclara le protecteur et le premier auditeur. Baïf étant mort en 1589,
+                    cette académie fut transférée chez son associé Mauduit, lequel chercha à la
+                    ranimer par le projet d’une autre académie, qu’il appela Confrérie de
+                    Sainte-Cécile, et dont le succès ne fut pas très-brillant.</p>
+                <p>L’abbé Perrin, attaché à Gaston d’Orléans, frère de Louis XIII, hasarda, en
+                    1659, une pastorale que Lambert, beau-père de Lulli, mit en musique. Cette pièce
+                    obtint le plus grand succès et fut d’abord représentée à Issy, ensuite à
+                    Vincennes devant le roi. Les auteurs applaudis s’associèrent alors avec le
+                    marquis de Sourdéac, homme fort riche et très-habile comme machiniste. Des
+                    lettres-patentes du 28 juin 1669 <pb n="105" xml:id="p105"/>accordèrent aux
+                    trois associés la permission d’établir des académies de musique, pour chanter en
+                    public des pièces de théâtre pendant douze années consécutives. En 1672, Lulli,
+                    surintendant et compositeur de Sa Majesté, obtint un privilége qui lui accordait
+                    l’autorisation d’établir une Académie royale de musique, <quote><hi rend="i">composée
+                        de tel nombre et qualité de personnes qu’il aviserait, et que le roi
+                        choisirait et arrêterait sur le rapport du directeur-compositeur</hi></quote>. Les
+                    lettres-patentes portaient que l’Académie royale de musique était érigée sur le
+                    pied des académies d’Italie, où les gentilshommes et les demoiselles pouvaient
+                    chanter et danser aux pièces et représentations, sans qu’ils fussent censés
+                    déroger au titre de noblesse ni à leurs priviléges, charges et immunités. On ne
+                    s’étonnera pas de cette clause si étrange, si l’on songe qu’à cette époque le
+                    roi, les plus grands seigneurs et les plus grandes dames de la cour figuraient
+                    dans les ballets sur le théâtre de Versailles. Bizarre contradiction !
+                    pendant que la puissance sacerdotale frappait d’excommunication l’acteur qui
+                    récitait les vers de Corneille, de Racine, de Molière, celui-là n’en était pas
+                    atteint qui chantait sur les planches les stances voluptueuses et souvent
+                    érotiques de Quinault !</p>
+                <p>Devenu seul directeur privilégié de l’Académie royale de musique, Lulli transféra
+                    son théâtre de la rue Mazarine au jeu de paume du Bel-Air, dans la de Vaugirard.
+                    Puis, à la mort de Molière, la salle rue du Palais-Royal fut donnée aux
+                    chanteurs et aux danseuses.</p>
+                <p>Il serait fastidieux de suivre l’Académie royale de musique à travers toutes ses
+                    phases. En 1781, au moment où le prix du parterre venait d’être porté de
+                    quarante à quarante-huit sous, le théâtre du Palais-Royal fut détruit par un
+                    incendie. Plusieurs personnes périrent, et le feu dura pendant huit jours.</p>
+                <p>Le lendemain matin, le peuple contemplait les affreux ravages de cet incendie,
+                    lorsqu’une voiture chargée de costumes échappés aux flammes traversa la place du
+                    Palais-Royal. Un crocheteur qui se trouvait dessus s’avisa de placer sur sa tête
+                    un casque de théâtre, puis s’affubla d’un manteau royal. Immédiatement la
+                    consternation fit place aux hourras et à la gaieté. Le public ne songea plus
+                    qu’à saluer de ses éclats de rire le monarque improvisé. Quelques jours plus
+                    tard, il y avait des étoffes très à la mode couleur de feu d’Opéra.</p>
+                <p>L’Académie royale de musique, chassée par l’incendie du Palais-Royal, alla
+                    s’installer au théâtre des Tuileries ; puis l’administration obtint du roi
+                    la permission de jouer des opéras en un acte sur le théâtre des Menus-Plaisirs,
+                    rue Bergère.</p>
+                <p>L’ouverture eut lieu le 14 août 1781, par le <hi rend="i">Devin du
+                        Village</hi>, cet opéra de Jean-Jacques Rousseau, et <hi rend="i">Myrtil et
+                        Lycoris</hi>. On continua d’y jouer jusqu’à ce que la nouvelle salle
+                    construite près de la porte Saint-Martin eût été achevée.</p>
+                <p>Frappé de la stérilité et du vide d’intérêt des poëmes destinés à l’Académie de
+                    musique, Louis XVI fonda un prix annuel pour le meilleur ouvrage de ce
+                    genre. De seize ouvrages envoyés au concours en 1788, aucun ne fut jugé digne de
+                    l’admission.</p>
+                <p>L’Académie royale de musique fut appelée Opéra en 1791, et depuis, le public n’a
+                    cessé de lui donner ce nom.</p>
+                <p>Mademoiselle Montansier avait fait bâtir dans la rue Richelieu, sur l’emplacement
+                    de l’ancien hôtel de Louvois, un théâtre qui se nommait Théâtre-National. Le
+                    gouvernement en fit l’acquisition, et les acteurs de l’Opéra y jouèrent, pour la
+                    première fois, le 28 juillet 1794.</p>
+                <p>En 1807, un décret organisa l’Opéra, qui prit le nom d’Académie impériale de
+                    musique. Depuis 1792, ce théâtre a successivement porté les noms suivants :
+                        <hi rend="i">Académie de musique</hi>, <hi rend="i">Opéra-National</hi>, <hi rend="i">Théâtre de la République
+                        et des Arts</hi>, <hi rend="i">Théâtre de l’Opéra</hi>, <hi rend="i">Théâtre des Arts</hi>, <hi rend="i">Académie impériale de
+                        musique</hi>, <hi rend="i">Académie royale de musique</hi>, <hi rend="i">Théâtre de la Nation</hi>, <hi rend="i">Académie
+                        nationale de musique</hi>. Chaque gouvernement a voulu tenir ce théâtre sur
+                    les fonts de baptême.</p>
+                <p>Le duc de Berry ayant été assassiné, le 13 février 1820, à la sortie de
+                    l’Opéra, la salle de la rue Richelieu fut fermée, puis démolie. On éleva alors
+                    dans la rue Lepeletier une salle qui est, depuis trente ans, provisoire. Ce
+                    monument de plâtre, bâti d’après les dessins de l’architecte Debut, n’a pas
+                    coûté moins de trois millions.</p>
+                <p>La salle de l’Opéra est simplement décorée ; elle est circulaire, mais elle
+                    a un immense avantage sur toutes les autres salles de Paris : elle est
+                    très-sonore.</p>
+                <p>Nous ne sommes plus au foyer de son altesse sérénissime la
+                    Comédie-Française : ici plus de discussions littéraires, pas la moindre
+                    conversation sur l’État. La muse n’a pas élu domicile dans les coulisses de
+                    l’Académie de musique, et ne fait pas encore partie du corps des ballets.</p>
+                <p>Que viendrait-elle chercher, en effet, au milieu de ces jambes légères, de ces
+                    cœurs fragiles et de ces estomacs toujours prêts à engloutir le champagne
+                    frappé ? Figurez-vous un grave académicien entrant dans ce foyer de la
+                    danse, dans ce foyer tout <pb n="106" xml:id="p106"/>constellé de faciles
+                    sourires, tout plein de pieds mutins, de mains étourdies et d’indulgents
+                    regards.</p>
+                <p>La toile vient de se baisser ; nous sommes au moment de l’entr’acte. C’est
+                    l’heure où le lion se met en chasse, <quote><hi rend="i">Quærens quam devoret</hi></quote>. Il
+                    s’élance de la stalle d’orchestre ou de l’avant-scène dans les coulisses ;
+                    il rôde un instant, flaire à droite et à gauche, puis gagne le foyer, attiré par
+                    l’odeur de la chair fraîche. Le foyer de la danse est son antre préféré ;
+                    là le lion secoue fièrement sa crinière, aiguise ses griffes, se met en arrêt,
+                    et attend sa proie.</p>
+                <p>En ce moment, le lion, ainsi que vous le pouvez voir, est dans son quart d’heure
+                    de repos et d’humanité ; il ne mord pas, il roucoule comme s’il n’était
+                    qu’une simple colombe. Sur le premier plan, un lion d’un âge mûr, dans
+                    l’attitude mélancolique du bipède qui se sent devenir vieux. Plus loin, trois
+                    lionceaux debout, se confondant en douceurs et en politesses pour une des
+                    gazelles de l’endroit : ce sont des lions à peine émancipés, des lions à
+                    leur premier coup de dent, si j’en crois leur attitude guindée et leur tournure
+                    respectueuse. Therpsycore s’en aperçoit et les écoute d’un air légèrement
+                    maussade ; Therpsycore n’aime pas les lions conscrits. Parlez-moi du lion
+                    qui est là-bas, à droite, assis négligemment sur un canapé, les pattes croisées.
+                    Celui-là est un rude lion rompu aux armes, j’en atteste cet air penché, ce
+                    victorieux et satisfait sourire. Cependant, au fond de l’antre, lions et
+                    gazelles se cherchent et se confondent : c’est un concert de rugissements
+                    et de soupirs. Les propos y sont lestes comme cette péri, cette sylphide ou
+                    cette willi au jupon court qui s’élance, bondit et provoque le parquet de son
+                    pied agaçant… Mais, hélas ! le foyer des danseuses a beaucoup dégénéré
+                    depuis que le prince russe et le milord y sont devenus rares, et que les
+                    ambassadeurs ont fait place à la tourbe des dandys aux existences
+                    hypothétiques.</p>
+                <p>Le personnel de l’Opéra s’élevait en 1713 à cent vingt-six artistes et employés,
+                    et coûtait chaque année 67,050 livres. Les premiers sujets du chant
+                    recevaient chacun 1,500 livres par an ; les premiers danseurs avaient
+                    1,000 livres, et les premières danseuses 900 livres. Aujourd’hui, près
+                    de six cents artistes, employés, ouvriers, sont attachés à l’Opéra. Le chiffre
+                    des traitements des premiers ténors varie de 50 à 70,000 francs, et la
+                    somme de tous les appointements réunis dépasse 1,100,000 francs. Il y a progrès…
+                    dans les appointements.</p>
+                <p>L’Opéra a une armée de chanteurs, de chanteuses, de danseuses et même de
+                    danseurs, sans compter messieurs les marcheurs et mesdemoiselles les marcheuses.
+                    Marcheurs et marcheuses sont les figurants et les figurantes du ballet :
+                    ils ne disent pas pendant dix minutes « <hi rend="i">Allons, marchons,
+                        courons</hi> », en continuant de rester en place ; ils ne crient
+                    pas à tue-tête et avec accompagnement de cymbales et de trompettes, « <hi
+                        rend="i">Retirons-nous sans bruit</hi> » ; ils se contentent de
+                    faire les évolutions élémentaires, et ils forment tous les cortéges. C’est
+                    ordinairement parmi les marcheuses que se trouve le <hi rend="i">rat</hi>, cet
+                    animal rongeur, très-peu sentimental de sa nature, qui préfère un cachemire à la
+                    déclaration d’amour la plus galamment troussée, et qui se nourrit, autant que
+                    possible, de homards et de billets de banque. Quand le lion est pris dans un
+                    filet, tenez pour certain que jamais le rat de l’Académie de musique ne songera,
+                    comme celui de la fable, à ronger les mailles du filet. Cet animal sauvage,
+                    quoique très-apprivoisé, se rassasie difficilement : on en a vu dont les
+                    dents pointues grignotaient jusqu’à vingt <pb n="107" xml:id="p107"/>mac. Quand
+                    le rat a dévoré plusieurs beaux fils opulents, il passe à l’état de <hi rend="i"
+                        >panthère</hi>, et il appartient alors à la grande famille des <hi rend="i"
+                            >carnassiers</hi>.</p>
+                <p>Les protecteurs du rat, et en général de tous les brillants animaux femelles de
+                    l’Académie de musique, sont messieurs les abonnés de la loge infernale, composée
+                    de la fleur des pois des élégances… du boulevard, de lions à tous crins, de
+                    spéculateurs enrichis, de quarts d’agents de change, vieux jeunes gens pour la
+                    plupart. Cette loge infernale (ah ! la jolie qualification !) fait le
+                    succès ou la chute des débutantes ; il faut, si elle veut réussir et voir
+                    tomber à ses pieds es couronnes, que toute néophyte de la danse ou du chant
+                    jette préalablement le mouchoir à celui-ci ou à celui là, parmi les souverains
+                    dispensateurs des fleurs et des épines ; alors la route s’aplanira
+                    d’elle-même, alors la nouvelle arrivée, pour peu qu’elle soit jeune et belle,
+                    n’aura qu’à paraître sur la scène, et elle entendra résonner à son oreille le
+                    concert des <hi rend="i">brava</hi>. Quelques-unes, nous devons le dire, ont
+                    résisté à ce despotisme, et ont gagné en appel la cause perdue devant le
+                    tribunal de première instance de messieurs les gants jaunes infernaux ;
+                    mais quelle force de volonté et quelle vertu ne faut-il pas avoir, quand on est
+                    actrice, pour ne pas abréger, même au prix d’une complète abdication de sa
+                    personne le fatigant chemin qui conduit au triomphe !</p>
+                <p>Et puisqu’il s’agit d’actrices, deux mots, s’il vous plaît, sur ces dames en
+                    passant. Pour tout jeune homme, ce mot d’actrice entrebâille aussitôt la porte
+                    d’un paradis sans fruit défendu : l’actrice a été le premier amour de tous
+                    les débutants dans la vie, et cependant, en fin de compte, on ne sait guère ce
+                    qu’on aime quand on aime une actrice. Est-ce la femme ou le rôle ? Est-ce
+                    Ophélia, Desdémone, Phèdre, Marinette ou mademoiselle trois étoiles ? Mais
+                    qu’importe ? cela dure ce que durent toutes les chimères heureuses. Puis,
+                    un beau jour, on rencontre son idole descendue de son piédestal, on la voit
+                    passer dans la rue sans fard, sans mise en scène, dans la tenue d’une simple
+                    mortelle donnant le bras à quelque riche lourdeau : l’illusion, cet oiseau
+                    passager, fuit à tire d’ailes, et tout est dit.</p>
+                <p>Parlez maintenant d’une actrice à une mère de famille : celle-ci va évoquer
+                    l’existence la plus fantastique, les séductions les plus dangereuses, si bien
+                    que toute jeune fille devant cette chaste indignation de sa mère, se prendra à
+                    rêver un monde d’amours, de coquetteries, de chants, de parfums à faire
+                    descendre un saint du ciel pour se damner dans un boudoir.</p>
+                <p>Maintenant si l’on veut savoir la vérité, la voilà.</p>
+                <p>Les seules femmes du monde qui ne peuvent pas avoir d’intrigue, ce sont les
+                    actrices.</p>
+                <p>Les seules créatures qui n’aient pas le temps d’aimer, ce sont les actrices.</p>
+                <p>La vie de l’actrice n’est pas murée comme celle de toute autre femme. Libres de
+                    toute hypocrisie, pourquoi se donnerait-elle la gênante vanité de l’intrigue,
+                    elle qui peut congédier en souriant l’amant de la veille devant l’amant du
+                    jour ?</p>
+                <p>S’il est une carrière prosaïque et cerclée d’ennuis pour une femme, c’est la
+                    carrière du théâtre. Quel esclave, je vous le demande, est rivé à une chaîne
+                    plus courte que celle qui attache l’actrice au public ? et que de maîtres,
+                    sans compter le public ! L’actrice doit plaire et sourire à tous, heureuse
+                    encore quand il ne lui en coûte qu’un sourire : elle doit plaire à
+                    l’auteur, qui, sans cela, ne lui confierait pas de rôles ; elle doit plaire
+                    au directeur, pour qu’il la mette en vue ; elle doit plaire, non pas à un
+                    seul mais à douze journalistes ; enfin, voyez-la le lendemain d’une
+                    première représentation, à son petit lever, inquiète, agitée, dévorant les
+                    journaux : celui-ci la proclame charmante, celui-là trouve qu’elle est
+                    affreuse ; cet autre dit qu’elle est une grande comédienne, un quatrième
+                    affirme qu’elle n’a aucun talent. Pas de joie sans tristesse, pas d’éloges sans
+                    blâme ; toujours un revers à la médaille. Et puis quelle vie !
+                    toujours des rôles à étudier, toute la journée des vers ou de la prose à
+                    dévorer, et souvent quels vers et quelle prose ! Puis ce sont des costumes
+                    qu’il faut essayer, des poses qu’il faut prendre devant la glace pour préparer
+                    l’effet de la représentation du soir ; puis viennent encore les questions
+                    d’amour-propre. Dans cette triste profession, il ne suffit même pas de
+                    triompher, il ne faut pas encore qu’une rivale triomphe à côté de soi :
+                    tout succès obtenu par celle-ci est un coup de poignard pour celle-là !
+                    Comment voulez-vous que ces malheureuses trouvent le temps d’aimer au milieu de
+                    tant de labeurs, de fatigues et de préoccupations. Encore une fois, l’actrice la
+                    plus grande, la plus célèbre, la plus riche, la plus enviée, n’est pas une
+                    femme, c’est un esclave. Aussi fait-elle payer son esclavage le plus chèrement
+                    possible. Son insouciance pour la fortune consiste à vendre son talent au plus
+                    haut enchérisseur, et sa légèreté ne l’entraîne jamais à faire que des folies
+                    d’un excellent rapport. Sans parler de la cause de leur beauté, qu’elles
+                    plaident chaque soir devant la rampe, les actrices poussent souvent l’amour de
+                    la justice jusqu’à plaider à tout propos, et signent toujours dans leur
+                    désintéressement, moins de billets doux que de papiers timbres.</p>
+                <p>Depuis quelque temps, du reste, la moralité s’est glissée sur les planches, et
+                    l’art, il faut bien le dire, a été quelque peu supplanté par le pot-au-feu.
+                    Aujourd’hui une actrice se marie à un véritable arrondissement, et si elle a
+                    encore des amants après son mariage, c’est dans un simple but d’économie
+                    domestique. Vous voyez bien que les <hi rend="i">hétaïres</hi> de <pb n="108"
+                        xml:id="p108"/>notre temps, loin d’être folles et dissipées, comme on le
+                    suppose, sont des personnes fort sensées, beaucoup plus occupées de leurs
+                    intérêts que de leurs plaisirs, et moins jalouses de leurs plus belles amours
+                    que de leur moindre rôle.</p>
+            </div1>
+        </body>
+    </text>
+</TEI>

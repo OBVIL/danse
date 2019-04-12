@@ -612,7 +612,7 @@
     <div2 type="preface" subtype="foreword" xml:id="programmes_avertissement">
      <pb n="33" xml:id="p33"/>
      <head type="main">Avertissement.</head>
-     <p><hi rend="big">J’ai</hi> hésité quelque tems à joindre à cette édition de mes lettres sur la
+     <p>J’ai hésité quelque tems à joindre à cette édition de mes lettres sur la
       danse et sur les arts, quelques-uns des programmes de mes ballets : je ne me dissimule pas que
       ce ne sont pas précisément des ouvrages, et qu’ils n’apprennent rien sur l’art de la danse
       proprement dit.</p>
@@ -1058,7 +1058,7 @@
        mon art parlera toujours très éloquemment, lorsqu’il pourra contribuer à ses délassemens et à
        ses plaisirs.</p>
      </div3>
-     <div3 type="abstract">
+     <div3 type="argument">
       <pb n="57" xml:id="p57"/>
       <head type="main">Sujet du ballet.</head>
       <p><hi rend="sc">La</hi> flotte d’Ulisse avoit été jettée par une tempête sur les côte
@@ -1996,7 +1996,7 @@
        J’espère qu’il aura d’autant plus de succès qu’il est offert à une nation qui a le courage
        pour armes, et l’honneur pour devise.</p>
      </div3>
-     <div3 type="abstract">
+     <div3 type="argument">
       <pb n="113" xml:id="p113"/>
       <head type="main">Sujet du ballet.</head>
       <p><hi rend="sc">Renaud</hi>, Comte de Ponthieu, a promis Adèle sa fille à Alphonse, chevalier
@@ -2195,7 +2195,7 @@
        <castItem><role>Divinités célestes</role>.</castItem>
       </castList>
      </div3>
-     <div3 type="abstract">
+     <div3 type="argument">
       <pb n="123" xml:id="p123"/>
       <head type="main">Argument.</head>
       <p><hi rend="sc">Ce</hi> sujet est assez connu, pour me dispenser d’en donner un programme. On
@@ -2358,7 +2358,7 @@
        s’en saisit.</p>
       <div4 type="scene">
        <head type="main">Scène II.</head>
-       <p><hi rend="big">L’</hi>Amour, sensible aux larmes et aux maux de Psyché, s est rendu à ses
+       <p>L’Amour, sensible aux larmes et aux maux de Psyché, s est rendu à ses
         instantes prières ; il paroît, et témoin du danger qui menace les jours de son amante, il
         ordonne à Tisiphone de lui rendre cet objet cher à son cœur. Cette furie se refuse aux vœux
         empressés de ce dieu ; il la menace, mais peu éffrayée de son courroux, elle précipite
@@ -2402,7 +2402,7 @@
       </div4>
       <div4 type="scene">
        <head type="main">Scène II.</head>
-       <p><hi rend="big">L’</hi>Amour et Psyché paroissent ; et leur présence inattendue suspend les
+       <p>L’Amour et Psyché paroissent ; et leur présence inattendue suspend les
         jeux ; à l’aspect de Psyché Vénus se livre à son courroux ; elle ne peut lui pardonner
         d’être la plus belle des mortelles, de lui avoir enlevé par ses charmes une foule
         d’adorateurs et d’avoir ravi l’Amour à son empire. Ici, ce Dieu devient suppliant, Psyché
@@ -2485,7 +2485,7 @@
       </argument>
       <div4 type="scene">
        <head type="main">Scène I.</head>
-       <p><hi rend="big">Didon</hi>, vivement éprise d’Enée, cherche la solitude ; en vain veut elle
+       <p>Didon, vivement éprise d’Enée, cherche la solitude ; en vain veut elle
         effacer de son âme, l’image de son vainqueur ; l’Amour sous la forme et sous la figure du
         jeune Ascagne, triomphe de tous ses efforts ; les tendres caresses que cette Reine prodigue
         à cet enfant, et celles qu’elle reçoit de lui, allument dans son âme la passion la plus
@@ -3208,7 +3208,7 @@
          Nymphes</roleDesc>.</castItem>
       </castList>
      </div3>
-     <div3 type="abstract">
+     <div3 type="argument">
       <pb n="180" xml:id="p180"/>
       <head type="main">Argument.</head>
       <p>Alexandre ayant ordonné à Apelles de faire le portrait d’une de ses favorites nommée <hi
@@ -3223,7 +3223,7 @@
        gallerie de tableaux.</stage>
       <div4 type="scene">
        <head type="main">Scène I.</head>
-       <p><hi rend="big">Apelles</hi> instruit de la visite d’Alexandre, donne les dernières touches
+       <p>Apelles instruit de la visite d’Alexandre, donne les dernières touches
         au portrait de ce Prince, pour la réception du quel il a tout préparé. Ses élèves sont
         déguisés en amours et en zéphirs ; d’autres en lutteurs et en gladiateurs, grouppés connue
         l’antique : les femmes qui lui servent de modèles, paroissent sous la forme des Graces et
@@ -3823,7 +3823,7 @@
       </div4>
       <div4 type="scene">
        <head type="main">Scène II.</head>
-       <p><hi rend="big">L’</hi>Amour paroît ; Orphée tombe à ses pieds, et les sons touchans de sa
+       <p>L’Amour paroît ; Orphée tombe à ses pieds, et les sons touchans de sa
         Lyre expriment la reconnaissance.</p>
        <p>La terre s’entr’ouvre, l’Amour lui ordonne de le suivre. Guidé par ce dieu et éclairé par
         son flambeau, il disparoît avec lui.</p>
@@ -3898,7 +3898,7 @@
        trône ; les Juges des Enfers et la cour infernale l’environnent.</stage>
       <div4 type="scene">
        <head type="main">Scène I.</head>
-       <p><hi rend="big">L’</hi>Amour a répandu sa douce influence. Orphée paroît et se prosterne
+       <p>L’Amour a répandu sa douce influence. Orphée paroît et se prosterne
         devant ces divinités. Il les supplie de lui rendre sa chère Euridice, et mêle à ses chants
         les accords enchanteurs de sa lyre : Pluton est ému et Proserpine attendrie ; le Dieu
         ordonne aux Juges de son empire de remettre Euridice à son époux ; mais il y joint une
