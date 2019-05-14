@@ -7,9 +7,8 @@
     <fileDesc>
       <titleStmt>
         <title>Traité élémentaire, théorique et pratique de l’art de la danse</title>
-        <author key="Blasis, Carlo (1795-1878)">Carlo Blasis</author>
-        <editor>Arianna B. Fabbricatore</editor>
-        <editor>OBVIL</editor>
+        <author key="Blasis, Carlo (1795-1878)" ref="https://data.bnf.fr/fr/11892320/carlo_de_blasis/">Carlo Blasis</author>
+        <editor key="Fabbricatore, Arianna (1970-....)">Arianna Fabbricatore</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -19,15 +18,15 @@
         </respStmt>
         <respStmt>
           <name>Arianna Fabbricatore </name>
-          <resp>relecture, édition, stylage sémantique</resp>
+          <resp>Relecture, édition, stylage sémantique</resp>
         </respStmt>
         <respStmt>
           <name>Éric Thiébaud</name>
-          <resp>édition TEI</resp>
+          <resp>Édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <date when="2019"/>
         <idno>http://obvil.sorbonne-universite.fr/corpus/danse/blasis_traite-elementaire/</idno>
         <availability status="restricted">
