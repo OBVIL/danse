@@ -1,0 +1,3219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>L’Art de la danse, poëme en quatre chants, calqué sur l’Art poétique de
+					Boileau</title>
+				<author key="Despréaux, Jean-Étienne (1748-1820)"
+					ref="https://data.bnf.fr/fr/10584437/jean-etienne_despreaux/">Jean-Étienne
+					Despréaux</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>OBVIL</edition>
+				<respStmt>
+					<name>Infoscribe</name>
+					<resp>saisie, XML-TEI</resp>
+				</respStmt>
+				<respStmt>
+					<name>Nolwenn Chevalier</name>
+					<resp>édition TEI</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+				<date when="2019"/>
+				<idno>http://obvil.sorbonne-universite.fr/corpus/danse/despreaux_art-de-la-danse_1806</idno>
+				<availability status="restricted">
+					<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+						<p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+							d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+							OBVIL).</p>
+						<p>Cette ressource électronique protégée par le code de la propriété
+							intellectuelle sur les bases de données (L341-1) est mise à disposition
+							de la communauté scientifique internationale par l’OBVIL, selon les
+							termes de la licence Creative Commons : « Attribution – Pas
+							d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+							3.0 FR) ».</p>
+						<p>Attribution : afin de référencer la source, toute utilisation ou
+							publication dérivée de cette ressource électroniques comportera le nom
+							de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+						<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+							scientifique, toute utilisation commerciale est interdite.</p>
+						<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+							ressource électronique, notamment en intégrant toutes les contributions
+							extérieures, la diffusion de versions modifiées de cette ressource n’est
+							pas souhaitable.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Jean-Étienne Despréaux, « L’Art de la danse, poëme en quatre chants, calqué
+					sur l’Art poétique de Boileau », in <hi rend="i">Mes passe-temps : chansons
+						suivies de l’Art de la danse…</hi>, <pubPlace>Paris</pubPlace>, chez
+						<publisher>l’auteur</publisher>, <date>1806</date>, p. 171-306. PDF : <ref
+						target="http://gallica.bnf.fr/ark:/12148/bpt6k9734454h"
+					>Gallica</ref>.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1806"/>
+			</creation>
+			<langUsage>
+				<language ident="fre"/>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1>
+				<head>[Épigraphe]</head>
+				<pb n="n.p."/>
+				<epigraph>
+					<p>Le bal est une poésie muette, et la poésie un bal parlant.</p>
+					<p>………… Tout vieil que je suis, encore sçay-je de pied léger saulter<note n="1"
+							place="bottom"><p>Les anciens faisaient une différence entre saulter et
+								danser.</p></note> et baller<note n="2" place="bottom"><p><hi
+									rend="sc">Baller</hi>, <hi rend="i">danser</hi>. Il se dit de
+								cérémonies ecclésiastiques ; de certaines salutations au chœur par
+								le grand-chantre, qui ressemblent à une danse grave et antique. <hi
+									rend="i">Le grand-chantre ballera au premier pseaume</hi>. <hi
+									rend="sc">Dictionn. de L’Acad. Franç.</hi></p></note>.</p>
+					<bibl><hi rend="sc">Plutarque</hi> dans ses Propos de table, livre 9, question
+						15, <hi rend="i">traitant de ce qu’il y a de commun entre l’art de la poésie
+							et l’art de baller</hi>. – Traduction d’<hi rend="sc">Amyot</hi>.</bibl>
+				</epigraph>
+			</div1>
+			<div1>
+				<pb n="n.p."/>
+				<head>Avertissement sur l’art de la danse, et de ses rapprochemens avec la
+					Poésie.</head>
+				<p rend="noindent"><hi rend="big">E</hi><hi rend="sc">n</hi> lisant l’<hi rend="i"
+						>Art Poétique de <hi rend="sc">Boileau</hi></hi>, je fus frappé de
+					l’analogie des règles de la Poésie avec celles de la Danse. Je sentis la
+					justesse de cette observation de M. l’abbé <hi rend="sc">Le Batteux</hi><note
+						n="1" place="bottom"><p>Les Beaux-Arts réduits à un même principe, <hi
+								rend="i">Avant-propos</hi>, pag. x.</p></note>, <hi rend="i">que les
+						arts, tous enfans de la nature, unis par une liaison intime et par une
+						espèce de fraternité</hi> (suivant l’expression de <hi rend="sc"
+						>Cicéron</hi>), se proposent le même but et se règlent par les mêmes
+					principes.</p>
+				<p>Entraîné par le charme de cette idée, <pb n="174" xml:id="p174"/>je m’amusai, non
+					à parodier<note n="1" place="bottom"><p>C’est-à-dire travestir
+							burlesquement.</p></note> l’<hi rend="i">Art Poétique</hi>, mais à
+					calquer sur ce Poëme les préceptes de la Danse. Je trouvai plaisant de
+					transformer, sans trivialités, le Maitre du Parnasse en un Maître à danser.</p>
+				<p>Aveuglé par mon enthousiasme, je n’apperçus pas d’abord un écueil très-dangereux.
+					Tant que je pus conserver des vers entiers de mon modèle, ou que je n’eus qu’à
+					remplacer les termes techniques de son art par ceux du mien, je travaillai, on
+					peut le croire, avec une merveilleuse facilité ; bientôt les épines se
+					montrèrent. Quelques rapports que les deux arts aient ensemble, il existe
+						cependant<note n="2" place="bottom"><p><hi rend="i">Voyez</hi> l’ouvrage
+							cité ci-dessus, même page.</p></note>
+					<hi rend="i">des différences particulières, des nuances qui les séparent et les
+						distinguent entre eux</hi>. Il fallut faire des vers de liaison, pour coudre
+					ensemble ceux que je dérobais à <hi rend="sc">Boileau</hi>, et pour donner des
+					leçons <pb n="175" xml:id="p175"/>qui me manquaient dans son Poëme. Ce fut alors
+					que je reconnus mon insuffisance ; mais l’originalité de mon entreprise
+					m’empêcha d’y renoncer, et j’espérai que les beautés de l’<hi rend="i">Art
+						Poétique</hi> feraient oublier la faiblesse de mon ouvrage.</p>
+				<p>J’ai cru nécessaire d’écrire cet avis, afin que le lecteur fût bien persuadé que
+					je n’ai point eu la prétention de faire des vers comme <hi rend="sc"
+						>Boileau</hi> (ce qui me serait impossible), et qu’il me pardonnât d’avoir
+					osé me servir des parties de ce Poëme, pour en composer un que je ne crois pas
+					tout-à-fait inutile.</p>
+				<div2>
+					<head>Division de l’art de la danse.</head>
+					<p>C<hi rend="sc">e</hi> petit Poëme est divisé en <hi rend="i">quatre
+							Chants</hi>, ainsi que l’<hi rend="i">Art Poétique</hi>.</p>
+					<p><hi rend="i">Le premier Chant</hi> contient les qualités nécessaires à un
+						jeune homme qui veut parcourir avec succès cette carrière, et les règles
+						générales pour former un premier <pb n="176" xml:id="p176"/>sujet dans ce
+						genre ; il finit par une courte digression sur l’histoire de la Danse,
+						depuis Beauchamps, Maître des Ballets de Louis <hi rend="sc">xiv</hi>,
+						jusqu’au temps des Vestris, Gardel et Dauberval.</p>
+					<p><hi rend="i">Le second Chant</hi> présente les caractères et les règles des
+						Danses françaises et étrangères. L’auteur cite pour exemple quelques graves
+						personnages de l’antiquité, et plusieurs princes français dont cet art
+						faisait les délassemens ; ensuite il se transporte dans un bal, pour y
+						critiquer le maintien et les défauts des danseurs.</p>
+					<p><hi rend="i">Le troisième Chant</hi> traite de la Danse théâtrale et des
+						trois genres principaux de Danse indiqués par la nature, d’après les
+						différentes tailles des danseurs, grande, moyenne et petite, que l’on nomme,
+							<hi rend="i">genre noble</hi>, <hi rend="i">demi-caractère</hi> et <hi
+							rend="i">genre comique</hi>.</p>
+					<p><hi rend="i">Le quatrième Chant</hi> a pour objet l’art du Pantomime, les
+						Ballets d’actions et les <pb n="177" xml:id="p177"/>connaissances qu’un
+						Maître de Ballets doit réunir.</p>
+					<p>Cet ouvrage étant fait depuis plusieurs années, les noms des jeunes artistes
+						qui excitent en ce moment, à l’Opéra, l’enthousiasme du public, ne peuvent
+						s’y trouver.</p>
+					<p>La saison de la Danse est celle de la jeunesse ; et comme chaque printemps
+						fait éclore de nouvelles fleurs, ainsi, tous les ans, de nouveaux danseurs
+						et de nouvelles danseuses débutent sur le théâtre de l’Opéra, vont dans les
+						pays étrangers, et sont remplacés par d’autres.</p>
+					<p>La liste de ceux qui ont paru depuis quinze ans aurait été plus longue que
+						mon Poëme. Tandis que je le composais, la personne que j’allais citer,
+						partait.</p>
+					<p>Je me suis donc décidé à ne parler que des genres, qui se réduisent à trois,
+						et comme il fallait des exemples, j’ai choisi une ou deux personnes qui ont
+						excellé dans chacun.</p>
+					<pb n="178" xml:id="p178"/>
+					<p>On sent qu’il ne m’a pas été possible de nommer tous les talens que nous
+						avons vu briller sur la scène, et ceux que nous possédons en ce moment ;
+						cela aurait entraîné quelque éloge pour chacun ; c’est au public à les
+						juger.</p>
+					<p/>
+					<p><hi rend="i">N. B.</hi> L’auteur de cette faible imitation de l’<hi
+								rend="i">Art Poétique</hi>, ne s’est point asservi à suivre, dans
+							chaque chant, la marche de son modèle ; au contraire, il a souvent
+							transporté des vers d’un chant dans un autre, selon qu’ils convenaient à
+							son sujet.</p>
+				</div2>
+			</div1>
+			<div1>
+				<pb n="179" xml:id="p179"/>
+				<head>Jean-Étienne Despréaux, A l’ombre de Boileau Despréaux.</head>
+				<l><hi rend="sc">Contemporain</hi> de mes aïeux,</l>
+					<l>Auteur d’un œuvre merveilleux,</l>
+					<l>Quoiqu’un siècle entier nous sépare,</l>
+					<l>Permets, qu’en jouant, je m’empare</l>
+					<l>De tes vers et de ton esprit,</l>
+					<l>Et qu’en mutilant ton écrit,</l>
+					<l>J’enseigne les loix de la grace,</l>
+					<l>« Qui par-tout nous ravit et jamais ne nous lasse<note n="1" place="bottom"
+								><p>Imitation du vers 300 de <hi rend="sc">Boileau</hi>, <hi
+									rend="i">Art poétique</hi>, Chant 3.</p></note> : »</l>
+					<l>En m’attachant à toi, peut-être on me lira,</l>
+					<l>Peut-être, dans mon art, le bon goût renaîtra.</l>
+					<l>Pour prouver aux esprits vulgaires,</l>
+					<pb n="180" xml:id="p180"/>
+					<l>« Que les muses sont sœurs, que les beaux-arts sont frères<note n="1"
+							place="bottom"><p>Voltaire.</p></note>, »</l>
+					<l>Ce qu’<hi rend="sc">Aristote</hi> a dit, ce qu’<hi rend="sc">Horace</hi> a
+						chanté,</l>
+					<l>Ce que ta Muse a fait, par moi fut imité<note n="2" place="bottom"><p><hi
+									rend="i">Voyez</hi> les Poétiques d’Aristote, d’Horace et de
+								Boileau.</p></note>.</l>
+					<l>Entre nous, que de différence !</l>
+					<l>Mais aussi que de ressemblance !</l>
+					<l>Tous deux, nous redressons les torts,</l>
+					<l>Toi, de l’esprit, et moi, du corps ;</l>
+					<l>Tous deux, Paris nous a vu naître,</l>
+					<l>Et dans son art, chacun de nous est maître ;</l>
+					<l>Tous deux, nous tenons d’Apollon</l>
+					<l>Et la lyre et le violon ;</l>
+					<l>Tous deux, nous réglons la cadence,</l>
+					<l>Toi, pour les vers, moi, pour la danse.</l>
+					<l>Pour tes talens, moi, pour les miens,</l>
+					<l>Versailles nous combla de biens<note n="3" place="bottom"><p>Boileau obtint
+								diverses pensions de Louis <hi rend="sc">xiv</hi>.</p>
+							<p>Je fus long-temps attaché aux ballets de la Cour ; j’y composais des
+								fêtes et des petites pièces : elle m’en a récompensé par des
+								bienfaits et pensions.</p></note></l>
+					<pb n="181" xml:id="p181"/>
+					<l>Et comme toi, je fus, non pas pour le génie,</l>
+					<l>D’une royale Académie<note n="1" place="bottom"><p>Académie royale de
+								Musique.</p></note>.</l>
+					<l>Il est encore un plus singulier trait</l>
+					<l>Qui va terminer ce portrait.</l>
+					<l>Sévère et docte satyrique,</l>
+					<l>Moi, petit chansonnier comique,</l>
+					<l>Tous deux, nous avons même nom,</l>
+					<l>Et non pas le même renom ;</l>
+					<l>Mais je possède un avantage</l>
+					<l>Pour lequel ton ombre, je gage,</l>
+					<l>Céderait tes fameux écrits ;</l>
+					<l>Tu fus, je suis.</l>
+				<label>N. B. <hi rend="i">pour les rapprochemens de l’Art de la Danse et de
+							celui de la Poésie</hi>.</label>
+					<p>Vu les transpositions des vers de l’<hi rend="i">Art poétique</hi> que cet
+						ouvrage à forcé de faire, on a imprimé en regard ceux qui sont conservés,
+						imités ou parodiés, et l’on a indiqué à la marge les Chants d’où ils sont
+						pris, et leurs numéros.</p>
+			</div1>
+			<div1>
+				<pb n="182" xml:id="p182"/>
+				<head>L’art poétique.</head>
+				<div2>
+					<head>Chant premier.</head>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_1-6">
+						<l n="1">C’<hi rend="sc">est</hi> en vain qu’au Parnasse un téméraire auteur</l>
+						<l n="2">Pense de l’art des vers atteindre la hauteur :</l>
+						<l n="3">S’il ne sent point du ciel l’influence secrète,</l>
+						<l n="4">Si son astre en naissant ne l’a formé poète,</l>
+						<l n="5">Dans son génie étroit il est toujours captif ;</l>
+						<l n="6">Pour lui Phébus est sourd, et Pégase est rétif.</l>
+					</lg>
+				</div2>
+			</div1>
+			<div1>
+				<pb n="183" xml:id="p183"/>
+				<head>L’art de la danse.</head>
+				<div2>
+					<head>Chant premier.</head>
+					<p>Chant I, vers</p>
+					<lg>
+						<l>C’<hi rend="sc">est</hi> en vain qu’au théâtre un novice danseur</l>
+						<l>Des charmes de son art croit être possesseur :</l>
+						<l>S’il n’a reçu du ciel grace, adresse, élégance<note n="1" place="end"
+										><p>L’<hi rend="sc">élégance</hi> dans la taille est un don
+									de la nature que très-peu de personnes possèdent ; il faut être
+									mince et bien fait, avoir de petits os et des muscles peu
+									prononcés, la poitrine élevée, la tête haute sans affectation.
+									Un homme court et gros n’a jamais d’élégance.</p></note>,</l>
+						<l>Si son astre en naissant ne l’a fait pour la Danse,</l>
+						<l>Dans sa lourde structure il est toujours captif ;</l>
+						<l>Ses bras sont maladroits, et son jarret rétif.</l>
+					</lg>
+				</div2>
+				<div2>
+					<p>Chant I, vers</p>
+					<pb n="184" xml:id="p184"/>
+					<lg xml:id="boileau_1_7-12">
+						<l n="7">O <hi rend="sc">vous</hi> donc qui, brûlant d’une ardeur
+							périlleuse,</l>
+						<l n="8">Courez du bel esprit la carrière épineuse,</l>
+						<l n="9">N’allez pas sur des vers sans fruit vous consumer,</l>
+						<l n="10">Ni prendre pour génie une ardeur de rimer :</l>
+						<l n="11">Craignez d’un vain plaisir les trompeuses amorces,</l>
+						<l n="12">Et consultez long-temps votre esprit et vos forces.</l>
+					</lg>
+					<lg xml:id="boileau_1_13-21">
+						<l n="13"><hi rend="sc">La nature</hi>, fertile en esprits excellens,</l>
+						<l n="14">Sait entre les auteurs partager les talens :</l>
+						<l n="15">L’un peut tracer en vers une amoureuse flamme ;</l>
+						<l n="16">L’autre, d’un trait plaisant aiguiser l’épigramme :</l>
+						<l n="17">Malherbe d’un héros peut vanter les exploits ;</l>
+						<l n="18">Racan, chanter Philis, les bergers et les bois.</l>
+						<l n="19">Mais souvent un esprit qui se flatte et qui s’aime</l>
+						<l n="20">Méconnaît son génie et s’ignore soi-même :</l>
+						<l n="21">Ainsi tel, autrefois qu’on vit avec Faret…. &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_1_27-30">
+						<l n="27"><hi rend="sc">Quelque</hi> sujet qu’on traite, ou plaisant, ou
+							sublime,</l>
+						<l n="28">Que toujours le bon sens s’accorde avec la rime :</l>
+						<l n="29">L’un l’autre vainement ils semblent se haïr ;</l>
+						<l n="30">La rime est une esclave, et ne doit qu’obéir.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="185" xml:id="p185"/>
+					<lg>
+						<l>O vous donc qui, brûlant d’une ardeur périlleuse,</l>
+						<l>Courez de nos <hi rend="sc">Vestris</hi> la carrière épineuse,</l>
+						<l>N’allez pas par des sauts sans fruit vous énerver ;</l>
+						<l>Sachez que le talent n’est pas de s’enlever<note n="2" place="end"><p><hi
+										rend="sc">S’enlever</hi>, terme de Danse, c’est quitter la
+									terre par un élan, sauter haut et perpendiculairement. On
+									s’élève sur les pointes des pieds, on s’enlève en
+								sautant.</p></note> :</l>
+						<l>Craignez d’un vain plaisir les trompeuses amorces,</l>
+						<l>Et consultez long-temps votre oreille et vos forces.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">La nature</hi>, fertile en danseurs excellens,</l>
+						<l>Selon leurs facultés, partage les talens<note n="3" place="end"><p>Il
+									existe trois sortes de tailles, la grande, la moyenne et la
+									petite ; ce qui donne nécessairement trois sortes de Danse.</p>
+								<p>1°. Le genre noble ou sérieux ; 2°. le genre galant-berger, ou
+									demi-caractère ; 3°. le genre comique ou genre du pâtre. Il y en
+									a un quatrième pour les danseurs gros, courts et vigoureux, qui
+									est ordinairement trivial.</p></note> :</l>
+						<l>L’un, dans un pas de deux, peut exprimer sa flâme<note n="4" place="end"
+									><p>Tel était Pic, danseur dans le demi-caractère. Il avait une
+									taille moyenne, mince, parfaitement proportionnée. Il dansait à
+									merveille les <hi rend="i">pas de Deux</hi>. Il débuta à Paris
+									en 1778, dans les <hi rend="i">Caprices de Galatée</hi>, ballet
+									de M. Noverre. Il resta peu de temps à l’Opéra.</p>
+								<p><hi rend="sc">Nivelon</hi> fit, pendant nombre d’années, grand
+									plaisir, dans le même genre.</p></note> :</l>
+						<l>L’autre, d’un pas plus vif sait égayer notre âme<note n="5" place="end"
+										><p><hi rend="sc">Auguste Vestris</hi>. <hi rend="i"
+										>Voyez</hi> la note n° 29.</p></note>.</l>
+						<l><hi rend="sc">Gardel</hi> peut d’un héros nous peindre les combats<note
+								n="6" place="end"><p><hi rend="sc">Pierre Gardel</hi> le jeune,
+									débuta en 1774. Il succéda à son frère en 1787, comme premier
+									danseur et maître de ballets ; grand, bien fait, sa Danse est le
+									genre grave ; il est l’auteur des ballets de <hi rend="i"
+										>Télémaque</hi>, <hi rend="i">Psyché</hi>, <hi rend="i">le
+										Jugement de Pâris</hi>, <hi rend="i">la Dansomanie</hi>,
+									&amp;c. &amp;c. &amp;c. Il mérite la grande réputation qu’il a
+									dans son art.</p></note> ;</l>
+						<l>Et D<hi rend="sc">eshays</hi>, d’un zéphir les amoureux ébats<note n="7"
+								place="end"><p><hi rend="sc">Deshays</hi>, en dansant Zéphir dans le
+									ballet de <hi rend="i">Psyché</hi>, fit le plus grand plaisir.
+									Le ballet du <hi rend="i">Retour de Zéphir</hi>, de la
+									composition de Pierre Gardel, fut fait exprès pour lui.</p>
+								<p>Ce fut <hi rend="sc">Laborie</hi> qui le premier dansa le rôle de
+									Zéphir, en décembre 1790 ; sa taille prêtait encore plus à ce
+									rôle ; il avait un talent très-agréable.</p></note>.</l>
+						<l>Mais souvent un danseur qui se flatte et qui s’aime</l>
+						<l>Méconnaît son talent et s’ignore soi-même.</l>
+						<l>Ainsi tels, autrefois, et même de nos jours,</l>
+						<l>En Hercules taillés, ont dansé les Amours.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Quel</hi> que soit le sujet exprimé par la Danse,</l>
+						<l>Que toujours votre pas s’unisse à la cadence<note n="8" place="end"
+										><p><hi rend="sc">Cadence</hi> ou <hi rend="sc"
+									>Rhythme</hi> ; termes dont on se sert dans la poésie, dans la
+									musique, et dans la Danse, pour exprimer la même chose.</p>
+								<p>En Danse, c’est l’observation exacte des mesures de l’air sur
+									lequel on Danse, et des divisions de ses mesures. Il faut une si
+									grande précision pour que l’œil et l’oreille soient frappés en
+									même temps, que le spectateur ne sache laquelle de la musique ou
+									de la Danse obéit à l’autre.</p>
+								<p>Tous les mouvemens appartiennent à la Danse, comme tous les sons
+									appartiennent à la musique ; c’est à l’artiste à choisir ce qui
+									lui convient pour plaire.</p>
+								<p>« C’est par les rhythmes figurés, gestes, pas ou mouvemens
+									cadencés, que les danseurs expriment les mœurs, les passions,
+									les actions ».</p>
+								<p>Poétique d’Aristote, chap. premier.</p></note> :</l>
+						<l>Vainement un danseur prétendrait l’asservir ;</l>
+						<l>La cadence est maîtresse, il lui faut obéir.</l>
+					</lg>
+				</div2>
+				<div2>
+					<p>Chant I, vers</p>
+					<pb n="186" xml:id="p186"/>
+					<lg xml:id="boileau_1_31-32">
+						<l n="31">Lorsqu’à la bien chercher d’abord on s’évertue,</l>
+						<l n="32">L’esprit à la trouver aisément s’habitue ;</l>
+						<l n="33">Au joug de la raison sans peine elle fléchit,</l>
+						<l n="34">Et, loin de la gêner, la sert et l’enrichit. &amp;c….</l>
+					</lg>
+					<lg xml:id="boileau_1_39-44">
+						<l n="39"><hi rend="sc">La plupart</hi>, emportés d’une fougue insensée,</l>
+						<l n="40">Toujours loin du droit sens vont chercher leur pensée :</l>
+						<l n="41">Ils croiraient s’abaisser, dans leurs vers monstrueux,</l>
+						<l n="42">S’ils pensaient ce qu’un autre a pu penser comme eux.</l>
+						<l n="43">Evitons ces excès : laissons à l’Italie</l>
+						<l n="44">De tous ces faux brillans l’éclatante folie. &amp;c….</l>
+					</lg>
+					<lg xml:id="boileau_1_49-58">
+						<l n="49"><hi rend="sc">Un auteur</hi> quelquefois trop plein de son objet,</l>
+						<l n="50">Jamais sans l’épuiser n’abandonne un sujet.</l>
+						<l n="51">S’il rencontre un palais, il m’en dépeint la face ;</l>
+						<l n="52">Il me promène après de terrasse en terrasse :</l>
+						<l n="53">Ici s’offre un perron ; là règne un corridor ;</l>
+						<l n="54">Là ce balcon s’enferme en un balustre d’or.</l>
+						<l n="55">Il compte des plafonds les ronds et les ovales ;</l>
+						<l n="56">Ce ne sont que festons, ce ne sont qu’astragales.</l>
+						<l n="57">Je saute vingt feuillets pour en trouver la fin ;</l>
+						<l n="58">Et je me sauve à peine au travers du jardin.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="187" xml:id="p187"/>
+					<lg>
+						<l>Lorsqu’à la bien chercher d’abord on s’évertue,</l>
+						<l>L’oreille à la saisir aisément s’habitue ;</l>
+						<l>Au joug de la musique alors le pas fléchit,</l>
+						<l>Et, loin de le gêner, cet accord l’enrichit.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">La plupart</hi>, emportés d’une fougue insensée,</l>
+						<l>Livrés aux vains écarts d’une Danse forcée,</l>
+						<l>Croiraient se dégrader, dans leurs pas monstrueux,</l>
+						<l>S’ils dansaient ce qu’un autre a pu danser comme eux.</l>
+						<l>Évitons ces excès : laissons à l’Italie<note n="9" place="end"><p>Les
+									danseurs d’Italie, qu’on nomme <hi rend="i">grotesques</hi>, ne
+									cherchent qu’à étonner ; leur Danse est ignoble : ils semblent
+									ignorer que la Danse est un art de plaire.</p></note></l>
+						<l>De ces sauts étonnans la bizarre folie.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Un danseur</hi> quelquefois se borne à quelques pas ;</l>
+						<l>On a changé les airs, lui seul ne change pas.</l>
+						<l>Sans grace, sans maintien, il se présente en face ;</l>
+						<l>Il marche, il se promène, il court de place en place :</l>
+						<l>Là fait une attitude, ici des battemens<note n="10" place="end"><p><hi
+										rend="sc">Battement</hi>, terme de Danse, lorsqu’une jambe
+									frappe sur l’autre.</p></note> ;</l>
+						<l>Il répète toujours les mêmes mouvemens.</l>
+						<l>Ses jambes, en dansant, ne sont jamais égales ;</l>
+						<l>La même fait toujours les ronds ou les ovales<note n="11" place="end"
+										><p><hi rend="sc">Ronds de jambe</hi>, terme de Danse qui
+									indique le mouvement que doit faire une jambe, soit en l’air, ou
+									bien à terre, le corps étant posé sur l’autre
+							jambe.</p></note> ;</l>
+						<l>Il fait vingt entrechats pour atteindre à la fin ;</l>
+						<l>Excédé de fatigue, il disparaît enfin<note n="12" place="end"><p>J’ai
+									voulu peindre ces <hi rend="i">danseurs-machines</hi>, qui
+									dansent sans expression pendant qu’on joue un air, et dont tout
+									le talent consiste dans les jambes.</p></note>.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="188" xml:id="p188"/>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_59-62">
+						<l n="59">Fuyez de ces auteurs l’abondance stérile ;</l>
+						<l n="60">Et ne vous chargez point d’un détail inutile.</l>
+						<l n="61">Tout ce qu’on dit de trop est fade et rebutant ;</l>
+						<l n="62">L’esprit rassasié le rejette à l’instant. &amp;c….</l>
+					</lg>
+					<lg xml:id="boileau_1_65-68">
+						<l n="65">Un vers était trop faible ; et vous le rendez dur :</l>
+						<l n="66">J’évite d’être long, et je deviens obscur :</l>
+						<l n="67">L’un n’est point trop fardé, mais sa Muse est trop nue :</l>
+						<l n="68">L’autre a peur de ramper ; il se perd dans la nue.</l>
+					</lg>
+					<lg xml:id="boileau_1_69-72">
+						<l n="69"><hi rend="sc">Voulez-vous</hi> du public mériter les amours ?</l>
+						<l n="70">Sans cesse en écrivant variez vos discours.</l>
+						<l n="71">Un style trop égal et toujours uniforme</l>
+						<l n="72">En vain brille à nos yeux, il faut qu’il nous endorme. &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_1_75-78">
+						<l n="75"><hi rend="sc">Heureux</hi> qui, dans ses vers, sait d’une voix
+							légère</l>
+						<l n="76">Passer du grave au doux, du plaisant au sévère !</l>
+						<l n="77">Son livre, aimé du ciel, et chéri des lecteurs,</l>
+						<l n="78">Est souvent chez Barbin entouré d’acheteurs.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="189" xml:id="p189"/>
+					<lg>
+						<l>Fuyez de ces danseurs l’invention stérile ;</l>
+						<l>Variez, mais craignez tout détail inutile.</l>
+						<l>Tout ce qu’on fait de trop est fade et rebutant,</l>
+						<l>Et l’œil rassasié se détourne à l’instant.</l>
+						<l>Sur les phrases de l’air phrasez aussi la Danse ;</l>
+						<l>Les momens de repos indiquent la cadence.</l>
+						<l>Ce pas était trop faible ; et vous le rendez dur :</l>
+						<l>Je veux être brillant ; et je deviens obscur :</l>
+						<l>L’un craignant de sauter, a trop de retenue :</l>
+						<l>L’autre a peur de ramper ; il se perd dans la nue.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Voulez-vous</hi> du public mériter les amours ?</l>
+						<l>Sachez de votre corps varier les contours.</l>
+						<l>Un genre trop égal et toujours uniforme</l>
+						<l>En vain brille à nos yeux ; il faut qu’il nous endorme.</l>
+						<l>Un danseur m’ennuîra, fût-il plein d’agrément,</l>
+						<l>S’il replace par-tout le même enchaînement<note n="13" place="end"><p><hi
+										rend="sc">Enchaînement</hi>, suite de pas liés les uns aux
+									autres, sur une certaine quantité de mesures de
+								musique.</p></note>.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Heureux</hi> qui, dans ses pas, d’une danse légère</l>
+						<l>Passe du grave au doux, du plaisant au sévère !</l>
+						<l>Acteur toujours nouveau, chéri des spectateurs,</l>
+						<l>Il trouve en chacun d’eux autant d’admirateurs.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="190" xml:id="p190"/>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_79-97">
+						<l n="79"><hi rend="sc">Quoi</hi> que vous écriviez, évitez la bassesse :</l>
+						<l n="80">Le style le moins noble a pourtant sa noblesse.</l>
+						<l n="81">Au mépris du bon sens, le burlesque effronté</l>
+						<l n="82">Trompa les yeux d’abord, plut par sa nouveauté :</l>
+						<l n="83">On ne vit plus en vers que pointes triviales ;</l>
+						<l n="84">Le Parnasse parla le langage des halles :</l>
+						<l n="85">La licence à rimer alors n’eut plus de frein ;</l>
+						<l n="86">Apollon travesti devint un Tabarin.</l>
+						<l n="87">Cette contagion infecta les provinces,</l>
+						<l n="88">Du clerc et du bourgeois passa jusques aux princes :</l>
+						<l n="89">Le plus mauvais plaisant eut ses approbateurs ;</l>
+						<l n="90">Et, jusqu’à D’Assouci, tout trouva des lecteurs.</l>
+						<l n="91">Mais de ce style enfin la Cour désabusée</l>
+						<l n="92">Dédaigna de ces vers l’extravagance aisée,</l>
+						<l n="93">Distingua le naïf du plat et du bouffon,</l>
+						<l n="94">Et laissa la province admirer le Typhon.</l>
+						<l n="95">Que ce style jamais ne souille votre ouvrage.</l>
+						<l n="96">Imitons de Marot l’élégant badinage,</l>
+						<l n="97">Et laissons le burlesque aux plaisans du Pont-Neuf. &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="191" xml:id="p191"/>
+					<lg>
+						<l><hi rend="sc">Quel</hi> que soit votre rôle, évitez la bassesse ;</l>
+						<l>Le genre le moins noble a pourtant sa noblesse.</l>
+						<l>Au mépris de la grace, un grotesque effronté</l>
+						<l>Trompa les yeux d’abord, plut par sa nouveauté :</l>
+						<l>Bientôt, on ne vit plus que danses triviales ;</l>
+						<l>Terpsicore imita les postures des halles :</l>
+						<l>Des danseurs étrangers, de grossiers baladins,</l>
+						<l>Vinrent à l’Opéra danser les paladins<note n="14" place="end"><p>Des
+									danseurs Italiens vinrent à Paris danser dans un opéra intitulé
+										<hi rend="i">les Paladins</hi> ; leur genre grotesque amusa
+									quelque temps, mais bientôt on s’en dégoûta.</p></note>.</l>
+						<l>Cette contagion infecta les provinces,</l>
+						<l>Elle alla de la foire aux spectacles des princes :</l>
+						<l>Le grimacier Slins’byk trouva des amateurs<note n="15" place="end"><p><hi
+										rend="sc">Slins’byk</hi>, Anglais, vint danser l’anglaise à
+									l’Opéra de Paris dans un acte turc, il y a envion vingt-cinq
+									ans ; il eut un succès fou. C’est le danseur le plus étonnant
+									qu’on ait vu dans ce genre : on voulut le voir à la Cour. Il
+									alla à Fontainebleau ; il étonna, et bientôt il
+								déplut.</p></note> ;</l>
+						<l>Et L… en Lapon eut ses approbateurs<note n="16" place="end"><p>Dans
+									l’opéra d’<hi rend="i">Ernelinde</hi>, il y eut un pas de Lapon
+									qui obtint les plus grands applaudissemens. Cette danse est d’un
+									comique bas.</p></note>.</l>
+						<l>Mais de ce genre enfin la cour désabusée</l>
+						<l>Dédaigna de ces pas l’extravagance aisée,</l>
+						<l>Distingua du bouffon l’agréable danseur,</l>
+						<l>Et laissa la province admirer le sauteur.</l>
+						<l>Que ce genre jamais ne souille votre Danse.</l>
+						<l>Imitez de <hi rend="sc">Vestris</hi> la badine élégance<note n="17"
+								place="end"><p><hi rend="sc">Auguste Vestris</hi>, dans le premier
+									acte <hi rend="i">ballet de Pâris</hi>, qui est un chef-d’œuvre
+									de composition en Danse, était au-dessus de tout ce qu’on a pu
+									voir comme agréable danseur ; il joignait l’adresse et
+									l’expression à la grace la plus parfaite.</p></note>, Le
+							burlesque honteux, vrai plaisir de valet,</l>
+						<l>Ne convient qu’aux tréteaux qu’illustra <hi rend="sc">Nicolet</hi>.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Mais</hi> n’allez pas aussi, par des pas terre à terre,</l>
+						<l>Noblement ennuyeux, fatiguer le parterre.</l>
+					</lg>
+				</div2>
+				<div2>
+					<p>Chant I, vers</p>
+					<pb n="192" xml:id="p192"/>
+					<lg xml:id="boileau_1_101-112">
+						<l n="101">Prenez mieux votre ton. Soyez simple avec art,</l>
+						<l n="102">Sublime sans orgueil, agréable sans fard.</l>
+					</lg>
+					<lg xml:id="boileau_1_103-106">
+						<l n="103"><hi rend="sc">N’offrez</hi> rien au lecteur que ce qui peut lui
+							plaire.</l>
+						<l n="104">Ayez pour la cadence une oreille sévère :</l>
+						<l n="105">Que toujours dans vos vers le sens coupant les mots</l>
+						<l n="106">Suspende l’hémistiche, en marque le repos.</l>
+					</lg>
+					<lg xml:id="boileau_1_107-108">
+						<l n="107"><hi rend="sc">Gardez</hi> qu’une voyelle à courir trop hâtée</l>
+						<l n="108">Ne soit d’une voyelle en son chemin heurtée.</l>
+					</lg>
+					<lg xml:id="boileau_1_109-112">
+						<l n="109"><hi rend="sc">Il</hi> est un heureux choix de mots harmonieux.</l>
+						<l n="110">Fuyez des mauvais sons le concours odieux :</l>
+						<l n="111">Le vers le mieux rempli, la plus noble pensée,</l>
+						<l n="112">Ne peut plaire à l’esprit quand l’oreille est blessée.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="193" xml:id="p193"/>
+					<lg>
+						<l>Prenez mieux votre ton. Soyez simple avec art,</l>
+						<l>Plaisant sans être ignoble, agréable sans fard.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">N’offrez</hi> rien au public que ce qui peut lui
+							plaire.</l>
+						<l>Jusque dans votre marche, il faut être sévère :</l>
+						<l>Que votre corps, cédant à tous vos pas égaux,</l>
+						<l>Trouve, sur chaque pied, un instant de repos.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Gardez-vous</hi> qu’une jambe à courir trop hâtée</l>
+						<l>Ne soit de l’autre jambe en son chemin heurtée :</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Il</hi> est un heureux choix de contours gracieux.</l>
+						<l>Que la note et le pied soient bien d’accord entre eux :</l>
+						<l>Le pas le plus brillant, la plus aimable danse,</l>
+						<l>Ne peuvent plaire aux yeux, s’ils blessent la cadence.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Sachez</hi> que Terpsicone exige qu’un danseur</l>
+						<l>Soit moelleux sans mollesse, et ferme sans roideur<note n="18"
+								place="end"><p>Lorsque la Danse était dans la plus grande vogue chez
+									les Romains, Lucien, dans son <hi rend="i">Traité sur la
+										Danse</hi>, a dit : <quote>« Il faut que le danseur ait le corps
+									ferme et souple tout ensemble »</quote>.</p></note>.</l>
+						<l>En offrant à mes yeux le plus parfait ensemble,</l>
+						<l>Cachez-moi le travail ; que rien ne se ressemble.</l>
+						<l>Que jamais votre corps ne perde son aplomb<note n="19" place="end"><p><hi
+										rend="sc">Aplomb</hi>, se dit lorsque la tête et les reins
+									sont en ligne perpendiculaire au-dessus de la partie du pied sur
+									laquelle tout le corps est porté.</p>
+								<p>On peut être en équilibre sans être d’aplomb ; mais il n’y a pas
+									d’aplomb sans équilibre.</p></note> :</l>
+						<l>En sautant, imitez le ressort du ballon<note n="20" place="end"><p><hi
+										rend="sc">Ballon</hi>. On se sert souvent de ce terme, pour
+									exprimer le mouvement d’un danseur, qui lorsqu’il touche la
+									terre bondit moelleusement.</p></note>.</l>
+						<l>Dans cet art enchanteur que le public adore,</l>
+						<l>C’est par-là que plaisait l’aimable <hi rend="sc">Théodore</hi><note
+								n="21" place="end"><p>M<hi rend="sup">lle</hi>
+									<hi rend="sc">Théodore</hi> (Mad. <hi rend="sc">Dauberval</hi>),
+									née à Paris en 1759, morte en 1798.</p>
+								<p>Elle fut une desplus charmantes danseuses de l’Opéra ;</p>
+								<p>Elle avait dans sa Danse, ce moelleux, ce <hi rend="i"
+										>ballon</hi>, qui lient si bien la musique et la Danse. Mad.
+									Pérignon, qui lui succéda dans le même genre, eut le plus grand
+									succès. Celle-ci fut remplacée par M<hi rend="sup">lle</hi>
+									Chevigny, si expressive dans la pantomime.</p></note>.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="194" xml:id="p194"/>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_113-119">
+						<l n="113"><hi rend="sc">Durant</hi> les premiers ans du Parnasse françois,</l>
+						<l n="114">Le caprice tout seul faisait toutes les loix.</l>
+						<l n="115">La rime, au bout des mots assemblés sans mesure,</l>
+						<l n="116">Tenait lieu d’ornemens, de nombre et de césure.</l>
+						<l n="117">Villon sut le premier, dans ces siècles grossiers,</l>
+						<l n="118">Débrouiller l’art confus de nos vieux romanciers.</l>
+						<l n="119">Marot bientôt après &amp;c….</l>
+					</lg>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_168-170">
+						<l n="168"><hi rend="sc">De</hi> ces maîtres savans disciple ingénieux,</l>
+						<l n="169">Regnier, seul parmi nous formé sur leurs modèles,</l>
+						<l n="170">Dans son vieux style encore a des grâces nouvelles. &amp;c.</l>
+					</lg>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_122-126">
+						<l n="122">Et montra pour rimer des chemins tout nouveaux.</l>
+						<l n="123">Ronsard, qui le suivit, par une autre méthode,</l>
+						<l n="124">Réglant tout, brouilla tout, fit un art à sa mode,</l>
+						<l n="125">Et toutefois long-temps eut un heureux destin.</l>
+						<l n="126">Mais sa Muse, en français, parlant grec et latin,</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="195" xml:id="p195"/>
+					<lg>
+						<l><hi rend="sc">Avant</hi> les premiers ans de l’Opéra françois<note n="22"
+								place="end"><p><hi rend="sc">Opéra Français</hi>. En 1669, l’abbé
+									Perrin ayant obtenu des lettres-patentes pour l’établissement
+									d’une académie royale de musique, s’associa, pour la musique,
+									avec le sieur Chabert, et pour les machines, avec M. le marquis
+									de Soudiac.</p>
+								<p>Il fit représenter, sur un théâtre bâti exprès dans le jeu de
+									paume de l’hôtel Guénégaud, l’opéra de <hi rend="i"
+									>Pomone</hi>,au mois de mars 1671. Les Danses étaient de la
+									composition de Beauchamps, sur-intendant des ballets du Roi.</p>
+								<p/>
+								<p>« Les spectacles de Danse avaient été formés jusqu’alors par les
+									personnes de qualité de la Cour ; l’art, ou pour mieux dire,
+									l’ombre de l’art, ne s’étant conservée que parmi les gens du
+									monde.</p>
+								<p>En formant l’Opéra comme spectacle maîtres à danser, dont la
+									science était très-bornée ; aussi lorsque Lullyfut à la tête de
+									ce spectacle, en 1672, il donna les <hi rend="i">Fêtes de
+										l’Amour et de Bacchus</hi>. Ses Danses étaient des fragmens
+									de différens ballets de la Cour. Ce qu’il y eut de singulier
+									dans son ballet, dont une partie avait été composée par lui, et
+									l’autre par le sieur Desbrosses, fut (vu la rareté des bons
+									danseurs) de voir que M. le grand écuyer, M. le duc de Monmouth,
+									M. le duc de Villeroy, et M.le marquis de Rossen, y parurent en
+									public une fois devant le Roi, qui vint voir ce spectacle ; et
+									choisirent pour danser avec eux les sieurs Beauchamps,
+									Saint-André, Favières et Lapierre ».</p>
+								<p rend="right">Traité historique de la Danse, par Cahuzac ; &amp;c.
+									ou Recueil des Opéras, tome 1.</p></note>,</l>
+						<l>Le caprice tout seul faisait toutes les loix.</l>
+						<l>Quelques pas terre à terre, à-peu-près en mesure,</l>
+						<l>Tenaient lieu d’ornement, sans grace et sans figure.</l>
+						<l><hi rend="sc">Beauchamps</hi><note n="23" place="end"><p><hi rend="sc"
+										>Beauchamps</hi>, directeur de l’Académie royale de Danse,
+									compositeur et sur-intendant des ballets du Roi Louis <hi
+										rend="sc">xiv</hi>, en 1661, et maître des ballets de
+									l’Académie royale de Musique, en 1671 : mort en 1705.</p>
+								<p>Il dansait avec le Roi dans les ballets de la Cour.</p>
+								<p>La critique qu’en fait La Bruyère dans ses <hi rend="i"
+										>Caractères</hi> (Chap. 3 des Femmes), sous le nom de <hi
+										rend="i">Corbus</hi>, sur ce <hi rend="i">qu’il jetait les
+										jambes en avant, et faisait un tour en l’air avant que de
+										retomber à terre</hi>, nous prouve que de tout temps le
+									public a aimé qu’on l’étonnât. Cependant son genre ordinaire
+									était la Danse grave. Il donna une forme nouvelle à la
+									Chorégraphie, que l’ingénieux Thoinet Arbeau, chanoine de
+									Langres, avait inventée, en 1588.</p></note> sut le premier en
+							divisant les temps<note n="24" place="end"><p><hi rend="sc">Temps</hi>,
+									terme de Danse. Un pas est composé d’un ou de plusieurs temps ;
+									le temps est composé de plusieurs mouvemens, et le mouvement est
+									l’action que font les membres ou le corps, pour aller d’une
+									position ou d’une attitude, à une autre. Les temps sont à la
+									Danse ce que les notes sont à la musique ; ils ont différentes
+									valeurs, suivant la volonté du danseur.</p></note>,</l>
+						<l>Débrouiller l’art confus, mesurer les instans,</l>
+						<l>Et son crayon utile à l’art Chorégraphique,</l>
+						<l>Nous montra tous les pas tracés sous la musique.</l>
+						<l><hi rend="sc">Pécour</hi>
+							<note n="25" place="end"><p><hi rend="sc">Pécour</hi>, premier danseur
+									et maître des ballets de l’Opéra, débuta en 1674, et mourut en
+									1729. Son genre était le demi-caractère. La Bruyère en fait
+									aussi la critique dans son chapitre 3 (des Femmes) sur ce <hi
+										rend="i">qu’il leur tournait la tête par sa légèreté</hi>.
+									Il est désigné dans ce chapitre, sous le nom de Bathyle.
+									L’anecdote suivante appuie la critique du philosophe.</p>
+								<p>Le comte de Chois…, depuis maréchal de France, fut un des amans
+									de la célèbre Ninon. Il ne put lui inspirer d’autres sentimens
+									que ceux de l’estime.</p>
+								<p>« C’est un très-digne seigneur, disoit-elle de lui, mais il ne
+									donne jamais envie de l’aimer ».</p>
+								<p>Elle avait alors du goût pour Pécour, célèbre danseur. Les
+									visites qu’il lui rendait devinrent suspectes au comte de Chois…
+									Il le rencontra un jour chez elle : Pécour avait un habit
+									équivoque, assez ressemblant à un uniforme. Le Comte lui demanda
+									d’un ton railleur, dans quel corps il servait ? Pécour lui
+									répondit : <quote>« Je commande un corps où vous servez depuis
+									long-temps »</quote>.</p>
+								<p rend="right">Mémoires de Ninon de Lenclos.</p></note>, long-temps
+							aimable et cher à la beauté,</l>
+						<l>Plut par son élégance et sa légèreté.</l>
+						<l><hi rend="sc">Blondi</hi><note n="26" place="end"><p>Entre Pécour et
+									Dupré, on vit briller dans cet art Blondi, neveu de Beauchamps,
+									et Ballon, qui fut maître à danser de Louis <hi rend="sc"
+										>xv</hi>. Bandiéry-Laval, neveu de Ballon, succéda à son
+									oncle dans l’emploi de maître à danser des Enfans de France, et
+									de maître des ballets de la Cour. Son fils Michel-Jean
+									Bandiéry-Laval, outre ces deux emplois, eut encore celui de
+									maître des ballets de l’Opéra. Il déploya dans cette place
+									différens talens : et c’est à lui qu’est due l’ingénieuse
+									invention des feux de théâtre, avec le lycopodium.</p></note> le
+							surpassa. Tout en suivant ses traces,</l>
+						<l>Le grand <hi rend="sc">Dupré</hi> bientôt, déploya plus de graces<note
+								n="27" place="end"><p><hi rend="sc">Louis-Pierre Dupré</hi>, connu
+									sous le nom de <hi rend="i">Grand Dupré</hi>, surpassa tous ses
+									prédécesseurs par sa grace, la gravité de sa Danse, et la
+									noblesse de ses attitudes. Sa taille était de cinq pieds sept à
+									huit pouces ; il fut très-long-temps premier danseur de l’Opéra.
+									Entré en 1720, il se retira en 1754. Cahusac en fait le plus
+									grand éloge, ainsi que Dorat, dans son chant sur la Danse, du
+										<hi rend="i">poëme de la Déclamation</hi>.</p></note>,</l>
+						<l>Et long-temps des Français il enchanta les yeux.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">De</hi> ces maîtres savans disciple ingénieux,</l>
+						<l>Le beau <hi rend="sc">Vestris</hi>, trente ans formé sur ces modèles<note
+								n="28" place="end"><p><hi rend="sc">Gaetan Vestris</hi>, né à
+									Florence, avait quatre frères ; et pour le distinguer des
+									autres, souvent on le nommait le <hi rend="i">Beau Vestris</hi>.
+									C’est le père d’Auguste Vestris. Il fut, trente-trois ans,
+									premier danseur à l’Opéra ; il y débuta en 1748 ; taille
+									élégante d’à-peu-près cinq pieds six pouces ; bel homme, jambe
+									fine, figure noble et très-expressive.</p>
+								<p>On l’appelait avec raison <hi rend="i">le Dieu de la Danse ;</hi>
+									nul danseur n’eut plus de graces. Il quitta le théâtre en 1781 :
+									il y reparut par intervalles en 1795, 1799 et 1800. C’est à
+									cette dernière apparition (époque à laquelle je m’occupais de
+									cet ouvrage) qu’on pouvait dire de lui :</p>
+								<p/>
+								<p rend="center">Dans son vieux genre encore a des graces
+									nouvelles.</p></note>,</l>
+						<l>Dans son vieux genre encore a des graces nouvelles ;</l>
+						<l>Servi par la nature, il fut noble, il fut beau,</l>
+						<l>Et montra pour danser un chemin tout nouveau.</l>
+						<l>Son fils, qui le suivit, par une autre méthode<note n="29" place="end"
+										><p><hi rend="sc">Auguste Vestris</hi>, fils de Gaëtan
+									Vestris, débuta en 1774. Il est d’une moyenne taille,
+									très-vigoureux ; son genre est le gracieux ou demi-caractère. Il
+									y a quelquefois joint le genre comique, vu son adresse et sa
+									vivacité. Excellent pantomime, charmant danseur.</p></note>,</l>
+						<l>Réglant tout, brouilla tout, fit un art à sa mode,</l>
+						<l>Et fut digne pourtant de son heureux destin :</l>
+						<l>Mais chéri du public, du succès trop certain,</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="196" xml:id="p196"/>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_127-142">
+						<l n="127">Vit dans l’âge suivant, par un retour grotesque,</l>
+						<l n="128">Tomber de ses grands mots le faste pédantesque.</l>
+						<l n="129">Ce poète orgueilleux, trébuché de si haut,</l>
+						<l n="130">Rendit plus retenus Desportes et Bertaut.</l>
+					</lg>
+					<lg xml:id="boileau_1_131-142">
+						<l n="131"><hi rend="sc">Enfin</hi> Malherbe vint, et, le premier, en
+							France,</l>
+						<l n="132">Fit sentir dans les vers une juste cadence,</l>
+						<l n="133">D’un mot mis à sa place enseigna le pouvoir,</l>
+						<l n="134">Et réduisit la Muse aux règles du devoir.</l>
+						<l n="135">Par ce sage écrivain la langue réparée</l>
+						<l n="136">N’offrit plus rien de rude à l’oreille épurée.</l>
+						<l n="137">Les stances avec grace apprirent à tomber,</l>
+						<l n="138">Et le vers sur le vers n’osa plus enjamber.</l>
+						<l n="139">Tout reconnut ses loix ; et ce guide fidèle</l>
+						<l n="140">Aux auteurs de ce temps sert encor de modèle.</l>
+						<l n="141">Marchez donc sur ses pas ; aimez sa pureté,</l>
+						<l n="142">Et de son tour heureux imitez la clarté : &amp;c….</l>
+					</lg>
+					<lg xml:id="boileau_1_155-158">
+						<l n="155"><hi rend="sc">Sur-tout</hi> qu’en vos écrits la langue révérée</l>
+						<l n="156">Dans vos plus grands excès vous soit toujours sacrée.</l>
+						<l n="157">En vain vous me frappez d’un son mélodieux,</l>
+						<l n="158">Si le terme est impropre, ou le tour vicieux : &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="197" xml:id="p197"/>
+					<lg>
+						<l>Craignant des nobles pas le faste pédantesque,</l>
+						<l>Il fut leste, brillant, et quelquefois grotesque.</l>
+						<l>Dans sa fougue, il franchit le théâtre, en un saut ;</l>
+						<l>L’esprit même trébuche, en s’élevant trop haut.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Dans</hi> les pâtres, <hi rend="sc">Lany</hi> fut le
+							premier, en France<note n="30" place="end"><p><hi rend="sc">Lany</hi>
+									entra à l’Opéra en 1750 ; il s’est retiré en 1769. Il fut
+									premier danseur dans le genre des pâtres ou genre comique, et
+									maître des ballets. Petite taille d’environ cinq pieds, épaules
+									larges, jambes fortes, très-vigoureux ; beaucoup de précision ;
+									très-correct. Il fut le maître de Maximilien Gardel et de
+									Dauberval.</p></note>,</l>
+						<l>Qui fit sentir jadis une juste cadence,</l>
+						<l>D’un temps mis à sa place enseigna le pouvoir,</l>
+						<l>Et soumit Terpsicore aux règles du devoir.</l>
+						<l>Par ce maître savant la Danse réparée</l>
+						<l>N’offrit plus rien de rude à la scène épurée.</l>
+						<l>Les danseurs en mesure apprirent à tomber,</l>
+						<l>Et le pas sur le pas n’osa plus enjamber.</l>
+						<l>Tout reconnut les loix de ce guide fidèle :</l>
+						<l><hi rend="sc">Gardel</hi> et <hi rend="sc">Dauberval</hi>, il fut votre
+								modèle<note n="31" place="end"><p><hi rend="sc">Maximilien-Philippe
+										Gardel</hi> (frère aîné de Pierre Gardel, actuellement
+									maître des ballets de l’Opéra), né à Munich, premier danseur de
+									l’Opéra, en partage avec Vestris père. Il a été maître des
+									ballets de l’Opéra et de la Cour. On lui doit beaucoup de
+									ballets charmans, et des élèves distingués. Taille de cinq pieds
+									cinq pouces ; bien fait, <hi rend="i">mais fortement</hi>. Entré
+									à l’Opéra en 1760, il périt par un fatal accident, en 1787.</p>
+								<p/>
+								<p><hi rend="sc">Dauberval</hi>, premier danseur à l’Opéra dans le
+									genre demi-caractère et comique. Talent parfait ; léger, adroit,
+									expressif, excellent pantomime ; il fut maître des ballets
+									pendant quelques années, avec Gardel l’aîné ; entré en 1760, il
+									se retira en 1784, pour aller exercer ses talens à Bordeaux.
+									C’est un des plus grands talens qu’on ait vus dans son art. On
+									peut dire que sa Danse était spirituelle. Il charma tout Paris,
+									sans jamais faire un tour de force.</p></note>.</l>
+						<l>Marchons donc sur ses pas ; imitons sa clarté,</l>
+						<l>Et de son tact précis aimons la pureté.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Sur-tout</hi>, qu’en chaque pas, la grâce révérée<note
+								n="32" place="end"><p><hi rend="sc">Grace</hi>, comme terme de
+									Danse, est un point de perfection, qui devrait être le but de
+									toutes les personnes qui professent cet art.</p>
+								<p>La grace est presqu’impossible à définir ; on peut cependant la
+									distinguer en trois manières différentes :</p>
+								<list>
+									<item>1°. Grace de formes.</item>
+									<item>2°. Grace d’attitude ou de position.</item>
+									<item>3°. Grace de mouvemens.</item>
+								</list>
+								<p>La première nous est donnée par la nature ; elle est
+									très-rare.</p>
+								<p>La deuxième peut s’acquérir par le travail et l’attention, guidés
+									par le bon goût.</p>
+								<p>La troisième dépend d’une souplesse égale répandue dans tout le
+									corps, et qui tienne le juste milieu entre la roideur et la
+									mollesse ; mais pour guider tout cela, il faut une ame.</p>
+								<p>Les graces sont ce <hi rend="i">je ne sais quoi</hi> que la
+									nature donne à bien peu de monde.</p></note></l>
+						<l>Dans vos plus grands excès, vous soit toujours sacrée.</l>
+						<l>En vain vous m’étonnez par des pas vétilleux,</l>
+						<l>Si, lorsque vous dansez, vous ne charmez mes yeux.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="198" xml:id="p198"/>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_163-174">
+						<l n="163"><hi rend="sc">Travaillez</hi> à loisir, quelque ordre qui vous
+							presse,</l>
+						<l n="164">Et ne vous piquez point d’une folle vitesse :</l>
+						<l n="165">Un style si rapide, et qui court en rimant,</l>
+						<l n="166">Marque moins trop d’esprit, que peu de jugement.</l>
+						<l n="167">J’aime mieux un ruisseau qui, sur la molle arène,</l>
+						<l n="168">Dans un pré plein de fleurs lentement se promène,</l>
+						<l n="169">Qu’un torrent débordé qui, d’un cours orageux,</l>
+						<l n="170">Roule, plein de gravier, sur un terrein fangeux.</l>
+						<l n="171">Hâtez-vous lentement ; et, sans perdre courage,</l>
+						<l n="172">Vingt fois sur le métier remettez votre ouvrage :</l>
+						<l n="173">Polissez-le sans cesse et le repolissez ;</l>
+						<l n="174">Ajoutez quelquefois, et souvent effacez. &amp;c…</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="199" xml:id="p199"/>
+					<lg>
+						<l><hi rend="sc">Unissez</hi> à l’aplomb le maintien et l’adresse,</l>
+						<l>Et ne vous piquez point d’une folle vitesse :</l>
+						<l>Des mouvemens confus n’offrent rien de brillant ;</l>
+						<l>Ils montrent peu de goût et jamais de talent.</l>
+						<l>J’aime mieux un ruisseau qui, sur la molle arêne,</l>
+						<l>Dans un pré plein de fleurs lentement se promène,</l>
+						<l>Qu’un torrent débordé qui, d’un cours orageux,</l>
+						<l>Roule, plein de gravier, sur un terrein fangeux.</l>
+						<l>Hâtez-vous lentement ; et, sans perdre courage,</l>
+						<l>Vingt fois, dans le miroir, regardez votre ouvrage<note n="33"
+								place="end"><p>Rien n’est plus nécessaire à un danseur, que de
+									s’exercer devant une glace. Sans elle, il lui est impossible de
+									bien juger ce qu’il fait : il serait comme un chanteur qui se
+									boucherait les oreilles, pour s’exercer dans son
+							art.</p></note> :</l>
+						<l>Corrigez-le sans cesse et le recorrigez ;</l>
+						<l>Un pas déplaît à l’œil ? n’hésitez pas, changez.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Ce</hi> bel art a ses loix, ainsi que la peinture,</l>
+						<l>Et ces loix sont un choix de la belle nature.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Occupez-vous</hi> sans cesse à vous bien dessiner.</l>
+						<l>A vaincre vos défauts il faut vous obstiner.</l>
+						<l>Arrondissez vos bras, soignez chaque attitude,</l>
+						<l>Recommencez souvent. L’Art est fils de l’Etude.</l>
+						<l>N’allez pas, jour et nuit, vous exercer d’abord<note n="34" place="end"
+									><p>Plusieurs jeunes danseurs et danseuses se sont énervés par
+									un trop grand travail ; la jeune Chameroy, entre autres, belle,
+									grande, bien faite et d’un talent parfait, a succombé en 1803, à
+									la fleur de son âge, aux violens exercices de la Danse. Une
+									femme doit éviter de danser comme un homme.</p></note> ;</l>
+						<l>Un arc toujours tendu perd bientôt son ressort.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="200" xml:id="p200"/>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_183-185">
+						<l n="183"><hi rend="sc">Craignez-vous</hi> pour vos vers la censure
+							publique ?</l>
+						<l n="184">Soyez-vous à vous-même un sévère critique :</l>
+						<l n="185">L’ignorance toujours est prête à s’admirer.</l>
+					</lg>
+					<lg xml:id="boileau_1_186-208">
+						<l n="186"><hi rend="sc">Faites-vous</hi> des amis prompts à vous censurer.
+							&amp;c.</l>
+						<l n="199">Un sage ami, toujours rigoureux, inflexible,</l>
+						<l n="200">Sur vos fautes jamais ne vous laisse paisible :</l>
+						<l n="201">Il ne pardonne pas les endroits négligés ;</l>
+						<l n="202">Il renvoie en leur lieu les vers mal arrangés ;</l>
+						<l n="203">Il réprime des mots l’ambitieuse emphase ;</l>
+						<l n="204">Ici le sens le choque, et plus loin c’est la phrase :</l>
+						<l n="205">Votre construction semble un peu s’obscurcir :</l>
+						<l n="206">Ce terme est équivoque ; il le faut éclaircir.</l>
+						<l n="207">C’est ainsi que vous parle un ami véritable.</l>
+						<l n="208">Mais souvent sur ses vers un auteur intraitable &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="201" xml:id="p201"/>
+					<lg>
+						<l><hi rend="sc">Craignez-vous</hi> pour vos pas la censure publique ?</l>
+						<l>Soyez-vous à vous-même un sévère critique :</l>
+						<l>L’ignorance toujours est prête à s’admirer.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Faites-vous</hi> des amis prompts à vous censurer.</l>
+						<l>Un sage ami, toujours rigoureux, inflexible,</l>
+						<l>Sur vos fautes jamais ne vous laisse paisible :</l>
+						<l>Il ne pardonne pas les détails négligés ;</l>
+						<l>Il renvoie en leur lieu les pas mal arrangés ;</l>
+						<l>Des pieds jusqu’à la tête, il vous voit, vous contrôle :</l>
+						<l>Là, le genou le choque ; ici, c’est votre épaule ;</l>
+						<l>Votre construction ne permet point ce pas :</l>
+						<l>A cette jambe en l’air, le bras ne répond pas.</l>
+						<l>C’est ainsi que vous parle un ami véritable ;</l>
+						<l>N’allez point, par orgueil, devenir intraitable.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Mais</hi> distinguez l’ami du sot admirateur,</l>
+						<l>Et discernez sur-tout l’intéressé flatteur,</l>
+						<l>Conducteur de cabale et pilier de parterre,</l>
+						<l>Que le public invite ou contraint à se taire :</l>
+						<l>Pour des billets <hi rend="i">gratis</hi>, qu’il est certain d’avoir,</l>
+						<l>Le matin il vous loue, et vous siffle le soir.</l>
+					</lg>
+				</div2>
+				<trailer><hi rend="sc">fin du premier chant</hi>.</trailer>
+			</div1>
+			<div1>
+				<pb n="202" xml:id="p202"/>
+				<head>Art poétique de Boileau.</head>
+				<p>Chant III, vers</p>
+				<lg xml:id="boileau_3_81-84">
+					<l n="81"><hi rend="sc">Chez</hi> nos dévots aïeux le théâtre abhorré</l>
+					<l n="82">Fut long-temps dans la France un plaisir ignoré.</l>
+					<l n="83">Des pélerins, dit-on, une troupe grossière</l>
+					<l n="84">En public à Paris y monta la première ; &amp;c.</l>
+				</lg>
+			</div1>
+			<div1>
+				<pb n="203" xml:id="p203"/>
+				<head>Art de la danse.</head>
+				<div2>
+					<head>Chant II.</head>
+					<lg><l><hi rend="sc">Chez</hi> nos dévots aïeux, le théâtre abhorré</l>
+						<l>Fut long-temps, dans la France, un plaisir ignoré.</l>
+						<l>Succédant aux tournois, la Danse encor grossière,</l>
+						<l>Chez nos rois, à Paris, y monta la première<note n="1" place="end"
+									><p>« La mort tragique de Henri <hi rend="sc">ii</hi> ayant fait
+									perdre en France le goût des tournois, les grands ballets, les
+									mascarades et les bals furent l’unique ressource de la gaîté
+									française ».</p>
+								<p><hi rend="sc">Cahuzac</hi>, Traité historique de la
+								Danse.</p></note> ;</l>
+						<l>Lorsque Circé parut, en ce ballet pompeux,</l>
+						<l>Aux yeux de Médicis offert par <hi rend="sc">Beaujoyeux</hi><note n="2"
+								place="end"><p>« Le dimanche 15 octobre 1581, festin de la Reine
+									dans le Louvre, et après le festin, le Ballet de <hi rend="i"
+										>Circé et de ses Nymphes</hi> ».</p>
+								<p/>
+								<p rend="right">Mémoires de l’Étoile, tome premier, p. 150.</p>
+								<p/>
+								<p>Ce ballet, dans lequel la Reine, femme de Henri <hi rend="sc"
+										>iii</hi>, la princesse de Lorraine, les duchesses de
+									Mercœur, de Guise, de Nevers, d’Aumale, de Joyeuse, et autres
+									dames et demoiselles, dansaient sous la figure de Nayades,
+									&amp;c. fut représenté au Louvre dans la grande salle de
+									Bourbon ; il dura depuis dix heures du soir jusqu’à trois heures
+									et demie après minuit, et contenait trois parties ou trois
+									actes. <hi rend="i">Voyez</hi> le détail dans l’<hi rend="i"
+										>Essai sur la Musique</hi>, par M. <hi rend="sc">de la
+										Borde</hi>, tome premier, p. 119.</p>
+								<p/>
+								<p><hi rend="sc">Balthazar de Beaujoyeux</hi>, valet-de-chambre de
+									Catherine de Médicis, en fut l’inventeur. C’était un des
+									meilleurs violons de l’Europe. Il se rendit si illustre à la
+									Cour, par ses inventions de ballets, de musique, de fêtes et de
+									représentations, qu’on ne parlait que de lui.</p>
+								<p rend="right">Recherches sur les Théâtres de France, tome 3,
+									p. 30. – Histoire de l’Opéra, page 13.</p>
+								<p/>
+								<p>Un poète de la Cour de Henri <hi rend="sc">iii</hi> fit ces vers
+									à sa louange.</p>
+								<quote>
+									<l><hi rend="sc">Beaujoyeux</hi> qui premier des cendres de la
+										Grèce</l>
+									<l>Fait retourner au jour le dessein et l’adresse,</l>
+									<l>Du ballet composé, en son tour mesuré,</l>
+									<l>Qui d’un esprit divin toi-même te devance,</l>
+									<l>Géomètre inventif unique en ta science,</l>
+									<l>Si rien d’honneur s’acquiert, le tien est assuré.</l>
+								</quote>
+								<p rend="right">Des Représentations en musique,
+							p. 271.</p></note> ;</l>
+						<l>On choisit les danseurs parmi cette noblesse</l>
+						<l>Qui joignait au courage et la grace et l’adresse.</l>
+					</lg>
+					<lg><l><hi rend="sc">Après</hi> neuf fois vingt ans, les joyeux <hi rend="i"
+								>Tricotets</hi><note n="3" place="end"><p><hi rend="sc"
+										>Tricotets</hi> ; Danse ancienne que dansait souvent
+										Henri <hi rend="sc">iv</hi>. Elle est composée de quatre
+									couplets, sur des airs différons ; le dernier est l’air : <hi
+										rend="i">Vive Henri quatre</hi>, &amp;c.</p>
+								<p/>
+								<p><hi rend="sc">Pas d’Henri quatre</hi>. On nomme ainsi un
+									trépignement de pieds qu’Henri quatre faisait, en dansant la fin
+									du dernier couplet des tricotets, et qui marque exactement la
+									valeur de cinq syllabes <hi rend="i">de boire et de battre</hi>.
+									Ce piétinement, quoique fort simple, fait grand effet, quand il
+									est exécuté avec précision par tout un quadrille.</p>
+								<p>Gardel l’aîné plaça cette Danse dans le ballet de <hi rend="i"
+										>Ninette à la Cour</hi> en 1780 : elle eut le plus grand
+									succès.</p></note></l>
+						<l><hi rend="i">Et le pas d’Henri-Quatre</hi> ont orné nos ballets.</l>
+						<l>Ce roi si valeureux, si chéri de la France,</l>
+						<l>Et son ami Sully se plaisaient à la Danse<note n="4" place="end"><p><hi
+										rend="sc">Sully</hi> raconte dans ses Mémoires le fait
+									suivant, en parlant de Madame, sœur du Roi. <quote>« Elle eut la bonté
+									de m’apprendre elle-même le pas d’un ballet qui fut exécuté avec
+									beaucoup de magnificence »</quote>. La Danse fut un des amusemens
+									favoris de Henri <hi rend="sc">iv</hi>. On trouve dans les <hi
+										rend="i">Mémoires de la Cour</hi> de ce temps, qu’on y
+									exécuta, depuis 1589 jusqu’en 1610, cent vingt-deux ballets,
+									dont plus de quatre-vingts étaient de grands ballets dans
+									plusieurs desquels ce Roi dansa.</p>
+								<p rend="right"><hi rend="sc">Cahuzac</hi>, Traité de la
+										Danse. – <hi rend="i">Voyez</hi> les Recherches sur les
+									Théâtres par <hi rend="sc">Beauchamps</hi>, et le Journal de
+										l’<hi rend="i">Etoile</hi>.</p></note> :</l>
+						<l>On peut, sans déroger, aimer cet art joyeux,</l>
+						<l>Lecteur, ouvrez l’histoire et nos livres pieux ;</l>
+						<l>David, le roi David, ce guerrier patriarche<note n="5" place="end"><p><hi
+										rend="sc">David</hi>, revêtu d’un éphod de lin, dansait
+									devant l’arche.</p>
+								<p rend="right">Livre des Rois, chap. 6.</p></note>,</l>
+						<l>Une harpe à la main, a dansé devant l’arche ;</l>
+					</lg>
+				</div2>
+				<div2>
+					<p>Chant III, vers</p>
+					<pb n="204" xml:id="p204"/>
+					<lg xml:id="boileau_3_71-74">
+						<l n="71">Eschyle dans le chœur jeta les personnages,</l>
+						<l n="72">D’un masque plus honnête habilla les visages,</l>
+						<l n="73">Sur les ais d’un théâtre en public exhaussé</l>
+						<l n="74">Fit paraître l’acteur d’un brodequin chaussé. &amp;c.</l>
+					</lg>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_181-182">
+						<l n="181"><hi rend="sc">D’un</hi> trait de ce poëme, en bons mots si
+							fertile,</l>
+						<l n="182">Le Français, né malin, forma le Vaudeville ;</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="205" xml:id="p205"/>
+					<lg>
+						<l>Athène a vu Socrate, et Rome a vu Caton<note n="6" place="end"><p><hi
+										rend="sc">Socrate</hi> est loué par les philosophes qui ont
+									vécu après lui, de ce qu’il dansait comme un autre dans les bals
+									de cérémonies d’Athènes ; il tenait à honneur d’y exécuter les
+									Danses qu’il avait apprises de la belle Aspasie.</p>
+								<p>Traité de la Danse ancienne, par <hi rend="sc">Cahuzac</hi>, tome
+									premier, chap. 3.</p>
+								<p><hi rend="sc">Socrate</hi>, le plus sage de tous les hommes, au
+									jugement des dieux même, n’a pas seulement loué la Danse comme
+									une chose qui sert à donner de la grace ; mais il a voulu
+									l’apprendre en sa vieillesse, tant il admirait cet exercice.</p>
+								<p rend="right">Traité de la Danse, dialogue de <hi rend="sc"
+										>Lucien</hi>.</p>
+								<p/>
+								<p><hi rend="sc">Caton</hi>, le plus sévère des Romains, à l’age de
+									soixante ans, crut devoir se faire recorder ses Danses, afin de
+									paraître moins gauche dans un bal de Rome.</p>
+								<p rend="right">Traité historique de la Danse par <hi rend="sc"
+										>Cahusac</hi>, tome premier, chap. 3.</p></note>,</l>
+						<l>Souvent ouvrir le bal, sans manquer au bon ton.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Au</hi> siècle des beaux-arts, lorsque le chef suprême</l>
+						<l>Voulait se délasser du poids du diadême,</l>
+						<l>Dans ces ballets brillans que la France admirait<note n="7" place="end"
+									><p>Le spectacle public de l’Opéra n’existait pas encore.
+										Louis <hi rend="sc">xiv</hi> aimait beaucoup la Danse
+									théatrale, et depuis son enfance jusqu’à l’âge de trente-un ans,
+									il dansa dans des grands ballets et dans les divertissemens de
+									comédies qu’il faisait représenter dans son palais.</p>
+								<p>Non compris les bals solennels et les bals ordinaires, le roi
+										Louis <hi rend="sc">xiv</hi> dansa vingt-sept grands
+									ballets. Le premier fut exécuté au palais Cardinal, présentement
+									le palais Royal, le 26 février 1651, et le dernier était le
+									ballet de <hi rend="i">Flore</hi>, dansé à Saint-Germain le
+									13 février 1669. Dans le nombre de ces ballets, le Roi en dansa
+									un dont le sujet était <hi rend="i">Psyché</hi> ou <hi rend="i"
+										>la Puissance de l’Amour</hi>, en deux parties à
+									vingt-quatre entrées, exécuté au Louvre en 1656.</p>
+								<p/>
+								<p><hi rend="i">Copie d’une liste des Danseurs de la Cour de France,
+										dont j’ai le manuscrit original entre les mains, intitulé
+										ainsi</hi> :</p>
+								<p/>
+								<p><hi rend="sc">État</hi>
+									<hi rend="i">des Sujets</hi> de la Danse employés aux fêtes de
+									la Cour à Fontainebleau, en l’année 1664.</p>
+								<table>
+									<row>
+										<cell>Le roi Louis <hi rend="sc">xiv</hi>.</cell>
+										<cell>La Reine.</cell>
+									</row>
+									<row>
+										<cell>Monsieur.</cell>
+										<cell>Madame la comtesse de Soissons.</cell>
+									</row>
+									<row>
+										<cell>M. le duc de Guise.</cell>
+										<cell>Mademoiselle de Nemours.</cell>
+									</row>
+									<row>
+										<cell>M. le comte d’Armagnac.</cell>
+										<cell>Madame la duchesse de Foix.</cell>
+									</row>
+									<row>
+										<cell>M. le duc de Sully.</cell>
+										<cell>Madame la duchesse de Sully.</cell>
+									</row>
+									<row>
+										<cell>M. le duc de Saint-Aignan.</cell>
+										<cell>Madame la duchesse de Créqui.</cell>
+									</row>
+									<row>
+										<cell>M. le marquis de Villequier.</cell>
+										<cell>Madame la duchesse de Luynes.</cell>
+									</row>
+									<row>
+										<cell>M. le marquis de Villeroy.</cell>
+										<cell>Madame la marquise de Villequier.</cell>
+									</row>
+									<row>
+										<cell>M. le comte de Gonore.</cell>
+										<cell>Madame la marquise de Vibray.</cell>
+									</row>
+									<row>
+										<cell>M. le marquis de Rassan.</cell>
+										<cell>Madame de Montespan.</cell>
+									</row>
+									<row>
+										<cell>M. le marquis de Saucourt.</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell>M. le marquis de Genlis.</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell>M. le comte de Lude.</cell>
+										<cell/>
+									</row>
+								</table>
+								<p rend="center"><hi rend="i">Messieurs</hi></p>
+								<table>
+									<row>
+										<cell>De Souville.</cell>
+										<cell>Desbrosses.</cell>
+									</row>
+									<row>
+										<cell>Cabout.</cell>
+										<cell>De Sonnets.</cell>
+									</row>
+									<row>
+										<cell>Laleu.</cell>
+										<cell>De Gant.</cell>
+									</row>
+									<row>
+										<cell>De Verpré</cell>
+										<cell>Deserres.</cell>
+									</row>
+									<row>
+										<cell>Brunod.</cell>
+										<cell>De Lorges.</cell>
+									</row>
+									<row>
+										<cell>De la Lande.</cell>
+										<cell>Balthazar.</cell>
+									</row>
+									<row>
+										<cell>De Beauchamps<note n="1" place="end"><p>Maître des
+												ballets du Roi.</p></note>.</cell>
+										<cell>Deserres, cadet.</cell>
+									</row>
+									<row>
+										<cell>De Lully<note n="2" place="end"><p>Surintendant de la
+												Musique.</p></note>.</cell>
+										<cell>Magny.</cell>
+									</row>
+									<row>
+										<cell>Molière<note n="3" place="end"><p>Le fameux
+												Molière.</p></note>.</cell>
+										<cell>Mançot.</cell>
+									</row>
+									<row>
+										<cell>Bontemps.</cell>
+										<cell>Mercier.</cell>
+									</row>
+									<row>
+										<cell>L’Heureux.</cell>
+										<cell>Noblet.</cell>
+									</row>
+									<row>
+										<cell>Dupiles.</cell>
+										<cell>Chicamecour.</cell>
+									</row>
+									<row>
+										<cell>Reinal.</cell>
+										<cell>Deserres 3<hi rend="sup">e</hi>.</cell>
+									</row>
+									<row>
+										<cell>La Marre.</cell>
+										<cell>Dufeu.</cell>
+									</row>
+									<row>
+										<cell>Dolivet.</cell>
+										<cell>Paysan.</cell>
+									</row>
+									<row>
+										<cell>Lechantre.</cell>
+										<cell>Bernard.</cell>
+									</row>
+								</table>
+								<p rend="center"><hi rend="i">Enfans</hi>.</p>
+								<table>
+									<row>
+										<cell>Baumont.</cell>
+										<cell>Servier.</cell>
+									</row>
+									<row>
+										<cell>Paul.</cell>
+										<cell>Delorges.</cell>
+									</row>
+									<row>
+										<cell>Deserres, fils.</cell>
+										<cell/>
+									</row>
+								</table>
+								<table>
+									<row>
+										<cell><hi rend="i">Mesdem<hi rend="sup"
+											>lles</hi></hi></cell>
+										<cell><hi rend="i">Jeunes Dem<hi rend="sup"
+											>lles</hi></hi>.</cell>
+									</row>
+									<row>
+										<cell>De Montausier</cell>
+										<cell>Château d’Acier.</cell>
+									</row>
+									<row>
+										<cell>D’Elbeuf.</cell>
+										<cell>De Cambray.</cell>
+									</row>
+									<row>
+										<cell>D’Arquien<note n="4" place="end"><p>Depuis reine de
+												Pologne.</p></note>.</cell>
+										<cell>De Lavallée.</cell>
+									</row>
+									<row>
+										<cell>De Pons.</cell>
+										<cell>De Monetllor.</cell>
+									</row>
+									<row>
+										<cell>D’Aumale.</cell>
+										<cell>De Riberat.</cell>
+									</row>
+									<row>
+										<cell>De Brancas.</cell>
+										<cell><hi rend="i">Chanteurs</hi>.</cell>
+									</row>
+									<row>
+										<cell>De Grancey.</cell>
+										<cell>Le Gros.</cell>
+									</row>
+									<row>
+										<cell>De Castellaud.</cell>
+										<cell/>
+										<cell>Floridor.</cell>
+									</row>
+									<row>
+										<cell>De Caraman.</cell>
+										<cell>Blondel.</cell>
+									</row>
+									<row>
+										<cell>De Lamotte.</cell>
+										<cell><hi rend="i">Chanteuses</hi>.</cell>
+									</row>
+									<row>
+										<cell>De Sévigné<note n="5" place="end"><p>Qui fut par la
+												suite madame de Grignan.</p></note>.</cell>
+										<cell/>
+										<cell>De Montfleury.</cell>
+									</row>
+									<row>
+										<cell>D’Ardennes.</cell>
+										<cell>Allaire.</cell>
+									</row>
+									<row>
+										<cell>De Verpré.</cell>
+										<cell>La signora Anna.</cell>
+									</row>
+								</table>
+								<p><hi rend="i">Instrumens</hi>.</p>
+								<table>
+									<row>
+										<cell>Desgoutreux.</cell>
+										<cell>Hugé.</cell>
+									</row>
+									<row>
+										<cell>Allais.</cell>
+										<cell>Pieshe.</cell>
+									</row>
+									<row>
+										<cell>Charlot.</cell>
+										<cell>Marchand.</cell>
+									</row>
+									<row>
+										<cell>Lapierre.</cell>
+										<cell>Lacaisse.</cell>
+									</row>
+									<row>
+										<cell>Lepeintre.</cell>
+										<cell>Guerin.</cell>
+									</row>
+									<row>
+										<cell>Huguenet.</cell>
+										<cell>Destouches.</cell>
+									</row>
+									<row>
+										<cell>Leroux, aîné.</cell>
+										<cell>Nicolas Obterre.</cell>
+									</row>
+									<row>
+										<cell>Besson.</cell>
+										<cell>Lafontaine.</cell>
+									</row>
+									<row>
+										<cell>M. Obterre.</cell>
+										<cell>Brouard.</cell>
+									</row>
+									<row>
+										<cell>F. Obterre.</cell>
+										<cell>Leroux, cadet.</cell>
+									</row>
+									<row>
+										<cell>Larivière.</cell>
+										<cell>Allaix.</cell>
+									</row>
+									<row>
+										<cell>Magny.</cell>
+										<cell/>
+									</row>
+								</table></note>,</l>
+						<l>Entouré de sa cour, lui-même il figurait.</l>
+						<l>On a vu ce héros<note n="*" place="margin"><p>Louis <hi rend="sc"
+										>xiv</hi>.</p></note>, à la fleur de son âge,</l>
+						<l>D’un masque sérieux habillant son visage<note n="8" place="end"><p>Tous
+									les ballets à la Cour de Louis <hi rend="sc">xiv</hi>
+									s’exécutaient sous le masque. Il y avait des masques selon les
+									genres de Danse, sérieux ou nobles, galans, comiques, &amp;c.
+									Cet usage fut conservé à l’Opéra, pendant plus d’un siècle. Ce
+									fut Gardel l’aîné qui le premier dansa à visage découvert, en
+									1766. Cette nouveauté déplut à la plus grande partie des
+									spectateurs : cependant on s’y accoutuma, au point que deux ans
+									après, Gaëtan Vestris, ayant été engagé par les principaux
+									seigneurs de la Cour à remettre le masque, le public trouva
+									aussi ridicule de voir danser masqué, qu’il avait trouvé
+									singulier, deux ans avant, de voir danser à visage
+									découvert.</p>
+								<p rend="right">« En Espagne, les moines mettaient des <hi rend="i"
+										>masques</hi> et dansaient dans l’église en plusieurs fêtes
+									solennelles ».</p>
+								<p>Dictionnaire de Trévoux.</p></note>,</l>
+						<l>Sur les ais d’un théâtre, au palais exhaussé<note n="9" place="end"
+									><p>J’ai vu plus de cent ans après, au palais des Tuileries, ce
+									théâtre où avait dansé Louis <hi rend="sc">xiv</hi> et ensuite
+										Louis <hi rend="sc">xv</hi>. On avait abattu le théâtre
+									seulement, pour y faire une salle d’Opéra, lors du premier
+									incendie de ce spectacle, rue Saint-Honoré en 1763. Mais on
+									avait conservé la partie qui servait aux spectateurs, laquelle
+									était très-remarquable, par les sculptures et peintures
+									précieuses qu’elle contenait. La Comédie Française y joua
+									pendant plusieurs années. Ce ne fut qu’en 1793 qu’on abattit le
+									tout, pour y construire une salle où s’assembla la convention
+									nationale.</p></note>,</l>
+						<l>De même que Beauchamps, d’un brodequin chaussé,</l>
+						<l>Sous les habits d’un lieu, danser seul à Versaille,</l>
+						<l>En pas majestueux, la grave <hi rend="i">Passacaille</hi><note n="10"
+								place="end"><p><hi rend="sc">Passacaille</hi>, ancien terme de
+									musique. Nom qui désigne un air très-lent, à trois temps. Jadis
+									on se servait de ces noms pour indiquer le mouvement et le
+									caractère de l’air.</p>
+								<p>La Passacaille était une Danse très-grave, à une seule
+									personne.</p></note> :</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Malgré</hi> le préjugé, les souples courtisans,</l>
+						<l>Des plaisirs de leur roi devinrent partisans.</l>
+						<l>Cet art, que les bigots ont taxé d’infamie<note n="11" place="end"><p><hi
+										rend="i">Voyez</hi> le procès des Danses débattu entre
+									Philippe Vincent, &amp;c. et les Jésuites, imprimé à la Rochelle
+									en 1646.</p></note>,</l>
+						<l>S’éleva tout-à-coup au rang d’Académie<note n="12" place="end"><p>L’<hi
+										rend="sc">Académie Royale de Danse</hi>, établie par
+										Louis <hi rend="sc">xiv</hi> au mois de mars 1661, en vertu
+									de lettres-patentes qui furent enregistrées au parlement le
+									30 mars 1662. Ce fut la deuxième Académie établie en France.</p>
+								<p>La raison pour laquelle Louis <hi rend="sc">xiv</hi> établit
+									cette Académie est assez curieuse. Ce trait historique fait voir
+									que les gens de qualité seuls exerçaient cet art pour leur
+									amusement, et qu’on ne connaissait à la Cour aucun autre
+									spectacle que les <hi rend="i">grands ballets</hi>, lesquels
+									étaient, depuis nombre d’années, exécutés par les princes,
+									princesses, seigneurs et quelques personnes de la suite de la
+									Cour, les tournois étant fort rares, depuis l’accident fatal
+									arrivé, en 1559, à Henri <hi rend="sc">ii</hi>.</p>
+								<p>Voici des fragmens de ces lettres-patentes données à Paris en
+									mars 1661 ; elles s’expriment ainsi :</p>
+								<p/>
+								<p>« <hi rend="sc">Louis</hi>, par la grace de Dieu, &amp;c.</p>
+								<p>Bien que l’art de la Danse ait toujours été reconnu l’un des plus
+									honnêtes et des plus nécessaires à former le corps, et lui
+									donner les premières et les plus naturelles dispositions à toute
+									sorte d’exercices, et entre autres à ceux des armes, et par
+									conséquent l’un des plus avantageux et plus utiles à notre
+									noblesse et autres qui ont l’honneur de nous approcher,
+									non-seulement en temps de guerre dans nos armées, mais même en
+									temps de paix dans les divertissemens de nos ballets ; néanmoins
+									il s’est, pendant les désordres et la confusion des dernières
+									guerres, introduit dans ledit art, comme en tous les autres, un
+									si grand nombre d’abus capables de les porter à leur ruine
+									irréparable, &amp;c.</p>
+								<p>…… Beaucoup d’ignorans ont tâché de la défigurer et de la
+									corrompre en la personne de la plus grande partie des gens de
+									qualité…. Ce qui fait que nous en voyons peu dans notre Cour et
+									suite, capables et en état d’entrer dans nos ballets, quelque
+									dessein que nous eussions de les y appeler. A quoi étant
+									nécessaire de pourvoir, et desirant rétablir ledit art dans sa
+									perfection et l’augmenter autant que faire se pourra ; nous
+									avons jugé à propos d’établir dans notre bonne ville de Paris
+									une Académie royale de Danse composée de treize des plus
+									expérimentés dudit art, &amp;c.</p>
+								<p/>
+								<p rend="center"><hi rend="sc">savoir</hi> :</p>
+								<p/>
+								<p>MM. Galand du Désert, maître à danser de la Reine.</p>
+								<p>Prévôt, maître à danser du Roi.</p>
+								<p>Jean Renaud, maître à danser de Monsieur, frère du Roi.</p>
+								<p>MM. Guillaume Raynal, maître à danser de M<hi rend="sup">gr</hi>
+									le Dauphin.</p>
+								<p>Guillaume Guéru.</p>
+								<p>Hilaire Dolivet.</p>
+								<p>Bernard de Manthe.</p>
+								<p>Jean Raynal.</p>
+								<p>Nicolas de Lorge.</p>
+								<p>Guillaume Renaud.</p>
+								<p>Jean Piquet.</p>
+								<p>Florent Galand du Désert.</p>
+								<p>Jean de Grigny.</p></note> ;</l>
+						<l>Et même on reconnut, au sein du parlement,</l>
+						<l>La Danse théatrale, un noble amusement<note n="13" place="end"><p>Par ces
+									lettres-patentes enregistrées au parlement, ces académiciens
+									jouissaient de tous les droits des officiers commensaux de la
+									maison du roi.</p>
+								<p><hi rend="sc">La Danse Théatrale</hi>, ainsi dénommée, pour la
+									distinguer de la Danse de société qu’on appelle vulgairement
+									Danse de ville.</p></note>.</l>
+					</lg>
+					<lg>
+						<l>D’un trait de cette Danse, en graces si fertile,</l>
+						<l>Le français, né léger, fit la Danse de ville<note n="14" place="end"
+										><p><hi rend="sc">Danse de Ville</hi>, est celle qu’on
+									exécute au bal.</p></note> ;</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="206" xml:id="p206"/>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_183-186">
+						<l n="183">Agréable indiscret, qui, conduit par le chant,</l>
+						<l n="184">Passe de bouche en bouche, et s’accroit en marchant.</l>
+						<l n="185">La liberté française en ses vers se déploie :</l>
+						<l n="186">Cet enfant du plaisir veut naître dans la joie. &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_2_83-96">
+						<l n="83">(Apollon.) Voulant pousser à bout tous les rimeurs françois,</l>
+						<l n="84">Inventa du <hi rend="i">Sonnet</hi> les rigoureuses loix ;</l>
+						<l n="85">Voulut qu’en deux quatrains de mesure pareille</l>
+						<l n="86">La rime avec deux sons frappât huit fois l’oreille ;</l>
+						<l n="87">Et qu’ensuite six vers artistement rangés</l>
+						<l n="88">Fussent en deux tercets par le sens partagés.</l>
+					</lg>
+					<lg>
+						<l n="89">Sur-tout de ce poëme il bannit la licence :</l>
+						<l n="90">Lui-même en mesura le nombre et la cadence ;</l>
+						<l n="91">Défendit qu’un vers faible y pût jamais entrer,</l>
+						<l n="92">Ni qu’un mot déjà mis osât s’y remontrer.</l>
+						<l n="93">Du reste il l’enrichit d’une beauté suprême :</l>
+						<l n="94">Un <hi rend="i">Sonnet</hi> sans défauts vaut seul un long poëme.</l>
+						<l n="95">Mais en vain mille auteurs y pensent arriver ;</l>
+						<l n="96">Et cet heureux phénix est encore à trouver.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="207" xml:id="p207"/>
+					<lg>
+						<l>Plein de grace et d’ardeur, le jeune adolescent</l>
+						<l>Vole de bal en bal, et triomphe en dansant<note n="15" place="end"
+									><p>L’usage des bals est établi dans l’antiquité la plus
+									reculée.</p>
+								<p>« La Danse simple, qui ne demande que quelques pas, et les graces
+									que donne la bonne éducation, suffisent pour faire le fond de
+									ces sortes de spectacles ; et dans les occasions solennelles, il
+									est d’une ressource aisée pour suppléer au défaut
+									d’imagination.</p>
+								<p>« Lorsque Louis <hi rend="sc">xii</hi> voulut montrer toute la
+									dignité de son rang à la ville de Milan, il ordonna un bal
+									solennel où toute la noblesse fut invitée. Le Roi en fit
+									l’ouverture ; les Cardinaux de Saint-Severin et de Narbonne y
+									dansèrent ; les Dames les plus aimables y firent éclater leur
+									goût, leurs richesses et leurs graces.</p>
+								<p>En 1562, pendant la tenue du concile de Trente, le cardinal
+									Hercule de Mantoue, qui y présidait, en assembla les Pères, pour
+									déterminer la manière dont le fils de l’empereur Charles-Quint y
+									serait reçu. Un bal de cérémonie y fut délibéré à la pluralité
+									des voix. Après un grand festin, le cardinal de Mantoue ouvrit
+									le bal où le roi Philippe et tous les Pères du concile dansèrent
+									avec autant de modestie que de dignité ».</p>
+								<p rend="right">Traité de la Danse ancienne et moderne, par <hi
+										rend="sc">Cahusac</hi>.</p></note>.</l>
+						<l>L’agilité française en cet art se déploie :</l>
+						<l>Cet enfant du plaisir doit exprimer la joie.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Le</hi> grave <hi rend="i">Menuet</hi> fut en vogue
+								autrefois<note n="16" place="end"><p>Le <hi rend="sc">Menuet</hi>
+									est une Danse grave, qui s’exécute à deux.</p>
+								<p>Le pas de menuet est composé de deux pas coulés et de deux pas
+									marchés ; ces quatre mouvemens se font pendant la valeur de deux
+									mesures d’un air à trois temps. Le premier pas emploie la valeur
+									entière de la première mesure, et les autres se font pendant la
+									deuxième. Cette manière de danser s’appelle terre à terre, parce
+									que l’on ne saute pas.</p>
+								<p>Marcel disait : <quote>« Le menuet est une Danse froide, mais nécessaire
+									à l’éducation ; lorsqu’un homme Danse bien le menuet, il a des
+									graces dans tout ce qu’il fait »</quote>.</p></note>,</l>
+						<l>Le Goût en a fixé les rigoureuses loix :</l>
+						<l>Il veut que tous ses pas de mesure pareille,</l>
+						<l>Lorsque l’air a trois temps, frappe six fois l’oreille,</l>
+						<l>Par quatre mouvemens artistement rangés,</l>
+						<l>Soient, sur deux fois trois temps, en quatre, partagés.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">De</hi> ce genre sur-tout il bannit la licence :</l>
+						<l>Lui-même en mesura le nombre et la cadence ;</l>
+						<l>Défendit qu’aucun saut y pût jamais entrer,</l>
+						<l>Et qu’un geste commun osât y pénétrer.</l>
+						<l>Du reste il l’enrichit d’une simple élégance :</l>
+						<l>Un <hi rend="i">Menuet</hi> parfait est la plus noble Danse.</l>
+						<l>En vain, mille danseurs y pensent arriver,</l>
+						<l>Et cet heureux phénix est encore à trouver.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="208" xml:id="p208"/>
+					<p>Chant II, vers</p>
+					<lg>
+						<l n="97">A peine dans Gombaut, Maynard et Malleville,</l>
+						<l n="98">En peut-on admirer deux ou trois entre mille : &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="209" xml:id="p209"/>
+					<lg>
+						<l>A peine dans nos bals, dont abonde la ville,</l>
+						<l>En peut-on admirer un ou deux, entre mille.</l>
+						<l>Que d’art voulait Boileau, pour faire un bon Sonnet !</l>
+						<l>Que de choses, Marcel vit dans un Menuet<note n="17" place="end"><p><hi
+										rend="sc">Marcel</hi>, célèbre maître à danser de Paris,
+									mort en 1759. Il était singulier par la ridicule importance
+									qu’il mettait à son art. On le vit un jour la main appuyée sur
+									le front, l’œil fixe, le corps immobile et dans l’attitude d’une
+									méditation profonde, s’écrier tout à coup, en voyant danser son
+									écolière : <hi rend="i">Que de choses dans un menuet !</hi></p>
+								<p>« A la démarche, à l’habitude du corps, il prétendait connaître
+									le caractère d’un homme, » &amp;c.</p>
+								<p rend="right"><hi rend="sc">Helvétius</hi>, de l’Esprit ; Discours
+										<hi rend="sc">ii</hi>, chapitre premier.</p>
+								<p/>
+								<p>Un danseur anglais, fort célèbre, arrive à Paris, descend chez
+									Marcel. Je viens, lui dit-il, vous rendre un hommage que vous
+									doivent tous les gens de notre art. Souffrez que je Danse devant
+									vous, et que je profite de vos conseils. Volontiers, dit Marcel.
+									L’Anglais fit des pas très-difficiles et mille entrechats.
+									Marcel le regarde, et s’écrie tout à coup : <quote>« Monsieur, l’on
+									saute dans les autres pays ; mais on ne Danse qu’à Paris »</quote>.</p>
+								<p rend="right"><hi rend="sc">Helvetius</hi>, de l’Esprit ; Discours
+									4, chapitre 15.</p></note> !</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">La</hi> musique changea. Pour la suivre, la Danse</l>
+						<l>Laissant le Menuet, orna la Contre-danse<note n="18" place="end"><p><hi
+										rend="sc">Contredanse</hi> ; Danse de société dont la mesure
+									est à deux temps. On saute deux fois par mesure. C’est un
+									quadrille de huit personnes, quatre hommes et quatre femmes.
+									Jadis on y formait différentes figures de ballets, et les pas
+									étaient fort simples, mais bientôt on y admit des pas <hi
+										rend="i">seuls</hi> ou par écho ; alors le danseur chercha à
+									s’y distinguer par sa grace, ensuite par sa légèreté. L’abus
+									amena les difficultés, et les tours de force prirent la place de
+									la grace et de l’aimable gaité.</p></note>,</l>
+						<l>Fit des pas plus légers sur des airs plus chantans,</l>
+						<l>En bondissant deux fois sur son rythme à deux temps.</l>
+						<l>Chacun réglant ses pas au gré de son caprice,</l>
+						<l>Le bal devint bientôt une arène, une lice ;</l>
+						<l>Enfin, pour varier les plaisirs des hivers,</l>
+						<l>La mode admit les pas de vingt peuples divers,</l>
+						<l>Et couvrit dans nos bals, d’une teinte française,</l>
+						<l>La Walse aux mille tours, la piétinante Anglaise<note n="19" place="end"
+										><p><hi rend="sc">Walse</hi> ; Danse suisse, air à trois
+									temps. Son pas tient la valeur de deux mesures ; il se fait en
+									pirouettant deux à deux et parcourant un cercle autour de la
+									salle. Cette Danse est sans nulle combinaison ; c’est l’art en
+									enfance. Quand son rhythme est à deux temps, on la nomme
+									sauteuse.</p>
+								<p/>
+								<p><hi rend="sc">Anglaise</hi>. L’air est à deux temps très-vifs.
+									Cette Danse s’exécute sur deux colonnes parallèles, une d’hommes
+									et une de femmes ; elle se commence à deux, puis quatre, six,
+									huit, et dix, &amp;c. autant qu’on veut. Son pas ne tient qu’une
+									mesure. Mais lorsque les Anglais brodent cette Danse, ils
+									frappent la terre du talon et de la pointe alternativement ; ils
+									ont beaucoup de pas compliqués dans ce genre, qui ressemble un
+									peu à la cosaque.</p></note> :</l>
+						<l>La boiteuse Allemande entrelaçant les bras<note n="20" place="end"><p>Il
+									est des Danses allemandes qu’on nomme <hi rend="i"
+										>boiteuses</hi> ; l’air est à trois temps vifs ; mais en
+									général, l’allemande est à deux temps moins vifs que l’anglaise,
+									et plus vifs que la contredanse française. Son pas est simple,
+									il ne tient qu’une mesure. Cette Danse est très-agréable,
+									lorsqu’en la dansant on fait avec les bras des passes qui
+									amènent d’aimables tableaux. Elle fut pendant plusieurs années à
+									la mode ; mais bientôt le mauvais goût et l’indécence la firent
+									bannir de la bonne compagnie.</p></note></l>
+						<l>L’emporta quelque temps sur les plus nobles pas.</l>
+						<l>Le bruyant Fandango, la vive Provençale<note n="21" place="end"><p><hi
+										rend="sc">Fandago</hi> ; Danse espagnole, qui s’exécute en
+									jouant des castagnettes ; elle est fort animée et
+									très-brillante, ainsi que le boléro.</p>
+								<p/>
+								<p><hi rend="sc">Provençale</hi> ; Danse de Provence, gaie, vive et
+									charmante, air à deux temps. Elle s’exécute au son du flageolet
+									et au bruit du tambourin.</p></note></l>
+						<l>Qui sans cesse bondit, qu’en gaîté rien n’égale,</l>
+						<l>Eurent aussi leur rang, dans ces joyeux assauts</l>
+						<l>Où du Basque léger on imita les Sauts<note n="22" place="end"><p><hi
+										rend="sc">Saut de Basque</hi>, <hi rend="i">pas sauté en
+										tournant</hi>, qu’on place dans les contredanses françaises
+									en le faisant terre à terre. Le Basque est fort leste ; il saute
+									très-haut, en faisant ce pas.</p></note>.</l>
+						<l>Du grimacier Cosaque on eut la fantaisie<note n="23" place="end"><p><hi
+										rend="sc">Cosaque</hi> ; Danse triviale de Pologne. C’est un
+									composé de grimaces ; le danseur s’assied presque sur les
+									talons ; cependant on l’ennoblit un peu en la polissant,
+									c’est-à-dire, en ne chargeant pas les mouvemens.</p></note>,</l>
+						<l>Et le Pas trop lascif de la froide Russie<note n="24" place="end"><p><hi
+										rend="sc">Pas Russe</hi> ; Danse que le peuple Russe exécute
+									avec trivialité et dont il outre l’expression, jusqu’à la plus
+									grande indécence. Je l’ai refaite avec Gardel l’aîné pour le
+									divertissement d’une pièce que j’avais composée pour la Cour en
+									1785. Elle est remplie de graces, quand elle est dansée
+									simplement. Elle eut le plus grand succès. Depuis, on l’a placée
+									dans différens divertissemens d’opéra. Elle fut dansée
+									quelquefois au bal.</p></note>,</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="210" xml:id="p210"/>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_103-104">
+						<l n="103"><hi rend="sc">L’épigramme</hi>, plus libre en son tour plus
+							borne,</l>
+						<l n="104">N’est souvent qu’un bon mot de deux rimes orné. &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_2_145-154">
+						<l n="145"><hi rend="sc">L’ardeur</hi> de se montrer, et non pas de médire,</l>
+						<l n="146">Arma la vérité du vers de la satire.</l>
+						<l n="147">Lucile le premier osa la faire voir ;</l>
+						<l n="148">Aux vices des Romains présenta le miroir ;</l>
+						<l n="149">Vengea l’humble vertu, de la richesse altière,</l>
+						<l n="150">Et l’honnête homme à pied, du faquin en litière.</l>
+						<l n="151"><hi rend="sc">Horace</hi> à cette aigreur mêla son enjoûment :</l>
+						<l n="152">On ne fut plus ni fat, ni sot, impunément ;</l>
+						<l n="153">Et malheur à tout nom qui, propre à la censure,</l>
+						<l n="154">Put entrer dans un vers sans rompre la mesure. &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="211" xml:id="p211"/>
+					<lg>
+						<l>Par les graces bientôt dansé plus décemment,</l>
+						<l>Vint enrichir nos bals d’un nouvel ornement :</l>
+						<l>Ainsi, plus d’un auteur nous offrit sur la scène</l>
+						<l>Un opéra charmant, tiré d’un conte obscène.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">De</hi> ces Danses sans art, le genre très-borné,</l>
+						<l>N’est souvent qu’un seul pas, par la musique orné.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">L’ardeur</hi> de corriger, et non pas de médire,</l>
+						<l>Va m’armer un instant du trait de la satire.</l>
+						<l>De réformer l’esprit <hi rend="sc">Boileau</hi> fit son devoir ;</l>
+						<l>Nous, aux défauts du corps présentons le miroir ;</l>
+						<l>Vengeons le vrai talent, de l’ignorance altière,</l>
+						<l>Et chassons de nos bals la Danse grimacière.</l>
+						<l>A quelques traits d’humeur, mêlons de l’enjoûment ;</l>
+						<l>Qu’on ne soit faux, ni fat, ni gauche impunément.</l>
+						<l>Malheur à tout danseur qui, bravant la censure,</l>
+						<l>Ferait un pas sans grace ou romprait la mesure.</l>
+					</lg>
+					<lg>
+						<l>LE ciel qui, rarement prodigue ses bienfaits,</l>
+						<l>En nous donnant le jour, fit peu d’hommes parfaits.</l>
+						<l>Pour un être accompli, combien j’en vois de gauches !</l>
+						<l>La plupart des humains ne sont que des ébauches.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="212" xml:id="p212"/>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_17-24">
+						<l n="17"><hi rend="sc">Au</hi> contraire cet autre, abject en son langage,</l>
+						<l n="18">Fait parler ses bergers comme on parle au village.</l>
+						<l n="19">Ses vers plats et grossiers, dépouillés d’agrément,</l>
+						<l n="20">Toujours baisent la terre, et rampent tristement :</l>
+						<l n="21">On dirait que Ronsard, sur ses pipeaux rustiques,</l>
+						<l n="22">Vient encor fredonner ses idylles gothiques,</l>
+						<l n="23">Et changer, sans respect de l’oreille et du son,</l>
+						<l n="24">Lycidas en Pierrot, et Philis en Toinon. &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="213" xml:id="p213"/>
+					<lg>
+						<l><hi rend="sc">Que</hi> ce grand homme est sec ! que ceux-là sont
+							petits !</l>
+						<l>Quels visages communs ! que de corps mal bâtis !</l>
+						<l>Voûtés, arqués, cagneux, jambes torses ou grêles<note n="25" place="end"
+										><l><hi rend="sc">Voûtés</hi>, c’est lorsque le dos se
+									courbe.</l>
+								<l><hi rend="sc">Arqués</hi>, jambe qui creuse en dehors.</l>
+								<l><hi rend="sc">Cagneux</hi>, genoux tournés en
+							dedans.</l></note>,</l>
+						<l>L’un a les os trop gros, l’autre les a trop frêles ;</l>
+						<l>Même sans ces défauts, un air fat ou butor</l>
+						<l>Offense nos regards, dès le premier abord.</l>
+						<l>Place à cet Élégant, dos rond, épaule haute !</l>
+						<l>Il se croit un Vestris, dès le moment qu’il saute ;</l>
+						<l>Il fait bien quelques pas, même il a du brillant ;</l>
+						<l>Mais au bout de ses pieds est borné son talent.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">De</hi> ce couple, voyez l’éternel sautillage ;</l>
+						<l>Il danse dans Paris, comme on danse au village.</l>
+						<l>Ses pas lourds et grossiers, dépouillés d’agrément,</l>
+						<l>Font gémir le parquet ou rampent pesamment :</l>
+						<l>Pour ce genre, il faudrait sur des pipeaux rustiques,</l>
+						<l>Entendre fredonner quelques vieux airs gothiques,</l>
+						<l>En théâtre, changer le fond de ce salon,</l>
+						<l>Le jeune homme en Pierrot, et la belle en Toinon.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Tout</hi> occupé de lui, négligeant la cadence</l>
+						<l>Cet autre, en dandinant, croit prendre un air d’aisance.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="214" xml:id="p214"/>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_155-158">
+						<l n="155"><hi rend="sc">Perse</hi>, en ses vers obscurs, mais serrés et
+							pressans,</l>
+						<l n="156">Affecta d’enfermer moins de mots que de sens.</l>
+						<l n="157"><hi rend="sc">Juvénal</hi>, élevé dans les cris de l’école,</l>
+						<l n="158">Poussa jusqu’à l’excès sa mordante hyperbole. &amp;c.</l>
+					</lg>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_313-324">
+						<l n="313">Mais souvent parmi nous un poète sans art,</l>
+						<l n="314">Qu’un beau feu quelquefois échauffe par hasard,</l>
+						<l n="315">Enflant d’un vain orgueil son esprit chimérique,</l>
+						<l n="316">Fièrement prend en main la trompette héroïque :</l>
+						<l n="317">Sa muse déréglée, en ses vers vagabonds,</l>
+						<l n="318">Ne s’élève jamais que par sauts et par bonds : &amp;c.</l>
+						<l n="323">Lui-même, applaudissant à son maigre génie,</l>
+						<l n="324">Se donne par ses mains l’encens qu’on lui dénie : &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_3_333-334">
+						<l n="333">Laissons-les donc entre eux s’escrimer en repos ;</l>
+						<l n="334">Et, sans nous égarer, suivons notre propos. &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="215" xml:id="p215"/>
+					<lg>
+						<l><hi rend="sc">Tel</hi>, en ses temps confus, mais serrés et pressans</l>
+						<l>Pour battre chaque pas, se tord en tous les sens.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">D’un</hi> prêtre de Bacchus, l’un a la Danse folle,</l>
+						<l>Et l’autre est sérieux comme un maître d’école.</l>
+						<l>Voyez ce front baissé, voyez ce nez au vent,</l>
+						<l>Les coudes en arrière et le col en avant ;</l>
+						<l>Remarquez de profil cette caricature,</l>
+						<l>Pliant peu les genoux et beaucoup la ceinture.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">La</hi>, c’est un autre fou sans nature et sans art,</l>
+						<l>Qu’un beau feu pour la Danse échauffa par hasard :</l>
+						<l>D’amour-propre pétri, malgré son corps rustique,</l>
+						<l>Fièrement il néglige et graces et musique ;</l>
+						<l>Sa danse déréglée, en ses pas vagabonds,</l>
+						<l>Ne s’élève jamais que par sauts et par bonds :</l>
+						<l>Lui-même, applaudissant à son maigre génie,</l>
+						<l>Se donne par ses mains l’encens qu’on lui dénie.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Laissons</hi> ces faux talens s’escrimer en repos,</l>
+						<l>Et, sans nous égarer, suivons notre propos.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Que</hi> de jeunes beautés auraient d’art et de graces,</l>
+						<l>Si l’étude et le goût corrigeaient leurs grimaces !</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="216" xml:id="p216"/>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_45-54">
+						<l n="45"><hi rend="sc">Je</hi> hais ces vains auteurs dont la muse forcée</l>
+						<l n="46">M’entretient de ses feux, toujours froide et glacée ;</l>
+						<l n="47">Qui s’affligent par art, et, fous de sens rassis,</l>
+						<l n="48">S’érigent, pour rimer, en amoureux transis. &amp;c.</l>
+						<l n="53">Ce n’était pas jadis sur ce ton ridicule</l>
+						<l n="54">Qu’amour dictait les vers que soupiraît Tibulle. &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_2_25">
+						<l n="25">Entre ces deux excès la route est difficile… &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="217" xml:id="p217"/>
+					<lg>
+						<l>Joli pied mal tourné, joli bras mal placé ;</l>
+						<l>Plus je les vois mouvoir, plus mon œil est blessé.</l>
+						<l>Vainement de la Danse elles ont la manie :</l>
+						<l>Un instrument discord n’a jamais d’harmonie.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">O vous</hi> ! jeunes Français, jouez avec vos pas ;</l>
+						<l>Beau sexe, charmez-moi, mais ne m’étonnez pas.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Je</hi> ris de ces sauteurs dont la Danse forcée</l>
+						<l>Malgré tout leur travail, reste froide et glacée ;</l>
+						<l>S’ils ont long-temps appris, pour si peu réussir,</l>
+						<l>Combien de temps perdu ! quel pénible plaisir !</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Ce</hi> n’était pas jadis par ce ton ridicule</l>
+						<l>Que le danseur français des Graces fut l’émule.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Sans</hi> trop de sérieux et sans trop de gaîté,</l>
+						<l>Jeunes gens, alliez décence et volupté ;</l>
+						<l>Entre ces deux excès le chemin est facile,</l>
+						<l>Lorsqu’aux loix du <hi rend="i">bon goût</hi> on sait être docile.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Mais</hi> laissons-là le bal, et fifre et tambourins,</l>
+						<l>Petits pas, petits airs et leurs joyeux refreins ;</l>
+						<l>Qu’en sautillant encore, au sortir on répète</l>
+						<l>Et volons au théâtre, emboucher la trompette.</l>
+					</lg>
+				</div2>
+				<trailer><hi rend="sc">fin du second chant</hi>.</trailer>
+			</div1>
+			<div1>
+				<pb n="218" xml:id="p218"/>
+				<head>Art poétique de Boileau.</head>
+				<p>Chant II, vers</p>
+				<lg xml:id="boileau_2_55-56">
+					<l n="55">…. Du tendre Ovide animant les doux sons,</l>
+					<l n="56">Il donnait de son art les charmantes leçons. &amp;c…</l>
+				</lg>
+				<lg xml:id="boileau_2_58-67">
+					<l n="58"><hi rend="sc">L’ode</hi> avec plus d’éclat, et non moins d’énergie,</l>
+					<l n="59">Élevant jusqu’au ciel son vol ambitieux,</l>
+					<l n="60">Entretient dans ses vers commerce avec les dieux.</l>
+					<l n="61">Aux athlètes dans Pise elle ouvre la barrière,</l>
+					<l n="62">Chante un vainqueur poudreux au bout de la carrière, &amp;c.</l>
+					<l n="67">Elle peint les festins, les danses, et les ris ; &amp;c…</l>
+				</lg>
+				<lg xml:id="boileau_2_73">
+					<l n="73"><hi rend="sc">Loin</hi> ces rimeurs craintifs, dont l’esprit
+						phlegmatique</l>
+					<l n="74">Garde dans ses fureurs un ordre didactique ; &amp;c…</l>
+				</lg>
+			</div1>
+			<div1>
+				<pb n="219" xml:id="p219"/>
+				<head>Art de la danse.</head>
+				<div2>
+					<head>Chant III.</head>
+					<lg>
+						<l><hi rend="sc">Du</hi> sage <hi rend="sc">Despréaux</hi>, parodiant les
+							sons,</l>
+						<l>Prouvons, en répétant ses savantes leçons,</l>
+						<l>De la Danse et des Vers l’heureuse analogie.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">De</hi> l’Ode, la Chaconne<note n="1" place="end"><p><hi
+										rend="sc">Chaconne</hi>, terme de musique et de danse. Cet
+									air est à trois temps, un peu vif ; en général, il ne commence
+									qu’au deuxième temps.</p>
+								<p><hi rend="sc">Floquet</hi> fit la première Chaconne à deux temps
+									dans le second acte de l’<hi rend="i">Union de l’Amour et des
+										Arts</hi>.</p>
+								<p>La Chaconne est un très-grand air composé de rondeaux et
+									couplets, mineur, majeur, crescendo, &amp;. Il prête
+									singulièrement bien à la Danse noble ou grave. La Chaconne est
+									en Danse ce qu’est un concerto en musique pour les solo,
+									quatuors et chœurs.</p>
+							</note> a l’éclat, l’énergie :</l>
+						<l>Élevant jusqu’au ciel son vol ambitieux,</l>
+						<l>La Chaconne sans doute est la Danse des dieux.</l>
+						<l>Aux lutteurs en Aulide<note n="2" place="end"><p>Dans le second acte de
+									l’opéra d’<hi rend="i">Iphigénie en Aulide</hi>, c’est sur un
+									air de Chaconne que se fait la lutte de la Danse.</p></note>,
+							elle ouvre la barrière,</l>
+						<l>Et fournit aux danseurs une vaste carrière ;</l>
+						<l>Elle peint des festins et les jeux et les ris</l>
+						<l>Et fit briller long-temps le premier des <hi rend="sc">Vestris</hi><note
+								n="3" place="end"><p><hi rend="sc">Gaetan Vestris</hi>, père d’<hi
+										rend="sc">Auguste Vestris</hi>, obtint pendant trente ans le
+									plus grand succès dans cette sorte de Danse, qui n’exige pas de
+									tours de force, mais de l’adresse et beaucoup de graces.</p>
+							</note>.</l>
+						<l>Elle est dans ses élans, tour-à-tour folle et sage.</l>
+						<l>Qui peut mieux qu’elle enfin couronner un ouvrage<note n="4" place="end"
+									><p>Presque tous les grands opéras étant terminés par une fête,
+									la Chaconne qui se compose d’une longue suite de phrases de
+									musique, variée et chantante, donnait au maître de ballet la
+									facilité de dessiner divers tableaux, groupes, &amp;c. ; et aux
+									danseurs <hi rend="i">seuls</hi> de briller par les graces, la
+									précision et l’adresse.</p>
+								<p>C’est le bouquet du feu d’artifice.</p></note>,</l>
+						<l>Par ses chants variés, son aimable rondeau,</l>
+						<l>Son paisible mineur, son bruyant crescendo ?</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Loin</hi> ces danseurs craintifs, dont le jeu mécanique</l>
+						<l>Garde, dans la Chaconne, un ordre méthodique ;</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="220" xml:id="p220"/>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_275-276">
+						<l n="275">Oh ! que j’aime bien mieux cet auteur plein d’adresse,</l>
+						<l n="276">Qui, sans faire d’abord de si haute promesse, &amp;c.</l>
+					</lg>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_9-10">
+						<l n="9">Il faut que sa douceur flatte, chatouille, éveille,</l>
+						<l n="10">Et jamais de grands mots n’épouvante l’oreille. &amp;c…</l>
+					</lg>
+					<lg xml:id="boileau_2_31-32">
+						<l n="31">Chanter Flore, les champs, Pomone, les vergers ;</l>
+						<l n="32">Au combat de la flûte animer deux bergers ; &amp;c…</l>
+					</lg>
+					<lg xml:id="boileau_2_41-42">
+						<l n="41">Elle peint des amans la joie et la tristesse ;</l>
+						<l n="42">Flatte, menace, irrite, appaise une maîtresse. &amp;c….</l>
+					</lg>
+					<lg xml:id="boileau_2_68-70">
+						<l n="68">Vante un baiser cueilli sur les lèvres d’Iris,</l>
+						<l n="69">Qui mollement résiste, et, par un doux caprice,</l>
+						<l n="70">Quelquefois le refuse, afin qu’on le ravisse. &amp;c…</l>
+					</lg>
+					<lg xml:id="boileau_2_43-44">
+						<l n="43">Mais, pour bien exprimer ces caprices heureux,</l>
+						<l n="44">C’est peu d’être poète ; il faut être amoureux.. &amp;c…</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="221" xml:id="p221"/>
+					<lg>
+						<l>La froide exactitude, aux loix de son compas,</l>
+						<l>Asservit tristement leurs gestes et leurs pas.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Oh</hi> ! que j’aime bien mieux ce danseur plein
+							d’adresse</l>
+						<l>Qui, toujours déployant une aimable souplesse,</l>
+						<l>Lorsque par trop d’ardeur il se sent emporté,</l>
+						<l>Abandonne un instant la régularité !</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">La</hi> Danse Pastorale<note n="5" place="end"><p>Le genre
+									des bergers est un des plus aimables en Danse ; il prête à la
+									grace et tient le milieu entre la Danse grave, qui presque
+									toujours est froide ; et le genre comique, qui tombe souvent
+									dans le grotesque.</p>
+								<p>Ce genre exige des danseurs de moyenne taille, minces et bien
+									faits.</p></note> amuse, flatte, éveille,</l>
+						<l>Quand, choisissant des airs qui plaisent à l’oreille,</l>
+						<l>Dans les jardins de Flore, au milieu des vergers,</l>
+						<l>Elle peint les combats, et les jeux des bergers,</l>
+						<l>Retrace des amans la joie et la tristesse,</l>
+						<l>Flatte, menace, irrite, appaise une maîtresse.</l>
+						<l>Ainsi dans ce ballet<note n="6" place="end"><p><hi rend="i">Les Caprices
+										de Galatée</hi>, ballet charmant, composé par M. <hi
+										rend="sc">Noverre</hi>, exécuté par mademoiselle <hi
+										rend="sc">Guimard</hi> et M. <hi rend="sc">Pic</hi>. <hi
+										rend="i">Voyez</hi> la note 4 du premier chant.</p>
+								<quote>
+									<l>…… Un baiser cueilli sur les lèvres d’Iris,</l>
+									<l>Qui mollement résiste, et par un doux caprice</l>
+									<l>Quelquefois le refuse, afin qu’on lui ravisse.</l>
+								</quote>
+								<p>Ces trois vers de Boileau donnèrent à M. Noverre l’idée de faire
+									un ballet sur ce sujet. Il obtint un très-grand succès à Paris
+									en 1778.</p></note> qui charma tout Paris,</l>
+						<l>Hylas guette un baiser sur les lèvres d’Iris,</l>
+						<l>Qui mollement résiste, et, par un doux caprice,</l>
+						<l>Quelquefois le refuse, afin qu’on le ravisse.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Mais</hi>, pour bien exprimer ces caprices heureux,</l>
+						<l>C’est peu d’être danseur ; il faut être amoureux.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="222" xml:id="p222"/>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_1-4">
+						<l n="1"><hi rend="sc">Telle</hi> qu’une bergère, au plus beau jour de fête,</l>
+						<l n="2">De superbes rubis ne charge point sa tête,</l>
+						<l n="3">Et, sans mêler à l’or l’éclat des diamans,</l>
+						<l n="4">Cueille en un champ voisin ses plus beaux ornemens : &amp;c…</l>
+					</lg>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_295-296">
+						<l n="295"><hi rend="sc">On</hi> dirait que pour plaire, instruits par la
+							nature,</l>
+						<l n="296">Homère ait à Vénus dérobé sa ceinture. &amp;c…</l>
+					</lg>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_7">
+						<l n="7">Son tour simple et naïf n’a rien de fastueux. &amp;c…</l>
+					</lg>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_299-300">
+						<l n="299">Tout reçoit dans ses mains une nouvelle grace ;</l>
+						<l n="300">Par-tout il divertit, et jamais il ne lasse. &amp;c…</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="223" xml:id="p223"/>
+					<lg>
+						<l>Toi qui traças Mirza, la Rosière, Ninette,</l>
+						<l>Tout à-la-fois danseur, musicien, poète,</l>
+						<l>Ingénieux <hi rend="sc">Gardel</hi><note n="7" place="end"><p>Ballets de
+									la composition de Gardel l’aîné, ainsi que l’<hi rend="i"
+										>Oracle</hi>, la <hi rend="i">Chercheuse d’esprit</hi>, le
+										<hi rend="i">Déserteur</hi>, le <hi rend="i">Premier
+										Navigateur</hi>, la <hi rend="i">Rosière</hi>, le <hi
+										rend="i">Coq du village</hi>, et beaucoup d’autres ouvrages,
+									marqués au cachet du bon goût. Tout à-la-fois danseur, musicien,
+									poète.</p>
+								<p>Il était excellent musicien, pinçant fort bien de la harpe,
+									jouant très-bien du violon ; il composa beaucoup d’airs de
+									Danse, entre autres, une fort belle chaconne qui eut un grand
+									succès à l’Opéra.</p>
+								<quote>
+									<l>Ingénieux <hi rend="sc">Gardel</hi>, mon maître et mon
+										ami,</l>
+									<l>Combien, en te perdant, Terpsicore a gémi !</l>
+								</quote>
+								<p rend="right">Voyez la note 31 du premier Chant.</p></note>, mon
+							maître et mon ami,</l>
+						<l>Combien, en te perdant, Terpsicore a gémi !</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Le</hi> léger Passepied<note n="8" place="end"><p><hi
+										rend="sc">Passe-pied</hi> ; air à trois temps. C’est une
+									espèce de menuet très-vif. M. Noverre peint à merveille le
+									passe-pied, en disant que <hi rend="i">Mademoiselle Prevost le
+										courait avec grace</hi>.</p></note> doit voler
+							terre-à-terre ;</l>
+						<l>Son pas précipité peint l’effet d’une pierre</l>
+						<l>Alors qu’un jeune bras la lance en tournoyant :</l>
+						<l>Elle effleure<note n="9" place="end"><p><hi rend="sc">Le fleuret</hi>,
+									pas de Danse qu’on place souvent dans le passe-pied, et qui a
+									quelque chose de ressemblant au ricochet.</p></note> l’eau,
+							glisse, et court en sautillant.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Telle</hi> qu’une bergère, au plus beau jour de fête,</l>
+						<l>De superbes rubis ne charge point sa tête,</l>
+						<l>Et, sans mêler à l’or l’éclat des diamans,</l>
+						<l>Cueille en un champ voisin ses plus beaux ornemens,</l>
+						<l>Telle, <hi rend="sc">Guimard</hi><note n="10" place="end"><p>Mademoiselle
+										<hi rend="sc">Guimard</hi> (Mad. <hi rend="sc"
+										>Despréaux</hi>), débuta à l’Opéra en 1763, et demanda sa
+									retraite en 1789. Pendant cette longue carrière, elle obtint un
+									succès continuel. Nulle femme n’eut plus de graces. La nature
+									l’avait douée de toutes les qualités nécessaires, pour atteindre
+									à la perfection. Délicatesse de formes, souplesse, adresse,
+									sentiment expressif que l’ame seule peut donner. Son genre de
+									Danse terre à terre charmait généralement. Personne ne joua
+									mieux la pantomime, et dans les rôles qui voulaient une sorte de
+										<hi rend="i">gaucherie</hi> comme dans la <hi rend="i"
+										>Chercheuse d’esprit</hi>, ou <hi rend="i">Ninette à la
+										Cour</hi>, elle rappelait les deux vers par lesquels Ovide
+									peint Vénus boitant avec grace, pour contrefaire son mari :</p>
+								<quote>
+									<l>Marte palam simulat Vulcanum imitata, decebat ;</l>
+									<l>Multaque cum formâ, gratia mixta fuit.</l>
+									<bibl><hi rend="sc">Ovide</hi>, de Arte amandi.</bibl></quote>
+								<p>Les gestes, les manières, les actions d’une femme aimable ont des
+									graces infinies. <hi rend="i">Quelque chose qu’elle fasse</hi>,
+									dit Tibulle, <hi rend="i">de quelque côté qu’elle porte ses pas,
+										les graces composent ses mouvemens sans qu’elle s’en doute,
+										et la suivent par-tout</hi>.</p>
+								<quote>
+									<l>Illam quidquid agit, quoquò vestigia vertit,</l>
+									<l>Componit furtim, subsequiturque decor.</l>
+									<bibl><hi rend="sc">Tibulle</hi>, liv. 4.</bibl></quote></note>,
+							pour plaire, imitant la nature,</l>
+						<l>Semble avoir de Vénus, dérobé la ceinture.</l>
+						<l>Son air simple et naïf n’a rien de fastueux ;</l>
+						<l>Elle enivre à la fois et le cœur et les yeux :</l>
+						<l>Par elle, tout reçoit une nouvelle grace.</l>
+						<l>Sans cesse elle nous charme, et jamais ne nous lasse,</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="224" xml:id="p224"/>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_38">
+						<l n="38">D’un ton un peu plus haut, mais pourtant sans audace, &amp;c.</l>
+					</lg>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_360">
+						<l n="360">Auteurs qui prétendez aux honneurs du comique. &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_3_367-370">
+						<l n="367">Présentez-en par-tout les images naïves ;</l>
+						<l n="369">La nature, féconde en bizarres portraits,</l>
+						<l n="370">Dans chaque ame est marquée à de différens traits ;</l>
+					</lg>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_105-110">
+						<l n="105">Jadis de nos auteurs les pointes ignorées</l>
+						<l n="106">Furent de l’Italie en nos vers attirées.</l>
+						<l n="107">Le vulgaire, ébloui de leur faux agrément,</l>
+						<l n="108">A ce nouvel appât courut avidement.</l>
+						<l n="109">La faveur du public excitant leur audace,</l>
+						<l n="110">Leur nombre impétueux inonda le Parnasse :</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="225" xml:id="p225"/>
+					<lg>
+						<l>Et ses bras délicats, par des contours charmans,</l>
+						<l>Nous peignent du roseau les souples mouvemens.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">D’un</hi> ton un peu plus haut, mais pourtant sans
+							audace,</l>
+						<l>Faut-il peindre une Nymphe<note n="11" place="end"><p>Voltaire s’exprime
+									ainsi dans des vers à Mademoiselle <hi rend="i">Sallé</hi>,
+									célèbre danseuse, en la comparant à Mademoiselle <hi rend="i"
+										>Camargo</hi>.</p>
+								<quote>
+									<l>Ah ! Camargo, que vous êtes brillante !</l>
+									<l>Mais que Sallé, grands dieux ! est ravissante !</l>
+									<l>Que vos pas sont légers et que les siens sont doux !</l>
+									<l>Elle est inimitable, et vous êtes nouvelle.</l>
+									<l>Les nymphes sautent comme vous</l>
+									<l>Et les Graces dansent comme elle.</l>
+								</quote>
+							</note> et l’amant qui l’agace ?</l>
+						<l>Que vos gestes, vos yeux, vifs et lents tour-à-tour,</l>
+						<l>Expriment vos desirs, vos craintes, votre amour.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Et</hi> vous que la nature a faits pour le comique<note
+								n="12" place="end"><p><hi rend="sc">Le comique</hi> est le troisième
+									genre de Danse ; il exige une taille courte et vigoureuse. Comme
+									cette forme donne plus d’agilité, cette Danse est plus gaie,
+									plus surprenante, et, en général, plaît davantage au public.</p>
+								<p>Mademoiselle Allard fut très-renommée dans ce genre. Elle entra à
+									l’Opéra en 1760, et se retira en 1777 ; elle était d’une moyenne
+									taille, fort grasse, très-vive, légère, c’était un talent
+									charmant : elle dansait toujours avec Dauberval. Ils exécutèrent
+									ensemble le premier pas de <hi rend="i">deux</hi> en action dans
+										<hi rend="i">Silvie</hi>, opéra de M. Laujon, donné en
+									1776.</p>
+								<p>Dauberval avoit succédé à Lany dans le genre comique. A
+									Dauberval, succéda Auguste Vestris. Ce même genre est
+									aujourd’hui dansé aussi par le jeune Duport, talent brillant,
+									qui fait dans ce moment le charme de l’Opéra.</p></note>,</l>
+						<l>Ne vous montrez jamais dans le genre héroïque ;</l>
+						<l>A la belle <hi rend="sc">Saulnier</hi><note n="13" place="end"
+									><p>Mademoiselle <hi rend="sc">Saulnier</hi> débuta à l’Opéra en
+									1785. Elle joignoit à une superbe figure, une taille
+									majestueuse. Ce fut elle qui joua la première le role de Calypso
+									dans le charmant ballet de <hi rend="i">Télémaque</hi>, et celui
+									de Vénus dans <hi rend="i">Psyché</hi> et dans <hi rend="i"
+										>Pâris</hi> : elle ne laissait rien à desirer. Mademoiselle
+									Saulnier se retira du théâtre en 1794.</p></note>, à la svelte
+								<hi rend="sc">Miller</hi><note n="14" place="end"><p>Mademoiselle
+										<hi rend="sc">Miller</hi> (Mad. <hi rend="sc">Gardel</hi>)
+									parut pour la première fois à l’Opéra en 1786. Sa taille svelte
+									et légère lui permet de réunir le genre sérieux et le
+									demi-caractère. On n’a rien vu de plus parfait en Danse, pour
+									l’exécution, la correction et la vivacité.</p></note>,</l>
+						<l>Laissez les pas savans que commande un grand air ;</l>
+						<l>Du peuple, peignez-nous les danses expressives,</l>
+						<l>Présentez-en par-tout les images naïves.</l>
+						<l>La nature est féconde en bizarres portraits ;</l>
+						<l>Ayez l’art d’en choisir les plus aimables traits.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">L’esprit</hi> a son clinquant, la Danse a ses bluettes.</l>
+						<l>Naguères, de Stutgard nous vinrent les Pirouettes<note n="15" place="end"
+									><p>Certainement on pirouettait avant cette époque. Mais ce fut
+									en 1766, que Mademoiselle Heinel et un jeune danseur nommé
+									Ferville, vinrent de Stutgard débuter à Paris. Ils étonnaient
+									tant par cette nouveauté, que tous les autres danseurs les
+									imitèrent et même les surpasserent.</p>
+								<p>Mademoiselle Heinel épousa Gaëtan Vestris. Entrée à l’Opéra en
+									1766, elle se retira du théâtre en 1780. Son genre de Danse
+									était noble et sérieux : sa taille grande et svelte lui donnait
+									de l’élégance. Ce fut un talent parfait en Danse, ainsi qu’en
+									pantomime : elle était élève de Lépi, qui lui enseigna son art à
+									Stutgard, lorsque le duc de Virtemberg avait un des plus beaux
+									spectacles en Danse qu’on ait vus en Europe.</p></note> ;</l>
+						<l>Le vulgaire, ébloui de leur faux agrément,</l>
+						<l>A ce nouvel appât courut avidement.</l>
+						<l>La faveur du public excitant leur audace,</l>
+						<l>Leur nombre impétueux s’empara de la place.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="226" xml:id="p226"/>
+					<p>Chant II, vers</p>
+					<lg xml:id="boileau_2_111-118">
+						<l n="111">Le Madrigal d’abord en fut enveloppé ;</l>
+						<l n="112">Le Sonnet orgueilleux lui-même en fut frappé ;</l>
+						<l n="113">La Tragédie en fit ses plus chères délices ;</l>
+						<l n="114">L’Elégie en orna ses douloureux caprices ;</l>
+						<l n="115">Un héros sur la scène eut soin de s’en parer,</l>
+						<l n="116">Et sans pointe un amant n’osa plus soupirer ;</l>
+						<l n="117">On vit tous les bergers, dans leurs plaintes nouvelles,</l>
+						<l n="118">Fidèles à la pointe encor plus qu’à leurs belles ; &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_2_133-138">
+						<l n="133">Ce n’est pas quelquefois qu’une muse un peu fine</l>
+						<l n="134">Sur un mot, en passant, ne joue et ne badine,</l>
+						<l n="135">Et d’un sens détourné n’abuse avec succès :</l>
+						<l n="136">Mais fuyez sur ce point un ridicule excès ;</l>
+						<l n="137">Et n’allez pas toujours d’une pointe frivole</l>
+						<l n="138">Aiguiser par la queue une épigramme folle. &amp;c…</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="227" xml:id="p227"/>
+					<lg>
+						<l>Chaque genre d’abord en fut enveloppé.</l>
+						<l>Le noble Menuet lui-même en fut frappé ;</l>
+						<l>La Pantomime en fit ses plus chères délices :</l>
+						<l>La Chaconne soudain n’eut plus d’autres caprices ;</l>
+						<l>Le héros, sur la scène, eut soin de s’en parer,</l>
+						<l>Et sans tourner, l’amant n’osa plus soupirer.</l>
+						<l>On vit chaque berger, dans sa danse nouvelle,</l>
+						<l>Fidèle à la pirouette, encor plus qu’à sa belle<note n="16" place="end"
+									><p>La foule des spectateurs aime qu’on l’étonne. Les pirouettes
+									ont succédé aux équilibres. Jadis nos danseurs les plus
+									célèbres, au milieu des Danses les plus graves, s’arrêtaient en
+									équilibre sur la pointe d’un pied, pendant dix à douze mesures ;
+									ils pouvaient prendre pour patron S. Siméon Stylite qui resta
+									quarante ans sur une jambe.</p>
+								<p>Les religieux turcs surpassent de beaucoup nos fameux tourneurs,
+									dans la Danse du moulinet qu’ils exécutent pour célébrer la fête
+									de leur fondateur, qui tourna en dansant pendant quatorze jours
+									sans se donner aucun relâche, au son de la flûte de <hi rend="i"
+										>Hansé</hi>, son compagnon.</p></note> ;</l>
+						<l>Sur l’olympe étonné, pirouetta Jupiter,</l>
+						<l>Et Mars, près de Vénus, tourna deux fois en l’air.</l>
+						<l>Ce n’est pas quelquefois qu’une Danse un peu fine,</l>
+						<l>Sur un air sémillant, ne joue et ne badine,</l>
+						<l>Et d’un pas déplacé n’abuse avec succès :</l>
+						<l>Mais fuyez sur ce point un ridicule excès ;</l>
+						<l>Et n’allez pas, faisant pirouette sur pirouette,</l>
+						<l>Quand j’attends un danseur, m’offrir une girouette.</l>
+					</lg>
+					<lg>
+						<l>L<hi rend="sc">a</hi> danse à l’Opéra doit enchanter les yeux,</l>
+						<l>Et non les effrayer par des tours périlleux.</l>
+					</lg>
+					<lg>
+						<l>L<hi rend="sc">es</hi> Bergers sont galans, les Faunes sont
+							sauvages ;</l>
+						<l>A de diverses mœurs, prêtez divers visages.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="228" xml:id="p228"/>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_421-428">
+						<l n="421"><hi rend="sc">J’aime</hi> sur le théâtre un agréable auteur</l>
+						<l n="422">Qui, sans se diffamer aux yeux du spectateur,</l>
+						<l n="423">Plaît par la raison seule, et jamais ne la choque :</l>
+						<l n="424">Mais pour un faux plaisant, à grossière équivoque,</l>
+						<l n="425">Qui pour me divertir n’a que la saleté,</l>
+						<l n="426">Qu’il s’en aille, s’il veut, sur deux tréteaux monté,</l>
+						<l n="427">Amusant le pont-neuf de ses sornettes fades,</l>
+						<l n="428">Aux laquais assemblés jouer ses mascarades. &amp;c…</l>
+					</lg>
+					<p>Chant II, vers</p>
+					<lg>
+						<l n="139"><hi rend="sc">Tout</hi> poëme est brillant de sa propre beauté.
+							&amp;c…</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="229" xml:id="p229"/>
+					<lg>
+						<l>Le Pâtre est plus joyeux ; vif, adroit et malin,</l>
+						<l>Que dans la gaîté même, il garde encore un frein.</l>
+						<l>Malgré tous les <hi rend="i">Bravo</hi> d’un aveugle parterre<note n="17"
+								place="end"><p>Voilà ce qu’un philosophe anglais écrivait sur la
+									Danse, il y a près d’un siècle, c’est-à-dire en 1711.</p>
+								<p>…… Comme l’art imite la nature, on peut dire que la Danse l’imite
+									à l’égard de la plus haute perfection et lorsqu’elle est la plus
+									charmante. Le but de la Danse tend à relever la beauté ; et
+									c’est pour cela que toutes les contorsions et les postures
+									grotesques causent plutôt de la peine qu’elles ne donnent du
+									plaisir : mais tout ce qui est excellent en soi-même est
+									toujours exposé à la contrefaction et à l’imposture. Si l’on
+									voit dans la poésie des esprits lourds et laborieux, qui
+									s’occupent à fabriquer des anagrammes et des acrostiches, on
+									trouve aussi de prétendus danseurs, qui s’imaginent en savoir
+									plus que tout le monde parce qu’ils font des sauts
+									extraordinaires…. La manière dont on danse sur nos théâtres est
+									très-fautive à cet égard, &amp;c.</p>
+								<p rend="right">Spectateur Anglais, tome 5, discours <hi rend="sc"
+										>xii</hi>, édition de 1731.</p></note>,</l>
+						<l>Ne passez pas le but : la Danse est l’art de plaire.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">J’aime</hi> sur le théâtre un élégant danseur</l>
+						<l>Qui, sans se diffamer aux yeux du spectateur,</l>
+						<l>Plaît par la grace seule, et jamais ne la choque :</l>
+						<l>Mais pour un faux plaisant, dont le bon goût se moque,</l>
+						<l>Qui, de sauts étonnans, est toujours occupé,</l>
+						<l>Qu’il s’en aille, s’il veut, sur des tréteaux grimpé,</l>
+						<l>Le long de nos remparts, séjour des pasquinades,</l>
+						<l>Sur la corde foraine, essayer ses gambades.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Trop</hi> souvent l’amour-propre en cet art fait
+							décheoir :</l>
+						<l>Par les yeux d’un ami cherchez donc à vous voir.</l>
+						<l>Jeunes gens, vainement vous forcez la nature :</l>
+						<l>Croyez-moi, travaillez d’après votre structure,</l>
+						<l>Et ne vous parez point d’un mérite emprunté :</l>
+						<l>Chaque genre est brillant de sa propre beauté.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Si</hi> vous n’aimez votre art d’un amour idolâtre,</l>
+						<l>Gardez-vous, croyez-moi, de paraître au théâtre :</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="230" xml:id="p230"/>
+					<p>Chant IV, vers</p>
+					<lg xml:id="boileau_4_25-28">
+						<l n="25"><hi rend="sc">Son</hi> exemple est pour vous un précepte
+							excellent.</l>
+						<l n="26">Soyez plutôt maçon, si c’est votre talent,</l>
+						<l n="27">Ouvrier estimé dans un art nécessaire,</l>
+						<l n="28">Qu’écrivain du commun et poète vulgaire.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="231" xml:id="p231"/>
+					<lg>
+						<l>Suivez de <hi rend="sc">Despréaux</hi> ce précepte excellent :</l>
+						<l>« Soyez plutôt maçon, si c’est votre talent,</l>
+						<l>Ouvrier estimé dans un art nécessaire,</l>
+						<l>Qu’un artiste commun, ou qu’un danseur vulgaire ».</l>
+					</lg>
+				</div2>
+				<trailer><hi rend="sc">fin du troisième chant</hi>.</trailer>
+			</div1>
+			<div1>
+				<pb n="232" xml:id="p232"/>
+				<head>Art poétique de Boileau.</head>
+				<p>Chant III, vers</p>
+				<lg xml:id="boileau_3_61-62">
+					<l n="61"><hi rend="sc">La</hi> tragédie, informe et grossière en naissant,</l>
+					<l n="62">N’était qu’un simple chœur, où chacun en dansant, &amp;c.</l>
+				</lg>
+				<lg xml:id="boileau_3_1-4">
+					<l n="1"><hi rend="sc">Il</hi> n’est point de serpent, ni de monstre odieux,</l>
+					<l n="2">Qui, par l’art imité, ne puisse plaire aux yeux :</l>
+					<l n="3">D’un pinceau délicat l’artifice agréable</l>
+					<l n="4">Du plus affreux objet fait un objet aimable.</l>
+				</lg>
+			</div1>
+			<div1>
+				<pb n="233" xml:id="p233"/>
+				<head>Art de la danse.</head>
+				<div2>
+					<head>Chant IV.</head>
+					<lg>
+						<l><hi rend="sc">L’art</hi> de la Danse, informe et grossier en
+							naissant,</l>
+						<l>N’était qu’un simple chœur, où chacun en dansant,</l>
+						<l>Animé du refrein de quelque chansonnette,</l>
+						<l>Bondissait en cadence, au son de la musette.</l>
+						<l>Mais laissons <hi rend="sc">Cahuzac</hi> raconter ces vieux faits<note
+								n="1" place="end"><p><hi rend="sc">Cahusac</hi>, auteur du <hi
+										rend="i">Traité historique de la Danse ancienne et
+										moderne</hi>, trois volumes.</p>
+								<p>Voyez aussi l’abbé Dubos à la suite de ses <hi rend="i"
+										>Réflexions sur la Poésie et la Peinture</hi> ; <hi rend="i"
+										>le Traité de la Danse par Lucien</hi>, deuxième dialogue ;
+									et <hi rend="i">des Ballets anciens et modernes</hi> par le père
+									Ménétrier, jésuite.</p></note> ;</l>
+						<l>Des <hi rend="sc">Ballet d’action</hi> démontrons les effets.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Chez</hi> l’être policé, chez le peuple sauvage,</l>
+						<l>Le <hi rend="sc">geste</hi> fut toujours l’universel langage<note n="2"
+								place="end"><p>Le geste indique la volonté, le desir ou le besoin.
+									Il y a trois sortes de gestes ; 1°. le <hi rend="i"
+									>naturel</hi>, 2°. d’<hi rend="i">imitation</hi>, 3°. de <hi
+										rend="i">convention</hi>, que l’abbé Dubos nomme <hi
+										rend="i">geste d’institution</hi>.</p>
+								<p>Le geste <hi rend="i">naturel</hi> indique le présent ; par le
+									geste d’<hi rend="i">imitation</hi> on indique le passé, tel que
+									Tisyphone dans les enfers montrant à Vénus les tourmens qu’a
+									éprouvés Psyché<note n="*" place="end"><p>Ce rôle fut toujours
+											parfaitement rendu par M. Goyon, fort bon danseur et
+											excellent acteur pantomime.</p></note>. L’avenir ne peut
+									s’indiquer que par des gestes de <hi rend="i"
+									>convention</hi>.</p>
+								<p>L’ingénieux et célèbre abbé Sicard, instituteur des sourds-muets,
+									nous prouve tous les jours, que, par des gestes de convention,
+									on peut tout dire sans parler ; témoin son fameux élève, M.
+									Massieu, sourd-muet. Son explication du pain, depuis la saison
+									où l’on sème le blé jusqu’au moment qu’il est devenu pain, est
+									la pantomime la plus claire et la plus étonnante que j’aie vue.
+									Mais au théâtre, beaucoup de ces gestes seraient nuls, les
+									spectateurs ne sachant pas ce langage.</p>
+								<p>Chez les Romains, où l’art de la pantomime s’est soutenu avec
+									succès pendant plusieurs siècles, les spectateurs connaissaient
+									le langage des mains des pantomimes. Il y avait à Rome des
+									écoles publiques, pour apprendre cet art. Ce langage s’imprime
+									aisément dans la mémoire, parce qu’on oublie rarement ce qu’on a
+									vu.</p>
+								<p>Hérodote dit que <hi rend="i">les yeux sont plus fidèles que les
+										oreilles, parce qu’on croit plus aisément ce qu’on voit, que
+										ce qu’on entend</hi>.</p>
+								<p>Nos ancêtres, dit Cassiodore, ont appelé musique muette celui des
+									arts musicaux qui montre à parler sans ouvrir la bouche, à dire
+									tout avec des gestes, et qui enseigne même à faire entendre par
+									certains mouvemens des mains, comme par différentes parties du
+									corps, ce qu’on aurait bien de la peine à faire comprendre par
+									un discours suivi, ou par une page d’écriture.</p>
+								<p>Le geste est nécessaire à l’acteur, à l’orateur, au
+									prédicateur :</p>
+								<quote>
+									<l>« C’est en vain qu’un docteur qui prêche l’Évangile,</l>
+									<l>Mêle chrétiennement l’agréable à l’utile,</l>
+									<l>S’il ne joint un <hi rend="i">beau geste</hi> à l’art de bien
+										parler ».</l>
+									<bibl><hi rend="sc">Sanlèque</hi>, chanoine régulier, Traité des
+										Gestes.</bibl></quote>
+								<p>La joûte de Cicéron et de Roscius à qui rendrait mieux la
+									pensée ; Cicéron, par le tour et l’arrangement des mots, et
+									Roscius par les gestes et la physionomie, prouve que nous sommes
+									bien novices dans cet art.</p>
+								<p>Roscius à Rome, Garrick à Londres, Préville à Paris, sont les
+									trois plus célèbres comédiens cités pour l’art des gestes. Plus
+									de la moitié des scènes de comédie s’exprime en
+								pantomime.</p></note> ;</l>
+						<l>Dès son enfance, aidé de ses yeux, de ses mains,</l>
+						<l>L’homme dit ses besoins, ses desirs, ses chagrins ;</l>
+						<l>La parole est trop peu, sans l’art du Pantomime ;</l>
+						<l>Ce que diraient vingt mots, un seul geste l’exprime.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Il</hi> n’est point de serpent, ni de monstre odieux,</l>
+						<l>Qui, par l’art imité, ne puisse plaire aux yeux :</l>
+						<l>D’un pinceau délicat l’artifice agréable</l>
+						<l>Du plus affreux objet fait un objet aimable.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="234" xml:id="p234"/>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_5-8">
+						<l n="5">Ainsi, pour nous charmer, la Tragédie en pleurs</l>
+						<l n="6">D’Œdipe tout sanglant fit parler les douleurs,</l>
+						<l n="7">D’Oreste parricide exprima les alarmes,</l>
+						<l n="8">Et, pour nous divertir, nous arracha des larmes. &amp;c..</l>
+					</lg>
+					<lg xml:id="boileau_3_95-96">
+						<l n="95">De cette passion la sensible peinture</l>
+						<l n="96">Est pour aller au cœur la route la plus sûre. &amp;c…</l>
+					</lg>
+					<lg xml:id="boileau_3_9-16">
+						<l n="9">Vous donc qui, d’un beau feu pour le théâtre épris,</l>
+						<l n="10">Venez en vers pompeux y disputer le prix,</l>
+						<l n="11">Voulez-vous sur la scène étaler des ouvrages</l>
+						<l n="12">Où tout Paris en foule apporte ses suffrages,</l>
+						<l n="13">Et qui toujours plus beaux, plus ils sont regardés,</l>
+						<l n="14">Soient au bout de vingt ans encor redemandés ?</l>
+						<l n="15">Que dans tous vos discours la passion émue</l>
+						<l n="16">Aille chercher le cœur, l’échauffe et le remue. &amp;c…</l>
+					</lg>
+					<lg xml:id="boileau_3_25-26">
+						<l n="25">Le secret est d’abord de plaire et de toucher :</l>
+						<l n="26">Inventez des ressorts qui puissent m’attacher. &amp;c…</l>
+					</lg>
+					<lg xml:id="boileau_3_55-56">
+						<l n="55"><hi rend="sc">Que</hi> le trouble, toujours croissant de scène en
+							scène,</l>
+						<l n="56">A son comble arrivé se débrouille sans peine. &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="235" xml:id="p235"/>
+					<lg>
+						<l>Ainsi, pour nous charmer, la Pantomime en pleurs</l>
+						<l>De l’atroce Médée exprima les fureurs<note n="3" place="end"><p><hi
+										rend="sc">Médée</hi>, ballet pantomime de la composition de
+									M. Noverre, donné pour la première fois en 1762 à la Cour de
+									Wirtemberg, et à Paris en 1780, fut un des premiers grands
+									ballets d’action représentés à l’Opéra.</p></note>,</l>
+						<l>Nous montra de Psyché l’amour et les alarmes<note n="4" place="end"
+										><p><hi rend="sc">Psyché</hi>, ballet pantomime de la
+									composition de Pierre Gardel (Paris, décembre 1790). Ce ballet,
+									du plus grand effet, se donne depuis quinze ans, avec les mêmes
+									applaudissemens du public.</p></note>,</l>
+						<l>Et, pour nous divertir, nous arracha des larmes.</l>
+						<l><hi rend="sc">Gardel</hi>, après <hi rend="sc">Noverre</hi>, à nos yeux
+								rappela<note n="5" place="end"><p><hi rend="sc">Pierre Gardel</hi>.
+										<hi rend="i">Voyez</hi> la note 6 du premier chant.</p>
+								<p><hi rend="sc">Noverre</hi>, célèbre maître de ballets ; ses <hi
+										rend="i">Lettres sur la Danse</hi> ont eu la réputation la
+									plus grande et la plus méritée.</p></note></l>
+						<l>Cette Danse expressive où <hi rend="sc">Pylade</hi> excella<note n="6"
+								place="end"><p><hi rend="sc">Pylade</hi>, célèbre pantomime romain
+									sous le règne d’Auguste. Esope et Roscius avaient fait, par leur
+									déclamation, les délices des Romains ; la poésie dramatique
+									était de leur temps en possession des grands spectacles. La
+									Danse théatrale s’en empara à son tour. Pylade et Bathyle firent
+									oublier Esope et Roscius. Leurs compositions<note n="*"
+										place="end"><p>Elles étaient tragiques, comiques ou
+											satyriques comme toutes les pièces de théâtre qui
+											avaient été représentées jusqu’alors.</p>
+										<p rend="right">Traité de la Danse par <hi rend="sc"
+												>Cahusac</hi> liv. 1, chap. 5.</p></note>, formées
+									de trois caractères en usage, ne laissèrent rien à desirer aux
+									spectateurs. Il ne fut plus question que de pas de mouvemens,
+									d’attitudes, de figures, de positions. Il en résultait une
+									expression si naturelle d’images si ressemblantes, un pathétique
+									si touchant, ou une plaisanterie si agréable, que l’on croyait
+									entendre les actions qu’on voyait ; le geste seul suppléait à la
+									douceur de la voix, à l’énergie des discours, au charme de la
+									poésie.</p>
+								<p><hi rend="sc">Cahusac</hi>, chap. <hi rend="sc">v</hi>, liv. 3,
+									tome 1.</p></note>.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Des</hi> Ballets d’action, la sensible peinture,</l>
+						<l>Est pour aller au cœur la marche la plus sûre.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Vous</hi> donc qui, d’un beau feu pour le théatre
+							épris,</l>
+						<l>Venez d’un art charmant y disputer le prix,</l>
+						<l>Voulez-vous sur la scène étaler des ouvrages</l>
+						<l>Où tout Paris en foule apporte ses suffrages,</l>
+						<l>Et qui toujours plus beaux, plus ils sont regardés,</l>
+						<l>Soient au bout de vingt ans encor redemandés ?</l>
+						<l>Que dans tous vos ballets la passion émue</l>
+						<l>Aille chercher le cœur, l’échauffe et le remue ;</l>
+						<l>Le secret est d’abord de plaire et de toucher :</l>
+						<l>Inventez des ressorts qui puissent m’attacher.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Que</hi> le trouble, toujours croissant de scène en
+							scène,</l>
+						<l>A son comble arrivé se débrouille sans peine.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="236" xml:id="p236"/>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_21-22">
+						<l n="21">Vos froids raisonnemens ne feront qu’attiédir</l>
+						<l n="22">Un spectateur toujours paresseux d’applaudir. &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_3_131-124">
+						<l n="131"><hi rend="sc">La</hi> nature est en nous plus diverse et plus
+							sage ;</l>
+						<l n="132">Chaque passion parle un différent langage :</l>
+						<l n="133">La colère est superbe, et veut des mots altiers ;</l>
+						<l n="134">L’abattement s’explique en des termes moins fiers. &amp;c.</l>
+						<l n="111">Que pour ses dieux Enée ait un respect austère.</l>
+						<l n="112">Conservez à chacun son propre caractère. &amp;c.</l>
+						<l n="141">Il faut dans la douleur que vous vous abaissiez :</l>
+						<l n="142">Pour me tirer des pleurs, il faut que vous pleuriez. &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_3_145-152">
+						<l n="145"><hi rend="sc">Le</hi> théatre, fertile en censeurs pointilleux,</l>
+						<l n="146">Chez nous pour se produire est un champ périlleux.</l>
+						<l n="147">Un auteur n’y fait pas de faciles conquêtes ;</l>
+						<l n="148">Il trouve à le siffler des bouches toujours prêtes :</l>
+						<l n="149">Chacun le peut traiter de fat et d’ignorant ;</l>
+						<l n="150">C’est un droit qu’à la porte on achète en entrant.</l>
+						<l n="151">Il faut qu’en cent façons, pour plaire, il se replie ;</l>
+						<l n="152">Que tantôt il s’élève et tantôt s’humilie ; &amp;c…</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="237" xml:id="p237"/>
+					<lg>
+						<l><hi rend="sc">Par</hi> d’inutiles Pas n’allez point attiédir<note n="7"
+								place="end"><p>J’ai vu plus d’un grand maître placer au milieu d’une
+									action intéressante un <hi rend="i">pas seul</hi> ou <hi
+										rend="i">pas de deux</hi> inutiles. J’ai vu quelquefois le
+									pantomime faire un entrechat ou autre pas battu, au milieu d’un
+									combat.</p></note></l>
+						<l>Un spectateur toujours paresseux d’applaudir.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Imitez</hi> la nature, elle est diverse et sage ;</l>
+						<l>Chaque passion parle un différent langage ;</l>
+						<l>La colère est superbe, et ses yeux sont altiers ;</l>
+						<l>L’abattement s’explique en des gestes moins fiers.</l>
+						<l>Qu’Achille soit bouillant, que Mentor soit austère.</l>
+						<l>Conservez à chacun son propre caractère.</l>
+						<l>Il faut dans la douleur que vous vous abaissiez :</l>
+						<l>Pour me tirer des pleurs, il faut que vous pleuriez.</l>
+						<l>Que votre geste enfin, plus prompt que la parole,</l>
+						<l>Offre, comme un éclair, l’esprit de votre rôle.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Le</hi> théâtre, fertile en censeurs pointilleux,</l>
+						<l>Chez nous pour se produire est un champ périlleux.</l>
+						<l>Un danseur n’y fait pas de faciles conquêtes ;</l>
+						<l>Il trouve à le siffler des bouches toujours prêtes :</l>
+						<l>Chacun le peut traiter de gauche et d’ignorant ;</l>
+						<l>C’est un droit qu’à la porte on achète en entrant.</l>
+						<l>Il faut qu’en cent façons, pour plaire, il se replie,</l>
+						<l>Que tantôt il s’élève et tantôt s’humilie ;</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="238" xml:id="p238"/>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_157-159">
+						<l n="157">Et que tout ce qu’il dit, facile à retenir,</l>
+						<l n="158">De son ouvrage en nous laisse un long souvenir.</l>
+						<l n="159">Ainsi la Tragédie agit, marche, et s’explique.</l>
+					</lg>
+					<lg>
+						<l>(………………. la poésie épique,)</l>
+					</lg>
+					<lg xml:id="boileau_3_161-162">
+						<l n="161">Dans le vaste récit d’une longue action,</l>
+						<l n="162">Se soutient par la fable, et vit de fiction.</l>
+						<l n="163">Là pour nous enchanter tout est mis en usage ;</l>
+						<l n="164">Tout prend un corps, une ame, un esprit, un visage.</l>
+						<l n="165">Chaque vertu devient une divinité :</l>
+						<l n="166">Minerve est la prudence, et Vénus la beauté ;</l>
+						<l n="167">Ce n’est plus la vapeur qui produit le tonnerre,</l>
+						<l n="168">C’est Jupiter armé pour effrayer la terre ; &amp;c…</l>
+						<l n="189">Sans tous ces ornemens le vers tombe en langueur ;</l>
+						<l n="190">La poésie est morte, ou rampe sans vigueur ; &amp;c…</l>
+					</lg>
+					<lg xml:id="boileau_3_219-224">
+						<l n="219">Mais, dans une profane et riante peinture,</l>
+						<l n="220">De n’oser de la fable employer la figure ;</l>
+						<l n="221">De chasser les Tritons de l’empire des eaux ;</l>
+						<l n="222">D’ôter à Pan sa flûte, aux Parques leurs ciseaux ;</l>
+						<l n="223">D’empêcher que Caron, dans la fatale barque,</l>
+						<l n="224">Ainsi que le berger ne passe le monarque : &amp;c…</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="239" xml:id="p239"/>
+					<lg>
+						<l>Et que tout ce qu’il sent, soit chagrin, soit plaisir,</l>
+						<l>De son talent en nous laisse un long souvenir<note n="8" place="end"
+									><p>Il y a 1700 ans que Lucien s’exprimait ainsi :</p>
+								<p>« <hi rend="sc">Qualités</hi> que doit avoir un danseur pantomime
+									pour faire voir que cet art n’est pas des plus faciles.</p>
+								<p>Il faut que le pantomime ou danseur de ballets, qui est celui
+									dont j’entends parler, sache plusieurs choses, comme la poésie,
+									la géométrie, la musique, la philosophie, quoiqu’il n’ait pas
+									besoin des <hi rend="i">ergo</hi> de la dialectique.</p>
+								<p>Il faut qu’il ait le secret d’exprimer les passions et les
+									mouvemens de l’ame que la rhétorique enseigne, et qu’il emprunte
+									de la peinture et de la sculpture les diverses postures et
+									contenances ; en sorte qu’il ne le cède pas à Phidias ni à
+									Apelles pour le regard. Mais sur-tout il a besoin de mémoire,
+									&amp;c. ». Ici Lucien entre dans un détail immense de tous les
+									sujets de l’histoire et de la fable qu’on peut représenter ; ce
+									qui contient huit grandes pages. Ensuite, parlant des
+									perfections du corps, il dit : <quote>« Je desire que, selon la manière
+									de Policlète, le pantomime ne soit ni trop grand, ni trop petit,
+									ni trop gras, ni trop maigre… Il faut encore que le pantomime
+									ait le corps ferme et souple. <lb/>Le pantomime doit avoir toutes les parties que j’ai dites ; mais
+									il faut, pour bien faire, que chacun se reconnaisse dans la
+									diversité des personnages qu’il représente et qu’il pense se
+									voir en lui comme en un miroir »</quote>.</p>
+								<p rend="right"><hi rend="sc">Lucien</hi>, liv. 2, Dialogue de la
+									Danse.</p></note>.</l>
+						<l>Ainsi le Pantomime agit, marche, et s’explique,</l>
+						<l>Conduit par la nature, aidé par la musique.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Le</hi> Spectacle pompeux d’un ballet d’action,</l>
+						<l>Se soutient par la fable, et vit de fiction.</l>
+						<l>Là pour nous enchanter tout est mis en usage ;</l>
+						<l>Tout prend un corps, une ame, un esprit, un visage.</l>
+						<l>Chaque vertu devient une divinité :</l>
+						<l>Minerve est la prudence, et Vénus la beauté ;</l>
+						<l>Ce n’est plus la vapeur qui produit le tonnerre,</l>
+						<l>C’est Jupiter armé pour effrayer la terre :</l>
+						<l>Sans tous ces ornemens cet art tombe en langueur ;</l>
+						<l>La Pantomime est morte, ou rampe sans vigueur.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Osez</hi> donc de la fable employer la figure ;</l>
+						<l>Imitez sa magique et riante peinture.</l>
+						<l>Maintenez les Tritons dans l’empire des eaux ;</l>
+						<l>Laissez à Pan sa flûte, aux Parques leurs ciseaux ;</l>
+						<l>Et que toujours Caron, dans la fatale barque,</l>
+						<l>Passe l’humble berger, ainsi que le monarque.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="240" xml:id="p240"/>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_237-244">
+						<l n="237"><hi rend="sc">La</hi> fable offre à l’esprit mille agrémens
+							divers :</l>
+						<l n="238">Là tous les noms heureux semblent nés pour les vers,</l>
+						<l n="239">Ulysse, Agamemnon, Oreste, Idoménée,</l>
+						<l n="240">Hélène, Ménélas, Pâris, Hector, Enée.</l>
+						<l n="241">Oh ! le plaisant projet d’un p ète ignorant,</l>
+						<l n="242">Qui de tant de héros va choisir Childebrand !</l>
+						<l n="243">D’un seul nom quelquefois le son dur ou bizarre</l>
+						<l n="244">Rend un poëme entier ou burlesque ou barbare. &amp;c…</l>
+					</lg>
+					<lg xml:id="boileau_3_257-258">
+						<l n="257"><hi rend="sc">Soyez</hi> vif et pressé dans vos narrations :</l>
+						<l n="258">Soyez riche et pompeux dans vos descriptions. &amp;c…</l>
+					</lg>
+					<lg xml:id="boileau_3_287-292">
+						<l n="287"><hi rend="sc">De</hi> figures sans nombre égayez votre ouvrage ;</l>
+						<l n="288">Que tout y fasse aux yeux une riante image :</l>
+						<l n="289">On peut être à la fois et pompeux et plaisant ;</l>
+						<l n="290">Et je hais un sublime ennuyeux et pesant.</l>
+						<l n="291">J’aime mieux Arioste et ses fables comiques,</l>
+						<l n="292">Que ces auteurs toujours froids et mélancoliques</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="241" xml:id="p241"/>
+					<lg>
+						<l><hi rend="sc">La</hi> fable offre à l’esprit mille ballets divers :</l>
+						<l>De la riche épopée interrogez les vers.</l>
+						<l>Que de sujets heureux dans <hi rend="sc">Homère</hi> et <hi rend="sc"
+								>Virgile</hi> !</l>
+						<l>Télémaque, Bacchus, Pâris, Hercule, Achille<note n="9" place="end"><p><hi
+										rend="sc">Télémaque</hi>, ballet pantomime de Pierre Gardel.
+									C’est son premier ouvrage donné à l’Opéra le 23 février 1790. Ce
+									ballet est un des plus agréables qu’on ait vus au théâtre.</p>
+								<p><hi rend="sc">Bacchus</hi>, ballet pantomime de Gallet : il fut
+									exécuté à l’Opéra en 1791. Il fit très-grand plaisir.</p>
+								<p><hi rend="sc">Paris</hi>, troisième ballet de la composition de
+									Pierre Gardel, donné en mars 1793. Le sujet de ce ballet est le
+									plus ancien que l’on connaisse. Apulée, dans l’<hi rend="i">Ane
+										d’or</hi>, en fait une description brillante. On voit que
+									les anciens aimaient comme nous les grands spectacles à
+									machines.</p>
+								<p><hi rend="sc">Hercules</hi>. M. Noverre donna ce ballet en pays
+									étranger.</p>
+								<p><hi rend="sc">Achille</hi>, ballet de Pierre Gardel.</p>
+							</note>.</l>
+						<l>N’allez pas, imitant cet auteur qu’on hua,</l>
+						<l>Parmi tant de héros, choisir Gargantua<note n="10" place="end"><p><hi
+										rend="sc">Gargantua</hi>, farce donnée, il y a sept ou huit
+									ans à Paris.</p></note>, Ou quelque autre sujet froid, inconnu,
+							bizarre,</l>
+						<l>Orné d’une musique ou burlesque, ou barbare.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Peignez-moi</hi> les amours de Mars ou de Vénus,</l>
+						<l>Et que tous vos tableaux soient dignes d’être vus.</l>
+						<l>Craignez, pour m’émouvoir, d’ensanglanter la scène.</l>
+						<l>Ne me révoltez point par une image obscène.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Soyez</hi> vif et fertile en imitations<note n="11"
+								place="end"><p>Resserrez l’action, retranchez tout dialogue
+									tranquille, rapprochez les incidens, réunissez tous les tableaux
+									épars, et vous réussirez.</p>
+								<p rend="right">Lettres sur la Danse, par <hi rend="sc"
+									>Noverre</hi>, page 63, seconde édition.</p></note> :</l>
+						<l>Soyez pompeux et riche en décorations.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">De</hi> figures sans nombre égayez votre ouvrage ;</l>
+						<l>Que tout y fasse aux yeux une riante image :</l>
+						<l>On peut être à la fois et pompeux et plaisant,</l>
+						<l>Et je hais tout spectacle ennuyeux et pesant.</l>
+						<l>J’aime mieux don Quichotte et son valet comique<note n="12" place="end"
+										><p><hi rend="sc">Dom Quichotte</hi>, ballet de la
+									composition de Millon, second maître des ballets de l’Opéra ;
+									aimable folie de carnaval. Millon est auteur des ballets de <hi
+										rend="i">Pygmalion</hi> et d’<hi rend="i">Héro et
+										Léandre</hi>, &amp;c. Ce dernier ballet offre un pas
+									remarquable ; c’est la Pyrrhique, Danse militaire inventée,
+									dit-on, par Pyrrhus, fils d’Achille. Cette entrée seule est
+									aussi bien composée par Millon, que bien exécutée par
+									Mademoiselle Clotilde, dont la taille convient si bien aux
+									nobles attitudes de Pallas.</p></note>,</l>
+						<l>Qu’un sombre et froid ballet, soi-disant héroïque<note n="13" place="end"
+									><p>Ballet de la <hi rend="i">Jérusalem délivrée</hi>, donné il
+									y a plusieurs années au théâtre des Élèves de
+								l’Opéra.</p></note></l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="242" xml:id="p242"/>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_293-294">
+						<l n="293">Qui dans leur sombre humeur se croiraient faire affront.</l>
+						<l n="294">Si les graces jamais leur déridaient le front. &amp;c…</l>
+					</lg>
+					<p>Chant I, vers</p>
+					<lg xml:id="boileau_1_157-180">
+						<l n="175"><hi rend="sc">C’est</hi> peu qu’en un ouvrage où les fautes
+							fourmillent</l>
+						<l n="176">Des traits d’esprit semés de temps en temps pétillent :</l>
+						<l n="177">Il faut que chaque chose y soit mise en son lieu ;</l>
+						<l n="178">Que le début, la fin, répondent au milieu ;</l>
+						<l n="179">Que d’un art délicat les pièces assorties</l>
+						<l n="180">N’y forment qu’un seul tout de diverses parties ; &amp;c.</l>
+					</lg>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_389-390">
+						<l n="389"><hi rend="sc">Ne</hi> faites point parler vos acteurs au hasard,</l>
+						<l n="390">Un vieillard en jeune homme, un jeune homme en vieillard ;
+							&amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_3_393-400">
+						<l n="393">C’est par là que Molière, illustrant ses écrits,</l>
+						<l n="394">Peut-être de son art eût remporté le prix,</l>
+						<l n="395">Si, moins ami du peuple, en ses doctes peintures</l>
+						<l n="396">Il n’eût pas fait souvent grimacer ses figures,</l>
+						<l n="397">Quitté, pour le bouffon, l’agréable et le fin,</l>
+						<l n="398">Et sans honte à Térence allié Tabarin :</l>
+						<l n="399">Dans ce sac ridicule où Scapin s’enveloppe</l>
+						<l n="400">Je ne reconnais plus l’auteur du Misantrope &amp;c…</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="243" xml:id="p243"/>
+					<lg>
+						<l>Où de graves danseurs croiraient se faire affront</l>
+						<l>Si la gaîté jamais leur déridait le front.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">C’est</hi> peu qu’en un ballet où les fautes
+							fourmillent</l>
+						<l>Des <hi rend="sc">Pas</hi> un peu brillans de loin en loin
+							pétillent :</l>
+						<l>Il faut que chaque chose y soit mise en son lieu ;</l>
+						<l>Que le début, la fin, répondent au milieu ;</l>
+						<l>Que, d’un art enchanteur, les pièces assorties</l>
+						<l>N’y forment qu’un seul tout, de diverses parties.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Ne</hi> faites point agir vos acteurs au hasard,</l>
+						<l>Un vieillard en jeune homme, un jeune homme en vieillard.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Pour</hi> ajouter, sans cesse, à votre répertoire,</l>
+						<l>Étudiez la fable et connaissez l’histoire ;</l>
+						<l>C’est par-là que <hi rend="sc">Noverre</hi> a charmé tout Paris,</l>
+						<l>Et de son art peut-être eût remporté le prix,</l>
+						<l>Si, moins ami du peuple, en ses vives peintures</l>
+						<l>Il n’eût fait quelquefois grimacer ses figures,</l>
+						<l>Quitté, pour le bouffon, l’agréable et le fin,</l>
+						<l>Et fait d’un grand spectacle un théâtre forain :</l>
+						<l>Dans ce ballet chinois, à burlesques grimaces<note n="14" place="end"
+									><p>Ce ballet chinois, fait par M. Noverre, était original, et
+									son ballet des Horaces, un fort beau ballet. Il n’a pas plus de
+									tort d’avoir fait le premier, que Molière d’avoir fait les
+									Fourberies de Scapin. Ce ballet n’eut aucun succès à Lyon, à ce
+									que dit M. Noverre dans ses <hi rend="i">Lettres sur la
+										Danse</hi>, lettre 6, page 93.</p></note></l>
+						<l>Je ne reconnais plus l’auteur des trois Horaces.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="244" xml:id="p244"/>
+					<p>Chant III, vers</p>
+					<lg xml:id="boileau_3_309-312">
+						<l n="309"><hi rend="sc">Un</hi>poëme excellent, où tout marche et se suit,</l>
+						<l n="310">N’est pas de ces travaux qu’un caprice produit :</l>
+						<l n="311">Il veut du temps, des soins ; et ce pénible ouvrage</l>
+						<l n="312">Jamais d’un écolier ne fut l’apprentissage. &amp;c.</l>
+					</lg>
+					<p>Chant IV, vers</p>
+					<lg xml:id="boileau_4_125-128">
+						<l n="125"><hi rend="sc">Travaillez</hi> pour la gloire, et qu’un sordide
+							gain</l>
+						<l n="126">Ne soit jamais l’objet d’un illustre écrivain.</l>
+						<l n="127">Je sais qu’un noble esprit peut, sans honte et sans crime,</l>
+						<l n="128">Tirer de son travail un tribut légitime : &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_4_111-114">
+						<l n="111">Fuyez sur-tout, fuyez, ces basses jalousies,</l>
+						<l n="112">Des vulgaires esprits malignes frénésies.</l>
+						<l n="113">Un sublime écrivain n’en peut être infecté ;</l>
+						<l n="114">C’est un vice qui suit la médiocrité. &amp;c.</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="245" xml:id="p245"/>
+					<lg>
+						<l><hi rend="sc">Un</hi> ballet excellent, où tout marche et se suit,</l>
+						<l>N’est pas de ces travaux qu’un caprice produit :</l>
+						<l>Il veut du temps, des soins ; et ce pénible ouvrage</l>
+						<l>Jamais d’un écolier ne fut l’apprentissage.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Travaillez</hi> pour l’honneur, sans dédaigner le
+							gain :</l>
+						<l>C’est ce que fait souvent plus d’un noble écrivain.</l>
+						<l>Le talent, quel qu’il soit, peut sans honte et sans crime,</l>
+						<l>Tirer de son travail un tribut légitime.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Voulez-vous</hi> dans le monde être chéri, fêté ?</l>
+						<l>Artiste, aux bonnes mœurs, joignez l’aménité :</l>
+						<l>Fuyez sur-tout, fuyez ces basses jalousies,</l>
+						<l>Des vulgaires talens malignes frénésies.</l>
+						<l>C’est un vice qui suit la médiocrité.</l>
+						<l>Souffrez que des rivaux soient à votre côté.</l>
+						<l>Sachez concilier amour-propre et justice.</l>
+						<l>Laissez à tout danseur le droit d’entrer en lice.</l>
+						<l>Les <hi rend="sc">Gardel</hi>, les <hi rend="sc">Vestris</hi>, se doivent
+							leurs élans,</l>
+						<l>Et l’émulation est l’âme des talens<note n="15" place="end"><p><hi
+										rend="sc">Pierre Gardel</hi> et <hi rend="sc">Auguste
+										Vestris</hi> sont à-peu-près du même âge ; ils ont étudié
+									ensemble au théâtre, et débuté dans la même année. Le Pas de
+									deux du troisième acte de l’opéra de <hi rend="i">Panurge</hi>,
+									dans lequel ils joutèrent long-temps ensemble, les a
+									singulièrement fortifiés.</p></note>.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Vous</hi> a-t-on confié le soin d’un jeune élève ?</l>
+						<l>A l’air gauche ou commun n’accordez point de trêve ;</l>
+					</lg>
+				</div2>
+				<div2>
+					<pb n="246" xml:id="p246"/>
+					<p>Chant IV, vers</p>
+					<lg xml:id="boileau_4_221-222">
+						<l n="221"><hi rend="sc">Auteurs</hi>, pour les chanter redoublez vos
+							transports :</l>
+						<l n="222">Le sujet ne veut pas de vulgaires efforts. &amp;c.</l>
+					</lg>
+					<lg xml:id="boileau_4_225-236">
+						<l n="225">Vous me verrez pourtant, dans ce champ glorieux,</l>
+						<l n="226">Vous animer du moins de la voix et des yeux ;</l>
+						<l n="227">Vous offrir ces leçons que ma Muse au Parnasse</l>
+						<l n="228">Rapporta, jeune encor, du commerce d’Horace ;</l>
+						<l n="229">Seconder votre ardeur, échauffer vos esprits,</l>
+						<l n="230">Et vous montrer de loin la couronne et le prix.</l>
+						<l n="231">Mais aussi pardonnez, si, plein de ce beau zèle,</l>
+						<l n="232"><hi rend="i">De tous vos</hi>
+							<hi rend="sc">Pas fameux</hi>, <hi rend="i">observateur fidèle</hi>,</l>
+						<l n="233">Quelquefois du bon or je sépare le faux,</l>
+						<l n="234">Et des auteurs grossiers j’attaque les défauts :</l>
+						<l n="235">Censeur un peu fâcheux, mais pourtant nécessaire ;</l>
+						<l n="236">Plus enclin à blâmer, que savant à bien faire.</l>
+					</lg>
+					<p rend="center"><hi rend="sc">fin du quatrième chant de l’art
+						poétique</hi>.</p>
+				</div2>
+				<div2>
+					<pb n="247" xml:id="p247"/>
+					<lg>
+						<l>De l’éducation la Danse est le vernis :</l>
+						<l>C’est au maintien décent qu’on attache du prix<note n="16" place="end"
+									><p>Il y a quarante ans, que Dorat écrivit les vers
+									suivans :</p>
+								<quote>
+									<l>« Des élémens de l’art connaissez l’importance :</l>
+									<l>Formez vos premiers pas sous un maître qui pense ;</l>
+									<l>Vous avancerez plus avec moins de travaux :</l>
+									<l>Il saura profiter même de vos défauts.</l>
+									<l>C’est ainsi que Marcel, l’Albane de la Danse,</l>
+									<l>Communiquait à tous la noblesse et l’aisance.</l>
+									<l>Des mouvemens du corps il fixa l’unisson,</l>
+									<l>Et dans un art frivole il admit la raison.</l>
+									<l>La beauté qu’il formait venait-elle à paraître,</l>
+									<l>Elle emportait le prix et décelait son maître,</l>
+									<l>Telle brille une rose entre les autres fleurs :</l>
+									<l>Il dotait la jeunesse en lui gagnant les cœurs ».</l>
+								</quote>
+								<bibl>La Danse, Chant 4 du poème de la Déclamation de <hi rend="sc"
+										>Dorat</hi>.</bibl></note></l>
+						<l>N’allez point de Marcel, outrant le caractère,</l>
+						<l>D’un ton brusque et grossier, enseigner l’art de plaire<note n="17"
+								place="end"><p><hi rend="sc">Marcel</hi> était fort dur, même
+									malhonnête pour ses écoliers : cette singularité augmenta sa
+									réputation. Il ne fit jamais d’écolier pour le théâtre. <hi
+										rend="i">Voyez</hi> la note 16 du second
+							Chant.</p></note>.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Et</hi> vous qui, du public, excitez les transports,</l>
+						<l>Danseurs, pour nous charmer, redoublez vos efforts.</l>
+						<l>Des <hi rend="i">graces</hi> et du <hi rend="i">goût</hi><note n="18"
+								place="end"><p>« Sans le <hi rend="i">goût</hi>, même avec du
+									talent, il ne faut rien entreprendre dans les arts. On fait
+									presque tout avec cette partie délicate de l’esprit, et on ne
+									fait rien sans elle. C’est un sentiment vif, prompt et sûr, qui
+									met tout à sa place, et qui ne peut rien supporter dans le lieu
+									où il ne doit pas être. Il ménage les contrastes, évite les
+									contradictions, écarte les idées basses, dédaigne les petits
+									détails, rejette les moyens frivoles ou gigantesques, n’adopte
+									que les vues fines, les plans nobles, les idées justes.</p>
+								<p>Le souverain qui sait bien choisir, pour imaginer, arranger et
+									conduire une fête d’éclat, diminue quelquefois de moitié sa
+									dépense, et double sa gloire ».</p>
+								<p rend="right"><hi rend="sc">Cahusac</hi>,Traité historique de la
+									Danse, ancienne et moderne, tome 2, p. 114.</p></note> une
+							heureuse alliance</l>
+						<l>Dans le rang des beaux arts peut maintenir la Danse.</l>
+					</lg>
+					<lg>
+						<l><hi rend="sc">Tout</hi> près de mon automne, en cet art gracieux,</l>
+						<l>J’ose vous animer de la voix et des yeux ;</l>
+						<l>Agréez ces leçons que ma Muse, au théâtre,</l>
+						<l>Me dicta, jeune encor, sur l’art que j’idolâtre<note n="19" place="end"
+									><p>Les premiers vers que j’ai faits, étant fort jeune, étaient
+									le commencement de cet ouvrage ; je l’abandonnai. Après plus de
+									vingt-cinq ans, je le retrouvai par hasard ; il me prit envie de
+									le finir, et le voilà.</p></note> ;</l>
+						<l>Secondant votre ardeur, échauffant vos esprits,</l>
+						<l>Je vous montre de loin la couronne et le prix.</l>
+						<l>Mais aussi pardonnez, si, plein de ce beau zèle,</l>
+						<l>De tous vos pas <hi rend="i">fameux</hi>, observateur fidèle,</l>
+						<l>Quelquefois du bon or, je sépare le faux,</l>
+						<l>Et des danseurs grossiers, j’attaque les défauts :</l>
+						<l>Censeur un peu fâcheux, mais pourtant nécessaire ;</l>
+						<l>Plus enclin à blâmer, que savant à bien faire.</l>
+					</lg>
+				</div2>
+				<trailer><hi rend="sc">fin du quatrième et dernier chant</hi>.</trailer>
+			</div1>
+		</body>
+	</text>
+</TEI>
