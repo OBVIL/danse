@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2019-06-13T17:09:37+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L’Opéra. Paris ou Le Livre des Cent-et-un. tome XV</title>
+        <author key="Briffault, Eugène (1799-1854)"
+          ref="https://data.bnf.fr/en/11894022/eugene_briffault/">Eugène Briffault</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Infoscribe</name>
+          <resp>saisie XML-TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>édition XML</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2019"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/danse/briffault_opera_1834</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Eugène Briffault, « L’Opéra », in <hi rend="i">Paris ou Le Livre des Cent-et-un</hi>,
+            <pubPlace>Paris</pubPlace>, <publisher>Ladvocat</publisher>, <date>1834</date>,
+            <biblScope>tome XV, p. 365-428</biblScope>. PDF : <ref
+            target="https://archive.org/details/parisoulelivrede15pari">Internet
+          Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1834"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="n.p."/>
+      <div type="article">
+        <head>L’Opéra.</head>
+        <epigraph>
+          <p rend="lmarg25">Là, pour nous enchanter, tout est mis en usage ;</p>
+          <p rend="lmarg25">Tout prend une âme, un corps, un esprit, un visage.</p>
+        </epigraph>
+        <signed><hi rend="sc">Boileau</hi>, <hi rend="i">Art poétique.</hi></signed>
+        <p>L’origine des spectacles en France, et ce qu’on pourrait appeler la naissance des pièces
+          de théâtre, se perdent dans des conjectures tellement vagues, que rien n’est plus
+          difficile que de leur assigner une date précise. Quant au fait dramatique en lui-même, ou
+          plutôt aux appareils scéniques, c’est-à-dire mêlés d’une action extérieure, dont il est
+          fort indifférent de rechercher les caractères divers, on en rencontre <pb n="366"
+            xml:id="p366"/>la source à la naissance même de toutes les civilisations. Partout, dans
+          les premiers plaisirs des hommes réunis, dans leurs premières fêtes, dans leurs premières
+          solennités agrestes, militaires ou religieuses destinées à implorer la divinité ou bien à
+          lui rendre grâce, à célébrer une joie ou un triomphe, à se consoler d’un malheur ou d’une
+          défaite, à perpétuer un souvenir funeste ou favorable, glorieux ou accablant ; partout,
+          dans les sociétés primitives, le drame préside aux principaux actes de l’association. Le
+          sacrifice et la prière furent les premiers drames du monde. Les peintures animées, les
+          récits pittoresques, le style vivant en quelque sorte, qu’on retrouve dans tous les écrits
+          qui ont conservé et transmis les traditions originelles des peuples, attestent la présence
+          de ce drame, dont l’instinct a été donné à l’homme en même temps que la voix et le geste,
+          en même temps que la parole et le mouvement.</p>
+        <p>Les narrations bibliques sont de véritables drames qui reproduisent les faits bien plus
+          encore qu’elles ne les racontent.</p>
+        <p>C’est donc, à notre sens, une recherche oiseuse que de s’efforcer de constater avec une
+          minutieuse exactitude, chez telle ou telle nation, les premiers pas de l’action théâtrale.
+          Il nous paraît bien plus convenable d’en examiner <pb n="367" xml:id="p367"/>rapidement
+          les développemens, qui sont ceux de la civilisation elle-même, et de montrer avec quelle
+          intimité les perfectionnemens du théâtre se lient au progrès des mœurs. Cette
+          investigation, appliquée à la plus vaste, à la plus somptueuse de nos scènes, et à un
+          établissement tout-à-fait national, prend alors un haut caractère de curiosité et
+          d’intérêt-général. On aime à voir quelle influence cette scène a exercée à des époques
+          différentes sur l’esprit public ; on aime à reconnaître comment, à son tour, elle a
+          reproduit les impressions qu’elle recevait des faits et des hommes, et si, tout à coup,
+          des descriptions brillantes, pénétrées, pour ainsi dire, de voluptueuses souvenances, de
+          pompeux récits, de mots piquans, d’anecdotes et d’annales tour-à-tour graves, spirituelles
+          et débauchées, se mêlent aux premiers matériaux ; si les arts, dans toutes leurs
+          ramifications, jettent leur propre histoire au sein de ces archives, est-il une tâche qui
+          promette plus de plaisir dans son accomplissement, et plus de charmes dans les résultats
+          qu’elle doit produire ?</p>
+        <p>Telle est, en France, l’histoire de l’opéra ; cette gloire de notre pays, cette féerie de
+          l’Occident qui semble si souvent rivaliser de luxe, de splendeur, d’éclat et de prestiges
+          avec la magie des légendes orientales.</p>
+        <p><pb n="368" xml:id="p368"/>S’il fallait, en parlant de l’opéra, écrire en même-temps la
+          généalogie de la musique, ce travail serait certainement autant au-dessus de nos forces
+          qu’au-dessus de la patience de nos lecteurs. Durey de Noinville, qui publia en 1753 une
+            <hi rend="i">Histoire du théâtre de l’Académie royale de musique</hi>, déclare que, dès
+          1706, Brossard, à la fin de son Dictionnaire de musique, fait le dénombrement de neuf cent
+          soixante-et-treize auteurs, anciens et modernes qui ont traité de la musique ; Brossard
+          ajoute qu’il en a omis une quantité plus considérable que celle qu’il rapporte. Si l’on
+          joint à ce chiffre le nombre des écrivains et des musiciens qui depuis cent vingt-neuf ans
+          se sont occupés de ce sujet, on excusera facilement sans doute notre retenue à cet égard.
+          Nous imiterons la discrétion de Durey de Noinville, nous nous bornerons à répéter que les
+          Égyptiens paraissent avoir été les premiers inventeurs de la musique ; qu’ils l’ont
+          transmise aux Hébreux, lesquels, de l’Orient, par leur communications avec les Grecs,
+          l’ont transmise aux Romains, qui l’ont perfectionnée et transmise à leur tour aux races
+          occidentales.</p>
+        <p>Fidèles aux définitions anciennes, nous appellerons <hi rend="i">opéra</hi> « une pièce
+          de théâtre en vers, mise en musique et en chants, accompagnée de danses, de machines et de
+          décorations. » Nos <pb n="369" xml:id="p369"/>pères aimaient à dire que c’était là un
+          spectacle universel, où chacun trouvait à s’amuser dans le genre qui lui convenait
+          davantage : mais eux aussi formèrent le vœu que le poème répondit à tous les agrémens dont
+          l’opéra est composé ; ils prétendaient qu’ils n’hésiteraient pas alors à le regarder comme
+          le plus beau et le plus magnifique de tous les spectacles qu’a imaginés et qu’imaginera
+          l’esprit humain. A leurs yeux il était la réunion des beaux arts, de la poésie, de la
+          musique, de la danse, de la peinture, de l’optique et des mécaniques ; en un mot, c’était
+          le <hi rend="i">grand œuvre</hi> par excellence, comme son nom le désigne, et le triomphe
+          de l’esprit humain. Ainsi s’exprime au moins Durey de Noinville. Malgré l’emphase de ces
+          éloges, malgré la naïve franchise de ces louanges, d’autres critiques étaient bien
+          éloignés de regarder ce spectacle comme l’assemblage ou l’abrégé de toutes les perfections
+          humaines. Saint-Évremont commence ses observations sur l’opéra en disant que, quoique les
+          sens soient agréablement frappés par son éclat et sa magnificence, cependant, comme
+          l’esprit n’y trouve rien qui le touche ni qui l’attache, on tombe bientôt dans l’ennui et
+          dans une lassitude inévitable ; mais une des choses qui le choquent le plus, c’est « de
+          voir chanter toute la pièce depuis le <pb n="370" xml:id="p370"/>commencement jusqu’à la
+          fin, » comme si les personnes qu’on représente s’étaient ridiculement ajustées pour
+          traiter en musique et les plus communes et les plus importantes affaires de la vie.
+          « Peut-on s’imaginer, s’écrie-t-il, qu’un maître appelle son valet ou qu’il lui donne une
+          commission en chantant ; qu’un ami fasse en chantant une confidence à son ami ; qu’on
+          délibère en chantant dans un conseil ; qu’on exprime avec des chants les ordres qu’on
+          donne, et que mélodieusement on tue les hommes à coups d’épée et de javelot dans un
+          combat. » Enfin, sa mauvaise humeur le conduit à définir l’opéra, un travail bizarre de
+          poésie et de musique, où le poète et le musicien, gênés l’un par l’autre, se donnent bien
+          de la peine à faire un mauvais ouvrage. Quand Beaumarchais a prétendu qu’on chantait ce
+          qui ne valait pas la peine d’être dit, il n’a fait que résumer Saint-Évremont. Quoi qu’il
+          en soit de ce blâme et de tous ceux qui l’ont imité ou suivi, en dépit de Beaumarchais, de
+          Saint-Évremont et de leurs parodistes, depuis cent quatre-vingt-dix ans, tout près de deux
+          siècles, que l’opéra a été naturalisé en France, il a toujours été regardé comme le plus
+          brillant et souvent comme le plus agréable de nos spectacles.</p>
+        <p>L’antiquité connaissait l’opéra. Les fêtes <pb n="371" xml:id="p371"/>publiques, les
+          cérémonies religieuses offraient toujours chez les anciens le mélange de la poésie et de
+          la musique. Le joueur de flûte, qui avec un double instrument marquait dans la tragédie la
+          cadence de la déclamation et du débit de l’acteur, le rhythme du chœur qui prenait part à
+          l’action et au dialogue, prouvent que, dès ces époques reculées, on ne séparait pas, dans
+          l’œuvre dramatique, les notes musicales et la mesure poétique. Chez les modernes, on fait
+          honneur de l’invention de l’opéra à <hi rend="sc">Ottavio Rinuccini</hi>, poète florentin,
+          qui, de concert avec <hi rend="sc">Giacomo Corsi</hi>, gentilhomme son compatriote,
+          excellent musicien, composa une pièce qui fut représentée en présence du grand-duc, de la
+          grande-duchesse de Toscane et des cardinaux Monti et Montalto. Cet ouvrage avait pour
+          titre : <hi rend="i">les Amours d’Apollon et de Circé.</hi> Le succès en fut immense ; il
+          servit d’abord de modèle à un opéra d’<hi rend="i">Eurydice.</hi> Plus tard, Claude
+          Montevre, musicien célèbre, imita ces deux pièces dans son <hi rend="i">Ariane.</hi> Ce
+          même compositeur, devenu maître de la musique de Saint-Marc à Venise, y introduisit cette
+          manière de représentations qui depuis sont devenues si célèbres par la magnificence des
+          théâtres et des habits, la délicatesse des voix, l’harmonie des concerts et les savantes
+          compositions de Montevre, de Soriano, de <pb n="372" xml:id="p372"/>Giovanelli, de Teofilo
+          et de plusieurs autres grands maîtres. On témoigna tant de goût pour ce spectacle, que,
+          depuis 1637, date de l’introduction de l’opéra à Venise, jusqu’en 1700, c’est-à-dire dans
+          un espace de soixante-trois ans, on en représenta plus de six cent cinquante, bien qu’on
+          ne les jouât que pendant l’hiver.</p>
+        <p>L’opéra est donc originaire de l’Italie, cette terre classique de l’art musical.</p>
+        <p>Les deux papes de la maison de Médicis, Léon X et Clément VII, qui doivent la plus belle
+          partie de leur renommée historique à leur amour pour les arts et a la protection éclairée
+          qu’ils leur accordèrent, ont eu des espèces d’opéras, comme ils ont eu des comédies à
+          décorations et à machines. Ce fut Baltazar Perruzzi qui renouvela les anciennes
+          décorations de théâtre, lorsqu’en 1516 le cardinal Bernard de Bibienne fit représenter
+          devant le pape Léon X la comédie intitulée : <hi rend="i">la Calandra</hi>, qui est une
+          des premières pièces italiennes en musique qui aient paru sur les théâtres. Plus de cent
+          soixante ans après, en 1682, Bullart affirmait encore que l’Italie ne vit jamais de
+          décorations plus magnifiques que celles de Perruzzi.</p>
+        <p>A cette époque, on faisait des ballets à la cour de France ; on y mettait des récits et
+          des dialogues en plusieurs parties ; mais ils étaient <pb n="373" xml:id="p373"
+          />très-informes et sans règles ni mesures. Le premier de ces divertissemens où le bon goût
+          commença à paraître, fut le ballet qui fut dansé en 1581. Il était de la composition d’un
+          certain Balthasarini, Piémontais, violon renommé, et que le maréchal de Brissac,
+          gouverneur du Piémont, avait envoyé à la reine Catherine de Médicis, avec toute la bande
+          de musiciens qu’il dirigeait. Ce Balthasarini fut anobli ; il prit le nom de Beaujoyeux,
+          fut nommé valet-de-chambre du roi et de la reine sa mère ; il se rendit si illustre à la
+          cour par ses inventions de ballets, de musique, de festins et de représentations, qu’on ne
+          parlait plus que de lui.</p>
+        <p>Pour les noces de M. de Joyeuse et de mademoiselle de Vaudemont, les poètes, les
+          musiciens et les décorateurs s’associèrent pour contribuer ensemble aux plaisirs de la
+          cour ; le roi Henri III les récompensa très-libéralement. Sancy rapporte, à cette
+          occasion, que Claudin, musicien, composa des airs qu’il joua dans ces fêtes. Un seigneur
+          en fut si transporté qu’il mit l’épée à la main, en jurant et blasphémant, et voulant à
+          toute force s’aller battre. Le musicien, ayant changé d’air, fit rentrer ce jeune seigneur
+          dans son bon sens. L’impression de la musique fut beaucoup moins vive sur le roi, car il
+          est dit qu’il ne fit que rire. Les ballets, les <pb n="374" xml:id="p374"/>intermèdes, les
+          fêtes, les tournois, les carrousels, les comédies et les mascarades dans lesquels on
+          unissait la musique à la poésie, ne manquèrent pas sous les règnes de Charles IX et de
+          Henri III. On cite à la tête des auteurs de ces ouvrages Jean-Antoine Baïf, qui, né à
+          Venise pendant l’ambassade de son père, avait pris le goût de ces représentations, et, en
+          essayant de les reproduire, se montra, selon les chroniqueurs, aussi fameux poète que
+          grand musicien. Mais ils prennent soin d’ajouter qu’on ne peut pas encore donner à ce
+          spectacle le nom d’opéra, qui n’était pas connu dans ce royaume avant le cardinal
+          Mazarin.</p>
+        <p>Dès 1645, l’opéra existait à Paris. A cette époque, le cardinal Mazarin fit représenter,
+          au Petit-Bourbon, devant le roi et la reine-mère, une pièce italienne intitulée : <hi
+            rend="i">la Festa teatrale della Finta Pazza</hi> ; elle fut jouée par des acteurs
+          italiens. Plus tard, la même troupe joua <hi rend="i">Orfeo e Euridice</hi> : il y eut des
+          sonnets à ce sujet. Les critiques du temps s’expriment ainsi : « Ce spectacle ne surprit
+          pas moins par sa nouveauté que par la beauté des voix, la variété des concerts, les
+          changemens merveilleux des décorations, le jeu surprenant des machines, et la magnificence
+          des habits. » En 1650, Pierre Corneille donna <hi rend="i">Andromède</hi>, <pb n="375"
+            xml:id="p375"/><hi rend="i">tragédie en machines</hi>, avec des chants et musique ; elle
+          fut aussi représentée sur le théâtre du Petit-Bourbon par la troupe royale : les
+          décorations et les machines, entreprises par Torelli sur les ordres de la reine-mère,
+          parurent si belles qu’on les fit graver en taille-douce.</p>
+        <p>C’est à la reprise de cette pièce, trente-deux ans après la première représentation, en
+          1682, qu’on fit en France le premier pas vers ce qu’on a si pompeusement appelé depuis ce
+          temps la vérité de la scène. On rapporte comme un fait merveilleux que le cheval Pégase y
+          fut représenté par un cheval véritable. On ajoute qu’il jouait admirablement son rôle, et
+          faisait en l’air tous les mouvemens qu’il pourrait faire sur terre.</p>
+        <p>Pour divertir le roi Louis XIV dans sa jeunesse, on représentait assez souvent à la cour
+          des ballets accompagnés de déclamation et de symphonie, où le roi, les princes et les plus
+          grands seigneurs dansaient, représentant des divinités, des héros, des bergers, et
+          d’autres personnages. Benserade se distingua par la composition de quelques-uns de ces
+          ballets.</p>
+        <p>Tous ces essais imparfaits devaient conduire à l’intronisation définitive de l’opéra
+          français sur un théâtre de Paris. Le préjugé contre la difficulté de chanter des paroles
+          françaises existait <pb n="376" xml:id="p376"/>déjà ; il fallait le vaincre. Pierre
+          Perrin, abbé, successeur de Voiture dans la charge d’introducteur des ambassadeurs auprès
+          de Gaston, duc d’Orléans, frère du roi Louis XIII, entreprit de surmonter ces obstacles ;
+          il hasarda des paroles françaises, qui furent mises en musique par Cambert, organiste de
+          Saint-Honoré et intendant de la musique de la reine-mère. C’était une pastorale en cinq
+          actes. Pour cette première épreuve, on choisit le village d’Issy ; Perrin voulait éviter
+          la foule. Il y réussit mal ; car la route de Paris à Issy fut couverte de carrosses.</p>
+        <p>Ces tentatives continuèrent : <hi rend="i">Ariane, la Mort d’Adonis, Ercole amante</hi>
+          furent successivement l’objet de représentations particulières. Le marquis de Sourdiac, de
+          la maison de Rieux, dont il portait le nom, s’efforçait en même temps de perfectionner les
+          machines. Il fit représenter dans son château de Neubourg, en Normandie, <hi rend="i">la
+            Toison d’or</hi>, avec un grand luxe de spectacle. Sur ces entrefaites, le cardinal
+          Mazarin, le protecteur déclaré de l’opéra naissant, mourut à Vincennes. Perrin n’abandonna
+          pas son projet de l’établissement public de ce spectacle. Le 28 juin 1669, il obtint des
+          lettres-patentes, « portant permission d’établir en la ville de Paris et autres du
+          royaume, des <hi rend="i">académies de musique</hi>, pour chanter en public des pièces de
+          théâtre, <pb n="377" xml:id="p377"/>comme il se pratique en Italie, en Allemagne et en
+          Angleterre, pendant l’espace de douze années. » Il s’associa Cambert, pour la musique ; le
+          marquis de Sourdéac, pour les machines ; et pour fournir aux frais nécessaires, un nommé
+          Champeron.</p>
+        <p>Le premier soin des nouveaux entrepreneurs fut de se procurer des chanteurs et des
+          musiciens dans toutes les églises du Languedoc. On fit dresser un théâtre dans le jeu de
+          paume de la rue Mazarine, et au mois de mars 1671, vingt-six ans après le premier opéra
+          italien représenté devant la cour, on joua devant le public le premier opéra français, <hi
+            rend="i">Pomone</hi>, paroles de Perrin, musique de Cambert et ballet de Beauchamp. La
+          vogue de cet ouvrage se soutint pendant huit mois entiers. La discorde pénétra dans la
+          nouvelle association. Lulli, qui florissait alors à la cour, mit à profit cette
+          disposition des esprits ; il se fit céder le privilége et obtint à son tour des
+          lettres-patentes pour la fondation d’une <hi rend="i">Académie royale de musique</hi> ;
+          elles furent enregistrées au parlement le 27 juin 1672.</p>
+        <p>Tel fut le long enfantement de l’opéra en France. Comme théâtre, sa naissance est toute
+          religieuse : un cardinal fut son parrain ; un abbé fut son père nourricier ; l’Église lui
+          fournit son premier compositeur et ses premières voix.</p>
+        <p><pb n="378" xml:id="p378"/>Comme établissement, son origine est royale. Dès sa création,
+          il prit donc ce caractère national qui ne l’a abandonné dans aucune des phases de son
+          existence. Ce n’est pas le désir d’étaler une facile érudition qui nous a porté à retracer
+          avec quelques détails les premiers faits de l’opéra ; nous avons voulu montrer d’où lui
+          venait la suprématie qui lui est attribuée dans la hiérarchie théâtrale, et quels étaient
+          ses droits à la protection spéciale dont il a constamment été l’objet.</p>
+        <p>Lulli fut pour l’opéra ce que Corneille avait été pour la tragédie, ce que Molière avait
+          été pour la comédie : non pas que nous prétendions établir aucun parallèle entre
+          l’excellence de nos deux grands génies littéraires et le talent du musicien ; mais il fit
+          pour le genre lyrique ce qu’ils avaient fait pour le genre dramatique ; il fit jaillir la
+          lumière du chaos ; et lorsqu’il est arrivé qu’on ait donné à Lulli le titre de père de
+          l’opéra français, personne n’a pensé à lui contester ce mérite.</p>
+        <p>L’histoire de l’opéra est donc celle de ce maître lui-même, pendant la durée tout entière
+          de son existence musicale. Deux excellens articles, publiés par M. Castil-Blaze dans la
+            <hi rend="i">Revue de Paris</hi> au mois d’août dernier, ont si bien résumé cette
+          brillante période de l’art en France, que nous <pb n="379" xml:id="p379"/>croyons rendre
+          un service véritable à nos lecteurs en les renvoyant à ce recueil. Les anecdotes citées
+          par M. Castil-Blaze sont toutes puisées à des sources dont nous avons été à même de
+          vérifier l’authenticité ; la plume facile et spirituelle de cet aristarque musical a su
+          les présenter avec une verve de récit qui les met encore mieux en saillie. Après cette
+          indication, nous ne pouvons que continuer l’esquisse large et rapide qui doit nous amener
+          de l’enfance de l’opéra à l’époque de sa virilité actuelle.</p>
+        <p>Lulli fit construire un nouveau théâtre dans la rue de Vaugirard, près du palais du
+          Luxembourg, qu’on appelait alors palais d’Orléans. Depuis le mois de novembre 1672
+          jusqu’au mois d’août 1687, dans l’espace de quinze années, il composa la musique de quinze
+            <hi rend="i">tragédies lyriques</hi>, dont voici les titres : <hi rend="i">Cadmus,
+            Alceste, Thésée, Atys, Isis, Psyché, Bellérophon, Proserpine, Persée, Phaéton, Amadis,
+            Roland, Armide</hi> ; de trois pastorales, les Fêtes de l’Amour et de Bacchus (ce fut le
+          premier ouvrage qu’il fit jouer sur son nouveau théâtre), <hi rend="i">l’Idylle sur la
+            Paix</hi> et <hi rend="i">l’Églogue de Versailles</hi>, et <hi rend="i">Acis et
+            Galatée</hi> (œuvre posthume) ; d’une mascarade, <hi rend="i">le Carnaval</hi> ; d’un
+          ballet, <hi rend="i">le Triomphe de l’Amour</hi> ; et de vingt-cinq divertissemens, parmi
+          lesquels nous remarquons ceux de <hi rend="i">la Princesse d’Élide</hi>, du <hi rend="i"
+            >Mariage</hi>
+          <pb n="380" xml:id="p380"/>
+          <hi rend="i">forcé</hi>, de <hi rend="i">l’Amour médecin</hi>, de <hi rend="i"
+            >Pourceaugnac</hi> et du <hi rend="i">Bourgeois gentilhomme</hi> : la musique de <hi
+            rend="i">Psyché</hi>, tragédie-ballet, et celle des entr’actes d’<hi rend="i"
+          >Œdipe</hi>, complètent l’ensemble de l’œuvre dramatique de Lulli, et présentent une liste
+          de quarante-quatre ouvrages.</p>
+        <p>Les paroles de toutes les tragédies lyriques que nous venons de citer sont de Quinault,
+          excepté <hi rend="i">Psyché</hi> et <hi rend="i">Bellérophon</hi>, qui sont de Thomas
+          Corneille. Il faut en retrancher aussi le ballet du <hi rend="i">Carnaval</hi>, qui est de
+          différens auteurs ; <hi rend="i">l’Idylle sur la Paix</hi> et <hi rend="i">l’Églogue de
+            Versailles</hi>, dont Molière, conjointement avec Racine et Quinault, a donné les
+          paroles ; et <hi rend="i">Acis et Galatée</hi>, de Campistron.</p>
+        <p>A quoi bon reproduire ici la dédaigneuse critique de Despréaux ? L’avenir en a fait
+          justice. Ce n’était pas un si misérable travail que celui auquel Pierre Corneille, Molière
+          et Racine daignaient s’associer. La Fontaine lui-même ne s’essaya-t-il pas dans l’opéra ?
+          La mésaventure de sa <hi rend="i">Daphné</hi>, par la persévérance même qu’il mit à
+          vouloir produire cette œuvre lyrique, est une preuve évidente de l’estime qu’il faisait de
+          ces succès, que Lulli <hi rend="i">réchauffait des sons de sa musique.</hi></p>
+        <p>A Lulli, en 1687, succéda dans la direction de l’Opéra Jean-Nicolas de Francine, son
+          gendre, <pb n="381" xml:id="p381"/>et maître-d’hôtel du roi. En 1698, Francine s’associa
+          pour un quart Hyacinthe Gauréault du Mont, commandant de l’écurie du dauphin. C’est à
+          cette époque qu’il faut faire remonter les premières pensions dont furent grevés les
+          bénéfices acquis au moyen de la direction de l’Opéra ; elles s’élevaient alors à <hi
+            rend="i">dix-neuf mille deux cents livres</hi> ; plus tard elles furent augmentées ;
+          elles étaient payables chaque mois par douzième. La mort des titulaires les éteignit au
+          profit de la direction. Sur cette somme, la famille Lulli avait à elle seule une pension
+          de dix mille livres, dont la veuve du célèbre compositeur touchait un tiers, dans lequel
+          son fils aîné avait un quart ; les deux autres tiers étaient partagés entre trois
+          personnes. En 1713, cette pension fut réduite à six mille livres. Il y a loin de cette
+          charge imposée à l’Opéra, aux subventions qui lui ont été données dans la suite et qui
+          continuent encore aujourd’hui à lui être payées à titre d’indemnités.</p>
+        <p>Des ordonnances successives réglèrent la police et l’administration de l’Opéra ; on y
+          nomma des inspecteurs, et, en 1715, on voit le duc d’Antin, pair de France, chargé, pour
+          le secrétaire d’état ayant le département de la maison de sa majesté, de tout ce qui
+          concerne la police et la régie de l’Académie royale de Musique. Destouches, <pb n="382"
+            xml:id="p382"/>d’abord inspecteur-général, remplaça Francine dans la direction de
+          l’Opéra en 1728. Un sieur Guyenet, payeur de rentes de l’hôtel-de-ville, ne fut pas
+          maintenu dans un privilége de cession qu’il avait obtenu. Trois années après, en 1731, il
+          s’adjoignit les sieurs Le Comte, Le Bœuf, et autres associés ; deux ans plus tard, en
+          1733, le privilége fut cédé à M. de Thuret. En 1744 il passa dans les mains de M. Berger ;
+          en 1747, après la mort de celui-ci, les sieurs Tréfontaine et Saint-Germain furent chargés
+          de la régie de l’Opéra ; enfin, en 1749, le roi donna à la ville de Paris la direction
+          générale de l’Académie royale de Musique, sous les ordres de M. le comte d’Argenson,
+          ministre et secrétaire d’état ayant le département de la maison du roi. En conséquence, M.
+          Bernage, prevôt des marchands, assisté du greffier de l’hôtel-de-ville de Paris et
+          officiers et archers, alla, le 27 du mois d’avril 1749, à cinq heures du matin, au
+          cul-de-sac de l’Opéra, apposer les scellés, et ensuite au magasin, rue Saint-Nicaise, et
+          chez le sieur Neuville, receveur de l’Opéra, et ces officiers prirent possession de
+          l’Académie royale de Musique, en vertu des ordres de sa majesté.</p>
+        <p>Cette mesure forme une des principales époques de l’Opéra ; elle occupa vivement le
+          public ; on la regarda comme d’un heureux présage pour <pb n="383" xml:id="p383"
+          />l’avenir ; on la comparait à l’édilité romaine, qui confiait aux magistrats de la ville
+          le soin des spectacles publics.</p>
+        <p>On s’occupa de régler les attributions et les obligations de tous ceux qui pouvaient
+          prendre part à l’entreprise. Le directeur, le garde-magasin, le maître tailleur, le
+          dessinateur des habits et des décors furent astreints à de strictes injonctions ; on
+          accorda deux chefs de menuiserie, vingt ouvriers, et au moins trente manœuvres, pour les
+          ouvrages de la salle et du magasin ; on leur adjoignit des peintres pour les décorations,
+          et d’autres ouvriers pour les machines, ustensiles, plumes, masques et autres. Pour mettre
+          l’Opéra sur pied, il en coûta environ quarante-cinq mille livres.</p>
+        <p>Malgré les énormes bénéfices qu’avaient faits quelques directeurs, et notamment Lulli, en
+          1712, les dettes de l’Opéra montaient à <hi rend="i">quatre cent mille fr.</hi>, que les
+          cessionnaires du privilége furent obligés de payer. En 1747, il s’est trouvé pour plus de
+          quatre à cinq cent mille livres d’arriéré, que l’hôtel-de-ville, chargé de la régie de
+          l’Opéra, commença d’acquitter.</p>
+        <p>Ce fut, pour le premier de nos théâtres, une véritable renaissance !</p>
+        <p>En voyant le sérieux avec lequel tout ce qui concernait l’exploitation de l’Opéra, dans
+          ses <pb n="384" xml:id="p384"/>moindres détails, fut réglé par le roi lui-même dès 1713,
+          on est moins surpris de lire le décret sur le Théâtre Français, que Napoléon data du
+          Kremlin ! D’abord on fonda une école gratuite de musique, de danse et d’instrumens, pour
+          former des sujets à l’Opéra ; c’est l’idée première de notre illustre Conservatoire. Puis
+          les devoirs des acteurs, les amendes qu’ils auront à encourir s’ils y manquent, leurs
+          fautes, la punition de ces fautes, le nombre des sujets, leurs emplois, leurs
+          appointemens, sont énoncés, comme s’il s’agissait, pour chacun, d’un engagement
+          particulier. Il est dit qu’un fonds annuel de quinze mille livres sera affecté a des
+          gratifications qui seront distribuées à ceux qui auraient bien mérité de
+          l’administration ; le fonds des pensions est fixé à dix mille francs ; la pension était
+          acquise après quinze années de service. Le droit des auteurs est ainsi déterminé : pour le
+          poète et pour le musicien, cent livres à chacun, pour chacune des dix premières
+          représentations ; cinquante livres à chacun pour chacune des vingt représentations
+          suivantes, si elles ont lieu sans interruption ; sans quoi, si le dégoût public arrête
+          l’ouvrage, ils ne pourront rien prétendre au-delà de sa cessation<note place="bottom"
+            >Aujourd’hui, une ordonnance royale règle aussi les droits des acteurs et des
+            compositeurs. Nous n’en rapporterons cependant pas les dispositions, parce qu’il y est
+            sans cesse dérogé par des traités particuliers entre la direction, les poètes et les
+            musiciens.</note>. Les <pb n="385" xml:id="p385"/>entrées des acteurs sur le théâtre, la
+          réception des ouvrages, étaient tout aussi scrupuleusement détaillées.</p>
+        <p>Voici quel était, à cette époque, le nombre des sujets employés à l’Opéra : <hi rend="i"
+            >Acteurs pour les rôles</hi>, trois basses-tailles, trois hautes-contres, deux tailles,
+            etc. ; — <hi rend="i">Actrices pour les rôles</hi>, six ; — <hi rend="i">Chœurs</hi>,
+          vingt hommes et deux pages ; douze filles ; — <hi rend="i">Danseurs</hi>, douze ; <hi
+            rend="i">Danseuses</hi>, dix.</p>
+        <p><hi rend="i">Orchestre.</hi> — Un batteur de mesure (chef d’orchestre) ; dix instrumens
+          du petit chœur, douze dessus de violon, huit basses, deux quintes, deux tailles, trois
+          hautes-contres, huit hautbois, flûtes et bassons, un timbalier.</p>
+        <p>Un maître de salle de danse, un compositeur de ballets, un dessinateur, deux machinistes,
+          un maître tailleur. — En tout, quatre-vingt-sept personnes. Le total des appointemens ne
+          dépassait pas 67,050 livres. Les premiers sujets du chant avaient chacun 1,500 livres ;
+          les premiers danseurs avaient chacun 1,000 livres ; les premières danseuses recevaient
+          chacune 900 livres. <pb n="386" xml:id="p386"/>Le batteur de mesure avait 1,000 livres, le
+          compositeur de ballets 1,500 livres, et le dessinateur 1,200 livres.</p>
+        <p>Défense expresse était faite à <hi rend="i">toute</hi> personne, même à celles qui
+          faisaient partie de la maison du roi, d’entrer à l’Opéra sans payer ; défense à la livrée
+          d’y entrer, même en payant ; défense de stationner dans les coulisses ; défense de
+          s’avancer sur le théâtre hors de l’enceinte de la balustrade.</p>
+        <p>Le répertoire d’hiver devait être réglé et arrêté dans la semaine de Pâques, et le plan
+          d’été dans le cours du mois de novembre, c’est-à-dire l’un et l’autre six mois à l’avance.
+          Ces deux répertoires devaient commencer par deux grands opéras nouveaux ; en cas de chute,
+          on se rejetait aussitôt sur l’ancien répertoire. Les répétitions d’un ouvrage reçu
+          devaient commencer en même temps que la première représentation de celui qui le précédait.
+          L’ordonnance pousse enfin la naïve sollicitude de ses prévisions jusqu’à fonder un comité
+          de lecture, qui sera, dit-elle, composé de <hi rend="i">gens d’esprit.</hi> L’Opéra
+          n’admettait dans son sein que des sujets éprouvés, agréés dans leurs débuts, et capables
+          d’étudier seuls les partitions de leurs rôles.</p>
+        <p>Les jours d’opéra étaient les mardis, vendredis et dimanches, et les jeudis depuis la <pb
+            n="387" xml:id="p387"/>Saint-Martin jusqu’au dimanche de la Passion (celui qui précède
+          le dimanche de Pâques) exclusivement. L’Opéra ne représentait pas non plus le 2 février et
+          le 25 mars, fêtes de la Vierge, pendant la semaine sainte jusqu’au mardi après Pâques, le
+          dimanche de la Pentecôte, les 15 août et 8 septembre, 1er novembre, 8, 24 et 25 décembre.
+          Le spectacle commençait à cinq heures un quart. Deux dernières faveurs mettaient le sceau
+          à toutes celles que la royale intervention avait déjà accordées à l’Opéra. Il était
+          exprimé dans un édit : <quote>« que tous gentilshommes, demoiselles, et autres personnes,
+            puissent <hi rend="i">chanter</hi> (il n’est pas fait mention de la danse) audit Opéra,
+            sans que pour cela ils dérogent au titre de noblesse, ni à leurs priviléges, droits et
+            immunités. »</quote> Il était fait prohibition positive à tous les comédiens français et
+          étrangers de se servir de la salle de l’Opéra, d’employer des musiciens au-delà du nombre
+          de douze ; plus tard on réduisit à deux le nombre des voix, et a six celui des violons ;
+          les danseurs leur furent interdits. En 1716, les comédiens français furent condamnés deux
+          fois à 500 livres d’amende, au profit de l’hôpital-général, pour avoir contrevenu à cette
+          disposition dans les représentations du Malade Imaginaire et de la Princesse d’Élide ; il
+          ne fut <pb n="388" xml:id="p388"/>point accordé de dommages et intérêts aux directeur et
+          syndics de l’Opéra. On ne tolérait d’autres exceptions à ces règles que pour les
+          spectacles devant le roi, et ceux qui avaient lieu pendant les foires de Saint-Laurent et
+          de Saint-Germain.</p>
+        <p>Telles sont les clauses principales du vieux gouvernement de l’Opéra ; les chartes en
+          sont conservées comme s’il s’agissait de la constitution d’un royaume. Nous les rapportons
+          ici, parce qu’elles racontent l’histoire du temps actuel tout autant que celles du temps
+          passé ; on y retrouve l’origine de tous les monopoles exercés dans la suite par l’Opéra,
+          et de tous les priviléges dont il a joui.</p>
+        <p>En 1755, quatre-vingt-seize ans après l’ouverture de l’Opéra, on comptait cinquante-neuf
+          poètes qui avaient travaillé pour cette scène. Parmi eux, on citait les noms de l’abbé
+          Perrin, le fondateur ; des deux Corneille, de Molière, de Racine, de Quinault, de
+          Campistron, de Fontenelle, de La Fontaine, de J.-B. Rousseau, de Lamotte, de Regnard, de
+          Lagrange-Chancel, de Labruyère, de Destouches, de Favart, de Voltaire, de Laujon, de
+          Marmontel, de Mondonville, de J.-J. Rousseau et de Saint-Foix. Onze auteurs d’opéras
+          avaient siégé déjà sur les fauteuils de l’Académie française.</p>
+        <p><pb n="389" xml:id="p389"/>A la même époque, quarante-quatre musiciens avaient concouru à
+          ces représentations, pour la composition de la musique. Parmi eux on citait Cambert,
+          Colasse et les trois Lulli, à la tête desquels marche le célèbre Jean-Baptiste, Élisabeth
+          de la Guerre, Campra, Matho qui devint fou, Rameau, Mondonville, d’Auvergne et
+          Rousseau.</p>
+        <p>Ne peut-on pas dire avec justice que ce sont là d’éclatans titres de noblesse ?</p>
+        <p>Pendant cette première période, on ne trouve dans les acteurs que peu de sujets dont les
+          noms aient occupé la renommée. Jeliotte est moins connu par son talent que par la
+          mortification que lui fit essuyer le duc de Brissac, qui, l’ayant invité à chanter chez
+          lui, ne reçut d’autre réponse qu’un refus positif accompagné de quelques mouvemens de
+          toux : « Vous êtes un faquin, lui dit le duc, quand un homme comme moi invite chez lui un
+          homme comme vous, c’est pour l’entendre et point du tout pour le recevoir. » Il ordonna à
+          ses gens de le mettre dehors, après lui avoir donné vingt-cinq louis. Le rôle d’Armide
+          éleva bien haut la réputation de mademoiselle Lerochois. La première femme qui parut dans
+          les ballets fut la demoiselle Fontaine ; ses admirateurs la qualifiaient de <hi rend="i"
+            >très-belle</hi> et <hi rend="i">très-noble.</hi> Jusqu’à cette époque (1681) <pb
+            n="390" xml:id="p390"/>les rôles de femmes étaient remplis par des hommes habillés en
+          femmes. Cela ne changea qu’au ballet du <hi rend="i">Triomphe de l’Amour</hi>, représenté
+          à Saint-Germain-en-Laye ; on y vit danser monseigneur le Dauphin et madame la Dauphine,
+          Mademoiselle, madame la princesse de Conti, et autres princes et princesses, seigneurs et
+          dames de la cour. Cette réunion de personnes des deux sexes sur la scène fut si fort
+          goûtée, que lorsqu’on donna ce ballet à Paris, sur le théâtre de l’Opéra, on y introduisit
+          les danseuses ; depuis ce temps, elles ont composé la partie la plus brillante de l’Opéra.
+          Mademoiselle Subligny parut peu de temps après mademoiselle Fontaine ; mademoiselle Guyot
+          lui succéda dans la publique admiration. Elle quitta le théâtre pour le couvent en 1725.
+          Mademoiselle Prévôt resta ensuite, pendant plus de vingt-cinq ans, en possession des
+          suffrages de la cour et de la ville ; elle fut remplacée par la demoiselle Salé, dont on
+          vantait l’élégante gravité ; enfin, le nom de Camargo est depuis trop long-temps inscrit
+          dans le panthéon de la danse, pour qu’il soit nécessaire de rien ajouter aux louanges qui
+          nous ont été transmises par les contemporains de cette danseuse, sur sa grâce vive et
+          légère. En 1751 eurent lieu les débuts de mademoiselle Vestris et de son frère : ils
+          firent peu de bruit ; <pb n="391" xml:id="p391"/>vers le même temps, mademoiselle Camargo
+          avait pris sa retraite avec une pension de 1,500 livres.</p>
+        <p>A côté de l’Académie royale de Musique, on fonda une Académie royale de Danse ; elle vit
+          d’abord à sa tête le célèbre Marcel, qui se flattait de reconnaître, à la seule démarche,
+          la nation à laquelle appartenait toute personne qui s’adressait à lui ; cette académie
+          avait ses priviléges, et entre autres celui de <hi rend="i">montrer l’art de la
+            danse.</hi></p>
+        <p>Le service de la garde de l’Opéra était fait par les gardes-françaises,</p>
+        <p>L’Opéra était donc constitué, établi sur des bases larges et brillantes. Dans la
+          composition des œuvres, Glück, Piccini et Grétry devaient continuer sa splendide
+          renommée : <hi rend="i">Alceste</hi>, les deux <hi rend="i">Iphigénie, Orphée, Armide,
+            Céphale et Procris, Anacréon</hi> et <hi rend="i">Panurge</hi> en sont les menumens.
+          Parmi les artistes, Sophie Arnould et Laguerre, Guimard, Saint-Huberty, Laïs, les Vestris,
+          les Lionnais, les Dauberval, avaient, à des époques différentes, rivalisé d’éclat et de
+          réputation : les uns par leur galanterie, leur esprit et leurs talens réunis ; les autres,
+          par leurs talens seulement.</p>
+        <p>Les concerts spirituels et les bals dont l’Académie royale de Musique avait été dotée,
+            <pb n="392" xml:id="p392"/>formaient, à ses côtés, deux filles toutes brillantes, l’une,
+          par les mélodieux accords de sa piété et de son harmonie, que Gossec avait tant de fois
+          enrichis ; l’autre, par le luxe de sa salle, la folie de ses intrigues et les joies
+          bruyantes de ses orgies tout étincelantes de paillettes et de vifs propos. A la richesse
+          un peu grave des fêtes de Mazarin, de Henri III et d’Anne d’Autriche, avaient succédé les
+          pompes chevaleresques et mythologiques de Louis le Grand ; celles-ci avaient cédé le pas à
+          l’opulente dissolution et au somptueux dévergondage de la Régence, qui semblait avoir
+          voulu placer tout exprès l’Opéra sous sa main, faire de la salle même une dépendance de
+          ses appartemens, et du bal, le prologue de ses soupers intimes. A la suite de ces
+          destinées si diverses, venaient l’oisive débauche du règne de Louis XV, les ruineuses
+          extravagances qui sous Louis XVI étaient pour la noblesse du royaume comme le suicide
+          anticipé d’un condamné ; et, au milieu de ces élémens si animés, si splendides, si
+          ruineux, la philosophie, la critique avec ses querelles, renouvelant, pour Glück et
+          Piccini, la dispute des Bouffons et de Lulli, le coin de la reine et le coin du roi, les
+          pamphlets, et les injures, la dispute partout, le goût nulle part, la passion dans toutes
+          les sentences, et la justice bannie de tous jugemens.</p>
+        <p><pb n="393" xml:id="p393"/>L’Opéra hérissé de querelles, de cris, d’ivresse et de bruit ;
+          l’Opéra tour à tour encombré et troublé ; l’Opéra, véritable œil-de-bœuf de publique
+          dépravation, était tellement fréquenté par la cour et si peu habitué à la bourgeoisie, que
+          la comtesse d’Egmont s’y montrait dans la loge de MM. les gentilshommes de la chambre, ne
+          se doutant guère que le crédule bourgeois qu’elle avait abusé viendrait la trouver en cet
+          endroit. Un jeune mousquetaire y parut un soir, cherchant, disait-il, une de ses parentes,
+          arrivée à Paris sans qu’il eût eu avis de sa demeure. Témoin de son embarras, un de ses
+          camarades lui montre celle qu’il cherchait : — « Comment as-tu fait pour la
+          reconnaître. — Je ne l’ai jamais vue ; mais comme elle est la seule personne que je ne
+          connaisse pas ici, c’est assurément ta parente. » L’indication était exacte.</p>
+        <p>L’Opéra était alors bien éloigné du temps où sa dépense ne s’élevait pas à plus de
+          150,000 livres par année ; il coûtait beaucoup au roi. Les recettes ne produisaient pas
+          au-delà de 450,000 à 500,000 livres.</p>
+        <p>Du Luxembourg, en 1674, il avait été transporté au Palais-Royal. En 1763, cette salle
+          ayant été brûlée, il s’établit aux Tuileries ; c’est de ce théâtre que datent, pour les
+          machinistes des coulisses, les désignations de <hi rend="i">cour</hi> et de <hi rend="i"
+            >jardin</hi>, <pb n="394" xml:id="p394"/>au lieu de <hi rend="i">côté gauche</hi> et <hi
+            rend="i">côté droit</hi> : elles sont tirées de sa situation même entre la cour et le
+          jardin.</p>
+        <p>Pendant son séjour aux Tuileries, on reconstruisit sur des plans nouveaux la salle du
+          Palais-Royal ; l’Opéra en prit possession. En 1780, le 8 juin, pendant l’opéra d’<hi
+            rend="i">Orphée</hi>, de Glück, cette salle brûla de nouveau. La frayeur des spectateurs
+          fut grande : onze personnes furent les victimes de cet incendie ; les bustes de Racine et
+          de Quinault furent brisés dans le foyer. L’Opéra fit alors une courte halte dans la petite
+          salle des Menus-Plaisirs ; de là il passa à la salle de la Porte-Saint-Martin, qui,
+          commencée à la fin de juillet, fut achevée le 27 octobre : elle fut construite ainsi en
+          cent jours, par les soins de l’architecte Lenoir.</p>
+        <p>L’Académie royale de Musique avait été dirigée par des mains bien diverses depuis son
+          introduction en France : tantôt administrée par la ville de Paris elle-même, tantôt par
+          ses délégués, tantôt par le ministère de la Maison du roi, et placée sous le patronage de
+          messieurs les gentilshommes de la chambre, en 1791, elle avait été rendue à la
+          municipalité de Paris. Elle raya de l’affiche le titre d’<hi rend="i">Académie royale de
+            Musique</hi> : elle y substitua celui d’<hi rend="i">Opéra</hi><note place="bottom"
+              ><p>Depuis le 22 juin 1791, l’Académie royale de Musique a été obligée de changer
+              plusieurs fois de dénomination. Voici ses divers titres et les époques où ils furent
+              pris :</p><p>Le 24 juin 1791, à la Porte-Saint-Martin, après le départ de Louis XVI,
+                <hi rend="i">Opéra.</hi></p><p>Le 29 juin, Académie<hi rend="i"> de
+              Musique.</hi></p><p>Du 17 septembre 1791 au 10 août 1792, <hi rend="i">Académie royale
+                de Musique.</hi></p><p>Du 15 août 1792 au 11 août 1793, <hi rend="i">Académie de
+                Musique.</hi></p><p>Le 12 août 1793, <hi rend="i">Opéra.</hi></p><p>Le 27 du premier
+              mois de la 2<hi rend="sup">e</hi> année républicaine, ou 27 vendémiaire an II
+              (18 octobre 1793, vieux style), <hi rend="i">Opéra National</hi>, à la
+              Porte-Saint-Martin.</p><p>Le 20 thermidor an II (7 août 1794), sous le titre de <hi
+                rend="i">Théâtre des Arts</hi>, ouverture de par et pour le peuple, rue de la Loi ou
+              plutôt de Richelieu, ancienne salle construite par mesdemoiselles Montansier et
+              Bourdon-Neuville, qui avait été ouverte, le 15 août 1793, sous le titre de <hi
+                rend="i">Théâtre National.</hi></p><p>Du 10 ventôse an V (28 février 1797) au
+              6 fructidor an X (24 août 1802), <hi rend="i">Théâtre de la République et des
+                Arts</hi>, et quelquefois <hi rend="i">Théâtre des Arts.</hi></p><p>Le 5 fructidor
+              an X (27 août 1802), <hi rend="i">Théâtre de l’Opéra.</hi></p><p>Le 10 messidor an XII
+              (29 juin 1804), <hi rend="i">Académie impériale de Musique.</hi></p><p>Le
+              5 avril 1814, <hi rend="i">Académie de Musique.</hi></p><p>Le 8 avril 1814, <hi
+                rend="i">Académie royale de Musique.</hi></p><p>Le 21 mars 1815, après le retour de
+              l’Empereur, <hi rend="i">Académie impériale de Musique.</hi></p><p>Le 9 juillet 1815,
+              après la rentrée de Louis XVIII, <hi rend="i">Académie royale de
+              Musique.</hi></p><signed rend="i">Note de l’Éditeur.</signed></note>. Les <pb n="395"
+            xml:id="p395"/>noms des artistes du chant et de la danse qui prenaient part à la
+          représentation furent aussi inscrits sur les affiches du jour.</p>
+        <p>La révolution avait pénétré dans l’Opéra. La Nation en avait chassé la cour.</p>
+        <p>Le théâtre exerçait sur les mœurs une influence trop grande pour ne pas attirer les
+          regards de ceux qui voulaient régénérer le peuple ; c’était un levier trop puissant sur
+          l’esprit public, pour qu’on négligeât de s’en servir. L’Opéra, cette scène vaste que l’on
+          pouvait animer de mouvemens si remplis d’émotions entraînantes, devait surtout fixer
+          l’attention publique. Son <pb n="396" xml:id="p396"/>étendue, ses ressources, la pompe et
+          le luxe de son spectacle, l’impression que pouvait produire son exécution musicale, tout
+          semblait l’appeler à marcher à la tête de cette impulsion. On avait dit que la tragédie
+          avait pour objet la terreur et la pitié ; on avait assigné à la comédie le but d’instruire
+          les hommes et de réformer les mœurs. L’Opéra avait une mission plus vague, mais aussi plus
+          spacieuse, celle de charmer les spectateurs. C’était donc a lui qu’appartenait le premier
+          rôle de séduction publique.</p>
+        <p>La commune de Paris, en 1792, avait succédé à tous les directeurs de l’Opéra, dont les
+          noms <pb n="397" xml:id="p397"/>ne rappelaient, selon l’Almanach des Spectacles pour
+          l’année 1794, que des despotes ou de vils courtisans. Les artistes de ce théâtre avaient
+          été autorisés à se gouverner eux-mêmes, et on leur avait permis de prendre, aux ci-devant
+            <hi rend="i">Menus-Plaisirs</hi>, toutes les décorations dont ils avaient besoin :
+          l’Opéra avait été spécialement placé sous la protection de la République. Alors, on
+          distinguait sur la scène, les Laïs les Lainez, les Gardel, les Vestris, les Beaupré et les
+          Clotilde. Partout, on rendait cette justice à l’Opéra national, qu’il était sans contredit
+          le théâtre qui avait le plus contribué à échauffer l’esprit public par des scènes
+          patriotiques. <hi rend="i">L’Offrande à la Liberté</hi>, scène lyrique composée par Gardel
+          et Gossec, avait été faite exprès pour amener le chant républicain : <hi rend="i">Allons,
+            enfans de la patrie.</hi> Toutes les représentations commençaient par cet hymne que Laïs
+          faisait retentir ; au dernier couplet : <hi rend="i">Liberté, liberté chérie….</hi>, tout
+          le monde se tenait debout et découvert. On donnait aussi des représentations <hi rend="i"
+            >de par et pour le peuple</hi> : le Gouvernement en faisait les frais ; on jouait au
+          profit des volontaires qui se rendaient à la frontière, et au bénéfice des malheureux des
+          différentes sections. Mais ce qui acheva de placer bien haut l’Opéra dans l’opinion
+          publique, ce fut la fête donnée pour l’inauguration des <pb n="398" xml:id="p398"/>bustes
+          de Marat et de Lepelletier-Saint-Fargeau par la section de Bondy ; elle eut lieu le
+          sextidi, 6 brumaire de l’an II (27 octobre 1793).</p>
+        <p>La façade de l’Opéra représentait une montagne, sur le sommet de laquelle était bâti le
+          temple des Arts et de la Liberté ; les tombeaux de Marat et de Lepelletier étaient placés
+          à droite et à gauche : une autre montagne était destinée à recevoir les députés de la
+          Convention, des autorités constituées et des sociétés populaires. Un char qui portait la
+          Liberté et l’Égalité s’arrêta devant la montagne ; les deux divinités la gravirent ; les
+          portes du temple s’ouvrirent pour les recevoir ; en même temps, l’orchestre fit entendre
+          la marche des prêtresses de l’opéra d’<hi rend="i">Alceste</hi> ; on vit alors sortir du
+          temple des jeunes filles vêtues de tuniques blanches, couronnées de fleurs, ceintes de
+          rubans tricolores, et portant des guirlandes, des palmes, des urnes, des vases et des
+          cassolettes de parfums. La cérémonie commença.</p>
+        <p>Elle ressembla à toutes les apothéoses et à toutes les inaugurations ; on chanta des
+          chœurs :</p>
+        <quote>
+          <l rend="lmarg1">Le digne ami du peuple et l’émule des mœurs</l>
+          <l rend="lmarg1">Sont tombés sous les coups d’un glaive sanguinaire,</l>
+          <l rend="lmarg1">Marat, Marat n’est plus ! ainsi que Saint-Fargeau.</l>
+          <l rend="lmarg1">Le fanatisme impur a fermé leur paupière.</l>
+          <l rend="lmarg1">Célèbres montagnards que le peuple révère,</l>
+          <l rend="lmarg1"><pb n="399" xml:id="p399"/>Disciples fameux de Rousseau,</l>
+          <l rend="lmarg1">Venez parer de fleurs leur modeste tombeau.</l>
+        </quote>
+        <p>Le mot <hi rend="i">modeste</hi> n’était pas flatteur pour l’Opéra, qui, dans cette
+          circonstance avait fait du mieux qu’il pouvait faire.</p>
+        <p>Après qu’on avait déposé les fleurs et attaché les guirlandes, on reprenait :</p>
+        <quote>
+          <l rend="lmarg1">Écartez de vous les profanes,</l>
+          <l rend="lmarg1">Les lâches partisans des rois,</l>
+          <l rend="lmarg1">Et jurez de venger les mânes</l>
+          <l rend="lmarg1">Des amis des mœurs et des lois.</l>
+        </quote>
+        <p>Alors, ajoute la tradition, des <hi rend="i">sans-culottes</hi> se précipitèrent sur un
+          des autels et chantèrent en se joignant aux enfans des arts le serment qui suit, parodié
+          sur le chœur de l’opéra d’<hi rend="i">Émelinde</hi> :</p>
+        <quote>
+          <l rend="lmarg1">Jurons, sur nos glaives sanglans,</l>
+          <l rend="lmarg1">D’exterminer les hordes des rebelles ;</l>
+          <l rend="lmarg1">Divinité des cœurs fidèles,</l>
+          <l rend="lmarg1">Liberté, reçois nos sermens.</l>
+        </quote>
+        <p>Apollon se présentait ensuite et terminait cette solennité.</p>
+        <p>A cette époque, il n’était question que d’affranchir le théâtre ; de nouveaux réglemens,
+          de nouveaux décrets, de nouvelles lois, s’efforçaient à l’envi les uns des autres de lui
+          rendre son indépendance. On annonçait qu’une ère <pb n="400" xml:id="p400"/>nouvelle
+          allait s’ouvrir pour lui. La Comédie française avait été érigée en <hi rend="i">théâtre du
+            peuple</hi>, c’est-à-dire destiné aux représentations officielles offertes gratuitement
+          au peuple ; on ne pouvait être admis à ces représentations que sur l’exhibition d’une
+          marque particulière que la municipalité devait distribuer aux patriotes. Un établissement
+          semblable devait être fondé dans toutes les communes où il y avait des spectacles. On
+          proposa pour ces théâtres un répertoire dans lequel les scènes d’opéra devaient jouer :
+            <hi rend="i">l’Apothéose de Beaurepaire ; le Camp de Grand-pré</hi>, paroles de Chénier,
+          musique de Gossec ; <hi rend="i">Fabius, Horatius-Coclès</hi>, paroles d’Arnault, musique
+          de Méhul ; <hi rend="i">la Journée du dix août</hi>, ou l’Inauguration de la république
+          Française, sans-culottide ; <hi rend="i">Miltiade à Marathon ; Manlius Torquatus ;
+            l’Offrande à la liberté</hi>, de Gardel et Gossec ; <hi rend="i">le Siége de
+            Thionville ; Toute la Grèce ; Wenzel ou le Magistrat du peuple.</hi> Si l’on joint à ces
+          œuvres : <hi rend="i">le Chant des vengeances</hi>, par Rouget-Delisle ; <hi rend="i">le
+            Chant triomphal pour la pompe funèbre du général Hoche ; Léonidas</hi> et <hi rend="i"
+            >Toulon soumis</hi>, on aura une idée du parti que les idées républicaines ont tiré des
+          représentations de l’Opéra, qui était aussi le centre de réunions civiques ; on y avait
+          donné la Fête des vieillards. Ainsi, cette scène que la vieille royauté avait <pb n="401"
+            xml:id="p401"/>édifiée et entretenue à si grands frais, était un des principaux
+          instrumens qui servaient à battre en brèche les idées monarchiques.</p>
+        <p>Il ne serait pas juste cependant de ne voir l’Opéra révolutionnaire que dans cette
+          mythologie patriotique, tout aussi ridicule, il faut bien le dire, que celle des ballets
+          du grand roi. La Commune de Paris ne négligea rien pour conserver aux arts cette demeure
+          splendide qui depuis si long-temps contribuait à l’émulation et aux progrès des artistes.
+          Une loi du 18 brumaire an II (8 novembre 1793) créa le Conservatoire de musique ; l’année
+          suivante, le 16 thermidor an III, il fut organisé. Cet établissement était composé de cent
+          quinze artistes, divisés en trois classes, et chargés de former gratuitement six cents
+          élèves des deux sexes. Chaque département avait droit à dix places d’élèves au
+          Conservatoire. L’ancien <hi rend="i">magasin</hi> de l’Opéra et l’Académie de Danse, dont
+          nous avons parlé, avaient jeté en quelque sorte les premiers élémens de cet établissement,
+          qui devint lui-même le berceau de notre Conservatoire actuel, auquel d’injustes reproches
+          n’ont point empêché qu’une éclatante justice ne fût rendue. On a mis trop d’affectation à
+          répudier quelque boursoufflure de cet enseignement méthodique ; le drame a pu se plaindre
+          du rhythme <pb n="402" xml:id="p402"/>d’une déclamation ampoulée ; le chant peut regretter
+          quelques exagérations d’habitudes et de modèles, mais il faut bien reconnaître que de
+          saines traditions que l’épithète dédaigneuse de <hi rend="i">classiques</hi> n’est pas
+          encore parvenue à discréditer, ont contribué long-temps à contenir les déplorables écarts
+          qui menacent aujourd’hui l’art dans toutes ses parties ; qu’elles ont doté le Théâtre
+          Français d’artistes dont nous pouvons nous glorifier sous les yeux de toute l’Europe, et
+          aux titres de cette école, il faut ajouter celui d’avoir formé des instrumentistes dont
+          l’exécution est aujourd’hui sans rivale dans le monde musical. Des professeurs tels que
+          les Habeneck, les Lafont, les Baillot, les Chérubini, les Tulou, les Norblin, les Baer et
+          madame Cinti-Damoreau<note place="bottom">Madame Cinti-Damoreau est la première femme qui
+            ait été nommée professeur de chant. Cette nomination est de 1833.</note>, l’orchestre de
+          l’Opéra si habilement conduit par un maître qui n’a quitté la direction de ce théâtre que
+          pour devenir le premier chef d’orchestre de l’Europe, et les concerts du Conservatoire,
+          font l’admiration de l’étranger. Vienne, Naples et Milan sont, sous ce rapport, les
+          tributaires de Paris, qui, à son tour, emprunte à l’Allemagne et à l’Italie les merveilles
+            <pb n="403" xml:id="p403"/>de leurs voix, mais qui, seul en Europe, fait, défait et
+          soutient les réputations lyriques.</p>
+        <p>En 1796, <hi rend="i">le Théâtre de la République et des Arts</hi> fut établi rue de la
+          Loi (<hi rend="i">Richelieu</hi>), dans la salle que le Gouvernement avait acquise de
+          mademoiselle Montansier. Ce fut dans cette salle que le parterre fut assis : jusque-là, il
+          s’était tenu debout. Jusqu’en l’an VI (1799), les artistes de ce théâtre s’étaient
+          gouvernés eux-mêmes, en régie sociale : à cette époque, les sieurs Francœur, Denesle et
+          Baco prirent la direction de l’Opéra. Le Directoire, époque de fastueux délire et
+          d’opulence, rendit à l’Opéra une partie de son éclat royal ; il fut le rendez-vous de la
+          société élégante : on eût dit qu’un reflet de la Régence, ou qu’un pâle rayon du siècle de
+          Louis XV avait pénétré dans la salle, sur la scène et dans les coulisses ; c’était une
+          aurore, aurore boréale toutefois, tant elle était à la fois éloignée des destinées passées
+          et du destin futur de l’Opéra.</p>
+        <p>Les plaisirs reprenaient possession du terrain que les passions politiques avaient
+          envahi, et qu’elles semblaient ne quitter qu’à regret, et n’abandonner que par lassitude.
+          Pour toutes choses, cette époque fut transitoire. Cependant, la munificence directoriale
+          se complaisait à l’Opéra ; les muscadins et les merveilleux y affluaient ; les <pb n="404"
+            xml:id="p404"/>toilettes s’y remontrèrent, mais avec plus de prodigalité que de goût ;
+          l’Opéra, auquel on ne peut pas contester le mérite d’avoir toujours bien réfléchi la
+          physionomie de l’époque, ressemblait alors à un riche parvenu : il était comme la société
+          qui garnissait ses loges et ses balcons.</p>
+        <p>L’avénement de l’Empire ouvrit à l’Opéra une carrière nouvelle.</p>
+        <p>L’Académie impériale de Musique procéda comme un émigré rentré ; elle se réintégra dans
+          tous ses priviléges anciens. Elle se débarrassa à la hâte de toute sa défroque
+          républicaine ; elle reprit sa livrée monarchique : il ne s’agissait, pour elle, que de
+          changer l’étoffe et le galon. Il se manifeste ici une curieuse et frappante coïncidence
+          entre cette période de l’histoire de l’Opéra et ce que nous avons rapporté de sa
+          naissance. D’abord, comme autrefois, l’Opéra fit partie de la maison du souverain, et fut
+          soutenu et aidé par les deniers de la couronne ; il était placé sous la haute surveillance
+          du grand-maréchal du palais, et sous la vigilance particulière du premier préfet du
+          palais : cette charge était alors occupée par M. de Luçay.</p>
+        <p>En 1805, le personnel de l’Opéra était de cinq cent treize individus, dont cent
+          quatre-vingt-six appartenaient à la scène, quatre-vingts <pb n="405" xml:id="p405"/>à
+          l’orchestre, le reste aux différens services et à l’administration : ce personnel coûtait
+          par année 884,260 fr. ; sur l’état du corps de ballets, on voit figurer pour des
+          appointemens de 800 fr. par an, mademoiselle Leverd, que nous avons admirée au Théâtre
+          Français.</p>
+        <p>Le personnel et cette dépense diminuèrent plus tard : en 1807, le total des appointemens
+          ne s’élevait plus qu’à 821,160 fr. En 1808, sous la direction de Picard, le chiffre du
+          personnel se réduisit à quatre cent cinquante-quatre individus, et celui des traitemens à
+          752,060 fr. Les feux, c’est-à-dire la gratification qui est allouée à certains acteurs par
+          chaque représentation, et qui, dans son origine, était destinée à les indemniser de menus
+          frais de feu et d’accessoires de toilette, sont compris dans cet état de dépense. A M. de
+          Luçay succéda M. de Rémusat, premier chambellan de l’empereur, nommé surintendant des
+          spectacles. Il ne faut pas croire que l’Empire fût une époque de parcimonie pour l’Opéra :
+          l’empereur exigeait au contraire qu’il y fût déployé une grande magnificence ; c’est sans
+          doute ce qui fit qu’on lui attribua ce propos célèbre, tenu par un habile directeur :
+            <quote>« A l’Opéra, il faut jeter l’argent par la porte, pour le faire rentrer par les
+            fenêtres. »</quote></p>
+        <p>Notre première scène lyrique était donc <pb n="406" xml:id="p406"/>réinstallée à la
+          Cour : elle en profita pour faire revivre ses droits de vieille suprématie ; elle frappa
+          de contributions tous les théâtres secondaires ; elle percevait un impôt sur chacune de
+          leurs recettes. <hi rend="i">Œdipe, la Vestale, Panurge, Anacréon, la Caravane du Caire,
+            les Mystères d’Isis, Fernand Cortez, les Prétendus</hi>, œuvres qui appartenaient à la
+          fois au Directoire, au Consulat et à l’Empire ; des ballets pleins de goût, tels que <hi
+            rend="i">Psyché</hi>, la <hi rend="i">Dansomanie</hi> et <hi rend="i">Nina</hi>,
+          attestaient dans les arts de notables progrès, et si le génie manquait à ces productions,
+          elles préparaient du moins les voies aux Messies qui pouvaient se présenter. Laïs, Dérivis
+          père, Nourrit père, Lavigne, mesdames Branchu et Bigottini, disputaient de zèle et se
+          partageaient les applaudissemens. En 1810, les recettes de l’Opéra s’élevèrent à
+          660,327 fr. ; l’Empereur dépensa pour ce spectacle 1,027,676 fr. Il est vrai que l’Opéra
+          marchait à la tête de ceux qui exaltaient la personne et la gloire de Napoléon : <hi
+            rend="i">le Triomphe de Trajan</hi>, dans lequel on vit le char du triomphateur, traîné
+          par quatre chevaux blancs, fut une véritable apothéose que toute la population de Paris
+          voulut saluer de ses acclamations.</p>
+        <p>Combien toutes les proportions de cette scène ne s’étaient-elles pas alors agrandies ! En
+          1793, l’Opéra n’avait reçu du Gouvernement, à titre <pb n="407" xml:id="p407"/>de secours,
+          que 150,000 fr. ; ses recettes s’étaient élevées à 853,719 fr. — Ensemble
+          1,003,719 fr. — Ses dépenses furent à 1,221,648 fr. — Il perdit 217,929 fr. Les chiffres
+          forment une partie essentielle de l’histoire de tous les théâtres.</p>
+        <p>Sous l’Empire, l’art du décorateur et surtout celui du machiniste étaient sortis de la
+          ridicule ornière du régime tombé. On a tant parlé des anciens costumes de l’Opéra ; on les
+          a si souvent reproduits ; on s’en est tellement moqué, que nous devons traiter brièvement
+          et, seulement pour mémoire, cette partie de ses annales. Il n’était plus question d’un
+          Olympe, d’une mythologie en poudre, en mouches et en paniers ; les bergères satinées et
+          pailletées, les houlettes enrubannées, les héros panachés, avaient disparu ; les queues et
+          les tonnelets avaient été bannis. La révolution que Talma avait faite dans le costume
+          tragique s’était étendue jusqu’à l’Opéra ; la toge y était sévèrement portée ; la draperie
+          grecque, les accessoires, la foudre de Jupiter et la barbe de ses prêtres y étaient soumis
+          à une étiquette aussi rigoureuse que celle qui réglait les faisceaux des licteurs, mais la
+          vérité antique était la seule dont on s’occupât ; elle était elle-même bien plus empreinte
+          de convention que d’exactitude : c’étaient encore des Grecs et des Romains à la façon de
+          ceux de Racine et de <pb n="408" xml:id="p408"/>David. La bouffissure chevaleresque
+          dominait dans tout le reste. Les décors avaient été plus loin ; on doit même avouer que
+          s’ils n’étaient pas encore parvenus aux admirables effets que nous contemplons
+          aujourd’hui, du moins ils étaient déjà dans les voies de remarquables améliorations ; à
+          l’exception de l’immuable temple grec, ils étaient convenables.</p>
+        <p>La danse semblait stationnaire dans ce mouvement général qu’il ne faut pas mépriser
+          aujourd’hui parce que nous l’avons dépassé ; la gavotte avait remplacé le menuet, qui
+          lui-même avait détrôné la chacone, jadis si fort en faveur, que ce fut dans une chacone
+          que débuta le jeune Vestris.</p>
+        <p>Historien rapide de l’Opéra, que ne puis-je jeter un voile sur les premières années de la
+          restauration, sur 1814 et 1815 ? Pourquoi suis-je obligé de compter ses sermens et de voir
+          sa foi politique, mobile comme celle d’un homme d’état ! L’Opéra qui avait chanté la <hi
+            rend="i">Marseillaise</hi>, l’Opéra qui avait porté en triomphe le buste de Marat,
+          l’Opéra qui avait traîné le char de Napoléon-Trajan, l’Opéra qui avait interrompu ses
+          chants et son récitatif pour célébrer la naissance du fils de l’empereur et lire les
+          bulletins de la Grande armée ; l’Opéra vint avec des fleurs nouvelles, des palmes fraîches
+          et des flatteries <pb n="409" xml:id="p409"/>usées, au devant des souverains alliés ; puis
+          pendant les Cent jours son orchestre exécuta encore la <hi rend="i">Marseillaise</hi> ;
+          puis après Waterloo, comme il l’avait déjà fait en 1814, il représenta, pour Alexandre de
+          Russie, François d’Autriche et Guillaume de Prusse, <hi rend="i">le Triomphe de
+            Trajan</hi> ; puis dans <hi rend="i">la Caravane</hi>, en regardant Wellington,
+          Schwartzenberg et Blücher, il s’écria : <quote>« <hi rend="i">La victoire est à</hi>
+            <hi rend="sc">vous</hi> ! »</quote> Détestable et flétrissante variante.</p>
+        <p>L’Opéra reprit son titre ancien : il s’appela <hi rend="i">Académie royale de
+            Musique</hi>, comme il s’était appelé <hi rend="i">Académie impériale de Musique</hi> ;
+          il fit partie de la maison du roi, comme il avait fait partie du palais de l’empereur ; il
+          ouvrit ses deux battans aux gentilshommes de la chambre, comme il les avait ouverts aux
+          chambellans.</p>
+        <p>La subvention royale lui fut en aide, comme la subvention impériale lui avait été en
+          appui, comme les deniers de la république lui avaient été en secours.</p>
+        <p>Néanmoins, pendant les premières années de la restauration, sa faveur ne fut pas grande ;
+          il était même en ce temps-là d’assez bon goût à la Cour de mal parler de l’Opéra. Les
+          artistes en étaient peu saillans, presque tous achevaient leur existence de renommée ; la
+          jeunesse manquait à cette scène, aucun talent nouveau ne <pb n="410" xml:id="p410"/>s’y
+          montrait ; la danse prenait sur la musique une supériorité que celle-ci ne songeait pas à
+          lui disputer. Le <hi rend="i">Rossignol</hi>, représenté en 1816, est presque le seul
+          ouvrage qu’on puisse citer à la gloire de la musique.</p>
+        <p>L’Opéra se mourait de langueur ; il dormait sur sa subvention. En 1820, le 13 février, le
+          duc de Berry est assassiné à la porte de l’Opéra. On dresse à la hâte, pour le prince
+          expirant, un lit dans le foyer ; la famille royale accourt. Les Bourbons de la branche
+          aînée, mornes et abattus, sentent que le fer dont Louvel a frappé le plus jeune d’entre
+          eux les a tous blessés au cœur ; toute la nuit ils entourent le lit de douleur ; le prince
+          meurt à l’Opéra assiégé par les masques accourus pour le bal. Le salle fut fermée ; toute
+          représentation théâtrale était dès-lors impossible dans ce lieu, de la part d’une scène
+          dont la cassette royale faisait les frais.</p>
+        <p>On construisit alors à la hâte la salle de la rue Lepelletier ; elle ne devait être que
+          provisoire : voilà douze années qu’elle dure ; la beauté de ses proportions laisse peu de
+          regrets à ce sujet. Le théâtre de la rue de Richelieu alarmait par son voisinage de la
+          Bibliothèque royale ; on n’aimait pas à voir ce monument qui contient le plus riche et le
+          plus précieux de tous les dépôts, face à face avec un édifice voué aux flammes, <pb
+            n="411" xml:id="p411"/>car telle est la destinée probable de ces salles d’Opéra. Les
+          compagnies d’assurances ne veulent les assurer que moyennant une prime énorme ; leurs
+          devancières ont été dévorées par un feu que toutes les précautions n’ont point encore
+          réussi à écarter.</p>
+        <p>Depuis 1822 jusqu’en 1830, l’Opéra vit renaître une partie de ses beaux jours ; mais la
+          danse ne cessa pas d’y régner en souveraine. Paul et Albert, Bigottini, Legallois, les
+          Noblet, y tenaient le sceptre ; un jeu de mots contemporain de cette époque analyse bien
+          sa position : L’<hi rend="i">Opéra</hi>, disait-on, ne marche que sur les jambes de ses
+          danseurs. On ne chantait qu’à l’Opéra Italien et à Feydeau, quand mademoiselle Cinti,
+          transfuge des Bouffes, parut à l’Opéra ; elle était dépaysée et dans le plus complet
+          isolement. Les ballets, au contraire, se montraient triomphans : ce fut dans l’opéra de
+            <hi rend="i">la Lampe Merveilleuse</hi>, que défila cette armée d’Aladin, dont le
+          gracieux souvenir est encore présent à tous les habitués de l’orchestre ; <hi rend="i"
+            >Cendrillon, le Carnaval de Venise, les Pages du duc de Vendôme, la Somnambule, Mars et
+            Vénus, la Belle au bois dormant</hi>, semblaient chargés d’y entretenir la tradition
+          féerique. Déjà le décors avait pris son essor : dans <hi rend="i">la Belle au bois
+            dormant</hi>, on vit, pour la première fois, une décoration mouvante <pb n="412"
+            xml:id="p412"/>qui faisait défiler une ravissante perspective devant les ondulations
+          d’un bateau. Mais à l’extrémité de cette période on trouve <hi rend="i">le Comte Ory,
+            Guillaume Tell, Moïse</hi> et cette <hi rend="i">Muette de Portici</hi>, qui à elle
+          seule, par l’entraînement de son spectacle, fit la révolution de Belgique<note
+            place="bottom"><p>Les effets de cette mise en scène, si palpitante d’énergique vérité,
+              ne se sont pas bornés là. La première représentation de <hi rend="i">la Muette de
+                Portici</hi> fut pour l’Opéra lui-même une révolution. La beauté des décors, et
+              surtout ceux qui offrent aux regards la grande place de Naples et la vue du Vésuve,
+              l’exactitude des costumes simples et tout empreints de rudesse nationale, la vivacité
+              gracieuse des danses et des groupes, ne purent être admises sur la scène de l’Opéra
+              que par le talent et la persévérance de M. Duponchel, qui nous a donné depuis ce temps
+              la mise en scène de <hi rend="i">Gustave</hi>, de <hi rend="i">la Tentation</hi>, de
+                <hi rend="i">Don Juan</hi> et de <hi rend="i">Robert-le-Diable</hi>, qui ont
+              continué le progrès si bien commencé. Ce qui mérite surtout d’être remarqué, c’est que
+              jusque alors les chœurs étaient restés étrangers à l’action. Ils y prirent part, ils
+              s’y mêlèrent, et c’est à cette innovation que sont dues les scènes si entraînantes de
+              la conspiration, de la révolte du marché, de la prière et du triomphe. Cette
+              révolution a porté ses fruits : l’invention musicale y a gagné, et l’Opéra a atteint
+              un degré de vérité qui lui était inconnu jusqu’à cette époque.</p><signed rend="i"
+              >Note de l’Éditeur.</signed></note> et les débuts de mademoiselle Taglioni. La musique
+          et la danse, le décors, le costume, l’art de la scène <pb n="413" xml:id="p413"/>et celui
+          du machiniste marchèrent alors d’un pas égal vers ces hauteurs de perfectionnement où nous
+          les apercevons aujourd’hui.</p>
+        <p>Les gentilshommes de la chambre se prélassaient dans leur loge attitrée, la foule ne se
+          portait pas à l’Opéra : il était fashionable, mais point populaire ; la bourgeoisie en
+          redoutait l’entrée ; elle y était encore mal à l’aise : car la salle de la rue
+          Lepelletier, que la banque elle-même n’avait pas prise sous sa protection, était encore
+          une succursale de château. La royauté s’y pavanait et s’y complimentait elle-même. <hi
+            rend="i">Pharamond</hi>, opéra représenté à l’occasion du sacre de Reims, avait
+          inutilement employé les poètes et les musiciens suivant la Cour ; cet appareil n’avait,
+          dans la population parisienne, ni sympathie ni racine ; l’Opéra n’était pas le plus suivi
+          de nos spectacles ; mais, assurément, c’en était toujours le plus brillant.</p>
+        <p>La restauration ne parvint jamais à faire de l’Opéra un spectacle populaire. Le luxe y
+          régnait ; on y avait appelé Rossini, qui pour la première fois, en 1824, fit représenter
+            <hi rend="i">la Donna del Lago</hi> sur le théâtre de la rue Lepelletier ; le <hi
+            rend="i">Siége de Corinthe</hi>, dont la partition était celle de <hi rend="i">Maometo
+            secundo ; Moïse</hi>, traduit de <hi rend="i">Mosè</hi>, qui depuis dix ans était joué à
+          l’Opéra Italien. Une subvention royale qui de 1824 à 1828 s’éleva <pb n="414"
+            xml:id="p414"/>à 750,000 fr., qui en 1829 fut de 817,925 fr., et en 1830 de 826,919 fr.,
+          non compris, bien entendu, la redevance des petits théâtres, qui s’élevait alors à une
+          somme de <hi rend="sc">deux cent mille francs</hi> par année ; une révolution musicale que
+          Nourrit, Levasseur et madame Cinti-Damoreau, soutenus par le <hi rend="i">maestro</hi>,
+          accomplissaient, tout fut inutilement prodigué ; rien ne put attirer la multitude
+          indifférente. Il est vrai que le second semestre de l’année 1830 fut presque tout entier
+          en proie à des mouvemens politiques qui laissaient peu de loisir à la fréquentation des
+          spectacles. En 1829, les dépenses furent de 1,770,103 fr. ; en 1830, elles furent de
+          1,717,347 fr. La première année offrit un bénéfice de 47,000 fr. ; la seconde, un déficit
+          de 143,711 fr.</p>
+        <p>Le thermomètre des recettes de l’Opéra présente d’étranges phénomènes : en 1793, au plus
+          fort de la Terreur et de l’émigration, il offre un chiffre de 853,719 fr., et en 1810, au
+          moment le plus glorieux des conquêtes impériales, qnand toute l’Europe accourait dans la
+          capitale de l’Empire, le chiffre ne monte qu’à 660,327 fr., dont 70,000 furent produits
+          par les bals masqués : ce fut pour ces réunions l’année la plus florissante ; en 1793 les
+          bals masqués n’existaient pas. En présence de ces résultats, on se demande si l’échafaud
+          causait moins de trouble <pb n="415" xml:id="p415"/>dans les plaisirs que la victoire ne
+          leur donnait d’activité et d’élan.</p>
+        <p>Le dernier acte politique de l’Opéra de la restauration fut la lecture du bulletin de la
+          prise d’Alger.</p>
+        <p>A toutes les époques, les élémens de prospérité furent nombreux pour l’Opéra ; dans les
+          différentes phases que nous venons de parcourir, nous l’avons vu non pas résister à toutes
+          les tourmentes, mais s’y plier toujours avec adresse et souvent savoir en tirer parti. Une
+          main habile devait mettre à profit les événemens de 1830. La Cour, avec ses habitudes
+          exclusives et ses allures exceptionnelles, n’existait plus ; l’embarrassant patronage de
+          la chambre du roi était tombé ; il fallait lancer, en quelque sorte, l’Opéra dans le
+          domaine de tous ; il fallait y amener la foule ; non pas, comme au temps de la première
+          révolution par des éclats politiques qui effraient le plaisir, mais en continuant le
+          progrès musical commencé, en suivant les traditions de mise en scène et de décors que <hi
+            rend="i">la Muette de Portici</hi> avait léguées, en encourageant le perfectionnement
+          que Taglioni et Perrot avaient tout-à-coup révélé dans la danse, en jetant à pleines mains
+          et partout le luxe et la vérité, en intéressant au succès de l’Opéra tout ce qui concourt
+          au mouvement intellectuel de la société, en <pb n="416" xml:id="p416"/>bannissant de la
+          salle tout ce qui avait pu effaroucher les susceptibilités bourgeoises et industrielles,
+          en appelant incessamment l’attention du public sur l’Opéra, en choisissant pour l’initier
+          à cette splendeur, à cette pompe et à cette harmonie de tous les arts, les jours qui lui
+          permettaient d’y accourir, en stimulant l’émulation des artistes ; en un mot, en faisant
+          de l’Opéra, théâtre, salle et foyer, le centre de toutes les lumières.</p>
+        <p>C’est ce que M. Véron, directeur actuel, a su faire, tantôt par son empressement auprès
+          des hommes distingués dans tous les rangs, tantôt par l’accueil qu’il réserve aux jeunes
+          talens, tantôt par le soin qu’il apporte à publier les spectacles de l’Opéra, tantôt par
+          sa générosité envers les artistes, tantôt par l’heureuse et productive idée des
+          représentations du dimanche, tantôt par le charme et la richesse du spectacle, et enfin
+          par l’habileté avec laquelle il a su profiter du moment où toute la société, divisée de
+          sentimens, d’affections et d’opinions, fuyait les salons, et ne demandait qu’un endroit où
+          le plaisir commun pût là se réunir.</p>
+        <p>Après les succès obtenus par M. Véron, on s’est tout-à-coup aperçu que les circonstances
+          l’avaient admirablement servi ; qu’on me permette de le dire, cette découverte était un
+          peu <pb n="417" xml:id="p417"/>tardive. Les circonstances, d’ailleurs, sont bien loin de
+          lui avoir été aussi favorables qu’on affecte de le répéter. Ce nouveau directeur de 1831
+          avait à lutter contre des abus dont nous ne devons point donner le détail, parce que nous
+          ne pourrions le faire sans nous laisser entraîner à des personnalités qui nous vont mal ;
+          ces abus étaient tellement anciens, tellement invétérés, qu’on s’était accoutumé à les
+          regarder comme des droits. Il a fallu quelque courage pour lutter de front contre ces
+          résistances, et pour troubler toutes ces quiétudes. Les talens qui font la fortune de
+          l’entreprise actuelle n’ont jamais été aussi richement rétribués : Mlle Taglioni reçoit
+          30,000 fr. par an ; Adolphe Nourrit et madame Cinti-Damoreau reçoivent chacun 50,000 fr.
+          Si quelqu’un était tenté d’accuser de parcimonie la nouvelle direction, elle répondrait
+          par le ballet de <hi rend="i">Gustave</hi>, dont le faste est sans exemple à l’Opéra ;
+          elle répondrait surtout par cette réunion unique en Europe du meilleur orchestre, dirigé
+          par Habeneck, dont on ne peut répéter le nom sans y joindre un éloge nouveau, de la plus
+          belle scène lyrique nationale<note place="bottom"><p>C’est à dessein que nous nous sommes
+              servi de cette expression <hi rend="i">nationale</hi>, ne voulant et ne prétendant
+              faire aucun parallèle entre les chanteurs des différentes nations et l’excellence des
+              chanteurs italiens, que nous n’hésitons pas à placer au premier rang.</p><signed>E.
+              B.</signed></note>, où brillent les Nourrit, <pb n="418" xml:id="p418"/>les Levasseur,
+          les Damoreau, les Dorus et les Falcon, et d’un ballet où l’on peut applaudir Taglioni,
+          Perrot, Fanny Elssler, et les Noblet. L’Europe tout entière est tributaire des richesses
+          de notre Opéra ; son ballet est devenu cosmopolite. Les décors, dont Cicéri, E. Bertin,
+          Feuchères, Filastre, Cambon, Desplechin, Séchan, ont poussé l’art jusqu’aux illusions du
+          Diorama, complètent cet inimitable ensemble.</p>
+        <p>Certes, sans vouloir pénétrer plus avant qu’il ne peut paraître convenable de le faire,
+          les obstacles et les embarras n’ont pas manqué à M. Véron ; les entraves multipliées l’ont
+          plus d’une fois enlacé à un tel point, qu’il s’est vu forcé de mettre le public dans la
+          confidence des dégoûts qu’il éprouvait. Eh bien, rien n’a arrêté sa marche ! Depuis 1831,
+            <hi rend="i">Robert-le-Diable, Gustave, la Tentation</hi><note place="bottom"><p><hi
+                rend="i">La Tentation</hi> a suivi les erremens du <hi rend="i">Dieu et la
+                bayadère.</hi> La danse, le chant, le spectacle et les décors se mêlent intimement
+              et se confondent dans la composition de ces œuvres ; tous concourent à l’action. Ce
+              n’est plus un opéra ; ce n’est pas un ballet : c’est un genre nouveau qui participe de
+              tous les autres ; le public a fait le meilleur accueil à ces heureuses
+              combinaisons.</p><signed>E. B.</signed></note>, <hi rend="i">la Sylphide, la
+            Révolte</hi>
+          <pb n="419" xml:id="p419"/><hi rend="i">au Sérail, Don Juan et la Tempête</hi>,
+          adroitement combinés avec les meilleurs ouvrages de l’ancien répertoire, <hi rend="i">ont
+            tenu jusqu’à la fin le spectacle rempli.</hi> Jamais l’Opéra, le pays des miracles,
+          n’avait vu ces prodiges.</p>
+        <p>La somme annuelle que touche aujourd’hui la direction de l’Opéra a été le sujet de bien
+          des attaques. On n’a pas daigné sans doute faire une réflexion : c’est que M. Véron a
+          succédé à une direction obérée, dans un temps où le souffle dévorant de la politique et de
+          l’émeute semblait devoir tout dessécher. Les secours que l’on a donnés alors à l’Opéra ont
+          été grands, parce que les besoins étaient grands. Cette subvention diminue graduellement,
+          jusqu’à ce qu’elle ait atteint le chiffre de 650,000 fr. C’est moins que n’a jamais donné
+          la restauration : bien moins que ne donnait l’empereur, peu prodigue, comme on le sait, et
+          auquel l’Opéra coûta, en 1810, un million vingt-sept mille fr. La direction actuelle, pour
+          les résultats qu’elle a obtenus, est, de tous les gouvernemens de l’Opéra, celui qui
+          convient le mieux au public par les plaisirs dont elle le dote, et à l’État, par <pb
+            n="420" xml:id="p420"/>l’économie qu’elle apporte dans les dépenses du Trésor. Nous
+          ajouterons que, depuis la révolution de 1830, la redevance des petits théâtres est
+          abolie.</p>
+        <p>M. Véron ne s’est pas considéré comme étant seulement directeur de l’Opéra ; il a dû y
+          chercher sa propre fortune. La nonchalante aristocratie des gentilshommes de la chambre,
+          ou des administrateurs aux appointemens, ne pouvait lui convenir ; il s’est occupé de
+          faire des recettes. A ce sujet, l’opinion officielle qu’on avait autrefois de l’Opéra
+          n’est pas moins curieuse à rapporter ici que celle que l’on a encore aujourd’hui dans les
+          bureaux : on regardait et on regarde encore les recettes comme un accessoire peu
+          intéressant à l’Opéra ; autant vaudrait-il prétendre que l’Opéra n’est point fait pour le
+          public.</p>
+        <p>Remercions M. Véron d’avoir pensé autrement ; s’il s’est enrichi, il a contribué à nos
+          plaisirs mieux qu’on ne l’avait fait jusques à lui. Pour monter <hi rend="i"
+            >Robert-le-Diable</hi> et entourer la belle partition de l’auteur de <hi rend="i">il
+            Crociato</hi>, de ce Meyerbeer, Italien de la Germanie, qui s’est inspiré à la fois de
+          Mozart, de Weber et de Rossini, l’Opéra a dépensé plus de 100,000 fr., et Paris a joui du
+          plus beau spectacle du monde<note place="bottom"><p>Une commission de surveillance a été
+              établie près de l’Opéra et pour l’administration du Conservatoire ; elle est composée
+              de MM. le duc de Choiseul, président, Kératry, vice-président, Edmond Blanc, Armand
+              Bertin, Denneville, et de Moncey, secrétaire, qui a remplacé M. Cavé, maintenant chef
+              de la division des Beaux-Arts au ministère de l’Intérieur. Cette commission surveille
+              l’exécution du cahier des charges et des obligations qu’il impose au directeur dans
+              l’intérêt du Gouvernement, des artistes et des plaisirs du public ; elle doit surtout
+              faire usage de ses pouvoirs pour ne pas laisser déchoir l’Opéra de la splendeur à
+              laquelle doit le maintenir la subvention nationale qui lui est allouée. L’illustre
+              président de cette commission a su faire chérir aux arts le haut patronage qui lui est
+              confié. Le noble désintéressement avec lequel il remplit ses fonctions, le zèle
+              éclairé qu’il y apporte, les formes conciliatrices qui lui sont familières, ont été.
+              jusqu’ici couronnés des plus heureux résultats. L’appui consciencieux que lui prêtent
+              les membres de la commission a été à la fois pour lui un encouragement et la plus
+              digne récompense de ses efforts.</p><signed>Note de l’Éditeur</signed></note>.</p>
+        <p><pb n="421" xml:id="p421"/>Maintenant l’Opéra est le plus fréquenté de tous les théâtres.
+          Chaque soir on y voit se réunir ce qu’on nomme les notabilités de tous les rangs. La
+          société tout entière veut se mirer dans les glaces de son foyer ; ses corridors feraient
+          envie aux salons les mieux hantés. La jeune Fashion, en gants jaunes, se presse aux
+          avant-scènes ; l’orchestre rassemble les artistes de tous les cultes et de toutes les
+          bannières ; les <pb n="422" xml:id="p422"/>hommes d’état, la haute industrie, la politique
+          animée, la galanterie remplit les loges, et la bourgeoisie, familière maintenant avec tous
+          les noms, avec toutes les réputations, se mêle sans gêne et sans embarras à ce concours si
+          étincelant de contrastes. Ministres, pairs, députés, écrivains, marchands, artistes,
+          étrangers et nationaux se heurtent et se coudoient à toutes les rampes. L’égalité règne à
+          l’Opéra, et peut-être le spectacle d’un tel public offre-t-il autant d’attraits que les
+          magnificences de la scène.</p>
+        <p>L’Opéra est actuellement l’établissement le plus populaire de Paris. Pour arriver là, il
+          fallait fermer les portes à la morgue aristocratique ; il fallait les ouvrir à
+          l’intelligence.</p>
+        <p>Le foyer offre surtout un coup d’œil digne d’appeler toute l’attention de l’observateur.
+          Le corps diplomatique y est exact, comme aux réunions d’un congrès. Les séances des
+          chambres semblent s’y continuer. La chronique du foyer de l’Opéra résume à elle seule
+          toute la politique de l’Europe. Les journalistes y vont comme dans la grotte de la
+          Sibylle ; car les pilastres du foyer semblent rendre des oracles. Nos hommes d’état y
+          parlent haut, comme des gens qui veulent être entendus. On y sait les faits de la Cour,
+          ceux de la ville et ceux de l’Europe. Il n’est pas un étranger de distinction qui ne
+          descende <pb n="423" xml:id="p423"/>d’abord au foyer de l’Opéra ; il n’est pas une seule
+          réunion du monde élevé dont le foyer de l’Opéra ne répète les échos ; on y achève les
+          dîners diplomatiques ; on y commence les soirées du château et de la banque ; le foyer de
+          l’Opéra, pour la haute société politique, est une halte indispensable entre la salle à
+          manger et le salon.</p>
+        <p>L’histoire des bals masqués semble former une appendice nécessaire à celle de l’Opéra ;
+          mais les bals masqués, depuis leur origine, offrent peu de traits saillans. Né sous la
+          Régence, pour favoriser les débauches du Palais-Royal, le bal masqué de l’Opéra fut
+          d’abord brillant et animé ; on y jeta à profusion les lumières et les tentures.</p>
+        <p>La description qui nous a été laissée des dispositions de la salle de l’Opéra rappelait
+          les ornemens du ballet de <hi rend="i">Gustave.</hi> L’intrigue, c’est-à-dire le mystère
+          des amoureuses liaisons, leurs révélations, la ruse, les mystifications, la galanterie
+          libre, quelquefois le dévergondage, les agaceries et les honteux marchés prirent
+          possession du bal masqué ; dans la suite il ne présenta plus que l’aspect d’une monotone
+          promenade de dominos. Le prix en était invariablement fixé à six livres ; il commençait
+          autrefois à la Saint-Martin, puis il s’interrompait et reprenait après le jour des Rois,
+          et <pb n="424" xml:id="p424"/>continuait de temps à autre durant le carnaval. Pendant la
+          révolution il n’y eut pas de bals masqués ; ils reprirent faveur sous l’empire, et furent
+          très-suivis. Excepté ceux des lundi et jeudi gras, ils furent délaissés plus tard : on
+          convenait généralement de leur tristesse.</p>
+        <p>Depuis 1830, rien n’a été négligé pour leur donner une physionomie nouvelle et capable de
+          captiver ; des loteries pour lesquelles on recevait un numéro à la porte en présentant le
+          billet d’entrée, des danses, un vaste orchestre qui avait remplacé quelques maussades
+          violons, des quadrilles de costumes, des danseurs espagnols exécutant leurs pas nationaux,
+          la vieille parade avec sa spirituelle et grotesque naïveté, des concerts de mirliton, des
+          caricatures vivantes, un luxe inouï d’éclairage, tout a été employé pour ramener le
+          public. La foule s’y est précipitée, non pas grave, noire, habillée sévèrement comme
+          autrefois, mais avec des allures de joie et de plaisir, sans retenue et sans étiquette. Un
+          moment même, elle a tenté d’introduire à l’Opéra cette danse dont on ne peut écrire le
+          nom, et qui, dans ses gestes lascifs et animés, résume tout le drame érotique, depuis le
+          désir jusqu’à la possession. Cette tentative a échoué. Si le bal de l’Opéra eût admis de
+          telles mœurs, aux yeux des étrangers, qui s’obstinent encore à croire <pb n="425"
+            xml:id="p425"/>que c’est là qu’il faut juger la France, nous eussions apparu comme un
+          peuple en état de démence et d’ivresse.</p>
+        <p>Les fastes de la galanterie des coulisses de l’Opéra ont une telle renommée, qu’ils
+          doivent au moins trouver une mention dans ce chapitre. Un peuple, une race, un monde tout
+          entier, habitent l’Opéra. Derrière la toile, dans les foyers, dans les loges des acteurs,
+          c’est-à-dire dans les endroits, qui leur sont assignés pour se préparer à la
+          représentation, dans les magasins, dans les classes du Conservatoire, il existe des
+          notions du bien et du mal qui, dans leur application générale, ne ressemblent point du
+          tout à celles qui régissent la société. La liberté, le plaisir et surtout l’intérêt y
+          tiennent le sceptre de la morale publique. Si nous le voulions, nous pourrions dérouler
+          des annales qui provoqueraient tour à tour le rire et les larmes, l’émotion voluptueuse et
+          le dégoût. Il y a là d’ardentes passions, d’errantes et folles ardeurs ; il y a là aussi
+          des dévouemens vrais et sublimes, puis des prostitutions anticipées, des contrats qui
+          flétrissent l’âme et des marchés hideux que plus d’une fois la main d’une mère a signés.
+          La fortune y fait mille tours ; elle jette en aveugle à tout ce peuple les bijoux et
+          l’opulence, la vogue, et ensuite la misère et les dédains, l’éclat <pb n="426"
+            xml:id="p426"/>et la laideur ; elle se joue et se plaît au milieu de ces cruelles et
+          poignantes métamorphoses, et à ses côtés l’insouciance vient tout niveler et réunir des
+          mains et des cœurs que d’ambitieuses rivalités avaient séparées. La franchise du
+          libertinage surpasse souvent dans ses aveux tout ce que l’imagination pourrait
+          inventer.</p>
+        <p>A mon sens, il y a des secrets qu’on peut aimer à connaître : examiner les moteurs et les
+          matériaux des tableaux qui vous ont étonné, analyser une illusion , en un mot, voir de
+          près ce qui nous a séduits de loin, c’est une étude qui peut et doit n’être pas sans
+          attraits pour un esprit observateur ; mais c’est folie que d’aborder ce peuple magique ;
+          laissez-lui son rouge et son clinquant, redoutez, l’épreuve d’une contemplation trop
+          intime, gardez votre point d’optique ; il est des bandeaux qu’il ne faut pas arracher : le
+          monde théâtral ne peut être regardé qu’à distance. Ne, franchissez pas la rampe :
+          croyez-moi.</p>
+        <p>Cependant, les répétitions générales de l’Opéra offrent un spectacle tout émaillé de
+          ravissantes : bigarrures. La salle envahie par un public qui se confond à toutes les
+          places ; les dieux et les héros en habits bourgeois, ou bien affublés d’une partie de
+          costume, ou essayant les uns leurs armes , les autres leurs attributs ; les <pb n="427"
+            xml:id="p427"/>génies qui rient et courent dans les escaliers ; forment des scènes
+          imprévues qui charment et qui étonnent. J’ai vu Taglioni , la Sylphide, essayer un pas en
+          robe blanche du matin. J’ai vu tout l’enfer de <hi rend="i">la Tentation</hi> en écharpes
+          roses, coiffé en cheveux et vêtu des plus légères toilettes. Le paradis vint à son tour :
+          il était coquet comme une bonne fortune. La représentation, avec ses habillemens de démons
+          et d’anges, avec des ailes et des cornes, m’a fait regretter ces souvenirs.</p>
+        <p>La riche galanterie s’en va peu à peu de l’Opéra ; l’amour prodigue, la passion
+          magnifique, disparaissent chaque jour. Le bon marché, qui veut s’en prendre aux
+          gouvernemens et aux rois, menace aussi l’empyrée de l’Opéra. Tous les soirs, à la sortie
+          du spectacle, vous verrez une foule de jeunes gens dont l’amour remplit le cœur, bien plus
+          que la fortune n’a rempli leur bourse, se hâter, attendre, épier ; chacun cherche l’objet
+          de ses tendres ardeurs : c’est à cette sortie que la chronique de l’Opéra se révèle aux
+          initiés.</p>
+        <p>On n’a jamais cessé de faire de louables efforts pour garder la morale sauve de toute
+          atteinte dans les coulisses de l’Opéra. Dès sa naissance, il y eut, à deux reprises, deux
+          ordonnances du roi pour interdire l’entrée des coulisses à tous ceux qu’y attiraient une
+          indiscrète curiosité et des intentions dont on pouvait <pb n="428" xml:id="p428"
+          />soupçonner la droiture. Vains efforts ! Lulli poussa les choses jusqu’à la plus rude
+          sévérité ; il souffleta une actrice enceinte. M. de La Rochefoucauld, si fort honni à
+          cause des réformes qu’il voulut introduire, n’avait fait que renouveler des réglemens
+          anciens. L’habitude et le diable ont triomphé de tous les obstacles.</p>
+        <p>Sous les rois de nos pères, les grands seigneurs se glorifiaient de l’Opéra, et l’Opéra
+          se glorifiait des grands seigneurs.</p>
+        <p>M. le duc de Choiseul, président de la commission de surveillance attachée à l’Opéra,
+          voyant les dépenses que dans <hi rend="i">Robert-le-Diable</hi> on avait fait pour la
+          toilette des dames, s’écriait : <quote>« Autrefois, cependant, c’était nous qui payions
+            cela ! »</quote></p>
+        <p>Ces temps sont effacés ; actuellement, l’Opéra vaut mieux que sa réputation : c’est un
+          libertin converti.</p>
+        <signed><hi rend="sc">Eugène</hi> BRIFFAULT.</signed>
+        <dateline>Paris, le 20 décembre 1834.</dateline>
+      </div>
+    </body>
+  </text>
+</TEI>
