@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2019-07-02T15:10:00+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Physiologie de la lorette</title>
+        <author key="Alhoy, Maurice (1802-1856)"
+          ref="https://data.bnf.fr/fr/12459621/maurice-alhoy_physiologie-de-la-lorette_1841/"
+          >Maurice Alhoy</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Infoscribe</name>
+          <resp>OCR, saisie</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne-Laure Huet</name>
+          <resp>transformation XML-TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nolwenn Chevalier</name>
+          <resp>transformation XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2019"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/danse/alhoy_physiologie-de-la-lorette_1841</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Maurice Alhoy, <hi rend="i">Physiologie de la lorette. Dessins par Gavarni</hi>,
+            <pubPlace>Paris</pubPlace>, <publisher>Aubert</publisher>, Galerie Véro-Dodat,
+            <publisher>Lavigne</publisher>, 1, rue du Paon Saint-André, <date>1841</date>. PDF: <ref
+            target="http://gallica.bnf.fr/ark:/12148/btv1b8530266k">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1841"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="n.p."/>
+        <epigraph>
+          <p>La tante en permettra la lecture à sa nièce.</p>
+          <bibl>(Anonyme.)</bibl>
+        </epigraph>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img001"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="n.p."/>
+        <head>Invocation en couleur antique.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img002.jpg"/>
+        </figure>
+        <p>O lecteur ! j’ai craint le naufrage avant la sortie du port. Le rivage
+          était hérissé d’écueils. Enfin je vogue…, que la douce brise s’élève et rafraîchisse mon
+          luth au prélude de mes accents !</p>
+        <p>Style lyrique ! je te demande la permission de renoncer à l’instant même à ta formule
+          pour entrer prosaïquement dans l’exposé des difficultés de ma position.</p>
+        <p>Je ne sais quelle brume compacte s’est mise <pb n="6" xml:id="p6"/>un moment entre ma
+          mémoire et l’horizon de la poésie antique ; par l’effet d’un mirage alphabétique, il m’a
+          semblé, au début de tous les poèmes, depuis l’<hi rend="i">Iliade</hi> jusqu’à la <hi
+            rend="i">Physiologie du fumeur</hi>, voir figurer la lettre O, cette particule si
+          laconique, cette apostrophe si stridente, cette magique avant-courrière de
+          l’invocation.</p>
+        <p>J’ai vécu trois jours dans la persuasion que le poète devait partir de la quatrième
+          voyelle de l’alphabet, comme le garde national doit partir du pied gauche.</p>
+        <p>Et j’avais dit à l’éditeur du poème physiologique de la Lorette, ô Mécènes (style
+          virgilien), au nom de ta gloire et de la mienne, fais confectionner, ou plutôt, pour me
+          servir d’un terme qui donne à mes inspirations la date et la couleur de leur époque, fais
+            <hi rend="i">illustrer</hi> un O.</p>
+        <p>Et l’artiste avait appendu un O en guise de couronne à ma lyre.</p>
+        <p>Les choses ainsi avancées, il n’y avait plus à reculer. J’étais irrévocablement voué à
+          l’O, il n’était plus temps de modifier mon ignorance, de rafraîchir ma mémoire et de
+          demander au vieil Homère pourquoi il n’avait pas</p>
+        <p>prévu l’embarras dans lequel il me mettrait en <pb n="7" xml:id="p7"/>commençant ses
+          rapsodies par un mu (c’est ainsi que les Grecs primitifs dans leur ignorance de notre
+          langue maternelle, s’obstinaient à nommer la lettre M).</p>
+        <p>Il n’était plus temps de faire comparoir Arioste, Torquato Tasso, Dante, Virgile, ni même
+          Châteaubriand, Victor Hugo, et Odry, l’Homère de la maréchaussée, pour leur demander
+          compte de l’absence de la note sympathique qui manque à la première gamme de leurs
+          chants.</p>
+        <p>Il y avait aussi prescription contre Camoëns, qui dans sa lutte sur les flots, oublia
+          d’interpeler en O les cétacées auxquels il arracha son poème hydrofuge.</p>
+        <p>Aucun précédent ne justifiait ma lettre initiale. Moi, timide, je tremblais. Heureusement
+          la patronne des Lorettes me vint en aide, elle me ramena au souvenir des hymnes que
+          l’église nomme les O de Noël.</p>
+        <p>Ce sont neuf cris de joie qui s’élancent de la terre aux cieux, neuf harmonies dont la
+          quinzième lettre de l’alphabet est la première modulation.</p>
+        <p>La voilà conquise mon initiale privilégiée, je <pb n="8" xml:id="p8"/>la mets en saillie
+          comme pierre d’attente de l’édifice.</p>
+        <p>C’est le premier anneau de ma grande chaîne d’anges terrestres.</p>
+        <p>C’est la première tige de mon champ d’églantiers.</p>
+        <p>O Lorettes ! je vais vous chanter, ou plutôt, pour parler un langage plus famillier,
+          Lorettes, je vais vous croquer.</p>
+        <p>O Lorettes, fous scarabées, nomades phalènes, laissez-moi lire à travers votre
+          transparence les mystères de votre organisation bizarre.</p>
+        <p>O Lorettes, météores à mille feux dont aucun calcul ne peut prédire la marche ni les
+          révolutions, je vous suivrai dans la zone où vous errez.</p>
+        <p>O Lorettes, aiglons aux ongles pointus, linottes au gazouillement sans rhythme, nous
+          dirons comment vous bâtissez vos aires de velours et vos petits nids de mousse et de
+          chaume.</p>
+        <p>O Lorettes, Pénélope a eu son Homère, la grisette a eu son Béranger, vous aurez vos
+          poètes, vos historiens, vos feuilletonistes, vos vaudevillistes, vos romanciers.</p>
+        <p>O Lorettes, Charles Nodier vous adoptera au <pb n="9" xml:id="p9"/>nombre de ses trilbis,
+          il vous associera aux jeux de ses lutins, et le soir, il éclairera le forestier sous les
+          noires voûtes des bois avec les flammes de vos yeux brillants comme la luciole.</p>
+        <p>O Lorettes, un jour, Balzac vous saisira par corps, il vous fera une visite domiciliaire
+          et instrumentera avec son inflexible plume, sa plume de recors qui saisit tout et ne
+          laisse rien échapper.</p>
+        <p>O Lorettes, Jules Janin, ce grand parrain des renommées, vous jettera sur la tête l’encre
+          baptismale du feuilleton, il vous adoptera, il vous nommera ses belles Lorettes, ses
+          blondes Lorettes, ses braves Lorettes, ses Lorettes à lui, et à son cœur. Sa rhétorique
+          vous fera un berceau de fleurs embaumées, il vous couchera sur sa phrase souple et
+          moelleuse comme le hamac dans lequel le loriot s’endort bercé par la brise.</p>
+        <p>O Lorettes, Alphonse Karr vous prendra sur ses nerveuses épaules, il vous plongera dans
+          les belles eaux des fleuves où il vous fera courir comme de sveltes couleuvres ; puis il
+          dira : Ce sont des sirènes que j’ai rencontrées et qui jouaient dans les roseaux avec les
+          blanches mauves du rivage et les martins-pêcheurs aux ailes bleues.</p>
+        <p><pb n="10" xml:id="p10"/>O Lorettes, que d’ovations vous attendent ! braquez donc sur
+          votre poète vos lorgnettes-Derepas, et dites-vous :</p>
+        <p>Voilà celui qui a donné le premier coup de trompe de notre marche triomphale !</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img003.jpg"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="11" xml:id="p11"/>
+        <head>Classement des spécialités.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img004.jpg"/>
+        </figure>
+        <p>A cette demande : qu’est-ce qu’une Lorette ?</p>
+        <p>Voici la réponse : — La Lorette échappe à la définition.</p>
+        <p>On ne l’explique pas, on l’analyse, on la classe.</p>
+        <p>C’est à tort qu’on a cherché à établir quelques rapprochements entre la Lorette et la
+          grisette.</p>
+        <p>La grisette est un être qui tend à disparaître comme le quartier qu’elle habite. Le pays
+          latin est appelé à devenir une contrefaçon des steppes de Pologne, une parodie des landes
+          de Gascogne, le bassin du Luxembourg sera frère du bassin d’Arcachon, la rue <pb n="12"
+            xml:id="p12"/>Saint-Jacques obliquera sur Montmartre, alors la grisette se fera Lorette,
+          c’est ce qu’elle a de mieux à faire.</p>
+        <p>Dans cette transformation, les mœurs primitives de la grisette seront modifiées.</p>
+        <p>La grisette ne devra plus avoir un doigt tatoué par les morsures d’aiguille, la Lorette a
+          horreur du travail. Dans sa vie, elle commence à broder une descente de lit, un
+          porte-cigares, une pantoufle, une demi-paire de bretelles, mais personne ne peut témoigner
+          qu’aucun de ces ouvrages ait jamais été terminé.</p>
+        <p>La grisette devra renoncer à la pipe, la Lorette consomme le cigare à quatre sous. <hi
+            rend="i">Nota.</hi> Elle fait sortir la fumée par les narines ou par l’oreille, au choix
+          de la société.</p>
+        <p>La grisette devra renoncer à l’usage immodéré du cidre de Normandie, la Lorette croit que
+          la France, sa belle patrie, n’est composée que de deux départements, la Bourgogne et la
+          Champagne.</p>
+        <p>Quand on a chanté sur l’orgue,</p>
+        <quote>
+          <l>Je vais revoir ma Normandie.</l>
+        </quote>
+        <p>la Lorette a cru que Bérat était un matelot de l’Astrolabe qui avait acheté une langue de
+          terre <pb n="13" xml:id="p13"/>sur laquelle on parlait le patois de Gaspard l’Avisé.</p>
+        <p>La Lorette n’exécute le cancan qu’au carnaval, il faudra que la grisette renonce à cette
+          danse qu’elle pratique en marchant, même pendant le carême.</p>
+        <p>La grisette <hi rend="i">va en journée</hi>, la Lorette peut à peine se décider à aller
+          en soirée quand elle a obtenu de la protection d’un régisseur son encataloguement dans les
+          chœurs des théâtres <pb n="14" xml:id="p14"/>du Vaudeville, des Variétés ou des
+          Folies-Dramatiques.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img005.jpg"/>
+        </figure>
+        <p>La Lorette figurante, par suite de la répulsion que son espèce a pour tout travail, n’a
+          jamais pu apprendre le premier hémistiche d’un chœur. Tout ce que l’autorité de la régie
+          put obtenir d’elle, c’est qu’elle ouvre la bouche pour faire croire au public qu’elle
+          dit :</p>
+        <quote>
+          <l>Oh ! quelle ivresse</l>
+          <l>Quelle allégresse,</l>
+          <l>Chantons en ce beau jour</l>
+          <l>L’amour.</l>
+        </quote>
+        <p>Ou…</p>
+        <quote>
+          <l>Restons jusqu’à demain</l>
+          <l>Amis, le verre en main,</l>
+          <l>Pour boire à sa hautesse</l>
+          <l>(<hi rend="i">ou bien</hi> à son altesse</l>
+          <l><hi rend="i">ou bien</hi> à la princesse).</l>
+        </quote>
+        <p>Ou…</p>
+        <quote>
+          <l>Partons, l’heure nous presse</l>
+          <l>Pas de paresse,</l>
+          <l>Partons ; plus tard</l>
+          <l>Ce serait du retard.</l>
+        </quote>
+        <p>C’est sans doute une Lorette qui a fait donner aux dames qui paraissent en scène, le
+          sobriquet de paraisseuses.</p>
+        <p>La Lorette ne reste jamais plus de vingt-neuf jours à un théâtre, ses appointements <pb
+            n="15" xml:id="p15"/>paient ses amendes. Ainsi, en quatorze ou quinze mois, elle fait
+          son tour du monde théâtral, et rentre dans sa zone où elle s’excuse de son mieux de sa
+          désertion.</p>
+        <p>Bien des feuilletonistes se donnent les gants d’avoir signalé à l’attention publique
+          l’apparition de la Lorette. J’ai recherché avec la patience d’un chartreux tous les
+          documents qui pourraient jeter du jour sur cette ténébreuse question, et je dois à la
+          vérité de l’histoire astronomique, de dire que c’est Nestor Roqueplan, le spirituel
+          rédacteur des <hi rend="i">Nouvelles à la main</hi>, qui le premier a découvert un soir le
+          passage de cet astre sous le disque d’un réverbère ; en même temps il remarquait le
+          mouvement de rotation des Arthurs, satellites nombreux jusqu’ici oubliés par le bureau des
+          longitudes.</p>
+        <p>Nous avons promis une nomenclature. Nous pensons qu’on peut fractionner ainsi la grande
+          famille des Lorettes.</p>
+        <p>Première grande division du genre :</p>
+        <p>1° La Lorette sous puissance de père et mère.</p>
+        <p>2° La Lorette émancipée.</p>
+        <p>Division de l’espèce qui peut s’allier à la classification du genre.</p>
+        <p><pb n="16" xml:id="p16"/>1° La Lorette plébéienne.</p>
+        <p>2° La Lorette avec aïeux.</p>
+        <p>3° La Lorette à parents anonymes.</p>
+        <p>4° La Lorette exotique.</p>
+        <p><hi rend="i">La Lorette sous puissance de père et mère</hi>, portiers, a pour boudoir une
+          soupente ; le tuyau du poêle forme un coude à la hauteur de sa chambre aérienne, et c’est
+          à ce coude que la Lorette se chauffe les doigts pendant l’hiver ; l’été, elle convertit le
+          poêle en porte-manteau.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img006.jpg"/>
+        </figure>
+        <p>L’auteur de ses jours est presque toujours <pb n="17" xml:id="p17"/>un ancien cordonnier
+          qui continue son commerce dans sa loge et partage son admiration entre l’œuvre de chair et
+          l’œuvre de cuir ; il fractionne son enthousiasme en deux parts égales, une qu’il donne aux
+          souliers qu’il a créés, l’autre allouée à sa fille qu’il forme.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img007.jpg"/>
+        </figure>
+        <p>S’il y a dans le mobilier paternel une tasse avec une anse, c’est la Lorette sous
+          puissance <pb n="18" xml:id="p18"/>de père et mère qui en fait usage. Sa mère prend son
+          café dans un pot de fleurs.</p>
+        <p>Le demi-poulet qu’on mange le dimanche n’ayant qu’une aile, la Lorette doit l’accepter.
+          Si elle la refusait, son père lui donnerait sa malédiction.</p>
+        <p>Le père de la Lorette lui donne un professeur de galop, qu’il paie en resemelages.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img008.jpg"/>
+        </figure>
+        <p>Si la Lorette a une robe neuve, le père <pb n="19" xml:id="p19"/>pleure de joie, et prie
+          le fils ou le neveu du propriétaire de conduire sa fille au spectacle.</p>
+        <p>Le père va se cacher au parterre, il dissimule son droit de propriété, craignant que le
+          nom de l’auteur ne nuise à l’admiration qu’on a pour l’ouvrage.</p>
+        <p>Le père pense un matin que la jeune plante s’étiolera dans la serre chaude de la
+          loge.</p>
+        <p>Il dit adieu au cordon, il transporte ses pénates et son mobilier à un quatrième
+          étage.</p>
+        <p>Un soir, il va prendre l’air sur le boulevart extérieur ; à son retour, on lui dit :
+          Votre épouse et votre fille ne sont pas là haut.</p>
+        <p>— Quand rentreront-elles ?</p>
+        <p>— Elles ne rentreront pas.</p>
+        <p>— Ah… ont-elles laissé la clé ?</p>
+        <p>— Elles l’ont laissée…</p>
+        <p>— Je vais aller me coucher.</p>
+        <p>— Dans quoi ?</p>
+        <p>— Dans mon lit.</p>
+        <p>— Il n’y en a plus, votre épouse et votre fille ont déménagé et le mobilier est parti
+          avec elles.</p>
+        <p>— Elles n’ont pas laissé leur adresse.</p>
+        <p>— Si fait, elles m’ont chargé de vous dire qu’elles allaient au numéro 23.</p>
+        <p><pb n="20" xml:id="p20"/>— Dans quelle rue ?</p>
+        <p>— Je ne sais pas.</p>
+        <p>— Merci toujours.</p>
+        <p>Un prince plus ou moins turc, ayant manifesté le désir de causer de la question d’Orient
+          avec la jeune fille, la mère a jugé convenable de ne pas recevoir la tête couronnée dans
+          le domicile d’un être qui travaille pour les pieds humains, voilà ce qui a motivé la
+          translation des <pb n="21" xml:id="p21"/>meubles. Quand ma fille sera sultane, se dit la
+          maman, je réinstallerai le chef de la communauté dans le noyer d’où je l’ai momentanément
+          expulsé.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img009.jpg"/>
+        </figure>
+        <p><hi rend="i">La Lorette émancipée</hi> offre des traits tellement divergents, que nous
+          les retrouverons épars dans tous les chapitres de cette esquisse physiologique.</p>
+        <p>Passons à la subdivision :</p>
+        <p><hi rend="i">La Lorette plébéienne</hi> est l’espèce la plus commune des Lorettes. Elle
+          doit à elle seule sa transformation : elle a appris, on ne sait comment, à porter son
+          châle, à se rouler dans un cachemire ; elle arrive à la contrefaçon de la femme d’agent de
+          change ; seulement, on la reconnaît, quoi qu’elle fasse, au fanatisme qu’elle professe
+          pour la sous-jupe Oudinot. Elle pousse son usage jusqu’à l’abus ; elle est fière de
+          ressembler à un aérostat qu’on va enlever.</p>
+        <p>La Lorette plébéienne tient aussi à la conservation de quelques phrases favorites.</p>
+        <p>Quand bien même elle épouserait M. Napoléon Landais, et qu’elle aurait en dot son
+          dictionnaire, elle vous dirait : Chalenton et Mémorency, au lieu de Montmorency et de
+          Charenton. Il y a une particule qui joue un grand rôle dans la <pb n="22" xml:id="p22"
+          />vie de la Lorette, c’est la particule <hi rend="sc">on</hi>. C’est l’énigme de toute sa
+          vie, quand elle veut que sa vie soit mystérieuse.</p>
+        <p><hi rend="sc">On</hi> viendra me prendre ce soir. Si <hi rend="sc">on</hi> savait que je
+          suis chez vous, <hi rend="sc">on</hi> serait bien furieux. On m’a dit hier que si <hi
+            rend="sc">on</hi> ne venait pas au bois, <hi rend="sc">on</hi> viendrait dîner. Il y a
+          des Lorettes, qui devant un tiers n’ont jamais prononcé le nom qui se cache sous le masque
+          de ce mystérieux monosyllabe. C’est une grande leçon de discrétion donnée à notre
+          sexe.</p>
+        <p><hi rend="i">La Lorette avec aïeux</hi> a fait son éducation et ne s’est fait enlever
+          qu’après avoir passé tous ses examens de syntaxe et avoir remporté trois prix de
+          gymnastique.</p>
+        <p>La Lorette avec aïeux n’accepte au carnaval que les hommages des masques moyen âge. Dans
+          ses relations habituelles, elle donne à chaque nom une particule nobiliaire, ou elle met
+          en védette devant lui une qualification qui le rehausse. Si vous vous nommez Félix, elle
+          vous appellera de Saint-Félix, si vous signez un billet Durand, hôtel de Provence, elle
+          mettra sur l’adresse d’une épître ornée de son scel : à M. de Hurand, en son hôtel.</p>
+        <p>La Lorette avec aïeux achète ses ancêtres <pb n="23" xml:id="p23"/>chez les marchands de
+          bric à brac de la cour des Fontaines, ou bien elle demande à un peintre un grand-père de
+          fantaisie quand elle ne rencontre pas un aïeul d’occasion.</p>
+        <p>La Lorette avec aïeux monte à cheval, suit de loin les steeple-chasse, escortée d’un
+          groom de location qui appelle sa maîtresse madame la baronne et a une couronne sur ses
+          boutons de maillechor.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img010.jpg"/>
+        </figure>
+        <p>La Lorette avec aïeux est née artiste, elle donne des leçons de piano à cinquante <pb
+            n="24" xml:id="p24"/>centimes le cachet. Elle offre dans les petites affiches de voyager
+          avec une famille anglaise.</p>
+        <p><hi rend="i">La Lorette à parents anonymes</hi> est un type qui tend à se généraliser. Il
+          y a deux mille Lorettes à Paris qui disent être filles de colonels de la grande armée. Si
+          elles ne révèlent pas leur nom patronimique, c’est qu’elles ont juré le silence et le
+          mystère sur le piédestal de la colonne Vendôme.</p>
+        <p><hi rend="i">La Lorette exotique.</hi> Les statisticiens que nous avons consultés sur
+          cette individualité nous ont juré, de par M. Charles Dupin, que le sol le plus fécond en
+          exportation de Lorettes était la Belgique. Pendant quelque temps, les Lorettes de cette
+          nation se sont fait passer pour polonaises réfugiées. Messieurs les sergents-deville
+          signalent les Lorettes du Nord comme les prêtresses les plus enthousiastes de la danse
+          qu’ils ont la consigne de paralyser.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img011.jpg"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="25" xml:id="p25"/>
+        <head>Un phare au milieu des écueils.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img012.jpg"/>
+        </figure>
+        <p>Peut-être n’avez-vous pas reçu, ô Lorettes, la circulaire que le pasteur
+          de votre troupeau a adressée, non franco à ses brebis.</p>
+        <p>La voici :</p>
+        <quote>
+          <p>« Madame, depuis l’ouverture de l’église de Notre-Dame-de-Lorette, nous
+            avons plusieurs fois parlé à nos paroissiennes des charges immenses qui ont été imposées
+            à notre administration, et nous cherchons encore les moyens de réaliser ce qui est
+            nécessaire à ce sujet.</p>
+          <p>La magnificence
+            des dorures, le talent remarquable qui a présidé à toutes les peintures qui
+            l’embellissent, disent beaucoup à notre admiration pour les arts, mais n’ajoutent rien à
+            nos ressources pour éteindre promptement les dépenses où nous ont entraînés des
+            richesses si éclatantes.</p>
+          <p><pb n="26" xml:id="p26"/>Aurai-je trop présumé de votre générosité et
+            de votre zèle, je ne le pense point, en formant le projet de faire une quête
+            extraordinaire et définitive, afin de n’avoir plus rien à désirer à cet égard. Je me
+            transporterai moi-même, ou avec le concours de mes vicaires, dans votre demeure pour
+            recueillir vos offrandes.</p>
+          <p>J’ose me flatter que cette démarche, dans un but si louable, sera
+            comprise et que je me féliciterai autant que je suis heureux de saisir cette occasion de
+            vous rendre visite.</p>
+          <p>Recevez, etc.</p>
+        <p><hi rend="sc">Th. de Rolleau</hi>,<lb/>
+        Curé de Notre-Dame-de-Lorette. »</p>
+        </quote>
+        <p>Vous le voyez, <hi rend="i">Lorettes</hi>, vous êtes les protectrices du temple, vous en
+          êtes les blanches et sveltes colonnes ; sans vous, il serait peut-être tombé et avec lui
+          serait tombé le joli nom que vous portez.</p>
+        <p>Vous avez toutes ouvert votre aumônière, et quand le collecteur est venu, l’offrande ne
+          s’est pas fait attendre. C’est un placement que vous avez fait sur une caisse d’épargne
+          qui tient compte des moindres mises ; plus tard <pb n="27" xml:id="p27"/>vous en recevrez
+          l’intérêt ; voilà ce que je vous dirais, si je faisais un sermon.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img013.jpg"/>
+        </figure>
+        <p>Et si je faisais un vaudeville je dirais en langue du terroir et sur un <hi rend="i">air
+            nouveau</hi> de mon ami Thys dont la modeste timidité est presque évangélique :</p>
+        <quote>
+          <pb n="28" xml:id="p28"/><l>Plus d’une naïve fillette</l>
+          <l>A trouvé, fuyant les amours</l>
+          <l>En Notre-Dame-de-Lorette</l>
+          <l>La patronne de bon secours.</l>
+          <l>C’est œuvre digne de louanges</l>
+          <l>D’avoir placé ce temple protecteur</l>
+          <l>Sur un chemin où tant de pauvres anges</l>
+          <l>Ont à lutter contre le tentateur.</l>
+        </quote>
+        <p>Si Nathalie ou madame Doche chantait ce couplet, le public crierait bis, modestie
+          d’auteur à part.</p>
+        <p>Avant de quitter l’oasis de la rue Laffitte, constatons un fait peu connu et démentons
+          une calomnie.</p>
+        <p>Le fait peu connu est : que les chaises louées à l’année coûtent plus à
+          Notre-Dame-de-Lorette que les stalles à l’Opéra, et qu’il faut s’inscrire six mois
+          d’avance pour en avoir. C’est humiliant pour l’Académie royale, mais c’est comme cela.</p>
+        <p>Maintenant, à la calomnie : On se dit dans les coulisses (aveuglement de l’esprit de
+          concurrence) que derrière certain prie-dieu de velours, on trouve gravée l’adresse de la
+          pieuse propriétaire du meuble.</p>
+        <p>Nous avons fait notre ronde avec toute la <pb n="29" xml:id="p29"/>sévérité d’un
+          substitut du parquet qui débute, et nous n’avons découvert dans le temple aucune
+          contrefaçon de l’almanach des adresses. Seulement, derrière une chaise-stalle en racine de
+          frêne, nous avons trouvé un crayon timbré de la fabrique <hi rend="i">Guyot-Després</hi>,
+          il avait servi à tracer ces mots :</p>
+        <p>Où pourrai-je vous voir ?</p>
+        <p>Le lendemain le même crayon, conduit par une autre main, avait répondu :</p>
+        <p>Au Ciel ?</p>
+        <p>Voilà toute la correspondance que nous avons pu saisir entre les anges et les démons de
+          la terre.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img014.jpg"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="30" xml:id="p30"/>
+        <head>Être et n’être pas dans ses meubles.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img015.jpg"/>
+        </figure>
+        <p>Toute Lorette a eu, a, ou aura un mobilier. La vie de la Lorette est un
+          passage du noyer à l’acajou, de l’acajou au palissandre, et souvent un retour du
+          palissandre au noyer.</p>
+        <p>Il y a des époques de transition où l’hôtel garni revoit la Lorette, elle y touche un
+          moment comme les navigateurs abordent à quelque terre sauvage pour attendre le bon
+          vent.</p>
+        <p>L’hôtel garni est le Botany-bey de la Lorette.</p>
+        <p>Toutes les tortures l’attendent et l’assaillissent sur cette terre d’exil, où souvent
+          elle est condamnée à vernir elle-même ses brodequins.</p>
+        <p>
+          <pb n="31" xml:id="p31"/>
+        </p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img016.jpg"/>
+        </figure>
+        <p>Là, elle est soumise temporairement à un régime cellulaire qui ne va pas à son amour
+          d’indépendance.</p>
+        <p>Au nombre des fléaux auxquels elle est livrée, on doit compter :</p>
+        <p>Premier fléau. — La déplorable et fréquente <pb n="32" xml:id="p32"/>périodicité du
+          loyer, fractionné par quinze jours, et qui revient cent quatre fois dans une année qui
+          n’est pas bissextile.</p>
+        <p>Deuxième fléau. — Les entrées de faveur du commissaire de police, qui, à la condition de
+          se serrer les reins avec une ceinture non hygiénique, a le privilége de venir réveiller à
+          minuit ceux ou celles qui ne dorment pas dans leurs meubles, et de leur demander s’ils ont
+          des passeports ou s’ils ne confectionnent pas clandestinement des cartouches.</p>
+        <p>Troisième fléau. — L’interrogatoire sur les noms, prénoms, âge, qualité qui doivent
+          figurer sur le registre de l’hôtelier.</p>
+        <p>On sait que la Lorette a pour habitude de se faire un nom de fantaisie. Si la Lorette a
+          passé un été près d’un étang, ou d’une mare elle se nommera pendant l’hiver madame de
+          Lamare, ou mademoiselle de l’Etang. Si elle a été locataire d’une maison nouvellement
+          bâtie, elle se fait appeler madame de Maisonneuve, ou par corruption, madame de Maisonave.
+          Quelquefois, la Lorette prend le nom de la ville où elle est née, et vous recevez au
+          carnaval des lettres d’invitation aux bals, signées madame de Toulouse, madame de Bourges,
+          madame <pb n="33" xml:id="p33"/>d’Amboise ; d’autres se baptisent près d’une cour, ou d’un
+          trou artésien et se font appeler madame de Lacour ou madame Dupuis, d’autres adoptent le
+          nom de leur paroisse et deviennent madame de Saint-Roch ou mademoiselle de
+          Saint-Sulpice.</p>
+        <p>Tous ces noms sont salués gracieusement par les propriétaires des appartements à louer.
+          Jamais on n’a demandé à une locataire les preuves de son état civil. J’ai vu un bail de
+          loyer qui était signé <hi rend="i">Juli de Mommorenssy</hi> ; il ne vint même pas à la
+          pensée du notaire de mettre en doute le droit que la signataire avait à la possession de
+          ce beau nom si étrangement orthographié, et qu’elle avait sans doute exporté du pays des
+          cerises.</p>
+        <p>La Lorette dans ses meubles a donc l’heureux privilége de se baptiser elle-même, mais
+          elle perd ce beau droit quand les hasards de la vie la réduisent à l’hôtellerie. Monsieur
+          Gabriel Delessert est le magistrat le plus curieux de France et de la banlieue ; il faut
+          qu’il sache le nom réel de ceux qui n’ont pas d’édredon patrimonial, il faut qu’il sonde
+          les mystères de leur âge et qu’il remonte le tracé de la vie nomade pas à pas jusqu’au
+          village ou à la <pb n="34" xml:id="p34"/>mansarde qui a vu naître d’être que la fortune a
+          voué à la maison meublée.</p>
+        <p>Le registre des hôtels garnis est la table mortuaire des noms de guerre ou plutôt des
+          noms de terre.</p>
+        <p>Le cinquième fléau dont nous devons encore prendre note, c’est l’impossibilité du crédit
+          qui frappe la locataire non dans ses meubles. La marchande de mode et le commis de
+          nouveautés ont horreur du domicile garni, on n’y laisserait pas cinq petits pâtés sans en
+          réclamer immédiatement le solde : si la locataire s’avisait de croquer un des exemplaires
+          avant le paiement, l’éditeur crierait à la garde.</p>
+        <p>Le limonadier qui apporte des demi-tasses a le cauchemar, il voit l’ombre de la
+          malleposte emporter, avec l’ombre du consommateur, l’ombre de la petite cuillère d’argent.
+          Le plus souvent, crainte d’évasion, il reste en sentinelle sur le carré, et quand il a
+          compté cent vingt-deux battements de son pouls fébrile, ce qui représente à peu près un
+          quart d’heure, il rentre essoufflé, comme s’il venait de faire une longue course, il
+          réclame son paiement et emporte son matériel qu’il nomme orgueilleusement sa porcelaine et
+          ses cristaux et qui se <pb n="35" xml:id="p35"/>compose de tasses en terre de pipe, et de
+          petits verres non diaphanes qu’on aurait le droit de croire en corne de génisse.</p>
+        <p>Ces calamités qui pèsent sur la Lorette la poussent quelquefois jusque sur la frontière
+          du suicide. Heureusement la Providence ou un porteur d’eau arrive toujours à temps pour
+          éteindre le charbon.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img017.jpg"/>
+        </figure>
+        <p>Ou bien encore, il se trouve dans le fourneau un fumeron qui sauve la victime en la <pb
+            n="36" xml:id="p36"/>menaçant d’ôter à l’asphyxie tout ce qu’elle a de suave et de
+          poétique.</p>
+        <p>Quelquefois la Lorette en appelle à l’évasion quand l’œil rembruni de l’hôtelier prédit
+          une prochaine tempête.</p>
+        <p>La Lorette a une manière fort originale de faire sa valise.</p>
+        <p>Il y a trois choses qu’elle sauve avant tout du sinistre, elle laisserait plutôt brûler
+          son père que ces trois objets.</p>
+        <p>Ces trois objets sont : sa brosse à dents, son cachet à cent devises et son fer à
+          repasser.</p>
+        <p>Après cela, elle se livre à l’exportation des robes, et voici comme elle procède :</p>
+        <p>Elle rêvet d’abord trois jupons de toutes nuances qu’elle recouvre d’une robe de chali
+          indigo ; la robe de chali reçoit en surcharge une robe de crêpe Rachel orange ; le crêpe
+          Rachel est surfoulé par une robe Kabaïle tricolore ; la robe Kabaïle s’étreint sous un
+          cachemire agonisant et un tartan dans la force de l’âge : un manteau couvre le tout. La
+          Lorette dit au portier qu’elle va au bain, et l’oiseau s’envole.</p>
+        <p>Un passant lui dit : Madame, votre jupon rouge, passe.</p>
+        <p><pb n="37" xml:id="p37"/>Un autre : Madame, votre jupon bleu vous échappe.</p>
+        <p>Un troisième : Madame, votre jupon mazagran vous quitte.</p>
+        <p>La Lorette poursuit sa fugue, elle gagne l’asile tutélaire qu’elle a arrêté la veille,
+          elle achète en route du charbon qu’elle porte dans un foulard, elle prend possession de
+          son domicile. Le portier dit au maître d’hôtel :</p>
+        <p>Tiens ! cette dame n’a pas d’effets. Étant payé d’avance l’hôtelier se console.</p>
+        <p>La Lorette, à l’instar de M. Auriol du Cirque, coupe un fil : tous ses vêtements jonchent
+          le sol de sa nouvelle patrie. Le charbon pétille, le fer chauffe, le repassage rend la
+          fraîcheur aux robes que le voyage a fatiguées, on les étend sur les fauteuils.</p>
+        <p>L’hôtelier entre par hasard, il est ébahi des richesses vestimentales de sa locataire. Il
+          se dit : Tiens ! cette dame a beaucoup d’effets.</p>
+        <p>Il descend chez le portier, et l’appelle mauvaise langue.</p>
+        <p>Le portier monte faire ses excuses.</p>
+      </div>
+      <div>
+        <pb n="38" xml:id="p38"/>
+        <head>Les Arthurs.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img018.jpg"/>
+        </figure>
+        <p>Ce n’est pas un caprice, une fantaisie irréfléchie et spontanée, qui a
+          fait donner le nom d’Arthur à l’être que la Lorette nomme la seconde moitié de son
+          âme.</p>
+        <p>Il résulte de l’expérience faite par les Lorettes mêmes, que la majorité de ceux qui
+          prennent dans la correspondance amoureuse un pseudonyme, emprunte, on ne sait trop
+          pourquoi, le nom d’Arthur.</p>
+        <p>Il y a vingt-neuf Arthurs contre sept Gustaves.</p>
+        <p>Il y en a dix-neuf contre trois Adriens.</p>
+        <p>Il y en a treize contre un Paul.</p>
+        <p>Et cependant ce nom est rare ; c’est <pb n="39" xml:id="p39"/>peut-être parce qu’il est
+          rare, que tous ceux qui ont un nom commun le choisissent quand ils veulent le mystère.
+          Enfin, il ne s’agit pas ici de commenter les causes. Nous n’avons qu’une observation à
+          enregistrer et nous l’enregistrons avec la soumission passive du greffier des
+          naissances.</p>
+        <p>Arthur est donc le nom générique des Verthers, Faublas, Lovelaces et autres satellites
+          qui gravitent dans le planisphère des Lorettes.</p>
+        <p>On pourrait faire une large classification des Arthurs, mais nous reculons devant une
+          ébauche que peut-être effacerait le peintre qui sera appelé à faire le trait physiologique
+          de cette individualité.</p>
+        <p>Cependant nous ne pouvions pas aller plus loin dans la physiologie de la Lorette, sans
+          faire au moins signaux de connaissance au compagnon temporaire de la famille nomade dont
+          nous sommes l’historien.</p>
+        <p>Donnons donc le signalement de quelques-uns des types que nous avons rencontrés dans nos
+          excursions au quartier des Lorettes.</p>
+        <p>Nous mettrons en regard de chaque individu de la famille féminine l’espèce mâle que nous
+          avons observée au passage et presqu’au vol.</p>
+        <p>L’<hi rend="i">Arthur</hi> de la Lorette en puissance de père <pb n="40" xml:id="p40"/>et
+          mère est presque toujours un clerc d’huissier, un auteur de vaudevilles ou un commis
+          pharmacien.</p>
+        <p>Si l’Arthur est clerc d’huissier, il cumule les fonctions de Sigisbé et de Mercure
+          judiciaire. Il porte ses protêts en promenant la Lorette. Quand il a un exploit à remettre
+          à domicile, la Lorette attend à la porte ; et, pour se donner une contenance, elle fait
+          semblant d’arranger son socque articulé. Chemin faisant, il est rare que l’Arthur ne
+          rencontre pas quelques personnes avec lesquelles son patron a des rapports.</p>
+        <p>— Voyez-vous ce beau brun, nous faisons contre lui une saisie-gagerie. — Ce gros qui
+          passe en habit vert-pomme, nous avons obtenu contre lui une saisie-brandon….. — Voyez vous
+          cette grosse modiste, demain j’obtiendrai sur elle le <hi rend="i">par corps</hi> : la
+          Lorette, qui croit que son Arthur fait un calembour, le gratifie d’un soufflet.</p>
+        <p>L’<hi rend="i">Arthur clerc d’huissier</hi> est très-généreux après une semaine où il a
+          rempli les fonctions de gardien d’une saisie, il apporte presque toujours à sa belle un
+          foulard dont la marque, par une coïncidence bizarre, présente la lettre initiale du nom du
+          débiteur chez lequel l’Arthur a pris l’hospitalité au nom du Code de commerce. A <pb
+            n="41" xml:id="p41"/>cette époque, les poches d’Arthur clerc d’huissier regorgent de
+          petits instruments tels que canifs, porte-plumes, cachets, bagues, éteignoirs en
+          porcelaine de Chine ou en bronze. Quelquefois même, on y trouve un flageolet en ébène ou
+          une embouchure de cornet à piston en argent. L’Arthur a glané en instrumentant.</p>
+        <p>L’<hi rend="i">Arthur vaudevilliste</hi> est très-recherché de la Lorette en puissance de
+          père et de mère, <pb n="42" xml:id="p42"/>elle sait que les coulisses donnent la grande
+          émancipation. Elle veut être encataloguée, ne fût-ce que dans les chœurs, persuadée que
+          son talent et la protection la classeront bientôt dignement. — L’Arthur se transforme en
+          répétiteur ; pendant un mois il fait réciter la <hi rend="i">Tour de Neste</hi> et <hi
+            rend="i">Frétillon</hi> à son élève : celle-ci ne monte plus en omnibus qu’avec une
+          brochure roulée entre les doigts. Le soir elle va à l’orchestre, et dit à chaque
+          apparition d’actrice : « Si je savais être aussi mauvaise que cela, je me ferais marchande
+          d’allumettes chimiques. »</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img019.jpg"/>
+        </figure>
+        <p>La Lorette, rentrée au domicile, escalade le poêle paternel : sur cette scène improvisée,
+          elle chante les couplets qu’elle a entendus le soir. L’Arthur fait l’orchestre sur un
+          mirliton, le père pleure ou applaudit.</p>
+        <p>— Nina, dit la maman émue, je veux que tu aies le plus tôt possible de beaux
+          appointements. Tu ne les voleras pas… Monsieur Léon, faut la faire entrer à l’Opéra.</p>
+        <p>— C’est un peu haut pour un début.</p>
+        <p>— Eh bien, alors, aux Français ou à la Porte-Saint-Martin ou au Cirque-Olympique. Faut
+          que Nina soit quelque part. Si on n’avait pas poussé mademoiselle Rachel, elle repasserait
+            <pb n="43" xml:id="p43"/>peut-être aujourd’hui des faux-cols à la mécanique.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img020.jpg"/>
+        </figure>
+        <p>Enfin, après avoir étudié les traditions d’un rôle chez une actrice de banlieue, la
+          Lorette fait son premier début, et signe un traité par lequel l’administration s’engage,
+          par écrit, à la payer 1,200 francs par an ; mais, en échange de ce papier, la Lorette en
+          signe un autre qui atteste <pb n="44" xml:id="p44"/>qu’elle a reçu cette somme comptant,
+          et par avance, et qu’elle n’a rien à réclamer pour prix de ses services. Le directeur
+          autorise verbalement l’actrice à dire à tous les Arthurs qu’elle rencontrera : Eh bien, je
+          suis engagée, sans votre secours, et j’ai mille écus d’appointements… et des feux ; par
+          exemple pas de congé, la direction tient trop à moi.</p>
+        <p>L’<hi rend="i">Arthur apprenti pharmacien</hi> est presque toujours le rival de l’Arthur
+          clerc d’huissier et de l’Arthur vaudevilliste : la spatule et le mortier en font un
+          concurrent dangereux ; la pâte de guimauve, les jujubes sont ses projectiles d’attaque.
+          L’été, il fait de l’eau de bluets contre les taches de rousseur.</p>
+        <p>L’Arthur pharmacien entretient le père et la mère de la Lorette de poudre d’eau de Seltz.
+          Cette poudre jouit du double avantage d’être très-rafraîchissante et de servir à mettre
+          les bottes. L’arthur pharmacien a une musique spéciale, dans laquelle il n’est pas rare de
+          lui voir faire des progrès miraculeux. J’en ai connu un qui jouait, avec le pilon dans le
+          mortier, <hi rend="i">Portrait charmant</hi> et <hi rend="i">Fleuve du Tage.</hi></p>
+        <p>La Lorette sait, au battement lointain du <pb n="45" xml:id="p45"/>levier de fer ou de
+          faïence qu’agite son Arthur, ce que celui-ci éprouve ou n’éprouve pas.</p>
+        <p>Le mortier est un écho des peines et des joies de l’âme du pharmacien ; il faut être
+          initié à son langage : quand il est compris, il efface en harmonie le couplet de facture
+          du vaudevilliste et le langage fleuri de la basoche.</p>
+        <p>La Lorette émancipée a de la sympathie pour l’<hi rend="i">Arthur libre.</hi> L’Arthur
+          libre est l’être qui définit la vie : « un deshabillé qui ne doit être gêné par aucun
+          cordon social. » L’Arthur libre est <pb n="46" xml:id="p46"/>l’homme primitif qui a
+          accepté quelques modifications dans ses habitudes : il a subi le joug du pantalon, mais
+          sans l’amendement des bretelles et du gilet ; le chapeau neuf et la botte sans cicatrices
+          lui sont toujours restés inconnus. Il a reçu avec reconnaissance de la nature ses
+          trente-deux dents, et il les considère comme un étau naturel confectionné pour étreindre
+          un tuyau de pipe ; les vapeurs qui sortent du tabac sont les nuages sur lesquels trône ce
+          roi de la création.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img021.jpg"/>
+        </figure>
+        <p>L’Arthur libre est sans façon, comme l’ours ou l’isard. Il croit que les biftecks
+          poussent naturellement sur les plats, comme la fougère dans les bois, et il ne pense pas
+          qu’il faille une invitation pour se repaître d’un produit naturel. C’est ce qui explique
+          comment l’Arthur de cette classe se trouve souvent convive de la Lorette. Comme toutes les
+          idées de l’Arthur libre sur la généralité des fonctions de la vie sont identiques, il
+          s’ensuit qu’il partage d’autres meubles que la table ; et qu’il justifie l’emploi de cette
+          formule : Là où il y a pour un, il y a pour deux.</p>
+        <p>Les Arthurs que l’on peut observer dans la zone de la Lorette à parents anonymes, et ceux
+          qui gravitent dans la sphère des Lorettes populaires, des Lorettes avec aïeux et des <pb
+            n="47" xml:id="p47"/>Lorettes exotiques, ont de traits caractéristiques que nous ne
+          pouvons ici qu’effleurer.</p>
+        <p>Un genre fort curieux à étudier, c’est le genre Arthur qui veut être aimé pour lui-même.
+          Craignant qu’on puisse attribuer un triomphe à une influence de fortune, cet Arthur laisse
+          jeûner l’objet aimé le plus long-temps possible, il voit d’un œil sec les huissiers faire
+          la saisie de ses cartons à chapeaux, et l’hiver <pb n="48" xml:id="p48"/>il promène sa
+          lionne sans fourrure ni bournous.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img022.jpg"/>
+        </figure>
+        <p>Si l’Arthur craint qu’on l’aime pour son tilbury, il va en omnibus ; s’il craint qu’on
+          l’aime pour ses aïeux, il se fait appeler bâtard dans les petits journaux.</p>
+        <p>L’<hi rend="i">Arthur</hi> viveur est une autre division de l’individualité : celui-ci
+          donne à la Lorette un souper dont la carte s’élève à 200 francs, il laisse un cabriolet de
+          régie douze heures à la porte de la dame ; après le dîner il débouche sept bouteilles de
+          champagne, pour exécuter ce qu’il nomme la salve d’amour. Il ne voit rien à l’horizon du
+          lendemain, ni le vide du buffet de la Lorette, ni son crédit mort chez le fournisseur de
+          comestibles. Vingt-quatre heures après, la Lorette, faisant application de l’axiome, Qui
+          dort soupe, se jette sur son divan à six heures un quart. L’Arthur viveur ne comprend pas
+          qu’une femme ait besoin de vivre quand il n’est pas là.</p>
+        <p>L’<hi rend="i">Arthur avare</hi> est encore un type à signaler. Un de ces individus
+          invite un jour trois dames à dîner chez le restaurateur ; mais, avant de se mettre à
+          table, il tire à part le garçon, et lui dit : Toutes les fois que je te demanderai tout
+          haut du vin de Volnay tu nous donneras du Beaune.</p>
+        <p><pb n="49" xml:id="p49"/>Le repas fini, l’amphitryon réclame la carte, et fait un saut à
+          l’endroit de l’addition ; d’abord il cherche à faire comprendre par signes au garçon
+          l’erreur dans laquelle on est tombé : l’Arthur lui dit… Il y a faute à l’article vin.</p>
+        <p>— Je ne pense pas, monsieur, dit le garçon… vous avez demandé trois fois du Volnay.</p>
+        <p>— Oui, disent les dames, nous témoignons.</p>
+        <p>— Et on a marqué trois bouteilles Volnay, continue le garçon.</p>
+        <p>L’Arthur ne pouvant donner l’explication sans dévoiler sa ruse, paye le Beaune comme s’il
+          était Volnay.</p>
+        <p>On cite un Arthur qui fait mettre son nom en toutes lettres sur les fichus et les
+          peignoirs que porte la Lorette de son choix.</p>
+        <p>La Lorette écrit sur son livre de blanchissage :</p>
+        <p>2 chemises de femme marquées Julien.</p>
+        <p>2 camisoles,<space rend="tab"> </space>idem.</p>
+        <p>En cas de brouille, l’Arthur fait citer la blanchisseuse chez le juge de paix, et la
+          poursuit en restitution.</p>
+      </div>
+      <div>
+        <pb n="50" xml:id="p50"/>
+        <head>La Correspondance.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img023.jpg"/>
+        </figure>
+        <p>Si la petite poste n’existait pas, la Lorette éprouverait le besoin de
+          l’inventer. Sur 19,753 lettres que le facteur parisien colporte en omnibus
+          quotidiennement, il y en a 4,369 de Lorettes.</p>
+        <p>Sur ces 4,369 épîtres sur papier rubané, parfumé, satiné, 1,163 sont refusées pour causes
+          de départ, de parjure, ou faute de monnaie.</p>
+        <p>Ces 4,369 lettres sont toutes sous enveloppe, et consomment chacune trois pains à
+          cacheter, non compris l’empreinte de cire : c’est donc 13,107 pains omnicolores et
+          omniformes qui avant d’arriver au papier s’humectent à la rosée des lèvres de
+          Lorettes.</p>
+        <p><pb n="51" xml:id="p51"/>Chaque pain à cacheter a son parfum, son encens, son goût.</p>
+        <p>Il y a des pains à cacheter jujubes qui guérissent le rhume. Il y a des boîtes de pains à
+          cacheter au sagou, à la menthe, à l’angélique ; et chacun d’eux, outre son principe
+          hygiénique, a sa forme symbolique.</p>
+        <p>Le cachet à devises est devenu aussi un besoin général.</p>
+        <p>La Lorette écrit-elle à son cordonnier pour obtenir un délai de paiement ; elle met à <pb
+            n="52" xml:id="p52"/>l’épître un cachet dont l’empreinte représente <hi rend="i">un
+            vaisseau battu par l’orage</hi>, avec ces mots gravés à la proue… <hi rend="i">C’est la
+            vie.</hi></p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img024.jpg"/>
+        </figure>
+        <p>Si elle promet un amour sans partage, elle met par distraction sur l’épître un sceau qui
+          représente le soleil avec pas mal de rayons, un œil au milieu, et au bas on lit : <hi
+            rend="i">Il brille pour tout le monde.</hi></p>
+        <p>Si un Jupiter gants jaunes veut renouveler l’aventure de feue Danaé, la Lorette répond et
+          met sur le cachet une <hi rend="i">Fortune</hi> avec ces mots : <hi rend="i">Pourquoi
+            courir après elle, vaut mieux l’attendre dans son lit.</hi></p>
+        <p>Les flèches, les carquois, les cœurs transpercés, les colombes qui se becquètent, les
+          deux mains qui se joignent à l’instar des enseignes de la bonne foi visible rue
+          Saint-Denis, les lyres éoliennes qui soupirent, les serpents qui se mordent la queue en
+          signe d’union à perpétuité, les bougies qui brûlent, avec ces mots : <hi rend="i">Feu
+            éternel</hi> ; une souris qui est dans la souricière, avec cette légende : <hi rend="i"
+            >Hélas ! je suis prise</hi> ; la mort en postillon avec cette devise sur sa valise : <hi
+            rend="i">Partir c’est mourir</hi> ; un lévrier qui fait concurrence à la poste et tient
+          dans sa gueule un message affranchi, vu que le <pb n="53" xml:id="p53"/>facteur n’est pas
+          apte à faire la perception : voilà à peu près le dépouillement complet de la collection
+          des sceaux que possède la Lorette et qu’elle emploie avec plus ou moins de profusion.</p>
+        <p>La Lorette ne date jamais ses lettres du lieu où elles sont écrites.</p>
+        <p>Si elle est dans une auberge à Dieppe, elle met en vedette de sa correspondance : <hi
+            rend="i">A bord du brick l’</hi><hi rend="sc">Espérance</hi>… (ou autre nom).</p>
+        <p>Si la Lorette écrit d’un sol élevé de deux millimètres au-dessus du niveau de la mer,
+          elle date sa lettre : <hi rend="i">Du haut des Alpes</hi>… ce…</p>
+        <p>Sur deux mille épîtres sentimentales, la Lorette en commence dix-neuf cent soixante-sept
+          par ces mots : Minuit sonne…</p>
+        <p>A ce sujet, voici ce qui arriva à une Lorette très-connue dans Paris.</p>
+        <p>Au moment de quitter Paris pour une excursion, elle anticipe sur les pensées de la nuit
+          qu’elle va passer à la campagne ; et elle écrit par avance à son Arthur quelques phrases
+          qui reflètent les tristes impressions d’une âme veuve.</p>
+        <p>Elle date sa lettre d’une localité dont le nom seul fait venir la chair de poule, et elle
+          trace ces mots :</p>
+        <p><pb n="54" xml:id="p54"/><hi rend="i">De la vallée aux Loups</hi>… <hi rend="i"
+            >minuit</hi>… Elle parle des heures lentes du soir… du concert du vent qui semble
+          pleurer avec elle, des cris lointains et du mauvais augure des chiens de bergerie qui
+          aboient après la lune… enfin, comme les peintres, elle fait son paysage sans sortir de
+          Paris ; elle a déjà répété cinq fois : Il est minuit, je pense à toi…</p>
+        <p>Quand elle s’aperçoit qu’il est six heures de relevée, comme disent les avoués, elle plie
+          sa lettre ; son cachet place sur la cire noire l’empreinte d’une Héro qui pleure son
+          Léandre absent, elle donne la missive au portier et lui recommande de la porter le
+          lendemain matin. La Lorette part avec confiance et se dit : A minuit, n’ayant pas de
+          lettre à faire, je mangerai des crêpes ou de la galette chaude.</p>
+        <p>Le portier, par un excès de zèle excusable parce qu’il est fort rare dans son emploi,
+          porte le soir même la lettre à l’Arthur.</p>
+        <p>Par une double fatalité, la voiture de la Lorette s’étant brisée à la barrière, la dame
+          revient à Paris, et, sans rentrer chez elle, va au spectacle.</p>
+        <p>La première personne qu’elle rencontre, c’est son Arthur : il était alors neuf
+          heures.</p>
+        <p><pb n="55" xml:id="p55"/>Virginie, lui dit l’Arthur, tu as le droit désormais d’être un
+          peu paresseuse dans ta correspondance. Un autre jour je t’excuserai d’être en retard pour
+          m’écrire, parce qu’aujourd’hui, dit-il en montrant la lettre, tu es en avance de trois
+          bonnes heures sur minuit.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img025.jpg"/>
+        </figure>
+        <p>Les Lorettes puristes possèdent un dictionnaire Napoléon Landais. S’il arrive qu’elles
+            <pb n="56" xml:id="p56"/>égarent le premier volume, elles n’emploient plus dans leurs
+          épîtres que les mots qui se trouvent orthographiés dans le volume qui leur reste.</p>
+        <p>On cite une Lorette qui, dans sa correspondance, n’use jamais des mots qui dépassent la
+          onzième lettre de l’alphabet ; son langage écrit est circonscrit dans les limites de la
+          lettre a… à la lettre k. Une autre Sévigné a la série de mots depuis l… jusqu’à z.</p>
+        <p>Il y a des Lorettes qui écrivent comme si elles devaient être lues exclusivement par M.
+          Champollion. L’obélisque de la place de la Concorde aurait le droit de les attaquer en
+          contrefaçon ; voici à ce sujet une anecdote qui prouve qu’on a quelquefois tort de
+          négliger l’étude des hiéroglyphes :</p>
+        <p>Une jeune fille des environs de Vendôme, arrachée au chalet de son père, vient à Paris,
+          et, après quelques transformations, est reçue et baptisée Lorette à grands flots de
+          champagne ; elle s’attache tellement à son parrain, qu’elle regrette de ne pouvoir lui
+          dire en prose écrite ce qu’elle éprouve en le voyant et même en ne le voyant pas. Le
+          parrain, voulant seconder les intentions épistolaires de sa pupille, lui <pb n="57"
+            xml:id="p57"/>fait donner soixante-cinq leçons par un calligraphe qui apprend l’écriture
+          en six séances. La jeune fille est rebelle à l’art des Audoyer et des Brard et
+          Saint-Omer : non-seulement elle n’apprend pas à former les signes graphiques (c’est ainsi
+          que les professeurs nomment l’alphabet) ; mais encore, économe du terrain comme une fille
+          de laboureur qu’elle est, elle n’observe aucune distance dans le sillon, et toute la
+          semence ou plutôt toutes les lettres se touchent et forment une chaîne sans solution de
+          continuité. Le grimoire du diable serait plus déchiffrable.</p>
+        <p>Le parrain reçoit à peu près cent vingt à cent vingt-cinq lettres dans l’espace de six
+          mois. Le facteur seul est assez Figeac pour lire l’adresse. Quant au contenu, le parrain
+          renonce à ses révélations.</p>
+        <p>Le parrain a vingt-quatre ans, il baptise force Lorettes ; la première pupille en conçoit
+          de la jalousie, elle transmet toujours par la poste ses impressions d’absence à l’auteur
+          de ses maux. Les baptêmes continuent, les pupilles augmentent, les lettres redoublent, le
+          facteur les apporte avec une féroce ponctualité ; jamais il ne <pb n="58" xml:id="p58"
+          />met au dos la formule postale de renvoi : <hi rend="i">Inconnu.</hi></p>
+        <p>Enfin, six mois s’écoulent, et la correspondance cesse.</p>
+        <p>A cette époque l’Arthur s’avise de calculer que cinq mille bouteilles de champagne dont
+          il a fait son onde lustrale lui ont coûté 25,000 fr. sans compter les <hi rend="i"
+            >bouteilles frappées</hi> qui augmentent le chiffre d’un cinquième. Il faut <pb n="59"
+            xml:id="p59"/>qu’il renonce forcément à continuer l’œuvre de saint Jean le faiseur de
+          chrétiens ; il est réduit au liquide avec lequel instrumentait l’Église primitive : les
+            <hi rend="i">fonds</hi> baptismaux vont lui manquer ; les Lorettes ont fui. Il jette une
+          pensée sur l’arrière de sa vie, il songe à la Vendômoise qui l’aimait si bien et qui
+          écrivait si mal ; et, comme s’il éprouvait le besoin d’un acte expiatoire, il prend les
+          lettres, se condamne à en déchiffrer au moins une ; faisant application de la loi du
+          progrès, il prend, comme la plus facile à lire, celle qui avait dû être écrite la
+          dernière.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img026.jpg"/>
+        </figure>
+        <p>A l’aide d’une loupe de marchand de tableaux, il parvient à saisir quelques mots. Il les
+          isole, il les bâtonne, il les sépare ; enfin, il arrive à ce produit :</p>
+        <quote>
+          <p><hi rend="i">Tu n’ai qu’un nain</hi>….</p>
+        </quote>
+        <p>Le lecteur de l’épître, ayant cinq pieds sept pouces (ancienne mesure), comprend qu’il y
+          a erreur, et que ce mot est évidemment tronqué ; il poursuit ses recherches et réunit
+          cette phrase :</p>
+        <p><hi rend="i">Tu n’ai qu’un nain fidèle.</hi> Enchanté, il continue et s’arrête de nouveau
+          stupéfié à ce mot : <hi rend="i">maiche.</hi></p>
+        <p><pb n="60" xml:id="p60"/>Mèche, dit-il… et il se gratte les cheveux comme Archimède au
+          moment du fameux problème ; puis il obtient ce produit :</p>
+        <quote>
+          <p><hi rend="i">Tu n’ai qu’un nainfidèle, maiche tème</hi> (mais je
+            t’aime).</p>
+        </quote>
+        <p>La fin du travail donnait pour résultat la nouvelle que la Vendômoise venait d’épouser un
+          boïard ou un hospodar moscovite, et qu’avant de partir elle déposait chez un notaire de
+          Paris 100,000 francs, monnaie de France, que le parrain de la pupille avait le droit de
+          venir réclamer, et qu’elle lui laissait comme souvenir des temps heureux où elle était si
+          malheureuse. Je fais grâce au lecteur des combinaisons graphiques et orthographiques qui
+          formulaient et complétaient cette pensée.</p>
+        <p>Que ceci serve d’enseignement aux indifférents ou aux paresseux qui ne lisent pas les
+          lettres sous prétexte qu’elles sont mal écrites.</p>
+        <p>La Lorette collectionne les lettres qu’elle reçoit.</p>
+        <p>Le plus grand chagrin qu’on puisse lui faire dans une correspondance suivie, c’est de
+          changer souvent de format de papier ; parce que le volume des lettres réunies n’a plus de
+          grâce et ne peut pas faire corps de bibliothèque.</p>
+        <p><pb n="61" xml:id="p61"/>Une Lorette s’excusait un jour d’avoir fait attendre un Arthur
+          dans son antichambre.</p>
+        <p>J’étais occupée, monsieur, dit-elle ; quand vous êtes entré, je repassais vos
+          lettres.</p>
+        <p>— Ah ! mademoiselle, vous relisiez…</p>
+        <p>— Je ne vous dis pas cela. Je repassais vos lettres comme on repasse une collerette, un
+          fichu, un foulard. Une correspondance fripée c’est comme une robe chiffonnée, ça
+          m’offusque.</p>
+        <p>Et en disant cela, la Lorette sonna, demanda un fer chaud, continua son opération, et
+          passa au fer toute la correspondance de la semaine.</p>
+        <p>Après cela chaque lettre fut insérée dans son dossier ou plutôt dans son carton fait en
+          forme de volume, sur le dos duquel il y avait le nom du signataire : comme en librairie on
+          voit sur les œuvres reliées le nom de Victor Hugo, d’Alfred de Vigny et de George
+          Sand.</p>
+        <p>C’est une Lorette qui écrivait à son Arthur :</p>
+        <quote>
+          <p rend="i">Viens de bonne heure, le mien est de te voir.</p>
+        </quote>
+        <p>Une autre, qui aimait beaucoup les officiers, <pb n="62" xml:id="p62"/>répondait à une
+          déclaration par une lettre commençant ainsi :</p>
+        <salute rend="i">Monsieur,</salute>
+        <quote>
+          <p><hi rend="i">Ce qui peut militer en votre faveur, c’est que vous
+              l’êtes</hi> (militaire).</p>
+        </quote>
+        <p>Il y a des Lorettes qui poussent jusqu’à l’avarice la plus sordide l’économie qu’elles
+          font des lettres de l’alphabet.</p>
+        <p>Elles écrivent J rai vous voir.</p>
+        <p>Et si vous leur demandez pourquoi elles suppriment dans j’irai l’apostrophe et l’i, elles
+          disent que c’est de trop et que ça ne change rien au mot.</p>
+        <p>Elles écrivent aussi G dîné.</p>
+        <p>J’ai eu sous les yeux un autographe d’une jeune comique de l’Ambigu qui s’excusait d’une
+          absence à un déjeuner, en ces termes :</p>
+        <p>Mon chair, je croyai que 7 es (<hi rend="i">c’était</hi>) pour de main.</p>
+        <p>Une autre commençait ainsi une pétition au roi des Français : <hi rend="i">Cire.</hi></p>
+        <p>Une amie lui fit observer qu’elle était dans <pb n="63" xml:id="p63"/>une fausse route,
+          la Lorette haussa les épaules, prit une délicieuse boîte de la papeterie Marion, en tira
+          un bâton qui sert à sceller les lettres, et montrant avec orgueil l’inscription, elle
+          prouve à la donneuse d’avis qu’on écrivait cire par un c.</p>
+        <p>Une Lorette mère disait en montrant sa fille : Voilà ma plus belle ouvrage.</p>
+        <p>Un Arthur lui dit tout bas :… mon plus bel ouvrage.</p>
+        <p>La Lorette répond : Ouvrage est du masculin quand c’est un ouvrage d’homme, mais il est
+          féminin quand c’est un ouvrage de femme.</p>
+        <p>Cette méthode grammaticale en vaudrait bien une autre si l’Académie voulait
+          l’adopter.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img027.jpg"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="64" xml:id="p64"/>
+        <head>La table d’Hôte.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img028.jpg"/>
+        </figure>
+        <p>Il y a une heure chaque matin à laquelle on ne peut circuler dans le
+          quartier du faubourg Montmartre sans s’exposer à être pris entre deux paniers à
+          provisions. A cette heure, l’asphalte est envahi par les ménagères de toutes les classes.
+          La Parisienne se fait cuisinière, la Lorette se travestit en cordon bleu, en demoiselle
+          Marguerite ; elle est mère nourrice, hôtelière : elle va faire son marché.</p>
+        <pb n="65" xml:id="p65"/>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img029.jpg"/>
+        </figure>
+        <p>— J’ai ouvert une table, vous dit-elle… vous viendrez, n’est-ce pas ? D’abord je vous
+          invite. La première fois on ne paye pas, on est reçu à titre d’ami ; la seconde fois c’est
+          différent.</p>
+        <p>La spéculatrice déroule verbalement la carte du menu quotidien ; elle a les meilleurs
+          fournisseurs de Paris, un sommelier du roi lui donne du vin en contrebande, et un courrier
+          de la malle-poste lui apporte du Périgord des <pb n="66" xml:id="p66"/>truffes d’occasion.
+          La table est des mieux composées : il y a des peintres, des comédiens et des gros
+          marchands de bois de la banlieue.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img030.jpg"/>
+        </figure>
+        <p>Le prix du dîner est trois francs. Le jour où vous faites honneur à l’invitation que vous
+          avez reçue, vous jouez de malheur, vous dit la maîtresse de la maison : c’est jour
+          maigre ; et le poisson étant hors de prix, on ne vous en donne pas. Vous êtes averti, il
+          faut en faire votre deuil.</p>
+        <p><pb n="67" xml:id="p67"/>Le premier objet qui frappe votre regard est une colossale
+          cuiller à potage en fer galvanisé. La Lorette se penche à votre oreille, et vous dit : Mon
+          argenterie est absente, j’avais un billet à payer hier. Lundi vous la verrez. Cet avis
+          vous dispense de toute réclamation à la vue de votre couvert en étain.</p>
+        <p>— Madame de B…, je vous demanderais un couteau.</p>
+        <p>— Mon Dieu, c’est un fait exprès ! ce diable de coutelier emporte toujours, il ne
+          rapporte jamais ; madame de Saint-Ange, soyez assez bonne pour partager votre couteau avec
+          monsieur. La Lorette hôtelière saisit cette occasion pour vous prier de vous dispenser
+          aussi de serviette, elle vous autorise à prendre le coin de la nappe : sa blanchisseuse ne
+          vient qu’une fois tous les deux mois.</p>
+        <p>Une dispute affreuse s’élève entre le convive du milieu de la table qui fait le service
+          d’officier répartiteur, et un marchand de chevaux qui réclame un peu d’aile de volaille.
+          Il offre de prouver que depuis deux mois il mange exclusivement des pilons ; et il ajoute
+          que toutes les jurisprudences de table d’hôte ont décidé que les ailes de poulet devaient
+          être données de <pb n="68" xml:id="p68"/>préférence, sans distinction d’âge ni de sexe,
+          aux plus anciens pensionnaires.</p>
+        <p>— Un nouveau venu veut dire son opinion.</p>
+        <p>— Un hourra d’anciens et d’anciennes le flétrissent de la double épithète d’affreux
+          égoïste !</p>
+        <p>— Le plaignant est réduit à dévorer son dépit, — mais il ne dévore que ça.</p>
+        <p>Au rôti, un monsieur demande une pomme-reinette.</p>
+        <p>Ah… ah… ah… ah… est le cri général qui s’élève. Le nouvel arrivant ne sait que penser de
+          cette formule de joie, quand on lui présente une fourchette au bout de laquelle est piquée
+          une pomme.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img031.jpg"/>
+        </figure>
+        <p><pb n="69" xml:id="p69"/>— Monsieur, je vous remercie, je ne mange jamais de
+          pommes-reinettes.</p>
+        <p>— Il n’est pas question de manger la pomme, monsieur, c’est d’un jeu qu’il s’agit : nous
+          vous prions, au nom de la société, de tenir de la main gauche cette fourchette, les dents
+          et par conséquent la pomme en l’air ; de l’autre main prenez ce couteau fraîchement
+          émoulé, assenez un coup sur le fruit, enlevez un morceau sans que le tout perde équilibre
+          et tombe, et passez à votre voisin. Ce n’est pas plus difficile que cela.</p>
+        <p>— Le nouveau venu fait ainsi qu’il lui a été expliqué, et du premier coup il abat la
+          pomme.</p>
+        <p>De nouveaux cris s’élèvent au plafond.</p>
+        <p>Ah…. ah…. perdu…. à l’amende !</p>
+        <p>— Vous devez une bouteille de champagne, monsieur, dit la maîtresse de la maison.</p>
+        <p>— Mais on n’avait pas parlé de l’enjeu.</p>
+        <p>— Inutile, c’est connu… Rosalie, montez une bouteille champagne. La maîtresse se baisse
+          de nouveau à votre oreille, et vous dit : Je le fais payer six francs aux Anglais, vous ne
+          le payerez que cinq.</p>
+        <p>Puis la pomme passe de main en main : mais, on dirait que tous les convives, hommes et
+          femmes, ont suivi un cours d’escrime appliquée <pb n="70" xml:id="p70"/>à la pomme, chacun
+          enlève une fraction, et le fruit reste immobile sur la fourchette.</p>
+        <p>— Madame Saint-Lambert, dit une petite voix flûtée à la dame de la maison, est-ce que tu
+          ne vas pas mettre aujourd’hui quelque objet à l’enchère… c’est si amusant.</p>
+        <p>A peine ce vœu est-il formé, que la dame de la maison place sur la table la gravure de
+            l’<hi rend="i">Amour et Psyché</hi>, et s’écrie :</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img032.jpg"/>
+        </figure>
+        <p>— A six francs l’Amour et Psyché.</p>
+        <p><pb n="71" xml:id="p71"/>— Avec son cadre ?</p>
+        <p>— <hi rend="i">Parbleur</hi>… dit un clerc d’avoué.</p>
+        <p>— Sept francs.</p>
+        <p>— Mimi, tu vas trop vite. Ah ! ben, il n’y aura pas de plaisir. Sept francs un sou.</p>
+        <p>— Deux sous.</p>
+        <p>— Sept francs dix, continue gravement un convive qui braque un verre de lunette monstre
+          sur le cadre.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img033.jpg"/>
+        </figure>
+        <p>— Monsieur Bichard, vous voyez bien que <pb n="72" xml:id="p72"/>vous voulez encore
+          amener le trouble ici ; qu’entendez-vous par ces paroles, sept francs dix… est-ce sept
+          francs dix sous ?</p>
+        <p>— Non, monsieur, je ne donne pas sept francs dix sous de cet objet d’art. J’en donne sept
+          francs dix centimes.</p>
+        <p>— Mais j’ai dit avant vous sept francs deux sous, c’est la même chose… Vous vouliez
+          escobarder.</p>
+        <p>— Madame, je ne veux rien avoir à démêler avec vous.</p>
+        <p>— Monsieur Bichard, vous insultez madame, vous lui devez des excuses.</p>
+        <p>— Des excuses, j’aimerais mieux m’en aller sans payer mon dîner,</p>
+        <p>La maîtresse de la maison se penche à l’oreille du nouveau venu et lui dit : « Pour faire
+          cesser ce conflit, et raviver les enchères, dites huit francs. »</p>
+        <p>Le nouveau venu dit huit francs.</p>
+        <p>Le calme renaît. L’hôtesse frappe sur la table avec son verre… — Allons, messieurs, huit
+          francs, mesdames, huit francs ! Amélie, tu ne dis rien… Joséphine, regarde encore… huit
+          francs… Avec le cadre… huit francs… Et on le portera à domicile, moyennant un franc qu’on
+            <pb n="73" xml:id="p73"/>donnera à ma bonne. Huit francs…. L’Amour et Psyché, d’après
+          Gérard… C’est vu… entendu… vu… personne ne dit plus rien…</p>
+        <p>— Allons, monsieur, vous avez la main heureuse pour votre première visite, à vous le
+          tableau pour huit francs. J’espère qu’un autre objet me couvrira de la perte.</p>
+        <p>Madame de Saint-Lambert met en vente un nécessaire de voyage, il est fermé, elle a perdu
+          la clef, mais il y a dans la société des personnes qui connaissent l’objet, et on peut
+          enchérir de confiance.</p>
+        <p>Celui qui gagne le nécessaire le fait ouvrir le lendemain et il y trouve sept manches de
+          rasoirs sans lames, sur lesquels il y a écrit <hi rend="i">Semaine</hi> ; un rouleau de
+          papier chimique contre les engelures, et deux morceaux de savon pour enlever les
+          taches.</p>
+        <p>A la table d’hôte de la Lorette succède la table de bouillotte ou d’écarté ;
+          quelques-unes des habituées ont un dialecte particulier qu’il n’est pas facile de
+          comprendre le premier jour : vous entendez dire en jetant du pique sur table.</p>
+        <p>Je joue piche !</p>
+        <p>Au lieu de dire Je prends, une autre répond :</p>
+        <p>Je tonds.</p>
+        <p><pb n="74" xml:id="p74"/>Ou, si c’est un roi qu’elle relève, elle s’écrie :</p>
+        <p>Je pince le monarque.</p>
+        <p>C’est un vocabulaire à publier à l’usage de ceux qui voudront dîner aux tables d’hôtes de
+          Lorettes.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img034.jpg"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="75" xml:id="p75"/>
+        <head>Les Lorettes au carnaval.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img035.jpg"/>
+        </figure>
+        <p>Gnomes, sylphes, farfadets, djinns, vous êtes des paralytiques, comparés
+          à la Lorette observée aux jours de carnaval. La langue française, pas plus que la langue
+          chinoise, n’a de mots pour exprimer ce mouvement incessant, cette action galvanique, ce
+          tournoiement continu, ce bourdonnement aigu, cette convulsion constante qui constituent la
+          vie de ces myriades de lutins blancs, bleus, tricolores, qui se choquent, se heurtent, et
+          sortent de la ruche du domicile pour n’y rentrer qu’au milieu du carême.</p>
+        <p><pb n="76" xml:id="p76"/>Vous entendez dire à la Lorette :</p>
+        <p>Lucien, je serai demain à l’Opéra à minuit ; Charles, venez me prendre à la Renaissance à
+          une heure ; Adrien, que je vous trouve chez Musard à deux heures, heure militaire ;
+          Ferdinand, à trois heures je reviendrai à l’Opéra ; à quatre je serai au bal chez Grignon,
+          à cinq chez Deffieux, à six aux Vendanges de Bourgogne ; à sept nous irons manger une
+          matelote à Sèvres, à neuf nous déjeunerons au Rocher. Et tout se fait comme il est
+          dit.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img036.jpg"/>
+        </figure>
+        <p><pb n="77" xml:id="p77"/>Et pendant six semaines chaque jour amène la répétition de la
+          veille. Il faut que le corps des Lorettes soit bien mieux confectionné que les machines à
+          vapeur à haute et basse pression ; il n’est pas possible de les faire fonctionner aussi
+          activement sans retouche. Les articulations des Lorettes valent mieux que tous les
+          engrenages de la mécanique. Quelle trempe ! Il faut arriver à croire qu’il y a là-haut un
+          mécanicien qui entend joliment son affaire.</p>
+        <p>Il y a à Paris trois jolies Lorettes : Lorettes <pb n="78" xml:id="p78"/>d’élite,
+          Lorettes-phénix, Lorettes-modèles, Lorettes-types, qui sont illustrées des surnoms de <hi
+            rend="sc">mousqueton</hi>, de <hi rend="sc">baïonnette</hi> et de <hi rend="sc"
+            >carabine</hi>. C’est la triple personnification du cancan, c’est l’incarnation sous
+          trois faces du délire carnavalesque tempéré par beaucoup d’esprit et un peu de sergent de
+          ville. Eh bien ! en quarante jours, depuis le jeudi de….. jusqu’à la mi-carême, cette
+          trinité infatigable a été vue dans 87 bals ; on élève à 1,700 le nombre des contredanses
+          que chacune a dansées, ce qui forme un total collectif de 5,100 contredanses sur
+          lesquelles on peut compter hardiment 1,370 galops.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img037.jpg"/>
+        </figure>
+        <p>Et à propos de bals, vous qui ne dansez pas le cancan, et qui ne poussez pas l’idolâtrie
+          de la transformation jusqu’à échanger votre elbeuf contre un costume de débardeur ou de
+          pirate de l’Archipel, défiez-vous du repos de la Lorette, de la halte qu’elle fait après
+          le galop. Le génie des affaires est éveillé par le bâton de Musard ; et sans que vous vous
+          en doutiez, vous, tranquille spectateur qui vous cachez sous un nez de carton, vous êtes
+          au moment de payer les violons. Voici le dialogue auquel vous allez participer.</p>
+        <p>— <hi rend="i">La Lorette.</hi> Dis donc, beau nez (il faut <pb n="79" xml:id="p79"
+          />faire remarquer au lecteur qu’on ne peut pas dire beau masque à un homme qui ne possède
+          que quelques millimètres de carton sur la figure) ; dis donc, beau nez, tu ne t’amuses
+          guère…. c’est trop cohue… n’est-ce pas ?… moi, je m’embête. La Lorette bâille.</p>
+        <p>Le nez de carton croit pouvoir prendre sur lui de l’imiter.</p>
+        <p>— <hi rend="i">La Lorette.</hi> L’Opéra tombe tous les ans ; j’y viens par habitude,
+          mais, ma foi, je n’y viendrai plus… il y a mieux que ça.</p>
+        <p>— Où ? dit inconsidérément et sans réflexion le nez de carton. Ce monosyllabe est son
+          arrêt de mort : le goujon est ferré, style de pêcheur, il n’y a plus qu’à tirer la ligne
+          et l’amener avec ou sans épuisette.</p>
+        <p>— Où, reprit la sirène ; vous le saurez si vous voulez me faire l’honneur de mettre votre
+          nom sur ma liste de souscription. Je donne jeudi un grand bal dans le salon de
+          Grignon.</p>
+        <p>— Ah !</p>
+        <p>— Tout le monde doit être travesti, c’est de rigueur ; mais vous, monsieur, vous aurez le
+          privilége de venir avec votre nez revêtu de son ornement. Il y aura un souper exquis ; un
+            <pb n="80" xml:id="p80"/>orchestre composé de 70 musiciens et conduit par Musard, qui
+          m’a donné sa parole d’honneur.</p>
+        <p>— Quel est le prix ?</p>
+        <p>— 35 francs pour les agents de change, 15 francs pour les étrangers, et 10 francs pour
+          les amis.</p>
+        <p>— Voulez-vous me permettre de me compter au nombre de vos amis ? demande le rusé nez de
+          carton.</p>
+        <p>— Comment donc, monsieur ! dit la Lorette, mais certainement.</p>
+        <p>Le nez de carton prend son billet, délicieuse contremarque en carton Bristol encadré
+          d’arabesques d’or et de camaïeux en nacre.</p>
+        <p>Il lit :</p>
+        <quote>
+          <p>GRANDE SOIRÉE DANSANTE</p>
+          <p><hi rend="sc">donnée par madame de longchamps</hi>.</p>
+          <p><hi rend="i">Prix d’entrée</hi> : 25 <hi rend="i">francs.</hi></p>
+          <p>On se réunira à 11 heures précises.</p>
+          <p rend="b">Un prince grec assistera au bal.</p>
+          <p><hi rend="sc">Nota</hi>. Une lettre particulière adressée à chaque
+            souscripteur indiquera le jour et le lieu de la soirée.</p>
+        </quote>
+        <p><pb n="81" xml:id="p81"/>La Lorette place à chaque bal d’Opéra cinquante à soixante
+          billets.</p>
+        <p>Le nez de carton demande chaque soir à son portier si on n’est pas venu indiquer le jour
+          et le lieu de la fête à laquelle il a souscrit.</p>
+        <p>Enfin il reçoit la circulaire promise : le jour est fixé ; le bal aura lieu dans les
+          salons du Veau qui tette, place du Châtelet.</p>
+        <p>Le nez de carton arrive à l’heure désignée ; il renvoie son cabriolet et s’élance, son
+          nez à la main, vers le perron du restaurant. Le chef de l’établissement lui dit qu’en
+          effet il était question de donner le bal chez lui ; mais qu’ayant eu avec madame de
+          Longchamps une difficulté le matin même, il a rompu le marché : il sait que le bal se
+          donne chez son confrère des Vendanges de Bourgogne.</p>
+        <p>Le souscripteur reprend un nouveau cabriolet et se dirige vers l’établissement des
+          Vendanges de Bourgogne, et il renvoie son cabriolet. Là, le nez de carton trouve en
+          faction un invalide qui a un bras de bois ; ce qui n’empêche pas le vétéran de remettre à
+          l’arrivant un petit carton imprimé sur lequel on lit :</p>
+        <p>Les personnes invitées au bal de madame de Longchamps sont prévenues qu’il est ajourné à
+            <pb n="82" xml:id="p82"/>mardi prochain, et qu’il aura lieu dans les salons de M.
+          Durand, limonadier, place de la Madelaine.</p>
+        <p>L’énigme est facile à trouver. La Lorette a des créanciers : ils ont su qu’elle donnait
+          un bal par souscription, ils sont venus l’assaillir et ont allégé sa bourse au point
+          qu’elle ne peut plus payer restaurateur, glacier, ni musiciens. Mais elle est femme de
+          tête, elle avise aux moyens de sortir d’embarras : huit jours suffisent pour réparer
+          l’échec.</p>
+        <p>Une des amies de madame de Longchamps <pb n="83" xml:id="p83"/>occupe, rue Laffitte, un
+          appartement magnifique ; elle se nomme Joséphine. Le 19 mars c’est sa fête ; madame de
+          Longchamps lui ménage une surprise : elle fait imprimer de nouvelles invitations et
+          indique la demeure de son amie comme lieu de la réunion.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img038.jpg"/>
+        </figure>
+        <p>Au jour dit, madame de Longchamps va trouver madame… elle lui apporte un bouquet-monstre
+          et lui demande la permission de lui amener le soir quelques amis, sans façon.</p>
+        <p>Le soir arrivé, trois cents personnes envahissent le logis de madame… ; tout le monde est
+          en tenue de bal : chacun se regarde, car rien ne semble préparé pour un bal. La maîtresse
+          du logis, avertie enfin, prend la chose en riant et demande à madame de Longchamps où elle
+          aura un orchestre.</p>
+        <p>— Je connais mon affaire, dit la Lorette ; il y a trois ans que Gervais, le violon, me
+          fait la cour ; je lui ai donné rendez-vous ici, ce soir, à huit heures, et je l’ai prié,
+          comme par caprice, d’apporter son instrument. Une fois entré, il ne sortira plus.</p>
+        <p>— En quelle monnaie le payerez-vous ?</p>
+        <p>— Ceci me regarde.</p>
+        <p>— Mais un violon ne suffit pas.</p>
+        <p><pb n="84" xml:id="p84"/>Je le sais ; aussi ai-je fait pour une clarinette, pour un
+          cornet à piston et pour un alto ce que j’ai fait pour le violon. Il est des circonstances
+          où il faut savoir se sacrifier.</p>
+        <p>Les choses se passèrent au mieux, l’orchestre joua de verve.</p>
+        <p>Restait l’article du souper.</p>
+        <p>Vers deux heures du matin, madame de Longchamps prit la parole : elle raconta qu’un chien
+          enragé venait de mordre le restaurateur, que celui-ci avait mordu ses garçons, et que les
+          garçons pourraient bien mordre les danseurs. On décida à l’unanimité qu’il y avait lieu de
+          se retirer à jeun.</p>
+        <p>Le nez de carton a renoncé aux bals par souscription.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img039.jpg"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="85" xml:id="p85"/>
+        <head>Excentricités.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img040.jpg"/>
+        </figure>
+        <p>Demander à la Lorette de modifier ses allures générales et de les passer
+          au moule vulgaire, exiger qu’elle nivelle sa vie, c’est dénaturer le type, c’est flétrir
+          la statuette par le badigeon. Ce croquis ne veut pas de retouche. Il faut lui laisser ses
+          traits heurtés, ses lignes imprévues, sa physionomie d’exception.</p>
+        <p>La Lorette a sa charte, son catéchisme, son évangile, pour lesquels il ne faut pas
+          demander de réforme.</p>
+        <p>La Lorette a ses joies, ses haines, ses goûts, ses soupçons, ses amours, qui ont leurs
+          formules spéciales.</p>
+        <p><pb n="86" xml:id="p86"/>La Lorette aime le cigare, c’est une confession que nous avons
+          déjà faite et que nous croyons pouvoir renouveler encore, et en cela la Lorette nous
+          semble douée de l’intelligence du bien-être que ne possèdent pas à un degré égal beaucoup
+          de dames non lorettes.</p>
+        <p>De nos jours, Paris est une atmosphère au tabac. Ceci est incontestablement vrai.</p>
+        <p>La fumée du cigare est appelée à remplacer provisoirement ce que nos pères nommaient dans
+          leur temps, les <hi rend="i">brouillards de la Seine</hi> : il n’y a donc rien de mieux à
+          faire que de s’arranger de manière à vivre dans cette brume normale ; et le meilleur
+          moyen, c’est de s’en nourrir.</p>
+        <p>Le gouvernement et les Lorettes sont d’accord sur ce point. Mais, par compensation, il
+          est un autre article sur lequel ils sont en constante opposition.</p>
+        <p>La Lorette éprouve très-souvent l’envie de changer sa couturière contre un tailleur. Elle
+          dit que, dans la loi naturelle, tel ou tel vêtement n’appartient pas plus à un sexe que
+          tel ou tel autre.</p>
+        <p>A cela, le sergent de ville, fraction nomade <pb n="87" xml:id="p87"/>du pouvoir
+          représentatif, répond par un arrêté dont voici, sinon le texte, du moins le sens
+          administratif.</p>
+        <quote>
+          <p>« Toute personne qui (au carnaval excepté) sera vue, <hi rend="i">sans
+              permission</hi>, dans des vêtements autres que ceux de son sexe sera considérée comme
+            masque et mise au violon. »</p>
+        </quote>
+        <p>Aussi le nombre des pétitions tendant à porter culotte tient-il du prodige.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img041.jpg"/>
+        </figure>
+        <p><pb n="88" xml:id="p88"/>Une Lorette écrit :</p>
+        <salute>Monsieur le préfet,</salute>
+        <quote>
+          <p>Désirant donner des coups de canne à une personne qui m’a insultée, je
+            vous prie de me permettre de porter des habits d’homme.</p>
+        </quote>
+        <signed>Adolphine.</signed>
+        <p>Une autre :</p>
+        <salute>Monsieur le préfet,</salute>
+        <quote>
+          <p>Éprouvant le besoin de prendre ma demi-tasse à l’estaminet, je vous prie
+            de m’autoriser à porter des vêtements masculins.</p>
+        </quote>
+        <signed>Clara.</signed>
+        <p>Une autre :</p>
+        <salute>Monsieur le préfet,</salute>
+        <quote>
+          <p>Ayant été douée par la nature de moustaches qu’aucune poudre épilatoire
+            ne peut extirper, et étant dans la nécessité de me faire la barbe, comme vous, monsieur
+            le préfet, veuillez me permettre de porter les habits de votre sexe.</p>
+        </quote>
+        <signed>Évelina.</signed>
+        <p>Etc., etc., etc…</p>
+        <p>Le chef de bureau des <hi rend="i">travestissements</hi> répond à chacune des
+          solliciteuses :</p>
+        <salute><pb n="89" xml:id="p89"/>Mademoiselle,</salute>
+        <quote>
+          <p>Monsieur le conseiller d’État préfet de police est désespéré de ne
+            pouvoir accorder la permission que vous sollicitez, l’autorisation du travestissement ne
+            se concède que pour des raisons de santé.</p>
+        </quote>
+        <p>Le lendemain une Lorette mieux inspirée que les autres écrit :</p>
+        <salute>Monsieur le préfet,</salute>
+        <quote>
+          <p>Me trouvant pour le moment à l’agonie, je vous prie d’être assez bon pour
+            m’autoriser à porter pendant deux ans des habits d’homme.</p>
+        </quote>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img042.jpg"/>
+        </figure>
+        <quote>
+          <p><pb n="90" xml:id="p90"/>Ci-joints les certificats de trois médecins.</p>
+        </quote>
+        <p>Quand la Lorette a obtenu la permission si désirée, on dirait qu’elle a eu en même temps
+          le privilége de la transformation ; elle change de sexe, on croirait qu’elle a porté
+          chapeau toute sa vie et qu’elle est née avec des bottes : elle fait la roue avec sa canne,
+          arrête les passants qui fument et allume son cigare au leur ; quelquefois même elle prend
+          le meilleur des deux et s’esquive. Au spectacle elle envahit la place de celui qui sort et
+          met dans sa poche le gant qu’il a laissé comme signe de son retour. La Lorette-homme croit
+          que personne ne se doute de sa métamorphose ; si un sergent de ville s’approche et lui
+          demande l’exhibition de sa permission, elle lui rit au nez et dit : « Je ne suis pas une
+          femme ; » mais quand l’agent de surveillance insiste, la Lorette se dit : « Il faut que ce
+          soit une farce, on m’aura trahie. »</p>
+        <p><hi rend="i">Vendetta de Lorettes.</hi> — Se venger comme le commun des martyrs ce serait
+          à dégoûter du plaisir des dieux ; la Lorette a donc perfectionné ce genre d’exercice.</p>
+        <p>Quand la Lorette, dans un paroxysme de jalousie, a dit en montrant son Arthur : Je veux
+          que cet être-là périsse sur l’échafaud, ou qu’<hi rend="i">il</hi>
+          <pb n="91" xml:id="p91"/><hi rend="i">aille sur le tabouret</hi>, expression surannée et
+          sans valeur qui se conserve encore dans le langage populaire, elle écrit immédiatement une
+          lettre au procureur du roi et accuse son Arthur d’attentat contre l’État. Elle ajoute
+          qu’il cache deux cartouches à la congrève sous son oreiller. Le magistrat ne tarde pas à
+          faire sa visite à l’inculpé ; heureusement ce jour-là le parquet est en bonne humeur et il
+          reconnaît <pb n="92" xml:id="p92"/>que les deux prétendues cartouches politiques sont deux
+          vieilles fusées <hi rend="i">Ruggieri</hi> qui ont servi au dernier feu d’artifice de
+          Tivoli.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img043.jpg"/>
+        </figure>
+        <p>En descendant l’escalier, le parquet trouve la Lorette qui baise ses bottes en criant
+          grâce et qui offre, comme dans les mélodrames de M. de Pixerécourt, ses boucles d’oreilles
+          et ses cheveux pour sauver son amant. Elle termine la scène par un évanouissement.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img044.jpg"/>
+        </figure>
+        <p><pb n="93" xml:id="p93"/>Si un Arthur chante en brossant le matin son habit :</p>
+        <quote>
+          <l>Il faut partir, Agnès l’ordonne,</l>
+        </quote>
+        <p>La Lorette lui assène sur le crâne un coup de hachette à fendre le sucre, en lui disant :
+          Va porter cela à ton Agnès.</p>
+        <p>S’il fredonne :</p>
+        <quote>
+          <l>Vos pieds dans le satin</l>
+          <l>N’osent fouler l’herbette,</l>
+        </quote>
+        <p>La Lorette s’écrie : Alfred ou Gustave, je vais tout à l’heure te fouler quelque chose ;
+          et elle lance immédiatement au chanteur un coup de tibia dans ce que Paul de Kock nomme,
+          dans ses jours de chasteté, — le fémur.</p>
+        <p>Si la Lorette soupçonne son Arthur d’avoir après le spectacle un souper avec des rivales,
+          elle le prie de la reconduire à domicile : elle le fait passer près d’un corps-de-garde
+          vers minuit ; et à peine est-elle à quelques pas du factionnaire qu’elle jette à
+          l’improviste son châle en sautoir sur les épaules de son sigisbé, et d’une voix
+          d’adjudant-major elle crie : <hi rend="i">au voleur…</hi> Le caporal accourt, l’Arthur est
+          signalé comme attentant au droit de propriété. « Mais, Annette, tu es folle,
+          s’écrie-t-il. — Caporal, <pb n="94" xml:id="p94"/>mettez les menottes à ce drôle qui se
+          permet de me tutoyer ; il se croit sous la République : jamais je n’ai vu cet être. » Le
+          caporal emmène l’Arthur, la lionne s’éloigne ; et après une nuit de confinement solitaire,
+          le captif parvient à prouver que s’il n’appartient pas à cette classe honorable qui donne
+          des châles il ne doit pas non plus être rangé dans la catégorie de ceux qui les
+          prennent.</p>
+        <p>La Lorette jalouse ne reconnaît aucunes lois sociales, aucune condition de mutisme,
+          aucune force paralysante.</p>
+        <p>Pendant la revue de la garde nationale, elle fend les rangs au défilé et dit à un Arthur
+          capitaine : En passant sous le balcon de Louise, si vous saluez de l’épée, je vous
+          soufflette de mon éventail à la tête de votre compagnie.</p>
+        <p>En passant sous le balcon en question, le capitaine tourne la position, il se mouche.</p>
+        <p>Si la Lorette est dans une stalle de balcon au théâtre et qu’elle aperçoive à l’orchestre
+          son Arthur regarder langoureusement les actrices, la Lorette se lève et s’écrie : Adolphe,
+          aurez-vous bientôt fini de <hi rend="i">lancer votre prospectus</hi> aux actrices ?</p>
+        <p><pb n="95" xml:id="p95"/>Et elle reprend sa place avec la gravité d’un député qui se
+          retire de la tribune où il a demandé qu’on empêchât les tribunes d’éternuer.</p>
+        <p>Il y a toujours une époque dans la vie de la Lorette où la misanthropie la pousse à fuir
+          tous les hommes… de Paris ; elle croit que le paradis terrestre avec ses anges est
+          extra-muros. Alors elle réalise ses capitaux et s’élance dans le coupé d’une diligence
+          escortée d’un carton à chapeaux.</p>
+        <p>Elle va se désaltérer à tous les ruisseaux d’onde minérale qui coulent dans notre belle
+            <pb n="96" xml:id="p96"/>patrie ; elle fait collection des plus beaux cailloux qu’elle
+          trouve sur la voie publique ; elle achète des morceaux de vieilles marmites romaines ;
+          elle fait un herbier de pissenlits et de tiges d’épinards sauvages. Mais le mal du pays
+          court les monts avec elle. Un matin elle se réveille avec l’appétit de sa terre natale et
+          la soif de son Arthur. Il y a entre lui et elle beaucoup de myriamètres. Sa bourse est
+          vide, ce qui est absolument pour elle comme si la diligence était pleine. Enfin le Destin,
+          sous les traits d’un conducteur de messageries, la commandite d’une place de
+          banquette !</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img045.jpg"/>
+        </figure>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img046.jpg"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="97" xml:id="p97"/>
+        <head>Budget de la Lorette.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img047.jpg"/>
+        </figure>
+        <p>Maintenant suivons la Lorette sur le terrain de l’économie domestique ;
+          assistons au morcellement qu’elle fait de sa fortune non patrimoniale et très-peu
+          héréditaire. Suivons la répartition de ses capitaux.</p>
+        <p>Bien des gens se demandent à quoi l’argent peut servir aux Lorettes ; et sans creuser la
+          question, ils répondent :</p>
+        <quote>
+          <p>A rien ;</p>
+        </quote>
+        <p>Ou bien en vers,</p>
+        <quote>
+          <l>L’argent pour la Lorette est un meuble inutile.</l>
+        </quote>
+        <p>Et cette conclusion, ils la tirent de cette grande vérité sociale : que les robes, les
+          bournous, <pb n="98" xml:id="p98"/>les chapeaux, les gants, les brodequins, les
+          lorgnettes, les ombrelles, etc., etc., sont une manne bienfaisante qui tombe gratuitement
+          sur la Lorette dans son pèlerinage vers la terre promise. La Providence, qui fait tomber
+          cette manne, a ordinairement des gants jaunes.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img048.jpg"/>
+        </figure>
+        <p>Or, si la Lorette n’a pas besoin d’acheter, à quoi servent les <hi rend="i"
+            >achetoirs</hi>, mot trivial ennobli par le grand Napoléon qui, au dire d’Émile Marco de
+          Saint-Hilaire, se plaisait à en faire usage !</p>
+        <p>Il y a des Lorettes qui nomment les <hi rend="i">achetoirs</hi> quibus ;</p>
+        <p><pb n="99" xml:id="p99"/>D’autres nomment le quibus, grains d’or ou d’argent, suivant la
+          nuance du métal.</p>
+        <p>Mais ne sortons pas de la question et montrons à quels nombreux impôts la Lorette est
+          obligée de satisfaire, ce qui expliquera la rapidité torrentuelle avec laquelle s’écoule
+          entre ses mains un fleuve d’or, en d’autres termes comment elle dévore un demi-sac de
+          mille francs.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img049.jpg"/>
+        </figure>
+        <p>La veille du jour ou le pactole, c’est-à-dire le sac de grosse toile grise monte au
+            domicile<pb n="100" xml:id="p100"/>de la Lorette, elle est réduite à exploiter ce
+          qu’elle nomme sa pièce de crédit. C’est une pièce de monnaie presque toujours de cinq
+          francs ; quand elle est de vingt francs elle prend alors le nom de grande pièce de
+          crédit</p>
+        <p>La propriétaire de la pièce en question ne la change jamais, c’est un talisman à l’instar
+          de ceux que M. Perrault donnait à ses fées.</p>
+        <p>On dit à la crémière, à l’épicière : Je ne vous <pb n="101" xml:id="p101"/>paye pas
+          aujourd’hui, je ne veux pas changer ; et en disant cela on montre la pièce, afin de
+          prouver que si on voulait on changerait. Il faut avoir soin de n’acheter aucun objet qui
+          dépasse quatre-vingt dix-neuf sous trois liards ou 499 centimes. A l’aide de ce procédé,
+          il y a des Lorettes qui ont dû jusqu’à 200 francs à leur porteur d’eau.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img050.jpg"/>
+        </figure>
+        <p>Arrivons au budget.</p>
+        <p>Passons en revue chaque article.</p>
+        <p>Le <hi rend="i">loyer.</hi> — La Lorette intelligente peut mettre 0 à ce chapitre de
+          dépense. Depuis quelques années l’art de se loger gratis a fait de grands progrès vu la
+          rapidité des constructions. Dans la rue Notre-Dame-de-Lorette il a été long-temps d’usage
+          de prendre des locataires sans leur imposer aucune taxe, pas même le sou pour livre, ni la
+          dîme du gaz. Quelques propriétaires ont même poussé si loin le désir d’avoir les lieux
+          garnis, qu’ils payaient les ports de lettres de leurs locataires. On concédait
+          gratuitement, pour six mois, un apparpartement complet aux dames assez intrépides pour
+          risquer les rhumatismes produits par les pleurs du plâtre. Quand on avait essuyé pendant
+          deux termes ces susdites pleurs, on <pb n="102" xml:id="p102"/>rentrait dans la classe des
+          locataires payant leur terme. Les hôtes, trop fiers pour se soumettre à ce joug, allaient
+          chercher dans la maison voisine d’autres pleurs à tarir. Dans cette lutte contre les
+          plâtres neufs, les Lorettes étaient de vraies Jeanne Hachette ; je n’emploie pas, pour
+          cause, comme expression comparative, le nom de Jeanne d’Arc. On a vu de ces héroïnes
+          changer dans l’espace de quatre années, seize fois de domicile ou plutôt de bivouac.</p>
+        <p>Mais, malheureusement pour ces intrépides locataires, les maisons neuves ont vieilli et
+          on trouverait à peine aujourd’hui à louer rue Notre-Dame-de-Lorette une mansarde payable
+          en rhumatismes. La Lorette est réduite à porter ses pénates économiques rue Navarin, rue
+          Neuve-Bréda, rue de Laval, rue Fontaine-Saint-George, rue de La Ferrière, où elle
+          rencontre encore, sans bourse délier, des domiciles provisoires. En cherchant bien, en
+          guettant l’apparition du bouquet des charpentiers et des couvreurs sur le faîte des
+          édifices, la Lorette peut donc arriver à ne pas grever son budget de la dépense du
+          loyer.</p>
+        <p>La <hi rend="i">bonne</hi> ou <hi rend="i">femme de ménage de</hi>
+          <pb n="103" xml:id="p103"/><hi rend="i">la Lorette.</hi> — Voici un moyen qui nous a été
+          révélé et qui nous a paru fort ingénieux pour arriver à l’économie des gages d’une
+          chambrière. Admettons d’abord, lecteur, que vous soyez une jolie Lorette et que vous
+          connaissiez un aide-de-camp du roi, ou un questeur de la chambre des députés, ou un
+          député, ou même un capitaine de la garde nationale qui ne chante jamais <hi rend="i">la
+            Marseillaise.</hi></p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img051.jpg"/>
+        </figure>
+        <p><pb n="104" xml:id="p104"/>Quand vous avez, comme on dit, dans votre manche, votre
+          aide-de-camp, votre questeur, votre député, ou votre garde national, vous vous mettez en
+          quête d’une femme de ménage ou cordon-bleu, dont le nom de famille commence par ces deux
+          lettres : DE.</p>
+        <p>Supposons donc que vous ayez découvert Félicité Denise, et que vous l’ayez prise en
+          service à raison de 300 francs par an.</p>
+        <p>Quand arrive le premier mois de gages, vous prenez une feuille de papier vélin et vous
+          signalez à la bienfaisance royale, ou ministérielle, madame Félicie <hi rend="i">de
+            Nise</hi>, rejeton d’une noble et malheureuse famille dont la fortune s’est engloutie
+          sous les décombres des révolutions. Quand la lettre est formulée, vous allez trouver votre
+          Mécène, vous lui imposez une apostille en faveur de votre protégée ; ou bien vous obtenez
+          qu’il aille solliciter lui-même une pension ou un secours pour la descendante des
+          Nises.</p>
+        <p>La gratification arrive au domicile de la Lorette, qui dit à Denise : Tant que tu seras
+          ici, tu resteras noble et pensionnée du gouvernement. Le cordon-bleu prend ses fonds et
+          retourne à sa broche.</p>
+        <p><pb n="105" xml:id="p105"/>Des Lorettes ont, dit-on, d’autres moyens de salarier leurs
+          cuisinières ; il y a même, assure-t-on, de ces dernières qui payent pour servir leurs
+          maîtresses, comme les chefs de claqueurs payent pour applaudir les auteurs. Mais les faits
+          positifs nous manquent, nous demandons le dépôt aux renseignements.</p>
+        <p>La <hi rend="i">caisse d’épargne.</hi> — La Lorette met ses <pb n="106" xml:id="p106"
+          />châles au Mont-de-Piété, qui lui prête de l’argent à 14 p. 100 ; elle place ses fonds à
+          la caisse d’épargne, qui les emprunte à 4 p. 100. La spéculation paraît un peu hasardée,
+          mais il y a manière de la rendre fructueuse. Quand la Lorette est en jouissance de livret,
+          quand elle passe à la catégorie de rentière, elle dit : Charles, vous seriez bien gentil
+          de placer quelque chose pour moi — Adrien, mettez 50 francs sur mon livret — Auguste,
+          faites-moi un compte rond. Son livret est comme ces albums sur lesquels il faut bon gré
+          malgré inscrire quelque chose. Cette dépense est portée au budget comme recette.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img052.jpg"/>
+        </figure>
+        <p>Les <hi rend="i">pâtisseries.</hi> — Un cinquième de la fortune privée de la Lorette est
+          dévoré par le gâteau d’amandes, le biscuit au rhum, la tarte aux fraises, et la galette.
+          Il y a des Lorettes qui consomment 90 mètres de pâte-ferme par trimestre ; elles exportent
+          les produits des pâtissiers jusqu’au boudoir, vous trouverez du feuilletage jusque sous
+          l’édredon. Chaque page du roman qu’elles lisent le soir est mouchetée par la cerise cuite,
+          tatouée par l’abricot confit.</p>
+        <p><hi rend="i">Cabriolets.</hi> — La Lorette professe un enthousiasme fébrile pour le
+          cabriolet à quatre <pb n="107" xml:id="p107"/>roues dit cabriolet milord ; le fiacre est
+          pour elle une Bastille ; si parfois elle fait quelques concessions au mystère et consent à
+          s’abriter derrière les stores garance de la citadine, elle s’évade le plus tôt possible de
+          cette prison non-modèle et reprend position dans le <hi rend="i">calechino</hi> : c’est le
+          nom que les Arthurs donnent au cabriolet dont le cocher est isolé.</p>
+        <p>Écrivez à une Lorette : Je vous offre pour la vie un cœur constant,</p>
+        <p>L’épître court les chances de rester sans réponse.</p>
+        <p>Écrivez : Je vous offre pour l’éternité une flamme vivace,</p>
+        <p>Il peut se faire que le facteur vous rapporte votre pétition sans réponse.</p>
+        <p>Mais écrivez à la Lorette :</p>
+        <p>J’ai l’honneur de mettre, pour la journée, à votre disposition un cabriolet à quatre
+          roues ;</p>
+        <p>La Lorette est femme à descendre perpendiculairement par la fenêtre, pour vous apporter
+          plus vite son adhésion.</p>
+        <p>La Lorette va au bois en cabriolet à quatre roues, elle donne trois francs de prime au
+          cocher quand il peut accrocher la voiture d’un prince grec ou d’un agent de change
+          parisien.</p>
+        <p><pb n="108" xml:id="p108"/>C’est souvent un moyen de faire faire un tour à la roue de
+          fortune.</p>
+        <p>Le lendemain la Lorette va au bois sur un cheval de louage.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img053.jpg"/>
+        </figure>
+        <p>Un mois après elle s’y montre avec ses équipages et quelquefois avec ses gens.</p>
+        <p>Toutes ne sont pas également favorisées par les chances de la vie, témoin certaine
+          Lorette à laquelle advint ce que nous allons dire :</p>
+        <p><pb n="109" xml:id="p109"/>Un matin elle se réveille avec de grandes idées d’ambition,
+          elle regarde avec tristesse le joug quasi conjugal où elle est attachée. Son Arthur fait
+          des feuilletons, et la Lorette se livre à la botanique et à la chimie appliquées aux
+          besoins usuels, en d’autres termes elle épluche les légumes du ménage et a la gérance du
+          pot-au-feu ; soudain elle se rappelle avoir vu dans les contes pas mal de rois épouser <pb
+            n="110" xml:id="p110"/>des bergères, elle sait que l’antique usage était d’envoyer le
+          portrait d’une jeune fille à un front couronné et que ce front perdait immédiatement la
+          tête ; la Lorette dont s’agit jeta les yeux sur sa majesté le roi d’Angleterre,
+          c’est-à-dire sur monsieur le mari de sa majesté la reine d’Angleterre (nous tenons même en
+          matière de contes, à rester dans la vérité du langage constitutionnel) ; une
+          nécromancienne lui a prédit qu’elle aurait les plus hautes destinées ; la Lorette traduit
+          cet arrêt de la sibylle par ces phrases :</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img054.jpg"/>
+        </figure>
+        <p>Je dois convertir mon argenterie et mes meubles en délicieux chapeaux et en robes
+          exquises, quitter les fiacres parisiens pour le paquebot anglais, prendre place dans une
+          loge au théâtre le plus près possible du mari de la reine, et là, attendre qu’il tombe à
+          la renverse frappé par l’éclat de mes yeux. Ce ne sera pas long.</p>
+        <p>La Lorette partit. Les chapeaux se fanèrent, le mari de la reine brava l’éclair comme
+          s’il eût été assuré par la compagnie du paragrêle.</p>
+        <p>Bien plus, la loge de la Lorette sembla aux ombrageux insulaires un lazaret de
+          pestiférés, on s’en isola, parce qu’il circula un soupçon <pb n="111" xml:id="p111"/>sur
+          l’étrangère : les faiseurs de cancans de Londres se dirent que la dame avait une mission
+          de basse diplomatie et qu’on l’avait envoyée à Londres non pas pour ses beaux mais pour
+          ses bons yeux.</p>
+        <p>Quand cette épigramme est en anglais, lecteur, on dit qu’elle est fort agréable : mais je
+          la donne comme je la sais.</p>
+        <p>Au bout de deux mois de stage, l’ambitieuse Lorette fut obligée de renoncer à la conquête
+          qu’elle avait préméditée ; elle n’avait pas même mis en réserve les frais de retour,
+          croyant revenir à Calais dans un yacht royal : elle en était à blasphémer contre la
+          sibylle… Enfin un quaker la prit en pitié et lui dit :</p>
+        <p>Ma fille, tu as fait une boulette ; quand on s’aventure dans un climat où l’on peut
+          manger jusqu’à son dernier denier, il faut choisir un pays d’où il soit possible de
+          revenir à pied.</p>
+        <p>Cet aphorisme est encore très-agréable en langue britannique.</p>
+        <p>Le quaker fit un demi-tour à droite et disparut.</p>
+        <p>Heureusement un marchand de savon de Windsor ramena la Lorette sur le sol natal et fit
+          les frais de retour, à condition qu’elle <pb n="112" xml:id="p112"/>tiendrait pendant six
+          mois, comme demoiselle de comptoir, son magasin de parfumerie.</p>
+        <p>L’<hi rend="i">aumône.</hi> — La Lorette est charitable par superstition, elle dit que
+          l’aumône porte bonheur. Dix mille affamés doivent à ce préjugé de ne pas se coucher à
+          jeun. Il y a des croyances qui font plus de mal que celle-là.</p>
+        <p>La Lorette devenue riche envoie 20 francs au préfet de son département pour l’extinction
+          de la mendicité, et pare l’église de son village.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img056.jpg"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="113" xml:id="p113"/>
+        <head>Les médecins de Lorettes.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img055.jpg"/>
+        </figure>
+        <p>Nous avons pensé que ce chapitre ne devait pas figurer au budget des
+          dépenses, et qu’il rentrait plutôt dans la section des recettes… voilà pourquoi nous
+          l’avons placé sous un titre spécial.</p>
+        <p>La médecine appliquée aux souffrances de la Lorette doit être considérée comme un mandat
+          purement officieux. La spéculation lui est totalement étrangère.</p>
+        <p>La clientelle d’un médecin de Lorettes se grossit par la filiation non interrompue de
+          malades qui considèrent le docteur comme un ami.</p>
+        <p>On vient <hi rend="i">causer avec lui santé ou maladie</hi> comme on causerait promenade
+          ou théâtre.</p>
+        <p><pb n="114" xml:id="p114"/>— Docteur, je suis chargée, de la part de Mathilde, de vous
+          remercier de vos soins…</p>
+        <p>— Il y a long-temps qu’elle n’est venue.</p>
+        <p>— Elle n’a plus besoin de venir, docteur…</p>
+        <p>Elle est guérie.</p>
+        <p>— C’est juste.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img057.jpg"/>
+        </figure>
+        <p>— Je voudrais bien être comme elle… Je souffre affreusement, docteur.</p>
+        <p>— Contez-moi cela, mon petit ange.</p>
+        <p><pb n="115" xml:id="p115"/>(Ici le récit plus ou moins détaillé des maux de la Lorette,
+          et la prescription de l’Hypocrate.)</p>
+        <p>— Merci, docteur… Je dirai bien des choses de votre part à Mathilde, n’est-ce pas ?…
+          Dites donc, docteur, vous seriez bien aimable de me confier votre parapluie. Le temps se
+          couvre.</p>
+        <p>La Lorette prend le parapluie le plus coquet qu’elle trouve près de la cheminée.</p>
+        <p>A la seconde visite, la malade ne rapporte pas le parapluie, mais elle emporte un flacon
+          ou une aquarelle, ou une statuette qu’un client a donnée au docteur, elle part en
+          s’écriant : Docteur, c’est pour me rappeler que je vous dois deux visites.</p>
+        <p>A la troisième visite, la Lorette arrive en cabriolet, et dit en entrant : Docteur,
+          prêtez-moi donc de quoi renvoyer mon <hi rend="i">ver rongeur.</hi> La Lorette prend vingt
+          francs sur la cheminée ; elle en soustrait un quart pour le cocher, et met le reste, par
+          distraction, dans sa bourse.</p>
+        <p>C’est le médecin qui paie au malade sa visite.</p>
+        <p>Au jour de l’an, la Lorette éprouve le désir de témoigner au docteur sa reconnaissance ;
+            <pb n="116" xml:id="p116"/>elle lui envoie la gravure d’<hi rend="i">Hippocrate refusant
+            tes présents d’Artaxerce.</hi></p>
+        <p>Ce jour-là le docteur reçoit ce même tableau de vingt-cinq clientes.</p>
+        <p>Quand la maladie condamne la Lorette à garder le logis, et qu’elle craint de convertir
+          son boudoir en infirmerie, elle a recours à son médecin ordinaire pour obtenir admission
+          dans un des temples ouverts aux infirmités humaines.</p>
+        <p>Elle se fait conduire au Parvis-Notre-Dame, entre sans façon au bureau du médecin de
+          service, et fend la foule des prolétaires.</p>
+        <p>— Docteur, je viens, au nom d’un de vos confrères, solliciter pour moi un des trente
+          mille divans gratuits que la philanthropie entretient pour ceux qui n’aiment pas à mourir
+          à domicile.</p>
+        <p>— Mais vous n’êtes pas inscrite à l’indigence ?</p>
+        <p>— J’ai le droit d’y figurer. J’ai tout perdu hier à la bouillotte.</p>
+        <p>— C’est différent. Nous allons vous faire admettre à l’Hôtel-Dieu.</p>
+        <p>— A l’Hôtel-Dieu… Diable !.. j’aime mieux autre chose.</p>
+        <p><pb n="117" xml:id="p117"/>— A la Charité ?</p>
+        <p>— La Charité ! Je n’en veux pas pour deux sous. Beaujon, à la bonne heure : la galanterie
+          administrative en a fait une clinique parfumée. C’est un champ d’asile de Lorettes, une
+          Abbayeaux-Bois de viveuses. On y meurt en buvant de la bourrache dans des verres à
+          champagne !</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img058.jpg"/>
+        </figure>
+      </div>
+      <div>
+        <pb n="118" xml:id="p118"/>
+        <head>Ce que deviennent les vieilles Lorettes.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img059.jpg"/>
+        </figure>
+        <p>Vieillir, ou plutôt savoir vieillir est un art que les Lorettes, mieux
+          qu’aucune femme du monde, ont le secret de mettre à profit.</p>
+        <p>Quand le papillon se fait vieux, il tombe en léthargie sur la fleur où il a butiné, et
+          puis il meurt sans faire aucun effort pour essayer encore la vie.</p>
+        <p>La Lorette voit le temps avancer sans s’effrayer.</p>
+        <p>A quarante ans la Lorette se réveille un <pb n="119" xml:id="p119"/>malin ambitieuse.
+          Elle se rappelle le nom de vingt Arthurs qui sont devenus préfets, procureurs du roi,
+          députés ou ministres.</p>
+        <p>Elle se met en chasse de bureaux de tabacs, de bureaux de papiers timbrés, de bureaux de
+          poste aux lettres.</p>
+        <p>Elle obtient tout, sous condition de ne pas publier ses mémoires et de brûler les
+          anciennes lettres d’amour.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img060.jpg"/>
+        </figure>
+        <p><pb n="120" xml:id="p120"/>Les hommes en place ont une peur atroce des souvenirs de
+          jeunesse.</p>
+        <p>La vieille Lorette est très-recherchée des hypocondriaques comme dame de compagnie, son
+          habitude des vicissitudes de la vie lui a donné une égalité d’humeur que rien ne
+          détruit.</p>
+        <p>La Lorette qui retrouve un étudiant passé à l’état de notaire se fait commanditer et
+          devient marchande à la toilette, ou achète un fonds <pb n="121" xml:id="p121"/>de table
+          d’hôte et le notaire vient dîner en remboursement de ses avances.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img061.jpg"/>
+        </figure>
+        <p>La Lorette qui a vécu dans l’intimité de jeunes vaudevillistes les trouve directeurs,
+          elle se place sous leur aile et se fait modestement ouvreuse de loges.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img062.jpg"/>
+        </figure>
+        <p>Vous retrouverez la Lorette de quarante ans à chaque jalon de l’échelle sociale ou
+          matrimoniale.</p>
+        <p>Votre marchand de bois vous envoie sa <pb n="122" xml:id="p122"/>facture par sa femme,
+          vous reconnaissez un débardeur Musard.</p>
+        <p>Vous prenez des chevaux pour un voyage ; la maîtresse de poste approche, vous retrouvez
+          en elle un ex-postillon de Lonjumeau de l’Opéra.</p>
+        <p>Les princes étrangers, les sous-préfets français font aussi une prodigieuse importation
+          et exportation de la Lorette.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img063.jpg"/>
+        </figure>
+        <p><pb n="123" xml:id="p123"/>Il y a des pays où la Lorette est <hi rend="i">maire</hi>, son
+          époux se repose sur elle des soucis municipaux. La Lorette correspond avec le préfet du
+          département, qui souvent se dit : C’est incroyable, cette écriture-là ne m’est pas
+          inconnue.</p>
+        <p>Dans une tournée de recrutement le préfet arrive dans la commune :</p>
+        <p>« Tiens, c’est toi, Élisa ! » s’écrie-t-il, oubliant son rôle ;… puis, rappelé à l’ordre
+          par un chut… et par l’écharpe tricolore du magistrat subalterne… il fait trois saluts et
+          dit : « Madame, j’ai l’honneur de vous présenter mes respects. Cette commune est des mieux
+          administrées.</p>
+        <p>Et il ajoute tout bas :</p>
+        <quote>
+          <p>« Si tu veux, au carnaval nous irons faire une partie de bal
+            Chicard. »</p>
+        </quote>
+        <p>Le maire répond : « Monsieur le préfet, vous me faites beaucoup d’honneur. »</p>
+        <p>Sous le cachemire de la femme du financier, sous la tiretaine de la fermière, même sous
+          le sarrau de serge des sœurs de <hi rend="i">la sagesse</hi>, partout la Lorette se trahit
+          à l’œil exercé qui la cherche…</p>
+      </div>
+      <div>
+        <pb n="124" xml:id="p124"/>
+        <head>Un poème.</head>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img064.jpg"/>
+        </figure>
+        <p>Toutes les palmes lyriques ne seront pas exclusivement le monopole de vos
+          couronnes, ô grisettes si fières du poète qui vous a chantées ; les souples lianes qui
+          attachent votre Homère à ses beaux peupliers de Touraine se rompront peut-être un jour à
+          la voix de nos sirènes.</p>
+        <p>Mais, en attendant ces chants harmonieux, la Lorette ne peut rester à l’abri de l’encens
+          des muses ; la cuisinière lui rirait au nez, car la cuisinière a eu son poème :</p>
+        <quote>
+          <pb n="125" xml:id="p125"/><l>Guernadier, que tu m’affliges</l>
+          <l>En m’apprenant ton départ !…</l>
+        </quote>
+        <p>est une ode qui transmet aux siècles à venir la sensibilité exquise et le dévouement
+          surhumain du cordon-bleu de notre époque.</p>
+        <p>La maréchaussée n’a-t-elle pas aussi son Odyssée ?</p>
+        <quote>
+          <l>Y avait une fois cinq, six gendarmes</l>
+          <l>Qu’avaient un bon rhume de cerveau…</l>
+        </quote>
+        <p>Ces chants si purs sont lancés par les brises occidentales jusqu’aux rivages où la
+          civilisation n’a pas encore apporté le jus de réglisse et la manière de s’en servir.</p>
+        <p>Jetons quelques jalons dans le champ poétique et gravons le nom de Lorette, afin qu’il
+          dise au poète touriste qu’il y a encore quelque chose ici-bas à immortaliser.</p>
+        <p>Les vers que nous présentons sont une ébauche qu’une jeune muse nous a confiée.</p>
+        <quote>
+          <l>Les vers sont enfants de la lyre ;</l>
+          <l>Il faut les chanter, non les lire.</l>
+        </quote>
+        <p>Pour chanter l’air, il faut que l’air existe. Nous appelons donc à notre secours
+          messieurs les compositeurs ; nous promettons pour prix à la plus <pb n="126" xml:id="p126"
+          />suave inspiration une <hi rend="i">musette</hi> en fer creux…</p>
+        <p>Une Lorette émérite qui a fait des éducations en Russie, couronnera le vainqueur quel que
+          soit son sexe.</p>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img065.jpg"/>
+        </figure>
+        <p>Voici le thème à poétiser, le canevas à broder de notes légères :</p>
+        <label>air a faire.</label>
+        <quote>
+          <l>Excellents cœurs, mauvaises têtes,</l>
+          <l>Sans raison comme sans chagrin,</l>
+          <pb n="127" xml:id="p127"/><l>Du matin jusqu’au soir en fêtes,</l>
+          <l>En noce du soir au matin ;</l>
+          <l>Voilà les Lolo, les Lolo, les Lolo,</l>
+          <l>Les Lorettes.</l>
+          <l>Vivent les Lorettes !</l>
+          <l>Quelles femmes, parfois discrètes,</l>
+          <l>Afin d’alléger leurs trousseaux,</l>
+          <l>Portent, dans les jours de disettes,</l>
+          <l>Leurs burnous ru’ des Blancs-Manteaux ?</l>
+          <l>Ce sont les Lolo, les Lolo, les Lolo,</l>
+          <l>Les Lorettes.</l>
+          <l>Vivent les Lorettes !</l>
+          <l>Qui les premières donnent aux quêtes</l>
+          <l>L’exemple de la charité ?</l>
+          <l>Quel’s sont les danseus’s toujours prêtes</l>
+          <l>A sauter par humanité ?</l>
+          <l>Ce sont les Lolo, les Lolo, les Lolo,</l>
+          <l>Les Lorettes.</l>
+          <l>Vivent les Lorettes !</l>
+          <l>L’auteur de cette chansonnette</l>
+          <l>N’est pas un enfant d’Apollon ;</l>
+          <l>C’n’est pas Béranger le poète,</l>
+          <l>C’n’est pas ce farceur de Piron :</l>
+          <l>C’est un’ Lolo, bien Lolo, très-Lolo.</l>
+          <l>Une Lorette.</l>
+          <l>Vive la Lorette !</l>
+        </quote>
+        <figure>
+          <graphic url="alhoy_physiologie-de-la-lorette_1841_img066.jpg"/>
+        </figure>
+      </div>
+    </body>
+  </text>
+</TEI>
