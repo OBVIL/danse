@@ -27,17 +27,19 @@
         <idno>http:/obvil.sorbonne-universite.fr/corpus/danse/ehrhard_fanny-elssler_1909</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
             <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
               les bases de données (L341-1) est mise à disposition de la communauté scientifique
-              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
-              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
-              (CCBY-NC-ND 3.0 FR) ».</p>
-            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
               de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
               Internet de la ressource.</p>
-            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
               utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
               électronique, notamment en intégrant toutes les contributions extérieures, la
               diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
@@ -346,11 +348,12 @@
           qu’elle-même aurait vécu dans l’opulence. En voici la raison : Thérèse Prinster était
           morte en 1832, avant que sa fille fût devenue la danseuse universellement applaudie.</p>
         <p>Louis Speidel, qui détruit la légende de la hotte, en accepte une autre. <quote>« C’est
-            un fait connu<seg type="exquote">, dit-il,</seg> qu’Haydn, cet aïeul de la valse viennoise, fut le parrain de la
-            petite Fanny et qu’il glissa une pièce d’or dans ses langes. »</quote> Le trait serait
-          joli ; on <pb n="17" xml:id="p17"/>voudrait qu’il fût vrai. Mais que l’on se donne la
-          peine de consulter les dates. Haydn, mort le 31 mai 1809, ne put assister que du haut du
-          ciel, sa dernière demeure, au baptême de Fanny, née le 23 juin 1810.</p>
+            un fait connu<seg type="exquote">, dit-il,</seg> qu’Haydn, cet aïeul de la valse
+            viennoise, fut le parrain de la petite Fanny et qu’il glissa une pièce d’or dans ses
+            langes. »</quote> Le trait serait joli ; on <pb n="17" xml:id="p17"/>voudrait qu’il fût
+          vrai. Mais que l’on se donne la peine de consulter les dates. Haydn, mort le 31 mai 1809,
+          ne put assister que du haut du ciel, sa dernière demeure, au baptême de Fanny, née le
+          23 juin 1810.</p>
         <p>Enfin la légende a voulu que la plus célèbre des danseuses autrichiennes eût débuté dans
           le fameux corps de ballet où s’étaient formées la plupart de ses camarades et rivales,
           dans la troupe de Horchelt. Fanny Elssler a protesté plus d’une fois elle-même contre
@@ -602,9 +605,9 @@
             surpassée en ce qui concerne la grâce de la danse proprement dite, elle reste loin de
             Fanny Elssler pour ce qui est de la vérité de la pantomime. Dans le ballet de <hi
               rend="i">Barbe-Bleue</hi>, celle-ci a déployé ce qu’on appelle « la grâce dans le
-            terrible » à un degré où n’atteint pas facilement une tragédienne<note place="bottom"><hi
-                rend="sc">Wolfgang Menzel</hi>, <hi rend="i">Reise nach Œsterreich im Sommer</hi>
-              1831, Stuttgart und Tübingen, 1832, p. 268.</note>. »</quote></p>
+            terrible » à un degré où n’atteint pas facilement une tragédienne<note place="bottom"
+                ><hi rend="sc">Wolfgang Menzel</hi>, <hi rend="i">Reise nach Œsterreich im
+                Sommer</hi> 1831, Stuttgart und Tübingen, 1832, p. 268.</note>. »</quote></p>
         <p>Malgré des mérites éclatants, reconnus par quelques bons juges, la situation de Fanny à
           Vienne restait médiocre. Un Français, qui suivit, en 1831, les représentations du
           Kærnthner-Thor, Alphonse Royer, le futur directeur de l’Opéra, va jusqu’à dire qu’elle
@@ -1002,12 +1005,12 @@
           suivante, Gentz continue sa confidence le plus naturellement du monde et, maintenant, il
           ne dissimule plus la force de sa passion.</p>
         <quote>
-          <p>« J’ai déjeuné tendrement<seg type="exquote">, écrit-il à la comtesse le 23 juin 1830,</seg> avec une personne
-            qui a vingt ans aujourd’hui même et qui, sans effort, sans presque le vouloir, m’a
-            emprisonné dans un véritable réseau magique. Venez ce soir au ballet et vous verrez
-            combien elle est belle ! Cependant sa beauté ne suffit pas pour expliquer l’incendie
-            qu’elle a allumé en moi. Il faut qu’il y ait là-dessous un autre mystère. Il se passe
-            des choses surnaturelles. »</p>
+          <p>« J’ai déjeuné tendrement<seg type="exquote">, écrit-il à la comtesse le
+              23 juin 1830,</seg> avec une personne qui a vingt ans aujourd’hui même et qui, sans
+            effort, sans presque le vouloir, m’a emprisonné dans un véritable réseau magique. Venez
+            ce soir au ballet et vous verrez combien elle est belle ! Cependant sa beauté ne suffit
+            pas pour expliquer l’incendie qu’elle a allumé en moi. Il faut qu’il y ait là-dessous un
+            autre mystère. Il se passe des choses surnaturelles. »</p>
         </quote>
         <p>La veille de l’anniversaire de la naissance de Fanny, Gentz avait passé une partie de la
           journée avec elle. Depuis cinq semaines il la voyait tous les jours. Il lui avait promis
@@ -1283,26 +1286,26 @@
           passion qu’il exprime, et en même temps la sûreté avec laquelle il la dissèque. Rahel
           admirera sa précision d’anatomiste.</p>
         <quote>
-          <p>« Oui, ma chère amie<seg type="exquote">, écrit-il de Presbourg le 18 octobre 1830,</seg> il faut que je vous en
-            fasse l’aveu : toutes les passions qui ont jamais bouillonné dans ma poitrine (et depuis
-            vingt ans, je m’en croyais délivré à tout jamais) n’ont été que jeux d’enfants,
-            comparées à celle que cette jeune fille a fait brûler en moi… Maintenant que vous avez
-            constaté quelques-uns de ses charmes, cela vous semblera naturel et croyable, si je vous
-            dis que Fanny n’aurait eu qu’à faire un signe pour voir à ses pieds dix amants plutôt
-            qu’un, et des plus séduisants, des plus puissants. Elle les a dédaignés tous, et c’est
-            moi qu’elle a choisi. Je n’avais à lui offrir ni jeunesse, ni beauté, ni richesse, rien
-            de ce qui pouvait captiver une jeune fille et, qui plus est, une personne appartenant au
-            théâtre. Les plus <pb n="69" xml:id="p69"/>éclairés parmi les hommes ordinaires pensent
-            et disent (car ma liaison avec elle est le sujet d’innombrables conversations dans la
-            société d’ici où ma présence est bien vue) que j’ai fait sa conquête uniquement par ce
-            qu’on appelle mon éloquence. Cela serait déjà bien assez curieux ; mais il s’en faut de
-            beaucoup que ce soit la bonne explication. C’est uniquement par la puissance magique de
-            mon amour que je l’ai conquise. Lorsqu’elle a fait ma connaissance, elle ne savait pas,
-            elle ne soupçonnait pas qu’il y eût un pareil amour, et cent fois elle m’a avoué que par
-            la manière dont dès le premier moment je me suis comporté avec elle et, dans la suite,
-            par la révélation d’un amour ni fréquent, ni vulgaire, qu’elle n’aurait jamais cru
-            possible, je lui avais ouvert un monde nouveau. Ici et pas ailleurs est la clef de tout
-            le mystère.</p>
+          <p>« Oui, ma chère amie<seg type="exquote">, écrit-il de Presbourg le
+              18 octobre 1830,</seg> il faut que je vous en fasse l’aveu : toutes les passions qui
+            ont jamais bouillonné dans ma poitrine (et depuis vingt ans, je m’en croyais délivré à
+            tout jamais) n’ont été que jeux d’enfants, comparées à celle que cette jeune fille a
+            fait brûler en moi… Maintenant que vous avez constaté quelques-uns de ses charmes, cela
+            vous semblera naturel et croyable, si je vous dis que Fanny n’aurait eu qu’à faire un
+            signe pour voir à ses pieds dix amants plutôt qu’un, et des plus séduisants, des plus
+            puissants. Elle les a dédaignés tous, et c’est moi qu’elle a choisi. Je n’avais à lui
+            offrir ni jeunesse, ni beauté, ni richesse, rien de ce qui pouvait captiver une jeune
+            fille et, qui plus est, une personne appartenant au théâtre. Les plus <pb n="69"
+              xml:id="p69"/>éclairés parmi les hommes ordinaires pensent et disent (car ma liaison
+            avec elle est le sujet d’innombrables conversations dans la société d’ici où ma présence
+            est bien vue) que j’ai fait sa conquête uniquement par ce qu’on appelle mon éloquence.
+            Cela serait déjà bien assez curieux ; mais il s’en faut de beaucoup que ce soit la bonne
+            explication. C’est uniquement par la puissance magique de mon amour que je l’ai
+            conquise. Lorsqu’elle a fait ma connaissance, elle ne savait pas, elle ne soupçonnait
+            pas qu’il y eût un pareil amour, et cent fois elle m’a avoué que par la manière dont dès
+            le premier moment je me suis comporté avec elle et, dans la suite, par la révélation
+            d’un amour ni fréquent, ni vulgaire, qu’elle n’aurait jamais cru possible, je lui avais
+            ouvert un monde nouveau. Ici et pas ailleurs est la clef de tout le mystère.</p>
           <p>« Il va de soi que je n’ai jamais eu la folle prétention de m’attendre à ce qu’elle
             m’aimât en retour, dans l’étroite acception du mot ; je ne m’imaginais point (car ma
             raison ne m’abandonne pas, même au milieu de la passion la plus violente) qu’elle pût
@@ -1425,10 +1428,10 @@
           plaisirs violents. <quote>« Hier soir, écrit-il un autre jour à la même, j’étais à
             demi-mort. Des ventouses le matin, au déjeuner un tête-à-tête et un entretien
             mélancolique avec Prokesch, et enfin le soir un autre tête-à-tête dont je dirais
-            volontiers avec Gœthe : <quote>« Plutôt me débattre à travers les souffrances que de porter tant
-            de joies de la vie »</quote>, tout cela m’avait tellement fatigué qu’à dix heures je tombai comme
-            une masse dans mon lit et que ce matin à quatre heures je me suis réveillé comme
-            quelqu’un qui se serait grisé la veille. »</quote></p>
+            volontiers avec Gœthe : <quote>« Plutôt me débattre à travers les souffrances que de
+              porter tant de joies de la vie »</quote>, tout cela m’avait tellement fatigué qu’à dix
+            heures je tombai comme une masse dans mon lit et que ce matin à quatre heures je me suis
+            réveillé comme quelqu’un qui se serait grisé la veille. »</quote></p>
         <p>Dans les lettres à Rahel une note de plus en plus sombre succède aux accents triomphants
           des mois précédents. Le 21 janvier 1831, Gentz la prie de lui pardonner son long silence :
           il a le moral malade. Les événements publics marchent contre son gré ; les idées qu’il a
@@ -3206,21 +3209,22 @@
           célébra dans le succès de la <hi rend="i">Sylphide</hi> la victoire, au sanctuaire de la
           danse française, de la forme d’art qui lui était chère :</p>
         <quote>
-          <p>« Ce ballet<seg type="exquote">, dit-il,</seg> commença pour la chorégraphie une ère toute nouvelle et ce fut par
-            lui que le romantisme s’introduisit dans le domaine de Terpsichore. A dater de la <hi
-              rend="i">Sylphide</hi>, les <hi rend="i">Filets de Vulcain, Flore et Zéphire</hi> ne
-            furent plus possibles : l’Opéra fut livré aux gnomes, aux ondins, aux salamandres, aux
-            elfes, aux nixes, aux willis, aux péris et à tout ce peuple étrange et mystérieux qui se
-            prête si merveilleusement aux fantaisies du maître de ballet. Les douze maisons de
-            marbre et d’or des Olympies furent reléguées dans la poussière des magasins, et l’on ne
-            commanda plus aux décorateurs que des forêts romantiques, que des vallées éclairées par
-            le joli clair de lune allemand des ballades de Henri Heine. Les maillots roses restèrent
-            toujours roses, car, sans maillot, point de chorégraphie ; seulement on changea le
-            cothurne grec contre le chausson de satin. Ce nouveau genre amena un grand abus de gaze
-            blanche, de tulle et de tarlatane ; les <hi rend="i">ombres</hi> se vaporisèrent <pb
-              n="171" xml:id="p171"/>au moyen de jupes transparentes. Le blanc fut presque la seule
-            couleur adoptée<note place="bottom">Th. <hi rend="sc">Gautier</hi>, <hi rend="i"
-                >Histoire de l’Art dramatique</hi>, t. III, p. 225.</note>. »</p>
+          <p>« Ce ballet<seg type="exquote">, dit-il,</seg> commença pour la chorégraphie une ère
+            toute nouvelle et ce fut par lui que le romantisme s’introduisit dans le domaine de
+            Terpsichore. A dater de la <hi rend="i">Sylphide</hi>, les <hi rend="i">Filets de
+              Vulcain, Flore et Zéphire</hi> ne furent plus possibles : l’Opéra fut livré aux
+            gnomes, aux ondins, aux salamandres, aux elfes, aux nixes, aux willis, aux péris et à
+            tout ce peuple étrange et mystérieux qui se prête si merveilleusement aux fantaisies du
+            maître de ballet. Les douze maisons de marbre et d’or des Olympies furent reléguées dans
+            la poussière des magasins, et l’on ne commanda plus aux décorateurs que des forêts
+            romantiques, que des vallées éclairées par le joli clair de lune allemand des ballades
+            de Henri Heine. Les maillots roses restèrent toujours roses, car, sans maillot, point de
+            chorégraphie ; seulement on changea le cothurne grec contre le chausson de satin. Ce
+            nouveau genre amena un grand abus de gaze blanche, de tulle et de tarlatane ; les <hi
+              rend="i">ombres</hi> se vaporisèrent <pb n="171" xml:id="p171"/>au moyen de jupes
+            transparentes. Le blanc fut presque la seule couleur adoptée<note place="bottom">Th. <hi
+                rend="sc">Gautier</hi>, <hi rend="i">Histoire de l’Art dramatique</hi>, t. III,
+              p. 225.</note>. »</p>
         </quote>
         <p>A la nombreuse lignée des œuvres que suscita la <hi rend="i">Sylphide</hi>, appartient un
           ballet de Théophile Gautier lui-même. C’est <hi rend="i">Giselle ou les Willis</hi>,
@@ -3303,7 +3307,7 @@
           <l>Rossini, dessinant tes pas,</l>
           <l>T’inonda de notes légères,</l>
           <l>Toi que l’oiseau ne suivrait pas !<note place="bottom"><hi rend="i">Guillaume
-                Tell</hi>.</note></l>
+              Tell</hi>.</note></l>
           <l>Meyerbeer, sévère génie,</l>
           <l>Pour toi fit jaillir l’harmonie</l>
           <l>Du marbre glacé des tombeaux<note place="bottom"><hi rend="i">Robert le
@@ -4010,18 +4014,19 @@
           se tire d’affaire en exprimant, avec des formules vagues, un enthousiasme qui n’a d’égal
           que son ignorance.</p>
         <quote>
-          <p>« Nous l’avons donc vue à la fin<seg type="exquote">, dit-il,</seg> tel qu’il (le duc de Reichstadt) l’a vue
-            lui-même. Permettez-moi de ne plus vous parler du ballet nouveau. Fanny Elssler, c’est
-            tout le ballet nouveau, <pb n="209" xml:id="p209"/>elle-même et toute seule. Quand je
-            vous dirai qu’elle paraît dans un palais de féerie tout brillant d’or, de cristal et de
-            pierreries, que vous importe ? Vous avez mieux qu’un palais d’or, mieux que le ballet le
-            plus ingénieux, le plus admirable : vous avez une grande et inimitable danseuse. Quelles
-            poses ! Est-elle en l’air ou bien se tient-elle sur un pied ? On l’ignore. Elle danse,
-            mais ce sont des pas si fins, c’est une danse si correcte, ce sont deux pieds si agiles,
-            qu’on se demande si en effet elle danse ou si elle est immobile. Fanny Elssler ne danse
-            pas, elle joue ; elle est belle, elle est grande, elle est bien faite ; on la prendrait
-            pour une duchesse au bon temps des duchesses. C’est une danseuse toute nouvelle et qui
-            ne ressemble en rien à Mlle Taglioni ; heureusement pour toutes deux ! »</p>
+          <p>« Nous l’avons donc vue à la fin<seg type="exquote">, dit-il,</seg> tel qu’il (le duc
+            de Reichstadt) l’a vue lui-même. Permettez-moi de ne plus vous parler du ballet nouveau.
+            Fanny Elssler, c’est tout le ballet nouveau, <pb n="209" xml:id="p209"/>elle-même et
+            toute seule. Quand je vous dirai qu’elle paraît dans un palais de féerie tout brillant
+            d’or, de cristal et de pierreries, que vous importe ? Vous avez mieux qu’un palais d’or,
+            mieux que le ballet le plus ingénieux, le plus admirable : vous avez une grande et
+            inimitable danseuse. Quelles poses ! Est-elle en l’air ou bien se tient-elle sur un
+            pied ? On l’ignore. Elle danse, mais ce sont des pas si fins, c’est une danse si
+            correcte, ce sont deux pieds si agiles, qu’on se demande si en effet elle danse ou si
+            elle est immobile. Fanny Elssler ne danse pas, elle joue ; elle est belle, elle est
+            grande, elle est bien faite ; on la prendrait pour une duchesse au bon temps des
+            duchesses. C’est une danseuse toute nouvelle et qui ne ressemble en rien à Mlle
+            Taglioni ; heureusement pour toutes deux ! »</p>
         </quote>
         <p>Ce verbiage et ces oripeaux irritèrent la <hi rend="i">Gazette des Théâtres</hi>. Elle
           avait trouvé particulièrement choquant que l’on eût exploité, pour préparer le succès de
@@ -4109,15 +4114,14 @@
         <p><pb n="214" xml:id="p214"/>Le grand public fut invité à se prononcer sur les mérites des
           deux rivales. Véron les fit paraître toutes deux le même soir, un dimanche, Marie Taglioni
           dans le <hi rend="i">Dieu et la Bayadère</hi>, Fanny Elssler dans la <hi rend="i"
-            >Tempête</hi>.
-          <quote>« Nous saurons ce soir, dit le <hi rend="i">Courrier des Théâtres</hi> du
-            7 décembre, si le faubourg Saint-Denis est taglioniste et le faubourg Saint-Martin
-            elsslériste, ou bien si tous deux sont l’un et l’autre, ce dont on les dit véhémentement
-            soupçonnés. »</quote> Le lendemain, le même journal donnait ainsi le résultat de la
-          comparaison : <quote>« Les assistants se sont partagés entre les deux virtuoses ; ils nous
-            ont montré ce qu’on devrait toujours faire en pareil cas ; ils ont joui du talent de
-            l’une et de l’autre. »</quote> Excellent exemple et sage conseil, mais que Charles
-          Maurice tout le premier s’empressa de ne pas suivre.</p>
+            >Tempête</hi>. <quote>« Nous saurons ce soir, dit le <hi rend="i">Courrier des
+              Théâtres</hi> du 7 décembre, si le faubourg Saint-Denis est taglioniste et le faubourg
+            Saint-Martin elsslériste, ou bien si tous deux sont l’un et l’autre, ce dont on les dit
+            véhémentement soupçonnés. »</quote> Le lendemain, le même journal donnait ainsi le
+          résultat de la comparaison : <quote>« Les assistants se sont partagés entre les deux
+            virtuoses ; ils nous ont montré ce qu’on devrait toujours faire en pareil cas ; ils ont
+            joui du talent de l’une et de l’autre. »</quote> Excellent exemple et sage conseil, mais
+          que Charles Maurice tout le premier s’empressa de ne pas suivre.</p>
         <ab type="ornament">***</ab>
         <p>Il était prématuré de classer Fanny Elssler d’après l’unique épreuve de la <hi rend="i"
             >Tempête</hi>. Ce ballet lui donnait un rôle trop court pour qu’elle pût y développer
@@ -4792,13 +4796,13 @@
           qu’émit, dans la <hi rend="i">Gazette des Théâtres</hi>, son rédacteur en chef, J.
           Arago.</p>
         <quote>
-          <p>« C’est qu’en vérité<seg type="exquote">, écrivait-il,</seg> on ne doit être acteur de pareilles scènes que
-            lorsqu’on n’a ni os ni muscles, lorsqu’on peut se tordre comme un serpent ou se ployer
-            comme une feuille de <pb n="245" xml:id="p245"/>parchemin. Les castagnettes seules ne
-            font pas plus la cachucha qu’elles ne font le boléro. Ces danses espagnoles et
-            brésiliennes, confiées à des jambes et à des corps français, perdent de leur originalité
-            et de leur lascivité si piquantes et si suaves à la fois<note place="bottom"><hi
-                rend="i">Gazette des Théâtres</hi>, 6 juin 1836.</note>. »</p>
+          <p>« C’est qu’en vérité<seg type="exquote">, écrivait-il,</seg> on ne doit être acteur de
+            pareilles scènes que lorsqu’on n’a ni os ni muscles, lorsqu’on peut se tordre comme un
+            serpent ou se ployer comme une feuille de <pb n="245" xml:id="p245"/>parchemin. Les
+            castagnettes seules ne font pas plus la cachucha qu’elles ne font le boléro. Ces danses
+            espagnoles et brésiliennes, confiées à des jambes et à des corps français, perdent de
+            leur originalité et de leur lascivité si piquantes et si suaves à la fois<note
+              place="bottom"><hi rend="i">Gazette des Théâtres</hi>, 6 juin 1836.</note>. »</p>
         </quote>
         <p>Les ultras de la cachucha oubliaient que cette danse, avec sa véhémence originale,
           n’aurait pu pénétrer à l’Académie royale de Musique. <quote>« Si Mlle Elssler, disait
@@ -5408,7 +5412,7 @@
         </quote>
         <ab type="ornament">***</ab>
         <p>Le 30 août 1837 Fanny faisait sa rentrée à Paris dans le <hi rend="i">Diable
-            boiteux</hi>.</p>
+          boiteux</hi>.</p>
         <p>A ce moment lui arriva l’un des plus grands bonheurs de sa carrière théâtrale. Elle
           excita l’admiration d’un pur artiste, d’un prince des lettres, qui se constitua le héraut
           de sa beauté, le paladin de sa gloire. C’était Théophile Gautier.</p>
@@ -5521,23 +5525,24 @@
           modèles authentiques, venus de Canton. Plusieurs gazettes avaient publié l’écho
           suivant :</p>
         <quote>
-          <p>« Mlle Fanny Elssler avait<seg type="exquote">, dit-on,</seg> jusqu’à ce jour une répugnance invincible contre ou
-            pour les chats. Nous avons chacun<seg type="exquote">, dit-on,</seg> notre bête noire ; eh bien ! la bête noire de
-            Mlle Elssler, c’était un chat, même une chatte blanche. La vue d’un chat la faisait
-            frémir, le miaulement d’un chat la faisait fuir bien loin sur la pointe des pieds. Mais
-            l’amour de l’art est comme tous les amours : il sait triompher de toutes les craintes ;
-            il sait vaincre les répugnances les plus sincères ; et, par dévouement, pour donner plus
-            de vérité à son jeu, Mlle Elssler a eu le courage d’élever une petite chatte blanche qui
-            ne la quitte jamais. L’animal perfide est là, toujours là ; et sa belle ennemie,
-            oubliant sa haine, lui demande des inspirations, étudie ses poses gracieuses, ses
-            mouvements légers, sa démarche ondoyante, et jusqu’à ses regards immobiles et défiants :
-            parfois elle frissonne encore, si par hasard sa main rencontre sa blanche fourrure
-            d’hermine ; femme, elle se souvient de ses frayeurs d’enfant, et sa répugnance vaincue
-            se réveille encore un moment ; mais, artiste, elle se rappelle son rôle, elle rougit de
-            sa faiblesse, elle attire vers elle la jolie chatte blanche, et elle la caresse
-            bravement. <pb n="284" xml:id="p284"/>L’animal détesté disparaît à ses yeux, elle ne
-            voit plus que son modèle ; elle songe au succès qu’elle lui devra ; elle entend le
-            public l’applaudir, elle pense qu’un si grand effort lui sera compté. »</p>
+          <p>« Mlle Fanny Elssler avait<seg type="exquote">, dit-on,</seg> jusqu’à ce jour une
+            répugnance invincible contre ou pour les chats. Nous avons chacun<seg type="exquote">,
+              dit-on,</seg> notre bête noire ; eh bien ! la bête noire de Mlle Elssler, c’était un
+            chat, même une chatte blanche. La vue d’un chat la faisait frémir, le miaulement d’un
+            chat la faisait fuir bien loin sur la pointe des pieds. Mais l’amour de l’art est comme
+            tous les amours : il sait triompher de toutes les craintes ; il sait vaincre les
+            répugnances les plus sincères ; et, par dévouement, pour donner plus de vérité à son
+            jeu, Mlle Elssler a eu le courage d’élever une petite chatte blanche qui ne la quitte
+            jamais. L’animal perfide est là, toujours là ; et sa belle ennemie, oubliant sa haine,
+            lui demande des inspirations, étudie ses poses gracieuses, ses mouvements légers, sa
+            démarche ondoyante, et jusqu’à ses regards immobiles et défiants : parfois elle
+            frissonne encore, si par hasard sa main rencontre sa blanche fourrure d’hermine ; femme,
+            elle se souvient de ses frayeurs d’enfant, et sa répugnance vaincue se réveille encore
+            un moment ; mais, artiste, elle se rappelle son rôle, elle rougit de sa faiblesse, elle
+            attire vers elle la jolie chatte blanche, et elle la caresse bravement. <pb n="284"
+              xml:id="p284"/>L’animal détesté disparaît à ses yeux, elle ne voit plus que son
+            modèle ; elle songe au succès qu’elle lui devra ; elle entend le public l’applaudir,
+            elle pense qu’un si grand effort lui sera compté. »</p>
         </quote>
         <p>Le ballet ne valait pas cher. Le vaudeville de Scribe avait été niaisement transformé. La
           musique de Montfort prouvait que les prix de Rome ne sont pas toujours des génies.
@@ -6025,12 +6030,11 @@
           du ballet avec autant de fougue que la cachucha et avec autant de pittoresque que la
           cracovienne de la <hi rend="i">Gypsi</hi>. La <hi rend="i">Gazette des Théâtres</hi> la
           félicita d’avoir retrouvé sa voie véritable, après l’erreur de la <hi rend="i"
-            >Sylphide</hi>.
-          <quote>« Il est une justice à rendre à Mlle Elssler, disait-elle, c’est que jamais
-            danseuse n’a mieux exprimé qu’elle la passion et ne l’a matérialisée avec plus
-            d’habileté. Si elle ressent tout ce qu’elle exprime, elle doit avoir une âme de feu.
-            Tour à tour vive, emportée, spirituelle, <pb n="310" xml:id="p310"/>Mlle Elssler rend
-            avec une vivacité désespérante cette danse lascive qui donne bien une idée de ces
+            >Sylphide</hi>. <quote>« Il est une justice à rendre à Mlle Elssler, disait-elle, c’est
+            que jamais danseuse n’a mieux exprimé qu’elle la passion et ne l’a matérialisée avec
+            plus d’habileté. Si elle ressent tout ce qu’elle exprime, elle doit avoir une âme de
+            feu. Tour à tour vive, emportée, spirituelle, <pb n="310" xml:id="p310"/>Mlle Elssler
+            rend avec une vivacité désespérante cette danse lascive qui donne bien une idée de ces
             caractères ardents que l’on trouve seulement sous le ciel brûlant de l’Espagne et de
             l’Italie. La belle et séduisante danseuse a compris qu’elle ne devait pas plus longtemps
             lutter avec les souvenirs de Taglioni ; elle s’est créé un genre en harmonie avec ses
@@ -7397,10 +7401,9 @@
           que Fanny Elssler, l’Autrichienne, s’aventurait. Ce n’était pas sans péril ; plus d’une
           fois elle s’en aperçut. Mais elle réussit, par la toute-puissance de son art et le charme
           de sa personne, à endormir les haines nationales, à faire oublier qu’elle était une <hi
-            rend="i">tedesca</hi>.
-          <pb n="385" xml:id="p385"/>Ce fut un de ses plus beaux triomphes. Elle nous apparaît comme
-          la belluaire qui, par la seule force du regard et du sourire, fait taire les rugissements
-          des lions.</p>
+            rend="i">tedesca</hi>. <pb n="385" xml:id="p385"/>Ce fut un de ses plus beaux triomphes.
+          Elle nous apparaît comme la belluaire qui, par la seule force du regard et du sourire,
+          fait taire les rugissements des lions.</p>
         <p>Venise supportait douloureusement la domination autrichienne. C’est là cependant que
           Fanny reçut en 1846 un hommage extraordinaire sous la forme d’un poème qui lui fut offert,
           en une plaquette de luxe, par un groupe d’admirateurs italiens. Le poème était de Giovanni
